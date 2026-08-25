@@ -2,7 +2,9 @@ name: Edge Engine slate
 
 on:
   schedule:
-    - cron: "0,30 11-23 * * *"
+    # once a day, 10:00 ET — free odds tier is 500 requests/month and
+    # mlb-picks shares it. 4 requests per run ≈ 120/month.
+    - cron: "0 14 * * *"
   workflow_dispatch: {}
 
 permissions:
