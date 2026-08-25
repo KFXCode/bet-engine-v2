@@ -40,10 +40,10 @@ HTTP_TIMEOUT = 20
 
 # league -> (odds-api key, espn path, days of results to fit on)
 LEAGUES = {
-    "NFL":   ("americanfootball_nfl",   "football/nfl",         260),
-    "NCAAF": ("americanfootball_ncaaf", "football/college-football", 200),
-    "NBA":   ("basketball_nba",         "basketball/nba",       220),
-    "NCAAB": ("basketball_ncaab",       "basketball/mens-college-basketball", 160),
+    "NFL":   ("americanfootball_nfl",   "football/nfl",         400),
+    "NCAAF": ("americanfootball_ncaaf", "football/college-football", 400),
+    "NBA":   ("basketball_nba",         "basketball/nba",       400),
+    "NCAAB": ("basketball_ncaab",       "basketball/mens-college-basketball", 400),
 }
 
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard"
