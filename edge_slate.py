@@ -2,23 +2,28 @@
 """
 edge_slate.py — publishes edge_slate.json for the Edge Engine board.
 
-It needs nothing from you: it computes its OWN team ratings from finished
-games, pulls today's FanDuel lines, and writes edge_slate.json. The board
-fetches that file and does the EV math.
+Drop this in the repo root of KFXCode/mlb-picks (next to run_daily.py) and add
+the workflow step in README-edge-engine.md. It needs nothing from you: it
+computes its OWN team ratings from finished games, pulls today's FanDuel lines,
+and writes edge_slate.json. The board fetches that file and does the EV math.
 
-  ratings      iterative adjusted margin (SRS-style): start from each team's
-               average margin with home-field removed, then repeat 25 times
-               rating_i = mean(own margin + opponent rating), re-centering to
-               mean 0. Strength of schedule falls out of it.
-  hfa          league average of (home score - away score).
-  sdMargin     RMSE of (rating gap + hfa) against actual margins.
-  projTotal    own points/game + opponent points allowed/game - league average,
-               both sides summed. sdTotal is that projection's RMSE.
+What it computes (all of it from data, none of it hand-entered):
+
+  ratings      iterative adjusted margin (SRS-style). Start from each team's
+               average margin with home-field removed, then repeat 25 times:
+                   rating_i = mean over games of (own margin + opponent rating)
+               and re-center to mean 0. Strength of schedule falls out of it.
+  hfa          league average of (home score - away score) this season.
+  sdMargin     root-mean-square error of (rating_home - rating_away + hfa)
+               against actual margins — the real spread of game results.
+  projTotal    expected points for each side = own points/game
+               + opponent points allowed/game - league average points/game,
+               summed. sdTotal is the RMSE of that against actual totals.
 
 Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
-outcome this model does not price. Half-point lines only.
+outcome and this model does not price it. Half-point lines only.
 
-Env: ODDS_API_KEY
+Env: ODDS_API_KEY (already a secret in this repo).
 """
 
 import json
@@ -34,8 +39,8 @@ OUT_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
 HTTP_TIMEOUT = 20
 
 # league -> (odds-api key, espn path, days of results to fit on)
-# 400 days so a league between seasons still fits on last season and can price
-# its opening week. Anything shorter goes blank in the offseason.
+# 400 days so a league that is between seasons still fits on last season and can
+# price its opening week. Anything shorter goes blank in the offseason.
 LEAGUES = {
     "NFL":   ("americanfootball_nfl",   "football/nfl",         400),
     "NCAAF": ("americanfootball_ncaaf", "football/college-football", 400),
@@ -89,7 +94,7 @@ def fit(games):
         return None
     hfa = sum(h - a for _, _, h, a in games) / len(games)
 
-    played = defaultdict(list)
+    played = defaultdict(list)          # team -> [(opponent, own margin, hfa-removed)]
     pts_for, pts_against, count = defaultdict(float), defaultdict(float), defaultdict(int)
     for home, away, hs, as_ in games:
         played[home].append((away, (hs - as_) - hfa))
@@ -151,7 +156,7 @@ def market(book, key):
     return {}
 
 
-# ------------------------------------------------------------------ build ----
+# ------------------------------------------------------------------- build ----
 def build(diag):
     out = []
     for league, (sport_key, espn_path, days) in LEAGUES.items():
