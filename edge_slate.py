@@ -2,26 +2,22 @@
 """
 edge_slate.py — publishes edge_slate.json for the Edge Engine board.
 
-It needs nothing from you: it computes its OWN team ratings from finished
-games, pulls today's FanDuel lines, and writes edge_slate.json. The board
-fetches that file and does the EV math.
+It computes its OWN team ratings from finished games, pulls FanDuel lines for
+the games starting soon, and writes edge_slate.json. The board does the EV math.
 
-  ratings      iterative adjusted margin (SRS-style), fit JOINTLY with home
-               field: given ratings, hfa is the part of the home margin the
-               ratings do not explain; given hfa, ratings are re-fit; repeat 40
-               times, re-centering to mean 0. Strength of schedule falls out of
-               it, and hfa is not inflated by strong teams hosting weak ones.
+  ratings      iterative adjusted margin, fit JOINTLY with home field, then
+               regressed toward average until the season has enough games.
   hfa          points of home advantage, from that joint fit.
-  sdMargin     RMSE of (rating gap + hfa) against actual margins.
+  sdMargin     RMSE of (rating gap + hfa) against actual margins, widened for
+               however much the ratings were regressed.
   projTotal    own points/game + opponent points allowed/game - league average,
                both sides summed. sdTotal is that projection's RMSE.
 
-Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
-outcome this model does not price. Half-point lines only.
+Whole-number spreads and totals are DROPPED: a push is a third outcome this
+model does not price. Half-point lines only.
 
-Env: ODDS_API_KEY, and optionally ODDS_API_KEY_BACKUP. Keys are tried in order
-and a key that reports out-of-credits is dropped for the rest of the run, so a
-spent key falls through to the next one without losing a market.
+Env: ODDS_API_KEY, optional ODDS_API_KEY_BACKUP (tried in order; a key that is
+out of credits is skipped), optional EDGE_DAYS_AHEAD (default 7).
 """
 
 import json
@@ -40,9 +36,18 @@ OUT_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
 HTTP_TIMEOUT = 20
 EXHAUSTED = set()      # keys that reported out-of-credits during this run
 
+# Only price games starting inside this many days. Books post Christmas and
+# October lines in August; those are not today's card.
+DAYS_AHEAD = int(os.environ.get("EDGE_DAYS_AHEAD", "7"))
+
+# Preseason regression. Last season's rating is not this season's team — rosters
+# turn over, and an un-regressed rating invents edges that are not there. Shrink
+# every rating toward 0 (average), easing the shrink off as this season's games
+# accumulate; a league with GAMES_TO_TRUST games per team is trusted in full.
+GAMES_TO_TRUST = {"NFL": 8, "NCAAF": 6, "NBA": 20, "NCAAB": 15}
+MAX_SHRINK = 0.35      # with no games played, keep 65% of last season's rating
+
 # league -> (odds-api key, espn path, days of results to fit on)
-# 400 days so a league between seasons still fits on last season and can price
-# its opening week. Anything shorter goes blank in the offseason.
 LEAGUES = {
     "NFL":   ("americanfootball_nfl",   "football/nfl",         400),
     "NCAAF": ("americanfootball_ncaaf", "football/college-football", 400),
@@ -56,7 +61,7 @@ ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 
 # ---------------------------------------------------------------- results ----
 def finished_games(espn_path, days):
-    """[(home, away, home_score, away_score)] for completed games."""
+    """[(home, away, home_score, away_score, date)] for completed games."""
     out, today = [], date.today()
     for i in range(days):
         d = today - timedelta(days=i + 1)
@@ -85,9 +90,25 @@ def finished_games(espn_path, days):
                 else:
                     away = (name, score)
             if home and away:
-                out.append((home[0], away[0], home[1], away[1]))
+                out.append((home[0], away[0], home[1], away[1], d))
         time.sleep(0.05)
     return out
+
+
+def season_split(results):
+    """(games this season, games per team this season). The current season is the
+    latest run of dates with no gap longer than 45 days."""
+    if not results:
+        return [], 0.0
+    days = sorted({g[4] for g in results})
+    start = days[-1]
+    for earlier, later in zip(days[-2::-1], days[:0:-1]):
+        if (later - earlier).days > 45:
+            break
+        start = earlier
+    current = [g for g in results if g[4] >= start]
+    teams = {t for g in current for t in (g[0], g[1])}
+    return current, (2.0 * len(current) / len(teams)) if teams else 0.0
 
 
 def fit(games):
@@ -102,11 +123,11 @@ def fit(games):
     if len(games) < 30:
         return None
 
-    hfa = sum(h - a for _, _, h, a in games) / len(games)   # starting guess
+    hfa = sum(h - a for _, _, h, a, _ in games) / len(games)   # starting guess
 
     opponents = defaultdict(list)       # team -> [(opponent, own raw margin, is_home)]
     pts_for, pts_against, count = defaultdict(float), defaultdict(float), defaultdict(int)
-    for home, away, hs, as_ in games:
+    for home, away, hs, as_, _ in games:
         opponents[home].append((away, hs - as_, True))
         opponents[away].append((home, as_ - hs, False))
         pts_for[home] += hs; pts_against[home] += as_; count[home] += 1
@@ -123,7 +144,7 @@ def fit(games):
         rating = {t: v - mean for t, v in nxt.items()}
         # whatever the ratings cannot explain about playing at home IS home field
         hfa = sum((hs - as_) - (rating.get(h, 0.0) - rating.get(a, 0.0))
-                  for h, a, hs, as_ in games) / len(games)
+                  for h, a, hs, as_, _ in games) / len(games)
 
     lg_ppg = sum(pts_for.values()) / sum(count.values())
     off = {t: pts_for[t] / count[t] for t in count}
@@ -136,9 +157,9 @@ def fit(games):
 
     n = len(games)
     sd_margin = (sum(((hs - as_) - (rating.get(h, 0) - rating.get(a, 0) + hfa)) ** 2
-                     for h, a, hs, as_ in games) / n) ** 0.5
+                     for h, a, hs, as_, _ in games) / n) ** 0.5
     sd_total = (sum(((hs + as_) - proj_total(h, a)) ** 2
-                    for h, a, hs, as_ in games) / n) ** 0.5
+                    for h, a, hs, as_, _ in games) / n) ** 0.5
     return {"rating": rating, "hfa": hfa, "sd_margin": sd_margin,
             "sd_total": sd_total, "proj_total": proj_total, "games": n}
 
@@ -191,6 +212,8 @@ def market(book, key):
 # ------------------------------------------------------------------ build ----
 def build(diag):
     out = []
+    now = datetime.now(timezone.utc)
+    cutoff = now + timedelta(days=DAYS_AHEAD)
     for league, (sport_key, espn_path, days) in LEAGUES.items():
         print(f"{league}: fitting ratings…")
         results = finished_games(espn_path, days)
@@ -201,34 +224,49 @@ def build(diag):
             print("  " + msg)
             diag.append(msg)
             continue
-        diag.append(f"{league}: fit on {model['games']} games, hfa "
-                    f"{model['hfa']:.2f}, sd margin {model['sd_margin']:.2f}")
-        print(f"  {model['games']} games · hfa {model['hfa']:.2f} · "
-              f"sd margin {model['sd_margin']:.2f} · sd total {model['sd_total']:.2f}")
 
-        no_rating = no_h2h = 0
+        # regress toward average until this season has enough games to trust
+        _, per_team = season_split(results)
+        trust = min(1.0, per_team / GAMES_TO_TRUST.get(league, 10))
+        keep = 1.0 - MAX_SHRINK * (1.0 - trust)
+        rating = {t: v * keep for t, v in model["rating"].items()}
+        # shrinking the ratings widens the honest error band by the same token
+        sd_margin = (model["sd_margin"] ** 2 + ((1 - keep) * model["sd_margin"]) ** 2) ** 0.5
+        diag.append(f"{league}: fit on {model['games']} games, hfa "
+                    f"{model['hfa']:.2f}, sd margin {sd_margin:.2f}, "
+                    f"{per_team:.1f} games played this season — keeping "
+                    f"{keep * 100:.0f}% of last season's ratings")
+
+        no_rating = no_h2h = too_far = 0
         for ev in fanduel_lines(sport_key, diag):
             home, away = ev.get("home_team"), ev.get("away_team")
             books = ev.get("bookmakers") or []
             if not (home and away and books):
+                continue
+            start = ev.get("commence_time") or ""
+            try:
+                when = datetime.fromisoformat(start.replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if not (now - timedelta(hours=6) <= when <= cutoff):
+                too_far += 1
                 continue
             fd = books[0]
             h2h, spreads, totals = market(fd, "h2h"), market(fd, "spreads"), market(fd, "totals")
             if home not in h2h or away not in h2h:
                 no_h2h += 1
                 continue
-            if home not in model["rating"] or away not in model["rating"]:
+            if home not in rating or away not in rating:
                 no_rating += 1
-                print(f"  no rating for {away} @ {home} — skipped")
                 continue
 
             g = {
                 "sport": league, "home": home, "away": away,
                 "time": ev.get("commence_time"),
-                "homeRtg": round(model["rating"].get(home, 0.0), 3),
-                "awayRtg": round(model["rating"].get(away, 0.0), 3),
+                "homeRtg": round(rating[home], 3),
+                "awayRtg": round(rating[away], 3),
                 "hfa": round(model["hfa"], 3),
-                "sdMargin": round(model["sd_margin"], 3),
+                "sdMargin": round(sd_margin, 3),
                 "sdTotal": round(model["sd_total"], 3),
                 "projTotal": round(model["proj_total"](home, away), 2),
                 "mlHome": h2h[home].get("price"), "mlAway": h2h[away].get("price"),
@@ -248,8 +286,9 @@ def build(diag):
 
             out.append(g)
         priced = sum(1 for x in out if x["sport"] == league)
-        diag.append(f"{league}: {priced} priced, {no_rating} dropped for a "
-                    f"missing rating, {no_h2h} with no FanDuel moneyline")
+        diag.append(f"{league}: {priced} priced, {too_far} outside the "
+                    f"{DAYS_AHEAD}-day window, {no_rating} with no rating, "
+                    f"{no_h2h} with no FanDuel moneyline")
         print(f"  {priced} games priced")
     return out
 
@@ -259,8 +298,10 @@ def main():
     games = build(diag)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "model": "adjusted-margin ratings fit on finished games; normal margin "
-                 "and total distributions; half-point lines only",
+        "model": "adjusted-margin ratings fit jointly with home field, regressed "
+                 "toward average until the season has enough games; normal "
+                 "margin and total distributions; half-point lines only; games "
+                 f"starting within {DAYS_AHEAD} days",
         "diagnostics": diag,
         "games": games,
     }
