@@ -19,7 +19,9 @@ fetches that file and does the EV math.
 Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
 outcome this model does not price. Half-point lines only.
 
-Env: ODDS_API_KEY
+Env: ODDS_API_KEY, and optionally ODDS_API_KEY_BACKUP. Keys are tried in order
+and a key that reports out-of-credits is dropped for the rest of the run, so a
+spent key falls through to the next one without losing a market.
 """
 
 import json
@@ -30,9 +32,13 @@ from datetime import date, datetime, timedelta, timezone
 
 import requests
 
-ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+ODDS_API_KEYS = [k.strip() for k in (
+    os.environ.get("ODDS_API_KEY", "") + "," +
+    os.environ.get("ODDS_API_KEY_BACKUP", "")
+).split(",") if k.strip()]
 OUT_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
 HTTP_TIMEOUT = 20
+EXHAUSTED = set()      # keys that reported out-of-credits during this run
 
 # league -> (odds-api key, espn path, days of results to fit on)
 # 400 days so a league between seasons still fits on last season and can price
@@ -139,20 +145,36 @@ def fit(games):
 
 # ------------------------------------------------------------------- odds ----
 def fanduel_lines(sport_key, diag):
-    if not ODDS_API_KEY:
-        diag.append("ODDS_API_KEY is empty — no odds were requested at all")
+    """Try each key in turn; a key that is out of credits is skipped from then on."""
+    if not ODDS_API_KEYS:
+        diag.append("no odds api key set — no lines were requested")
         return []
-    r = requests.get(ODDS.format(key=sport_key), timeout=HTTP_TIMEOUT, params={
-        "apiKey": ODDS_API_KEY, "regions": "us", "oddsFormat": "american",
-        "markets": "h2h,spreads,totals", "bookmakers": "fanduel"})
-    if r.status_code != 200:
-        msg = f"odds api {sport_key}: HTTP {r.status_code} {r.text[:160]}"
-        print("  " + msg)
-        diag.append(msg)
+    for i, key in enumerate(ODDS_API_KEYS):
+        if key in EXHAUSTED:
+            continue
+        label = "primary" if i == 0 else f"backup {i}"
+        try:
+            r = requests.get(ODDS.format(key=sport_key), timeout=HTTP_TIMEOUT, params={
+                "apiKey": key, "regions": "us", "oddsFormat": "american",
+                "markets": "h2h,spreads,totals", "bookmakers": "fanduel"})
+        except Exception as e:
+            diag.append(f"{sport_key}: {label} key request failed — {e}")
+            continue
+        if r.status_code == 200:
+            events = r.json()
+            left = r.headers.get("x-requests-remaining")
+            diag.append(f"{sport_key}: {len(events)} events from the {label} key"
+                        + (f", {left} credits left on it" if left else ""))
+            return events
+        body = r.text[:160]
+        if r.status_code in (401, 429) and ("USAGE" in body.upper() or "QUOTA" in body.upper()):
+            EXHAUSTED.add(key)
+            diag.append(f"{label} key is out of credits — falling back to the next key")
+            continue
+        diag.append(f"odds api {sport_key} on the {label} key: HTTP {r.status_code} {body}")
         return []
-    events = r.json()
-    diag.append(f"{sport_key}: odds api returned {len(events)} events")
-    return events
+    diag.append(f"{sport_key}: every key is out of credits")
+    return []
 
 
 def half_point(x):
