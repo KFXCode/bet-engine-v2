@@ -2,8 +2,6 @@ name: Edge Engine slate
 
 on:
   schedule:
-    # once a day, 10:00 ET — free odds tier is 500 requests/month and
-    # mlb-picks shares it. 4 requests per run ≈ 120/month.
     - cron: "0 14 * * *"
   workflow_dispatch: {}
 
@@ -28,6 +26,7 @@ jobs:
       - name: Compute ratings, pull FanDuel lines, write the slate
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_API_KEY_BACKUP: ${{ secrets.ODDS_API_KEY_BACKUP }}
         run: python edge_slate.py
 
       - name: Publish the slate back to the repo
