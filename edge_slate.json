@@ -1,5 +1,19 @@
 {
- "generated_at": "2026-08-25T14:36:33+00:00",
+ "generated_at": "2026-08-25T15:23:11+00:00",
  "model": "adjusted-margin ratings fit on finished games; normal margin and total distributions; half-point lines only",
+ "diagnostics": [
+  "NFL: fit on 368 games, hfa 1.29, sd margin 12.64",
+  "odds api americanfootball_nfl: HTTP 401 {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.c",
+  "NFL: 0 priced, 0 dropped for a missing rating, 0 with no FanDuel moneyline",
+  "NCAAF: fit on 958 games, hfa 8.70, sd margin 12.78",
+  "odds api americanfootball_ncaaf: HTTP 401 {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.c",
+  "NCAAF: 0 priced, 0 dropped for a missing rating, 0 with no FanDuel moneyline",
+  "NBA: fit on 1397 games, hfa 1.82, sd margin 14.12",
+  "odds api basketball_nba: HTTP 401 {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.c",
+  "NBA: 0 priced, 0 dropped for a missing rating, 0 with no FanDuel moneyline",
+  "NCAAB: fit on 1156 games, hfa 9.02, sd margin 10.63",
+  "odds api basketball_ncaab: HTTP 401 {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.c",
+  "NCAAB: 0 priced, 0 dropped for a missing rating, 0 with no FanDuel moneyline"
+ ],
  "games": []
 }
