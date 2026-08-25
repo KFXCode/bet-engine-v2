@@ -2,28 +2,23 @@
 """
 edge_slate.py — publishes edge_slate.json for the Edge Engine board.
 
-Drop this in the repo root of KFXCode/mlb-picks (next to run_daily.py) and add
-the workflow step in README-edge-engine.md. It needs nothing from you: it
-computes its OWN team ratings from finished games, pulls today's FanDuel lines,
-and writes edge_slate.json. The board fetches that file and does the EV math.
+It needs nothing from you: it computes its OWN team ratings from finished
+games, pulls today's FanDuel lines, and writes edge_slate.json. The board
+fetches that file and does the EV math.
 
-What it computes (all of it from data, none of it hand-entered):
-
-  ratings      iterative adjusted margin (SRS-style). Start from each team's
-               average margin with home-field removed, then repeat 25 times:
-                   rating_i = mean over games of (own margin + opponent rating)
-               and re-center to mean 0. Strength of schedule falls out of it.
-  hfa          league average of (home score - away score) this season.
-  sdMargin     root-mean-square error of (rating_home - rating_away + hfa)
-               against actual margins — the real spread of game results.
-  projTotal    expected points for each side = own points/game
-               + opponent points allowed/game - league average points/game,
-               summed. sdTotal is the RMSE of that against actual totals.
+  ratings      iterative adjusted margin (SRS-style): start from each team's
+               average margin with home-field removed, then repeat 25 times
+               rating_i = mean(own margin + opponent rating), re-centering to
+               mean 0. Strength of schedule falls out of it.
+  hfa          league average of (home score - away score).
+  sdMargin     RMSE of (rating gap + hfa) against actual margins.
+  projTotal    own points/game + opponent points allowed/game - league average,
+               both sides summed. sdTotal is that projection's RMSE.
 
 Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
-outcome and this model does not price it. Half-point lines only.
+outcome this model does not price. Half-point lines only.
 
-Env: ODDS_API_KEY (already a secret in this repo).
+Env: ODDS_API_KEY
 """
 
 import json
@@ -39,6 +34,8 @@ OUT_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
 HTTP_TIMEOUT = 20
 
 # league -> (odds-api key, espn path, days of results to fit on)
+# 400 days so a league between seasons still fits on last season and can price
+# its opening week. Anything shorter goes blank in the offseason.
 LEAGUES = {
     "NFL":   ("americanfootball_nfl",   "football/nfl",         400),
     "NCAAF": ("americanfootball_ncaaf", "football/college-football", 400),
@@ -92,7 +89,7 @@ def fit(games):
         return None
     hfa = sum(h - a for _, _, h, a in games) / len(games)
 
-    played = defaultdict(list)          # team -> [(opponent, own margin, hfa-removed)]
+    played = defaultdict(list)
     pts_for, pts_against, count = defaultdict(float), defaultdict(float), defaultdict(int)
     for home, away, hs, as_ in games:
         played[home].append((away, (hs - as_) - hfa))
@@ -126,16 +123,21 @@ def fit(games):
 
 
 # ------------------------------------------------------------------- odds ----
-def fanduel_lines(sport_key):
+def fanduel_lines(sport_key, diag):
     if not ODDS_API_KEY:
+        diag.append("ODDS_API_KEY is empty — no odds were requested at all")
         return []
     r = requests.get(ODDS.format(key=sport_key), timeout=HTTP_TIMEOUT, params={
         "apiKey": ODDS_API_KEY, "regions": "us", "oddsFormat": "american",
         "markets": "h2h,spreads,totals", "bookmakers": "fanduel"})
     if r.status_code != 200:
-        print(f"  odds api {sport_key}: HTTP {r.status_code} {r.text[:120]}")
+        msg = f"odds api {sport_key}: HTTP {r.status_code} {r.text[:160]}"
+        print("  " + msg)
+        diag.append(msg)
         return []
-    return r.json()
+    events = r.json()
+    diag.append(f"{sport_key}: odds api returned {len(events)} events")
+    return events
 
 
 def half_point(x):
@@ -149,19 +151,26 @@ def market(book, key):
     return {}
 
 
-# ------------------------------------------------------------------- build ----
-def build():
+# ------------------------------------------------------------------ build ----
+def build(diag):
     out = []
     for league, (sport_key, espn_path, days) in LEAGUES.items():
         print(f"{league}: fitting ratings…")
-        model = fit(finished_games(espn_path, days))
+        results = finished_games(espn_path, days)
+        model = fit(results)
         if not model:
-            print(f"  not enough finished games yet — {league} skipped")
+            msg = (f"{league}: only {len(results)} finished games found in "
+                   f"{days} days — need 30, league skipped")
+            print("  " + msg)
+            diag.append(msg)
             continue
+        diag.append(f"{league}: fit on {model['games']} games, hfa "
+                    f"{model['hfa']:.2f}, sd margin {model['sd_margin']:.2f}")
         print(f"  {model['games']} games · hfa {model['hfa']:.2f} · "
               f"sd margin {model['sd_margin']:.2f} · sd total {model['sd_total']:.2f}")
 
-        for ev in fanduel_lines(sport_key):
+        no_rating = no_h2h = 0
+        for ev in fanduel_lines(sport_key, diag):
             home, away = ev.get("home_team"), ev.get("away_team")
             books = ev.get("bookmakers") or []
             if not (home and away and books):
@@ -169,6 +178,11 @@ def build():
             fd = books[0]
             h2h, spreads, totals = market(fd, "h2h"), market(fd, "spreads"), market(fd, "totals")
             if home not in h2h or away not in h2h:
+                no_h2h += 1
+                continue
+            if home not in model["rating"] or away not in model["rating"]:
+                no_rating += 1
+                print(f"  no rating for {away} @ {home} — skipped")
                 continue
 
             g = {
@@ -196,16 +210,21 @@ def build():
                 g["under"] = totals["Under"].get("price")
 
             out.append(g)
-        print(f"  {sum(1 for x in out if x['sport'] == league)} games priced")
+        priced = sum(1 for x in out if x["sport"] == league)
+        diag.append(f"{league}: {priced} priced, {no_rating} dropped for a "
+                    f"missing rating, {no_h2h} with no FanDuel moneyline")
+        print(f"  {priced} games priced")
     return out
 
 
 def main():
-    games = build()
+    diag = []
+    games = build(diag)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": "adjusted-margin ratings fit on finished games; normal margin "
                  "and total distributions; half-point lines only",
+        "diagnostics": diag,
         "games": games,
     }
     with open(OUT_PATH, "w") as f:
