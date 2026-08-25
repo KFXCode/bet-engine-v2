@@ -1,0 +1,217 @@
+#!/usr/bin/env python3
+"""
+edge_slate.py — publishes edge_slate.json for the Edge Engine board.
+
+Drop this in the repo root of KFXCode/mlb-picks (next to run_daily.py) and add
+the workflow step in README-edge-engine.md. It needs nothing from you: it
+computes its OWN team ratings from finished games, pulls today's FanDuel lines,
+and writes edge_slate.json. The board fetches that file and does the EV math.
+
+What it computes (all of it from data, none of it hand-entered):
+
+  ratings      iterative adjusted margin (SRS-style). Start from each team's
+               average margin with home-field removed, then repeat 25 times:
+                   rating_i = mean over games of (own margin + opponent rating)
+               and re-center to mean 0. Strength of schedule falls out of it.
+  hfa          league average of (home score - away score) this season.
+  sdMargin     root-mean-square error of (rating_home - rating_away + hfa)
+               against actual margins — the real spread of game results.
+  projTotal    expected points for each side = own points/game
+               + opponent points allowed/game - league average points/game,
+               summed. sdTotal is the RMSE of that against actual totals.
+
+Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
+outcome and this model does not price it. Half-point lines only.
+
+Env: ODDS_API_KEY (already a secret in this repo).
+"""
+
+import json
+import os
+import time
+from collections import defaultdict
+from datetime import date, datetime, timedelta, timezone
+
+import requests
+
+ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+OUT_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
+HTTP_TIMEOUT = 20
+
+# league -> (odds-api key, espn path, days of results to fit on)
+LEAGUES = {
+    "NFL":   ("americanfootball_nfl",   "football/nfl",         260),
+    "NCAAF": ("americanfootball_ncaaf", "football/college-football", 200),
+    "NBA":   ("basketball_nba",         "basketball/nba",       220),
+    "NCAAB": ("basketball_ncaab",       "basketball/mens-college-basketball", 160),
+}
+
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard"
+ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
+
+
+# ---------------------------------------------------------------- results ----
+def finished_games(espn_path, days):
+    """[(home, away, home_score, away_score)] for completed games."""
+    out, today = [], date.today()
+    for i in range(days):
+        d = today - timedelta(days=i + 1)
+        try:
+            r = requests.get(ESPN.format(path=espn_path),
+                             params={"dates": d.strftime("%Y%m%d"), "limit": 400},
+                             timeout=HTTP_TIMEOUT)
+            if r.status_code != 200:
+                continue
+            events = r.json().get("events", [])
+        except Exception:
+            continue
+        for ev in events:
+            comp = (ev.get("competitions") or [{}])[0]
+            if not (comp.get("status", {}).get("type", {}).get("completed")):
+                continue
+            home = away = None
+            for c in comp.get("competitors", []):
+                name = (c.get("team") or {}).get("displayName")
+                try:
+                    score = float(c.get("score"))
+                except (TypeError, ValueError):
+                    continue
+                if c.get("homeAway") == "home":
+                    home = (name, score)
+                else:
+                    away = (name, score)
+            if home and away:
+                out.append((home[0], away[0], home[1], away[1]))
+        time.sleep(0.05)
+    return out
+
+
+def fit(games):
+    """Ratings, home-field edge, and the two standard deviations."""
+    if len(games) < 30:
+        return None
+    hfa = sum(h - a for _, _, h, a in games) / len(games)
+
+    played = defaultdict(list)          # team -> [(opponent, own margin, hfa-removed)]
+    pts_for, pts_against, count = defaultdict(float), defaultdict(float), defaultdict(int)
+    for home, away, hs, as_ in games:
+        played[home].append((away, (hs - as_) - hfa))
+        played[away].append((home, (as_ - hs) + hfa))
+        pts_for[home] += hs; pts_against[home] += as_; count[home] += 1
+        pts_for[away] += as_; pts_against[away] += hs; count[away] += 1
+
+    rating = {t: sum(m for _, m in g) / len(g) for t, g in played.items()}
+    for _ in range(25):
+        nxt = {t: sum(m + rating.get(opp, 0.0) for opp, m in g) / len(g)
+               for t, g in played.items()}
+        mean = sum(nxt.values()) / len(nxt)
+        rating = {t: v - mean for t, v in nxt.items()}
+
+    lg_ppg = sum(pts_for.values()) / sum(count.values())
+    off = {t: pts_for[t] / count[t] for t in count}
+    dfn = {t: pts_against[t] / count[t] for t in count}
+
+    def proj_total(home, away):
+        eh = off.get(home, lg_ppg) + dfn.get(away, lg_ppg) - lg_ppg
+        ea = off.get(away, lg_ppg) + dfn.get(home, lg_ppg) - lg_ppg
+        return eh + ea
+
+    n = len(games)
+    sd_margin = (sum(((hs - as_) - (rating.get(h, 0) - rating.get(a, 0) + hfa)) ** 2
+                     for h, a, hs, as_ in games) / n) ** 0.5
+    sd_total = (sum(((hs + as_) - proj_total(h, a)) ** 2
+                    for h, a, hs, as_ in games) / n) ** 0.5
+    return {"rating": rating, "hfa": hfa, "sd_margin": sd_margin,
+            "sd_total": sd_total, "proj_total": proj_total, "games": n}
+
+
+# ------------------------------------------------------------------- odds ----
+def fanduel_lines(sport_key):
+    if not ODDS_API_KEY:
+        return []
+    r = requests.get(ODDS.format(key=sport_key), timeout=HTTP_TIMEOUT, params={
+        "apiKey": ODDS_API_KEY, "regions": "us", "oddsFormat": "american",
+        "markets": "h2h,spreads,totals", "bookmakers": "fanduel"})
+    if r.status_code != 200:
+        print(f"  odds api {sport_key}: HTTP {r.status_code} {r.text[:120]}")
+        return []
+    return r.json()
+
+
+def half_point(x):
+    return x is not None and abs(x * 2) % 2 == 1
+
+
+def market(book, key):
+    for m in book.get("markets", []):
+        if m.get("key") == key:
+            return {o.get("name"): o for o in m.get("outcomes", [])}
+    return {}
+
+
+# ------------------------------------------------------------------- build ----
+def build():
+    out = []
+    for league, (sport_key, espn_path, days) in LEAGUES.items():
+        print(f"{league}: fitting ratings…")
+        model = fit(finished_games(espn_path, days))
+        if not model:
+            print(f"  not enough finished games yet — {league} skipped")
+            continue
+        print(f"  {model['games']} games · hfa {model['hfa']:.2f} · "
+              f"sd margin {model['sd_margin']:.2f} · sd total {model['sd_total']:.2f}")
+
+        for ev in fanduel_lines(sport_key):
+            home, away = ev.get("home_team"), ev.get("away_team")
+            books = ev.get("bookmakers") or []
+            if not (home and away and books):
+                continue
+            fd = books[0]
+            h2h, spreads, totals = market(fd, "h2h"), market(fd, "spreads"), market(fd, "totals")
+            if home not in h2h or away not in h2h:
+                continue
+
+            g = {
+                "sport": league, "home": home, "away": away,
+                "time": ev.get("commence_time"),
+                "homeRtg": round(model["rating"].get(home, 0.0), 3),
+                "awayRtg": round(model["rating"].get(away, 0.0), 3),
+                "hfa": round(model["hfa"], 3),
+                "sdMargin": round(model["sd_margin"], 3),
+                "sdTotal": round(model["sd_total"], 3),
+                "projTotal": round(model["proj_total"](home, away), 2),
+                "mlHome": h2h[home].get("price"), "mlAway": h2h[away].get("price"),
+            }
+
+            hs = spreads.get(home, {}).get("point")
+            if home in spreads and away in spreads and half_point(hs):
+                g["spread"] = hs
+                g["sprHome"] = spreads[home].get("price")
+                g["sprAway"] = spreads[away].get("price")
+
+            tl = totals.get("Over", {}).get("point")
+            if "Over" in totals and "Under" in totals and half_point(tl):
+                g["total"] = tl
+                g["over"] = totals["Over"].get("price")
+                g["under"] = totals["Under"].get("price")
+
+            out.append(g)
+        print(f"  {sum(1 for x in out if x['sport'] == league)} games priced")
+    return out
+
+
+def main():
+    games = build()
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "model": "adjusted-margin ratings fit on finished games; normal margin "
+                 "and total distributions; half-point lines only",
+        "games": games,
+    }
+    with open(OUT_PATH, "w") as f:
+        json.dump(payload, f, indent=1)
+    print(f"wrote {OUT_PATH} — {len(games)} games")
+
+
+if __name__ == "__main__":
+    main()
