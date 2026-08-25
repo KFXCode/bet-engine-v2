@@ -2,28 +2,24 @@
 """
 edge_slate.py — publishes edge_slate.json for the Edge Engine board.
 
-Drop this in the repo root of KFXCode/mlb-picks (next to run_daily.py) and add
-the workflow step in README-edge-engine.md. It needs nothing from you: it
-computes its OWN team ratings from finished games, pulls today's FanDuel lines,
-and writes edge_slate.json. The board fetches that file and does the EV math.
+It needs nothing from you: it computes its OWN team ratings from finished
+games, pulls today's FanDuel lines, and writes edge_slate.json. The board
+fetches that file and does the EV math.
 
-What it computes (all of it from data, none of it hand-entered):
-
-  ratings      iterative adjusted margin (SRS-style). Start from each team's
-               average margin with home-field removed, then repeat 25 times:
-                   rating_i = mean over games of (own margin + opponent rating)
-               and re-center to mean 0. Strength of schedule falls out of it.
-  hfa          league average of (home score - away score) this season.
-  sdMargin     root-mean-square error of (rating_home - rating_away + hfa)
-               against actual margins — the real spread of game results.
-  projTotal    expected points for each side = own points/game
-               + opponent points allowed/game - league average points/game,
-               summed. sdTotal is the RMSE of that against actual totals.
+  ratings      iterative adjusted margin (SRS-style), fit JOINTLY with home
+               field: given ratings, hfa is the part of the home margin the
+               ratings do not explain; given hfa, ratings are re-fit; repeat 40
+               times, re-centering to mean 0. Strength of schedule falls out of
+               it, and hfa is not inflated by strong teams hosting weak ones.
+  hfa          points of home advantage, from that joint fit.
+  sdMargin     RMSE of (rating gap + hfa) against actual margins.
+  projTotal    own points/game + opponent points allowed/game - league average,
+               both sides summed. sdTotal is that projection's RMSE.
 
 Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
-outcome and this model does not price it. Half-point lines only.
+outcome this model does not price. Half-point lines only.
 
-Env: ODDS_API_KEY (already a secret in this repo).
+Env: ODDS_API_KEY
 """
 
 import json
@@ -39,8 +35,8 @@ OUT_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
 HTTP_TIMEOUT = 20
 
 # league -> (odds-api key, espn path, days of results to fit on)
-# 400 days so a league that is between seasons still fits on last season and can
-# price its opening week. Anything shorter goes blank in the offseason.
+# 400 days so a league between seasons still fits on last season and can price
+# its opening week. Anything shorter goes blank in the offseason.
 LEAGUES = {
     "NFL":   ("americanfootball_nfl",   "football/nfl",         400),
     "NCAAF": ("americanfootball_ncaaf", "football/college-football", 400),
@@ -89,25 +85,39 @@ def finished_games(espn_path, days):
 
 
 def fit(games):
-    """Ratings, home-field edge, and the two standard deviations."""
+    """Ratings, home-field edge, and the two standard deviations.
+
+    Home-field and ratings are fit JOINTLY. Estimating hfa as the plain average
+    home margin is wrong wherever strong teams host weak ones (all of college
+    football and basketball) — it credits the venue for the mismatch and
+    inflates hfa to 8-9 points. Instead: given ratings, hfa is the average of
+    what the ratings FAIL to explain; given hfa, ratings are re-fit. Repeat.
+    """
     if len(games) < 30:
         return None
-    hfa = sum(h - a for _, _, h, a in games) / len(games)
 
-    played = defaultdict(list)          # team -> [(opponent, own margin, hfa-removed)]
+    hfa = sum(h - a for _, _, h, a in games) / len(games)   # starting guess
+
+    opponents = defaultdict(list)       # team -> [(opponent, own raw margin, is_home)]
     pts_for, pts_against, count = defaultdict(float), defaultdict(float), defaultdict(int)
     for home, away, hs, as_ in games:
-        played[home].append((away, (hs - as_) - hfa))
-        played[away].append((home, (as_ - hs) + hfa))
+        opponents[home].append((away, hs - as_, True))
+        opponents[away].append((home, as_ - hs, False))
         pts_for[home] += hs; pts_against[home] += as_; count[home] += 1
         pts_for[away] += as_; pts_against[away] += hs; count[away] += 1
 
-    rating = {t: sum(m for _, m in g) / len(g) for t, g in played.items()}
-    for _ in range(25):
-        nxt = {t: sum(m + rating.get(opp, 0.0) for opp, m in g) / len(g)
-               for t, g in played.items()}
+    rating = {t: 0.0 for t in opponents}
+    for _ in range(40):
+        nxt = {}
+        for t, gs in opponents.items():
+            # own margin, with the venue effect and the opponent's strength removed
+            nxt[t] = sum(m - (hfa if home else -hfa) + rating.get(opp, 0.0)
+                         for opp, m, home in gs) / len(gs)
         mean = sum(nxt.values()) / len(nxt)
         rating = {t: v - mean for t, v in nxt.items()}
+        # whatever the ratings cannot explain about playing at home IS home field
+        hfa = sum((hs - as_) - (rating.get(h, 0.0) - rating.get(a, 0.0))
+                  for h, a, hs, as_ in games) / len(games)
 
     lg_ppg = sum(pts_for.values()) / sum(count.values())
     off = {t: pts_for[t] / count[t] for t in count}
@@ -156,7 +166,7 @@ def market(book, key):
     return {}
 
 
-# ------------------------------------------------------------------- build ----
+# ------------------------------------------------------------------ build ----
 def build(diag):
     out = []
     for league, (sport_key, espn_path, days) in LEAGUES.items():
