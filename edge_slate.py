@@ -2,22 +2,32 @@
 """
 edge_slate.py — publishes edge_slate.json for the Edge Engine board.
 
-It computes its OWN team ratings from finished games, pulls FanDuel lines for
-the games starting soon, and writes edge_slate.json. The board does the EV math.
+It needs nothing from you: it computes its OWN team ratings from finished
+games, pulls FanDuel lines for the games starting soon, and writes
+edge_slate.json. The board fetches that file and does the EV math.
 
-  ratings      iterative adjusted margin, fit JOINTLY with home field, then
-               regressed toward average until the season has enough games.
+What it computes (all of it from data, none of it hand-entered):
+
+  ratings      iterative adjusted margin (SRS-style), fit JOINTLY with home
+               field: given ratings, hfa is the part of the home margin the
+               ratings do not explain; given hfa, ratings are re-fit; repeat 40
+               times, re-centering to mean 0. Strength of schedule falls out of
+               it, and hfa is not inflated by strong teams hosting weak ones.
+               Ratings are then regressed toward average unless the league has
+               actually played recently.
   hfa          points of home advantage, from that joint fit.
-  sdMargin     RMSE of (rating gap + hfa) against actual margins, widened for
-               however much the ratings were regressed.
-  projTotal    own points/game + opponent points allowed/game - league average,
-               both sides summed. sdTotal is that projection's RMSE.
+  sdMargin     root-mean-square error of (rating_home - rating_away + hfa)
+               against actual margins — the real spread of game results.
+  projTotal    expected points for each side = own points/game
+               + opponent points allowed/game - league average points/game,
+               summed. sdTotal is the RMSE of that against actual totals.
 
-Whole-number spreads and totals are DROPPED: a push is a third outcome this
-model does not price. Half-point lines only.
+Markets on a whole number (spread -3, total 44) are DROPPED: a push is a third
+outcome and this model does not price it. Half-point lines only.
 
-Env: ODDS_API_KEY, optional ODDS_API_KEY_BACKUP (tried in order; a key that is
-out of credits is skipped), optional EDGE_DAYS_AHEAD (default 7).
+Env: ODDS_API_KEY, and optionally ODDS_API_KEY_BACKUP. Keys are tried in order
+and a key that reports out-of-credits is dropped for the rest of the run, so a
+spent key falls through to the next one without losing a market.
 """
 
 import json
@@ -42,12 +52,16 @@ DAYS_AHEAD = int(os.environ.get("EDGE_DAYS_AHEAD", "7"))
 
 # Preseason regression. Last season's rating is not this season's team — rosters
 # turn over, and an un-regressed rating invents edges that are not there. Shrink
-# every rating toward 0 (average), easing the shrink off as this season's games
-# accumulate; a league with GAMES_TO_TRUST games per team is trusted in full.
+# every rating toward 0 (average), easing the shrink off as recent games
+# accumulate; a league with GAMES_TO_TRUST games per team inside the window is
+# trusted in full.
 GAMES_TO_TRUST = {"NFL": 8, "NCAAF": 6, "NBA": 20, "NCAAB": 15}
-MAX_SHRINK = 0.35      # with no games played, keep 65% of last season's rating
+MAX_SHRINK = 0.35      # with no recent games, keep 65% of the fitted rating
+RECENT_WINDOW = 60     # days that count as "recently played"
 
 # league -> (odds-api key, espn path, days of results to fit on)
+# 400 days so a league that is between seasons still fits on last season and can
+# price its opening week. Anything shorter goes blank in the offseason.
 LEAGUES = {
     "NFL":   ("americanfootball_nfl",   "football/nfl",         400),
     "NCAAF": ("americanfootball_ncaaf", "football/college-football", 400),
@@ -95,20 +109,24 @@ def finished_games(espn_path, days):
     return out
 
 
-def season_split(results):
-    """(games this season, games per team this season). The current season is the
-    latest run of dates with no gap longer than 45 days."""
+def recent_form(results):
+    """Games per team played in the last RECENT_WINDOW days.
+
+    Deliberately a fixed window rather than 'this season'. Detecting a season
+    boundary by looking for a gap in the schedule kept getting fooled — spring
+    games, exhibitions and last season's tail all read as a season in progress,
+    which left August ratings at full strength when no 2026 game had been
+    played. A plain 60-day count cannot be fooled: in the offseason it is zero,
+    and by midseason it is high enough to trust the ratings in full.
+    """
     if not results:
-        return [], 0.0
-    days = sorted({g[4] for g in results})
-    start = days[-1]
-    for earlier, later in zip(days[-2::-1], days[:0:-1]):
-        if (later - earlier).days > 45:
-            break
-        start = earlier
-    current = [g for g in results if g[4] >= start]
-    teams = {t for g in current for t in (g[0], g[1])}
-    return current, (2.0 * len(current) / len(teams)) if teams else 0.0
+        return 0.0
+    since = date.today() - timedelta(days=RECENT_WINDOW)
+    recent = [g for g in results if g[4] >= since]
+    if not recent:
+        return 0.0
+    teams = {t for g in recent for t in (g[0], g[1])}
+    return 2.0 * len(recent) / len(teams)
 
 
 def fit(games):
@@ -209,7 +227,7 @@ def market(book, key):
     return {}
 
 
-# ------------------------------------------------------------------ build ----
+# ------------------------------------------------------------------- build ----
 def build(diag):
     out = []
     now = datetime.now(timezone.utc)
@@ -225,8 +243,8 @@ def build(diag):
             diag.append(msg)
             continue
 
-        # regress toward average until this season has enough games to trust
-        _, per_team = season_split(results)
+        # regress toward average until recent games justify trusting the ratings
+        per_team = recent_form(results)
         trust = min(1.0, per_team / GAMES_TO_TRUST.get(league, 10))
         keep = 1.0 - MAX_SHRINK * (1.0 - trust)
         rating = {t: v * keep for t, v in model["rating"].items()}
@@ -234,8 +252,8 @@ def build(diag):
         sd_margin = (model["sd_margin"] ** 2 + ((1 - keep) * model["sd_margin"]) ** 2) ** 0.5
         diag.append(f"{league}: fit on {model['games']} games, hfa "
                     f"{model['hfa']:.2f}, sd margin {sd_margin:.2f}, "
-                    f"{per_team:.1f} games played this season — keeping "
-                    f"{keep * 100:.0f}% of last season's ratings")
+                    f"{per_team:.1f} games per team in the last {RECENT_WINDOW} "
+                    f"days — keeping {keep * 100:.0f}% of the fitted ratings")
 
         no_rating = no_h2h = too_far = 0
         for ev in fanduel_lines(sport_key, diag):
@@ -299,7 +317,7 @@ def main():
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": "adjusted-margin ratings fit jointly with home field, regressed "
-                 "toward average until the season has enough games; normal "
+                 "toward average unless the league has played recently; normal "
                  "margin and total distributions; half-point lines only; games "
                  f"starting within {DAYS_AHEAD} days",
         "diagnostics": diag,
