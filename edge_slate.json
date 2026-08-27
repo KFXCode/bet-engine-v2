@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-08-27T23:30:55+00:00",
+ "generated_at": "2026-08-27T23:43:30+00:00",
  "model": "adjusted-margin ratings fit jointly with home field, regressed toward average unless the league has played recently; normal margin and total distributions; half-point lines only; games starting within 7 days",
  "diagnostics": [
   "NFL: fit on 368 games, hfa 1.30, sd margin 13.05, 2.1 games per team in the last 60 days \u2014 keeping 74% of the fitted ratings",
   "primary key is out of credits \u2014 falling back to the next key",
-  "americanfootball_nfl: 272 events from the backup 1 key, 443 credits left on it",
+  "americanfootball_nfl: 272 events from the backup 1 key, 434 credits left on it",
   "NFL: 0 priced, 32 outside the 7-day window, 0 with no rating, 0 with no FanDuel moneyline",
   "NCAAF: fit on 958 games, hfa 3.00, sd margin 12.43, 0.0 games per team in the last 60 days \u2014 keeping 65% of the fitted ratings",
-  "americanfootball_ncaaf: 111 events from the backup 1 key, 440 credits left on it",
+  "americanfootball_ncaaf: 111 events from the backup 1 key, 431 credits left on it",
   "NCAAF: 8 priced, 97 outside the 7-day window, 3 with no rating, 2 with no FanDuel moneyline",
   "NBA: fit on 1397 games, hfa 1.68, sd margin 14.95, 0.0 games per team in the last 60 days \u2014 keeping 65% of the fitted ratings",
-  "basketball_nba: 41 events from the backup 1 key, 437 credits left on it",
+  "basketball_nba: 41 events from the backup 1 key, 428 credits left on it",
   "NBA: 0 priced, 10 outside the 7-day window, 0 with no rating, 0 with no FanDuel moneyline",
   "NCAAB: fit on 1156 games, hfa 3.03, sd margin 10.06, 0.0 games per team in the last 60 days \u2014 keeping 65% of the fitted ratings",
-  "basketball_ncaab: 0 events from the backup 1 key, 437 credits left on it",
+  "basketball_ncaab: 0 events from the backup 1 key, 428 credits left on it",
   "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with no FanDuel moneyline"
  ],
  "games": [
