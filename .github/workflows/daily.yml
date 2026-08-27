@@ -31,13 +31,19 @@ jobs:
 
       - name: Publish the slate back to the repo
         run: |
+          # The slate is generated output, so it never needs merging. Take the
+          # newest branch state, then lay the fresh slate on top. Rebasing here
+          # only produced conflicts and a detached HEAD.
+          cp edge_slate.json /tmp/edge_slate.json
           git config user.name "edge-engine-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -f edge_slate.json 2>/dev/null || true
+          git fetch origin "${GITHUB_REF_NAME}"
+          git checkout -B "${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
+          cp /tmp/edge_slate.json edge_slate.json
+          git add -f edge_slate.json
           if git diff --cached --quiet; then
-            echo "Nothing new to publish this check."
+            echo "Slate is unchanged since the last run."
           else
             git commit -m "Slate update ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-            git pull --rebase origin "${GITHUB_REF_NAME}" || true
-            git push
+            git push origin "${GITHUB_REF_NAME}"
           fi
