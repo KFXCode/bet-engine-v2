@@ -50,6 +50,11 @@ EXHAUSTED = set()      # keys that reported out-of-credits during this run
 # October lines in August; those are not today's card.
 DAYS_AHEAD = int(os.environ.get("EDGE_DAYS_AHEAD", "7"))
 
+# Games between DAYS_AHEAD and LOOKAHEAD_DAYS out are published WITHOUT a
+# probability, for the lookahead view only. They are not priced on purpose: the
+# ratings that would price them are weeks of games away from being right.
+LOOKAHEAD_DAYS = int(os.environ.get("EDGE_LOOKAHEAD_DAYS", "45"))
+
 # Preseason regression. Last season's rating is not this season's team — rosters
 # turn over, and an un-regressed rating invents edges that are not there. Shrink
 # every rating toward 0 (average), easing the shrink off as recent games
@@ -75,7 +80,7 @@ ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 
 # ---------------------------------------------------------------- results ----
 def finished_games(espn_path, days):
-    """[(home, away, home_score, away_score, date)] for completed games."""
+    """[(home, away, home_score, away_score)] for completed games."""
     out, today = [], date.today()
     for i in range(days):
         d = today - timedelta(days=i + 1)
@@ -229,9 +234,10 @@ def market(book, key):
 
 # ------------------------------------------------------------------- build ----
 def build(diag):
-    out = []
+    out, ahead = [], []
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(days=DAYS_AHEAD)
+    horizon = now + timedelta(days=LOOKAHEAD_DAYS)
     for league, (sport_key, espn_path, days) in LEAGUES.items():
         print(f"{league}: fitting ratings…")
         results = finished_games(espn_path, days)
@@ -268,6 +274,20 @@ def build(diag):
                 continue
             if not (now - timedelta(hours=6) <= when <= cutoff):
                 too_far += 1
+                if cutoff < when <= horizon:
+                    fd_a = books[0]
+                    h2h_a = market(fd_a, "h2h")
+                    spr_a = market(fd_a, "spreads")
+                    tot_a = market(fd_a, "totals")
+                    if home in h2h_a and away in h2h_a:
+                        ahead.append({
+                            "sport": league, "home": home, "away": away,
+                            "time": ev.get("commence_time"),
+                            "mlHome": h2h_a[home].get("price"),
+                            "mlAway": h2h_a[away].get("price"),
+                            "spread": spr_a.get(home, {}).get("point"),
+                            "total": tot_a.get("Over", {}).get("point"),
+                        })
                 continue
             fd = books[0]
             h2h, spreads, totals = market(fd, "h2h"), market(fd, "spreads"), market(fd, "totals")
@@ -308,24 +328,28 @@ def build(diag):
                     f"{DAYS_AHEAD}-day window, {no_rating} with no rating, "
                     f"{no_h2h} with no FanDuel moneyline")
         print(f"  {priced} games priced")
-    return out
+    ahead.sort(key=lambda g: g["time"] or "")
+    return out, ahead
 
 
 def main():
     diag = []
-    games = build(diag)
+    games, ahead = build(diag)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": "adjusted-margin ratings fit jointly with home field, regressed "
                  "toward average unless the league has played recently; normal "
                  "margin and total distributions; half-point lines only; games "
                  f"starting within {DAYS_AHEAD} days",
+        "days_ahead": DAYS_AHEAD,
+        "lookahead_days": LOOKAHEAD_DAYS,
         "diagnostics": diag,
         "games": games,
+        "lookahead": ahead,
     }
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=1)
-    print(f"wrote {OUT_PATH} — {len(games)} games")
+    print(f"wrote {OUT_PATH} — {len(games)} games, {len(ahead)} in the lookahead")
 
 
 if __name__ == "__main__":
