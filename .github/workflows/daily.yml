@@ -1,11 +1,25 @@
 name: Edge Engine slate
 
+# All times UTC. Comments show Eastern during EDT (Mar-Nov); after the November
+# DST change every Eastern time below shifts one hour earlier.
+#
+# Only the slate step spends odds-API credits (12 per run). Grading is free, so
+# it runs more often than the slate does. Seven slate runs a week is ~360
+# credits a month, inside one free key.
+
 on:
   schedule:
-    # 10:00 ET — publishes the day's card, records picks, grades finished games.
-    - cron: "0 14 * * *"
-    # 23:30 ET — grading + closing-line capture only, no odds credits spent.
-    - cron: "30 3 * * *"
+    # ---- Monday morning: the week's card goes up ----
+    - cron: "45 12 * * 1"   # Mon  8:45am ET — publish the week
+    # ---- near-kickoff slate refreshes, so the captured close is a real close ----
+    - cron: "30 22 * * 4"   # Thu  6:30pm ET — before Thursday night games
+    - cron: "0 15 * * 6"    # Sat 11:00am ET — before the college slate
+    - cron: "30 2 * * 0"    # Sat 10:30pm ET — before late West Coast kickoffs
+    - cron: "0 16 * * 0"    # Sun 12:00pm ET — before the early NFL window
+    - cron: "0 23 * * 0"    # Sun  7:00pm ET — before Sunday night
+    - cron: "0 23 * * 1"    # Mon  7:00pm ET — before Monday night
+    # ---- grade-only: catches anything that finished overnight. No credits. ----
+    - cron: "0 8 * * *"     # daily 4:00am ET
   workflow_dispatch: {}
 
 permissions:
@@ -27,22 +41,23 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Compute ratings, pull FanDuel lines, write the slate
-        # Skipped on the late run: the slate is already current and this is the
-        # only step that spends odds-API credits.
-        if: github.event.schedule != '30 3 * * *'
+        # Skipped on the 4am grade-only run — the only step that costs credits.
+        if: github.event.schedule != '0 8 * * *'
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ODDS_API_KEY_BACKUP: ${{ secrets.ODDS_API_KEY_BACKUP }}
         run: python edge_slate.py
 
       - name: Record picks, track closing lines, grade results
-        # Free — reads the slate on disk and final scores from ESPN.
+        # Free — reads the slate on disk and final scores from ESPN. Appends the
+        # current price to each pending pick's history, but only before kickoff,
+        # so the last entry is the closing line.
         run: python grade.py
 
       - name: Publish back to the repo
         run: |
-          # These are generated files, so they never need merging. Take the
-          # newest branch state, then lay the fresh files on top.
+          # Generated files, so they never need merging. Take the newest branch
+          # state, then lay the fresh files on top.
           mkdir -p /tmp/out
           for f in edge_slate.json picks_log.json results.json; do
             [ -f "$f" ] && cp "$f" /tmp/out/"$f"
