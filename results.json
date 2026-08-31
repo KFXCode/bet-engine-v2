@@ -1,5 +1,15 @@
 {
+ "avg_clv": null,
+ "clv_beat_rate": null,
+ "generated_at": "2026-08-31T21:17:46+00:00",
  "graded_through": null,
- "note": "Weekly grading file. After a week's card finishes, each pick that was published gets one entry here with its result. The board reads this file for the Record tab. W and L count toward the win rate; P (push/void) does not.",
- "picks": []
+ "note": "Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only.",
+ "pending": 57,
+ "picks": [],
+ "record": {
+  "l": 0,
+  "p": 0,
+  "w": 0
+ },
+ "win_rate": null
 }
