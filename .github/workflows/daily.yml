@@ -2,7 +2,10 @@ name: Edge Engine slate
 
 on:
   schedule:
+    # 10:00 ET — publishes the day's card, records picks, grades finished games.
     - cron: "0 14 * * *"
+    # 23:30 ET — grading + closing-line capture only, no odds credits spent.
+    - cron: "30 3 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -24,26 +27,37 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Compute ratings, pull FanDuel lines, write the slate
+        # Skipped on the late run: the slate is already current and this is the
+        # only step that spends odds-API credits.
+        if: github.event.schedule != '30 3 * * *'
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ODDS_API_KEY_BACKUP: ${{ secrets.ODDS_API_KEY_BACKUP }}
         run: python edge_slate.py
 
-      - name: Publish the slate back to the repo
+      - name: Record picks, track closing lines, grade results
+        # Free — reads the slate on disk and final scores from ESPN.
+        run: python grade.py
+
+      - name: Publish back to the repo
         run: |
-          # The slate is generated output, so it never needs merging. Take the
-          # newest branch state, then lay the fresh slate on top. Rebasing here
-          # only produced conflicts and a detached HEAD.
-          cp edge_slate.json /tmp/edge_slate.json
+          # These are generated files, so they never need merging. Take the
+          # newest branch state, then lay the fresh files on top.
+          mkdir -p /tmp/out
+          for f in edge_slate.json picks_log.json results.json; do
+            [ -f "$f" ] && cp "$f" /tmp/out/"$f"
+          done
           git config user.name "edge-engine-bot"
           git config user.email "actions@users.noreply.github.com"
           git fetch origin "${GITHUB_REF_NAME}"
           git checkout -B "${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
-          cp /tmp/edge_slate.json edge_slate.json
-          git add -f edge_slate.json
+          for f in edge_slate.json picks_log.json results.json; do
+            [ -f /tmp/out/"$f" ] && cp /tmp/out/"$f" "$f"
+          done
+          git add -f edge_slate.json picks_log.json results.json 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "Slate is unchanged since the last run."
+            echo "Nothing new to publish this run."
           else
-            git commit -m "Slate update ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git commit -m "Slate + grading update ($(date -u +'%Y-%m-%d %H:%M UTC'))"
             git push origin "${GITHUB_REF_NAME}"
           fi
