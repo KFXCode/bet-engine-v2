@@ -1,10 +1,10 @@
 {
  "avg_clv": null,
  "clv_beat_rate": null,
- "generated_at": "2026-08-31T21:17:46+00:00",
+ "generated_at": "2026-09-01T01:36:57+00:00",
  "graded_through": null,
  "note": "Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only.",
- "pending": 57,
+ "pending": 61,
  "picks": [],
  "record": {
   "l": 0,
