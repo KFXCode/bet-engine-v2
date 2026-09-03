@@ -3,9 +3,8 @@ name: Edge Engine slate
 # All times UTC. Comments show Eastern during EDT (Mar-Nov); after the November
 # DST change every Eastern time below shifts one hour earlier.
 #
-# Only the slate step spends odds-API credits (12 per run). Grading is free, so
-# it runs more often than the slate does. Seven slate runs a week is ~360
-# credits a month, inside one free key.
+# Only the slate step spends odds-API credits (12 per run). Grading and the Whop
+# post are free, so they run on every trigger.
 
 on:
   schedule:
@@ -54,22 +53,34 @@ jobs:
         # so the last entry is the closing line.
         run: python grade.py
 
+      - name: Post the card to the Whop forum
+        # Members-only by construction: a forum post lives inside the Whop
+        # experience, so access ends when a subscription does. Silent no-op if
+        # the secrets are unset, and a Whop outage never fails the run.
+        continue-on-error: true
+        env:
+          WHOP_API_KEY: ${{ secrets.WHOP_API_KEY }}
+          WHOP_EXPERIENCE_ID: ${{ secrets.WHOP_EXPERIENCE_ID }}
+          MEMBER_LINK: ${{ secrets.MEMBER_LINK }}
+        run: python whop_post.py
+
       - name: Publish back to the repo
         run: |
           # Generated files, so they never need merging. Take the newest branch
           # state, then lay the fresh files on top.
+          FILES="edge_slate.json picks_log.json results.json whop_posted.json"
           mkdir -p /tmp/out
-          for f in edge_slate.json picks_log.json results.json; do
+          for f in $FILES; do
             [ -f "$f" ] && cp "$f" /tmp/out/"$f"
           done
           git config user.name "edge-engine-bot"
           git config user.email "actions@users.noreply.github.com"
           git fetch origin "${GITHUB_REF_NAME}"
           git checkout -B "${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
-          for f in edge_slate.json picks_log.json results.json; do
+          for f in $FILES; do
             [ -f /tmp/out/"$f" ] && cp /tmp/out/"$f" "$f"
           done
-          git add -f edge_slate.json picks_log.json results.json 2>/dev/null || true
+          git add -f $FILES 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing new to publish this run."
           else
