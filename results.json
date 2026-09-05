@@ -1,10 +1,10 @@
 {
  "avg_clv": 0.251125,
  "clv_beat_rate": 0.5,
- "generated_at": "2026-09-05T11:25:17+00:00",
+ "generated_at": "2026-09-05T17:03:49+00:00",
  "graded_through": "Week of Aug 31",
  "note": "One pick per game, market and side. It is recorded at the price and line it was first published at, and graded against that number. Later line movement is noted but never regraded and never counted again. Win rate counts wins and losses only.",
- "pending": 61,
+ "pending": 67,
  "picks": [
   {
    "closing_price": -255,
