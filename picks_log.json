@@ -42,8 +42,9 @@
     ]
    ],
    "home": "Georgia Tech Yellow Jackets",
-   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Moneyline|Georgia Tech Yellow Jackets ML",
+   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Moneyline|home",
    "line": null,
+   "line_moves": [],
    "market": "Moneyline",
    "other_price": 220,
    "p": 0.835588,
@@ -96,8 +97,9 @@
     ]
    ],
    "home": "Georgia Tech Yellow Jackets",
-   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Spread|Georgia Tech Yellow Jackets -6.5",
+   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Spread|home",
    "line": -6.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -102,
    "p": 0.672108,
@@ -140,8 +142,20 @@
     ]
    ],
    "home": "Georgia Tech Yellow Jackets",
-   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Total|Over 50.5",
+   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Total|over",
    "line": 50.5,
+   "line_moves": [
+    {
+     "at": "2026-09-03T10:26:16+00:00",
+     "line": 51.5,
+     "price": -104
+    },
+    {
+     "at": "2026-09-04T00:22:47+00:00",
+     "line": 52.5,
+     "price": -110
+    }
+   ],
    "market": "Total",
    "other_price": -105,
    "p": 0.649558,
@@ -194,8 +208,9 @@
     ]
    ],
    "home": "Illinois Fighting Illini",
-   "id": "NCAAF|UAB Blazers @ Illinois Fighting Illini|Spread|UAB Blazers +27.5",
+   "id": "NCAAF|UAB Blazers @ Illinois Fighting Illini|Spread|away",
    "line": 27.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -115,
    "p": 0.599282,
@@ -257,8 +272,9 @@
     ]
    ],
    "home": "USC Trojans",
-   "id": "NCAAF|Fresno State Bulldogs @ USC Trojans|Spread|Fresno State Bulldogs +21.5",
+   "id": "NCAAF|Fresno State Bulldogs @ USC Trojans|Spread|away",
    "line": 21.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -115,
    "p": 0.583489,
@@ -320,8 +336,9 @@
     ]
    ],
    "home": "Stanford Cardinal",
-   "id": "NCAAF|Miami Hurricanes @ Stanford Cardinal|Spread|Stanford Cardinal +24.5",
+   "id": "NCAAF|Miami Hurricanes @ Stanford Cardinal|Spread|home",
    "line": 24.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -106,
    "p": 0.701267,
@@ -383,8 +400,9 @@
     ]
    ],
    "home": "Stanford Cardinal",
-   "id": "NCAAF|Miami Hurricanes @ Stanford Cardinal|Total|Under 47.5",
+   "id": "NCAAF|Miami Hurricanes @ Stanford Cardinal|Total|under",
    "line": 47.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -118,
    "p": 0.656978,
@@ -443,11 +461,17 @@
      "2026-09-04T12:17:48+00:00",
      2000,
      -7000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     2000,
+     -7000
     ]
    ],
    "home": "Alabama Crimson Tide",
-   "id": "NCAAF|East Carolina Pirates @ Alabama Crimson Tide|Moneyline|East Carolina Pirates ML",
+   "id": "NCAAF|East Carolina Pirates @ Alabama Crimson Tide|Moneyline|away",
    "line": null,
+   "line_moves": [],
    "market": "Moneyline",
    "other_price": -7000,
    "p": 0.15134,
@@ -486,11 +510,28 @@
      "2026-09-02T12:19:14+00:00",
      -114,
      -106
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Alabama Crimson Tide",
-   "id": "NCAAF|East Carolina Pirates @ Alabama Crimson Tide|Total|Under 53.5",
+   "id": "NCAAF|East Carolina Pirates @ Alabama Crimson Tide|Total|under",
    "line": 53.5,
+   "line_moves": [
+    {
+     "at": "2026-09-03T10:26:16+00:00",
+     "line": 52.5,
+     "price": -110
+    },
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 52.5,
+     "price": -110
+    }
+   ],
    "market": "Total",
    "other_price": -106,
    "p": 0.64236,
@@ -549,11 +590,23 @@
      "2026-09-04T12:17:48+00:00",
      980,
      -2000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     920,
+     -1800
     ]
    ],
    "home": "West Virginia Mountaineers",
-   "id": "NCAAF|Coastal Carolina Chanticleers @ West Virginia Mountaineers|Moneyline|Coastal Carolina Chanticleers ML",
+   "id": "NCAAF|Coastal Carolina Chanticleers @ West Virginia Mountaineers|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 920
+    }
+   ],
    "market": "Moneyline",
    "other_price": -1700,
    "p": 0.168592,
@@ -612,11 +665,17 @@
      "2026-09-04T12:17:48+00:00",
      -104,
      -118
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -104,
+     -118
     ]
    ],
    "home": "Houston Cougars",
-   "id": "NCAAF|Oregon State Beavers @ Houston Cougars|Spread|Oregon State Beavers +20.5",
+   "id": "NCAAF|Oregon State Beavers @ Houston Cougars|Spread|away",
    "line": 20.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -118,
    "p": 0.637399,
@@ -675,11 +734,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -108,
+     -112
     ]
    ],
    "home": "Houston Cougars",
-   "id": "NCAAF|Oregon State Beavers @ Houston Cougars|Total|Under 49.5",
+   "id": "NCAAF|Oregon State Beavers @ Houston Cougars|Total|under",
    "line": 49.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 50.5,
+     "price": -108
+    }
+   ],
    "market": "Total",
    "other_price": -110,
    "p": 0.585462,
@@ -718,11 +789,28 @@
      "2026-09-02T12:19:14+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "James Madison Dukes",
-   "id": "NCAAF|Liberty Flames @ James Madison Dukes|Total|Over 51.5",
+   "id": "NCAAF|Liberty Flames @ James Madison Dukes|Total|over",
    "line": 51.5,
+   "line_moves": [
+    {
+     "at": "2026-09-03T10:26:16+00:00",
+     "line": 50.5,
+     "price": -110
+    },
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 50.5,
+     "price": -110
+    }
+   ],
    "market": "Total",
    "other_price": -115,
    "p": 0.591544,
@@ -761,11 +849,28 @@
      "2026-09-02T12:19:14+00:00",
      -115,
      -105
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "UConn Huskies",
-   "id": "NCAAF|Lafayette Leopards @ UConn Huskies|Spread|UConn Huskies -18.5",
+   "id": "NCAAF|Lafayette Leopards @ UConn Huskies|Spread|home",
    "line": -18.5,
+   "line_moves": [
+    {
+     "at": "2026-09-03T10:26:16+00:00",
+     "line": -19.5,
+     "price": -110
+    },
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -19.5,
+     "price": -110
+    }
+   ],
    "market": "Spread",
    "other_price": -105,
    "p": 0.725251,
@@ -807,8 +912,9 @@
     ]
    ],
    "home": "UConn Huskies",
-   "id": "NCAAF|Lafayette Leopards @ UConn Huskies|Total|Under 57.5",
+   "id": "NCAAF|Lafayette Leopards @ UConn Huskies|Total|under",
    "line": 57.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -114,
    "p": 0.576737,
@@ -867,11 +973,23 @@
      "2026-09-04T12:17:48+00:00",
      -108,
      -112
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -108,
+     -112
     ]
    ],
    "home": "Pittsburgh Panthers",
-   "id": "NCAAF|Miami (OH) RedHawks @ Pittsburgh Panthers|Spread|Miami (OH) RedHawks +16.5",
+   "id": "NCAAF|Miami (OH) RedHawks @ Pittsburgh Panthers|Spread|away",
    "line": 16.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 16.5,
+     "price": -108
+    }
+   ],
    "market": "Spread",
    "other_price": -115,
    "p": 0.575604,
@@ -930,11 +1048,17 @@
      "2026-09-04T12:17:48+00:00",
      1400,
      -4000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     1400,
+     -4000
     ]
    ],
    "home": "Nebraska Cornhuskers",
-   "id": "NCAAF|Ohio Bobcats @ Nebraska Cornhuskers|Moneyline|Ohio Bobcats ML",
+   "id": "NCAAF|Ohio Bobcats @ Nebraska Cornhuskers|Moneyline|away",
    "line": null,
+   "line_moves": [],
    "market": "Moneyline",
    "other_price": -4000,
    "p": 0.169869,
@@ -993,11 +1117,23 @@
      "2026-09-04T12:17:48+00:00",
      -106,
      -114
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -106,
+     -114
     ]
    ],
    "home": "Nebraska Cornhuskers",
-   "id": "NCAAF|Ohio Bobcats @ Nebraska Cornhuskers|Total|Over 46.5",
+   "id": "NCAAF|Ohio Bobcats @ Nebraska Cornhuskers|Total|over",
    "line": 46.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 46.5,
+     "price": -106
+    }
+   ],
    "market": "Total",
    "other_price": -115,
    "p": 0.605363,
@@ -1049,8 +1185,9 @@
     ]
    ],
    "home": "Syracuse Orange",
-   "id": "NCAAF|New Hampshire Wildcats @ Syracuse Orange|Moneyline|New Hampshire Wildcats ML",
+   "id": "NCAAF|New Hampshire Wildcats @ Syracuse Orange|Moneyline|away",
    "line": null,
+   "line_moves": [],
    "market": "Moneyline",
    "other_price": -30000,
    "p": 0.165162,
@@ -1109,11 +1246,23 @@
      "2026-09-04T12:17:48+00:00",
      -114,
      -106
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -114,
+     -106
     ]
    ],
    "home": "Air Force Falcons",
-   "id": "NCAAF|Duquesne Dukes @ Air Force Falcons|Spread|Air Force Falcons -28.5",
+   "id": "NCAAF|Duquesne Dukes @ Air Force Falcons|Spread|home",
    "line": -28.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -28.5,
+     "price": -114
+    }
+   ],
    "market": "Spread",
    "other_price": -115,
    "p": 0.66785,
@@ -1172,11 +1321,23 @@
      "2026-09-04T12:17:48+00:00",
      -115,
      -105
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Iowa State Cyclones",
-   "id": "NCAAF|Southeast Missouri State Redhawks @ Iowa State Cyclones|Spread|Southeast Missouri State Redhawks +30.5",
+   "id": "NCAAF|Southeast Missouri State Redhawks @ Iowa State Cyclones|Spread|away",
    "line": 30.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 30.5,
+     "price": -110
+    }
+   ],
    "market": "Spread",
    "other_price": -105,
    "p": 0.672757,
@@ -1238,8 +1399,9 @@
     ]
    ],
    "home": "Iowa State Cyclones",
-   "id": "NCAAF|Southeast Missouri State Redhawks @ Iowa State Cyclones|Total|Over 52.5",
+   "id": "NCAAF|Southeast Missouri State Redhawks @ Iowa State Cyclones|Total|over",
    "line": 52.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -115,
    "p": 0.579068,
@@ -1298,11 +1460,23 @@
      "2026-09-04T12:17:48+00:00",
      -800,
      540
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -720,
+     490
     ]
    ],
    "home": "Temple Owls",
-   "id": "NCAAF|Rhode Island Rams @ Temple Owls|Moneyline|Temple Owls ML",
+   "id": "NCAAF|Rhode Island Rams @ Temple Owls|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": -720
+    }
+   ],
    "market": "Moneyline",
    "other_price": 330,
    "p": 0.946916,
@@ -1361,11 +1535,17 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Oregon Ducks",
-   "id": "NCAAF|Boise State Broncos @ Oregon Ducks|Spread|Boise State Broncos +24.5",
+   "id": "NCAAF|Boise State Broncos @ Oregon Ducks|Spread|away",
    "line": 24.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -110,
    "p": 0.593876,
@@ -1424,11 +1604,17 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Oregon Ducks",
-   "id": "NCAAF|Boise State Broncos @ Oregon Ducks|Total|Over 51.5",
+   "id": "NCAAF|Boise State Broncos @ Oregon Ducks|Total|over",
    "line": 51.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -110,
    "p": 0.626121,
@@ -1487,11 +1673,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Cincinnati Bearcats",
-   "id": "NCAAF|Boston College Eagles @ Cincinnati Bearcats|Spread|Cincinnati Bearcats -7.5",
+   "id": "NCAAF|Boston College Eagles @ Cincinnati Bearcats|Spread|home",
    "line": -7.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -7.5,
+     "price": -110
+    }
+   ],
    "market": "Spread",
    "other_price": -112,
    "p": 0.598904,
@@ -1530,11 +1728,23 @@
      "2026-09-02T12:19:14+00:00",
      260,
      -330
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     245,
+     -310
     ]
    ],
    "home": "Duke Blue Devils",
-   "id": "NCAAF|Tulane Green Wave @ Duke Blue Devils|Moneyline|Tulane Green Wave ML",
+   "id": "NCAAF|Tulane Green Wave @ Duke Blue Devils|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 245
+    }
+   ],
    "market": "Moneyline",
    "other_price": -330,
    "p": 0.330847,
@@ -1573,11 +1783,23 @@
      "2026-09-02T12:19:14+00:00",
      -120,
      -102
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Duke Blue Devils",
-   "id": "NCAAF|Tulane Green Wave @ Duke Blue Devils|Spread|Tulane Green Wave +9.5",
+   "id": "NCAAF|Tulane Green Wave @ Duke Blue Devils|Spread|away",
    "line": 9.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 7.5,
+     "price": -110
+    }
+   ],
    "market": "Spread",
    "other_price": -102,
    "p": 0.632365,
@@ -1604,8 +1826,9 @@
     ]
    ],
    "home": "Penn State Nittany Lions",
-   "id": "NCAAF|Marshall Thundering Herd @ Penn State Nittany Lions|Spread|Marshall Thundering Herd +24.5",
+   "id": "NCAAF|Marshall Thundering Herd @ Penn State Nittany Lions|Spread|away",
    "line": 24.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -110,
    "p": 0.5803,
@@ -1664,11 +1887,23 @@
      "2026-09-04T12:17:48+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "Penn State Nittany Lions",
-   "id": "NCAAF|Marshall Thundering Herd @ Penn State Nittany Lions|Total|Over 52.5",
+   "id": "NCAAF|Marshall Thundering Herd @ Penn State Nittany Lions|Total|over",
    "line": 52.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 52.5,
+     "price": -105
+    }
+   ],
    "market": "Total",
    "other_price": -108,
    "p": 0.702215,
@@ -1727,11 +1962,17 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Texas Longhorns",
-   "id": "NCAAF|Texas State Bobcats @ Texas Longhorns|Total|Over 59.5",
+   "id": "NCAAF|Texas State Bobcats @ Texas Longhorns|Total|over",
    "line": 59.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -110,
    "p": 0.611938,
@@ -1790,11 +2031,23 @@
      "2026-09-04T12:17:48+00:00",
      -480,
      360
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -430,
+     330
     ]
    ],
    "home": "Memphis Tigers",
-   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Moneyline|Memphis Tigers ML",
+   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": -430
+    }
+   ],
    "market": "Moneyline",
    "other_price": 365,
    "p": 0.88467,
@@ -1853,11 +2106,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Memphis Tigers",
-   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Spread|Memphis Tigers -11.5",
+   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Spread|home",
    "line": -11.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -10.5,
+     "price": -110
+    }
+   ],
    "market": "Spread",
    "other_price": -110,
    "p": 0.602435,
@@ -1878,14 +2143,31 @@
    "first_seen": "2026-08-31T21:17:46+00:00",
    "history": [
     [
-     "2026-08-31T21:17:46+00:00",
-     -106,
-     -114
+     "2026-09-01T01:36:57+00:00",
+     -114,
+     -106
+    ],
+    [
+     "2026-09-01T12:49:23+00:00",
+     -114,
+     -106
+    ],
+    [
+     "2026-09-02T12:19:14+00:00",
+     -114,
+     -106
     ]
    ],
    "home": "Memphis Tigers",
-   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Total|Over 52.5",
+   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Total|over",
    "line": 52.5,
+   "line_moves": [
+    {
+     "at": "2026-09-01T01:36:57+00:00",
+     "line": 51.5,
+     "price": -114
+    }
+   ],
    "market": "Total",
    "other_price": -114,
    "p": 0.565046,
@@ -1944,11 +2226,23 @@
      "2026-09-04T12:17:48+00:00",
      2400,
      -10000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     2400,
+     -10000
     ]
    ],
    "home": "Vanderbilt Commodores",
-   "id": "NCAAF|Austin Peay Governors @ Vanderbilt Commodores|Moneyline|Austin Peay Governors ML",
+   "id": "NCAAF|Austin Peay Governors @ Vanderbilt Commodores|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 2400
+    }
+   ],
    "market": "Moneyline",
    "other_price": -10000,
    "p": 0.119658,
@@ -2007,11 +2301,23 @@
      "2026-09-04T12:17:48+00:00",
      2000,
      -7000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     1600,
+     -4500
     ]
    ],
    "home": "Georgia Southern Eagles",
-   "id": "NCAAF|Charleston Southern Buccaneers @ Georgia Southern Eagles|Moneyline|Charleston Southern Buccaneers ML",
+   "id": "NCAAF|Charleston Southern Buccaneers @ Georgia Southern Eagles|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 1600
+    }
+   ],
    "market": "Moneyline",
    "other_price": -7000,
    "p": 0.208479,
@@ -2070,11 +2376,23 @@
      "2026-09-04T12:17:48+00:00",
      -108,
      -112
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "Jacksonville State Gamecocks",
-   "id": "NCAAF|Eastern Kentucky Colonels @ Jacksonville State Gamecocks|Spread|Eastern Kentucky Colonels +20.5",
+   "id": "NCAAF|Eastern Kentucky Colonels @ Jacksonville State Gamecocks|Spread|away",
    "line": 20.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 20.5,
+     "price": -105
+    }
+   ],
    "market": "Spread",
    "other_price": -112,
    "p": 0.674935,
@@ -2133,11 +2451,23 @@
      "2026-09-04T12:17:48+00:00",
      -710,
      480
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -710,
+     480
     ]
    ],
    "home": "South Florida Bulls",
-   "id": "NCAAF|Florida International Panthers @ South Florida Bulls|Moneyline|South Florida Bulls ML",
+   "id": "NCAAF|Florida International Panthers @ South Florida Bulls|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": -710
+    }
+   ],
    "market": "Moneyline",
    "other_price": 440,
    "p": 0.960978,
@@ -2196,11 +2526,23 @@
      "2026-09-04T12:17:48+00:00",
      430,
      -600
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     450,
+     -630
     ]
    ],
    "home": "Utah State Aggies",
-   "id": "NCAAF|Idaho State Bengals @ Utah State Aggies|Moneyline|Idaho State Bengals ML",
+   "id": "NCAAF|Idaho State Bengals @ Utah State Aggies|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 450
+    }
+   ],
    "market": "Moneyline",
    "other_price": -580,
    "p": 0.338309,
@@ -2259,11 +2601,17 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Utah State Aggies",
-   "id": "NCAAF|Idaho State Bengals @ Utah State Aggies|Total|Over 61.5",
+   "id": "NCAAF|Idaho State Bengals @ Utah State Aggies|Total|over",
    "line": 61.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -110,
    "p": 0.691292,
@@ -2322,11 +2670,23 @@
      "2026-09-04T12:17:48+00:00",
      -104,
      -118
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "Middle Tennessee Blue Raiders",
-   "id": "NCAAF|Murray State Racers @ Middle Tennessee Blue Raiders|Spread|Murray State Racers +20.5",
+   "id": "NCAAF|Murray State Racers @ Middle Tennessee Blue Raiders|Spread|away",
    "line": 20.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 21.5,
+     "price": -115
+    }
+   ],
    "market": "Spread",
    "other_price": -118,
    "p": 0.580875,
@@ -2378,8 +2738,9 @@
     ]
    ],
    "home": "Middle Tennessee Blue Raiders",
-   "id": "NCAAF|Murray State Racers @ Middle Tennessee Blue Raiders|Total|Under 59.5",
+   "id": "NCAAF|Murray State Racers @ Middle Tennessee Blue Raiders|Total|under",
    "line": 59.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -110,
    "p": 0.575863,
@@ -2438,11 +2799,23 @@
      "2026-09-04T12:17:48+00:00",
      310,
      -390
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     315,
+     -400
     ]
    ],
    "home": "LSU Tigers",
-   "id": "NCAAF|Clemson Tigers @ LSU Tigers|Moneyline|Clemson Tigers ML",
+   "id": "NCAAF|Clemson Tigers @ LSU Tigers|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 315
+    }
+   ],
    "market": "Moneyline",
    "other_price": -375,
    "p": 0.362785,
@@ -2501,11 +2874,23 @@
      "2026-09-04T12:17:48+00:00",
      -120,
      -102
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -118,
+     -104
     ]
    ],
    "home": "LSU Tigers",
-   "id": "NCAAF|Clemson Tigers @ LSU Tigers|Spread|Clemson Tigers +10.5",
+   "id": "NCAAF|Clemson Tigers @ LSU Tigers|Spread|away",
    "line": 10.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 10.5,
+     "price": -118
+    }
+   ],
    "market": "Spread",
    "other_price": 100,
    "p": 0.693687,
@@ -2564,11 +2949,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "Mississippi State Bulldogs",
-   "id": "NCAAF|UL Monroe Warhawks @ Mississippi State Bulldogs|Spread|UL Monroe Warhawks +28.5",
+   "id": "NCAAF|UL Monroe Warhawks @ Mississippi State Bulldogs|Spread|away",
    "line": 28.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 28.5,
+     "price": -115
+    }
+   ],
    "market": "Spread",
    "other_price": -112,
    "p": 0.671754,
@@ -2627,11 +3024,23 @@
      "2026-09-04T12:17:48+00:00",
      -550,
      400
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -520,
+     385
     ]
    ],
    "home": "Northwestern Wildcats",
-   "id": "NCAAF|South Dakota State Jackrabbits @ Northwestern Wildcats|Moneyline|Northwestern Wildcats ML",
+   "id": "NCAAF|South Dakota State Jackrabbits @ Northwestern Wildcats|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": -520
+    }
+   ],
    "market": "Moneyline",
    "other_price": 400,
    "p": 0.927612,
@@ -2680,11 +3089,28 @@
      "2026-09-03T12:17:06+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -108,
+     -112
     ]
    ],
    "home": "Northwestern Wildcats",
-   "id": "NCAAF|South Dakota State Jackrabbits @ Northwestern Wildcats|Spread|Northwestern Wildcats -13.5",
+   "id": "NCAAF|South Dakota State Jackrabbits @ Northwestern Wildcats|Spread|home",
    "line": -13.5,
+   "line_moves": [
+    {
+     "at": "2026-09-04T00:22:47+00:00",
+     "line": -12.5,
+     "price": -112
+    },
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -12.5,
+     "price": -108
+    }
+   ],
    "market": "Spread",
    "other_price": -115,
    "p": 0.639051,
@@ -2743,11 +3169,23 @@
      "2026-09-04T12:17:48+00:00",
      2400,
      -10000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     2400,
+     -10000
     ]
    ],
    "home": "New Mexico State Aggies",
-   "id": "NCAAF|Mercyhurst Lakers @ New Mexico State Aggies|Moneyline|Mercyhurst Lakers ML",
+   "id": "NCAAF|Mercyhurst Lakers @ New Mexico State Aggies|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 2400
+    }
+   ],
    "market": "Moneyline",
    "other_price": -8000,
    "p": 0.106349,
@@ -2786,11 +3224,23 @@
      "2026-09-02T12:19:14+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "Arizona Wildcats",
-   "id": "NCAAF|Northern Arizona Lumberjacks @ Arizona Wildcats|Total|Under 57.5",
+   "id": "NCAAF|Northern Arizona Lumberjacks @ Arizona Wildcats|Total|under",
    "line": 57.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 58.5,
+     "price": -115
+    }
+   ],
    "market": "Total",
    "other_price": -110,
    "p": 0.575571,
@@ -2849,11 +3299,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -106,
+     -114
     ]
    ],
    "home": "New Mexico Lobos",
-   "id": "NCAAF|Central Michigan Chippewas @ New Mexico Lobos|Total|Under 46.5",
+   "id": "NCAAF|Central Michigan Chippewas @ New Mexico Lobos|Total|under",
    "line": 46.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 46.5,
+     "price": -106
+    }
+   ],
    "market": "Total",
    "other_price": -108,
    "p": 0.615356,
@@ -2912,11 +3374,23 @@
      "2026-09-04T12:17:48+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -114,
+     -106
     ]
    ],
    "home": "California Golden Bears",
-   "id": "NCAAF|UCLA Bruins @ California Golden Bears|Spread|California Golden Bears +1.5",
+   "id": "NCAAF|UCLA Bruins @ California Golden Bears|Spread|home",
    "line": 1.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 2.5,
+     "price": -114
+    }
+   ],
    "market": "Spread",
    "other_price": -114,
    "p": 0.580492,
@@ -2958,8 +3432,9 @@
     ]
    ],
    "home": "California Golden Bears",
-   "id": "NCAAF|UCLA Bruins @ California Golden Bears|Total|Under 53.5",
+   "id": "NCAAF|UCLA Bruins @ California Golden Bears|Total|under",
    "line": 53.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -114,
    "p": 0.56973,
@@ -3018,11 +3493,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -104,
+     -118
     ]
    ],
    "home": "Nevada Wolf Pack",
-   "id": "NCAAF|Western Kentucky Hilltoppers @ Nevada Wolf Pack|Total|Under 52.5",
+   "id": "NCAAF|Western Kentucky Hilltoppers @ Nevada Wolf Pack|Total|under",
    "line": 52.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 51.5,
+     "price": -104
+    }
+   ],
    "market": "Total",
    "other_price": -106,
    "p": 0.722767,
@@ -3081,11 +3568,23 @@
      "2026-09-04T12:17:48+00:00",
      1160,
      -2800
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     1200,
+     -3000
     ]
    ],
    "home": "Washington Huskies",
-   "id": "NCAAF|Washington State Cougars @ Washington Huskies|Moneyline|Washington State Cougars ML",
+   "id": "NCAAF|Washington State Cougars @ Washington Huskies|Moneyline|away",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 1200
+    }
+   ],
    "market": "Moneyline",
    "other_price": -3500,
    "p": 0.130881,
@@ -3144,11 +3643,23 @@
      "2026-09-04T12:17:48+00:00",
      -260,
      215
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -240,
+     198
     ]
    ],
    "home": "Ole Miss Rebels",
-   "id": "NCAAF|Louisville Cardinals @ Ole Miss Rebels|Moneyline|Ole Miss Rebels ML",
+   "id": "NCAAF|Louisville Cardinals @ Ole Miss Rebels|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": -240
+    }
+   ],
    "market": "Moneyline",
    "other_price": 215,
    "p": 0.808855,
@@ -3207,11 +3718,23 @@
      "2026-09-04T12:17:48+00:00",
      -122,
      100
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "Ole Miss Rebels",
-   "id": "NCAAF|Louisville Cardinals @ Ole Miss Rebels|Spread|Ole Miss Rebels -6.5",
+   "id": "NCAAF|Louisville Cardinals @ Ole Miss Rebels|Spread|home",
    "line": -6.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -6.5,
+     "price": -115
+    }
+   ],
    "market": "Spread",
    "other_price": 100,
    "p": 0.634179,
@@ -3260,11 +3783,28 @@
      "2026-09-03T12:17:06+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Notre Dame Fighting Irish",
-   "id": "NCAAF|Wisconsin Badgers @ Notre Dame Fighting Irish|Total|Under 47.5",
+   "id": "NCAAF|Wisconsin Badgers @ Notre Dame Fighting Irish|Total|under",
    "line": 47.5,
+   "line_moves": [
+    {
+     "at": "2026-09-04T00:22:47+00:00",
+     "line": 46.5,
+     "price": -110
+    },
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 46.5,
+     "price": -110
+    }
+   ],
    "market": "Total",
    "other_price": -110,
    "p": 0.683384,
@@ -3312,8 +3852,9 @@
     ]
    ],
    "home": "Wake Forest Demon Deacons",
-   "id": "NCAAF|Akron Zips @ Wake Forest Demon Deacons|Spread|Akron Zips +24.5",
+   "id": "NCAAF|Akron Zips @ Wake Forest Demon Deacons|Spread|away",
    "line": 24.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -114,
    "p": 0.589627,
@@ -3321,44 +3862,6 @@
    "price": -106,
    "result": "W",
    "selection": "away",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
-  },
-  {
-   "away": "Arkansas State Red Wolves",
-   "clv": null,
-   "commence": "2026-09-05T23:00:00Z",
-   "edge": 6.143,
-   "ev": 0.11532,
-   "final": null,
-   "first_seen": "2026-09-01T01:36:57+00:00",
-   "history": [
-    [
-     "2026-09-01T01:36:57+00:00",
-     -114,
-     -106
-    ],
-    [
-     "2026-09-01T12:49:23+00:00",
-     -114,
-     -106
-    ],
-    [
-     "2026-09-02T12:19:14+00:00",
-     -114,
-     -106
-    ]
-   ],
-   "home": "Memphis Tigers",
-   "id": "NCAAF|Arkansas State Red Wolves @ Memphis Tigers|Total|Over 51.5",
-   "line": 51.5,
-   "market": "Total",
-   "other_price": -106,
-   "p": 0.594144,
-   "pick": "Over 51.5",
-   "price": -114,
-   "result": null,
-   "selection": "over",
    "sport": "NCAAF",
    "week": "Week of Aug 31"
   },
@@ -3405,11 +3908,23 @@
      "2026-09-04T12:17:48+00:00",
      125,
      -150
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     125,
+     -150
     ]
    ],
    "home": "Florida State Seminoles",
-   "id": "NCAAF|SMU Mustangs @ Florida State Seminoles|Moneyline|Florida State Seminoles ML",
+   "id": "NCAAF|SMU Mustangs @ Florida State Seminoles|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": 125
+    }
+   ],
    "market": "Moneyline",
    "other_price": -162,
    "p": 0.622726,
@@ -3453,11 +3968,28 @@
      "2026-09-03T12:17:06+00:00",
      -115,
      -105
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     100,
+     -122
     ]
    ],
    "home": "Florida State Seminoles",
-   "id": "NCAAF|SMU Mustangs @ Florida State Seminoles|Spread|Florida State Seminoles +3.5",
+   "id": "NCAAF|SMU Mustangs @ Florida State Seminoles|Spread|home",
    "line": 3.5,
+   "line_moves": [
+    {
+     "at": "2026-09-04T00:22:47+00:00",
+     "line": 2.5,
+     "price": 100
+    },
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": 2.5,
+     "price": 100
+    }
+   ],
    "market": "Spread",
    "other_price": -105,
    "p": 0.725224,
@@ -3467,169 +3999,6 @@
    "selection": "home",
    "sport": "NCAAF",
    "week": "Week of Sep 7"
-  },
-  {
-   "away": "Colorado Buffaloes",
-   "closing_price": -104,
-   "clv": 0.0,
-   "commence": "2026-09-04T00:00:00Z",
-   "edge": 11.18,
-   "ev": 0.21929,
-   "final": "14-13",
-   "first_seen": "2026-09-03T10:26:16+00:00",
-   "history": [
-    [
-     "2026-09-03T10:26:16+00:00",
-     -104,
-     -118
-    ],
-    [
-     "2026-09-03T12:17:06+00:00",
-     -104,
-     -118
-    ]
-   ],
-   "home": "Georgia Tech Yellow Jackets",
-   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Total|Over 51.5",
-   "line": 51.5,
-   "market": "Total",
-   "other_price": -118,
-   "p": 0.6216,
-   "pick": "Over 51.5",
-   "price": -104,
-   "result": "L",
-   "selection": "over",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
-  },
-  {
-   "away": "East Carolina Pirates",
-   "clv": null,
-   "commence": "2026-09-05T16:00:00Z",
-   "edge": 9.041,
-   "ev": 0.1726,
-   "final": null,
-   "first_seen": "2026-09-03T10:26:16+00:00",
-   "history": [
-    [
-     "2026-09-03T10:26:16+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-03T12:17:06+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T00:22:47+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T12:17:48+00:00",
-     -110,
-     -110
-    ]
-   ],
-   "home": "Alabama Crimson Tide",
-   "id": "NCAAF|East Carolina Pirates @ Alabama Crimson Tide|Total|Under 52.5",
-   "line": 52.5,
-   "market": "Total",
-   "other_price": -110,
-   "p": 0.614218,
-   "pick": "Under 52.5",
-   "price": -110,
-   "result": null,
-   "selection": "under",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
-  },
-  {
-   "away": "Liberty Flames",
-   "clv": null,
-   "commence": "2026-09-05T16:00:00Z",
-   "edge": 9.637,
-   "ev": 0.18399,
-   "final": null,
-   "first_seen": "2026-09-03T10:26:16+00:00",
-   "history": [
-    [
-     "2026-09-03T10:26:16+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-03T12:17:06+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T00:22:47+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T12:17:48+00:00",
-     -110,
-     -110
-    ]
-   ],
-   "home": "James Madison Dukes",
-   "id": "NCAAF|Liberty Flames @ James Madison Dukes|Total|Over 50.5",
-   "line": 50.5,
-   "market": "Total",
-   "other_price": -110,
-   "p": 0.620184,
-   "pick": "Over 50.5",
-   "price": -110,
-   "result": null,
-   "selection": "over",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
-  },
-  {
-   "away": "Lafayette Leopards",
-   "clv": null,
-   "commence": "2026-09-05T16:00:00Z",
-   "edge": 17.356,
-   "ev": 0.33135,
-   "final": null,
-   "first_seen": "2026-09-03T10:26:16+00:00",
-   "history": [
-    [
-     "2026-09-03T10:26:16+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-03T12:17:06+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T00:22:47+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T12:17:48+00:00",
-     -110,
-     -110
-    ]
-   ],
-   "home": "UConn Huskies",
-   "id": "NCAAF|Lafayette Leopards @ UConn Huskies|Spread|UConn Huskies -19.5",
-   "line": -19.5,
-   "market": "Spread",
-   "other_price": -110,
-   "p": 0.697373,
-   "pick": "UConn Huskies -19.5",
-   "price": -110,
-   "result": null,
-   "selection": "home",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
   },
   {
    "away": "Miami (OH) RedHawks",
@@ -3659,11 +4028,17 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Pittsburgh Panthers",
-   "id": "NCAAF|Miami (OH) RedHawks @ Pittsburgh Panthers|Total|Over 47.5",
+   "id": "NCAAF|Miami (OH) RedHawks @ Pittsburgh Panthers|Total|over",
    "line": 47.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -110,
    "p": 0.596164,
@@ -3702,11 +4077,23 @@
      "2026-09-04T12:17:48+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "Temple Owls",
-   "id": "NCAAF|Rhode Island Rams @ Temple Owls|Spread|Temple Owls -14.5",
+   "id": "NCAAF|Rhode Island Rams @ Temple Owls|Spread|home",
    "line": -14.5,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": -14.5,
+     "price": -105
+    }
+   ],
    "market": "Spread",
    "other_price": -105,
    "p": 0.667019,
@@ -3748,8 +4135,9 @@
     ]
    ],
    "home": "South Florida Bulls",
-   "id": "NCAAF|Florida International Panthers @ South Florida Bulls|Spread|South Florida Bulls -14.5",
+   "id": "NCAAF|Florida International Panthers @ South Florida Bulls|Spread|home",
    "line": -14.5,
+   "line_moves": [],
    "market": "Spread",
    "other_price": -108,
    "p": 0.71843,
@@ -3788,11 +4176,17 @@
      "2026-09-04T12:17:48+00:00",
      2000,
      -7000
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     2000,
+     -7000
     ]
    ],
    "home": "Michigan Wolverines",
-   "id": "NCAAF|Western Michigan Broncos @ Michigan Wolverines|Moneyline|Western Michigan Broncos ML",
+   "id": "NCAAF|Western Michigan Broncos @ Michigan Wolverines|Moneyline|away",
    "line": null,
+   "line_moves": [],
    "market": "Moneyline",
    "other_price": -7000,
    "p": 0.098407,
@@ -3824,8 +4218,9 @@
     ]
    ],
    "home": "California Golden Bears",
-   "id": "NCAAF|UCLA Bruins @ California Golden Bears|Moneyline|California Golden Bears ML",
+   "id": "NCAAF|UCLA Bruins @ California Golden Bears|Moneyline|home",
    "line": null,
+   "line_moves": [],
    "market": "Moneyline",
    "other_price": -126,
    "p": 0.532149,
@@ -3846,36 +4241,15 @@
    "first_seen": "2026-09-04T00:22:47+00:00",
    "history": [],
    "home": "Delaware Blue Hens",
-   "id": "NCAAF|Merrimack Warriors @ Delaware Blue Hens|Total|Over 41.5",
+   "id": "NCAAF|Merrimack Warriors @ Delaware Blue Hens|Total|over",
    "line": 41.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -114,
    "p": 0.63371,
    "pick": "Over 41.5",
    "price": -114,
    "result": "W",
-   "selection": "over",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
-  },
-  {
-   "away": "Colorado Buffaloes",
-   "clv": null,
-   "commence": "2026-09-04T00:20:00Z",
-   "edge": 6.918,
-   "ev": 0.13207,
-   "final": "14-13",
-   "first_seen": "2026-09-04T00:22:47+00:00",
-   "history": [],
-   "home": "Georgia Tech Yellow Jackets",
-   "id": "NCAAF|Colorado Buffaloes @ Georgia Tech Yellow Jackets|Total|Over 52.5",
-   "line": 52.5,
-   "market": "Total",
-   "other_price": -110,
-   "p": 0.592989,
-   "pick": "Over 52.5",
-   "price": -110,
-   "result": "L",
    "selection": "over",
    "sport": "NCAAF",
    "week": "Week of Aug 31"
@@ -3898,11 +4272,23 @@
      "2026-09-04T12:17:48+00:00",
      -295,
      235
+    ],
+    [
+     "2026-09-05T03:05:45+00:00",
+     -315,
+     250
     ]
    ],
    "home": "Cincinnati Bearcats",
-   "id": "NCAAF|Boston College Eagles @ Cincinnati Bearcats|Moneyline|Cincinnati Bearcats ML",
+   "id": "NCAAF|Boston College Eagles @ Cincinnati Bearcats|Moneyline|home",
    "line": null,
+   "line_moves": [
+    {
+     "at": "2026-09-05T03:05:45+00:00",
+     "line": null,
+     "price": -315
+    }
+   ],
    "market": "Moneyline",
    "other_price": 235,
    "p": 0.805905,
@@ -3914,99 +4300,87 @@
    "week": "Week of Aug 31"
   },
   {
-   "away": "South Dakota State Jackrabbits",
+   "away": "San Francisco 49ers",
    "clv": null,
-   "commence": "2026-09-06T00:00:00Z",
-   "edge": 14.085,
-   "ev": 0.26661,
+   "commence": "2026-09-11T00:35:00Z",
+   "edge": 7.062,
+   "ev": 0.13204,
    "final": null,
-   "first_seen": "2026-09-04T00:22:47+00:00",
+   "first_seen": "2026-09-05T03:05:45+00:00",
    "history": [
     [
-     "2026-09-04T00:22:47+00:00",
-     -112,
-     -108
-    ],
-    [
-     "2026-09-04T12:17:48+00:00",
-     -112,
-     -108
+     "2026-09-05T03:05:45+00:00",
+     -115,
+     -105
     ]
    ],
-   "home": "Northwestern Wildcats",
-   "id": "NCAAF|South Dakota State Jackrabbits @ Northwestern Wildcats|Spread|Northwestern Wildcats -12.5",
-   "line": -12.5,
+   "home": "Los Angeles Rams",
+   "id": "NFL|San Francisco 49ers @ Los Angeles Rams|Spread|home",
+   "line": -3.5,
+   "line_moves": [],
    "market": "Spread",
-   "other_price": -108,
-   "p": 0.669153,
-   "pick": "Northwestern Wildcats -12.5",
-   "price": -112,
+   "other_price": -105,
+   "p": 0.605508,
+   "pick": "Los Angeles Rams -3.5",
+   "price": -115,
    "result": null,
    "selection": "home",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
+   "sport": "NFL",
+   "week": "Week of Sep 7"
   },
   {
-   "away": "Wisconsin Badgers",
+   "away": "Lafayette Leopards",
    "clv": null,
-   "commence": "2026-09-06T23:30:00Z",
-   "edge": 13.262,
-   "ev": 0.25318,
+   "commence": "2026-09-05T16:00:00Z",
+   "edge": 7.407,
+   "ev": 0.1414,
    "final": null,
-   "first_seen": "2026-09-04T00:22:47+00:00",
+   "first_seen": "2026-09-05T03:05:45+00:00",
    "history": [
     [
-     "2026-09-04T00:22:47+00:00",
-     -110,
-     -110
-    ],
-    [
-     "2026-09-04T12:17:48+00:00",
+     "2026-09-05T03:05:45+00:00",
      -110,
      -110
     ]
    ],
-   "home": "Notre Dame Fighting Irish",
-   "id": "NCAAF|Wisconsin Badgers @ Notre Dame Fighting Irish|Total|Under 46.5",
-   "line": 46.5,
+   "home": "UConn Huskies",
+   "id": "NCAAF|Lafayette Leopards @ UConn Huskies|Total|over",
+   "line": 51.5,
+   "line_moves": [],
    "market": "Total",
    "other_price": -110,
-   "p": 0.65643,
-   "pick": "Under 46.5",
+   "p": 0.597879,
+   "pick": "Over 51.5",
    "price": -110,
    "result": null,
-   "selection": "under",
+   "selection": "over",
    "sport": "NCAAF",
    "week": "Week of Aug 31"
   },
   {
-   "away": "SMU Mustangs",
+   "away": "Richmond Spiders",
    "clv": null,
-   "commence": "2026-09-07T23:30:00Z",
-   "edge": 19.734,
-   "ev": 0.39469,
+   "commence": "2026-09-11T23:00:00Z",
+   "edge": 11.292,
+   "ev": 0.21557,
    "final": null,
-   "first_seen": "2026-09-04T00:22:47+00:00",
+   "first_seen": "2026-09-05T03:05:45+00:00",
    "history": [
     [
-     "2026-09-04T00:22:47+00:00",
-     100,
-     -122
-    ],
-    [
-     "2026-09-04T12:17:48+00:00",
-     100,
-     -122
+     "2026-09-05T03:05:45+00:00",
+     -110,
+     -110
     ]
    ],
-   "home": "Florida State Seminoles",
-   "id": "NCAAF|SMU Mustangs @ Florida State Seminoles|Spread|Florida State Seminoles +2.5",
-   "line": 2.5,
+   "home": "NC State Wolfpack",
+   "id": "NCAAF|Richmond Spiders @ NC State Wolfpack|Spread|home",
+   "line": -30.5,
+   "line_moves": [],
    "market": "Spread",
-   "other_price": -122,
-   "p": 0.697345,
-   "pick": "Florida State Seminoles +2.5",
-   "price": 100,
+   "other_price": -110,
+   "p": 0.636726,
+   "pick": "NC State Wolfpack -30.5",
+   "price": -110,
    "result": null,
    "selection": "home",
    "sport": "NCAAF",

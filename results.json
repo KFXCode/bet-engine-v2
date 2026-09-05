@@ -1,10 +1,10 @@
 {
- "avg_clv": -0.023166666666666686,
- "clv_beat_rate": 0.3333333333333333,
- "generated_at": "2026-09-04T12:17:48+00:00",
+ "avg_clv": -0.027800000000000026,
+ "clv_beat_rate": 0.4,
+ "generated_at": "2026-09-05T03:05:45+00:00",
  "graded_through": "Week of Aug 31",
- "note": "Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only.",
- "pending": 68,
+ "note": "One pick per game, market and side. It is recorded at the price and line it was first published at, and graded against that number. Later line movement is noted but never regraded and never counted again. Win rate counts wins and losses only.",
+ "pending": 64,
  "picks": [
   {
    "closing_price": -255,
@@ -13,6 +13,7 @@
    "ev": 0.13944,
    "final": "14-13",
    "game": "Colorado Buffaloes @ Georgia Tech Yellow Jackets",
+   "line_note": null,
    "market": "Moneyline",
    "pick": "Georgia Tech Yellow Jackets ML",
    "price": -275,
@@ -27,6 +28,7 @@
    "ev": 0.2322,
    "final": "14-13",
    "game": "Colorado Buffaloes @ Georgia Tech Yellow Jackets",
+   "line_note": null,
    "market": "Spread",
    "pick": "Georgia Tech Yellow Jackets -6.5",
    "price": -120,
@@ -41,6 +43,7 @@
    "ev": 0.21439,
    "final": "14-13",
    "game": "Colorado Buffaloes @ Georgia Tech Yellow Jackets",
+   "line_note": "line moved +50.5 \u2192 +52.5 after we posted (graded at +50.5)",
    "market": "Total",
    "pick": "Over 50.5",
    "price": -115,
@@ -55,6 +58,7 @@
    "ev": 0.17003,
    "final": "23-42",
    "game": "UAB Blazers @ Illinois Fighting Illini",
+   "line_note": null,
    "market": "Spread",
    "pick": "UAB Blazers +27.5",
    "price": -105,
@@ -69,24 +73,11 @@
    "ev": 0.14588,
    "final": "16-38",
    "game": "Akron Zips @ Wake Forest Demon Deacons",
+   "line_note": null,
    "market": "Spread",
    "pick": "Akron Zips +24.5",
    "price": -106,
    "result": "W",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
-  },
-  {
-   "closing_price": -104,
-   "clv": 0.0,
-   "edge": 11.18,
-   "ev": 0.21929,
-   "final": "14-13",
-   "game": "Colorado Buffaloes @ Georgia Tech Yellow Jackets",
-   "market": "Total",
-   "pick": "Over 51.5",
-   "price": -104,
-   "result": "L",
    "sport": "NCAAF",
    "week": "Week of Aug 31"
   },
@@ -97,32 +88,19 @@
    "ev": 0.1896,
    "final": "7-42",
    "game": "Merrimack Warriors @ Delaware Blue Hens",
+   "line_note": null,
    "market": "Total",
    "pick": "Over 41.5",
    "price": -114,
    "result": "W",
    "sport": "NCAAF",
    "week": "Week of Aug 31"
-  },
-  {
-   "closing_price": null,
-   "clv": null,
-   "edge": 6.918,
-   "ev": 0.13207,
-   "final": "14-13",
-   "game": "Colorado Buffaloes @ Georgia Tech Yellow Jackets",
-   "market": "Total",
-   "pick": "Over 52.5",
-   "price": -110,
-   "result": "L",
-   "sport": "NCAAF",
-   "week": "Week of Aug 31"
   }
  ],
  "record": {
-  "l": 5,
+  "l": 3,
   "p": 0,
   "w": 3
  },
- "win_rate": 0.375
+ "win_rate": 0.5
 }
