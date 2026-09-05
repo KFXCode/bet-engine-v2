@@ -2,29 +2,21 @@
 """
 grade.py — records every published pick, tracks closing-line value, grades results.
 
-Runs right after edge_slate.py in the same workflow. It costs nothing: it reads
-the slate that edge_slate.py just wrote and gets final scores from ESPN, which
-is free. No odds-API credits are spent here.
+Runs after edge_slate.py in the same workflow. Free: it reads the slate already
+on disk and gets final scores from ESPN. No odds-API credits are spent here.
 
-What it does, in order:
+ONE PICK PER GAME + MARKET + SIDE.
+A pick's identity deliberately excludes the line and the price. "Over" on a
+given game is the same bet whether the number is 50.5 or 52.5 — if the identity
+included the line, every pre-kickoff refresh would mint a NEW pick and the same
+opinion would grade three or four times off one game. That inflates a losing
+opinion into several losses and makes the record meaningless.
 
-  1. Reads edge_slate.json and derives the picks with the SAME rule the board
-     uses — edge >= 5 points, EV > 0, edge <= 20 points.
-  2. Records any pick it has not seen before in picks_log.json, stamped with the
-     price it was published at. That price never changes afterwards, so the
-     record is of picks as published rather than as recomputed later.
-  3. Appends the current price for every ungraded pick to that pick's history.
-     The last price recorded before kickoff is treated as the closing line.
-  4. For games that are final, grades the pick and computes closing-line value:
-     how much better the published price was than where the market closed, in
-     probability points, with the book's margin divided out.
-  5. Writes results.json for the board.
-
-Closing-line value matters more than early win rate. Two weeks of picks gives a
-win rate with a confidence interval about nine points wide — it cannot tell a
-real edge from a hot streak. Consistently beating the closing line is evidence
-of an edge long before the results are statistically meaningful, because the
-closing line is the sharpest estimate anyone has.
+So: the FIRST publication owns the record. Its line, price, probability and edge
+are frozen at that moment and are what the pick grades against. Later refreshes
+that re-flag the same side at a different number are recorded in `line_moves`
+and surfaced as a short note — they never create a second pick and never affect
+the record.
 
 Env: EDGE_SLATE_PATH (default edge_slate.json), PICKS_LOG_PATH, RESULTS_PATH,
      EDGE_THRESHOLD (default 5), MAX_CREDIBLE_EDGE (default 20).
@@ -39,7 +31,7 @@ from datetime import date, datetime, timedelta, timezone
 import requests
 
 from picks_log import (PICKS_PATH, RESULTS_PATH, clv_points, edge_points,
-                       expected_value, implied, load_picks, no_vig, pick_id,
+                       expected_value, implied, load_picks, no_vig,
                        save_picks, save_results, to_decimal)
 
 SLATE_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
@@ -65,13 +57,18 @@ def clamp01(x):
     return max(1e-6, min(1.0 - 1e-6, x))
 
 
+def identity(sport, away, home, market, selection):
+    """What makes two entries THE SAME BET.
+
+    Note what is absent: the line and the price. Those move; the opinion does
+    not. Including them would let one opinion grade many times.
+    """
+    return "|".join([sport, away + " @ " + home, market, selection])
+
+
 # --------------------------------------------------- derive today's picks ----
 def candidates(g):
-    """Every side of every market in one game, with our probability for it.
-
-    Mirrors the board exactly: a normal distribution over the game margin for
-    the moneyline and the spread, and over the total for over/under.
-    """
+    """Every side of every market in one game, with our probability for it."""
     sd, sd_t = g.get("sdMargin"), g.get("sdTotal")
     if not sd or g.get("mlHome") is None or g.get("mlAway") is None:
         return []
@@ -152,6 +149,8 @@ def finals_for(sport, days_back=12):
             continue
         for ev in events:
             comp = (ev.get("competitions") or [{}])[0]
+            # Only a FINAL game may be graded. Grading mid-game marks outcomes
+            # that have not happened yet as losses.
             if not comp.get("status", {}).get("type", {}).get("completed"):
                 continue
             home = away = None
@@ -175,8 +174,6 @@ def find_final(finals, away, home):
     key = (normalize(away), normalize(home))
     if key in finals:
         return finals[key]
-    # fall back to a containment match — odds and ESPN spell a few schools
-    # differently ("Miami" vs "Miami Hurricanes")
     a, h = normalize(away), normalize(home)
     for (fa, fh), score in finals.items():
         if (fa in a or a in fa) and (fh in h or h in fh):
@@ -185,7 +182,7 @@ def find_final(finals, away, home):
 
 
 def settle(pick, away_score, home_score):
-    """('W'|'L'|'P', 'away-home') for a pick against a final score."""
+    """('W'|'L'|'P', 'away-home') against the pick's ORIGINAL line."""
     label = "%d-%d" % (int(away_score), int(home_score))
     margin = home_score - away_score          # home perspective
     total = home_score + away_score
@@ -211,7 +208,6 @@ def settle(pick, away_score, home_score):
     return "P", label
 
 
-# ------------------------------------------------------------------- main ----
 def week_of(iso):
     """A stable Monday-anchored week label, so a whole card grades as one week."""
     try:
@@ -222,6 +218,81 @@ def week_of(iso):
     return "Week of %s %d" % (monday.strftime("%b"), monday.day)
 
 
+def line_text(pick):
+    """A short human note about how the number moved after we published."""
+    moves = pick.get("line_moves") or []
+    if not moves:
+        return None
+    seen, ordered = set(), []
+    for m in moves:
+        key = (m.get("line"), m.get("price"))
+        if key in seen:
+            continue
+        seen.add(key)
+        ordered.append(m)
+    if not ordered:
+        return None
+    last = ordered[-1]
+    if pick.get("line") is not None and last.get("line") is not None:
+        if abs(float(last["line"]) - float(pick["line"])) > 1e-9:
+            return "line moved %+.1f \u2192 %+.1f after we posted (graded at %+.1f)" % (
+                float(pick["line"]), float(last["line"]), float(pick["line"]))
+    if last.get("price") is not None and last["price"] != pick.get("price"):
+        return "price moved %s \u2192 %s after we posted (graded at %s)" % (
+            pick["price"], last["price"], pick["price"])
+    return None
+
+
+# ------------------------------------------------------ migrate old ledger ----
+def collapse(log):
+    """Fold pre-existing duplicates into one pick each.
+
+    Earlier versions keyed a pick by its label, which carried the line, so a
+    moved line minted a second pick off the same opinion. Anything already in
+    the ledger is merged here: the earliest publication survives with its
+    original line and price, and the rest become line_moves.
+    """
+    merged, order, dropped = {}, [], 0
+    for p in log.get("picks", []):
+        key = identity(p["sport"], p["away"], p["home"], p["market"],
+                       p["selection"])
+        first = merged.get(key)
+        if first is None:
+            p["id"] = key
+            p.setdefault("line_moves", [])
+            merged[key] = p
+            order.append(key)
+            continue
+        dropped += 1
+        # keep whichever was published first; the other becomes a line move
+        older, newer = first, p
+        if (p.get("first_seen") or "") < (first.get("first_seen") or ""):
+            older, newer = p, first
+            older["id"] = key
+            older.setdefault("line_moves", first.get("line_moves", []))
+            merged[key] = older
+        older.setdefault("line_moves", []).append({
+            "at": newer.get("first_seen"),
+            "line": newer.get("line"),
+            "price": newer.get("price"),
+        })
+        # the surviving pick keeps the longest price history it has seen
+        if len(newer.get("history") or []) > len(older.get("history") or []):
+            older["history"] = newer["history"]
+        # a duplicate that was already graded contributes nothing; the survivor
+        # regrades from its own original line below
+        older["result"] = None
+        older["final"] = None
+        older["clv"] = None
+        older.pop("closing_price", None)
+    if dropped:
+        print("Collapsed %d duplicate entries created by line movement. "
+              "Each opinion is now one pick, graded at the line it was "
+              "published at." % dropped)
+    log["picks"] = [merged[k] for k in order]
+    return log
+
+
 def main():
     try:
         with open(SLATE_PATH) as f:
@@ -230,31 +301,47 @@ def main():
         print("no slate to read (%s) — nothing to record" % e)
         return
 
-    log = load_picks()
+    log = collapse(load_picks())
     by_id = {p["id"]: p for p in log["picks"]}
     now = datetime.now(timezone.utc)
     now_iso = now.isoformat(timespec="seconds")
-    added = updated = 0
+    added = updated = moves = 0
 
     for c in todays_picks(slate):
-        pid = pick_id(c["sport"], c["away"], c["home"], c["market"], c["label"])
+        pid = identity(c["sport"], c["away"], c["home"], c["market"],
+                       c["selection"])
         rec = by_id.get(pid)
+
         if rec is None:
             rec = {
                 "id": pid, "sport": c["sport"], "away": c["away"], "home": c["home"],
                 "commence": c["commence"], "market": c["market"],
-                "selection": c["selection"], "line": c["line"], "pick": c["label"],
+                "selection": c["selection"],
+                # frozen at first publication — never rewritten
+                "line": c["line"], "pick": c["label"],
                 "p": round(c["p"], 6),
                 "price": c["price"], "other_price": c["other"],
                 "edge": round(c["edge"], 3), "ev": round(c["ev"], 5),
                 "first_seen": now_iso,
-                "history": [], "result": None, "final": None, "clv": None,
+                "history": [], "line_moves": [],
+                "result": None, "final": None, "clv": None,
                 "week": week_of(c["commence"]),
             }
             log["picks"].append(rec)
             by_id[pid] = rec
             added += 1
-        # line history: only until the game starts, and only while ungraded
+        elif rec.get("result") is None:
+            # Same opinion, new number. Record the movement; change nothing that
+            # the record depends on.
+            same_line = (rec.get("line") is None and c["line"] is None) or (
+                rec.get("line") is not None and c["line"] is not None
+                and abs(float(rec["line"]) - float(c["line"])) < 1e-9)
+            if not same_line or c["price"] != rec.get("price"):
+                rec.setdefault("line_moves", []).append(
+                    {"at": now_iso, "line": c["line"], "price": c["price"]})
+                moves += 1
+
+        # line history for CLV: only before kickoff, only while ungraded
         if rec.get("result") is None:
             started = False
             try:
@@ -266,7 +353,7 @@ def main():
                 rec["history"].append([now_iso, c["price"], c["other"]])
                 updated += 1
 
-    # grade anything that has finished
+    # grade anything that has finished, against its ORIGINAL line
     sports = {p["sport"] for p in log["picks"] if p.get("result") is None}
     finals = {}
     for s in sports:
@@ -305,10 +392,10 @@ def main():
         "avg_clv": (sum(with_clv) / len(with_clv)) if with_clv else None,
         "clv_beat_rate": (sum(1 for c in with_clv if c > 0) / len(with_clv)) if with_clv else None,
         "pending": sum(1 for p in log["picks"] if p.get("result") is None),
-        "note": "Picks are recorded when published, at the price published. "
-                "Closing-line value compares that price with the last price "
-                "seen before kickoff, with the book's margin divided out. "
-                "Win rate counts wins and losses only.",
+        "note": "One pick per game, market and side. It is recorded at the "
+                "price and line it was first published at, and graded against "
+                "that number. Later line movement is noted but never regraded "
+                "and never counted again. Win rate counts wins and losses only.",
         "picks": [
             {
                 "week": p["week"], "sport": p["sport"],
@@ -317,15 +404,19 @@ def main():
                 "price": p["price"], "closing_price": p.get("closing_price"),
                 "edge": p["edge"], "ev": p["ev"],
                 "result": p["result"], "final": p["final"], "clv": p.get("clv"),
+                "line_note": line_text(p),
             }
             for p in graded
         ],
     })
 
-    print("recorded %d new picks, %d line updates, graded %d" % (added, updated, graded_now))
-    print("record %d-%d (%d push), %d still pending" % (W, L, P, sum(1 for p in log["picks"] if p.get("result") is None)))
+    print("recorded %d new picks, %d line updates, %d line moves noted, graded %d"
+          % (added, updated, moves, graded_now))
+    print("record %d-%d (%d push), %d pending"
+          % (W, L, P, sum(1 for p in log["picks"] if p.get("result") is None)))
     if with_clv:
-        print("average CLV %+.2f points over %d graded picks" % (sum(with_clv) / len(with_clv), len(with_clv)))
+        print("average CLV %+.2f points over %d graded picks"
+              % (sum(with_clv) / len(with_clv), len(with_clv)))
 
 
 if __name__ == "__main__":
