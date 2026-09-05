@@ -1,10 +1,10 @@
 {
- "avg_clv": -0.027800000000000026,
- "clv_beat_rate": 0.4,
- "generated_at": "2026-09-05T03:05:45+00:00",
+ "avg_clv": 0.251125,
+ "clv_beat_rate": 0.5,
+ "generated_at": "2026-09-05T11:25:17+00:00",
  "graded_through": "Week of Aug 31",
  "note": "One pick per game, market and side. It is recorded at the price and line it was first published at, and graded against that number. Later line movement is noted but never regraded and never counted again. Win rate counts wins and losses only.",
- "pending": 64,
+ "pending": 61,
  "picks": [
   {
    "closing_price": -255,
@@ -68,6 +68,51 @@
   },
   {
    "closing_price": -110,
+   "clv": 1.083,
+   "edge": 7.129,
+   "ev": 0.13919,
+   "final": "0-39",
+   "game": "Fresno State Bulldogs @ USC Trojans",
+   "line_note": null,
+   "market": "Spread",
+   "pick": "Fresno State Bulldogs +21.5",
+   "price": -105,
+   "result": "L",
+   "sport": "NCAAF",
+   "week": "Week of Aug 31"
+  },
+  {
+   "closing_price": -114,
+   "clv": 0.0,
+   "edge": 16.856,
+   "ev": 0.31641,
+   "final": "45-6",
+   "game": "Miami Hurricanes @ Stanford Cardinal",
+   "line_note": null,
+   "market": "Spread",
+   "pick": "Stanford Cardinal +24.5",
+   "price": -114,
+   "result": "L",
+   "sport": "NCAAF",
+   "week": "Week of Aug 31"
+  },
+  {
+   "closing_price": -108,
+   "clv": 1.065,
+   "edge": 14.717,
+   "ev": 0.28869,
+   "final": "45-6",
+   "game": "Miami Hurricanes @ Stanford Cardinal",
+   "line_note": null,
+   "market": "Total",
+   "pick": "Under 47.5",
+   "price": -104,
+   "result": "L",
+   "sport": "NCAAF",
+   "week": "Week of Aug 31"
+  },
+  {
+   "closing_price": -110,
    "clv": 0.866,
    "edge": 7.506,
    "ev": 0.14588,
@@ -98,9 +143,9 @@
   }
  ],
  "record": {
-  "l": 3,
+  "l": 6,
   "p": 0,
   "w": 3
  },
- "win_rate": 0.5
+ "win_rate": 0.3333333333333333
 }
