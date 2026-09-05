@@ -2,42 +2,84 @@
 """
 grade.py — records every published pick, tracks closing-line value, grades results.
 
-Runs after edge_slate.py in the same workflow. Free: it reads the slate already
-on disk and gets final scores from ESPN. No odds-API credits are spent here.
+Runs right after edge_slate.py in the same workflow. It costs no odds credits:
+it reads the slate that edge_slate.py just wrote, and gets final scores and
+final player stat lines from ESPN, which is free.
 
-ONE PICK PER GAME + MARKET + SIDE.
-A pick's identity deliberately excludes the line and the price. "Over" on a
-given game is the same bet whether the number is 50.5 or 52.5 — if the identity
-included the line, every pre-kickoff refresh would mint a NEW pick and the same
-opinion would grade three or four times off one game. That inflates a losing
-opinion into several losses and makes the record meaningless.
+What it does, in order:
 
-So: the FIRST publication owns the record. Its line, price, probability and edge
-are frozen at that moment and are what the pick grades against. Later refreshes
-that re-flag the same side at a different number are recorded in `line_moves`
-and surfaced as a short note — they never create a second pick and never affect
-the record.
+  1. Reads edge_slate.json and derives the picks with the SAME rule the board
+     uses — edge at or above the threshold for that group, EV > 0, edge no
+     higher than the credible cap.
+  2. Records any pick it has not seen before in picks_log.json, stamped with the
+     price it was published at. That price never changes afterwards, so the
+     record is of picks as published rather than as recomputed later.
+  3. Appends the current price for every ungraded pick to that pick's history.
+     The last price recorded before kickoff is treated as the closing line.
+  4. Grades what has finished — game lines off the final score, player props off
+     the box score — and computes closing-line value with the book's margin
+     divided out.
+  5. Writes results.json for the board, with SIDES AND PROPS KEPT APART.
 
-Env: EDGE_SLATE_PATH (default edge_slate.json), PICKS_LOG_PATH, RESULTS_PATH,
-     EDGE_THRESHOLD (default 5), MAX_CREDIBLE_EDGE (default 20).
+Sides and props are separate records on purpose. They come from different
+models fed by different data, they clear different thresholds, and mixing them
+would hide a bad one behind a good one. A blended number would be the single
+most misleading thing on the page.
+
+Closing-line value matters more than early win rate. Two weeks of picks gives a
+win rate with a confidence interval about nine points wide — it cannot tell a
+real edge from a hot streak. Consistently beating the closing line is evidence
+of an edge long before the results are statistically meaningful, because the
+closing line is the sharpest estimate anyone has.
+
+Env: EDGE_SLATE_PATH, PICKS_LOG_PATH, RESULTS_PATH, EDGE_THRESHOLD (default 5),
+     PROPS_THRESHOLD (default 7), MAX_CREDIBLE_EDGE (default 20),
+     MAX_PROPS_PER_GAME (default 2).
 """
 
 import json
 import math
 import os
 import time
+from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 
 import requests
 
 from picks_log import (PICKS_PATH, RESULTS_PATH, clv_points, edge_points,
-                       expected_value, implied, load_picks, no_vig,
+                       expected_value, implied, load_picks, no_vig, pick_id,
                        save_picks, save_results, to_decimal)
+from player_props import load_logs, refresh_logs, norm_name
 
 SLATE_PATH = os.environ.get("EDGE_SLATE_PATH", "edge_slate.json")
 THRESHOLD = float(os.environ.get("EDGE_THRESHOLD", "5"))
+PROPS_THRESHOLD = float(os.environ.get("PROPS_THRESHOLD", "7"))
 MAX_EDGE = float(os.environ.get("MAX_CREDIBLE_EDGE", "20"))
+
+# Props on the same game share a game script: a quarterback going over his
+# passing yards and his receiver going over his receiving yards are close to
+# the same bet twice. Capping how many props ride on one game keeps a single
+# blowout from taking out a whole day.
+MAX_PROPS_PER_GAME = int(os.environ.get("MAX_PROPS_PER_GAME", "2"))
+
 HTTP_TIMEOUT = 20
+
+SIDE_MARKETS = ("Moneyline", "Spread")
+
+# Every market the props model produces, named explicitly. Classifying by
+# exclusion ("not a side, therefore a prop") silently swept the retired Total
+# picks into the props record — three graded totals would have published a
+# props record before a single prop had ever been graded.
+PROP_MARKETS = (
+    "Passing yards", "Rushing yards", "Receiving yards", "Receptions",
+    "Anytime TD", "Points", "Rebounds", "Assists", "Pts+Reb+Ast",
+)
+
+# Totals are no longer published, and the ones already graded are removed from
+# the ledger on sight. This is the one deletion the log allows, and it is a
+# deliberate instruction rather than a rewrite of a live record: the market was
+# dropped from the product, so its history goes with it.
+DROPPED_MARKETS = ("Total",)
 
 ESPN_PATHS = {
     "NFL": "football/nfl",
@@ -57,19 +99,23 @@ def clamp01(x):
     return max(1e-6, min(1.0 - 1e-6, x))
 
 
-def identity(sport, away, home, market, selection):
-    """What makes two entries THE SAME BET.
-
-    Note what is absent: the line and the price. Those move; the opinion does
-    not. Including them would let one opinion grade many times.
-    """
-    return "|".join([sport, away + " @ " + home, market, selection])
+def group_of(market, player=None):
+    """Which record a pick belongs to. Positive tests only, never by exclusion."""
+    if market in SIDE_MARKETS:
+        return "Sides"
+    if market in PROP_MARKETS or player:
+        return "Props"
+    return "Sides"
 
 
 # --------------------------------------------------- derive today's picks ----
 def candidates(g):
-    """Every side of every market in one game, with our probability for it."""
-    sd, sd_t = g.get("sdMargin"), g.get("sdTotal")
+    """Both sides of the moneyline and the spread, with our probability for each.
+
+    Mirrors the board exactly: one normal distribution over the game margin.
+    Totals are no longer priced.
+    """
+    sd = g.get("sdMargin")
     if not sd or g.get("mlHome") is None or g.get("mlAway") is None:
         return []
     margin = g["homeRtg"] - g["awayRtg"] + g.get("hfa", 0.0)
@@ -93,25 +139,17 @@ def candidates(g):
                         label="%s %+.1f" % (g["away"], -spread),
                         p=1.0 - p_home_cover,
                         price=g["sprAway"], other=g["sprHome"]))
-
-    if g.get("total") is not None and g.get("over") is not None and sd_t:
-        total = g["total"]
-        p_over = clamp01(ncdf((g["projTotal"] - total) / sd_t))
-        out.append(dict(market="Total", selection="over", line=total,
-                        label="Over %s" % total, p=p_over,
-                        price=g["over"], other=g["under"]))
-        out.append(dict(market="Total", selection="under", line=total,
-                        label="Under %s" % total, p=1.0 - p_over,
-                        price=g["under"], other=g["over"]))
     return out
 
 
-def todays_picks(slate):
-    """The best side of each market, kept only when it clears the rule."""
+def side_picks(slate):
+    """The best side of each game market, kept only when it clears the rule."""
     picks = []
     for g in slate.get("games", []):
         by_market = {}
         for c in candidates(g):
+            if c["price"] is None:
+                continue
             c["edge"] = edge_points(c["p"], c["price"])
             c["ev"] = expected_value(c["p"], c["price"])
             best = by_market.get(c["market"])
@@ -120,9 +158,47 @@ def todays_picks(slate):
         for c in by_market.values():
             if c["edge"] >= THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE:
                 c.update(sport=g["sport"], home=g["home"], away=g["away"],
-                         commence=g.get("time"))
+                         commence=g.get("time"), player=None, event=None,
+                         proj=None, stat_line=None)
                 picks.append(c)
     return picks
+
+
+def prop_picks(slate):
+    """Best side per player per market, capped per game, over the props bar."""
+    best = {}
+    for r in slate.get("props", []):
+        if r.get("price") is None or r.get("p") is None:
+            continue
+        e = edge_points(r["p"], r["price"])
+        v = expected_value(r["p"], r["price"])
+        key = (r["eventId"], r["player"], r["market"])
+        cur = best.get(key)
+        if cur is None or e > cur["edge"]:
+            best[key] = dict(r, edge=e, ev=v)
+
+    keep = [c for c in best.values()
+            if c["edge"] >= PROPS_THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE]
+
+    # strongest first, then cap per game so one game script cannot carry the day
+    keep.sort(key=lambda c: -c["edge"])
+    per_game, picks = defaultdict(int), []
+    for c in keep:
+        if per_game[c["eventId"]] >= MAX_PROPS_PER_GAME:
+            continue
+        per_game[c["eventId"]] += 1
+        picks.append(dict(
+            market=c["marketLabel"], selection=c["side"].lower(), line=c.get("line"),
+            label=c["label"], p=c["p"], price=c["price"], other=c.get("other"),
+            edge=c["edge"], ev=c["ev"], sport=c["sport"], home=c["home"],
+            away=c["away"], commence=c.get("time"), player=c["player"],
+            event=c["eventId"], proj=c.get("proj"),
+            stat_key=c["market"], stat_line=None))
+    return picks
+
+
+def todays_picks(slate):
+    return side_picks(slate) + prop_picks(slate)
 
 
 # ------------------------------------------------------------ final scores ----
@@ -149,8 +225,6 @@ def finals_for(sport, days_back=12):
             continue
         for ev in events:
             comp = (ev.get("competitions") or [{}])[0]
-            # Only a FINAL game may be graded. Grading mid-game marks outcomes
-            # that have not happened yet as losses.
             if not comp.get("status", {}).get("type", {}).get("completed"):
                 continue
             home = away = None
@@ -174,6 +248,8 @@ def find_final(finals, away, home):
     key = (normalize(away), normalize(home))
     if key in finals:
         return finals[key]
+    # fall back to a containment match — odds and ESPN spell a few schools
+    # differently ("Miami" vs "Miami Hurricanes")
     a, h = normalize(away), normalize(home)
     for (fa, fh), score in finals.items():
         if (fa in a or a in fa) and (fh in h or h in fh):
@@ -182,10 +258,9 @@ def find_final(finals, away, home):
 
 
 def settle(pick, away_score, home_score):
-    """('W'|'L'|'P', 'away-home') against the pick's ORIGINAL line."""
+    """('W'|'L'|'P', 'away-home') for a game-line pick against a final score."""
     label = "%d-%d" % (int(away_score), int(home_score))
     margin = home_score - away_score          # home perspective
-    total = home_score + away_score
     sel, line = pick["selection"], pick.get("line")
 
     if pick["market"] == "Moneyline":
@@ -197,17 +272,70 @@ def settle(pick, away_score, home_score):
         adj = own + line                      # line is already this side's number
         return ("W" if adj > 0 else "L" if adj < 0 else "P"), label
 
-    if pick["market"] == "Total":
-        diff = total - line
-        if diff == 0:
-            return "P", label
-        over_won = diff > 0
-        won = over_won if sel == "over" else not over_won
-        return ("W" if won else "L"), label
-
     return "P", label
 
 
+# ------------------------------------------------------------- prop finals ----
+# odds-api market key -> the stat name stored in player_logs.json
+STAT_OF = {
+    "player_pass_yds": "passYds", "player_rush_yds": "rushYds",
+    "player_reception_yds": "recYds", "player_receptions": "receptions",
+    "player_anytime_td": "tds", "player_points": "points",
+    "player_rebounds": "rebounds", "player_assists": "assists",
+    "player_points_rebounds_assists": "pra",
+}
+
+
+def player_finals(sports, diag):
+    """{(sport, event_id, normalized player): {stat: value}} for finished games.
+
+    Reads the same box-score cache the projections are built from, refreshing it
+    first so a standalone grading run still sees last night's games.
+    """
+    out = {}
+    for s in sports:
+        if s not in ("NFL", "NBA"):
+            continue
+        try:
+            refresh_logs(s, diag)
+        except Exception as e:
+            diag.append("could not refresh %s box scores for grading — %s" % (s, e))
+    logs = load_logs()
+    for s in sports:
+        for g in logs.get(s, {}).get("games", []):
+            out[(s, str(g.get("event")), norm_name(g.get("player")))] = g
+    return out
+
+
+def settle_prop(pick, stats):
+    """('W'|'L'|'V', 'stat line') for a prop, or None if the box score is absent.
+
+    A player with no line in the box score did not take the field, so the book
+    voids the bet — 'V', excluded from the record entirely rather than counted
+    as a loss. Voids are never wins for us either; this stays deliberately
+    conservative.
+    """
+    stat = STAT_OF.get(pick.get("stat_key") or "")
+    if not stat:
+        return None
+    if stats is None:
+        return "V", "did not play"
+    actual = float(stats.get(stat, 0.0))
+
+    if stat == "tds":
+        won = actual >= 1
+        return ("W" if won else "L"), ("%d TD" % int(actual))
+
+    line = pick.get("line")
+    if line is None:
+        return None
+    # every stored prop line is a half-point, so there is no push to handle
+    over_won = actual > line
+    won = over_won if pick["selection"] == "over" else not over_won
+    return ("W" if won else "L"), ("%g" % actual)
+
+
+# ------------------------------------------------------------------- main ----
 def week_of(iso):
     """A stable Monday-anchored week label, so a whole card grades as one week."""
     try:
@@ -218,130 +346,67 @@ def week_of(iso):
     return "Week of %s %d" % (monday.strftime("%b"), monday.day)
 
 
-def line_text(pick):
-    """A short human note about how the number moved after we published."""
-    moves = pick.get("line_moves") or []
-    if not moves:
-        return None
-    seen, ordered = set(), []
-    for m in moves:
-        key = (m.get("line"), m.get("price"))
-        if key in seen:
-            continue
-        seen.add(key)
-        ordered.append(m)
-    if not ordered:
-        return None
-    last = ordered[-1]
-    if pick.get("line") is not None and last.get("line") is not None:
-        if abs(float(last["line"]) - float(pick["line"])) > 1e-9:
-            return "line moved %+.1f \u2192 %+.1f after we posted (graded at %+.1f)" % (
-                float(pick["line"]), float(last["line"]), float(pick["line"]))
-    if last.get("price") is not None and last["price"] != pick.get("price"):
-        return "price moved %s \u2192 %s after we posted (graded at %s)" % (
-            pick["price"], last["price"], pick["price"])
-    return None
-
-
-# ------------------------------------------------------ migrate old ledger ----
-def collapse(log):
-    """Fold pre-existing duplicates into one pick each.
-
-    Earlier versions keyed a pick by its label, which carried the line, so a
-    moved line minted a second pick off the same opinion. Anything already in
-    the ledger is merged here: the earliest publication survives with its
-    original line and price, and the rest become line_moves.
-    """
-    merged, order, dropped = {}, [], 0
-    for p in log.get("picks", []):
-        key = identity(p["sport"], p["away"], p["home"], p["market"],
-                       p["selection"])
-        first = merged.get(key)
-        if first is None:
-            p["id"] = key
-            p.setdefault("line_moves", [])
-            merged[key] = p
-            order.append(key)
-            continue
-        dropped += 1
-        # keep whichever was published first; the other becomes a line move
-        older, newer = first, p
-        if (p.get("first_seen") or "") < (first.get("first_seen") or ""):
-            older, newer = p, first
-            older["id"] = key
-            older.setdefault("line_moves", first.get("line_moves", []))
-            merged[key] = older
-        older.setdefault("line_moves", []).append({
-            "at": newer.get("first_seen"),
-            "line": newer.get("line"),
-            "price": newer.get("price"),
-        })
-        # the surviving pick keeps the longest price history it has seen
-        if len(newer.get("history") or []) > len(older.get("history") or []):
-            older["history"] = newer["history"]
-        # a duplicate that was already graded contributes nothing; the survivor
-        # regrades from its own original line below
-        older["result"] = None
-        older["final"] = None
-        older["clv"] = None
-        older.pop("closing_price", None)
-    if dropped:
-        print("Collapsed %d duplicate entries created by line movement. "
-              "Each opinion is now one pick, graded at the line it was "
-              "published at." % dropped)
-    log["picks"] = [merged[k] for k in order]
-    return log
+def summarize(picks):
+    """Record, win rate and CLV for one group of graded picks."""
+    W = sum(1 for p in picks if p["result"] == "W")
+    L = sum(1 for p in picks if p["result"] == "L")
+    P = sum(1 for p in picks if p["result"] == "P")
+    V = sum(1 for p in picks if p["result"] == "V")
+    clv = [p["clv"] for p in picks if p.get("clv") is not None]
+    return {
+        "record": {"w": W, "l": L, "p": P, "void": V},
+        "win_rate": (W / (W + L)) if (W + L) else None,
+        "avg_clv": (sum(clv) / len(clv)) if clv else None,
+        "clv_beat_rate": (sum(1 for c in clv if c > 0) / len(clv)) if clv else None,
+        "clv_n": len(clv),
+        "graded": W + L + P,
+    }
 
 
 def main():
+    diag = []
     try:
         with open(SLATE_PATH) as f:
             slate = json.load(f)
     except (OSError, ValueError) as e:
         print("no slate to read (%s) — nothing to record" % e)
-        return
+        slate = {"games": [], "props": []}
 
-    log = collapse(load_picks())
+    log = load_picks()
+    dropped = [p for p in log["picks"] if p.get("market") in DROPPED_MARKETS]
+    if dropped:
+        log["picks"] = [p for p in log["picks"] if p.get("market") not in DROPPED_MARKETS]
+        print("removed %d retired total pick(s) from the ledger" % len(dropped))
     by_id = {p["id"]: p for p in log["picks"]}
     now = datetime.now(timezone.utc)
     now_iso = now.isoformat(timespec="seconds")
-    added = updated = moves = 0
+    added = updated = 0
 
     for c in todays_picks(slate):
-        pid = identity(c["sport"], c["away"], c["home"], c["market"],
-                       c["selection"])
+        pid = pick_id(c["sport"], c["away"], c["home"], c["market"], c["label"])
         rec = by_id.get(pid)
-
         if rec is None:
             rec = {
                 "id": pid, "sport": c["sport"], "away": c["away"], "home": c["home"],
                 "commence": c["commence"], "market": c["market"],
-                "selection": c["selection"],
-                # frozen at first publication — never rewritten
-                "line": c["line"], "pick": c["label"],
+                "group": group_of(c["market"], c.get("player")),
+                "selection": c["selection"], "line": c["line"], "pick": c["label"],
+                "player": c.get("player"), "event": c.get("event"),
+                "stat_key": c.get("stat_key"), "proj": c.get("proj"),
                 "p": round(c["p"], 6),
-                "price": c["price"], "other_price": c["other"],
+                "price": c["price"], "other_price": c.get("other"),
                 "edge": round(c["edge"], 3), "ev": round(c["ev"], 5),
                 "first_seen": now_iso,
-                "history": [], "line_moves": [],
-                "result": None, "final": None, "clv": None,
+                "history": [], "result": None, "final": None, "clv": None,
                 "week": week_of(c["commence"]),
             }
             log["picks"].append(rec)
             by_id[pid] = rec
             added += 1
-        elif rec.get("result") is None:
-            # Same opinion, new number. Record the movement; change nothing that
-            # the record depends on.
-            same_line = (rec.get("line") is None and c["line"] is None) or (
-                rec.get("line") is not None and c["line"] is not None
-                and abs(float(rec["line"]) - float(c["line"])) < 1e-9)
-            if not same_line or c["price"] != rec.get("price"):
-                rec.setdefault("line_moves", []).append(
-                    {"at": now_iso, "line": c["line"], "price": c["price"]})
-                moves += 1
-
-        # line history for CLV: only before kickoff, only while ungraded
+        rec.setdefault("group", group_of(rec.get("market", ""), rec.get("player")))
+        # a record written before the groups were split may carry the wrong one
+        rec["group"] = group_of(rec.get("market", ""), rec.get("player"))
+        # line history: only until the game starts, and only while ungraded
         if rec.get("result") is None:
             started = False
             try:
@@ -350,73 +415,123 @@ def main():
             except ValueError:
                 pass
             if not started:
-                rec["history"].append([now_iso, c["price"], c["other"]])
+                rec["history"].append([now_iso, c["price"], c.get("other")])
                 updated += 1
 
-    # grade anything that has finished, against its ORIGINAL line
-    sports = {p["sport"] for p in log["picks"] if p.get("result") is None}
+    # ------------------------------------------------------------- grading --
+    pending = [p for p in log["picks"] if p.get("result") is None]
+    sports = {p["sport"] for p in pending}
     finals = {}
     for s in sports:
         finals[s] = finals_for(s)
         print("%s: %d finished games found" % (s, len(finals[s])))
 
+    prop_sports = {p["sport"] for p in pending
+                   if group_of(p.get("market", ""), p.get("player")) == "Props"}
+    box = player_finals(prop_sports, diag) if prop_sports else {}
+
     graded_now = 0
     for p in log["picks"]:
         if p.get("result") is not None:
             continue
-        score = find_final(finals.get(p["sport"], {}), p["away"], p["home"])
-        if not score:
-            continue
-        away_score, home_score = score
-        p["result"], p["final"] = settle(p, away_score, home_score)
-        if p["history"]:
+        grp = group_of(p.get("market", ""), p.get("player"))
+
+        if grp == "Sides":
+            score = find_final(finals.get(p["sport"], {}), p["away"], p["home"])
+            if not score:
+                continue
+            away_score, home_score = score
+            p["result"], p["final"] = settle(p, away_score, home_score)
+        else:
+            # only grade a prop once the game itself is final, never mid-game
+            score = find_final(finals.get(p["sport"], {}), p["away"], p["home"])
+            if not score:
+                continue
+            stats = box.get((p["sport"], str(p.get("event")), norm_name(p.get("player"))))
+            outcome = settle_prop(p, stats)
+            if outcome is None:
+                continue
+            p["result"], p["final"] = outcome
+
+        if p["history"] and p.get("other_price") is not None:
             close = p["history"][-1]
-            p["clv"] = round(clv_points(p["price"], p["other_price"],
-                                        close[1], close[2]), 3)
-            p["closing_price"] = close[1]
+            if close[2] is not None:
+                p["clv"] = round(clv_points(p["price"], p["other_price"],
+                                            close[1], close[2]), 3)
+                p["closing_price"] = close[1]
         graded_now += 1
 
     save_picks(log)
 
+    # -------------------------------------------------------------- output --
     graded = [p for p in log["picks"] if p.get("result")]
-    W = sum(1 for p in graded if p["result"] == "W")
-    L = sum(1 for p in graded if p["result"] == "L")
-    P = sum(1 for p in graded if p["result"] == "P")
-    with_clv = [p["clv"] for p in graded if p.get("clv") is not None]
+    for p in graded:
+        p["group"] = group_of(p.get("market", ""), p.get("player"))
+    sides = [p for p in graded if p["group"] == "Sides"]
+    props = [p for p in graded if p["group"] == "Props"]
+
+    def rows(items):
+        return [
+            {
+                "week": p["week"], "sport": p["sport"], "group": p["group"],
+                "game": p["away"] + " @ " + p["home"],
+                "market": p["market"], "pick": p["pick"],
+                "player": p.get("player"), "proj": p.get("proj"),
+                "price": p["price"], "closing_price": p.get("closing_price"),
+                "edge": p["edge"], "ev": p["ev"],
+                "result": p["result"], "final": p["final"], "clv": p.get("clv"),
+            }
+            for p in items
+        ]
+
+    by_sport = {}
+    for p in graded:
+        key = "%s %s" % (p["sport"], p["group"])
+        by_sport.setdefault(key, []).append(p)
+
+    groups = {
+        "Sides": dict(summarize(sides), label="Moneyline & spread",
+                      threshold=THRESHOLD, picks=rows(sides)),
+        "Props": dict(summarize(props), label="Player props",
+                      threshold=PROPS_THRESHOLD, picks=rows(props)),
+    }
 
     save_results({
         "generated_at": now_iso,
         "graded_through": max((p["week"] for p in graded), default=None),
-        "record": {"w": W, "l": L, "p": P},
-        "win_rate": (W / (W + L)) if (W + L) else None,
-        "avg_clv": (sum(with_clv) / len(with_clv)) if with_clv else None,
-        "clv_beat_rate": (sum(1 for c in with_clv if c > 0) / len(with_clv)) if with_clv else None,
-        "pending": sum(1 for p in log["picks"] if p.get("result") is None),
-        "note": "One pick per game, market and side. It is recorded at the "
-                "price and line it was first published at, and graded against "
-                "that number. Later line movement is noted but never regraded "
-                "and never counted again. Win rate counts wins and losses only.",
-        "picks": [
-            {
-                "week": p["week"], "sport": p["sport"],
-                "game": p["away"] + " @ " + p["home"],
-                "market": p["market"], "pick": p["pick"],
-                "price": p["price"], "closing_price": p.get("closing_price"),
-                "edge": p["edge"], "ev": p["ev"],
-                "result": p["result"], "final": p["final"], "clv": p.get("clv"),
-                "line_note": line_text(p),
-            }
-            for p in graded
-        ],
+        "groups": groups,
+        "by_sport": {k: summarize(v) for k, v in sorted(by_sport.items())},
+        "pending": {
+            "Sides": sum(1 for p in log["picks"] if p.get("result") is None
+                         and group_of(p.get("market", ""), p.get("player")) == "Sides"),
+            "Props": sum(1 for p in log["picks"] if p.get("result") is None
+                         and group_of(p.get("market", ""), p.get("player")) == "Props"),
+        },
+        "diagnostics": diag,
+        "note": "Sides and props are tracked separately: different models, "
+                "different data, different thresholds, so a blended number "
+                "would hide one behind the other. Picks are recorded when "
+                "published, at the price published. Closing-line value compares "
+                "that price with the last price seen before kickoff, with the "
+                "book's margin divided out. Win rate counts wins and losses "
+                "only. A prop on a player who never took the field is voided by "
+                "the book and is excluded from the record rather than counted.",
     })
 
-    print("recorded %d new picks, %d line updates, %d line moves noted, graded %d"
-          % (added, updated, moves, graded_now))
-    print("record %d-%d (%d push), %d pending"
-          % (W, L, P, sum(1 for p in log["picks"] if p.get("result") is None)))
-    if with_clv:
-        print("average CLV %+.2f points over %d graded picks"
-              % (sum(with_clv) / len(with_clv), len(with_clv)))
+    print("recorded %d new picks, %d line updates, graded %d" % (added, updated, graded_now))
+    for name, items in (("sides", sides), ("props", props)):
+        s = summarize(items)
+        r = s["record"]
+        line = "%s: %d-%d" % (name, r["w"], r["l"])
+        if r["p"]:
+            line += " (%d push)" % r["p"]
+        if r["void"]:
+            line += " (%d void)" % r["void"]
+        if s["avg_clv"] is not None:
+            line += ", average CLV %+.2f points over %d" % (s["avg_clv"], s["clv_n"])
+        print(line)
+    for d in diag:
+        print("  " + d)
 
 
 if __name__ == "__main__":
