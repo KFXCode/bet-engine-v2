@@ -3,8 +3,8 @@ name: Bet Engine slate
 # All times UTC. Comments show Eastern during EDT (Mar-Nov); after the November
 # DST change every Eastern time below shifts one hour earlier.
 #
-# Only the slate step spends odds-API credits (12 per run). Grading is free, so
-# it runs on every trigger.
+# Only the slate step spends odds-API credits. Grading is free, so it runs on
+# every trigger.
 
 on:
   schedule:
@@ -27,6 +27,9 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # The first run backfills a season of box scores for the player-prop model.
+    # Later runs only pick up new games and finish in a couple of minutes.
+    timeout-minutes: 60
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -39,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Compute ratings, pull FanDuel lines, write the slate
+      - name: Compute ratings, pull FanDuel lines, price props, write the slate
         # Skipped on the 4am grade-only run — the only step that costs credits.
         if: github.event.schedule != '0 8 * * *'
         env:
@@ -48,16 +51,22 @@ jobs:
         run: python edge_slate.py
 
       - name: Record picks, track closing lines, grade results
-        # Free — reads the slate on disk and final scores from ESPN. Appends the
-        # current price to each pending pick's history, but only before kickoff,
-        # so the last entry is the closing line.
+        # Free — reads the slate on disk, and final scores and box scores from
+        # ESPN. Appends the current price to each pending pick's history, but
+        # only before kickoff, so the last entry is the closing line.
         run: python grade.py
 
       - name: Publish back to the repo
         run: |
           # Generated files, so they never need merging. Take the newest branch
           # state, then lay the fresh files on top.
-          FILES="edge_slate.json picks_log.json results.json"
+          #
+          # player_logs.json is the cached box-score history the prop model is
+          # built from, and props_cache.json holds recently bought prop odds.
+          # Both MUST be committed: without them every run rebuilds a season of
+          # player history from scratch and re-buys prop markets it already paid
+          # for.
+          FILES="edge_slate.json picks_log.json results.json player_logs.json props_cache.json"
           mkdir -p /tmp/out
           for f in $FILES; do
             [ -f "$f" ] && cp "$f" /tmp/out/"$f"
