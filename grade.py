@@ -60,7 +60,7 @@ MAX_EDGE = float(os.environ.get("MAX_CREDIBLE_EDGE", "20"))
 # passing yards and his receiver going over his receiving yards are close to
 # the same bet twice. Capping how many props ride on one game keeps a single
 # blowout from taking out a whole day.
-MAX_PROPS_PER_GAME = int(os.environ.get("MAX_PROPS_PER_GAME", "2"))
+MAX_PROPS_PER_GAME = int(os.environ.get("MAX_PROPS_PER_GAME", "3"))
 
 # Moneylines outside this band are not bet. Mirrors edge_slate.py: at a very
 # long price our probability is the tail of a fitted normal curve, and the tail
@@ -75,6 +75,25 @@ ML_MAX_PRICE = float(os.environ.get("ML_MAX_PRICE", "600"))
 # thinks. The slate carries the value it used in each game's maxDog; this is the
 # fallback for older slates.
 MAX_SPREAD_DOG = float(os.environ.get("MAX_SPREAD_DOG", "17.5"))
+
+# The high-confidence lane: a second way onto the card for a side the model
+# makes a heavy favourite, even when it clears less than the usual edge bar.
+#
+# CONF_MAX_PRICE is the part that makes this safe rather than a trap. -400 has
+# decimal odds 1.25 and so an implied probability of exactly 1/1.25 = 80%: at
+# p = 0.80 that price is precisely fair and the EV is zero. Anything longer
+# charges MORE than an 80% outcome is worth, however safe it looks. Positive EV
+# is therefore still required — a "safe" bet at a bad price is only a slower way
+# to lose — so a lane pick must be better than 80%, better priced than -400, or
+# both.
+CONF_MIN_P = float(os.environ.get("CONF_MIN_P", "0.80"))
+CONF_MAX_PRICE = float(os.environ.get("CONF_MAX_PRICE", "-400"))
+
+
+def confident(c):
+    """True when a candidate qualifies on likelihood rather than on edge."""
+    return (c["p"] >= CONF_MIN_P and c["price"] is not None
+            and float(c["price"]) >= CONF_MAX_PRICE and c["ev"] > 0)
 
 HTTP_TIMEOUT = 20
 
@@ -170,7 +189,13 @@ def candidates(g):
 
 
 def side_picks(slate):
-    """The best side of each game market, kept only when it clears the rule."""
+    """The best side of each game market, kept when it clears the rule.
+
+    Two ways in: the edge rule (at least THRESHOLD points, positive EV, not more
+    than MAX_EDGE), or the high-confidence lane. The edge rule gets first
+    refusal so a pick is never labelled confidence-only when it already
+    qualifies on value.
+    """
     picks = []
     for g in slate.get("games", []):
         by_market = {}
@@ -179,15 +204,22 @@ def side_picks(slate):
                 continue
             c["edge"] = edge_points(c["p"], c["price"])
             c["ev"] = expected_value(c["p"], c["price"])
-            best = by_market.get(c["market"])
-            if best is None or c["edge"] > best["edge"]:
-                by_market[c["market"]] = c
-        for c in by_market.values():
-            if c["edge"] >= THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE:
-                c.update(sport=g["sport"], home=g["home"], away=g["away"],
-                         commence=g.get("time"), player=None, event=None,
-                         proj=None, stat_line=None)
-                picks.append(c)
+            by_market.setdefault(c["market"], []).append(c)
+        for cands in by_market.values():
+            cands.sort(key=lambda c: -c["edge"])
+            clears = [c for c in cands
+                      if c["edge"] >= THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE]
+            if clears:
+                c, lane = clears[0], "value"
+            else:
+                conf = [c for c in cands if confident(c)]
+                if not conf:
+                    continue
+                c, lane = conf[0], "confidence"
+            c.update(sport=g["sport"], home=g["home"], away=g["away"],
+                     commence=g.get("time"), player=None, event=None,
+                     proj=None, stat_line=None, lane=lane)
+            picks.append(c)
     return picks
 
 
@@ -205,7 +237,8 @@ def prop_picks(slate):
             best[key] = dict(r, edge=e, ev=v)
 
     keep = [c for c in best.values()
-            if c["edge"] >= PROPS_THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE]
+            if (c["edge"] >= PROPS_THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE)
+            or confident(c)]
 
     # strongest first, then cap per game so one game script cannot carry the day
     keep.sort(key=lambda c: -c["edge"])
@@ -214,12 +247,14 @@ def prop_picks(slate):
         if per_game[c["eventId"]] >= MAX_PROPS_PER_GAME:
             continue
         per_game[c["eventId"]] += 1
+        lane = ("value" if (c["edge"] >= PROPS_THRESHOLD and c["ev"] > 0
+                            and c["edge"] <= MAX_EDGE) else "confidence")
         picks.append(dict(
             market=c["marketLabel"], selection=c["side"].lower(), line=c.get("line"),
             label=c["label"], p=c["p"], price=c["price"], other=c.get("other"),
             edge=c["edge"], ev=c["ev"], sport=c["sport"], home=c["home"],
             away=c["away"], commence=c.get("time"), player=c["player"],
-            event=c["eventId"], proj=c.get("proj"),
+            event=c["eventId"], proj=c.get("proj"), lane=lane,
             stat_key=c["market"], stat_line=None))
     return picks
 
@@ -465,6 +500,7 @@ def main():
                 "selection": c["selection"], "line": c["line"], "pick": c["label"],
                 "player": c.get("player"), "event": c.get("event"),
                 "stat_key": c.get("stat_key"), "proj": c.get("proj"),
+                "lane": c.get("lane", "value"),
                 "p": round(c["p"], 6),
                 "price": c["price"], "other_price": c.get("other"),
                 "edge": round(c["edge"], 3), "ev": round(c["ev"], 5),
@@ -549,6 +585,7 @@ def main():
                 "game": p["away"] + " @ " + p["home"],
                 "market": p["market"], "pick": p["pick"],
                 "player": p.get("player"), "proj": p.get("proj"),
+                "lane": p.get("lane", "value"),
                 "price": p["price"], "closing_price": p.get("closing_price"),
                 "edge": p["edge"], "ev": p["ev"],
                 "result": p["result"], "final": p["final"], "clv": p.get("clv"),
@@ -573,6 +610,14 @@ def main():
         "graded_through": max((p["week"] for p in graded), default=None),
         "groups": groups,
         "by_sport": {k: summarize(v) for k, v in sorted(by_sport.items())},
+        # Whether the confidence lane earns its place. It is expected to show a
+        # higher win rate and a thinner profit than the value lane; if it shows
+        # a LOWER win rate it is not doing the one job it was added for.
+        "by_lane": {
+            lane: summarize([p for p in graded if p.get("lane", "value") == lane])
+            for lane in ("value", "confidence")
+            if any(p.get("lane", "value") == lane for p in graded)
+        },
         "pending": {
             "Sides": sum(1 for p in log["picks"] if p.get("result") is None
                          and group_of(p.get("market", ""), p.get("player")) == "Sides"),
@@ -591,6 +636,11 @@ def main():
     })
 
     print("recorded %d new picks, %d line updates, graded %d" % (added, updated, graded_now))
+    for lane in ("value", "confidence"):
+        items = [p for p in graded if p.get("lane", "value") == lane]
+        if items:
+            s = summarize(items)
+            print("  %s lane: %d-%d" % (lane, s["record"]["w"], s["record"]["l"]))
     for name, items in (("sides", sides), ("props", props)):
         s = summarize(items)
         r = s["record"]
