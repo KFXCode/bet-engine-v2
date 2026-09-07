@@ -62,6 +62,14 @@ MAX_EDGE = float(os.environ.get("MAX_CREDIBLE_EDGE", "20"))
 # blowout from taking out a whole day.
 MAX_PROPS_PER_GAME = int(os.environ.get("MAX_PROPS_PER_GAME", "2"))
 
+# Moneylines outside this band are not bet. Mirrors edge_slate.py: at a very
+# long price our probability is the tail of a fitted normal curve, and the tail
+# is where that curve is least trustworthy, so the "edge" there is really the
+# error bar. The slate carries the band it used in each game's mlBand, and this
+# is only the fallback for older slates.
+ML_MIN_PRICE = float(os.environ.get("ML_MIN_PRICE", "-600"))
+ML_MAX_PRICE = float(os.environ.get("ML_MAX_PRICE", "600"))
+
 HTTP_TIMEOUT = 20
 
 SIDE_MARKETS = ("Moneyline", "Spread")
@@ -113,21 +121,29 @@ def candidates(g):
     """Both sides of the moneyline and the spread, with our probability for each.
 
     Mirrors the board exactly: one normal distribution over the game margin.
-    Totals are no longer priced.
+    The margin comes from the slate's projMargin, which is already blended
+    toward the market — recomputing it here from the raw ratings would let the
+    grader and the board disagree about what was published.
     """
     sd = g.get("sdMargin")
     if not sd or g.get("mlHome") is None or g.get("mlAway") is None:
         return []
-    margin = g["homeRtg"] - g["awayRtg"] + g.get("hfa", 0.0)
+    margin = g.get("projMargin")
+    if margin is None:      # older slate without the blend
+        margin = g["homeRtg"] - g["awayRtg"] + g.get("hfa", 0.0)
+    band = g.get("mlBand") or [ML_MIN_PRICE, ML_MAX_PRICE]
     out = []
 
     p_home = clamp01(ncdf(margin / sd))
-    out.append(dict(market="Moneyline", selection="home", line=None,
-                    label=g["home"] + " ML", p=p_home,
-                    price=g["mlHome"], other=g["mlAway"]))
-    out.append(dict(market="Moneyline", selection="away", line=None,
-                    label=g["away"] + " ML", p=1.0 - p_home,
-                    price=g["mlAway"], other=g["mlHome"]))
+    # The moneyline is only bettable inside the price band.
+    if band[0] <= float(g["mlHome"]) <= band[1]:
+        out.append(dict(market="Moneyline", selection="home", line=None,
+                        label=g["home"] + " ML", p=p_home,
+                        price=g["mlHome"], other=g["mlAway"]))
+    if band[0] <= float(g["mlAway"]) <= band[1]:
+        out.append(dict(market="Moneyline", selection="away", line=None,
+                        label=g["away"] + " ML", p=1.0 - p_home,
+                        price=g["mlAway"], other=g["mlHome"]))
 
     if g.get("spread") is not None and g.get("sprHome") is not None:
         spread = g["spread"]
@@ -363,6 +379,16 @@ def summarize(picks):
     }
 
 
+def canon_key(sport, away, home, market, selection):
+    """One pick per game, market and side — independent of line or price.
+
+    pick_id() includes the label, which carries the line, so a line move used to
+    mint a second id for what is really the same bet. Lookups go through this
+    instead, which is what "one pick per game and market" actually means.
+    """
+    return "|".join([str(sport), str(away), str(home), str(market), str(selection)])
+
+
 def main():
     diag = []
     try:
@@ -377,14 +403,49 @@ def main():
     if dropped:
         log["picks"] = [p for p in log["picks"] if p.get("market") not in DROPPED_MARKETS]
         print("removed %d retired total pick(s) from the ledger" % len(dropped))
-    by_id = {p["id"]: p for p in log["picks"]}
+
+    # Collapse duplicates. The page promises one pick per game and market, but
+    # the ledger accumulated several entries for the same side when the line or
+    # the price moved between runs (Western Michigan ML appeared twice at an
+    # identical +2000). Keep the EARLIEST entry for each game/market/side — that
+    # is the pick as first published, which is what the record is supposed to
+    # measure — and carry over any later entry's grade and price history so
+    # nothing already settled is lost.
+    canon, order = {}, []
+    for p in log["picks"]:
+        key = canon_key(p.get("sport"), p.get("away"), p.get("home"),
+                        p.get("market"), p.get("selection"))
+        keep = canon.get(key)
+        if keep is None:
+            canon[key] = p
+            order.append(key)
+            continue
+        # earliest publication wins the price and the line
+        first, later = sorted([keep, p], key=lambda x: x.get("first_seen") or "")
+        merged = dict(first)
+        merged["history"] = sorted(
+            (first.get("history") or []) + (later.get("history") or []),
+            key=lambda h: h[0] if h else "")
+        if merged.get("result") is None and later.get("result") is not None:
+            for f in ("result", "final", "clv", "closing_price"):
+                merged[f] = later.get(f)
+        canon[key] = merged
+    if len(canon) != len(log["picks"]):
+        print("collapsed %d duplicate entries down to %d unique picks"
+              % (len(log["picks"]) - len(canon), len(canon)))
+        log["picks"] = [canon[k] for k in order]
+
+    by_id = {canon_key(p.get("sport"), p.get("away"), p.get("home"),
+                       p.get("market"), p.get("selection")): p
+             for p in log["picks"]}
     now = datetime.now(timezone.utc)
     now_iso = now.isoformat(timespec="seconds")
     added = updated = 0
 
     for c in todays_picks(slate):
+        key = canon_key(c["sport"], c["away"], c["home"], c["market"], c["selection"])
         pid = pick_id(c["sport"], c["away"], c["home"], c["market"], c["label"])
-        rec = by_id.get(pid)
+        rec = by_id.get(key)
         if rec is None:
             rec = {
                 "id": pid, "sport": c["sport"], "away": c["away"], "home": c["home"],
@@ -401,7 +462,7 @@ def main():
                 "week": week_of(c["commence"]),
             }
             log["picks"].append(rec)
-            by_id[pid] = rec
+            by_id[key] = rec
             added += 1
         rec.setdefault("group", group_of(rec.get("market", ""), rec.get("player")))
         # a record written before the groups were split may carry the wrong one
