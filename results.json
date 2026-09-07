@@ -1,23 +1,23 @@
 {
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": 0.06853448275862069,
-   "clv_beat_rate": 0.27586206896551724,
-   "clv_n": 58,
-   "graded": 66,
+   "avg_clv": 0.07336666666666666,
+   "clv_beat_rate": 0.2833333333333333,
+   "clv_n": 60,
+   "graded": 68,
    "record": {
-    "l": 39,
+    "l": 41,
     "p": 0,
     "void": 0,
     "w": 27
    },
-   "win_rate": 0.4090909090909091
+   "win_rate": 0.39705882352941174
   }
  },
  "diagnostics": [
   "NFL player logs: cache already current (7679 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-06T18:16:35+00:00",
+ "generated_at": "2026-09-07T00:56:36+00:00",
  "graded_through": "Week of Aug 31",
  "groups": {
   "Props": {
@@ -37,10 +37,10 @@
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": 0.06853448275862069,
-   "clv_beat_rate": 0.27586206896551724,
-   "clv_n": 58,
-   "graded": 66,
+   "avg_clv": 0.07336666666666666,
+   "clv_beat_rate": 0.2833333333333333,
+   "clv_n": 60,
+   "graded": 68,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -639,6 +639,23 @@
      "week": "Week of Aug 31"
     },
     {
+     "closing_price": 1160,
+     "clv": 0.659,
+     "edge": 5.842,
+     "ev": 0.80616,
+     "final": "10-24",
+     "game": "Washington State Cougars @ Washington Huskies",
+     "group": "Sides",
+     "market": "Moneyline",
+     "pick": "Washington State Cougars ML",
+     "player": null,
+     "price": 1280,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Aug 31"
+    },
+    {
      "closing_price": -110,
      "clv": 0.866,
      "edge": 7.506,
@@ -1164,21 +1181,38 @@
      "result": "L",
      "sport": "NCAAF",
      "week": "Week of Aug 31"
+    },
+    {
+     "closing_price": 1200,
+     "clv": -0.232,
+     "edge": 5.961,
+     "ev": 0.75108,
+     "final": "10-24",
+     "game": "Washington State Cougars @ Washington Huskies",
+     "group": "Sides",
+     "market": "Moneyline",
+     "pick": "Washington State Cougars ML",
+     "player": null,
+     "price": 1160,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Aug 31"
     }
    ],
    "record": {
-    "l": 39,
+    "l": 41,
     "p": 0,
     "void": 0,
     "w": 27
    },
    "threshold": 5.0,
-   "win_rate": 0.4090909090909091
+   "win_rate": 0.39705882352941174
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 14,
-  "Sides": 56
+  "Props": 23,
+  "Sides": 66
  }
 }
