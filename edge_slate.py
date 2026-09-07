@@ -67,40 +67,53 @@ PROPS_DAYS_AHEAD = int(os.environ.get("PROPS_DAYS_AHEAD", "7"))
 # every rating toward 0 (average), easing the shrink off as recent games
 # accumulate; a league with GAMES_TO_TRUST games per team inside the window is
 # trusted in full.
-# Ratings are NOT shrunk toward league average any more. Shrinking toward
-# average compresses the gap between good and bad teams, and that compression
-# systematically makes big underdogs look live: pull Alabama's +30 down to +19
-# and East Carolina's -10 up to -6 and the model sees a 26-point game where the
-# market sees 40 — so the dog is "value" on both the spread and the moneyline.
-# Week 1 of 2026 was exactly that failure: Mercyhurst +2400, Charleston
-# Southern +2200, New Hampshire +4000 all published, all blown out.
+# Ratings are NOT shrunk toward league average. Shrinking toward average
+# compresses the gap between good and bad teams, and that compression makes big
+# underdogs look live: pull Alabama's +30 down to +19 and East Carolina's -10 up
+# to -6 and the model sees a 26-point game where the market sees 40, so the dog
+# is "value" on both the spread and the moneyline.
 #
-# The ratings are now blended toward THE MARKET instead (see build below). The
-# market is a vastly better prior than "every team is equal" and it does not
-# lean toward either side of a game.
+# Blending the projection toward the market's line was tried as the cure and is
+# deliberately NOT used: with no games played it drives the projection onto the
+# book's number, which produces almost no picks at all. The targeted filters
+# above (price band, dog cap, margin gap) address the same failure modes without
+# emptying the card. trust is still computed and published for transparency — it
+# says how much football the ratings have actually seen.
 GAMES_TO_TRUST = {"NFL": 8, "NCAAF": 6, "NBA": 20, "NCAAB": 15}
 RECENT_WINDOW = 60     # days that count as "recently played"
 
 # A team must appear this many times in the fitted data before it can be priced.
-# Without it a school that barely shows up on the FBS schedule — an FCS or even
-# Division II opponent — gets a rating dragged to average and is then treated as
-# an average FBS team. That is how Mercyhurst, a D2 program, became a published
-# pick at +2400 against New Mexico State.
-MIN_TEAM_GAMES = int(os.environ.get("MIN_TEAM_GAMES", "4"))
+# Set low on purpose: the games against FCS opponents were NOT the losers (those
+# ran 13-9 when we took the FBS side). The losers were specifically the FCS
+# UNDERDOGS on the moneyline, which the price band below removes directly. So
+# this gate only has to catch a true outlier — a Division II program with almost
+# no games in the data, like Mercyhurst — not every small school.
+MIN_TEAM_GAMES = int(os.environ.get("MIN_TEAM_GAMES", "2"))
 
-# Moneyline price band. At +2000 the price charges 4.8%, and our probability out
-# there is the far tail of a normal curve fitted to scoring margins — precisely
-# where that curve is least trustworthy. Five points of "edge" on a 5% outcome
-# is not an edge, it is the error bar. Outside this band we do not bet the
-# moneyline at all.
+# Moneyline price band. This is the single most valuable filter in the engine.
+# Week 1 of 2026 went 3-14 on moneylines priced longer than +600: East Carolina
+# +2000, New Hampshire +4000, Mercyhurst +2400, Charleston Southern +2200 — all
+# "value", all blown out. At +2000 the price charges 4.8% and our number is the
+# far tail of a normal curve fitted to scoring margins, which is exactly where
+# that curve is least trustworthy. Five points of edge on a 5% outcome is the
+# error bar, not an edge.
 ML_MIN_PRICE = float(os.environ.get("ML_MIN_PRICE", "-600"))
 ML_MAX_PRICE = float(os.environ.get("ML_MAX_PRICE", "600"))
 
+# The most points we will take as a spread underdog. Week 1 went 5-10 on dogs
+# getting +16 or more. A normal curve badly understates blowouts: once a game is
+# out of hand the leading team keeps scoring against a running clock and a
+# backup defence, so the upper tail of the margin is much fatter than the model
+# thinks and the big dog covers far less often than it should. Laying big points
+# as the FAVOURITE was fine (Air Force -28.5, UConn -18.5, Temple -14.5 all
+# won), so this caps the DOG side only.
+MAX_SPREAD_DOG = float(os.environ.get("MAX_SPREAD_DOG", "17.5"))
+
 # How far the projected margin may sit from the market's own line before the
 # disagreement is treated as our error rather than the book's. Checked in POINTS
-# OF MARGIN, which is far more diagnostic than points of probability: seven
-# points of margin in a football game is a different game, not an opportunity.
-MAX_MARGIN_GAP = float(os.environ.get("MAX_MARGIN_GAP", "7"))
+# OF MARGIN, which is far more diagnostic than points of probability: ten points
+# of margin in a football game is a different game, not an opportunity.
+MAX_MARGIN_GAP = float(os.environ.get("MAX_MARGIN_GAP", "10"))
 
 # league -> (odds-api key, espn path, days of results to fit on)
 # 400 days so a league that is between seasons still fits on last season and can
@@ -297,8 +310,7 @@ def build(diag):
         diag.append(f"{league}: fit on {model['games']} games, hfa "
                     f"{model['hfa']:.2f}, sd margin {sd_margin:.2f}, "
                     f"{per_team:.1f} games per team in the last {RECENT_WINDOW} "
-                    f"days — our ratings carry {trust * 100:.0f}% of the "
-                    f"projected margin, the market's line carries the rest")
+                    f"days (ratings maturity {trust * 100:.0f}%)")
 
         no_rating = no_h2h = too_far = thin = wild = 0
         events = fanduel_lines(sport_key, diag)
@@ -345,27 +357,18 @@ def build(diag):
             hs = spreads.get(home, {}).get("point")
             has_spread = home in spreads and away in spreads and half_point(hs)
 
-            # Our ratings' view of the game, from the home team's side.
-            model_margin = rating[home] - rating[away] + model["hfa"]
+            # Our ratings' view of the game, from the home team's side. This is
+            # the projection — it is not pulled toward the market, because doing
+            # that early in a season leaves nothing to bet.
+            margin = rating[home] - rating[away] + model["hfa"]
 
             # The market's view. A home line of -6.5 means the book expects the
             # home team to win by 6.5, so the market's margin is -spread.
             market_margin = -hs if has_spread else None
 
-            # Blend. Early in a season our ratings have seen almost nothing, so
-            # the market carries the projection and we find few disagreements.
-            # As real games accumulate, trust rises and our own number takes
-            # over. Anchoring to the market rather than to "average" is what
-            # stops the model inventing underdogs.
-            if market_margin is None:
-                margin = model_margin
-                blend = 1.0
-            else:
-                blend = trust
-                margin = blend * model_margin + (1.0 - blend) * market_margin
-
-            # A projection that lands a touchdown away from the market's own
-            # number is our model being broken, not the book being asleep.
+            # A projection that lands more than a mercy-rule margin from the
+            # market's own number is our model being broken, not the book being
+            # asleep.
             if market_margin is not None and abs(margin - market_margin) > MAX_MARGIN_GAP:
                 wild += 1
                 continue
@@ -378,13 +381,13 @@ def build(diag):
                 "hfa": round(model["hfa"], 3),
                 "sdMargin": round(sd_margin, 3),
                 # projMargin is the ONE number every consumer must use. The
-                # board and the grader read it rather than recomputing the
-                # blend, so all three can never disagree about a pick.
+                # board and the grader read it rather than recomputing, so all
+                # three can never disagree about a pick.
                 "projMargin": round(margin, 3),
-                "modelMargin": round(model_margin, 3),
                 "marketMargin": None if market_margin is None else round(market_margin, 3),
-                "blend": round(blend, 3),
+                "trust": round(trust, 3),
                 "mlBand": [ML_MIN_PRICE, ML_MAX_PRICE],
+                "maxDog": MAX_SPREAD_DOG,
                 "mlHome": h2h[home].get("price"), "mlAway": h2h[away].get("price"),
             }
 
@@ -423,20 +426,16 @@ def main():
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": "game lines: adjusted-margin ratings fit jointly with home "
-                 "field, then blended toward the market's own line by how much "
-                 "football the league has actually played — so early in a season "
-                 "the market carries the projection and few disagreements "
-                 "survive. Games are skipped when either team has too few "
-                 "fitted games, when the projection lands more than "
-                 f"{MAX_MARGIN_GAP:g} points of margin from the market, and "
-                 "moneylines outside "
-                 f"{ML_MIN_PRICE:+.0f} to {ML_MAX_PRICE:+.0f} are not bet at "
-                 "all. player props: per-player game logs with recency "
+                 "field, normal distribution over the game margin. Moneylines "
+                 f"outside {ML_MIN_PRICE:+.0f} to {ML_MAX_PRICE:+.0f} are not "
+                 f"bet, spread underdogs of more than +{MAX_SPREAD_DOG:g} are "
+                 "not bet, and a game is skipped when the projection lands more "
+                 f"than {MAX_MARGIN_GAP:g} points of margin from the market's "
+                 "own line. player props: per-player game logs with recency "
                  "weighting, shrunk toward a league baseline and adjusted for "
                  "the defence, priced with gamma (yardage), negative binomial "
                  "(counts) or Poisson (anytime TD). half-point lines only; "
-                 "totals are not priced; games starting within "
-                 f"{DAYS_AHEAD} days",
+                 f"totals are not priced; games starting within {DAYS_AHEAD} days",
         "days_ahead": DAYS_AHEAD,
         "lookahead_days": LOOKAHEAD_DAYS,
         "diagnostics": diag,

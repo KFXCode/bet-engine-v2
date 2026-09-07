@@ -70,6 +70,12 @@ MAX_PROPS_PER_GAME = int(os.environ.get("MAX_PROPS_PER_GAME", "2"))
 ML_MIN_PRICE = float(os.environ.get("ML_MIN_PRICE", "-600"))
 ML_MAX_PRICE = float(os.environ.get("ML_MAX_PRICE", "600"))
 
+# The most points we will take as a spread underdog. Mirrors edge_slate.py: a
+# normal curve understates blowouts, so big dogs cover less often than it
+# thinks. The slate carries the value it used in each game's maxDog; this is the
+# fallback for older slates.
+MAX_SPREAD_DOG = float(os.environ.get("MAX_SPREAD_DOG", "17.5"))
+
 HTTP_TIMEOUT = 20
 
 SIDE_MARKETS = ("Moneyline", "Spread")
@@ -147,14 +153,19 @@ def candidates(g):
 
     if g.get("spread") is not None and g.get("sprHome") is not None:
         spread = g["spread"]
+        max_dog = g.get("maxDog", MAX_SPREAD_DOG)
         p_home_cover = clamp01(ncdf((margin + spread) / sd))
-        out.append(dict(market="Spread", selection="home", line=spread,
-                        label="%s %+.1f" % (g["home"], spread), p=p_home_cover,
-                        price=g["sprHome"], other=g["sprAway"]))
-        out.append(dict(market="Spread", selection="away", line=-spread,
-                        label="%s %+.1f" % (g["away"], -spread),
-                        p=1.0 - p_home_cover,
-                        price=g["sprAway"], other=g["sprHome"]))
+        # Each side's own number: the home team's line is spread, the away
+        # team's is its negation. A positive number means that side is the dog.
+        if spread <= max_dog:
+            out.append(dict(market="Spread", selection="home", line=spread,
+                            label="%s %+.1f" % (g["home"], spread), p=p_home_cover,
+                            price=g["sprHome"], other=g["sprAway"]))
+        if -spread <= max_dog:
+            out.append(dict(market="Spread", selection="away", line=-spread,
+                            label="%s %+.1f" % (g["away"], -spread),
+                            p=1.0 - p_home_cover,
+                            price=g["sprAway"], other=g["sprHome"]))
     return out
 
 
