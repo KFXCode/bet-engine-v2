@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-09-07T17:59:31+00:00",
+ "generated_at": "2026-09-07T18:18:01+00:00",
  "model": "game lines: adjusted-margin ratings fit jointly with home field, normal distribution over the game margin. Moneylines outside -600 to +600 are not bet, spread underdogs of more than +17.5 are not bet, and a game is skipped when the projection lands more than 10 points of margin from the market's own line. player props: per-player game logs with recency weighting, shrunk toward a league baseline and adjusted for the defence, priced with gamma (yardage), negative binomial (counts) or Poisson (anytime TD). half-point lines only; totals are not priced; games starting within 7 days",
  "days_ahead": 7,
  "lookahead_days": 45,
  "diagnostics": [
   "NFL: fit on 383 games, hfa 1.50, sd margin 12.64, 3.1 games per team in the last 60 days (ratings maturity 38%)",
-  "americanfootball_nfl: 272 events from the primary key, 19342 credits left on it",
+  "americanfootball_nfl: 272 events from the primary key, 19261 credits left on it",
   "NFL: 15 priced, 17 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline",
   "NFL player logs: cache already current (7679 player-games, looked back 21 days)",
   "NFL props: projections for 713 players from 7679 player-games",
-  "NFL props: 15 events read (0 served from cache, 15 billed), 353 priced sides",
+  "NFL props: 15 events read (15 served from cache, 0 billed), 353 priced sides",
   "NCAAF: fit on 1056 games, hfa 2.89, sd margin 12.17, 1.1 games per team in the last 60 days (ratings maturity 18%)",
-  "americanfootball_ncaaf: 81 events from the primary key, 19265 credits left on it",
+  "americanfootball_ncaaf: 81 events from the primary key, 19259 credits left on it",
   "NCAAF: 32 priced, 0 outside the 7-day window, 9 with no rating, 12 with a team under 2 fitted games, 13 more than 10 points of margin away from the market, 15 with no FanDuel moneyline",
-  "NBA: fit on 1397 games, hfa 1.68, sd margin 14.12, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_nba: 41 events from the primary key, 19263 credits left on it",
+  "NBA: fit on 1393 games, hfa 1.70, sd margin 14.11, 0.0 games per team in the last 60 days (ratings maturity 0%)",
+  "basketball_nba: 41 events from the primary key, 19257 credits left on it",
   "NBA: 0 priced, 10 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline",
   "NCAAB: fit on 1156 games, hfa 3.03, sd margin 9.49, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_ncaab: 0 events from the primary key, 19263 credits left on it",
+  "basketball_ncaab: 0 events from the primary key, 19257 credits left on it",
   "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline"
  ],
  "games": [
@@ -813,7 +813,7 @@
    "hfa": 2.888,
    "sdMargin": 12.169,
    "projMargin": 23.982,
-   "marketMargin": 25.5,
+   "marketMargin": 27.5,
    "trust": 0.177,
    "mlBand": [
     -600.0,
@@ -822,9 +822,9 @@
    "maxDog": 17.5,
    "mlHome": -4500,
    "mlAway": 1600,
-   "spread": -25.5,
-   "sprHome": -118,
-   "sprAway": -104
+   "spread": -27.5,
+   "sprHome": -108,
+   "sprAway": -112
   },
   {
    "sport": "NCAAF",
