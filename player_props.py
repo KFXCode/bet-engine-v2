@@ -61,6 +61,12 @@ MAX_EVENTS = int(os.environ.get("PROPS_MAX_EVENTS", "24"))
 CACHE_MINUTES = int(os.environ.get("PROPS_CACHE_MINUTES", "180"))
 MAX_NEW_BOXSCORES = int(os.environ.get("MAX_NEW_BOXSCORES", "350"))
 
+# Bumped whenever the shape or the contents of a cached game log change in a
+# way that makes the existing cache wrong. On a mismatch the league's log is
+# rebuilt from scratch rather than appended to — a stale cache full of games
+# that should never have been collected is worse than no cache.
+LOG_VERSION = 2
+
 # ESPN blocks some datacenter IPs on some hosts. A single-host call returns
 # nothing on a runner and a whole league silently vanishes, so every request
 # goes through a helper that tries each host and takes the first that answers.
@@ -196,6 +202,32 @@ def parse_nba(box):
 PARSERS = {"NFL": parse_nfl, "NBA": parse_nba}
 
 
+def season_type(event, scoreboard):
+    """1 = preseason, 2 = regular, 3 = post. None when ESPN does not say.
+
+    Preseason has to be identifiable because it MUST be excluded from player
+    logs. Starters play a quarter and sit; a quarterback throws for fifty yards
+    and leaves. Those games are real and completed, so they sail through a
+    'finished games' filter — and because recency weighting counts the newest
+    games heaviest, in early September they dominate every projection. That is
+    how C.J. Stroud came out projected for 156 passing yards against a 218.5
+    line, making the under look like an 80% shot when it is closer to a coin
+    flip. Nothing about the model was wrong; it was being fed exhibition games.
+    """
+    for src in (event or {}), (event or {}).get("competitions", [{}])[0] if (event or {}).get("competitions") else {}:
+        st = (src or {}).get("season") or {}
+        t = st.get("type")
+        if isinstance(t, dict):
+            t = t.get("type")
+        if isinstance(t, int):
+            return t
+        if isinstance(t, str) and t.isdigit():
+            return int(t)
+    lg = ((scoreboard or {}).get("leagues") or [{}])[0]
+    t = ((lg.get("season") or {}).get("type") or {}).get("type")
+    return t if isinstance(t, int) else None
+
+
 def load_logs():
     try:
         with open(LOGS_PATH) as f:
@@ -203,19 +235,26 @@ def load_logs():
     except (OSError, ValueError):
         data = {}
     for lg in LEAGUE_PATHS:
-        data.setdefault(lg, {"seen": [], "games": []})
-        data[lg].setdefault("seen", [])
-        data[lg].setdefault("games", [])
+        blob = data.get(lg)
+        if not isinstance(blob, dict) or blob.get("version") != LOG_VERSION:
+            blob = {"version": LOG_VERSION, "seen": [], "games": []}
+        blob.setdefault("seen", [])
+        blob.setdefault("games", [])
+        blob["version"] = LOG_VERSION
+        data[lg] = blob
     return data
 
 
 def save_logs(data):
     # Bound the file: keep the newest LOG_DAYS worth and the ids that go with it.
     for lg, blob in data.items():
+        if not isinstance(blob, dict):
+            continue
         cut = (date.today() - timedelta(days=LOG_DAYS.get(lg, 400))).isoformat()
         blob["games"] = [g for g in blob["games"] if g.get("date", "") >= cut]
         keep = {g.get("event") for g in blob["games"]}
         blob["seen"] = sorted(x for x in blob["seen"] if x in keep)
+        blob["version"] = LOG_VERSION
     with open(LOGS_PATH, "w") as f:
         json.dump(data, f, separators=(",", ":"))
 
@@ -231,8 +270,7 @@ def refresh_logs(league, diag):
     # games in it, anything new is within the last few weeks — re-scanning a
     # year of scoreboards every run would triple the ESPN traffic and add
     # minutes to a job that also runs before kickoff.
-    span = LOG_DAYS.get(league, 400) if not blob["games"] else 21
-    if blob["games"]:
+    span = LOG_DAYS.get(league, 400) if not blob["games"] else 21    if blob["games"]:
         newest = max(g.get("date", "") for g in blob["games"])
         try:
             behind = (date.today() - datetime.fromisoformat(newest).date()).days
@@ -242,6 +280,7 @@ def refresh_logs(league, diag):
 
     wanted = []          # [(event_id, iso_date)] newest first
     today = date.today()
+    preseason_skipped = 0
     for i in range(span):
         d = today - timedelta(days=i + 1)
         js = espn_get("/apis/site/v2/sports/%s/scoreboard" % path,
@@ -253,12 +292,20 @@ def refresh_logs(league, diag):
             comp = (ev.get("competitions") or [{}])[0]
             if not comp.get("status", {}).get("type", {}).get("completed"):
                 continue
+            if season_type(ev, js) == 1:
+                preseason_skipped += 1
+                continue
             eid = str(ev.get("id") or "")
             if eid and eid not in seen:
                 wanted.append((eid, d.isoformat()))
         if len(wanted) >= MAX_NEW_BOXSCORES:
             break
         time.sleep(0.03)
+
+    if preseason_skipped:
+        diag.append("%s player logs: skipped %d preseason games — starters play a "
+                    "quarter in those, so counting them drags every projection "
+                    "down" % (league, preseason_skipped))
 
     if not wanted:
         diag.append("%s player logs: cache already current (%d player-games, "

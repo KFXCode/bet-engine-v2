@@ -134,9 +134,34 @@ ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 
 
 # ---------------------------------------------------------------- results ----
+def season_type(event, scoreboard):
+    """1 = preseason, 2 = regular, 3 = post. None when ESPN does not say."""
+    comps = (event or {}).get("competitions") or []
+    for src in ((event or {}), comps[0] if comps else {}):
+        st = (src or {}).get("season") or {}
+        t = st.get("type")
+        if isinstance(t, dict):
+            t = t.get("type")
+        if isinstance(t, int):
+            return t
+        if isinstance(t, str) and t.isdigit():
+            return int(t)
+    lg = ((scoreboard or {}).get("leagues") or [{}])[0]
+    t = ((lg.get("season") or {}).get("type") or {}).get("type")
+    return t if isinstance(t, int) else None
+
+
 def finished_games(espn_path, days):
-    """[(home, away, home_score, away_score, date)] for completed games."""
+    """[(home, away, home_score, away_score, date)] for completed games.
+
+    PRESEASON IS EXCLUDED. Exhibition games are completed games with real
+    scores, so they pass every other filter — but starters play a quarter and
+    sit, which makes the result close to noise about how good the team is. Left
+    in, they were the only "recent" football in the window each September, so
+    they both fed the ratings and made the league look like it had been playing.
+    """
     out, today = [], date.today()
+    preseason = 0
     for i in range(days):
         d = today - timedelta(days=i + 1)
         try:
@@ -145,12 +170,16 @@ def finished_games(espn_path, days):
                              timeout=HTTP_TIMEOUT)
             if r.status_code != 200:
                 continue
-            events = r.json().get("events", [])
+            js = r.json()
+            events = js.get("events", [])
         except Exception:
             continue
         for ev in events:
             comp = (ev.get("competitions") or [{}])[0]
             if not (comp.get("status", {}).get("type", {}).get("completed")):
+                continue
+            if season_type(ev, js) == 1:
+                preseason += 1
                 continue
             home = away = None
             for c in comp.get("competitors", []):
@@ -166,7 +195,7 @@ def finished_games(espn_path, days):
             if home and away:
                 out.append((home[0], away[0], home[1], away[1], d))
         time.sleep(0.05)
-    return out
+    return out, preseason
 
 
 def recent_form(results):
@@ -288,7 +317,10 @@ def build(diag):
 
     for league, (sport_key, espn_path, days) in LEAGUES.items():
         print(f"{league}: fitting ratings…")
-        results = finished_games(espn_path, days)
+        results, preseason = finished_games(espn_path, days)
+        if preseason:
+            diag.append(f"{league}: ignored {preseason} preseason games — starters "
+                        f"sit in those, so the result says little about the team")
         model = fit(results)
         if not model:
             msg = (f"{league}: only {len(results)} finished games found in "
