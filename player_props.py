@@ -270,7 +270,8 @@ def refresh_logs(league, diag):
     # games in it, anything new is within the last few weeks — re-scanning a
     # year of scoreboards every run would triple the ESPN traffic and add
     # minutes to a job that also runs before kickoff.
-    span = LOG_DAYS.get(league, 400) if not blob["games"] else 21    if blob["games"]:
+    span = LOG_DAYS.get(league, 400) if not blob["games"] else 21
+    if blob["games"]:
         newest = max(g.get("date", "") for g in blob["games"])
         try:
             behind = (date.today() - datetime.fromisoformat(newest).date()).days
