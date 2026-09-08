@@ -65,7 +65,7 @@ MAX_NEW_BOXSCORES = int(os.environ.get("MAX_NEW_BOXSCORES", "350"))
 # way that makes the existing cache wrong. On a mismatch the league's log is
 # rebuilt from scratch rather than appended to — a stale cache full of games
 # that should never have been collected is worse than no cache.
-LOG_VERSION = 2
+LOG_VERSION = 3
 
 # ESPN blocks some datacenter IPs on some hosts. A single-host call returns
 # nothing on a runner and a whole league silently vanishes, so every request
@@ -148,9 +148,21 @@ def num(d, key, default=0.0):
 
 
 def parse_nfl(box):
-    """{player: {stat: value}} from one NFL box score."""
-    out = defaultdict(lambda: defaultdict(float))
-    teams = {}
+    """{player: {stat: value}} from one NFL box score.
+
+    Every stat the player is eligible for is set explicitly, including zero — a
+    rusher who did not score carries tds = 0. That zero is the whole point:
+    averaging only the games a player scored in guarantees a projection above
+    one touchdown per game.
+    """
+    out, teams = {}, {}
+
+    def slot(name, keys):
+        rec = out.setdefault(name, {})
+        for k in keys:
+            rec.setdefault(k, 0.0)
+        return rec
+
     for team_block in box.get("players", []):
         tname = ((team_block.get("team") or {}).get("displayName")) or "?"
         for group in team_block.get("statistics", []):
@@ -165,20 +177,22 @@ def parse_nfl(box):
                 s = row(ath)
                 teams[name] = tname
                 if gname == "passing":
-                    out[name]["passYds"] += num(s, "YDS")
+                    rec = slot(name, ("passYds",))
+                    rec["passYds"] += num(s, "YDS")
                 elif gname == "rushing":
-                    out[name]["rushYds"] += num(s, "YDS")
-                    out[name]["tds"] += num(s, "TD")
-                elif gname == "receiving":
-                    out[name]["recYds"] += num(s, "YDS")
-                    out[name]["receptions"] += num(s, "REC")
-                    out[name]["tds"] += num(s, "TD")
+                    rec = slot(name, ("rushYds", "tds"))
+                    rec["rushYds"] += num(s, "YDS")
+                    rec["tds"] += num(s, "TD")
+                else:
+                    rec = slot(name, ("recYds", "receptions", "tds"))
+                    rec["recYds"] += num(s, "YDS")
+                    rec["receptions"] += num(s, "REC")
+                    rec["tds"] += num(s, "TD")
     return out, teams
 
 
 def parse_nba(box):
-    out = defaultdict(lambda: defaultdict(float))
-    teams = {}
+    out, teams = {}, {}
     for team_block in box.get("players", []):
         tname = ((team_block.get("team") or {}).get("displayName")) or "?"
         for group in team_block.get("statistics", []):
@@ -191,11 +205,9 @@ def parse_nba(box):
                 if not (s.get("MIN") or "").strip():
                     continue
                 teams[name] = tname
-                pts = num(s, "PTS"); reb = num(s, "REB"); ast = num(s, "AST")
-                out[name]["points"] = pts
-                out[name]["rebounds"] = reb
-                out[name]["assists"] = ast
-                out[name]["pra"] = pts + reb + ast
+                pts, reb, ast = num(s, "PTS"), num(s, "REB"), num(s, "AST")
+                out[name] = {"points": pts, "rebounds": reb, "assists": ast,
+                             "pra": pts + reb + ast}
     return out, teams
 
 
@@ -343,7 +355,16 @@ def refresh_logs(league, diag):
             blob["games"].append({
                 "event": eid, "date": iso, "player": name, "team": team,
                 "opp": opp_of.get(team, "?"),
-                **{k: round(v, 2) for k, v in stats.items() if v},
+                # Zeros are kept deliberately. A player who took the field and
+                # did not score has a real 0 in his touchdown log, and dropping
+                # it — as an earlier version did to save space — makes every
+                # average an average of his SCORING games only. That put elite
+                # backs at 1.4 touchdowns per game and made "at least one" a 76%
+                # shot, producing 30- and 50-point edges the credible-edge cap
+                # then had to discard. Keys exist only for the stat groups the
+                # player actually appeared in, so a quarterback still carries no
+                # reception line.
+                **{k: round(v, 2) for k, v in stats.items()},
             })
         blob["seen"].append(eid)
         added += 1
