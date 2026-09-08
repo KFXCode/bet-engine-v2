@@ -62,6 +62,13 @@ MAX_EDGE = float(os.environ.get("MAX_CREDIBLE_EDGE", "20"))
 # blowout from taking out a whole day.
 MAX_PROPS_PER_GAME = int(os.environ.get("MAX_PROPS_PER_GAME", "3"))
 
+# A projected probability this extreme is not a lock — it is the model leaving
+# the range where it can be trusted. The curves are fitted to ordinary game
+# outcomes, and out past this the answer is decided almost entirely by the shape
+# of the tail, the least data-supported part of any distribution. The axioms
+# permit P = 1; nothing estimated from a few dozen games ever earns it.
+MAX_CREDIBLE_P = float(os.environ.get("MAX_CREDIBLE_P", "0.97"))
+
 # Moneylines outside this band are not bet. Mirrors edge_slate.py: at a very
 # long price our probability is the tail of a fitted normal curve, and the tail
 # is where that curve is least trustworthy, so the "edge" there is really the
@@ -237,8 +244,9 @@ def prop_picks(slate):
             best[key] = dict(r, edge=e, ev=v)
 
     keep = [c for c in best.values()
-            if (c["edge"] >= PROPS_THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE)
-            or confident(c)]
+            if c["p"] <= MAX_CREDIBLE_P
+            and ((c["edge"] >= PROPS_THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE)
+                 or confident(c))]
 
     # strongest first, then cap per game so one game script cannot carry the day
     keep.sort(key=lambda c: -c["edge"])

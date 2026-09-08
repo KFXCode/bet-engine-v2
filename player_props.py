@@ -371,15 +371,31 @@ def build_projections(league, logs, diag):
             f = (n * raw + DEF_SHRINK * 1.0) / (n + DEF_SHRINK)   # toward neutral
             def_factor[defence][s] = min(DEF_CLAMP[1], max(DEF_CLAMP[0], f))
 
-    # league baseline per stat, over players who actually produce it — this is
-    # what a thin sample gets shrunk toward
-    baseline = {}
+    # Baseline per stat, used as the prior a thin sample is shrunk toward.
+    #
+    # This was originally the median across EVERY player who recorded the stat,
+    # which was badly wrong. For passing yards that pool is mostly backups who
+    # threw a few passes, so the median sat near 60 yards — and a 240-yard
+    # starter with five games got dragged to about 170. The model then loved
+    # every passing-yards UNDER on the board, which is exactly the pattern that
+    # showed up on a hand-picked card: seven of eleven props were unders.
+    #
+    # The prior has to come from COMPARABLE players. Bucket each stat's players
+    # into quintiles by their own raw mean and use each bucket's median, so a
+    # starter is shrunk toward other starters and a rotation player toward other
+    # rotation players. Shrinkage still does its job on a fluky short sample
+    # without pretending a starter is a backup.
+    tiers = {}
     for s in stats:
-        means = [sum(v for _, v in by_player[p][s]) / len(by_player[p][s])
-                 for p in by_player if len(by_player[p].get(s, [])) >= 3]
+        means = sorted(sum(v for _, v in by_player[p][s]) / len(by_player[p][s])
+                       for p in by_player if len(by_player[p].get(s, [])) >= 3)
         means = [m for m in means if m > 0]
-        means.sort()
-        baseline[s] = means[len(means) // 2] if means else 0.0
+        if not means:
+            tiers[s] = []
+            continue
+        k = max(1, len(means) // 5)
+        buckets = [means[i:i + k] for i in range(0, len(means), k)] or [means]
+        tiers[s] = [(b[0], b[-1], b[len(b) // 2]) for b in buckets if b]
 
     half = HALF_LIFE.get(league, 8.0)
     latest = games[-1]["date"]
@@ -397,7 +413,18 @@ def build_projections(league, logs, diag):
         if entry:
             proj[p] = {"stats": entry, "last": last_seen.get(p, ""),
                        "team": team_of.get(p, "?")}
-    return proj, {"def": def_factor, "baseline": baseline, "latest": latest}, latest
+    return proj, {"def": def_factor, "tiers": tiers, "latest": latest}, latest
+
+
+def tier_baseline(ctx, stat, raw_mean):
+    """The median of the usage bucket this player's own average falls in."""
+    buckets = (ctx.get("tiers") or {}).get(stat) or []
+    if not buckets:
+        return raw_mean
+    for lo, hi, med in buckets:
+        if lo <= raw_mean <= hi:
+            return med
+    return buckets[0][2] if raw_mean < buckets[0][0] else buckets[-1][2]
 
 
 # ------------------------------------------------------- distributions ------
@@ -514,11 +541,16 @@ def project(league, player, stat, ctx, proj, opponent, shrink_games):
     if gap > STALE_DAYS.get(league, 21):
         return None
 
-    base = ctx["baseline"].get(stat, 0.0)
+    base = tier_baseline(ctx, stat, s["mean_raw"])
     n_eff = s["n_eff"]
     mean = (n_eff * s["mean_raw"] + shrink_games * base) / (n_eff + shrink_games)
     if mean <= 0:
         return None
+    # Belt and braces: the prior may never move a projection more than 20% off
+    # what the player himself has actually done. Shrinkage is meant to calm a
+    # small sample, not to overrule it.
+    lo, hi = s["mean_raw"] * 0.8, s["mean_raw"] * 1.2
+    mean = max(lo, min(hi, mean))
 
     factor = ctx["def"].get(opponent, {}).get(stat, 1.0)
     mean *= factor
