@@ -1,39 +1,39 @@
 {
  "by_lane": {
   "value": {
-   "avg_clv": 0.05,
-   "clv_beat_rate": 0.37777777777777777,
-   "clv_n": 45,
-   "graded": 52,
+   "avg_clv": 0.05795744680851064,
+   "clv_beat_rate": 0.3829787234042553,
+   "clv_n": 47,
+   "graded": 54,
    "record": {
-    "l": 29,
+    "l": 30,
     "p": 0,
     "void": 0,
-    "w": 23
+    "w": 24
    },
-   "win_rate": 0.4423076923076923
+   "win_rate": 0.4444444444444444
   }
  },
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": 0.05,
-   "clv_beat_rate": 0.37777777777777777,
-   "clv_n": 45,
-   "graded": 52,
+   "avg_clv": 0.05795744680851064,
+   "clv_beat_rate": 0.3829787234042553,
+   "clv_n": 47,
+   "graded": 54,
    "record": {
-    "l": 29,
+    "l": 30,
     "p": 0,
     "void": 0,
-    "w": 23
+    "w": 24
    },
-   "win_rate": 0.4423076923076923
+   "win_rate": 0.4444444444444444
   }
  },
  "diagnostics": [
   "NFL player logs: cache already current (7679 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-08T00:51:14+00:00",
- "graded_through": "Week of Aug 31",
+ "generated_at": "2026-09-08T12:19:01+00:00",
+ "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
    "avg_clv": null,
@@ -52,10 +52,10 @@
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": 0.05,
-   "clv_beat_rate": 0.37777777777777777,
-   "clv_n": 45,
-   "graded": 52,
+   "avg_clv": 0.05795744680851064,
+   "clv_beat_rate": 0.3829787234042553,
+   "clv_n": 47,
+   "graded": 54,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -761,6 +761,42 @@
      "week": "Week of Aug 31"
     },
     {
+     "closing_price": 120,
+     "clv": 2.641,
+     "edge": 19.538,
+     "ev": 0.45718,
+     "final": "27-24",
+     "game": "SMU Mustangs @ Florida State Seminoles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Florida State Seminoles ML",
+     "player": null,
+     "price": 134,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -105,
+     "clv": -2.167,
+     "edge": 19.034,
+     "ev": 0.35585,
+     "final": "27-24",
+     "game": "SMU Mustangs @ Florida State Seminoles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Florida State Seminoles +3.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
      "closing_price": -110,
      "clv": -1.083,
      "edge": 13.214,
@@ -996,18 +1032,18 @@
     }
    ],
    "record": {
-    "l": 29,
+    "l": 30,
     "p": 0,
     "void": 0,
-    "w": 23
+    "w": 24
    },
    "threshold": 5.0,
-   "win_rate": 0.4423076923076923
+   "win_rate": 0.4444444444444444
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Props": 37,
-  "Sides": 71
+  "Sides": 69
  }
 }
