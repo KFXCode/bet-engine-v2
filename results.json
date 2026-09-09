@@ -31,9 +31,9 @@
  },
  "diagnostics": [
   "NFL player logs: skipped 49 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: cache already current (5631 player-games, looked back 215 days)"
+  "NFL player logs: cache already current (5631 player-games, looked back 216 days)"
  ],
- "generated_at": "2026-09-08T21:31:10+00:00",
+ "generated_at": "2026-09-09T12:30:47+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
