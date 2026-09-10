@@ -106,14 +106,18 @@ ML_MAX_PRICE = float(os.environ.get("ML_MAX_PRICE", "600"))
 # backup defence, so the upper tail of the margin is much fatter than the model
 # thinks and the big dog covers far less often than it should. Laying big points
 # as the FAVOURITE was fine (Air Force -28.5, UConn -18.5, Temple -14.5 all
-# won), so this caps the DOG side only.
-MAX_SPREAD_DOG = float(os.environ.get("MAX_SPREAD_DOG", "17.5"))
+# won), so this caps the DOG side only. Set at 24 rather than 17.5: the losing
+# cluster sat in the very biggest dogs, and the tighter cap was throwing away a
+# lot of ordinary picks to catch a handful of bad ones.
+MAX_SPREAD_DOG = float(os.environ.get("MAX_SPREAD_DOG", "24"))
 
 # How far the projected margin may sit from the market's own line before the
-# disagreement is treated as our error rather than the book's. Checked in POINTS
-# OF MARGIN, which is far more diagnostic than points of probability: ten points
-# of margin in a football game is a different game, not an opportunity.
-MAX_MARGIN_GAP = float(os.environ.get("MAX_MARGIN_GAP", "10"))
+# game is skipped ENTIRELY — both sides, before any pick is considered. That is
+# why this must stay loose: at 10 points it removed fifteen whole NCAAF games
+# from one card, because early-season ratings legitimately disagree with the
+# market by a couple of touchdowns. It is here to catch a broken projection,
+# not to enforce agreement with the book.
+MAX_MARGIN_GAP = float(os.environ.get("MAX_MARGIN_GAP", "28"))
 
 # league -> (odds-api key, espn path, days of results to fit on)
 # 400 days so a league that is between seasons still fits on last season and can
