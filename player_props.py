@@ -661,7 +661,7 @@ def fetch_event_props(sport_key, event_id, market_keys, keys, exhausted, diag, c
             age = (datetime.now(timezone.utc)
                    - datetime.fromisoformat(hit["at"])).total_seconds() / 60.0
             if age < CACHE_MINUTES:
-                return hit["data"], True
+                return hit["data"], True, "cache"
         except (ValueError, KeyError):
             pass
 
@@ -682,8 +682,7 @@ def fetch_event_props(sport_key, event_id, market_keys, keys, exhausted, diag, c
             left = r.headers.get("x-requests-remaining")
             data = r.json()
             cache[ck] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                         "data": data}
-            if left is not None:
+                         "data": data}            if left is not None:
                 try:
                     if int(left) <= CREDIT_RESERVE:
                         exhausted.add(key)
@@ -692,17 +691,20 @@ def fetch_event_props(sport_key, event_id, market_keys, keys, exhausted, diag, c
                                     % (label, left))
                 except ValueError:
                     pass
-            return data, False
+            return data, False, "ok"
         body = r.text[:160]
         if r.status_code in (401, 429) and ("USAGE" in body.upper() or "QUOTA" in body.upper()):
             exhausted.add(key)
             diag.append("props: %s key is out of credits" % label)
             continue
         if r.status_code == 404:
-            return None, False        # event has no prop board yet
+            # No prop board for this event yet. Counted and reported by the
+            # caller — a silent 404 once emptied a whole card while the log
+            # still read as a normal run.
+            return None, False, "no board"
         diag.append("props %s on %s key: HTTP %d %s" % (event_id, label, r.status_code, body))
-        return None, False
-    return None, False
+        return None, False, "http %d" % r.status_code
+    return None, False, "no key"
 
 
 # ----------------------------------------------------------------- names ----
@@ -762,6 +764,9 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
     cache = load_cache()
     out = []
     used = cached_hits = 0
+    # Why each event produced nothing. A props run that quietly returns zero
+    # sides is the failure this counter exists to make visible.
+    outcome, unmatched, no_markets = {}, set(), 0
     for ev in events[:MAX_EVENTS]:
         eid = ev.get("id")
         home, away = ev.get("home_team"), ev.get("away_team")
@@ -771,19 +776,23 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
             diag.append("props: every key is at or past its reserve — "
                         "%d events left unpriced" % (len(events) - used))
             break
-        data, from_cache = fetch_event_props(sport_key, eid, market_keys, keys,
-                                             exhausted, diag, cache)
+        data, from_cache, why = fetch_event_props(sport_key, eid, market_keys, keys,
+                                                   exhausted, diag, cache)
         used += 1
         cached_hits += 1 if from_cache else 0
         if not data:
+            outcome[why] = outcome.get(why, 0) + 1
             continue
         books = data.get("bookmakers") or []
         if not books:
+            outcome["no fanduel"] = outcome.get("no fanduel", 0) + 1
             continue
+        found_market = False
         for m in books[0].get("markets", []):
             mkey = m.get("key")
             if mkey not in MARKETS:
                 continue
+            found_market = True
             stat, kind, _lg, min_games, shrink = MARKETS[mkey]
             # group the two sides of each player's line together
             per_player = defaultdict(dict)
@@ -794,6 +803,7 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
             for who, sides in per_player.items():
                 matched = match_player(who, idx, short)
                 if not matched:
+                    unmatched.add(who)
                     continue
                 # a player's own team is where he last played; the defence he
                 # faces is the other team in this event
@@ -851,7 +861,26 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
                                 label="%s Under %s %s" % (matched, line, MARKET_LABEL[mkey].lower()),
                                 price=under.get("price"), other=over.get("price")))
 
+        if not found_market:
+            no_markets += 1
+
     save_cache(cache)
-    diag.append("%s props: %d events read (%d served from cache, %d billed), "
-                "%d priced sides" % (league, used, cached_hits, used - cached_hits, len(out)))
+    if out:
+        diag.append("%s props: %d events read (%d cached, %d fetched), "
+                    "%d priced sides" % (league, used, cached_hits,
+                                         used - cached_hits, len(out)))
+    else:
+        # Say exactly why nothing came back, in plain terms.
+        parts = ["%s props: %d events read but NO sides priced" % (league, used)]
+        if outcome:
+            parts.append("reasons: " + ", ".join(
+                "%d %s" % (v, k) for k, v in sorted(outcome.items())))
+        if no_markets:
+            parts.append("%d events returned a FanDuel board with none of our "
+                         "markets on it" % no_markets)
+        if unmatched:
+            sample = ", ".join(sorted(unmatched)[:5])
+            parts.append("%d player names on the board matched nobody in our "
+                         "game logs (e.g. %s)" % (len(unmatched), sample))
+        diag.append(" — ".join(parts))
     return out
