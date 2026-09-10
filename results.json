@@ -1,17 +1,17 @@
 {
  "by_lane": {
   "value": {
-   "avg_clv": 0.05795744680851064,
-   "clv_beat_rate": 0.3829787234042553,
-   "clv_n": 47,
-   "graded": 54,
+   "avg_clv": 0.03190384615384616,
+   "clv_beat_rate": 0.34615384615384615,
+   "clv_n": 52,
+   "graded": 56,
    "record": {
-    "l": 30,
+    "l": 31,
     "p": 0,
-    "void": 0,
-    "w": 24
+    "void": 3,
+    "w": 25
    },
-   "win_rate": 0.4444444444444444
+   "win_rate": 0.44642857142857145
   }
  },
  "by_sport": {
@@ -27,36 +27,117 @@
     "w": 24
    },
    "win_rate": 0.4444444444444444
+  },
+  "NFL Props": {
+   "avg_clv": 0.0,
+   "clv_beat_rate": 0.0,
+   "clv_n": 3,
+   "graded": 0,
+   "record": {
+    "l": 0,
+    "p": 0,
+    "void": 3,
+    "w": 0
+   },
+   "win_rate": null
+  },
+  "NFL Sides": {
+   "avg_clv": -0.5325,
+   "clv_beat_rate": 0.0,
+   "clv_n": 2,
+   "graded": 2,
+   "record": {
+    "l": 1,
+    "p": 0,
+    "void": 0,
+    "w": 1
+   },
+   "win_rate": 0.5
   }
  },
  "diagnostics": [
   "NFL player logs: skipped 49 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: cache already current (5631 player-games, looked back 216 days)"
+  "NFL player logs: added 1 box scores, 5651 player-games cached"
  ],
- "generated_at": "2026-09-09T12:30:47+00:00",
+ "generated_at": "2026-09-10T12:24:35+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
-   "avg_clv": null,
-   "clv_beat_rate": null,
-   "clv_n": 0,
+   "avg_clv": 0.0,
+   "clv_beat_rate": 0.0,
+   "clv_n": 3,
    "graded": 0,
    "label": "Player props",
-   "picks": [],
+   "picks": [
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 14.773,
+     "ev": 0.27731,
+     "final": "did not play",
+     "game": "New England Patriots @ Seattle Seahawks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "George Holani Under 18.5 rushing yards",
+     "player": "George Holani",
+     "price": -114,
+     "proj": 16.453,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 11.963,
+     "ev": 0.22458,
+     "final": "did not play",
+     "game": "New England Patriots @ Seattle Seahawks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Sam Darnold Under 228.5 passing yards",
+     "player": "Sam Darnold",
+     "price": -114,
+     "proj": 207.32,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 17.375,
+     "ev": 0.32617,
+     "final": "did not play",
+     "game": "New England Patriots @ Seattle Seahawks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Rashid Shaheed Under 31.5 receiving yards",
+     "player": "Rashid Shaheed",
+     "price": -114,
+     "proj": 26.417,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    }
+   ],
    "record": {
     "l": 0,
     "p": 0,
-    "void": 0,
+    "void": 3,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": 0.05795744680851064,
-   "clv_beat_rate": 0.3829787234042553,
-   "clv_n": 47,
-   "graded": 54,
+   "avg_clv": 0.033857142857142856,
+   "clv_beat_rate": 0.3673469387755102,
+   "clv_n": 49,
+   "graded": 56,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -1030,21 +1111,57 @@
      "result": "W",
      "sport": "NCAAF",
      "week": "Week of Aug 31"
+    },
+    {
+     "closing_price": -104,
+     "clv": -1.065,
+     "edge": 5.81,
+     "ev": 0.1119,
+     "final": "10-13",
+     "game": "New England Patriots @ Seattle Seahawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Seattle Seahawks -3.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -180,
+     "clv": 0.0,
+     "edge": 18.338,
+     "ev": 0.28526,
+     "final": "10-13",
+     "game": "New England Patriots @ Seattle Seahawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Seattle Seahawks ML",
+     "player": null,
+     "price": -180,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
     }
    ],
    "record": {
-    "l": 30,
+    "l": 31,
     "p": 0,
     "void": 0,
-    "w": 24
+    "w": 25
    },
    "threshold": 5.0,
-   "win_rate": 0.4444444444444444
+   "win_rate": 0.44642857142857145
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 69,
-  "Sides": 77
+  "Props": 66,
+  "Sides": 75
  }
 }
