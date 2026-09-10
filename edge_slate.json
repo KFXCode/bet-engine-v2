@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-10T22:54:57+00:00",
+ "generated_at": "2026-09-10T23:11:47+00:00",
  "model": "game lines: adjusted-margin ratings fit jointly with home field, normal distribution over the game margin. Moneylines outside -600 to +600 are not bet, spread underdogs of more than +17.5 are not bet, and a game is skipped when the projection lands more than 10 points of margin from the market's own line. player props: per-player game logs with recency weighting, shrunk toward a league baseline and adjusted for the defence, priced with gamma (yardage), negative binomial (counts) or Poisson (anytime TD). half-point lines only; totals are not priced; games starting within 7 days",
  "days_ahead": 7,
  "lookahead_days": 45,
  "diagnostics": [
   "NFL: ignored 97 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NFL: fit on 287 games, hfa 2.15, sd margin 11.25, 1.0 games per team in the last 60 days (ratings maturity 12%)",
-  "americanfootball_nfl: 240 events from the primary key, 18913 credits left on it",
+  "americanfootball_nfl: 240 events from the primary key, 18832 credits left on it",
   "NFL: 15 priced, 14 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline",
   "NFL player logs: skipped 32 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
   "NFL player logs: cache already current (5651 player-games, looked back 21 days)",
   "NFL props: projections for 491 players from 5651 player-games",
-  "NFL props: 15 events read (0 served from cache, 15 billed), 0 priced sides",
+  "NFL props: 15 events read but NO sides priced \u2014 116 player names on the board matched nobody in our game logs (e.g. Antonio Williams, Arizona Cardinals Defense, Atlanta Falcons Defense, Baltimore Ravens Defense, Barion Brown)",
   "NCAAF: fit on 1057 games, hfa 2.88, sd margin 12.16, 1.1 games per team in the last 60 days (ratings maturity 18%)",
-  "americanfootball_ncaaf: 101 events from the primary key, 18836 credits left on it",
+  "americanfootball_ncaaf: 101 events from the primary key, 18830 credits left on it",
   "NCAAF: 32 priced, 9 outside the 7-day window, 9 with no rating, 15 with a team under 2 fitted games, 15 more than 10 points of margin away from the market, 15 with no FanDuel moneyline",
   "NBA: ignored 71 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NBA: fit on 1326 games, hfa 1.76, sd margin 14.13, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_nba: 41 events from the primary key, 18834 credits left on it",
+  "basketball_nba: 41 events from the primary key, 18828 credits left on it",
   "NBA: 0 priced, 10 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline",
   "NCAAB: fit on 1156 games, hfa 3.03, sd margin 9.49, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_ncaab: 0 events from the primary key, 18834 credits left on it",
+  "basketball_ncaab: 0 events from the primary key, 18828 credits left on it",
   "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline"
  ],
  "games": [
@@ -472,8 +472,8 @@
     600.0
    ],
    "maxDog": 17.5,
-   "mlHome": 172,
-   "mlAway": -205,
+   "mlHome": 168,
+   "mlAway": -200,
    "spread": 4.5,
    "sprHome": -105,
    "sprAway": -115
@@ -748,11 +748,11 @@
     600.0
    ],
    "maxDog": 17.5,
-   "mlHome": -430,
-   "mlAway": 330,
+   "mlHome": -420,
+   "mlAway": 320,
    "spread": -10.5,
-   "sprHome": -105,
-   "sprAway": -115
+   "sprHome": -104,
+   "sprAway": -118
   },
   {
    "sport": "NCAAF",
