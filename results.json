@@ -56,10 +56,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: skipped 49 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: added 1 box scores, 5651 player-games cached"
+  "NFL player logs: skipped 32 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NFL player logs: cache already current (5651 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-10T12:24:35+00:00",
+ "generated_at": "2026-09-10T22:54:58+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
@@ -1162,6 +1162,6 @@
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Props": 66,
-  "Sides": 75
+  "Sides": 76
  }
 }
