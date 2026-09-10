@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-09-10T23:23:26+00:00",
- "model": "game lines: adjusted-margin ratings fit jointly with home field, normal distribution over the game margin. Moneylines outside -600 to +600 are not bet, spread underdogs of more than +17.5 are not bet, and a game is skipped when the projection lands more than 10 points of margin from the market's own line. player props: per-player game logs with recency weighting, shrunk toward a league baseline and adjusted for the defence, priced with gamma (yardage), negative binomial (counts) or Poisson (anytime TD). half-point lines only; totals are not priced; games starting within 7 days",
+ "generated_at": "2026-09-10T23:39:30+00:00",
+ "model": "game lines: adjusted-margin ratings fit jointly with home field, normal distribution over the game margin. Moneylines outside -600 to +600 are not bet, spread underdogs of more than +24 are not bet, and a game is skipped when the projection lands more than 28 points of margin from the market's own line. player props: per-player game logs with recency weighting, shrunk toward a league baseline and adjusted for the defence, priced with gamma (yardage), negative binomial (counts) or Poisson (anytime TD). half-point lines only; totals are not priced; games starting within 7 days",
  "days_ahead": 7,
  "lookahead_days": 45,
  "diagnostics": [
   "NFL: ignored 97 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NFL: fit on 287 games, hfa 2.15, sd margin 11.25, 1.0 games per team in the last 60 days (ratings maturity 12%)",
-  "americanfootball_nfl: 240 events from the primary key, 18826 credits left on it",
-  "NFL: 15 priced, 14 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline",
+  "americanfootball_nfl: 240 events from the primary key, 18820 credits left on it",
+  "NFL: 15 priced, 14 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
   "NFL player logs: skipped 32 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
   "NFL player logs: cache already current (5651 player-games, looked back 21 days)",
   "NFL props: projections for 491 players from 5651 player-games",
   "NFL props: 15 events read but NO sides priced \u2014 116 player names on the board matched nobody in our game logs (e.g. Antonio Williams, Arizona Cardinals Defense, Atlanta Falcons Defense, Baltimore Ravens Defense, Barion Brown) \u2014 matched but not priced: 717 not projectable (stale or no history)",
   "NCAAF: fit on 1057 games, hfa 2.88, sd margin 12.16, 1.1 games per team in the last 60 days (ratings maturity 18%)",
-  "americanfootball_ncaaf: 101 events from the primary key, 18824 credits left on it",
-  "NCAAF: 32 priced, 9 outside the 7-day window, 9 with no rating, 15 with a team under 2 fitted games, 15 more than 10 points of margin away from the market, 15 with no FanDuel moneyline",
+  "americanfootball_ncaaf: 101 events from the primary key, 18818 credits left on it",
+  "NCAAF: 47 priced, 9 outside the 7-day window, 9 with no rating, 15 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 15 with no FanDuel moneyline",
   "NBA: ignored 71 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NBA: fit on 1326 games, hfa 1.76, sd margin 14.13, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_nba: 41 events from the primary key, 18822 credits left on it",
-  "NBA: 0 priced, 10 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline",
+  "basketball_nba: 41 events from the primary key, 18816 credits left on it",
+  "NBA: 0 priced, 10 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
   "NCAAB: fit on 1156 games, hfa 3.03, sd margin 9.49, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_ncaab: 0 events from the primary key, 18822 credits left on it",
-  "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 10 points of margin away from the market, 0 with no FanDuel moneyline"
+  "basketball_ncaab: 0 events from the primary key, 18816 credits left on it",
+  "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline"
  ],
  "games": [
   {
@@ -40,7 +40,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -205,
    "mlAway": 172,
    "spread": -3.5,
@@ -63,7 +63,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -230,
    "mlAway": 190,
    "spread": -4.5,
@@ -86,7 +86,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 154,
    "mlAway": -184,
    "spread": 3.5,
@@ -109,7 +109,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 100,
    "mlAway": -118,
    "spread": 1.5,
@@ -132,7 +132,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 138,
    "mlAway": -164
   },
@@ -152,7 +152,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -200,
    "mlAway": 168,
    "spread": -3.5,
@@ -175,7 +175,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -450,
    "mlAway": 350,
    "spread": -8.5,
@@ -198,7 +198,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -330,
    "mlAway": 265,
    "spread": -6.5,
@@ -221,7 +221,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -124,
    "mlAway": 106,
    "spread": -1.5,
@@ -244,7 +244,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -490,
    "mlAway": 380,
    "spread": -9.5,
@@ -267,7 +267,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -120,
    "mlAway": 102,
    "spread": -1.5,
@@ -290,7 +290,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -174,
    "mlAway": 146
   },
@@ -310,7 +310,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -250,
    "mlAway": 205,
    "spread": -5.5,
@@ -333,7 +333,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 130,
    "mlAway": -154,
    "spread": 2.5,
@@ -356,7 +356,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -142,
    "mlAway": 120,
    "spread": -2.5,
@@ -379,7 +379,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -154,
    "mlAway": 128,
    "spread": -3.5,
@@ -402,7 +402,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 172,
    "mlAway": -210,
    "spread": 5.5,
@@ -425,12 +425,35 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -690,
    "mlAway": 480,
    "spread": -14.5,
    "sprHome": -106,
    "sprAway": -114
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Army Black Knights",
+   "away": "South Florida Bulls",
+   "time": "2026-09-12T16:00:00Z",
+   "homeRtg": 14.2,
+   "awayRtg": 26.29,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": -9.209,
+   "marketMargin": 3.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -164,
+   "mlAway": 136,
+   "spread": -3.5,
+   "sprHome": -105,
+   "sprAway": -115
   },
   {
    "sport": "NCAAF",
@@ -448,7 +471,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -1250,
    "mlAway": 740,
    "spread": -17.5,
@@ -471,12 +494,58 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 168,
    "mlAway": -200,
    "spread": 4.5,
    "sprHome": -105,
    "sprAway": -115
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Oklahoma State Cowboys",
+   "away": "Oregon Ducks",
+   "time": "2026-09-12T16:00:00Z",
+   "homeRtg": -2.18,
+   "awayRtg": 42.126,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": -41.425,
+   "marketMargin": -23.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": 1060,
+   "mlAway": -2300,
+   "spread": 23.5,
+   "sprHome": -112,
+   "sprAway": -108
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Virginia Tech Hokies",
+   "away": "Old Dominion Monarchs",
+   "time": "2026-09-12T16:00:00Z",
+   "homeRtg": 12.15,
+   "awayRtg": 17.03,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": -1.999,
+   "marketMargin": 18.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -1250,
+   "mlAway": 740,
+   "spread": -18.5,
+   "sprHome": -114,
+   "sprAway": -106
   },
   {
    "sport": "NCAAF",
@@ -494,7 +563,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 1400,
    "mlAway": -4000,
    "spread": 23.5,
@@ -517,7 +586,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 134,
    "mlAway": -162,
    "spread": 3.5,
@@ -540,7 +609,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 280,
    "mlAway": -360,
    "spread": 10.5,
@@ -563,7 +632,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -315,
    "mlAway": 250,
    "spread": -7.5,
@@ -586,7 +655,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -178,
    "mlAway": 146,
    "spread": -3.5,
@@ -609,7 +678,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -20000,
    "mlAway": 3500,
    "spread": -34.5,
@@ -632,7 +701,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -225,
    "mlAway": 184,
    "spread": -5.5,
@@ -655,12 +724,35 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -900,
    "mlAway": 590,
    "spread": -17.5,
    "sprHome": -106,
    "sprAway": -114
+  },
+  {
+   "sport": "NCAAF",
+   "home": "UConn Huskies",
+   "away": "Maryland Terrapins",
+   "time": "2026-09-12T19:30:00Z",
+   "homeRtg": 8.984,
+   "awayRtg": 14.166,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": -2.301,
+   "marketMargin": -12.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": 360,
+   "mlAway": -480,
+   "spread": 12.5,
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NCAAF",
@@ -678,7 +770,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -111,
    "mlAway": -108,
    "spread": 1.5,
@@ -701,7 +793,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -265,
    "mlAway": 215,
    "spread": -7.5,
@@ -724,7 +816,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -128,
    "mlAway": 106,
    "spread": -2.5,
@@ -747,7 +839,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -420,
    "mlAway": 320,
    "spread": -10.5,
@@ -770,12 +862,104 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -4500,
    "mlAway": 1600,
    "spread": -27.5,
    "sprHome": -106,
    "sprAway": -114
+  },
+  {
+   "sport": "NCAAF",
+   "home": "North Texas Mean Green",
+   "away": "UNLV Rebels",
+   "time": "2026-09-12T19:45:00Z",
+   "homeRtg": 24.832,
+   "awayRtg": 15.441,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 12.272,
+   "marketMargin": -3.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": 136,
+   "mlAway": -164,
+   "spread": 3.5,
+   "sprHome": -122,
+   "sprAway": 100
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Wyoming Cowboys",
+   "away": "Northern Colorado Bears",
+   "time": "2026-09-12T20:00:00Z",
+   "homeRtg": 1.828,
+   "awayRtg": -1.884,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 6.594,
+   "marketMargin": 23.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -4000,
+   "mlAway": 1400,
+   "spread": -23.5,
+   "sprHome": -110,
+   "sprAway": -110
+  },
+  {
+   "sport": "NCAAF",
+   "home": "SMU Mustangs",
+   "away": "UC Davis Aggies",
+   "time": "2026-09-12T20:00:00Z",
+   "homeRtg": 25.459,
+   "awayRtg": -12.935,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 41.276,
+   "marketMargin": 26.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -4500,
+   "mlAway": 1600,
+   "spread": -26.5,
+   "sprHome": -110,
+   "sprAway": -110
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Vanderbilt Commodores",
+   "away": "Delaware Blue Hens",
+   "time": "2026-09-12T20:15:00Z",
+   "homeRtg": 33.899,
+   "awayRtg": 0.406,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 36.374,
+   "marketMargin": 21.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -2000,
+   "mlAway": 980,
+   "spread": -21.5,
+   "sprHome": -105,
+   "sprAway": -115
   },
   {
    "sport": "NCAAF",
@@ -793,7 +977,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -335,
    "mlAway": 265,
    "spread": -8.5,
@@ -816,7 +1000,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -410,
    "mlAway": 315,
    "spread": -9.5,
@@ -839,7 +1023,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -132,
    "mlAway": 110,
    "spread": -2.5,
@@ -862,12 +1046,35 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -10000,
    "mlAway": 3000,
    "spread": -30.5,
    "sprHome": -110,
    "sprAway": -110
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Kennesaw State Owls",
+   "away": "Georgia State Panthers",
+   "time": "2026-09-12T23:00:00Z",
+   "homeRtg": 6.772,
+   "awayRtg": -9.973,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 19.626,
+   "marketMargin": 8.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -320,
+   "mlAway": 255,
+   "spread": -8.5,
+   "sprHome": -105,
+   "sprAway": -115
   },
   {
    "sport": "NCAAF",
@@ -885,7 +1092,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 340,
    "mlAway": -450,
    "spread": 11.5,
@@ -908,7 +1115,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 140,
    "mlAway": -170,
    "spread": 3.5,
@@ -931,7 +1138,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -1700,
    "mlAway": 890,
    "spread": -20.5,
@@ -954,10 +1161,56 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -550,
    "mlAway": 400,
    "spread": -13.5,
+   "sprHome": -110,
+   "sprAway": -110
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Tulane Green Wave",
+   "away": "South Alabama Jaguars",
+   "time": "2026-09-12T23:00:00Z",
+   "homeRtg": 16.947,
+   "awayRtg": -2.409,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 22.237,
+   "marketMargin": 9.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -385,
+   "mlAway": 300,
+   "spread": -9.5,
+   "sprHome": -114,
+   "sprAway": -106
+  },
+  {
+   "sport": "NCAAF",
+   "home": "UCLA Bruins",
+   "away": "San Diego State Aztecs",
+   "time": "2026-09-12T23:15:00Z",
+   "homeRtg": 14.887,
+   "awayRtg": 17.096,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 0.671,
+   "marketMargin": 12.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -480,
+   "mlAway": 360,
+   "spread": -12.5,
    "sprHome": -110,
    "sprAway": -110
   },
@@ -977,9 +1230,9 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
-   "mlHome": -1600,
-   "mlAway": 860,
+   "maxDog": 24.0,
+   "mlHome": -1700,
+   "mlAway": 890,
    "spread": -20.5,
    "sprHome": -110,
    "sprAway": -110
@@ -1000,7 +1253,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -10000,
    "mlAway": 2500,
    "spread": -34.5,
@@ -1023,7 +1276,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 158,
    "mlAway": -192,
    "spread": 4.5,
@@ -1046,12 +1299,81 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -670,
    "mlAway": 470,
    "spread": -13.5,
    "sprHome": -122,
    "sprAway": 100
+  },
+  {
+   "sport": "NCAAF",
+   "home": "LSU Tigers",
+   "away": "Louisiana Tech Bulldogs",
+   "time": "2026-09-12T23:30:00Z",
+   "homeRtg": 26.163,
+   "awayRtg": 8.189,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 20.855,
+   "marketMargin": 35.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -10000,
+   "mlAway": 2400,
+   "spread": -35.5,
+   "sprHome": 100,
+   "sprAway": -122
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Texas Longhorns",
+   "away": "Ohio State Buckeyes",
+   "time": "2026-09-12T23:30:00Z",
+   "homeRtg": 32.266,
+   "awayRtg": 44.665,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": -9.517,
+   "marketMargin": 1.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -118,
+   "mlAway": 100,
+   "spread": -1.5,
+   "sprHome": -110,
+   "sprAway": -110
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Oregon State Beavers",
+   "away": "Texas Tech Red Raiders",
+   "time": "2026-09-12T23:30:00Z",
+   "homeRtg": 0.092,
+   "awayRtg": 41.555,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": -38.583,
+   "marketMargin": -26.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": 1600,
+   "mlAway": -4500,
+   "spread": 26.5,
+   "sprHome": -115,
+   "sprAway": -105
   },
   {
    "sport": "NCAAF",
@@ -1069,10 +1391,33 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": 110,
    "mlAway": -132,
    "spread": 2.5,
+   "sprHome": -110,
+   "sprAway": -110
+  },
+  {
+   "sport": "NCAAF",
+   "home": "Utah Utes",
+   "away": "Arkansas Razorbacks",
+   "time": "2026-09-13T02:15:00Z",
+   "homeRtg": 40.581,
+   "awayRtg": 18.478,
+   "hfa": 2.881,
+   "sdMargin": 12.165,
+   "projMargin": 24.985,
+   "marketMargin": 12.5,
+   "trust": 0.177,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -520,
+   "mlAway": 400,
+   "spread": -12.5,
    "sprHome": -110,
    "sprAway": -110
   },
@@ -1092,7 +1437,7 @@
     -600.0,
     600.0
    ],
-   "maxDog": 17.5,
+   "maxDog": 24.0,
    "mlHome": -1100,
    "mlAway": 680,
    "spread": -17.5,
