@@ -294,6 +294,7 @@ def refresh_logs(league, diag):
     wanted = []          # [(event_id, iso_date)] newest first
     today = date.today()
     preseason_skipped = 0
+    pre_ids = set()
     for i in range(span):
         d = today - timedelta(days=i + 1)
         js = espn_get("/apis/site/v2/sports/%s/scoreboard" % path,
@@ -307,6 +308,13 @@ def refresh_logs(league, diag):
                 continue
             if season_type(ev, js) == 1:
                 preseason_skipped += 1
+                # Also evict it if an earlier run cached it. Skipping only new
+                # preseason games left the old ones in the log, and since the
+                # staleness gate below measures each player against the NEWEST
+                # game on file, one stale preseason date made every veteran
+                # look like he had not played in six months. That emptied the
+                # entire prop card while every other diagnostic read normal.
+                pre_ids.add(str(ev.get("id") or ""))
                 continue
             eid = str(ev.get("id") or "")
             if eid and eid not in seen:
@@ -319,6 +327,16 @@ def refresh_logs(league, diag):
         diag.append("%s player logs: skipped %d preseason games — starters play a "
                     "quarter in those, so counting them drags every projection "
                     "down" % (league, preseason_skipped))
+
+    if pre_ids:
+        before = len(blob["games"])
+        blob["games"] = [g for g in blob["games"] if str(g.get("event")) not in pre_ids]
+        blob["seen"] = [x for x in blob["seen"] if x not in pre_ids]
+        evicted = before - len(blob["games"])
+        if evicted:
+            diag.append("%s player logs: evicted %d player-games left over from "
+                        "preseason by an earlier run" % (league, evicted))
+            save_logs(logs)
 
     if not wanted:
         diag.append("%s player logs: cache already current (%d player-games, "
@@ -601,13 +619,21 @@ def project(league, player, stat, ctx, proj, opponent, shrink_games):
         return None
     s = rec["stats"][stat]
 
-    # too long since he last appeared — treat as unavailable rather than guess
+    # too long since he last appeared — treat as unavailable rather than guess.
+    #
+    # Measured against the newest game ON FILE, not against today, because
+    # between seasons every player is months stale and the gate would reject
+    # the whole league. The guard below is the other half of that: when the log
+    # itself is older than the window, the season has not started and there is
+    # nothing recent to be absent from, so the gate is skipped entirely.
+    stale = STALE_DAYS.get(league, 21)
     try:
-        gap = (datetime.fromisoformat(ctx["latest"]).date()
-               - datetime.fromisoformat(rec["last"]).date()).days
+        newest = datetime.fromisoformat(ctx["latest"]).date()
+        league_gap = (date.today() - newest).days
+        gap = (newest - datetime.fromisoformat(rec["last"]).date()).days
     except ValueError:
-        gap = 0
-    if gap > STALE_DAYS.get(league, 21):
+        league_gap, gap = 0, 0
+    if league_gap <= stale and gap > stale:
         return None
 
     base = tier_baseline(ctx, stat, s["mean_raw"])
@@ -768,6 +794,9 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
     # Why each event produced nothing. A props run that quietly returns zero
     # sides is the failure this counter exists to make visible.
     outcome, unmatched, no_markets = {}, set(), 0
+    # Players we DID match but could not price. Without this the log blamed
+    # name matching for failures that were really the staleness gate.
+    filtered = {}
     for ev in events[:MAX_EVENTS]:
         eid = ev.get("id")
         home, away = ev.get("home_team"), ev.get("away_team")
@@ -811,7 +840,13 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
                 team = proj[matched]["team"]
                 opponent = away if norm_name(team) == norm_name(home) else home
                 pr = project(league, matched, stat, ctx, proj, opponent, shrink)
-                if not pr or pr["n"] < min_games:
+                if not pr:
+                    filtered["not projectable (stale or no history)"] = \
+                        filtered.get("not projectable (stale or no history)", 0) + 1
+                    continue
+                if pr["n"] < min_games:
+                    filtered["under %d games of history" % min_games] = \
+                        filtered.get("under %d games of history" % min_games, 0) + 1
                     continue
 
                 if kind == "poisson":
@@ -883,5 +918,8 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
             sample = ", ".join(sorted(unmatched)[:5])
             parts.append("%d player names on the board matched nobody in our "
                          "game logs (e.g. %s)" % (len(unmatched), sample))
+        if filtered:
+            parts.append("matched but not priced: " + ", ".join(
+                "%d %s" % (v, k) for k, v in sorted(filtered.items())))
         diag.append(" — ".join(parts))
     return out
