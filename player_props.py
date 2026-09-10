@@ -682,7 +682,8 @@ def fetch_event_props(sport_key, event_id, market_keys, keys, exhausted, diag, c
             left = r.headers.get("x-requests-remaining")
             data = r.json()
             cache[ck] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                         "data": data}            if left is not None:
+                         "data": data}
+            if left is not None:
                 try:
                     if int(left) <= CREDIT_RESERVE:
                         exhausted.add(key)
