@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-10T23:39:30+00:00",
+ "generated_at": "2026-09-11T00:27:08+00:00",
  "model": "game lines: adjusted-margin ratings fit jointly with home field, normal distribution over the game margin. Moneylines outside -600 to +600 are not bet, spread underdogs of more than +24 are not bet, and a game is skipped when the projection lands more than 28 points of margin from the market's own line. player props: per-player game logs with recency weighting, shrunk toward a league baseline and adjusted for the defence, priced with gamma (yardage), negative binomial (counts) or Poisson (anytime TD). half-point lines only; totals are not priced; games starting within 7 days",
  "days_ahead": 7,
  "lookahead_days": 45,
  "diagnostics": [
   "NFL: ignored 97 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NFL: fit on 287 games, hfa 2.15, sd margin 11.25, 1.0 games per team in the last 60 days (ratings maturity 12%)",
-  "americanfootball_nfl: 240 events from the primary key, 18820 credits left on it",
-  "NFL: 15 priced, 14 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
-  "NFL player logs: skipped 32 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "americanfootball_nfl: 240 events from the primary key, 18813 credits left on it",
+  "NFL: 16 priced, 13 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
+  "NFL player logs: skipped 30 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
   "NFL player logs: cache already current (5651 player-games, looked back 21 days)",
   "NFL props: projections for 491 players from 5651 player-games",
-  "NFL props: 15 events read but NO sides priced \u2014 116 player names on the board matched nobody in our game logs (e.g. Antonio Williams, Arizona Cardinals Defense, Atlanta Falcons Defense, Baltimore Ravens Defense, Barion Brown) \u2014 matched but not priced: 717 not projectable (stale or no history)",
+  "NFL props: 16 events read but NO sides priced \u2014 reasons: 1 no fanduel \u2014 116 player names on the board matched nobody in our game logs (e.g. Antonio Williams, Arizona Cardinals Defense, Atlanta Falcons Defense, Baltimore Ravens Defense, Barion Brown) \u2014 matched but not priced: 717 not projectable (stale or no history)",
   "NCAAF: fit on 1057 games, hfa 2.88, sd margin 12.16, 1.1 games per team in the last 60 days (ratings maturity 18%)",
-  "americanfootball_ncaaf: 101 events from the primary key, 18818 credits left on it",
+  "americanfootball_ncaaf: 101 events from the primary key, 18811 credits left on it",
   "NCAAF: 47 priced, 9 outside the 7-day window, 9 with no rating, 15 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 15 with no FanDuel moneyline",
   "NBA: ignored 71 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NBA: fit on 1326 games, hfa 1.76, sd margin 14.13, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_nba: 41 events from the primary key, 18816 credits left on it",
+  "basketball_nba: 41 events from the primary key, 18809 credits left on it",
   "NBA: 0 priced, 10 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
   "NCAAB: fit on 1156 games, hfa 3.03, sd margin 9.49, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_ncaab: 0 events from the primary key, 18816 credits left on it",
+  "basketball_ncaab: 0 events from the primary key, 18809 credits left on it",
   "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline"
  ],
  "games": [
@@ -41,8 +41,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -205,
-   "mlAway": 172,
+   "mlHome": -198,
+   "mlAway": 166,
    "spread": -3.5,
    "sprHome": -112,
    "sprAway": -108
@@ -364,6 +364,29 @@
    "sprAway": -105
   },
   {
+   "sport": "NFL",
+   "home": "Buffalo Bills",
+   "away": "Detroit Lions",
+   "time": "2026-09-18T00:15:00Z",
+   "homeRtg": 5.009,
+   "awayRtg": 3.766,
+   "hfa": 2.147,
+   "sdMargin": 11.246,
+   "projMargin": 3.39,
+   "marketMargin": 3.5,
+   "trust": 0.125,
+   "mlBand": [
+    -600.0,
+    600.0
+   ],
+   "maxDog": 24.0,
+   "mlHome": -196,
+   "mlAway": 164,
+   "spread": -3.5,
+   "sprHome": -110,
+   "sprAway": -110
+  },
+  {
    "sport": "NCAAF",
    "home": "Boston College Eagles",
    "away": "Rutgers Scarlet Knights",
@@ -426,11 +449,11 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -690,
-   "mlAway": 480,
+   "mlHome": -780,
+   "mlAway": 530,
    "spread": -14.5,
-   "sprHome": -106,
-   "sprAway": -114
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NCAAF",
@@ -840,8 +863,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -420,
-   "mlAway": 320,
+   "mlHome": -430,
+   "mlAway": 330,
    "spread": -10.5,
    "sprHome": -104,
    "sprAway": -118
@@ -1447,15 +1470,6 @@
  ],
  "props": [],
  "lookahead": [
-  {
-   "sport": "NFL",
-   "home": "Buffalo Bills",
-   "away": "Detroit Lions",
-   "time": "2026-09-18T00:15:00Z",
-   "mlHome": -196,
-   "mlAway": 164,
-   "spread": -3.5
-  },
   {
    "sport": "NCAAF",
    "home": "Texas Tech Red Raiders",
