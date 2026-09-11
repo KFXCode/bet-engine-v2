@@ -109,6 +109,11 @@ MARKET_LABEL = {
 # Recency: a game this many games back counts half as much as the last one.
 HALF_LIFE = {"NFL": 6.0, "NBA": 12.0}
 # A player whose last appearance is older than this is treated as unavailable.
+# A player whose team has played this many games without him is treated as
+# unavailable — injured, benched or gone. Counted in GAMES, never in days: in a
+# season opener every player last played the previous February, so any day-based
+# staleness test rejects the whole league at once.
+MISSED_GAMES_OUT = int(os.environ.get("MISSED_GAMES_OUT", "3"))
 STALE_DAYS = {"NFL": 24, "NBA": 12}
 DEF_SHRINK = 4.0        # games before a defence's own number is trusted
 DEF_CLAMP = (0.80, 1.25)
@@ -506,7 +511,20 @@ def build_projections(league, logs, diag):
         if entry:
             proj[p] = {"stats": entry, "last": last_seen.get(p, ""),
                        "team": team_of.get(p, "?")}
-    return proj, {"def": def_factor, "tiers": tiers, "latest": latest}, latest
+
+    # Every date each team appears on. The staleness gate uses this to ask the
+    # only question that actually matters — has this player's team played games
+    # he did not appear in? — rather than "how long ago did he last play", which
+    # is unanswerable in a season opener when the honest answer for everyone is
+    # "last February".
+    team_dates = defaultdict(set)
+    for g in games:
+        if g.get("team") and g.get("team") != "?":
+            team_dates[g["team"]].add(g["date"])
+    team_dates = {t: sorted(ds) for t, ds in team_dates.items()}
+
+    return proj, {"def": def_factor, "tiers": tiers, "latest": latest,
+                  "team_dates": team_dates}, latest
 
 
 def tier_baseline(ctx, stat, raw_mean):
@@ -631,22 +649,24 @@ def project(league, player, stat, ctx, proj, opponent, shrink_games):
         return None, "under 3 logged games of %s" % stat
     s = rec["stats"][stat]
 
-    # too long since he last appeared — treat as unavailable rather than guess.
+    # Is he actually unavailable? Measured in GAMES HIS TEAM PLAYED without
+    # him, not in days since he last played.
     #
-    # Measured against the newest game ON FILE, not against today, because
-    # between seasons every player is months stale and the gate would reject
-    # the whole league. The guard below is the other half of that: when the log
-    # itself is older than the window, the season has not started and there is
-    # nothing recent to be absent from, so the gate is skipped entirely.
-    stale = STALE_DAYS.get(league, 21)
-    try:
-        newest = datetime.fromisoformat(ctx["latest"]).date()
-        league_gap = (date.today() - newest).days
-        gap = (newest - datetime.fromisoformat(rec["last"]).date()).days
-    except ValueError:
-        league_gap, gap = 0, 0
-    if league_gap <= stale and gap > stale:
-        return None, "last played %d days before the newest game on file" % gap
+    # Days-since cannot work. In a season opener every player's last game was
+    # the previous January or February, so a day-based gate rejects the entire
+    # league at once — which is exactly what emptied this card: the smallest gap
+    # on file was 213 days (the Super Bowl) against a 24-day limit, so all 717
+    # players failed. Counting missed team games asks the real question and
+    # answers it correctly in both cases: between seasons his team has played
+    # nothing either, so nobody is stale; mid-season a player who sat out three
+    # straight games his team played is genuinely not in the plans.
+    missed = 0
+    last = rec.get("last") or ""
+    for d in (ctx.get("team_dates") or {}).get(rec.get("team"), []):
+        if d > last:
+            missed += 1
+    if missed >= MISSED_GAMES_OUT:
+        return None, "sat out the last %d games his team played" % missed
 
     base = tier_baseline(ctx, stat, s["mean_raw"])
     n_eff = s["n_eff"]
