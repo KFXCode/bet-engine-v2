@@ -65,7 +65,13 @@ MAX_NEW_BOXSCORES = int(os.environ.get("MAX_NEW_BOXSCORES", "350"))
 # way that makes the existing cache wrong. On a mismatch the league's log is
 # rebuilt from scratch rather than appended to — a stale cache full of games
 # that should never have been collected is worse than no cache.
-LOG_VERSION = 3
+# Bumped to 4 to purge preseason games that the incremental scan could not
+# reach. The 21-day catch-up window only revisits recent dates, so early-August
+# preseason games stayed in the log forever. They made the newest game on file a
+# late-August date, which switched the staleness gate ON, which then rejected
+# every player whose last real game was in February — all 717 of them, so the
+# prop card went completely empty while every other diagnostic read normal.
+LOG_VERSION = 4
 
 # ESPN blocks some datacenter IPs on some hosts. A single-host call returns
 # nothing on a runner and a whole league silently vanishes, so every request
@@ -613,10 +619,16 @@ def half_point(x):
 
 # -------------------------------------------------------------- projecting --
 def project(league, player, stat, ctx, proj, opponent, shrink_games):
-    """Final mean and sd for one player-stat, or None if not projectable."""
+    """(projection, None) or (None, reason). The reason is what gets logged.
+
+    Every early return names itself. A props run that silently produces nothing
+    used to be indistinguishable from a run with no edges in it.
+    """
     rec = proj.get(player)
-    if not rec or stat not in rec["stats"]:
-        return None
+    if not rec:
+        return None, "player has no game log"
+    if stat not in rec["stats"]:
+        return None, "under 3 logged games of %s" % stat
     s = rec["stats"][stat]
 
     # too long since he last appeared — treat as unavailable rather than guess.
@@ -634,18 +646,21 @@ def project(league, player, stat, ctx, proj, opponent, shrink_games):
     except ValueError:
         league_gap, gap = 0, 0
     if league_gap <= stale and gap > stale:
-        return None
+        return None, "last played %d days before the newest game on file" % gap
 
     base = tier_baseline(ctx, stat, s["mean_raw"])
     n_eff = s["n_eff"]
     mean = (n_eff * s["mean_raw"] + shrink_games * base) / (n_eff + shrink_games)
     if mean <= 0:
-        return None
+        return None, "projects to zero %s" % stat
     # Belt and braces: the prior may never move a projection more than 20% off
     # what the player himself has actually done. Shrinkage is meant to calm a
-    # small sample, not to overrule it.
-    lo, hi = s["mean_raw"] * 0.8, s["mean_raw"] * 1.2
-    mean = max(lo, min(hi, mean))
+    # small sample, not to overrule it. Skipped when the player's own average
+    # is zero, since the clamp would otherwise force the projection back to
+    # zero and throw away the prior entirely.
+    if s["mean_raw"] > 0:
+        lo, hi = s["mean_raw"] * 0.8, s["mean_raw"] * 1.2
+        mean = max(lo, min(hi, mean))
 
     factor = ctx["def"].get(opponent, {}).get(stat, 1.0)
     mean *= factor
@@ -657,7 +672,7 @@ def project(league, player, stat, ctx, proj, opponent, shrink_games):
     # a mean estimated from few games is itself uncertain; widen by that much
     sd = sd * math.sqrt(1.0 + 1.0 / max(n_eff, 1.0))
     return {"mean": mean, "sd": sd, "var": var * (1.0 + 1.0 / max(n_eff, 1.0)),
-            "n": s["n"], "factor": factor}
+            "n": s["n"], "factor": factor}, None
 
 
 # ------------------------------------------------------------- odds fetch ----
@@ -839,10 +854,10 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
                 # faces is the other team in this event
                 team = proj[matched]["team"]
                 opponent = away if norm_name(team) == norm_name(home) else home
-                pr = project(league, matched, stat, ctx, proj, opponent, shrink)
+                pr, why_not = project(league, matched, stat, ctx, proj,
+                                      opponent, shrink)
                 if not pr:
-                    filtered["not projectable (stale or no history)"] = \
-                        filtered.get("not projectable (stale or no history)", 0) + 1
+                    filtered[why_not] = filtered.get(why_not, 0) + 1
                     continue
                 if pr["n"] < min_games:
                     filtered["under %d games of history" % min_games] = \
