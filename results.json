@@ -1,17 +1,30 @@
 {
  "by_lane": {
-  "value": {
-   "avg_clv": 0.03190384615384616,
-   "clv_beat_rate": 0.34615384615384615,
-   "clv_n": 52,
-   "graded": 56,
+  "confidence": {
+   "avg_clv": 0.0,
+   "clv_beat_rate": 0.0,
+   "clv_n": 1,
+   "graded": 0,
    "record": {
-    "l": 31,
+    "l": 0,
     "p": 0,
     "void": 3,
+    "w": 0
+   },
+   "win_rate": null
+  },
+  "value": {
+   "avg_clv": 0.013315789473684213,
+   "clv_beat_rate": 0.3157894736842105,
+   "clv_n": 57,
+   "graded": 58,
+   "record": {
+    "l": 33,
+    "p": 0,
+    "void": 6,
     "w": 25
    },
-   "win_rate": 0.44642857142857145
+   "win_rate": 0.43103448275862066
   }
  },
  "by_sport": {
@@ -31,41 +44,41 @@
   "NFL Props": {
    "avg_clv": 0.0,
    "clv_beat_rate": 0.0,
-   "clv_n": 3,
+   "clv_n": 7,
    "graded": 0,
    "record": {
     "l": 0,
     "p": 0,
-    "void": 3,
+    "void": 9,
     "w": 0
    },
    "win_rate": null
   },
   "NFL Sides": {
-   "avg_clv": -0.5325,
+   "avg_clv": -0.49124999999999996,
    "clv_beat_rate": 0.0,
-   "clv_n": 2,
-   "graded": 2,
+   "clv_n": 4,
+   "graded": 4,
    "record": {
-    "l": 1,
+    "l": 3,
     "p": 0,
     "void": 0,
     "w": 1
    },
-   "win_rate": 0.5
+   "win_rate": 0.25
   }
  },
  "diagnostics": [
   "NFL player logs: skipped 30 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: cache already current (5651 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 5673 player-games cached"
  ],
- "generated_at": "2026-09-11T02:07:12+00:00",
+ "generated_at": "2026-09-11T12:23:00+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
    "avg_clv": 0.0,
    "clv_beat_rate": 0.0,
-   "clv_n": 3,
+   "clv_n": 7,
    "graded": 0,
    "label": "Player props",
    "picks": [
@@ -83,6 +96,78 @@
      "player": "George Holani",
      "price": -114,
      "proj": 16.453,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 17.154,
+     "ev": 0.32201,
+     "final": "did not play",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Brock Purdy Under 243.5 passing yards",
+     "player": "Brock Purdy",
+     "price": -114,
+     "proj": 202.845,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -140,
+     "clv": 0.0,
+     "edge": 13.676,
+     "ev": 0.23445,
+     "final": "did not play",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Deebo Samuel Sr. Over 2.5 receptions",
+     "player": "Deebo Samuel Sr.",
+     "price": -140,
+     "proj": 3.838,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 9.767,
+     "ev": 0.18335,
+     "final": "did not play",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Deebo Samuel Sr. Over 29.5 receiving yards",
+     "player": "Deebo Samuel Sr.",
+     "price": -114,
+     "proj": 42.911,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": 102,
+     "clv": 0.0,
+     "edge": 32.01,
+     "ev": 0.6466,
+     "final": "did not play",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Rushing yards",
+     "pick": "Puka Nacua Over 2.5 rushing yards",
+     "player": "Puka Nacua",
+     "price": 102,
+     "proj": 12.295,
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
@@ -122,22 +207,58 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 36.115,
+     "ev": 0.67794,
+     "final": "did not play",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Passing yards",
+     "pick": "Matthew Stafford Over 198.5 passing yards",
+     "player": "Matthew Stafford",
+     "price": -114,
+     "proj": 293.151,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 33.117,
+     "ev": 0.59611,
+     "final": "did not play",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Rushing yards",
+     "pick": "Deebo Samuel Sr. Under 17.5 rushing yards",
+     "player": "Deebo Samuel Sr.",
+     "price": -125,
+     "proj": 6.724,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
     }
    ],
    "record": {
     "l": 0,
     "p": 0,
-    "void": 3,
+    "void": 9,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": 0.033857142857142856,
-   "clv_beat_rate": 0.3673469387755102,
-   "clv_n": 49,
-   "graded": 56,
+   "avg_clv": 0.014882352941176473,
+   "clv_beat_rate": 0.35294117647058826,
+   "clv_n": 51,
+   "graded": 58,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -969,6 +1090,24 @@
      "week": "Week of Aug 31"
     },
     {
+     "closing_price": -112,
+     "clv": -0.65,
+     "edge": 7.062,
+     "ev": 0.13204,
+     "final": "27-7",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Los Angeles Rams -3.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 7.805,
@@ -1131,6 +1270,24 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": -198,
+     "clv": -0.25,
+     "edge": 8.182,
+     "ev": 0.12273,
+     "final": "27-7",
+     "game": "San Francisco 49ers @ Los Angeles Rams",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Los Angeles Rams ML",
+     "player": null,
+     "price": -200,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 7"
+    },
+    {
      "closing_price": -180,
      "clv": 0.0,
      "edge": 18.338,
@@ -1150,18 +1307,18 @@
     }
    ],
    "record": {
-    "l": 31,
+    "l": 33,
     "p": 0,
     "void": 0,
     "w": 25
    },
    "threshold": 5.0,
-   "win_rate": 0.44642857142857145
+   "win_rate": 0.43103448275862066
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 86,
-  "Sides": 86
+  "Props": 80,
+  "Sides": 84
  }
 }
