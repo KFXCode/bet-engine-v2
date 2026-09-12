@@ -14,32 +14,32 @@
    "win_rate": null
   },
   "value": {
-   "avg_clv": 0.013315789473684213,
-   "clv_beat_rate": 0.3157894736842105,
-   "clv_n": 57,
-   "graded": 58,
+   "avg_clv": 0.15793548387096773,
+   "clv_beat_rate": 0.3548387096774194,
+   "clv_n": 62,
+   "graded": 63,
    "record": {
-    "l": 33,
+    "l": 37,
     "p": 0,
     "void": 6,
-    "w": 25
+    "w": 26
    },
-   "win_rate": 0.43103448275862066
+   "win_rate": 0.4126984126984127
   }
  },
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": 0.05795744680851064,
-   "clv_beat_rate": 0.3829787234042553,
-   "clv_n": 47,
-   "graded": 54,
+   "avg_clv": 0.22609615384615384,
+   "clv_beat_rate": 0.4230769230769231,
+   "clv_n": 52,
+   "graded": 59,
    "record": {
-    "l": 30,
+    "l": 34,
     "p": 0,
     "void": 0,
-    "w": 24
+    "w": 25
    },
-   "win_rate": 0.4444444444444444
+   "win_rate": 0.423728813559322
   },
   "NFL Props": {
    "avg_clv": 0.0,
@@ -69,10 +69,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: skipped 30 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: added 1 box scores, 5673 player-games cached"
+  "NFL player logs: skipped 27 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NFL player logs: cache already current (5673 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-11T12:23:00+00:00",
+ "generated_at": "2026-09-12T11:44:46+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
@@ -255,10 +255,10 @@
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": 0.014882352941176473,
-   "clv_beat_rate": 0.35294117647058826,
-   "clv_n": 51,
-   "graded": 58,
+   "avg_clv": 0.17485714285714285,
+   "clv_beat_rate": 0.39285714285714285,
+   "clv_n": 56,
+   "graded": 63,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -1108,6 +1108,24 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 11.292,
+     "ev": 0.21557,
+     "final": "0-73",
+     "game": "Richmond Spiders @ NC State Wolfpack",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "NC State Wolfpack -30.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 7.805,
@@ -1234,6 +1252,78 @@
      "week": "Week of Aug 31"
     },
     {
+     "closing_price": 128,
+     "clv": 3.991,
+     "edge": 15.415,
+     "ev": 0.38845,
+     "final": "21-28",
+     "game": "Rutgers Scarlet Knights @ Boston College Eagles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Rutgers Scarlet Knights ML",
+     "player": null,
+     "price": 152,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -120,
+     "clv": 1.062,
+     "edge": 15.278,
+     "ev": 0.2868,
+     "final": "21-28",
+     "game": "Rutgers Scarlet Knights @ Boston College Eagles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Rutgers Scarlet Knights +4.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": 188,
+     "clv": 2.03,
+     "edge": 7.648,
+     "ev": 0.23326,
+     "final": "38-21",
+     "game": "Missouri Tigers @ Kansas Jayhawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Kansas Jayhawks ML",
+     "player": null,
+     "price": 205,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 1.95,
+     "edge": 9.448,
+     "ev": 0.18446,
+     "final": "38-21",
+     "game": "Missouri Tigers @ Kansas Jayhawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Kansas Jayhawks +6.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 19.113,
@@ -1307,18 +1397,18 @@
     }
    ],
    "record": {
-    "l": 33,
+    "l": 37,
     "p": 0,
     "void": 0,
-    "w": 25
+    "w": 26
    },
    "threshold": 5.0,
-   "win_rate": 0.43103448275862066
+   "win_rate": 0.4126984126984127
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Props": 80,
-  "Sides": 84
+  "Sides": 79
  }
 }
