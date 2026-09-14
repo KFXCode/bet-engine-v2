@@ -8,23 +8,23 @@
    "record": {
     "l": 6,
     "p": 0,
-    "void": 26,
+    "void": 27,
     "w": 6
    },
    "win_rate": 0.5
   },
   "value": {
-   "avg_clv": 0.0018313953488371987,
-   "clv_beat_rate": 0.23255813953488372,
-   "clv_n": 172,
-   "graded": 134,
+   "avg_clv": 0.00043333333333332263,
+   "clv_beat_rate": 0.22777777777777777,
+   "clv_n": 180,
+   "graded": 136,
    "record": {
     "l": 77,
     "p": 0,
-    "void": 60,
-    "w": 57
+    "void": 66,
+    "w": 59
    },
-   "win_rate": 0.4253731343283582
+   "win_rate": 0.4338235294117647
   }
  },
  "by_sport": {
@@ -42,43 +42,43 @@
    "win_rate": 0.4666666666666667
   },
   "NFL Props": {
-   "avg_clv": -0.1013,
-   "clv_beat_rate": 0.04285714285714286,
-   "clv_n": 70,
+   "avg_clv": -0.09330263157894737,
+   "clv_beat_rate": 0.039473684210526314,
+   "clv_n": 76,
    "graded": 0,
    "record": {
     "l": 0,
     "p": 0,
-    "void": 86,
+    "void": 93,
     "w": 0
    },
    "win_rate": null
   },
   "NFL Sides": {
-   "avg_clv": 0.12786363636363635,
-   "clv_beat_rate": 0.3181818181818182,
-   "clv_n": 22,
-   "graded": 26,
+   "avg_clv": 0.10733333333333332,
+   "clv_beat_rate": 0.3333333333333333,
+   "clv_n": 24,
+   "graded": 28,
    "record": {
     "l": 19,
     "p": 0,
     "void": 0,
-    "w": 7
+    "w": 9
    },
-   "win_rate": 0.2692307692307692
+   "win_rate": 0.32142857142857145
   }
  },
  "diagnostics": [
   "NFL player logs: skipped 16 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: cache already current (5904 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 5926 player-games cached"
  ],
- "generated_at": "2026-09-14T00:56:54+00:00",
+ "generated_at": "2026-09-14T14:28:22+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
-   "avg_clv": -0.1013,
-   "clv_beat_rate": 0.04285714285714286,
-   "clv_n": 70,
+   "avg_clv": -0.09330263157894737,
+   "clv_beat_rate": 0.039473684210526314,
+   "clv_n": 76,
    "graded": 0,
    "label": "Player props",
    "picks": [
@@ -407,6 +407,42 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 16.215,
+     "ev": 0.30439,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Cam Skattebo Under 51.5 rushing yards",
+     "player": "Cam Skattebo",
+     "price": -114,
+     "proj": 42.638,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 15.955,
+     "ev": 0.29951,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Isaiah Likely Under 34.5 receiving yards",
+     "player": "Isaiah Likely",
+     "price": -114,
+     "proj": 29.029,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 11.222,
@@ -623,6 +659,24 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 15.458,
+     "ev": 0.29018,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Cam Skattebo Over 15.5 receiving yards",
+     "player": "Cam Skattebo",
+     "price": -114,
+     "proj": 27.128,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": 120,
      "clv": 0.0,
      "edge": 54.545,
@@ -639,6 +693,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 45.772,
+     "ev": 1.30449,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Anytime TD",
+     "pick": "Jaxson Dart anytime TD",
+     "player": "Jaxson Dart",
+     "price": 185,
+     "proj": 1.653,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
     },
     {
      "closing_price": -114,
@@ -785,6 +857,24 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 16.573,
+     "ev": 0.31111,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Jaxson Dart Under 217.5 passing yards",
+     "player": "Jaxson Dart",
+     "price": -114,
+     "proj": 182.821,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 15.611,
@@ -855,6 +945,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 13.428,
+     "ev": 0.25208,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Jaxson Dart Over 28.5 rushing yards",
+     "player": "Jaxson Dart",
+     "price": -114,
+     "proj": 41.905,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
     },
     {
      "closing_price": -114,
@@ -1397,6 +1505,24 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": 124,
+     "clv": 0.0,
+     "edge": 15.342,
+     "ev": 0.34366,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Ryan Flournoy Over 2.5 receptions",
+     "player": "Ryan Flournoy",
+     "price": 124,
+     "proj": 3.605,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": -114,
      "clv": 0.0,
      "edge": 15.003,
@@ -1634,17 +1760,17 @@
    "record": {
     "l": 0,
     "p": 0,
-    "void": 86,
+    "void": 93,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.05462878787878789,
-   "clv_beat_rate": 0.30303030303030304,
-   "clv_n": 132,
-   "graded": 146,
+   "avg_clv": -0.05558208955223882,
+   "clv_beat_rate": 0.30597014925373134,
+   "clv_n": 134,
+   "graded": 148,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -3376,6 +3502,42 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": 138,
+     "clv": -1.082,
+     "edge": 16.869,
+     "ev": 0.39136,
+     "final": "20-28",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "New York Giants ML",
+     "player": null,
+     "price": 132,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.845,
+     "edge": 16.723,
+     "ev": 0.33119,
+     "final": "20-28",
+     "game": "Dallas Cowboys @ New York Giants",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "New York Giants +2.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 19.113,
@@ -4280,15 +4442,15 @@
     "l": 83,
     "p": 0,
     "void": 0,
-    "w": 63
+    "w": 65
    },
    "threshold": 5.0,
-   "win_rate": 0.4315068493150685
+   "win_rate": 0.4391891891891892
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 13,
-  "Sides": 68
+  "Props": 6,
+  "Sides": 66
  }
 }
