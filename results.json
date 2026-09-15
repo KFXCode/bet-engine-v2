@@ -14,17 +14,17 @@
    "win_rate": 0.5
   },
   "value": {
-   "avg_clv": 0.00043333333333332263,
-   "clv_beat_rate": 0.22777777777777777,
-   "clv_n": 180,
-   "graded": 136,
+   "avg_clv": -0.012393617021276606,
+   "clv_beat_rate": 0.21808510638297873,
+   "clv_n": 188,
+   "graded": 138,
    "record": {
-    "l": 77,
+    "l": 79,
     "p": 0,
-    "void": 66,
+    "void": 73,
     "w": 59
    },
-   "win_rate": 0.4338235294117647
+   "win_rate": 0.427536231884058
   }
  },
  "by_sport": {
@@ -42,43 +42,43 @@
    "win_rate": 0.4666666666666667
   },
   "NFL Props": {
-   "avg_clv": -0.09330263157894737,
-   "clv_beat_rate": 0.039473684210526314,
-   "clv_n": 76,
+   "avg_clv": -0.11584146341463415,
+   "clv_beat_rate": 0.036585365853658534,
+   "clv_n": 82,
    "graded": 0,
    "record": {
     "l": 0,
     "p": 0,
-    "void": 93,
+    "void": 100,
     "w": 0
    },
    "win_rate": null
   },
   "NFL Sides": {
-   "avg_clv": 0.10733333333333332,
-   "clv_beat_rate": 0.3333333333333333,
-   "clv_n": 24,
-   "graded": 28,
+   "avg_clv": 0.09907692307692306,
+   "clv_beat_rate": 0.3076923076923077,
+   "clv_n": 26,
+   "graded": 30,
    "record": {
-    "l": 19,
+    "l": 21,
     "p": 0,
     "void": 0,
     "w": 9
    },
-   "win_rate": 0.32142857142857145
+   "win_rate": 0.3
   }
  },
  "diagnostics": [
   "NFL player logs: skipped 16 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: cache already current (5926 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 5945 player-games cached"
  ],
- "generated_at": "2026-09-15T01:07:43+00:00",
+ "generated_at": "2026-09-15T12:55:30+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
-   "avg_clv": -0.09330263157894737,
-   "clv_beat_rate": 0.039473684210526314,
-   "clv_n": 76,
+   "avg_clv": -0.11584146341463415,
+   "clv_beat_rate": 0.036585365853658534,
+   "clv_n": 82,
    "graded": 0,
    "label": "Player props",
    "picks": [
@@ -695,6 +695,60 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": 188,
+     "clv": 0.0,
+     "edge": 19.043,
+     "ev": 0.54844,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Adam Trautman Over 1.5 receptions",
+     "player": "Adam Trautman",
+     "price": 188,
+     "proj": 1.802,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 17.889,
+     "ev": 0.33581,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Travis Kelce Under 41.5 receiving yards",
+     "player": "Travis Kelce",
+     "price": -114,
+     "proj": 33.186,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 16.226,
+     "ev": 0.3046,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Bo Nix Under 227.5 passing yards",
+     "player": "Bo Nix",
+     "price": -114,
+     "proj": 193.363,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 45.772,
@@ -783,6 +837,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.043,
+     "ev": 0.34913,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Kenneth Walker III anytime TD",
+     "player": "Kenneth Walker III",
+     "price": -120,
+     "proj": 1.331,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
     },
     {
      "closing_price": -114,
@@ -927,6 +999,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -104,
+     "clv": -2.408,
+     "edge": 14.441,
+     "ev": 0.27109,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Jaylen Waddle Under 4.5 receptions",
+     "player": "Jaylen Waddle",
+     "price": -114,
+     "proj": 3.752,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
     },
     {
      "closing_price": -140,
@@ -1089,6 +1179,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 15.522,
+     "ev": 0.29137,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "RJ Harvey Over 18.5 rushing yards",
+     "player": "RJ Harvey",
+     "price": -114,
+     "proj": 31.768,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
     },
     {
      "closing_price": -113,
@@ -1755,22 +1863,40 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 17.504,
+     "ev": 0.34665,
+     "final": "did not play",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Adam Trautman Over 6.5 receiving yards",
+     "player": "Adam Trautman",
+     "price": -102,
+     "proj": 15.571,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
     }
    ],
    "record": {
     "l": 0,
     "p": 0,
-    "void": 93,
+    "void": 100,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.05558208955223882,
-   "clv_beat_rate": 0.30597014925373134,
-   "clv_n": 134,
-   "graded": 148,
+   "avg_clv": -0.05476470588235295,
+   "clv_beat_rate": 0.3014705882352941,
+   "clv_n": 136,
+   "graded": 150,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -3916,6 +4042,42 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": 122,
+     "clv": 0.0,
+     "edge": 13.196,
+     "ev": 0.29294,
+     "final": "10-31",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Denver Broncos ML",
+     "player": null,
+     "price": 122,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 14.537,
+     "ev": 0.28381,
+     "final": "10-31",
+     "game": "Denver Broncos @ Kansas City Chiefs",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Denver Broncos +2.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": -154,
      "clv": 0.0,
      "edge": 5.431,
@@ -4439,18 +4601,18 @@
     }
    ],
    "record": {
-    "l": 83,
+    "l": 85,
     "p": 0,
     "void": 0,
     "w": 65
    },
    "threshold": 5.0,
-   "win_rate": 0.4391891891891892
+   "win_rate": 0.43333333333333335
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 10,
-  "Sides": 73
+  "Props": 3,
+  "Sides": 71
  }
 }
