@@ -1,45 +1,45 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": -0.5337096774193549,
-   "clv_beat_rate": 0.0967741935483871,
-   "clv_n": 31,
-   "graded": 13,
+   "avg_clv": -0.51025,
+   "clv_beat_rate": 0.125,
+   "clv_n": 32,
+   "graded": 14,
    "record": {
-    "l": 6,
+    "l": 7,
     "p": 0,
     "void": 27,
     "w": 7
    },
-   "win_rate": 0.5384615384615384
+   "win_rate": 0.5
   },
   "value": {
-   "avg_clv": -0.0031727748691099573,
-   "clv_beat_rate": 0.2198952879581152,
-   "clv_n": 191,
-   "graded": 140,
+   "avg_clv": -0.009772020725388611,
+   "clv_beat_rate": 0.22279792746113988,
+   "clv_n": 193,
+   "graded": 142,
    "record": {
     "l": 80,
     "p": 0,
     "void": 76,
-    "w": 60
+    "w": 62
    },
-   "win_rate": 0.42857142857142855
+   "win_rate": 0.43661971830985913
   }
  },
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": -0.09132142857142858,
-   "clv_beat_rate": 0.30357142857142855,
-   "clv_n": 112,
-   "graded": 122,
+   "avg_clv": -0.09818260869565218,
+   "clv_beat_rate": 0.3130434782608696,
+   "clv_n": 115,
+   "graded": 125,
    "record": {
-    "l": 64,
+    "l": 65,
     "p": 0,
     "void": 0,
-    "w": 58
+    "w": 60
    },
-   "win_rate": 0.47540983606557374
+   "win_rate": 0.48
   },
   "NFL Props": {
    "avg_clv": -0.11308333333333334,
@@ -69,10 +69,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: skipped 12 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NFL player logs: added 1 box scores, 5960 player-games cached"
+  "NFL player logs: skipped 2 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NFL player logs: cache already current (5960 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-18T12:24:17+00:00",
+ "generated_at": "2026-09-19T12:05:42+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
@@ -1947,10 +1947,10 @@
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.05544927536231885,
-   "clv_beat_rate": 0.30434782608695654,
-   "clv_n": 138,
-   "graded": 153,
+   "avg_clv": -0.061808510638297884,
+   "clv_beat_rate": 0.3120567375886525,
+   "clv_n": 141,
+   "graded": 156,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -4618,6 +4618,42 @@
      "week": "Week of Sep 14"
     },
     {
+     "closing_price": -330,
+     "clv": -1.713,
+     "edge": 18.498,
+     "ev": 0.23566,
+     "final": "26-28",
+     "game": "Houston Cougars @ Texas Tech Red Raiders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Texas Tech Red Raiders ML",
+     "player": null,
+     "price": -365,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -115,
+     "clv": 0.217,
+     "edge": 33.352,
+     "ev": 0.62608,
+     "final": "26-28",
+     "game": "Houston Cougars @ Texas Tech Red Raiders",
+     "group": "Sides",
+     "lane": "confidence",
+     "market": "Spread",
+     "pick": "Texas Tech Red Raiders -9.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 8.819,
@@ -4690,6 +4726,24 @@
      "week": "Week of Sep 7"
     },
     {
+     "closing_price": -110,
+     "clv": 0.433,
+     "edge": 11.181,
+     "ev": 0.21533,
+     "final": "33-20",
+     "game": "Miami Hurricanes @ Wake Forest Demon Deacons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Wake Forest Demon Deacons +23.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 14"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.787,
@@ -4709,18 +4763,18 @@
     }
    ],
    "record": {
-    "l": 86,
+    "l": 87,
     "p": 0,
     "void": 0,
-    "w": 67
+    "w": 69
    },
    "threshold": 5.0,
-   "win_rate": 0.43790849673202614
+   "win_rate": 0.4423076923076923
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Props": 40,
-  "Sides": 71
+  "Sides": 68
  }
 }
