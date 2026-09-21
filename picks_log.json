@@ -21630,12 +21630,13 @@
   },
   {
    "away": "Carolina Panthers",
-   "clv": null,
+   "closing_price": 128,
+   "clv": -9.439,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 6.684,
    "ev": 0.12446,
    "event": null,
-   "final": null,
+   "final": "34-3",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -21716,7 +21717,7 @@
    "player": null,
    "price": -116,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -21724,12 +21725,13 @@
   },
   {
    "away": "Minnesota Vikings",
-   "clv": null,
+   "closing_price": 184,
+   "clv": 1.352,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 8.767,
    "ev": 0.25774,
    "event": null,
-   "final": null,
+   "final": "9-3",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -21810,7 +21812,7 @@
    "player": null,
    "price": 194,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -21818,12 +21820,13 @@
   },
   {
    "away": "Minnesota Vikings",
-   "clv": null,
+   "closing_price": -110,
+   "clv": -1.083,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 8.228,
    "ev": 0.15383,
    "event": null,
-   "final": null,
+   "final": "9-3",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -21904,7 +21907,7 @@
    "player": null,
    "price": -115,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -21912,12 +21915,13 @@
   },
   {
    "away": "Cincinnati Bengals",
-   "clv": null,
+   "closing_price": -138,
+   "clv": -0.882,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 30.243,
    "ev": 0.51245,
    "event": null,
-   "final": null,
+   "final": "20-6",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -21998,7 +22002,7 @@
    "player": null,
    "price": -144,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -22006,12 +22010,13 @@
   },
   {
    "away": "Cincinnati Bengals",
-   "clv": null,
+   "closing_price": -110,
+   "clv": -1.498,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 30.539,
    "ev": 0.56419,
    "event": null,
-   "final": null,
+   "final": "20-6",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22067,7 +22072,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -22075,12 +22080,13 @@
   },
   {
    "away": "Green Bay Packers",
-   "clv": null,
+   "closing_price": -178,
+   "clv": -5.797,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 10.539,
    "ev": 0.15024,
    "event": null,
-   "final": null,
+   "final": "20-17",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22161,7 +22167,7 @@
    "player": null,
    "price": -235,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -22169,12 +22175,13 @@
   },
   {
    "away": "Green Bay Packers",
-   "clv": null,
+   "closing_price": -104,
+   "clv": -2.995,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 14.087,
    "ev": 0.26025,
    "event": null,
-   "final": null,
+   "final": "20-17",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22255,7 +22262,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -22263,12 +22270,13 @@
   },
   {
    "away": "Pittsburgh Steelers",
-   "clv": null,
+   "closing_price": -245,
+   "clv": 0.573,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 7.293,
    "ev": 0.10332,
    "event": null,
-   "final": null,
+   "final": "3-20",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22349,7 +22357,7 @@
    "player": null,
    "price": -240,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -22357,12 +22365,13 @@
   },
   {
    "away": "Pittsburgh Steelers",
-   "clv": null,
+   "closing_price": -120,
+   "clv": 0.431,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 10.506,
    "ev": 0.19409,
    "event": null,
-   "final": null,
+   "final": "3-20",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22443,7 +22452,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -22451,12 +22460,13 @@
   },
   {
    "away": "Jacksonville Jaguars",
-   "clv": null,
+   "closing_price": 124,
+   "clv": -0.722,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 15.145,
    "ev": 0.33319,
    "event": null,
-   "final": null,
+   "final": "13-20",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22522,7 +22532,7 @@
    "player": null,
    "price": 120,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -22530,12 +22540,13 @@
   },
   {
    "away": "Jacksonville Jaguars",
-   "clv": null,
+   "closing_price": -105,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 17.471,
    "ev": 0.34109,
    "event": null,
-   "final": null,
+   "final": "13-20",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22566,7 +22577,7 @@
    "player": null,
    "price": -105,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -22574,12 +22585,13 @@
   },
   {
    "away": "Las Vegas Raiders",
-   "clv": null,
+   "closing_price": -300,
+   "clv": -3.824,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 4.489,
    "ev": 0.05686,
    "event": null,
-   "final": null,
+   "final": "26-14",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22665,7 +22677,7 @@
    "player": null,
    "price": -375,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -22673,12 +22685,13 @@
   },
   {
    "away": "Las Vegas Raiders",
-   "clv": null,
+   "closing_price": -115,
+   "clv": 3.444,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 12.437,
    "ev": 0.24874,
    "event": null,
-   "final": null,
+   "final": "26-14",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22739,7 +22752,7 @@
    "player": null,
    "price": 100,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -22747,12 +22760,13 @@
   },
   {
    "away": "Seattle Seahawks",
-   "clv": null,
+   "closing_price": -210,
+   "clv": -3.386,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 20.359,
    "ev": 0.28502,
    "event": null,
-   "final": null,
+   "final": "31-7",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22838,7 +22852,7 @@
    "player": null,
    "price": -250,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -22846,12 +22860,13 @@
   },
   {
    "away": "Seattle Seahawks",
-   "clv": null,
+   "closing_price": -102,
+   "clv": -1.928,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 29.501,
    "ev": 0.56321,
    "event": null,
-   "final": null,
+   "final": "31-7",
    "first_seen": "2026-09-14T00:56:54+00:00",
    "group": "Sides",
    "history": [
@@ -22937,7 +22952,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -23413,12 +23428,13 @@
   },
   {
    "away": "Carolina Panthers",
-   "clv": null,
+   "closing_price": -104,
+   "clv": -1.93,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 12.628,
    "ev": 0.23902,
    "event": null,
-   "final": null,
+   "final": "34-3",
    "first_seen": "2026-09-14T18:19:05+00:00",
    "group": "Sides",
    "history": [
@@ -23489,7 +23505,7 @@
    "player": null,
    "price": -112,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -23930,6 +23946,11 @@
      "2026-09-20T18:39:02+00:00",
      -310,
      250
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -310,
+     250
     ]
    ],
    "home": "Los Angeles Rams",
@@ -24223,12 +24244,13 @@
   },
   {
    "away": "Seattle Seahawks",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 42.597,
    "ev": 0.79963,
    "event": "4dd8020192a544385db42374e5555303",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24319,7 +24341,7 @@
    "player": "Jordan Love",
    "price": -114,
    "proj": 11.93,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -24327,12 +24349,13 @@
   },
   {
    "away": "New Orleans Saints",
-   "clv": null,
+   "closing_price": 112,
+   "clv": -1.273,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 40.889,
    "ev": 0.84231,
    "event": "2143ade9684fd876b68a4e8cbf451f05",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24378,7 +24401,7 @@
    "player": "Rashod Bateman",
    "price": 106,
    "proj": 0.948,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -24386,12 +24409,13 @@
   },
   {
    "away": "New Orleans Saints",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 38.354,
    "ev": 0.71998,
    "event": "2143ade9684fd876b68a4e8cbf451f05",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24467,7 +24491,7 @@
    "player": "Rashod Bateman",
    "price": -114,
    "proj": 11.212,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -24475,12 +24499,13 @@
   },
   {
    "away": "Cincinnati Bengals",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 35.821,
    "ev": 0.67243,
    "event": "36ad2fa722f4915ef23d2c81351261de",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24526,7 +24551,7 @@
    "player": "Woody Marks",
    "price": -114,
    "proj": 61.533,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -24534,12 +24559,13 @@
   },
   {
    "away": "Seattle Seahawks",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 34.735,
    "ev": 0.65205,
    "event": "4dd8020192a544385db42374e5555303",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24585,7 +24611,7 @@
    "player": "Cooper Kupp",
    "price": -114,
    "proj": 43.824,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -24593,12 +24619,13 @@
   },
   {
    "away": "Las Vegas Raiders",
-   "clv": null,
+   "closing_price": -174,
+   "clv": 9.979,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 32.215,
    "ev": 0.60474,
    "event": "71b3b83747589efdc5baef2c5cf811bf",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24669,7 +24696,7 @@
    "player": "Malik Washington",
    "price": -114,
    "proj": 10.765,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -24677,12 +24704,13 @@
   },
   {
    "away": "Jacksonville Jaguars",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 31.373,
    "ev": 0.58893,
    "event": "1fd6628c781f556a7a19638e97d7107f",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24733,7 +24761,7 @@
    "player": "Bhayshul Tuten",
    "price": -114,
    "proj": 26.378,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -24741,12 +24769,13 @@
   },
   {
    "away": "Miami Dolphins",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 30.355,
    "ev": 0.56982,
    "event": "68bc55903f50af4af4766adcc89fcc61",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24797,7 +24826,7 @@
    "player": "Brock Purdy",
    "price": -114,
    "proj": 26.426,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -24805,12 +24834,13 @@
   },
   {
    "away": "Carolina Panthers",
-   "clv": null,
+   "closing_price": -114,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 30.167,
    "ev": 0.5663,
    "event": "aee7eae1849ebb103b9bf233e9741392",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24841,7 +24871,7 @@
    "player": "Chuba Hubbard",
    "price": -114,
    "proj": 33.843,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -24849,12 +24879,13 @@
   },
   {
    "away": "Minnesota Vikings",
-   "clv": null,
+   "closing_price": -114,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 28.743,
    "ev": 0.53956,
    "event": "0283a29e1b38ef78b29b904fd56a16dd",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -24885,7 +24916,7 @@
    "player": "Jauan Jennings",
    "price": -114,
    "proj": 38.443,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -25046,7 +25077,7 @@
    "edge": 19.681,
    "ev": 0.94467,
    "event": "aee7eae1849ebb103b9bf233e9741392",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25107,7 +25138,7 @@
    "player": "Darren Waller",
    "price": 380,
    "proj": 0.519,
-   "result": null,
+   "result": "V",
    "selection": "yes",
    "sport": "NFL",
    "stat_key": "player_anytime_td",
@@ -25115,12 +25146,13 @@
   },
   {
    "away": "Las Vegas Raiders",
-   "clv": null,
+   "closing_price": 142,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 19.255,
    "ev": 0.46596,
    "event": "71b3b83747589efdc5baef2c5cf811bf",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25151,7 +25183,7 @@
    "player": "Omarion Hampton",
    "price": 142,
    "proj": 3.864,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -25159,12 +25191,13 @@
   },
   {
    "away": "Jacksonville Jaguars",
-   "clv": null,
+   "closing_price": 168,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 18.594,
    "ev": 0.49833,
    "event": "1fd6628c781f556a7a19638e97d7107f",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25215,7 +25248,7 @@
    "player": "Adam Trautman",
    "price": 168,
    "proj": 1.875,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -25223,12 +25256,13 @@
   },
   {
    "away": "Pittsburgh Steelers",
-   "clv": null,
+   "closing_price": 108,
+   "clv": 4.659,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 18.588,
    "ev": 0.43125,
    "event": "9d14f87600f6edc74dbcb5c74edf6246",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25274,7 +25308,7 @@
    "player": "Roman Wilson",
    "price": 132,
    "proj": 1.399,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -25331,12 +25365,13 @@
   },
   {
    "away": "Minnesota Vikings",
-   "clv": null,
+   "closing_price": -140,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 18.255,
    "ev": 0.31295,
    "event": "0283a29e1b38ef78b29b904fd56a16dd",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25397,7 +25432,7 @@
    "player": "Luther Burden III",
    "price": -140,
    "proj": 3.247,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -25469,12 +25504,13 @@
   },
   {
    "away": "Miami Dolphins",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 18.103,
    "ev": 0.33984,
    "event": "68bc55903f50af4af4766adcc89fcc61",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25525,7 +25561,7 @@
    "player": "Malik Willis",
    "price": -114,
    "proj": 143.757,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_pass_yds",
@@ -25538,7 +25574,7 @@
    "edge": 18.052,
    "ev": 0.50545,
    "event": "4aeee070bb6ec60bdfae4dede61b9014",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25584,7 +25620,7 @@
    "player": "Tucker Kraft",
    "price": 180,
    "proj": 0.771,
-   "result": null,
+   "result": "V",
    "selection": "yes",
    "sport": "NFL",
    "stat_key": "player_anytime_td",
@@ -25592,12 +25628,13 @@
   },
   {
    "away": "Cleveland Browns",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 17.846,
    "ev": 0.33501,
    "event": "0636ebff776d43f8c829a36713c80b22",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25643,7 +25680,7 @@
    "player": "Emeka Egbuka",
    "price": -114,
    "proj": 41.914,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -25651,12 +25688,13 @@
   },
   {
    "away": "Jacksonville Jaguars",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 17.755,
    "ev": 0.33329,
    "event": "1fd6628c781f556a7a19638e97d7107f",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25707,7 +25745,7 @@
    "player": "Chris Rodriguez Jr.",
    "price": -114,
    "proj": 41.463,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -25715,12 +25753,13 @@
   },
   {
    "away": "Green Bay Packers",
-   "clv": null,
+   "closing_price": -120,
+   "clv": 1.457,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 17.706,
    "ev": 0.33237,
    "event": "4aeee070bb6ec60bdfae4dede61b9014",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25771,7 +25810,7 @@
    "player": "Chris Brooks",
    "price": -114,
    "proj": 20.653,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -25779,12 +25818,13 @@
   },
   {
    "away": "Green Bay Packers",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 17.684,
    "ev": 0.33197,
    "event": "4aeee070bb6ec60bdfae4dede61b9014",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25825,7 +25865,7 @@
    "player": "Garrett Wilson",
    "price": -114,
    "proj": 51.757,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -25897,12 +25937,13 @@
   },
   {
    "away": "Washington Commanders",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 17.484,
    "ev": 0.32821,
    "event": "85ef85098ddd22fe4ecf45e7e3c0a9c0",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -25953,7 +25994,7 @@
    "player": "Emari Demercado",
    "price": -114,
    "proj": 29.349,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -25961,12 +26002,13 @@
   },
   {
    "away": "Minnesota Vikings",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 16.393,
    "ev": 0.30773,
    "event": "0283a29e1b38ef78b29b904fd56a16dd",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26012,7 +26054,7 @@
    "player": "Justin Jefferson",
    "price": -114,
    "proj": 64.591,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -26020,12 +26062,13 @@
   },
   {
    "away": "Cincinnati Bengals",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 15.656,
    "ev": 0.2939,
    "event": "36ad2fa722f4915ef23d2c81351261de",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26071,7 +26114,7 @@
    "player": "Jaylin Noel",
    "price": -114,
    "proj": 22.687,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -26084,7 +26127,7 @@
    "edge": 15.64,
    "ev": 1.48581,
    "event": "fafc649c455e32a0f2ba1bd06e2039bc",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26130,7 +26173,7 @@
    "player": "Elic Ayomanor",
    "price": 850,
    "proj": 0.303,
-   "result": null,
+   "result": "V",
    "selection": "yes",
    "sport": "NFL",
    "stat_key": "player_anytime_td",
@@ -26138,12 +26181,13 @@
   },
   {
    "away": "Philadelphia Eagles",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 15.114,
    "ev": 0.28372,
    "event": "fafc649c455e32a0f2ba1bd06e2039bc",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26189,7 +26233,7 @@
    "player": "Tony Pollard",
    "price": -114,
    "proj": 65.811,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -26197,12 +26241,13 @@
   },
   {
    "away": "Pittsburgh Steelers",
-   "clv": null,
+   "closing_price": -114,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 15.045,
    "ev": 0.28242,
    "event": "9d14f87600f6edc74dbcb5c74edf6246",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26233,7 +26278,7 @@
    "player": "Rhamondre Stevenson",
    "price": -114,
    "proj": 32.592,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -26241,12 +26286,13 @@
   },
   {
    "away": "Pittsburgh Steelers",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 14.971,
    "ev": 0.28103,
    "event": "9d14f87600f6edc74dbcb5c74edf6246",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26307,7 +26353,7 @@
    "player": "DeMario Douglas",
    "price": -114,
    "proj": 29.3,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -26315,12 +26361,13 @@
   },
   {
    "away": "Philadelphia Eagles",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 14.827,
    "ev": 0.27833,
    "event": "fafc649c455e32a0f2ba1bd06e2039bc",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26366,7 +26413,7 @@
    "player": "Cam Ward",
    "price": -114,
    "proj": 164.061,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_pass_yds",
@@ -26374,12 +26421,13 @@
   },
   {
    "away": "Miami Dolphins",
-   "clv": null,
+   "closing_price": 106,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 14.823,
    "ev": 0.30534,
    "event": "68bc55903f50af4af4766adcc89fcc61",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26410,7 +26458,7 @@
    "player": "Deebo Samuel Sr.",
    "price": 106,
    "proj": 4.361,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -26418,12 +26466,13 @@
   },
   {
    "away": "Cincinnati Bengals",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 14.618,
    "ev": 0.2744,
    "event": "36ad2fa722f4915ef23d2c81351261de",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26469,7 +26518,7 @@
    "player": "Joe Burrow",
    "price": -114,
    "proj": 7.602,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -26477,12 +26526,13 @@
   },
   {
    "away": "Washington Commanders",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 14.561,
    "ev": 0.27333,
    "event": "85ef85098ddd22fe4ecf45e7e3c0a9c0",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26533,7 +26583,7 @@
    "player": "Jayden Daniels",
    "price": -114,
    "proj": 196.107,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_pass_yds",
@@ -26541,12 +26591,13 @@
   },
   {
    "away": "Washington Commanders",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 13.915,
    "ev": 0.26121,
    "event": "85ef85098ddd22fe4ecf45e7e3c0a9c0",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26597,7 +26648,7 @@
    "player": "Javonte Williams",
    "price": -114,
    "proj": 12.085,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -26605,12 +26656,13 @@
   },
   {
    "away": "Cleveland Browns",
-   "clv": null,
+   "closing_price": 114,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 13.65,
    "ev": 0.29211,
    "event": "0636ebff776d43f8c829a36713c80b22",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26641,7 +26693,7 @@
    "player": "Emeka Egbuka",
    "price": 114,
    "proj": 3.194,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -26649,12 +26701,13 @@
   },
   {
    "away": "Cleveland Browns",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 12.226,
    "ev": 0.2295,
    "event": "0636ebff776d43f8c829a36713c80b22",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-18T00:44:10+00:00",
    "group": "Props",
    "history": [
@@ -26700,7 +26753,7 @@
    "player": "Harold Fannin Jr.",
    "price": -114,
    "proj": 49.813,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -26873,6 +26926,11 @@
      "2026-09-20T18:39:02+00:00",
      164,
      -200
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     162,
+     -196
     ]
    ],
    "home": "Michigan Wolverines",
@@ -26910,6 +26968,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -110,
      -110
     ]
@@ -26961,6 +27024,11 @@
      "2026-09-20T18:39:02+00:00",
      -410,
      315
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -420,
+     320
     ]
    ],
    "home": "Penn State Nittany Lions",
@@ -27008,6 +27076,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -122,
+     100
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -122,
      100
     ]
@@ -27059,6 +27132,11 @@
      "2026-09-20T18:39:02+00:00",
      172,
      -210
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     155,
+     -192
     ]
    ],
    "home": "Tennessee Volunteers",
@@ -27108,6 +27186,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Tennessee Volunteers",
@@ -27129,12 +27212,13 @@
   },
   {
    "away": "Las Vegas Raiders",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 30.699,
    "ev": 0.57628,
    "event": "71b3b83747589efdc5baef2c5cf811bf",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-19T17:38:18+00:00",
    "group": "Props",
    "history": [
@@ -27170,7 +27254,7 @@
    "player": "Justin Herbert",
    "price": -114,
    "proj": 40.317,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -27178,12 +27262,13 @@
   },
   {
    "away": "Carolina Panthers",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 30.67,
    "ev": 0.57812,
    "event": "aee7eae1849ebb103b9bf233e9741392",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-19T17:38:18+00:00",
    "group": "Props",
    "history": [
@@ -27214,7 +27299,7 @@
    "player": "Cooper Rush",
    "price": -113,
    "proj": 123.031,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_pass_yds",
@@ -27250,6 +27335,11 @@
      "2026-09-20T18:39:02+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -113,
+     -113
     ]
    ],
    "home": "Los Angeles Rams",
@@ -27271,12 +27361,13 @@
   },
   {
    "away": "Las Vegas Raiders",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:05:00Z",
    "edge": 27.338,
    "ev": 0.51319,
    "event": "71b3b83747589efdc5baef2c5cf811bf",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-19T17:38:18+00:00",
    "group": "Props",
    "history": [
@@ -27307,7 +27398,7 @@
    "player": "Tre' Harris",
    "price": -114,
    "proj": 21.163,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -27315,12 +27406,13 @@
   },
   {
    "away": "Cleveland Browns",
-   "clv": null,
+   "closing_price": -188,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 18.204,
    "ev": 0.27887,
    "event": "0636ebff776d43f8c829a36713c80b22",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-19T17:38:18+00:00",
    "group": "Props",
    "history": [
@@ -27351,7 +27443,7 @@
    "player": "Kenny Gainwell",
    "price": -188,
    "proj": 3.836,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_receptions",
@@ -27359,12 +27451,13 @@
   },
   {
    "away": "Carolina Panthers",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T17:00:00Z",
    "edge": 17.566,
    "ev": 0.33111,
    "event": "aee7eae1849ebb103b9bf233e9741392",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-19T17:38:18+00:00",
    "group": "Props",
    "history": [
@@ -27395,7 +27488,7 @@
    "player": "Jahan Dotson",
    "price": -113,
    "proj": 14.795,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -27408,7 +27501,7 @@
    "edge": 16.771,
    "ev": 2.348,
    "event": "68bc55903f50af4af4766adcc89fcc61",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-19T17:38:18+00:00",
    "group": "Props",
    "history": [
@@ -27429,7 +27522,7 @@
    "player": "Keon Coleman",
    "price": 1300,
    "proj": 0.273,
-   "result": null,
+   "result": "V",
    "selection": "yes",
    "sport": "NFL",
    "stat_key": "player_anytime_td",
@@ -27621,6 +27714,11 @@
      "2026-09-20T18:39:02+00:00",
      490,
      -710
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     460,
+     -650
     ]
    ],
    "home": "Boston College Eagles",
@@ -27665,6 +27763,11 @@
      "2026-09-20T18:39:02+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Bowling Green Falcons",
@@ -27707,6 +27810,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     100,
+     -122
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      100,
      -122
     ]
@@ -27753,6 +27861,11 @@
      "2026-09-20T18:39:02+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "UL Monroe Warhawks",
@@ -27914,6 +28027,11 @@
      "2026-09-20T18:39:02+00:00",
      -104,
      -118
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Louisville Cardinals",
@@ -27958,6 +28076,11 @@
      "2026-09-20T18:39:02+00:00",
      146,
      -176
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     152,
+     -184
     ]
    ],
    "home": "Miami (OH) RedHawks",
@@ -28002,6 +28125,11 @@
      "2026-09-20T18:39:02+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Miami (OH) RedHawks",
@@ -28124,6 +28252,11 @@
      "2026-09-20T18:39:02+00:00",
      -104,
      -118
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Akron Zips",
@@ -28166,6 +28299,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -365,
+     285
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -365,
      285
     ]
@@ -28251,6 +28389,11 @@
      "2026-09-20T18:39:02+00:00",
      265,
      -330
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     245,
+     -310
     ]
    ],
    "home": "Western Michigan Broncos",
@@ -28293,6 +28436,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -110,
      -110
     ]
@@ -28339,6 +28487,11 @@
      "2026-09-20T18:39:02+00:00",
      -520,
      385
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -520,
+     385
     ]
    ],
    "home": "UTSA Roadrunners",
@@ -28381,6 +28534,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -105,
      -115
     ]
@@ -28427,6 +28585,11 @@
      "2026-09-20T18:39:02+00:00",
      -102,
      -120
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -102,
+     -120
     ]
    ],
    "home": "Georgia Bulldogs",
@@ -28469,6 +28632,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     104,
+     -125
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      104,
      -125
     ]
@@ -28515,6 +28683,11 @@
      "2026-09-20T18:39:02+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "Maryland Terrapins",
@@ -28559,6 +28732,11 @@
      "2026-09-20T18:39:02+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "New Mexico State Aggies",
@@ -28603,6 +28781,11 @@
      "2026-09-20T18:39:02+00:00",
      -114,
      -106
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Purdue Boilermakers",
@@ -28645,6 +28828,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -110,
      -110
     ]
@@ -28691,6 +28879,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Virginia Cavaliers",
@@ -28733,6 +28926,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -520,
+     385
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -520,
      385
     ]
@@ -28779,6 +28977,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Alabama Crimson Tide",
@@ -28823,6 +29026,11 @@
      "2026-09-20T18:39:02+00:00",
      158,
      -192
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     158,
+     -192
     ]
    ],
    "home": "Arkansas State Red Wolves",
@@ -28865,6 +29073,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -110,
      -110
     ]
@@ -28955,6 +29168,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Washington State Cougars",
@@ -28999,6 +29217,11 @@
      "2026-09-20T18:39:02+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "LSU Tigers",
@@ -29043,6 +29266,11 @@
      "2026-09-20T18:39:02+00:00",
      -128,
      106
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -140,
+     116
     ]
    ],
    "home": "USC Trojans",
@@ -29087,6 +29315,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -118,
+     -104
     ]
    ],
    "home": "USC Trojans",
@@ -29129,6 +29362,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -140,
+     116
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -140,
      116
     ]
@@ -29302,6 +29540,11 @@
      "2026-09-20T18:39:02+00:00",
      -320,
      255
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -245,
+     198
     ]
    ],
    "home": "Arkansas Razorbacks",
@@ -29346,6 +29589,11 @@
      "2026-09-20T18:39:02+00:00",
      400,
      -550
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     450,
+     -630
     ]
    ],
    "home": "UTEP Miners",
@@ -29388,6 +29636,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -105,
      -115
     ]
@@ -29478,6 +29731,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "Fresno State Bulldogs",
@@ -29522,6 +29780,11 @@
      "2026-09-20T18:39:02+00:00",
      -194,
      160
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -172,
+     142
     ]
    ],
    "home": "Stanford Cardinal",
@@ -29564,6 +29827,11 @@
     ],
     [
      "2026-09-20T18:39:02+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -105,
      -115
     ]
@@ -29610,6 +29878,11 @@
      "2026-09-20T18:39:02+00:00",
      -320,
      255
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -360,
+     280
     ]
    ],
    "home": "Washington Huskies",
@@ -29631,12 +29904,13 @@
   },
   {
    "away": "Miami Dolphins",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-09-20T20:25:00Z",
    "edge": 27.49,
    "ev": 0.51817,
    "event": "68bc55903f50af4af4766adcc89fcc61",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T07:59:47+00:00",
    "group": "Props",
    "history": [
@@ -29667,7 +29941,7 @@
    "player": "Malik Washington",
    "price": -113,
    "proj": 21.726,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -29680,7 +29954,7 @@
    "edge": 5.688,
    "ev": 0.35265,
    "event": null,
-   "final": null,
+   "final": "3-20",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Sides",
    "history": [],
@@ -29695,7 +29969,7 @@
    "player": null,
    "price": 520,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NFL",
    "stat_key": null,
@@ -29716,6 +29990,11 @@
      "2026-09-20T18:39:02+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "UAB Blazers",
@@ -29750,6 +30029,11 @@
      "2026-09-20T18:39:02+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Indiana Hoosiers",
@@ -29782,6 +30066,11 @@
    "history": [
     [
      "2026-09-20T18:39:02+00:00",
+     215,
+     -265
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      215,
      -265
     ]
@@ -29852,6 +30141,11 @@
      "2026-09-20T18:39:02+00:00",
      470,
      -670
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     470,
+     -670
     ]
    ],
    "home": "Georgia Bulldogs",
@@ -29884,6 +30178,11 @@
    "history": [
     [
      "2026-09-20T18:39:02+00:00",
+     -134,
+     112
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -134,
      112
     ]
@@ -29920,6 +30219,11 @@
      "2026-09-20T18:39:02+00:00",
      -120,
      -102
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Toledo Rockets",
@@ -29954,6 +30258,11 @@
      "2026-09-20T18:39:02+00:00",
      -126,
      105
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -126,
+     105
     ]
    ],
    "home": "West Virginia Mountaineers",
@@ -29980,7 +30289,7 @@
    "edge": 41.845,
    "ev": 0.78551,
    "event": "36ad2fa722f4915ef23d2c81351261de",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -29995,7 +30304,7 @@
    "player": "Andrei Iosivas",
    "price": -114,
    "proj": 23.876,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -30008,7 +30317,7 @@
    "edge": 38.218,
    "ev": 0.71743,
    "event": "0636ebff776d43f8c829a36713c80b22",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30023,7 +30332,7 @@
    "player": "Bucky Irving",
    "price": -114,
    "proj": 55.832,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -30036,7 +30345,7 @@
    "edge": 37.55,
    "ev": 0.71077,
    "event": "9d14f87600f6edc74dbcb5c74edf6246",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30051,7 +30360,7 @@
    "player": "Drake Maye",
    "price": -112,
    "proj": 42.281,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -30064,7 +30373,7 @@
    "edge": 35.738,
    "ev": 0.67646,
    "event": "fafc649c455e32a0f2ba1bd06e2039bc",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30079,7 +30388,7 @@
    "player": "Dontayvion Wicks",
    "price": -112,
    "proj": 33.09,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -30092,7 +30401,7 @@
    "edge": 34.149,
    "ev": 0.64104,
    "event": "0283a29e1b38ef78b29b904fd56a16dd",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30107,7 +30416,7 @@
    "player": "Aaron Jones Sr.",
    "price": -114,
    "proj": 53.894,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_rush_yds",
@@ -30126,6 +30435,11 @@
    "history": [
     [
      "2026-09-20T18:39:02+00:00",
+     -140,
+     106
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
      -140,
      106
     ]
@@ -30154,7 +30468,7 @@
    "edge": 30.91,
    "ev": 0.58025,
    "event": "fafc649c455e32a0f2ba1bd06e2039bc",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30169,7 +30483,7 @@
    "player": "Wan'Dale Robinson",
    "price": -114,
    "proj": 55.685,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -30190,6 +30504,11 @@
      "2026-09-20T18:39:02+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-09-21T01:05:11+00:00",
+     -113,
+     -113
     ]
    ],
    "home": "Los Angeles Rams",
@@ -30216,7 +30535,7 @@
    "edge": 29.285,
    "ev": 0.54974,
    "event": "2143ade9684fd876b68a4e8cbf451f05",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30231,7 +30550,7 @@
    "player": "Lamar Jackson",
    "price": -114,
    "proj": 189.146,
-   "result": null,
+   "result": "V",
    "selection": "under",
    "sport": "NFL",
    "stat_key": "player_pass_yds",
@@ -30244,7 +30563,7 @@
    "edge": 27.131,
    "ev": 0.50931,
    "event": "4aeee070bb6ec60bdfae4dede61b9014",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30259,7 +30578,7 @@
    "player": "Mason Taylor",
    "price": -114,
    "proj": 24.527,
-   "result": null,
+   "result": "V",
    "selection": "over",
    "sport": "NFL",
    "stat_key": "player_reception_yds",
@@ -30272,7 +30591,7 @@
    "edge": 18.469,
    "ev": 2.40098,
    "event": "2143ade9684fd876b68a4e8cbf451f05",
-   "final": null,
+   "final": "did not play",
    "first_seen": "2026-09-20T18:39:02+00:00",
    "group": "Props",
    "history": [],
@@ -30287,11 +30606,555 @@
    "player": "Justice Hill",
    "price": 1200,
    "proj": 0.303,
-   "result": null,
+   "result": "V",
    "selection": "yes",
    "sport": "NFL",
    "stat_key": "player_anytime_td",
    "week": "Week of Sep 14"
+  },
+  {
+   "away": "Cincinnati Bengals",
+   "clv": null,
+   "commence": "2026-09-27T17:00:00Z",
+   "edge": 19.232,
+   "ev": 0.35259,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -120,
+     -102
+    ]
+   ],
+   "home": "Pittsburgh Steelers",
+   "id": "NFL|Cincinnati Bengals @ Pittsburgh Steelers|Spread|Pittsburgh Steelers +3.5",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Spread",
+   "other_price": -102,
+   "p": 0.737776,
+   "pick": "Pittsburgh Steelers +3.5",
+   "player": null,
+   "price": -120,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "New York Jets",
+   "clv": null,
+   "commence": "2026-09-27T17:00:00Z",
+   "edge": 14.23,
+   "ev": 0.18478,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -335,
+     270
+    ]
+   ],
+   "home": "Detroit Lions",
+   "id": "NFL|New York Jets @ Detroit Lions|Moneyline|Detroit Lions ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 270,
+   "p": 0.912416,
+   "pick": "Detroit Lions ML",
+   "player": null,
+   "price": -335,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Seattle Seahawks",
+   "clv": null,
+   "commence": "2026-09-27T17:00:00Z",
+   "edge": 21.549,
+   "ev": 0.2953,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -270,
+     220
+    ]
+   ],
+   "home": "Washington Commanders",
+   "id": "NFL|Seattle Seahawks @ Washington Commanders|Moneyline|Seattle Seahawks ML",
+   "lane": "confidence",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 220,
+   "p": 0.94522,
+   "pick": "Seattle Seahawks ML",
+   "player": null,
+   "price": -270,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Seattle Seahawks",
+   "clv": null,
+   "commence": "2026-09-27T17:00:00Z",
+   "edge": 34.177,
+   "ev": 0.67039,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -104,
+     -118
+    ]
+   ],
+   "home": "Washington Commanders",
+   "id": "NFL|Seattle Seahawks @ Washington Commanders|Spread|Seattle Seahawks -6.5",
+   "lane": "confidence",
+   "line": -6.5,
+   "market": "Spread",
+   "other_price": -118,
+   "p": 0.851569,
+   "pick": "Seattle Seahawks -6.5",
+   "player": null,
+   "price": -104,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Arizona Cardinals",
+   "clv": null,
+   "commence": "2026-09-27T20:05:00Z",
+   "edge": 10.895,
+   "ev": 0.21271,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -105,
+     -115
+    ]
+   ],
+   "home": "San Francisco 49ers",
+   "id": "NFL|Arizona Cardinals @ San Francisco 49ers|Spread|San Francisco 49ers -8.5",
+   "lane": "value",
+   "line": -8.5,
+   "market": "Spread",
+   "other_price": -115,
+   "p": 0.621143,
+   "pick": "San Francisco 49ers -8.5",
+   "player": null,
+   "price": -105,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Las Vegas Raiders",
+   "clv": null,
+   "commence": "2026-09-27T20:25:00Z",
+   "edge": 9.942,
+   "ev": 0.1586,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -168,
+     140
+    ]
+   ],
+   "home": "New Orleans Saints",
+   "id": "NFL|Las Vegas Raiders @ New Orleans Saints|Moneyline|New Orleans Saints ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 140,
+   "p": 0.726289,
+   "pick": "New Orleans Saints ML",
+   "player": null,
+   "price": -168,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Los Angeles Rams",
+   "clv": null,
+   "commence": "2026-09-28T00:20:00Z",
+   "edge": 10.38,
+   "ev": 0.17903,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -138,
+     118
+    ]
+   ],
+   "home": "Denver Broncos",
+   "id": "NFL|Los Angeles Rams @ Denver Broncos|Moneyline|Los Angeles Rams ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 118,
+   "p": 0.683636,
+   "pick": "Los Angeles Rams ML",
+   "player": null,
+   "price": -138,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 28"
+  },
+  {
+   "away": "Los Angeles Rams",
+   "clv": null,
+   "commence": "2026-09-28T00:20:00Z",
+   "edge": 8.017,
+   "ev": 0.15306,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Denver Broncos",
+   "id": "NFL|Los Angeles Rams @ Denver Broncos|Spread|Los Angeles Rams -2.5",
+   "lane": "value",
+   "line": -2.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.603982,
+   "pick": "Los Angeles Rams -2.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Sep 28"
+  },
+  {
+   "away": "Navy Midshipmen",
+   "clv": null,
+   "commence": "2026-09-25T23:00:00Z",
+   "edge": 8.882,
+   "ev": 0.11701,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -315,
+     250
+    ]
+   ],
+   "home": "UAB Blazers",
+   "id": "NCAAF|Navy Midshipmen @ UAB Blazers|Moneyline|Navy Midshipmen ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 250,
+   "p": 0.847853,
+   "pick": "Navy Midshipmen ML",
+   "player": null,
+   "price": -315,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "UNLV Rebels",
+   "clv": null,
+   "commence": "2026-09-26T16:00:00Z",
+   "edge": 8.206,
+   "ev": 0.0962,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -580,
+     420
+    ]
+   ],
+   "home": "Akron Zips",
+   "id": "NCAAF|UNLV Rebels @ Akron Zips|Moneyline|UNLV Rebels ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 420,
+   "p": 0.934997,
+   "pick": "UNLV Rebels ML",
+   "player": null,
+   "price": -580,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Ball State Cardinals",
+   "clv": null,
+   "commence": "2026-09-26T16:00:00Z",
+   "edge": 5.897,
+   "ev": 0.09582,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -160,
+     132
+    ]
+   ],
+   "home": "Kent State Golden Flashes",
+   "id": "NCAAF|Ball State Cardinals @ Kent State Golden Flashes|Moneyline|Kent State Golden Flashes ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 132,
+   "p": 0.67435,
+   "pick": "Kent State Golden Flashes ML",
+   "player": null,
+   "price": -160,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Ball State Cardinals",
+   "clv": null,
+   "commence": "2026-09-26T16:00:00Z",
+   "edge": 6.733,
+   "ev": 0.13466,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     100,
+     -122
+    ]
+   ],
+   "home": "Kent State Golden Flashes",
+   "id": "NCAAF|Ball State Cardinals @ Kent State Golden Flashes|Spread|Kent State Golden Flashes -3.5",
+   "lane": "value",
+   "line": -3.5,
+   "market": "Spread",
+   "other_price": -122,
+   "p": 0.567332,
+   "pick": "Kent State Golden Flashes -3.5",
+   "player": null,
+   "price": 100,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Utah Utes",
+   "clv": null,
+   "commence": "2026-09-26T19:30:00Z",
+   "edge": 7.137,
+   "ev": 0.09206,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -345,
+     270
+    ]
+   ],
+   "home": "Iowa State Cyclones",
+   "id": "NCAAF|Utah Utes @ Iowa State Cyclones|Moneyline|Utah Utes ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 270,
+   "p": 0.846654,
+   "pick": "Utah Utes ML",
+   "player": null,
+   "price": -345,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Utah Utes",
+   "clv": null,
+   "commence": "2026-09-26T19:30:00Z",
+   "edge": 8.873,
+   "ev": 0.17324,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -105,
+     -115
+    ]
+   ],
+   "home": "Iowa State Cyclones",
+   "id": "NCAAF|Utah Utes @ Iowa State Cyclones|Spread|Utah Utes -9.5",
+   "lane": "value",
+   "line": -9.5,
+   "market": "Spread",
+   "other_price": -115,
+   "p": 0.600927,
+   "pick": "Utah Utes -9.5",
+   "player": null,
+   "price": -105,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "New Mexico Lobos",
+   "clv": null,
+   "commence": "2026-09-26T19:30:00Z",
+   "edge": 8.631,
+   "ev": 0.10429,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -480,
+     360
+    ]
+   ],
+   "home": "New Mexico State Aggies",
+   "id": "NCAAF|New Mexico Lobos @ New Mexico State Aggies|Moneyline|New Mexico Lobos ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 360,
+   "p": 0.913897,
+   "pick": "New Mexico Lobos ML",
+   "player": null,
+   "price": -480,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
+  },
+  {
+   "away": "Tulsa Golden Hurricane",
+   "clv": null,
+   "commence": "2026-09-27T00:00:00Z",
+   "edge": 27.193,
+   "ev": 0.51047,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-09-21T01:05:11+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-09-21T01:05:11+00:00",
+     -114,
+     -106
+    ]
+   ],
+   "home": "Arkansas Razorbacks",
+   "id": "NCAAF|Tulsa Golden Hurricane @ Arkansas Razorbacks|Spread|Arkansas Razorbacks -6.5",
+   "lane": "confidence",
+   "line": -6.5,
+   "market": "Spread",
+   "other_price": -106,
+   "p": 0.804645,
+   "pick": "Arkansas Razorbacks -6.5",
+   "player": null,
+   "price": -114,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Sep 21"
   }
  ]
 }
