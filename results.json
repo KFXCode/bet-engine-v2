@@ -1,30 +1,30 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": -0.3396666666666667,
-   "clv_beat_rate": 0.12698412698412698,
-   "clv_n": 63,
+   "avg_clv": -0.334359375,
+   "clv_beat_rate": 0.125,
+   "clv_n": 64,
    "graded": 31,
    "record": {
     "l": 15,
     "p": 0,
-    "void": 49,
+    "void": 50,
     "w": 16
    },
    "win_rate": 0.5161290322580645
   },
   "value": {
-   "avg_clv": -0.009450381679389322,
-   "clv_beat_rate": 0.24427480916030533,
-   "clv_n": 262,
-   "graded": 190,
+   "avg_clv": -0.007687969924812038,
+   "clv_beat_rate": 0.24436090225563908,
+   "clv_n": 266,
+   "graded": 192,
    "record": {
-    "l": 103,
+    "l": 104,
     "p": 0,
-    "void": 105,
-    "w": 87
+    "void": 107,
+    "w": 88
    },
-   "win_rate": 0.45789473684210524
+   "win_rate": 0.4583333333333333
   }
  },
  "by_sport": {
@@ -42,42 +42,42 @@
    "win_rate": 0.5028901734104047
   },
   "NFL Props": {
-   "avg_clv": 0.04363114754098359,
-   "clv_beat_rate": 0.04918032786885246,
-   "clv_n": 122,
+   "avg_clv": 0.04258399999999999,
+   "clv_beat_rate": 0.048,
+   "clv_n": 125,
    "graded": 0,
    "record": {
     "l": 0,
     "p": 0,
-    "void": 154,
+    "void": 157,
     "w": 0
    },
    "win_rate": null
   },
   "NFL Sides": {
-   "avg_clv": -0.5978095238095238,
-   "clv_beat_rate": 0.2857142857142857,
-   "clv_n": 42,
-   "graded": 48,
+   "avg_clv": -0.5608409090909091,
+   "clv_beat_rate": 0.29545454545454547,
+   "clv_n": 44,
+   "graded": 50,
    "record": {
-    "l": 32,
+    "l": 33,
     "p": 0,
     "void": 0,
-    "w": 16
+    "w": 17
    },
-   "win_rate": 0.3333333333333333
+   "win_rate": 0.34
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6227 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6247 player-games cached"
  ],
- "generated_at": "2026-09-21T01:05:11+00:00",
+ "generated_at": "2026-09-21T14:35:35+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
-   "avg_clv": 0.04363114754098359,
-   "clv_beat_rate": 0.04918032786885246,
-   "clv_n": 122,
+   "avg_clv": 0.04258399999999999,
+   "clv_beat_rate": 0.048,
+   "clv_n": 125,
    "graded": 0,
    "label": "Player props",
    "picks": [
@@ -2116,6 +2116,24 @@
      "week": "Week of Sep 14"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 28.018,
+     "ev": 0.52596,
+     "final": "did not play",
+     "game": "Indianapolis Colts @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Passing yards",
+     "pick": "Patrick Mahomes Over 221.5 passing yards",
+     "player": "Patrick Mahomes",
+     "price": -114,
+     "proj": 277.439,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 19.681,
@@ -2204,6 +2222,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 18.148,
+     "ev": 0.34067,
+     "final": "did not play",
+     "game": "Indianapolis Colts @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Josh Downs Under 40.5 receiving yards",
+     "player": "Josh Downs",
+     "price": -114,
+     "proj": 32.647,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
     },
     {
      "closing_price": -113,
@@ -2312,6 +2348,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 17.63,
+     "ev": 0.33095,
+     "final": "did not play",
+     "game": "Indianapolis Colts @ Kansas City Chiefs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Tyquan Thornton Over 14.5 receiving yards",
+     "player": "Tyquan Thornton",
+     "price": -114,
+     "proj": 35.355,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
     },
     {
      "closing_price": -113,
@@ -2857,17 +2911,17 @@
    "record": {
     "l": 0,
     "p": 0,
-    "void": 154,
+    "void": 157,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.14383251231527094,
-   "clv_beat_rate": 0.3251231527093596,
-   "clv_n": 203,
-   "graded": 221,
+   "avg_clv": -0.1403268292682927,
+   "clv_beat_rate": 0.32682926829268294,
+   "clv_n": 205,
+   "graded": 223,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -6525,6 +6579,42 @@
      "week": "Week of Sep 14"
     },
     {
+     "closing_price": 235,
+     "clv": 0.0,
+     "edge": 19.289,
+     "ev": 0.64619,
+     "final": "30-33",
+     "game": "Indianapolis Colts @ Kansas City Chiefs",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Indianapolis Colts ML",
+     "player": null,
+     "price": 235,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.431,
+     "edge": 16.609,
+     "ev": 0.30685,
+     "final": "30-33",
+     "game": "Indianapolis Colts @ Kansas City Chiefs",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Indianapolis Colts +6.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
      "closing_price": 164,
      "clv": -2.031,
      "edge": 11.444,
@@ -6850,18 +6940,18 @@
     }
    ],
    "record": {
-    "l": 118,
+    "l": 119,
     "p": 0,
     "void": 0,
-    "w": 103
+    "w": 104
    },
    "threshold": 5.0,
-   "win_rate": 0.4660633484162896
+   "win_rate": 0.4663677130044843
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 8,
-  "Sides": 90
+  "Props": 5,
+  "Sides": 88
  }
 }
