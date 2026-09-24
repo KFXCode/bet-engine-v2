@@ -735,7 +735,14 @@ def fetch_event_props(sport_key, event_id, market_keys, keys, exhausted, diag, c
         try:
             r = requests.get(url, timeout=HTTP_TIMEOUT, params={
                 "apiKey": key, "regions": "us", "oddsFormat": "american",
-                "markets": ",".join(market_keys), "bookmakers": "fanduel"})
+                "markets": ",".join(market_keys),
+                "bookmakers": os.environ.get("EDGE_BOOKS", "fanduel,draftkings,betmgm,williamhill_us,"
+                                             "betrivers,espnbet,fanatics,pinnacle,betonlineag,lowvig")})
+            if r.status_code not in (200, 401, 404, 429):
+                # a bad book key must never cost the props card: retry FanDuel only
+                r = requests.get(url, timeout=HTTP_TIMEOUT, params={
+                    "apiKey": key, "regions": "us", "oddsFormat": "american",
+                    "markets": ",".join(market_keys), "bookmakers": "fanduel"})
         except Exception as e:
             diag.append("props %s: %s key failed — %s" % (event_id, label, e))
             continue
@@ -848,7 +855,8 @@ def build_props(league, sport_key, events, keys, exhausted, diag):
         if not data:
             outcome[why] = outcome.get(why, 0) + 1
             continue
-        books = data.get("bookmakers") or []
+        # multi-book response: price off FanDuel exactly as before; the rest is for the Edge Agent
+        books = [b for b in (data.get("bookmakers") or []) if b.get("key") == "fanduel"]
         if not books:
             outcome["no fanduel"] = outcome.get("no fanduel", 0) + 1
             continue
