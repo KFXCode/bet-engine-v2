@@ -136,6 +136,20 @@ PROPS_LEAGUES = {"NFL", "NBA"}
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard"
 ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 
+# Books requested alongside FanDuel. The Odds API bills every 10 bookmakers as ONE
+# region, the same as FanDuel alone, so this list must stay at 10 or fewer. FanDuel
+# is still the book the board prices; the others feed the Edge Agent's sharp
+# consensus (market_odds.json) and its best-legal-price check.
+BOOKS = os.environ.get("EDGE_BOOKS", "fanduel,draftkings,betmgm,williamhill_us,betrivers,"
+                       "espnbet,fanatics,pinnacle,betonlineag,lowvig")
+MARKET_ODDS_PATH = os.environ.get("MARKET_ODDS_PATH", "market_odds.json")
+MARKET_ODDS = {}       # sport_key -> raw multi-book events, written for the Edge Agent
+
+
+def fanduel_book(books):
+    """FanDuel's entry from a multi-book event, or None when FanDuel has no line."""
+    return next((b for b in books if b.get("key") == "fanduel"), None)
+
 
 # ---------------------------------------------------------------- results ----
 def season_type(event, scoreboard):
@@ -279,12 +293,19 @@ def fanduel_lines(sport_key, diag):
         try:
             r = requests.get(ODDS.format(key=sport_key), timeout=HTTP_TIMEOUT, params={
                 "apiKey": key, "regions": "us", "oddsFormat": "american",
-                "markets": "h2h,spreads", "bookmakers": "fanduel"})
+                "markets": "h2h,spreads", "bookmakers": BOOKS})
+            if r.status_code not in (200, 401, 429) and BOOKS != "fanduel":
+                # a bad book key must never cost the card: fall back to FanDuel only
+                diag.append(f"{sport_key}: multi-book request HTTP {r.status_code} — retrying FanDuel only")
+                r = requests.get(ODDS.format(key=sport_key), timeout=HTTP_TIMEOUT, params={
+                    "apiKey": key, "regions": "us", "oddsFormat": "american",
+                    "markets": "h2h,spreads", "bookmakers": "fanduel"})
         except Exception as e:
             diag.append(f"{sport_key}: {label} key request failed — {e}")
             continue
         if r.status_code == 200:
             events = r.json()
+            MARKET_ODDS[sport_key] = events
             left = r.headers.get("x-requests-remaining")
             diag.append(f"{sport_key}: {len(events)} events from the {label} key"
                         + (f", {left} credits left on it" if left else ""))
@@ -353,7 +374,8 @@ def build(diag):
         prop_events = []
         for ev in events:
             home, away = ev.get("home_team"), ev.get("away_team")
-            books = ev.get("bookmakers") or []
+            fd_book = fanduel_book(ev.get("bookmakers") or [])
+            books = [fd_book] if fd_book else []
             if not (home and away and books):
                 continue
             start = ev.get("commence_time") or ""
@@ -481,6 +503,8 @@ def main():
     }
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=1)
+    with open(MARKET_ODDS_PATH, "w") as f:
+        json.dump({"generated_at": payload["generated_at"], "sports": MARKET_ODDS}, f, separators=(",", ":"))
     print(f"wrote {OUT_PATH} — {len(games)} games, {len(props)} prop sides, "
           f"{len(ahead)} in the lookahead")
 

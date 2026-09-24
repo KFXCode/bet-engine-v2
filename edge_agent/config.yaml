@@ -1,0 +1,74 @@
+# Point these at the engine's real files once we've linked to your repo.
+ledger_path: picks_log.json      # the engine's own ledger, read directly
+passes_path:                      # optional; needs closing odds to test LOWER thresholds
+output_dir: reports/edge_agent
+
+# Map the agent's names (left) to your ledger's column names (right).
+columns:
+  bet_id: bet_id
+  placed_at: placed_at
+  sport: sport                # NFL / NCAAF / NBA / NCAAB
+  model: model                # sides / props
+  market: market              # ML, spread, pts, reb, ...
+  model_prob: model_prob      # 0-1 or 0-100
+  odds_taken: odds            # American odds at bet time
+  odds_taken_other: odds_other      # other side at bet time (for no-vig); optional
+  closing_odds: closing_odds
+  closing_odds_other: closing_odds_other  # optional
+  edge_pts: edge_pts          # optional; recomputed if missing
+  result: result              # W / L / P
+
+# What the engine runs today. The agent proposes changes against these.
+current_params:
+  thresholds: {sides: 5, props: 7}
+  edge_cap: 20
+  # Final prob = w * engine + (1 - w) * sharp consensus. Started at 0.3 because on the first 225 graded
+  # sides the engine averaged 65.6% predicted vs 46.7% actual, and FanDuel's own no-vig price was the
+  # better predictor (Brier 0.211 vs 0.254). The weekly review moves this as evidence builds.
+  market_blend_w: {sides: 0.3, props: 0.3}
+
+samples:
+  segment_min: 30     # bets before a segment can be flagged LEAK/EDGE
+  tuning_min: 150     # bets before any parameter change is proposed
+  train_frac: 0.7     # walk-forward: fit on oldest 70%, judge on newest 30%
+
+guardrails:
+  blend_floor: 0.3     # never shrink the model below 30% weight -- below that, fix the model instead
+  blend_max_step: 0.15 # max change in blend weight per review
+  threshold_max_step: 2  # max change in an edge threshold per review (pts)
+
+threshold_grid:
+  sides: [3, 4, 5, 6, 7, 8, 9, 10]
+  props: [5, 6, 7, 8, 9, 10, 11, 12]
+edge_bins: [0, 5, 7, 10, 15, 20, 100]
+cap_band: 5
+
+# Market layer (edge_agent/market.py). Needs ODDS_API_KEY as a GitHub secret.
+market:
+  regions: us,eu            # eu brings in sharper European books; each region costs quota
+  min_books: 3              # don't trust a sides consensus built from fewer books
+  min_books_props: 2        # props are thinner; 2 books at the same line
+  # Sharp books lead the market, so their de-vigged price counts more. Unlisted books = 1.0.
+  book_weights: {pinnacle: 3.0, circasports: 2.0, betonlineag: 1.5}
+  # Books you can LEGALLY bet with (licensed in Maryland). Best price + "where to bet" come only from these.
+  # Offshore/sharp books above still inform the probability but are never recommended.
+  # CONFIRM this list against the Maryland Lottery & Gaming list of licensed sportsbooks.
+  bettable_books: [draftkings, fanduel, betmgm, williamhill_us, betrivers, espnbet, fanatics]
+
+# Bet Card staking. flat = every bet the same size (default). kelly = quarter-Kelly, capped.
+max_per_game: {sides: 1, props: 2}   # correlated singles on one game don't stack
+staking: {mode: flat, unit: 1.0, kelly_fraction: 0.25, bankroll_u: 100, max_u: 2.0}
+# Map Bet Card names (left) to the engine's picks-file columns (right) if they differ.
+slate_columns: {}
+
+# Research layer (edge_agent/research.py). Needs ANTHROPIC_API_KEY as a GitHub secret.
+research:
+  enabled: true
+  model: ""                   # set to the Claude model ID you want (or RESEARCH_MODEL env var)
+  web_search_tool: web_search_20250305   # tool version string; update if Anthropic releases a newer one
+  max_searches: 5             # per pick; controls cost
+  max_tokens: 2500
+  blocked_domains: []         # add pick-selling / tout sites here so they're never used as evidence
+  sharp_books: [pinnacle, circasports]
+  venues_path: data/venues.csv          # team,lat,lon,roof for NWS weather (outdoor football)
+  nws_user_agent: "cover1picks-edge-agent (YOUR-CONTACT-EMAIL)"   # NWS asks apps to include a contact
