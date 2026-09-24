@@ -56,6 +56,15 @@ jobs:
         # only before kickoff, so the last entry is the closing line.
         run: python grade.py
 
+      - name: Edge Agent Bet Card (multi-book check + research)
+        # Reads what the two steps above wrote. Never allowed to fail the engine's run.
+        if: github.event.schedule != '0 8 * * *'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEARCH_MODEL: ${{ vars.RESEARCH_MODEL }}
+        run: python -m edge_agent.engine_card
+
       - name: Publish back to the repo
         run: |
           # Generated files, so they never need merging. Take the newest branch
@@ -66,7 +75,7 @@ jobs:
           # Both MUST be committed: without them every run rebuilds a season of
           # player history from scratch and re-buys prop markets it already paid
           # for.
-          FILES="edge_slate.json picks_log.json results.json player_logs.json props_cache.json"
+          FILES="edge_slate.json picks_log.json results.json player_logs.json props_cache.json market_odds.json bet_card.json bet_card.md"
           mkdir -p /tmp/out
           for f in $FILES; do
             [ -f "$f" ] && cp "$f" /tmp/out/"$f"
