@@ -1,135 +1,77 @@
 {
- "generated_at": "2026-09-24T14:55:54+00:00",
+ "generated_at": "2026-09-25T00:53:59+00:00",
  "rule": "engine probability blended with sharp multi-book consensus; edge vs best legal price",
  "bets": [
   {
-   "sport": "NCAAF",
-   "game": "Vanderbilt Commodores @ Auburn Tigers",
+   "sport": "NFL",
+   "game": "Atlanta Falcons @ Green Bay Packers",
    "model": "sides",
-   "market": "Spread",
-   "pick": "Vanderbilt Commodores +9.5",
-   "lane": "confidence",
-   "model_prob": 0.8831,
-   "engine_price": -110,
-   "engine_edge": 35.93,
-   "commence": "2026-09-26T20:15:00Z",
-   "home_team": "Auburn Tigers",
+   "market": "Moneyline",
+   "pick": "Atlanta Falcons ML",
+   "lane": "value",
+   "model_prob": 0.2963,
+   "engine_price": 420,
+   "engine_edge": 10.4,
+   "commence": "2026-09-25T00:15:29Z",
+   "home_team": "Green Bay Packers",
    "player": "",
-   "point": 9.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "edf8d3e3699aa5cb34c50ac7de992d37",
-   "sport_key": "americanfootball_ncaaf",
-   "sel": "Vanderbilt Commodores",
-   "odds_market": "spreads",
-   "consensus_prob": 0.4965,
-   "final_prob": 0.6125,
-   "n_books": 8.0,
+   "point": null,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Atlanta Falcons",
+   "odds_market": "h2h",
+   "consensus_prob": 0.1879,
+   "final_prob": 0.2204,
+   "n_books": 7.0,
    "best_book": "betmgm",
-   "best_odds": -105.0,
-   "edge_pts": 10.03,
-   "ev_per_unit": 0.1958,
-   "floor_odds": -129.0,
+   "best_odds": 525.0,
+   "edge_pts": 6.04,
+   "ev_per_unit": 0.3775,
+   "floor_odds": 487.0,
    "decision": "BET",
    "reason": "",
-   "line_move": "no line history yet",
+   "line_move": "FanDuel moved 0.0 pts away from this side since first published (+270 \u2192 +270, 2 reads)",
    "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "Vanderbilt (3-0) is missing four defensive/depth players (Lackey, Curtis, Bryant, Jefferson) heading to Auburn, while Auburn's injury report is 'considerably lighter,' with just an OL out after emerging 'relatively unscathed' from last week's loss to Florida. There is a modest positive note for Vanderbilt in TE Cole Spence trending toward a possible return. No weather or situational (rest/travel) red flags were found, and no line-movement data exists yet, so nothing here strongly confirms or contradicts the model's lean toward Vanderbilt +9.5.",
-    "evidence": [
-     {
-      "claim": "Vanderbilt's initial SEC availability report (released Wednesday night, Sept. 23-24, 2026) lists CB Jaylin Lackey, LB Jamison Curtis, DL Aaron Bryant, and DL Nikhil Jefferson as 'Out' for the Auburn game.",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://www.si.com/college/vanderbilt/football/vanderbilt-football-initial-injury-report-ahead-of-trip-to-auburn",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "Vanderbilt DL Aaron Bryant is out for the season after tearing his ACL.",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/vanderbilt-vs-auburn-injury-report-003453575.html",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "Vanderbilt TE Cole Spence, who has not played this season, was listed as questionable on the SEC's initial availability report Sept. 23, matching coach Clark Lea's comments that he had returned to some activity.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/vanderbilt-vs-auburn-injury-report-003453575.html",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "Auburn's first official SEC availability report of the week was released Wednesday and was 'considerably lighter' than Vanderbilt's, with senior OL Tai Buster the only player listed as out.",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/initial-availability-report-auburn-vs-003020355.html",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "Auburn lost its SEC opener against Florida last week but 'left the game relatively unscathed as far as injuries are concerned,' entering the Vanderbilt game in what 'feels like a must-win situation.'",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://sports.yahoo.com/articles/initial-availability-report-auburn-vs-003020355.html",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "Vanderbilt enters the game hoping to extend its undefeated start to 4-0, having not had 'the prettiest or most desirable start to the 2026 season' despite being unbeaten.",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://www.si.com/college/vanderbilt/football/vanderbilt-football-initial-injury-report-ahead-of-trip-to-auburn",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "Auburn's 2026 team record stood at 2-1 overall and 0-1 in SEC play as of Sept. 20, 2026, under first-year head coach Alex Golesh.",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://en.wikipedia.org/wiki/2026_Auburn_Tigers_football_team",
-      "published": "2026-09-20",
-      "after_model_run": false
-     }
-    ],
+    "summary": "research failed (JSONDecodeError); bet stands on model + market only",
+    "evidence": [],
     "verdict": "neutral",
-    "confidence": "medium",
-    "material_news_after_model_run": false,
-    "dropped_unsourced": 0
+    "confidence": "low",
+    "material_news_after_model_run": false
    }
   },
   {
    "sport": "NCAAF",
-   "game": "Kennesaw State Owls @ Arkansas State Red Wolves",
+   "game": "Liberty Flames @ Coastal Carolina Chanticleers",
    "model": "sides",
    "market": "Moneyline",
-   "pick": "Kennesaw State Owls ML",
+   "pick": "Coastal Carolina Chanticleers ML",
    "lane": "value",
-   "model_prob": 0.5299,
-   "engine_price": 195,
-   "engine_edge": 19.09,
-   "commence": "2026-09-26T23:00:00Z",
-   "home_team": "Arkansas State Red Wolves",
+   "model_prob": 0.394,
+   "engine_price": 300,
+   "engine_edge": 14.4,
+   "commence": "2026-09-24T23:38:00Z",
+   "home_team": "Coastal Carolina Chanticleers",
    "player": "",
    "point": null,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "77c3435e651e2d615870c2c25c8dbf71",
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "9e0eaa3fed3125ec9629a777bf077185",
    "sport_key": "americanfootball_ncaaf",
-   "sel": "Kennesaw State Owls",
+   "sel": "Coastal Carolina Chanticleers",
    "odds_market": "h2h",
-   "consensus_prob": 0.3209,
-   "final_prob": 0.3836,
-   "n_books": 8.0,
-   "best_book": "betrivers",
-   "best_odds": 210.0,
-   "edge_pts": 6.1,
-   "ev_per_unit": 0.1891,
-   "floor_odds": 200.0,
+   "consensus_prob": 0.2367,
+   "final_prob": 0.2839,
+   "n_books": 5.0,
+   "best_book": "betmgm",
+   "best_odds": 340.0,
+   "edge_pts": 5.66,
+   "ev_per_unit": 0.2491,
+   "floor_odds": 328.0,
    "decision": "BET",
    "reason": "",
-   "line_move": "FanDuel moved 4.2 pts away from this side since first published (+162 \u2192 +195, 11 reads)",
+   "line_move": "no line history yet",
    "stake_u": 1.0,
    "weather": null,
    "research": {
@@ -142,31 +84,71 @@
   },
   {
    "sport": "NFL",
-   "game": "Carolina Panthers @ Cleveland Browns",
+   "game": "Houston Texans @ Indianapolis Colts",
    "model": "props",
-   "market": "Rushing yards",
-   "pick": "Chuba Hubbard Under 71.5 rushing yards",
+   "market": "Receptions",
+   "pick": "Darius Slayton Over 1.5 receptions",
    "lane": "confidence",
-   "model_prob": 0.9174,
-   "engine_price": -114,
-   "engine_edge": 38.47,
+   "model_prob": 0.8058,
+   "engine_price": 116,
+   "engine_edge": 34.28,
    "commence": "2026-09-27T17:00:00Z",
-   "home_team": "Cleveland Browns",
-   "player": "Chuba Hubbard",
-   "point": 71.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "home_team": "Indianapolis Colts",
+   "player": "Darius Slayton",
+   "point": 1.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "17a730b7d399feeab6a78c30767c29d2",
    "sport_key": "americanfootball_nfl",
-   "sel": "Under",
-   "odds_market": "player_rush_yds",
-   "consensus_prob": 0.499,
-   "final_prob": 0.6245,
+   "sel": "Over",
+   "odds_market": "player_receptions",
+   "consensus_prob": 0.422,
+   "final_prob": 0.5371,
    "n_books": 3.0,
-   "best_book": "betrivers",
-   "best_odds": -113.0,
-   "edge_pts": 9.4,
-   "ev_per_unit": 0.1772,
-   "floor_odds": -124.0,
+   "best_book": "draftkings",
+   "best_odds": 131.0,
+   "edge_pts": 10.42,
+   "ev_per_unit": 0.2407,
+   "floor_odds": 114.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (JSONDecodeError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NCAAF",
+   "game": "Texas A&M Aggies @ LSU Tigers",
+   "model": "sides",
+   "market": "Spread",
+   "pick": "Texas A&M Aggies +9.5",
+   "lane": "confidence",
+   "model_prob": 0.8746,
+   "engine_price": -104,
+   "engine_edge": 36.48,
+   "commence": "2026-09-26T23:30:00Z",
+   "home_team": "LSU Tigers",
+   "player": "",
+   "point": 9.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "0c71c3230f930f30ac34160b38dbbaf0",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "Texas A&M Aggies",
+   "odds_market": "spreads",
+   "consensus_prob": 0.4987,
+   "final_prob": 0.6115,
+   "n_books": 9.0,
+   "best_book": "espnbet",
+   "best_odds": 100.0,
+   "edge_pts": 11.15,
+   "ev_per_unit": 0.223,
+   "floor_odds": -128.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
@@ -185,27 +167,27 @@
    "game": "Atlanta Falcons @ Green Bay Packers",
    "model": "props",
    "market": "Rushing yards",
-   "pick": "Kaleb Johnson Under 34.5 rushing yards",
+   "pick": "Kaleb Johnson Under 31.5 rushing yards",
    "lane": "confidence",
-   "model_prob": 0.9458,
-   "engine_price": -113,
-   "engine_edge": 41.53,
-   "commence": "2026-09-25T00:15:00Z",
+   "model_prob": 0.931,
+   "engine_price": -112,
+   "engine_edge": 40.27,
+   "commence": "2026-09-25T00:15:29Z",
    "home_team": "Green Bay Packers",
    "player": "Kaleb Johnson",
-   "point": 34.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
+   "point": 31.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
    "event_id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
    "sport_key": "americanfootball_nfl",
    "sel": "Under",
    "odds_market": "player_rush_yds",
-   "consensus_prob": 0.4853,
-   "final_prob": 0.6234,
+   "consensus_prob": 0.493,
+   "final_prob": 0.6244,
    "n_books": 3.0,
-   "best_book": "fanduel",
-   "best_odds": -113.0,
-   "edge_pts": 9.29,
-   "ev_per_unit": 0.1751,
+   "best_book": "betmgm",
+   "best_odds": -110.0,
+   "edge_pts": 10.06,
+   "ev_per_unit": 0.192,
    "floor_odds": -124.0,
    "decision": "BET",
    "reason": "",
@@ -222,145 +204,177 @@
   },
   {
    "sport": "NFL",
-   "game": "Seattle Seahawks @ Washington Commanders",
+   "game": "Cincinnati Bengals @ Pittsburgh Steelers",
    "model": "props",
-   "market": "Receiving yards",
-   "pick": "Cooper Kupp Over 21.5 receiving yards",
+   "market": "Rushing yards",
+   "pick": "Aaron Rodgers Over 0.5 rushing yards",
    "lane": "confidence",
-   "model_prob": 0.8394,
-   "engine_price": -114,
-   "engine_edge": 30.67,
+   "model_prob": 0.8928,
+   "engine_price": -110,
+   "engine_edge": 36.9,
    "commence": "2026-09-27T17:00:00Z",
-   "home_team": "Washington Commanders",
-   "player": "Cooper Kupp",
-   "point": 21.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "home_team": "Pittsburgh Steelers",
+   "player": "Aaron Rodgers",
+   "point": 0.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "71123be049587b6facce3a20c53e5d09",
    "sport_key": "americanfootball_nfl",
    "sel": "Over",
-   "odds_market": "player_reception_yds",
-   "consensus_prob": 0.4974,
-   "final_prob": 0.6,
-   "n_books": 5.0,
-   "best_book": "draftkings",
-   "best_odds": -108.0,
-   "edge_pts": 8.08,
-   "ev_per_unit": 0.1556,
-   "floor_odds": -113.0,
+   "odds_market": "player_rush_yds",
+   "consensus_prob": 0.5001,
+   "final_prob": 0.6179,
+   "n_books": 2.0,
+   "best_book": "fanduel",
+   "best_odds": -110.0,
+   "edge_pts": 9.41,
+   "ev_per_unit": 0.1797,
+   "floor_odds": -121.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
    "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "Cooper Kupp is trending toward playing through a recurring back injury (limited in Wednesday practice for a third straight week) but has cleared to play and finish as a full participant by Thursday/Friday in each of the first two weeks. However, his role has clearly diminished \u2014 he's a complementary WR3/4 behind Jaxon Smith-Njigba, averaging only 2 targets and 27.5 receiving yards per game through two contests, both below the 21.5 line in one of two games.",
+    "summary": "Aaron Rodgers is fully healthy and not on the Week 3 injury report, with no wrist/hand concerns (those were 2025 issues). He already has 21 rushing attempts for 89 yards through two games in 2026, showing he's still picking up positive rushing yardage most weeks, and weather in Pittsburgh looks mild with no wind/precipitation issue. Overall the evidence is favorable/neutral-to-supportive for an Over 0.5 rushing yards prop, with no red flags found.",
     "evidence": [
      {
-      "claim": "Seattle's official Week 3 injury report (vs. Commanders) lists Cooper Kupp as a limited practice participant Wednesday with a back injury, alongside several other Seahawks.",
+      "claim": "The Steelers' official Week 3 injury report (Sep 24, 2026) lists Ramsey, Pittman, Dowdle, Porter, Warren, Dean, Holcomb and Dunker with injury designations \u2014 Aaron Rodgers is not mentioned at all, indicating no current injury concern.",
       "direction": "neutral",
       "category": "injury",
-      "url": "https://www.seahawks.com/news/week-3-injury-report-seahawks-vs-commanders",
-      "published": "2026-09-23T21:00:00Z",
+      "url": "https://www.steelers.com/news/week-3-injury-report-bengals-x2555",
+      "published": "2026-09-24T16:00:00-00:00",
       "after_model_run": false
      },
      {
-      "claim": "The same back issue has recurred in prior weeks; Kupp was limited Wednesday due to a back injury but was upgraded to full participation by Thursday and played without a game-day designation in Week 2.",
+      "claim": "Bengals' Week 3 opening injury report noted quarterback Joe Burrow was off the injury report entirely, with no Bengals defensive changes flagged as materially affecting the Steelers' offensive rushing plans.",
       "direction": "neutral",
       "category": "injury",
-      "url": "https://www.rotowire.com/football/headlines/cooper-kupp-injury-limited-wednesday-638891",
-      "published": "2026-09-23T00:00:00Z",
+      "url": "https://sports.yahoo.com/articles/bengals-injury-report-opening-statuses-202722382.html",
+      "published": "2026-09-23T00:00:00-00:00",
       "after_model_run": false
      },
      {
-      "claim": "Kupp was off the injury report entirely and cleared with no designation heading into the Week 2 Cardinals game after the back issue resolved.",
-      "direction": "supports",
+      "claim": "A prior wrist fracture that had sidelined Rodgers occurred in November 2025 against these same Bengals and was resolved by Week 13 of that season; it is not listed anywhere on his current 2026 Week 3 injury designation.",
+      "direction": "neutral",
       "category": "injury",
-      "url": "https://www.fantasypros.com/nfl/news/608967/cooper-kupp-back-off-injury-report-sunday.php",
-      "published": "2026-09-19T00:00:00Z",
+      "url": "https://www.espn.com/nfl/story/_/id/47129278/steelers-qb-aaron-rodgers-wrist-return-bills",
+      "published": "2025-11-28T00:00:00-00:00",
       "after_model_run": false
      },
      {
-      "claim": "Through two games this season, Kupp has just four catches for 55 yards on five targets, as Jaxon Smith-Njigba has dominated the targets and big plays for Seattle.",
-      "direction": "against",
-      "category": "usage",
-      "url": "https://www.rotowire.com/football/headlines/cooper-kupp-injury-limited-wednesday-638891",
-      "published": "2026-09-23T00:00:00Z",
-      "after_model_run": false
-     },
-     {
-      "claim": "In Week 1 vs. New England, Kupp caught two of three targets for 35 yards while playing 78% of offensive snaps, second-most among Seahawks receivers behind only Smith-Njigba.",
+      "claim": "Through two games of the 2026 season, Rodgers has 21 rush attempts for 89 rushing yards (4.24 yards per carry), indicating he has already produced positive rushing yardage in every game so far this season.",
       "direction": "supports",
       "category": "usage",
-      "url": "https://fantasydata.com/nfl/cooper-kupp-fantasy/18882",
-      "published": "2026-09-17T00:00:00Z",
+      "url": "https://sumersports.com/players/1c45f73/aaron-rodgers/",
+      "published": null,
       "after_model_run": false
      },
      {
-      "claim": "In Week 2 vs. Arizona, Kupp caught both of his targets for 20 yards with a long reception of 16 yards, continuing to occupy a complementary role in an offense increasingly centered around Smith-Njigba.",
-      "direction": "against",
+      "claim": "PFF's box score tracking for Rodgers' most recent game credited him with scramble yards on the ground, consistent with him still picking up incidental rushing yardage via scrambles rather than designed runs.",
+      "direction": "supports",
       "category": "usage",
-      "url": "https://heavy.com/sports/nfl/seattle-seahawks/cooper-kupp-instagram-post-cardinals/",
-      "published": "2026-09-22T00:00:00Z",
+      "url": "https://www.pff.com/nfl/players/aaron-rodgers/2241",
+      "published": null,
       "after_model_run": false
      },
      {
-      "claim": "ESPN's outlook describes Kupp as a low-ceiling complementary target, noting Smith-Njigba is 'soaking up a huge share of the targets' with Rashid Shaheed and Tory Horton also in the receiving mix.",
-      "direction": "against",
-      "category": "usage",
-      "url": "https://www.espn.com/nfl/player/_/id/2977187/cooper-kupp",
-      "published": "2026-09-22T00:00:00Z",
-      "after_model_run": false
-     },
-     {
-      "claim": "Commanders starting QB Jayden Daniels dislocated his elbow again and Marcus Mariota is expected to start for the foreseeable future, a defensive/offensive situational shift for Washington heading into this game.",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://www.fantasypros.com/2026/09/lets-stream-defenses-week-3-2026-fantasy-football/",
-      "published": "2026-09-22T00:00:00Z",
-      "after_model_run": false
-     },
-     {
-      "claim": "Seattle's practice report also notes starting QB Sam Darnold (glute) returned to limited practice this week, with a decision on his Week 3 status pending, which could affect passing volume/distribution if he plays over backup Drew Lock.",
+      "claim": "Steelers running back Rico Dowdle (toe) did not practice and was seen in a boot, while RB Jaylen Warren (shoulder) was limited, meaning the Steelers' run game could see more pressure/situations funneled to Rodgers via scrambles or kneel-adjacent plays, though this is speculative and not directly about Rodgers.",
       "direction": "neutral",
       "category": "lineup",
-      "url": "https://www.seahawks.com/news/week-3-injury-report-seahawks-vs-commanders",
-      "published": "2026-09-23T21:00:00Z",
+      "url": "https://www.si.com/nfl/steelers/onsi/pittsburgh-steelers-two-more-injuries-key-starters",
+      "published": "2026-09-24T00:00:00-00:00",
+      "after_model_run": false
+     },
+     {
+      "claim": "Game-time forecast for the Steelers-Bengals game at Acrisure Stadium projects roughly 64\u00b0F with only a 2% chance of rain and wind around 10 mph from the northwest, indicating no significant weather impediment to offensive execution.",
+      "direction": "neutral",
+      "category": "weather",
+      "url": "https://www.nflweather.com/",
+      "published": "2026-09-20T00:00:00-00:00",
+      "after_model_run": false
+     },
+     {
+      "claim": "A separate weather forecast source projects a high near 84\u00b0F with only a stray thunderstorm chance and breezy conditions, again showing no material wind/precipitation concern for this outdoor game.",
+      "direction": "neutral",
+      "category": "weather",
+      "url": "https://www.accuweather.com/en/us/acrisure-stadium/15212/weather-forecast/53633_poi",
+      "published": null,
       "after_model_run": false
      }
     ],
-    "verdict": "neutral",
+    "verdict": "supports",
     "confidence": "medium",
     "material_news_after_model_run": false,
     "dropped_unsourced": 0
    }
   },
   {
+   "sport": "NFL",
+   "game": "Carolina Panthers @ Cleveland Browns",
+   "model": "props",
+   "market": "Rushing yards",
+   "pick": "Chuba Hubbard Under 71.5 rushing yards",
+   "lane": "confidence",
+   "model_prob": 0.9174,
+   "engine_price": -114,
+   "engine_edge": 38.47,
+   "commence": "2026-09-27T17:00:00Z",
+   "home_team": "Cleveland Browns",
+   "player": "Chuba Hubbard",
+   "point": 71.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "613b8cd3a5fab58f7be4e3fd6f76223e",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Under",
+   "odds_market": "player_rush_yds",
+   "consensus_prob": 0.5005,
+   "final_prob": 0.6256,
+   "n_books": 5.0,
+   "best_book": "draftkings",
+   "best_odds": -114.0,
+   "edge_pts": 9.29,
+   "ev_per_unit": 0.1743,
+   "floor_odds": -125.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.0 pts away from this side since first published (-114 \u2192 -114, 2 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (JSONDecodeError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
    "sport": "NCAAF",
-   "game": "Texas A&M Aggies @ LSU Tigers",
+   "game": "Vanderbilt Commodores @ Auburn Tigers",
    "model": "sides",
    "market": "Spread",
-   "pick": "Texas A&M Aggies +8.5",
+   "pick": "Vanderbilt Commodores +9.5",
    "lane": "confidence",
-   "model_prob": 0.8572,
-   "engine_price": -112,
-   "engine_edge": 32.89,
-   "commence": "2026-09-26T23:30:00Z",
-   "home_team": "LSU Tigers",
+   "model_prob": 0.8831,
+   "engine_price": -110,
+   "engine_edge": 35.93,
+   "commence": "2026-09-26T20:15:00Z",
+   "home_team": "Auburn Tigers",
    "player": "",
-   "point": 8.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "0c71c3230f930f30ac34160b38dbbaf0",
+   "point": 9.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "edf8d3e3699aa5cb34c50ac7de992d37",
    "sport_key": "americanfootball_ncaaf",
-   "sel": "Texas A&M Aggies",
+   "sel": "Vanderbilt Commodores",
    "odds_market": "spreads",
-   "consensus_prob": 0.4968,
-   "final_prob": 0.6049,
-   "n_books": 9.0,
+   "consensus_prob": 0.4978,
+   "final_prob": 0.6134,
+   "n_books": 8.0,
    "best_book": "draftkings",
    "best_odds": -110.0,
-   "edge_pts": 8.11,
-   "ev_per_unit": 0.1548,
-   "floor_odds": -125.0,
+   "edge_pts": 8.96,
+   "ev_per_unit": 0.171,
+   "floor_odds": -129.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
@@ -375,251 +389,79 @@
    }
   },
   {
-   "sport": "NCAAF",
-   "game": "South Florida Bulls @ Bowling Green Falcons",
+   "sport": "NFL",
+   "game": "Seattle Seahawks @ Washington Commanders",
    "model": "sides",
    "market": "Spread",
-   "pick": "South Florida Bulls -17.5",
+   "pick": "Seattle Seahawks -7.5",
    "lane": "confidence",
-   "model_prob": 0.8343,
-   "engine_price": -110,
-   "engine_edge": 31.04,
-   "commence": "2026-09-26T21:00:00Z",
-   "home_team": "Bowling Green Falcons",
+   "model_prob": 0.8333,
+   "engine_price": -105,
+   "engine_edge": 32.11,
+   "commence": "2026-09-27T17:00:00Z",
+   "home_team": "Washington Commanders",
    "player": "",
-   "point": -17.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "10078e86207d952986707c1ad7dc9331",
-   "sport_key": "americanfootball_ncaaf",
-   "sel": "South Florida Bulls",
+   "point": -7.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Seattle Seahawks",
    "odds_market": "spreads",
-   "consensus_prob": 0.5021,
-   "final_prob": 0.6018,
-   "n_books": 8.0,
-   "best_book": "fanduel",
-   "best_odds": -110.0,
-   "edge_pts": 7.79,
-   "ev_per_unit": 0.1488,
-   "floor_odds": -123.0,
+   "consensus_prob": 0.4979,
+   "final_prob": 0.5985,
+   "n_books": 10.0,
+   "best_book": "williamhill_us",
+   "best_odds": -105.0,
+   "edge_pts": 8.63,
+   "ev_per_unit": 0.1686,
+   "floor_odds": -122.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
    "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "South Florida (3-0) enters as a significantly more experienced and productive team than Bowling Green (1-2), which is starting a true first-year FBS quarterback and owns the nation's 132nd-ranked rushing offense. USF's defense has generated a strong takeaway margin, and Bowling Green's top cornerback missed last week with an injury of uncertain status, both of which lean supportive of the USF spread cover, though no hard injury-report confirmations or line movement data were available at request time.",
-    "evidence": [
-     {
-      "claim": "Bowling Green cornerback JoJo Johnson, who ranked second nationally with 13 pass breakups a year ago, missed the Iowa State game due to injury and his status remains unknown against South Florida.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/2026-week-4-preview-south-143000773.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "USF's ability to generate turnovers has helped it tie for ninth in takeaways nationally last season, and the trend is continuing this year with a 5-1 advantage thus far.",
-      "direction": "supports",
-      "category": "usage",
-      "url": "https://sports.yahoo.com/articles/2026-week-4-preview-south-143000773.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Bowling Green fields the nation's 132nd ranked rushing offense, averaging only 2.8 yards per carry.",
-      "direction": "supports",
-      "category": "usage",
-      "url": "https://sports.yahoo.com/articles/2026-week-4-preview-south-143000773.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Bowling Green quarterback Jay Kastantin, a first-time FBS starter, has not eclipsed 100 passing yards in either of the two games since his opener.",
-      "direction": "supports",
-      "category": "lineup",
-      "url": "https://sports.yahoo.com/articles/2026-week-4-preview-south-143000773.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "USF quarterback Michael Van Buren Jr. is fresh off his first 300-yard passing game since 2024 and has a 66.3% completion rate without an interception this season.",
-      "direction": "supports",
-      "category": "usage",
-      "url": "https://sports.yahoo.com/articles/2026-week-4-preview-south-143000773.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "USF ranks 92nd nationally in pass defense, a weakness Bowling Green could try to exploit despite its limited passing production so far.",
-      "direction": "against",
-      "category": "usage",
-      "url": "https://sports.yahoo.com/articles/2026-week-4-preview-south-143000773.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Bowling Green linebacker Dorian Pringle has returned from missing most of 2025 due to injury and is playing a full role, registering a team-high 32 tackles through three games this season.",
-      "direction": "neutral",
-      "category": "injury",
-      "url": "https://bgsufalcons.com/news/2026/9/21/football-coming-home-bowling-green-to-host-usf-in-homecoming-clash-saturday",
-      "published": "2026-09-21",
-      "after_model_run": false
-     },
-     {
-      "claim": "The game will be played at Doyt Perry Stadium in Bowling Green, OH, on September 26 at 5:00 p.m. with no ranking, weather, or venue changes noted.",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://en.wikipedia.org/wiki/2026_South_Florida_Bulls_football_team",
-      "published": null,
-      "after_model_run": false
-     }
-    ],
-    "verdict": "supports",
-    "confidence": "medium",
-    "material_news_after_model_run": false,
-    "dropped_unsourced": 0
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
    }
   },
   {
    "sport": "NFL",
-   "game": "Tennessee Titans @ New York Giants",
+   "game": "Minnesota Vikings @ Tampa Bay Buccaneers",
    "model": "props",
    "market": "Receiving yards",
-   "pick": "Darnell Mooney Over 15.5 receiving yards",
+   "pick": "Jauan Jennings Over 14.5 receiving yards",
    "lane": "confidence",
-   "model_prob": 0.8543,
+   "model_prob": 0.8954,
    "engine_price": -114,
-   "engine_edge": 32.16,
-   "commence": "2026-09-27T17:00:00Z",
-   "home_team": "New York Giants",
-   "player": "Darnell Mooney",
-   "point": 15.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "555afd4a27aaa392662881cffa8f2eef",
+   "engine_edge": 36.27,
+   "commence": "2026-09-27T20:05:00Z",
+   "home_team": "Tampa Bay Buccaneers",
+   "player": "Jauan Jennings",
+   "point": 14.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "f1724dead3eab61546033032fc782375",
    "sport_key": "americanfootball_nfl",
    "sel": "Over",
    "odds_market": "player_reception_yds",
-   "consensus_prob": 0.5,
-   "final_prob": 0.6063,
-   "n_books": 4.0,
-   "best_book": "draftkings",
-   "best_odds": -112.0,
-   "edge_pts": 7.8,
-   "ev_per_unit": 0.1476,
-   "floor_odds": -116.0,
-   "decision": "BET",
-   "reason": "",
-   "line_move": "FanDuel moved 0.0 pts away from this side since first published (-114 \u2192 -114, 3 reads)",
-   "stake_u": 1.0,
-   "weather": null,
-   "research": {
-    "summary": "Darnell Mooney is healthy and entrenched as the Giants' clear No. 2 (or even No. 1 target-wise) receiver heading into Week 3, having led the team in receiving yards last game and shown strong early chemistry with new starter Jameis Winston. Winston takes over full-time after Jaxson Dart's season-ending knee injury, which is a downgrade to the passing offense overall, but reports specifically note Winston's comfort targeting Mooney, and Mooney is not on New York's injury report at all this week.",
-    "evidence": [
-     {
-      "claim": "Mooney caught 2-of-3 targets for 48 yards, including a 33-yard catch, and led the Giants in receiving yards in the Week 2 loss to the Rams.",
-      "direction": "supports",
-      "category": "usage",
-      "url": "https://sports.yahoo.com/articles/3-giants-players-most-affected-143620724.html",
-      "published": "2026-09-22",
-      "after_model_run": false
-     },
-     {
-      "claim": "A recap of that game specifically noted that new starter Jameis Winston 'seemed much more comfortable targeting Darnell Mooney,' who led the Giants with two catches for 48 yards, including a 33-yarder.",
-      "direction": "supports",
-      "category": "usage",
-      "url": "https://sports.yahoo.com/articles/3-giants-players-most-affected-143620724.html",
-      "published": "2026-09-22",
-      "after_model_run": false
-     },
-     {
-      "claim": "Starting QB Jaxson Dart suffered a knee injury on the Giants' opening drive against the Rams and coach John Harbaugh confirmed Wednesday that Dart will miss the rest of the 2026 regular season, with Jameis Winston starting in his place against the Titans.",
-      "direction": "neutral",
-      "category": "lineup",
-      "url": "https://www.giants.com/news/jaxson-dart-to-miss-rest-of-regular-season-jameis-winston-to-start-quarterback-injury-john-harbaugh",
-      "published": "2026-09-24",
-      "after_model_run": false
-     },
-     {
-      "claim": "In relief of Dart, Winston completed just 11-of-27 passes for 111 yards, zero touchdowns, and an interception, and offensive coordinator Matt Nagy threw the ball 5.1% below expectations with Winston at QB in Week 2.",
-      "direction": "against",
-      "category": "situational",
-      "url": "https://www.sharpfootballanalysis.com/fantasy/titans-giants-week-3-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "The Giants' first Week 3 injury report lists OLB Brian Burns (ankle) and QB Jaxson Dart (knee) as not participating, and separately WR Malik Nabers (shoulder) and LT Andrew Thomas (groin) as limited \u2014 Darnell Mooney is not listed on the injury report at all.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://www.si.com/nfl/giants/onsi/giants-week-3-injury-report-lengthy-list-01m37ytr3thr",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Head coach John Harbaugh said he was optimistic that Malik Nabers and Andrew Thomas would both be good to go for the Titans game despite being limited in practice.",
-      "direction": "neutral",
-      "category": "injury",
-      "url": "https://www.si.com/nfl/giants/onsi/giants-week-3-injury-report-lengthy-list-01m37ytr3thr",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Mooney signed with the Giants as a free agent and was listed as a starting wide receiver next to Malik Nabers on the team's official depth chart, ahead of Odell Beckham Jr.",
-      "direction": "supports",
-      "category": "lineup",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-list-darnell-mooney-as-starting-wr-next-to-malik-nabers",
-      "published": "2026-09-09",
-      "after_model_run": false
-     },
-     {
-      "claim": "Tennessee's pass defense has struggled early, allowing a 73.8% completion rate (30th in the NFL) and 7.9 yards per pass attempt (22nd) through two weeks.",
-      "direction": "supports",
-      "category": "situational",
-      "url": "https://www.sharpfootballanalysis.com/fantasy/titans-giants-week-3-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     }
-    ],
-    "verdict": "supports",
-    "confidence": "medium",
-    "material_news_after_model_run": false,
-    "dropped_unsourced": 0
-   }
-  },
-  {
-   "sport": "NFL",
-   "game": "Tennessee Titans @ New York Giants",
-   "model": "props",
-   "market": "Receiving yards",
-   "pick": "Cam Skattebo Over 11.5 receiving yards",
-   "lane": "confidence",
-   "model_prob": 0.8474,
-   "engine_price": -114,
-   "engine_edge": 31.47,
-   "commence": "2026-09-27T17:00:00Z",
-   "home_team": "New York Giants",
-   "player": "Cam Skattebo",
-   "point": 11.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
-   "event_id": "555afd4a27aaa392662881cffa8f2eef",
-   "sport_key": "americanfootball_nfl",
-   "sel": "Over",
-   "odds_market": "player_reception_yds",
-   "consensus_prob": 0.5017,
-   "final_prob": 0.6054,
-   "n_books": 4.0,
+   "consensus_prob": 0.502,
+   "final_prob": 0.62,
+   "n_books": 3.0,
    "best_book": "fanduel",
    "best_odds": -114.0,
-   "edge_pts": 7.27,
-   "ev_per_unit": 0.1364,
-   "floor_odds": -115.0,
+   "edge_pts": 8.73,
+   "ev_per_unit": 0.1639,
+   "floor_odds": -122.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
    "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "research failed (ValueError); bet stands on model + market only",
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
     "evidence": [],
     "verdict": "neutral",
     "confidence": "low",
@@ -640,128 +482,230 @@
    "home_team": "Indiana Hoosiers",
    "player": "",
    "point": -20.5,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
+   "model_run_at": "2026-09-25T00:46:59+00:00",
    "event_id": "775ad63a769838c1e1da423293c9c60d",
    "sport_key": "americanfootball_ncaaf",
    "sel": "Indiana Hoosiers",
    "odds_market": "spreads",
-   "consensus_prob": 0.5123,
-   "final_prob": 0.6162,
+   "consensus_prob": 0.5104,
+   "final_prob": 0.6149,
    "n_books": 10.0,
-   "best_book": "espnbet",
-   "best_odds": -120.0,
-   "edge_pts": 7.07,
-   "ev_per_unit": 0.1297,
-   "floor_odds": -131.0,
+   "best_book": "betmgm",
+   "best_odds": -112.0,
+   "edge_pts": 8.65,
+   "ev_per_unit": 0.1638,
+   "floor_odds": -130.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
    "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "Indiana is the No. 5-ranked, 3-0 defending national champion, outscoring opponents 145-16 with back-to-back shutouts, while Northwestern is unranked at 2-0 and enters with significantly more injury depth issues, including a starting offensive lineman ruled out and a starting DB doubtful. Indiana's own injuries (backup RB/WR/CB out, a doubtful CB2, questionable kicker) are depth-level, not starter-level for its top production (Hoover, Marsh, Richard), while Northwestern is banged up on both lines. Net effect on the -20.5 line is roughly neutral to mildly supportive given IU's clear talent/health edge, though blowout-margin covers always carry variance.",
-    "evidence": [
-     {
-      "claim": "Indiana enters at 3-0 and No. 5 in the AP poll, having outscored opponents 145-16 with back-to-back shutouts, while Northwestern is unranked at 2-0.",
-      "direction": "supports",
-      "category": "situational",
-      "url": "https://hoosierstateofmind.com/indiana-football-vs-northwestern-how-to-watch-injuries-odds-and-predictions-01m35wkyc9pe",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Indiana running back Khobie Martin (arm) is out and expected to miss several weeks, along with WR Lebron Bond and CB Carson Williams.",
-      "direction": "neutral",
-      "category": "injury",
-      "url": "https://hoosierhuddle.com/2026/09/23/second-availability-report-indiana-northwestern/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Indiana CB A.J. Harris is listed as doubtful after starting the opener and being injured early, with Ryland Gandy starting in his place the last two games.",
-      "direction": "neutral",
-      "category": "injury",
-      "url": "https://247sports.com/college/indiana/article/indiana-iu-football-vs-northwestern-injury-availability-report-aj-harris-doubtful-three-hoosiers-out-290324698/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Indiana EDGEs Stephen Daley and Kellan Wyatt were removed from the injury list after receiving a court injunction Wednesday making them eligible to play the rest of the season.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://247sports.com/college/indiana/article/indiana-iu-football-vs-northwestern-injury-availability-report-aj-harris-doubtful-three-hoosiers-out-290324698/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Indiana kicker Nico Radicic (rib/back) is questionable after missing two games, with backup Paddy McAteer having gone 1-of-2 on field goals and 12-of-13 on extra points in his place.",
-      "direction": "neutral",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/indiana-football-injury-report-vs-080543367.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Northwestern starting offensive lineman Ezomo Oratokhai, who started all 13 games in 2025 and earned All-Big Ten honorable mention while allowing zero sacks over his final 12 games, has been ruled out after an injury against Colorado.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/northwestern-offense-faces-major-test-130004039.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Northwestern WR Hayden Eligon II is listed as doubtful with a lower-body injury.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/northwestern-offense-faces-major-test-130004039.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Northwestern starting defensive back Braden Turner, the team's third-leading tackler with 15 tackles, two tackles for loss, two pass breakups and an interception, is listed as doubtful.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/indiana-football-injury-report-vs-080543367.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "As of Wednesday night's second availability report, Northwestern lists 14 players as out and three as doubtful, with no changes from the prior report.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://247sports.com/college/indiana/article/indiana-iu-football-vs-northwestern-injury-availability-report-aj-harris-doubtful-three-hoosiers-out-290324698/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Northwestern rotational defensive lineman Callen Campbell is also listed as a significant loss on the availability report.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://hoosierhuddle.com/2026/09/23/second-availability-report-indiana-northwestern/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Josh Hoover is Indiana's clear starting quarterback, brought in via the transfer portal from TCU, with no QB competition drama.",
-      "direction": "neutral",
-      "category": "lineup",
-      "url": "https://hoosierstateofmind.com/projecting-indiana-football-s-2026-depth-chart-before-the-start-of-fall-camp-01kz44w53j2f",
-      "published": "2026-08-03",
-      "after_model_run": false
-     },
-     {
-      "claim": "The game is scheduled for Friday, Sept. 25, 2026 at 8 p.m. ET at Memorial Stadium in Bloomington, Indiana.",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://sports.yahoo.com/articles/indiana-football-schedule-vs-northwestern-111228387.html",
-      "published": "2026-09-22",
-      "after_model_run": false
-     }
-    ],
-    "verdict": "supports",
-    "confidence": "medium",
-    "material_news_after_model_run": false,
-    "dropped_unsourced": 0
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NCAAF",
+   "game": "South Florida Bulls @ Bowling Green Falcons",
+   "model": "sides",
+   "market": "Spread",
+   "pick": "South Florida Bulls -17.5",
+   "lane": "confidence",
+   "model_prob": 0.8343,
+   "engine_price": -110,
+   "engine_edge": 31.04,
+   "commence": "2026-09-26T21:00:00Z",
+   "home_team": "Bowling Green Falcons",
+   "player": "",
+   "point": -17.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "10078e86207d952986707c1ad7dc9331",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "South Florida Bulls",
+   "odds_market": "spreads",
+   "consensus_prob": 0.5104,
+   "final_prob": 0.6076,
+   "n_books": 8.0,
+   "best_book": "fanduel",
+   "best_odds": -110.0,
+   "edge_pts": 8.37,
+   "ev_per_unit": 0.1599,
+   "floor_odds": -126.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NFL",
+   "game": "Atlanta Falcons @ Green Bay Packers",
+   "model": "props",
+   "market": "Receiving yards",
+   "pick": "Matthew Golden Under 86.5 receiving yards",
+   "lane": "confidence",
+   "model_prob": 0.8833,
+   "engine_price": -114,
+   "engine_edge": 35.06,
+   "commence": "2026-09-25T00:15:29Z",
+   "home_team": "Green Bay Packers",
+   "player": "Matthew Golden",
+   "point": 86.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Under",
+   "odds_market": "player_reception_yds",
+   "consensus_prob": 0.503,
+   "final_prob": 0.6171,
+   "n_books": 3.0,
+   "best_book": "fanduel",
+   "best_odds": -114.0,
+   "edge_pts": 8.44,
+   "ev_per_unit": 0.1584,
+   "floor_odds": -121.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NFL",
+   "game": "Seattle Seahawks @ Washington Commanders",
+   "model": "props",
+   "market": "Receiving yards",
+   "pick": "Cooper Kupp Over 21.5 receiving yards",
+   "lane": "confidence",
+   "model_prob": 0.8394,
+   "engine_price": -114,
+   "engine_edge": 30.67,
+   "commence": "2026-09-27T17:00:00Z",
+   "home_team": "Washington Commanders",
+   "player": "Cooper Kupp",
+   "point": 21.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "2a529c108305ffa049d8b6cfdbaa4d36",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Over",
+   "odds_market": "player_reception_yds",
+   "consensus_prob": 0.4983,
+   "final_prob": 0.6006,
+   "n_books": 3.0,
+   "best_book": "draftkings",
+   "best_odds": -108.0,
+   "edge_pts": 8.14,
+   "ev_per_unit": 0.1568,
+   "floor_odds": -113.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.0 pts away from this side since first published (-114 \u2192 -114, 2 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NCAAF",
+   "game": "Kennesaw State Owls @ Arkansas State Red Wolves",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "Kennesaw State Owls ML",
+   "lane": "value",
+   "model_prob": 0.5299,
+   "engine_price": 195,
+   "engine_edge": 19.09,
+   "commence": "2026-09-26T23:00:00Z",
+   "home_team": "Arkansas State Red Wolves",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "77c3435e651e2d615870c2c25c8dbf71",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "Kennesaw State Owls",
+   "odds_market": "h2h",
+   "consensus_prob": 0.3213,
+   "final_prob": 0.3839,
+   "n_books": 8.0,
+   "best_book": "betmgm",
+   "best_odds": 200.0,
+   "edge_pts": 5.05,
+   "ev_per_unit": 0.1516,
+   "floor_odds": 200.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 4.2 pts away from this side since first published (+162 \u2192 +195, 12 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NFL",
+   "game": "Tennessee Titans @ New York Giants",
+   "model": "props",
+   "market": "Receiving yards",
+   "pick": "Cam Skattebo Over 11.5 receiving yards",
+   "lane": "confidence",
+   "model_prob": 0.8474,
+   "engine_price": -114,
+   "engine_edge": 31.47,
+   "commence": "2026-09-27T17:00:00Z",
+   "home_team": "New York Giants",
+   "player": "Cam Skattebo",
+   "point": 11.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "555afd4a27aaa392662881cffa8f2eef",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Over",
+   "odds_market": "player_reception_yds",
+   "consensus_prob": 0.5027,
+   "final_prob": 0.6061,
+   "n_books": 6.0,
+   "best_book": "fanduel",
+   "best_odds": -114.0,
+   "edge_pts": 7.34,
+   "ev_per_unit": 0.1378,
+   "floor_odds": -116.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
    }
   },
   {
@@ -772,114 +716,38 @@
    "pick": "Utah State Aggies ML",
    "lane": "confidence",
    "model_prob": 0.8472,
-   "engine_price": -162,
-   "engine_edge": 22.89,
+   "engine_price": -154,
+   "engine_edge": 24.09,
    "commence": "2026-09-26T23:30:00Z",
    "home_team": "Utah State Aggies",
    "player": "",
    "point": null,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
+   "model_run_at": "2026-09-25T00:46:59+00:00",
    "event_id": "dbc89703b51acf3b8818134a1a2a0dc2",
    "sport_key": "americanfootball_ncaaf",
    "sel": "Utah State Aggies",
    "odds_market": "h2h",
-   "consensus_prob": 0.5787,
-   "final_prob": 0.6593,
+   "consensus_prob": 0.5721,
+   "final_prob": 0.6546,
    "n_books": 8.0,
-   "best_book": "betrivers",
-   "best_odds": -152.0,
-   "edge_pts": 5.61,
-   "ev_per_unit": 0.093,
-   "floor_odds": -156.0,
+   "best_book": "espnbet",
+   "best_odds": -140.0,
+   "edge_pts": 7.13,
+   "ev_per_unit": 0.1222,
+   "floor_odds": -153.0,
    "decision": "BET",
    "reason": "",
-   "line_move": "FanDuel moved 7.0 pts toward this side since first published (-120 \u2192 -162, 11 reads)",
+   "line_move": "FanDuel moved 5.9 pts toward this side since first published (-120 \u2192 -154, 12 reads)",
    "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "Utah State enters 0-3 (including a 33-0 shutout by Utah) with starting QB McCae Hillstead sidelined by a forearm injury for two straight games and backup Grady Brosterhous struggling with turnovers; Troy is 2-1 but has multiple offensive skill-position injuries (TE Rogosch, WR Worley, WR Lott) after a 27-17 loss at Missouri. Both sides carry real injury/performance concerns, so the public evidence is mixed rather than a clean tailwind for either side \u2014 it does not strongly corroborate the model's 65.9% USU win probability. No weather factor (game is at Maverik Stadium, effectively neutral/dome-like conditions per NWS 'None').",
-    "evidence": [
-     {
-      "claim": "Utah State starting QB McCae Hillstead was out with a forearm injury for the Week 2 Washington game, with backup Grady Brosterhous making his first career start",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://www.deseret.com/sports/2026/09/12/utah-state-football-narrowly-loses-to-washington-football/",
-      "published": "2026-09-12",
-      "after_model_run": false
-     },
-     {
-      "claim": "Hillstead (forearm) did not take the field as the starter for the Utah game, and Brosterhous started for the second consecutive game",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://www.rotowire.com/cfootball/headlines/grady-brosterhous-news-starting-vs-utah-230727",
-      "published": "2026-09-19",
-      "after_model_run": false
-     },
-     {
-      "claim": "In his Week 2 start against Washington, Brosterhous tossed for 277 total yards and two touchdowns while being intercepted three times",
-      "direction": "against",
-      "category": "usage",
-      "url": "https://www.rotowire.com/cfootball/headlines/grady-brosterhous-news-starting-vs-utah-230727",
-      "published": "2026-09-19",
-      "after_model_run": false
-     },
-     {
-      "claim": "Brosterhous completed 15-of-29 pass attempts for 130 yards while being intercepted once and sacked four times as Utah State was shut out by Utah, 33-0",
-      "direction": "against",
-      "category": "usage",
-      "url": "https://www.foxsports.com/college-football/troy-trojans-vs-utah-state-aggies-sep-26-2026-game-boxscore-43411",
-      "published": "2026-09-19",
-      "after_model_run": false
-     },
-     {
-      "claim": "Utah State linebacker Harrison Taggart left the Utah game via ambulance after recording five stops before exiting with the injury",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://sports.ksl.com/ncaa/utah-state-football/harrison-taggart/577486",
-      "published": "2026-09-21",
-      "after_model_run": false
-     },
-     {
-      "claim": "Troy TE Fabian Rogosch suffered a leg injury in the loss to Missouri and did not record a stat before leaving the game, with his status for the Utah State game now in question",
-      "direction": "for",
-      "category": "injury",
-      "url": "https://www.rotowire.com/cfootball/headlines/fabian-rogosch-injury-suffers-leg-injury-231231",
-      "published": "2026-09-21",
-      "after_model_run": false
-     },
-     {
-      "claim": "Troy WR Jackson Worley (undisclosed) did not play in the Missouri loss and is now questionable for the game at Utah State",
-      "direction": "for",
-      "category": "injury",
-      "url": "https://www.foxsports.com/college-football/troy-trojans-team",
-      "published": "2026-09-21",
-      "after_model_run": false
-     },
-     {
-      "claim": "Troy WR TJ Lott (undisclosed) did not play against Missouri and will aim to return for the game at Utah State",
-      "direction": "for",
-      "category": "injury",
-      "url": "https://www.foxsports.com/college-football/troy-trojans-team",
-      "published": "2026-09-21",
-      "after_model_run": false
-     },
-     {
-      "claim": "Utah State is 0-3 overall entering the Troy game, most recently losing 0-33 to Utah, while Troy is 2-1 after losing 17-27 at Missouri",
-      "direction": "neutral",
-      "category": "situational",
-      "url": "https://en.wikipedia.org/wiki/2026_Utah_State_Aggies_football_team",
-      "published": null,
-      "after_model_run": false
-     }
-    ],
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
     "verdict": "neutral",
     "confidence": "low",
-    "material_news_after_model_run": false,
-    "dropped_unsourced": 0
+    "material_news_after_model_run": false
    }
-  }
- ],
- "held": [
+  },
   {
    "sport": "NCAAF",
    "game": "Oklahoma State Cowboys @ West Virginia Mountaineers",
@@ -888,225 +756,190 @@
    "pick": "West Virginia Mountaineers ML",
    "lane": "confidence",
    "model_prob": 0.8004,
-   "engine_price": -128,
-   "engine_edge": 23.9,
+   "engine_price": -122,
+   "engine_edge": 25.09,
    "commence": "2026-09-26T23:00:00Z",
    "home_team": "West Virginia Mountaineers",
    "player": "",
    "point": null,
-   "model_run_at": "2026-09-24T14:47:32+00:00",
+   "model_run_at": "2026-09-25T00:46:59+00:00",
    "event_id": "6c95114d806556a04a0d719e62c042d7",
    "sport_key": "americanfootball_ncaaf",
    "sel": "West Virginia Mountaineers",
    "odds_market": "h2h",
-   "consensus_prob": 0.534,
-   "final_prob": 0.6139,
+   "consensus_prob": 0.5304,
+   "final_prob": 0.6114,
    "n_books": 8.0,
-   "best_book": "draftkings",
-   "best_odds": -125.0,
-   "edge_pts": 5.84,
-   "ev_per_unit": 0.1051,
-   "floor_odds": -129.0,
-   "decision": "HOLD",
-   "reason": "material news published after the model ran: re-run the engine first",
-   "line_move": "FanDuel moved 0.3 pts toward this side since first published (-126 \u2192 -128, 9 reads)",
-   "stake_u": null,
+   "best_book": "espnbet",
+   "best_odds": -120.0,
+   "edge_pts": 6.6,
+   "ev_per_unit": 0.1209,
+   "floor_odds": -128.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.7 pts away from this side since first published (-126 \u2192 -122, 10 reads)",
+   "stake_u": 1.0,
    "weather": null,
    "research": {
-    "summary": "West Virginia is 3-0 and enters as home favorites in a good injury spot, with head coach Rich Rodriguez reporting no significant injuries and expecting Nick Krahe, Cam Ball, Jaden Bray, and Nate Gabriel all to play against Oklahoma State despite minor bumps from the Virginia game. Oklahoma State (2-1) has some banged-up skill players (Hanson, Oates trending up) and a running back marked out plus one questionable, but no OSU player is listed as out for Saturday. Nothing found materially shifts the pregame line beyond the small natural odds movement already captured; no severe injuries, weather, or lineup shocks were found on either side.",
-    "evidence": [
-     {
-      "claim": "West Virginia head coach Rich Rodriguez said none of the injuries from the Virginia game were significant, and expects Nick Krahe, Cam Ball, Jaden Bray, and Nate Gabriel to all be limited in practice but able to play against Oklahoma State.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://www.dominionpost.com/2026/09/23/wvu-football-should-be-close-to-full-strength-against-oklahoma-state/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Rodriguez said WVU 'didn't get anybody, thankfully, knocked out' from the Virginia game and that the team has largely avoided major injuries three games into the 2026 season, a contrast to the injury-riddled 2025 campaign.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://www.dominionpost.com/2026/09/23/wvu-football-should-be-close-to-full-strength-against-oklahoma-state/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "Rodriguez specifically confirmed: Nick Krahe will be limited in practice but should be good to go, Cam Ball should be good to go, Jaden Bray has a hip bruise and should be good to go, and Nate Gabriel should also be fine to go against Oklahoma State.",
-      "direction": "supports",
-      "category": "lineup",
-      "url": "https://www.on3.com/sites/wv-sports/news/rich-rodriguez-press-conference-summary-9-22",
-      "published": "2026-09-22",
-      "after_model_run": false
-     },
-     {
-      "claim": "One WVU running back (Wiley) will remain out for the Oklahoma State game, though this is a depth piece with only three tackles this year on defense according to the report context, not a primary offensive contributor loss.",
-      "direction": "neutral",
-      "category": "injury",
-      "url": "https://www.wvsportsnation.com/rich-rodriguez-turns-the-page-to-oklahoma-state-as-wvu-prepares-for-big-12-play/",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "West Virginia is 3-0 this season, having beaten No. 25 Virginia 38-27 in its most recent game, with former Sooner QB Michael Hawkins running for three touchdowns and throwing for two scores.",
-      "direction": "supports",
-      "category": "other",
-      "url": "https://www.thesportsanimal.com/2026/09/21/oklahoma-state-gameday-coverage-oklahoma-state-vs-west-virginia-sat-092626/",
-      "published": "2026-09-21",
-      "after_model_run": false
-     },
-     {
-      "claim": "On Oklahoma State's side, running back depth is a concern in the first Big 12 player availability report, with one back out and one back listed as questionable, though the Cowboys' primary options appear intact.",
-      "direction": "supports",
-      "category": "injury",
-      "url": "https://sports.yahoo.com/articles/oklahoma-state-week-4-injury-220002760.html",
-      "published": "2026-09-23",
-      "after_model_run": false
-     },
-     {
-      "claim": "No Oklahoma State player is listed as out for Saturday's game on the initial player availability report, aside from offensive tackle Jacob Sexton who is already out for the season; wide receiver Chris Barnes, who missed a game with a shoulder injury, is expected back this week.",
-      "direction": "against",
-      "category": "injury",
-      "url": "https://www.si.com/college/oklahomastate/football/who-s-on-oklahoma-state-first-player-availability-report-west-virginia",
-      "published": "2026-09-24",
-      "after_model_run": true
-     },
-     {
-      "claim": "Oklahoma State opened this contest as 2.5-point road underdogs from oddsmakers, consistent with WVU being the favorite the model is backing.",
-      "direction": "supports",
-      "category": "other",
-      "url": "https://www.docsports.com/free-picks/football/2026/oklahoma-state-cowboys-vs-west-virginia-mountaineers-prediction-9-26-2026-college-football-picks-best-bets-odds.html",
-      "published": "2026-09-21",
-      "after_model_run": false
-     }
-    ],
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
     "verdict": "neutral",
-    "confidence": "medium",
-    "material_news_after_model_run": true,
-    "dropped_unsourced": 0
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NFL",
+   "game": "Philadelphia Eagles @ Chicago Bears",
+   "model": "sides",
+   "market": "Spread",
+   "pick": "Chicago Bears +4.5",
+   "lane": "value",
+   "model_prob": 0.6996,
+   "engine_price": -105,
+   "engine_edge": 18.74,
+   "commence": "2026-09-29T00:15:00Z",
+   "home_team": "Chicago Bears",
+   "player": "",
+   "point": 4.5,
+   "model_run_at": "2026-09-25T00:46:59+00:00",
+   "event_id": "47dc7baa254659f3beb2ed2b38c207b6",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Chicago Bears",
+   "odds_market": "spreads",
+   "consensus_prob": 0.4914,
+   "final_prob": 0.5538,
+   "n_books": 10.0,
+   "best_book": "draftkings",
+   "best_odds": 100.0,
+   "edge_pts": 5.38,
+   "ev_per_unit": 0.1077,
+   "floor_odds": -102.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (BadRequestError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
    }
   }
  ],
+ "held": [],
  "passed": [
   {
    "game": "Virginia Tech Hokies @ Boston College Eagles",
    "pick": "Boston College Eagles ML",
-   "reason": "edge 4.7 < 5 once checked against 8 books (engine said 14.0 vs FanDuel)"
-  },
-  {
-   "game": "Oregon State Beavers @ UTEP Miners",
-   "pick": "UTEP Miners ML",
-   "reason": "edge 3.5 < 5 once checked against 8 books (engine said 10.8 vs FanDuel)"
+   "reason": "edge 4.6 < 5 once checked against 8 books (engine said 14.0 vs FanDuel)"
   },
   {
    "game": "Kansas City Chiefs @ Miami Dolphins",
    "pick": "Miami Dolphins ML",
-   "reason": "edge 2.6 < 5 once checked against 10 books (engine said 8.2 vs FanDuel)"
+   "reason": "edge 2.7 < 5 once checked against 10 books (engine said 8.2 vs FanDuel)"
+  },
+  {
+   "game": "Oregon State Beavers @ UTEP Miners",
+   "pick": "UTEP Miners ML",
+   "reason": "edge 3.4 < 5 once checked against 8 books (engine said 10.8 vs FanDuel)"
   },
   {
    "game": "Oklahoma Sooners @ Georgia Bulldogs",
    "pick": "Oklahoma Sooners ML",
-   "reason": "edge 2.3 < 5 once checked against 9 books (engine said 6.6 vs FanDuel)"
+   "reason": "edge 2.6 < 5 once checked against 9 books (engine said 7.5 vs FanDuel)"
+  },
+  {
+   "game": "Houston Texans @ Indianapolis Colts",
+   "pick": "David Montgomery Over 7.5 receiving yards",
+   "reason": "edge 6.9 < 7 once checked against 2 books (engine said 30.6 vs FanDuel)"
   },
   {
    "game": "Tennessee Titans @ New York Giants",
    "pick": "Elic Ayomanor Over 14.5 receiving yards",
-   "reason": "edge 6.6 < 7 once checked against 3 books (engine said 29.3 vs FanDuel)"
-  },
-  {
-   "game": "New England Patriots @ Jacksonville Jaguars",
-   "pick": "Bhayshul Tuten Under 52.5 rushing yards",
-   "reason": "edge 6.6 < 7 once checked against 3 books (engine said 29.0 vs FanDuel)"
+   "reason": "edge 6.8 < 7 once checked against 6 books (engine said 29.3 vs FanDuel)"
   },
   {
    "game": "Minnesota Vikings @ Tampa Bay Buccaneers",
    "pick": "Baker Mayfield Over 16.5 rushing yards",
-   "reason": "edge 6.2 < 7 once checked against 6 books (engine said 27.7 vs FanDuel)"
+   "reason": "edge 6.7 < 7 once checked against 6 books (engine said 27.7 vs FanDuel)"
   },
   {
-   "game": "Atlanta Falcons @ Green Bay Packers",
-   "pick": "Matthew Golden Under 4.5 receptions",
-   "reason": "edge 6.0 < 7 once checked against 6 books (engine said 25.4 vs FanDuel)"
-  },
-  {
-   "game": "New York Jets @ Detroit Lions",
-   "pick": "Adonai Mitchell Under 3.5 receptions",
-   "reason": "edge 5.0 < 7 once checked against 5 books (engine said 17.2 vs FanDuel)"
+   "game": "Tennessee Titans @ New York Giants",
+   "pick": "Darnell Mooney Over 17.5 receiving yards",
+   "reason": "edge 6.6 < 7 once checked against 2 books (engine said 27.7 vs FanDuel)"
   },
   {
    "game": "New England Patriots @ Jacksonville Jaguars",
-   "pick": "TreVeyon Henderson Over 1.5 receptions",
-   "reason": "edge 4.6 < 7 once checked against 6 books (engine said 18.5 vs FanDuel)"
+   "pick": "Bhayshul Tuten Under 52.5 rushing yards",
+   "reason": "edge 6.6 < 7 once checked against 2 books (engine said 29.0 vs FanDuel)"
   },
   {
-   "game": "Cincinnati Bengals @ Pittsburgh Steelers",
-   "pick": "Chase Brown Over 3.5 receptions",
-   "reason": "edge 4.1 < 7 once checked against 6 books (engine said 16.3 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Rams @ Denver Broncos",
-   "pick": "Jaylen Waddle Under 4.5 receptions",
-   "reason": "edge 3.8 < 7 once checked against 5 books (engine said 14.9 vs FanDuel)"
-  },
-  {
-   "game": "Kansas City Chiefs @ Miami Dolphins",
-   "pick": "Malik Willis Under 33.5 rushing yards",
-   "reason": "edge 4.4 < 7 once checked against 5 books (engine said 19.8 vs FanDuel)"
-  },
-  {
-   "game": "Georgia Tech Yellow Jackets @ Stanford Cardinal",
-   "pick": "Georgia Tech Yellow Jackets -3.5",
-   "reason": "edge 4.2 < 5 once checked against 8 books (engine said 15.7 vs FanDuel)"
-  },
-  {
-   "game": "Virginia Tech Hokies @ Boston College Eagles",
-   "pick": "Boston College Eagles +14.5",
-   "reason": "edge 4.6 < 5 once checked against 8 books (engine said 20.0 vs FanDuel)"
-  },
-  {
-   "game": "Philadelphia Eagles @ Chicago Bears",
-   "pick": "Chicago Bears +4.5",
-   "reason": "edge 4.1 < 5 once checked against 10 books (engine said 18.7 vs FanDuel)"
-  },
-  {
-   "game": "Minnesota Vikings @ Tampa Bay Buccaneers",
-   "pick": "Emeka Egbuka Under 48.5 receiving yards",
-   "reason": "edge 4.2 < 7 once checked against 5 books (engine said 18.1 vs FanDuel)"
-  },
-  {
-   "game": "UConn Huskies @ Miami (OH) RedHawks",
-   "pick": "UConn Huskies +3.5",
-   "reason": "edge 3.8 < 5 once checked against 8 books (engine said 11.1 vs FanDuel)"
-  },
-  {
-   "game": "Kansas City Chiefs @ Miami Dolphins",
-   "pick": "Tyquan Thornton Over 17.5 receiving yards",
-   "reason": "edge 3.9 < 7 once checked against 2 books (engine said 19.6 vs FanDuel)"
-  },
-  {
-   "game": "Oklahoma Sooners @ Georgia Bulldogs",
-   "pick": "Oklahoma Sooners +13.5",
-   "reason": "edge 3.7 < 5 once checked against 9 books (engine said 14.8 vs FanDuel)"
+   "game": "Wake Forest Demon Deacons @ Louisville Cardinals",
+   "pick": "Wake Forest Demon Deacons ML",
+   "reason": "edge 2.1 < 5 once checked against 9 books (engine said 5.8 vs FanDuel)"
   },
   {
    "game": "UConn Huskies @ Miami (OH) RedHawks",
    "pick": "UConn Huskies ML",
-   "reason": "edge 3.0 < 5 once checked against 8 books (engine said 10.9 vs FanDuel)"
+   "reason": "edge 4.3 < 5 once checked against 8 books (engine said 12.0 vs FanDuel)"
   },
   {
-   "game": "Los Angeles Rams @ Denver Broncos",
-   "pick": "Matthew Stafford Under 0.5 rushing yards",
-   "reason": "edge 4.1 < 7 once checked against 4 books (engine said 15.8 vs FanDuel)"
-  },
-  {
-   "game": "Houston Texans @ Indianapolis Colts",
-   "pick": "Daniel Jones Under 9.5 rushing yards",
-   "reason": "edge 3.7 < 7 once checked against 5 books (engine said 17.2 vs FanDuel)"
+   "game": "Cincinnati Bengals @ Pittsburgh Steelers",
+   "pick": "Chase Brown Over 3.5 receptions",
+   "reason": "edge 4.8 < 7 once checked against 6 books (engine said 16.3 vs FanDuel)"
   },
   {
    "game": "Houston Texans @ Indianapolis Colts",
-   "pick": "C.J. Stroud Over 237.5 passing yards",
-   "reason": "edge 3.7 < 7 once checked against 3 books (engine said 19.9 vs FanDuel)"
+   "pick": "Jaylin Noel Under 2.5 receptions",
+   "reason": "edge 5.7 < 7 once checked against 6 books (engine said 19.1 vs FanDuel)"
+  },
+  {
+   "game": "New York Jets @ Detroit Lions",
+   "pick": "Adonai Mitchell Under 3.5 receptions",
+   "reason": "edge 4.7 < 7 once checked against 6 books (engine said 17.2 vs FanDuel)"
+  },
+  {
+   "game": "Baltimore Ravens @ Dallas Cowboys",
+   "pick": "Rashod Bateman Under 3.5 receptions",
+   "reason": "edge 5.4 < 7 once checked against 3 books (engine said 20.7 vs FanDuel)"
+  },
+  {
+   "game": "New England Patriots @ Jacksonville Jaguars",
+   "pick": "TreVeyon Henderson Over 1.5 receptions",
+   "reason": "edge 4.5 < 7 once checked against 6 books (engine said 18.5 vs FanDuel)"
+  },
+  {
+   "game": "Baltimore Ravens @ Dallas Cowboys",
+   "pick": "Javonte Williams Under 16.5 receiving yards",
+   "reason": "edge 4.7 < 7 once checked against 5 books (engine said 18.1 vs FanDuel)"
+  },
+  {
+   "game": "Kansas City Chiefs @ Miami Dolphins",
+   "pick": "Malik Willis Under 33.5 rushing yards",
+   "reason": "edge 4.5 < 7 once checked against 6 books (engine said 19.8 vs FanDuel)"
+  },
+  {
+   "game": "Las Vegas Raiders @ New Orleans Saints",
+   "pick": "Juwan Johnson Over 3.5 receptions",
+   "reason": "edge 3.8 < 7 once checked against 5 books (engine said 10.5 vs FanDuel)"
+  },
+  {
+   "game": "Tennessee Titans @ New York Giants",
+   "pick": "New York Giants ML",
+   "reason": "edge 4.5 < 5 once checked against 10 books (engine said 15.6 vs FanDuel)"
+  },
+  {
+   "game": "Cincinnati Bengals @ Pittsburgh Steelers",
+   "pick": "Pat Freiermuth Under 3.5 receptions",
+   "reason": "edge 3.7 < 7 once checked against 6 books (engine said 16.4 vs FanDuel)"
+  },
+  {
+   "game": "Virginia Tech Hokies @ Boston College Eagles",
+   "pick": "Boston College Eagles +14.5",
+   "reason": "edge 4.2 < 5 once checked against 8 books (engine said 20.0 vs FanDuel)"
   },
   {
    "game": "Air Force Falcons @ Nevada Wolf Pack",
@@ -1114,49 +947,49 @@
    "reason": "edge 2.3 < 5 once checked against 8 books (engine said 7.1 vs FanDuel)"
   },
   {
-   "game": "Cincinnati Bengals @ Pittsburgh Steelers",
-   "pick": "Pat Freiermuth Under 3.5 receptions",
-   "reason": "edge 3.1 < 7 once checked against 6 books (engine said 16.4 vs FanDuel)"
+   "game": "Georgia Tech Yellow Jackets @ Stanford Cardinal",
+   "pick": "Georgia Tech Yellow Jackets -3.5",
+   "reason": "edge 3.5 < 5 once checked against 8 books (engine said 15.7 vs FanDuel)"
   },
   {
-   "game": "Carolina Panthers @ Cleveland Browns",
-   "pick": "Tetairoa McMillan Under 4.5 receptions",
-   "reason": "edge 3.4 < 7 once checked against 4 books (engine said 16.7 vs FanDuel)"
-  },
-  {
-   "game": "Minnesota Vikings @ Tampa Bay Buccaneers",
-   "pick": "Emeka Egbuka Under 4.5 receptions",
-   "reason": "edge 4.0 < 7 once checked against 5 books (engine said 20.9 vs FanDuel)"
+   "game": "Navy Midshipmen @ UAB Blazers",
+   "pick": "Navy Midshipmen -6.5",
+   "reason": "edge 3.5 < 5 once checked against 9 books (engine said 16.9 vs FanDuel)"
   },
   {
    "game": "New England Patriots @ Jacksonville Jaguars",
    "pick": "Bhayshul Tuten Under 1.5 receptions",
-   "reason": "edge 3.3 < 7 once checked against 6 books (engine said 16.6 vs FanDuel)"
+   "reason": "edge 3.4 < 7 once checked against 6 books (engine said 16.6 vs FanDuel)"
   },
   {
-   "game": "South Carolina Gamecocks @ Alabama Crimson Tide",
-   "pick": "Alabama Crimson Tide -11.5",
-   "reason": "edge 3.4 < 5 once checked against 9 books (engine said 13.0 vs FanDuel)"
+   "game": "Oklahoma Sooners @ Georgia Bulldogs",
+   "pick": "Oklahoma Sooners +13.5",
+   "reason": "edge 3.3 < 5 once checked against 9 books (engine said 14.8 vs FanDuel)"
+  },
+  {
+   "game": "Clemson Tigers @ California Golden Bears",
+   "pick": "Clemson Tigers -1.5",
+   "reason": "edge 3.3 < 5 once checked against 9 books (engine said 19.0 vs FanDuel)"
+  },
+  {
+   "game": "Minnesota Vikings @ Tampa Bay Buccaneers",
+   "pick": "Emeka Egbuka Under 4.5 receptions",
+   "reason": "edge 4.0 < 7 once checked against 4 books (engine said 20.9 vs FanDuel)"
   },
   {
    "game": "Rice Owls @ Fresno State Bulldogs",
    "pick": "Fresno State Bulldogs -13.5",
-   "reason": "edge 3.4 < 5 once checked against 8 books (engine said 15.2 vs FanDuel)"
+   "reason": "edge 3.3 < 5 once checked against 8 books (engine said 15.2 vs FanDuel)"
   },
   {
-   "game": "Atlanta Falcons @ Green Bay Packers",
-   "pick": "Skyy Moore Under 1.5 receptions",
-   "reason": "edge 4.0 < 7 once checked against 5 books (engine said 18.9 vs FanDuel)"
+   "game": "New Mexico Lobos @ New Mexico State Aggies",
+   "pick": "New Mexico Lobos -11.5",
+   "reason": "edge 3.2 < 5 once checked against 8 books (engine said 15.7 vs FanDuel)"
   },
   {
-   "game": "Texas Longhorns @ Tennessee Volunteers",
-   "pick": "Tennessee Volunteers ML",
-   "reason": "edge 2.3 < 5 once checked against 9 books (engine said 7.1 vs FanDuel)"
-  },
-  {
-   "game": "Baltimore Ravens @ Dallas Cowboys",
-   "pick": "Javonte Williams Under 16.5 receiving yards",
-   "reason": "edge 3.3 < 7 once checked against 5 books (engine said 18.1 vs FanDuel)"
+   "game": "Wake Forest Demon Deacons @ Louisville Cardinals",
+   "pick": "Wake Forest Demon Deacons +13.5",
+   "reason": "edge 3.1 < 5 once checked against 9 books (engine said 14.4 vs FanDuel)"
   },
   {
    "game": "Air Force Falcons @ Nevada Wolf Pack",
@@ -1164,34 +997,29 @@
    "reason": "edge 3.0 < 5 once checked against 8 books (engine said 7.9 vs FanDuel)"
   },
   {
-   "game": "Seattle Seahawks @ Washington Commanders",
-   "pick": "Cooper Kupp Over 2.5 receptions",
-   "reason": "edge 2.7 < 7 once checked against 4 books (engine said 14.4 vs FanDuel)"
+   "game": "Texas Longhorns @ Tennessee Volunteers",
+   "pick": "Tennessee Volunteers ML",
+   "reason": "edge 2.2 < 5 once checked against 9 books (engine said 7.1 vs FanDuel)"
   },
   {
-   "game": "Baltimore Ravens @ Dallas Cowboys",
-   "pick": "Dak Prescott Under 12.5 rushing yards",
-   "reason": "edge 3.1 < 7 once checked against 6 books (engine said 12.7 vs FanDuel)"
-  },
-  {
-   "game": "Oregon State Beavers @ UTEP Miners",
-   "pick": "UTEP Miners +10.5",
-   "reason": "edge 3.0 < 5 once checked against 8 books (engine said 13.4 vs FanDuel)"
+   "game": "Las Vegas Raiders @ New Orleans Saints",
+   "pick": "Tre Tucker Under 3.5 receptions",
+   "reason": "edge 3.2 < 7 once checked against 5 books (engine said 11.3 vs FanDuel)"
   },
   {
    "game": "Wisconsin Badgers @ Penn State Nittany Lions",
    "pick": "Penn State Nittany Lions -9.5",
-   "reason": "edge 3.2 < 5 once checked against 9 books (engine said 17.0 vs FanDuel)"
+   "reason": "edge 3.3 < 5 once checked against 9 books (engine said 17.0 vs FanDuel)"
   },
   {
-   "game": "New Mexico Lobos @ New Mexico State Aggies",
-   "pick": "New Mexico Lobos -11.5",
-   "reason": "edge 3.0 < 5 once checked against 8 books (engine said 15.7 vs FanDuel)"
+   "game": "Los Angeles Rams @ Denver Broncos",
+   "pick": "Davante Adams Under 75.5 receiving yards",
+   "reason": "edge 3.1 < 7 once checked against 2 books (engine said 16.6 vs FanDuel)"
   },
   {
-   "game": "Houston Texans @ Indianapolis Colts",
-   "pick": "Jonathan Taylor Under 81.5 rushing yards",
-   "reason": "edge 3.1 < 7 once checked against 3 books (engine said 18.0 vs FanDuel)"
+   "game": "Ball State Cardinals @ Kent State Golden Flashes",
+   "pick": "Kent State Golden Flashes -3.5",
+   "reason": "edge 2.8 < 5 once checked against 8 books (engine said 8.7 vs FanDuel)"
   },
   {
    "game": "Delaware Blue Hens @ Virginia Cavaliers",
@@ -1204,29 +1032,19 @@
    "reason": "edge 2.9 < 5 once checked against 6 books (engine said 12.6 vs FanDuel)"
   },
   {
-   "game": "Kansas City Chiefs @ Miami Dolphins",
-   "pick": "Malik Willis Under 177.5 passing yards",
-   "reason": "edge 3.0 < 7 once checked against 4 books (engine said 15.9 vs FanDuel)"
+   "game": "Liberty Flames @ Coastal Carolina Chanticleers",
+   "pick": "Coastal Carolina Chanticleers +7.5",
+   "reason": "edge 2.8 < 5 once checked against 5 books (engine said 12.2 vs FanDuel)"
   },
   {
-   "game": "Tennessee Titans @ New York Giants",
-   "pick": "New York Giants ML",
-   "reason": "edge 3.3 < 5 once checked against 10 books (engine said 12.6 vs FanDuel)"
+   "game": "Carolina Panthers @ Cleveland Browns",
+   "pick": "Chuba Hubbard Under 2.5 receptions",
+   "reason": "edge 3.1 < 7 once checked against 5 books (engine said 14.2 vs FanDuel)"
   },
   {
-   "game": "New York Jets @ Detroit Lions",
-   "pick": "Adonai Mitchell Under 47.5 receiving yards",
-   "reason": "edge 2.9 < 7 once checked against 3 books (engine said 17.2 vs FanDuel)"
-  },
-  {
-   "game": "Seattle Seahawks @ Washington Commanders",
-   "pick": "Seattle Seahawks ML",
-   "reason": "edge 4.1 < 5 once checked against 10 books (engine said 16.4 vs FanDuel)"
-  },
-  {
-   "game": "Wake Forest Demon Deacons @ Louisville Cardinals",
-   "pick": "Wake Forest Demon Deacons +13.5",
-   "reason": "edge 2.8 < 5 once checked against 9 books (engine said 12.8 vs FanDuel)"
+   "game": "Los Angeles Rams @ Denver Broncos",
+   "pick": "Los Angeles Rams ML",
+   "reason": "edge 3.0 < 5 once checked against 10 books (engine said 12.1 vs FanDuel)"
   },
   {
    "game": "Tulsa Golden Hurricane @ Arkansas Razorbacks",
@@ -1234,94 +1052,74 @@
    "reason": "edge 3.9 < 5 once checked against 8 books (engine said 17.6 vs FanDuel)"
   },
   {
-   "game": "Las Vegas Raiders @ New Orleans Saints",
-   "pick": "Juwan Johnson Over 3.5 receptions",
-   "reason": "edge 2.5 < 7 once checked against 5 books (engine said 10.5 vs FanDuel)"
-  },
-  {
-   "game": "Oregon Ducks @ USC Trojans",
-   "pick": "Oregon Ducks -3.5",
-   "reason": "edge 2.4 < 5 once checked against 9 books (engine said 7.0 vs FanDuel)"
+   "game": "Kansas City Chiefs @ Miami Dolphins",
+   "pick": "Malik Washington Under 3.5 receptions",
+   "reason": "edge 2.9 < 7 once checked against 3 books (engine said 16.3 vs FanDuel)"
   },
   {
    "game": "UNLV Rebels @ Akron Zips",
    "pick": "UNLV Rebels -13.5",
-   "reason": "edge 2.6 < 5 once checked against 8 books (engine said 13.0 vs FanDuel)"
-  },
-  {
-   "game": "Utah Utes @ Iowa State Cyclones",
-   "pick": "Utah Utes -8.5",
-   "reason": "edge 2.4 < 5 once checked against 8 books (engine said 12.0 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Chargers @ Buffalo Bills",
-   "pick": "Justin Herbert Over 19.5 rushing yards",
-   "reason": "edge 2.4 < 7 once checked against 6 books (engine said 12.4 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Rams @ Denver Broncos",
-   "pick": "Los Angeles Rams ML",
-   "reason": "edge 2.6 < 5 once checked against 10 books (engine said 10.7 vs FanDuel)"
-  },
-  {
-   "game": "Carolina Panthers @ Cleveland Browns",
-   "pick": "Chuba Hubbard Under 2.5 receptions",
-   "reason": "edge 2.6 < 7 once checked against 5 books (engine said 14.2 vs FanDuel)"
-  },
-  {
-   "game": "Clemson Tigers @ California Golden Bears",
-   "pick": "Clemson Tigers -1.5",
-   "reason": "edge 2.3 < 5 once checked against 9 books (engine said 19.0 vs FanDuel)"
-  },
-  {
-   "game": "Navy Midshipmen @ UAB Blazers",
-   "pick": "Navy Midshipmen -6.5",
-   "reason": "edge 2.2 < 5 once checked against 9 books (engine said 14.3 vs FanDuel)"
-  },
-  {
-   "game": "New York Jets @ Detroit Lions",
-   "pick": "Detroit Lions ML",
-   "reason": "edge 3.0 < 5 once checked against 10 books (engine said 14.6 vs FanDuel)"
-  },
-  {
-   "game": "Cincinnati Bengals @ Pittsburgh Steelers",
-   "pick": "Tee Higgins Over 53.5 receiving yards",
-   "reason": "edge 2.1 < 7 once checked against 4 books (engine said 14.5 vs FanDuel)"
-  },
-  {
-   "game": "Colorado State Rams @ UTSA Roadrunners",
-   "pick": "UTSA Roadrunners -13.5",
-   "reason": "edge 2.0 < 5 once checked against 8 books (engine said 11.3 vs FanDuel)"
-  },
-  {
-   "game": "UCLA Bruins @ Maryland Terrapins",
-   "pick": "Maryland Terrapins +1.5",
-   "reason": "edge 2.0 < 5 once checked against 8 books (engine said 9.2 vs FanDuel)"
-  },
-  {
-   "game": "San Diego State Aztecs @ Toledo Rockets",
-   "pick": "Toledo Rockets ML",
-   "reason": "edge 2.2 < 5 once checked against 8 books (engine said 9.9 vs FanDuel)"
-  },
-  {
-   "game": "Navy Midshipmen @ UAB Blazers",
-   "pick": "Navy Midshipmen ML",
-   "reason": "edge 2.6 < 5 once checked against 9 books (engine said 12.6 vs FanDuel)"
-  },
-  {
-   "game": "Philadelphia Eagles @ Chicago Bears",
-   "pick": "DeVonta Smith Under 5.5 receptions",
-   "reason": "edge 1.8 < 7 once checked against 5 books (engine said 11.1 vs FanDuel)"
-  },
-  {
-   "game": "Florida Atlantic Owls @ UL Monroe Warhawks",
-   "pick": "UL Monroe Warhawks +13.5",
-   "reason": "edge 1.8 < 5 once checked against 8 books (engine said 8.4 vs FanDuel)"
+   "reason": "edge 2.7 < 5 once checked against 8 books (engine said 13.0 vs FanDuel)"
   },
   {
    "game": "Tennessee Titans @ New York Giants",
    "pick": "New York Giants -2.5",
-   "reason": "edge 1.9 < 5 once checked against 10 books (engine said 11.1 vs FanDuel)"
+   "reason": "edge 2.6 < 5 once checked against 10 books (engine said 13.3 vs FanDuel)"
+  },
+  {
+   "game": "Oregon State Beavers @ UTEP Miners",
+   "pick": "UTEP Miners +10.5",
+   "reason": "edge 2.6 < 5 once checked against 8 books (engine said 13.4 vs FanDuel)"
+  },
+  {
+   "game": "Carolina Panthers @ Cleveland Browns",
+   "pick": "Tetairoa McMillan Under 4.5 receptions",
+   "reason": "edge 2.5 < 7 once checked against 4 books (engine said 16.7 vs FanDuel)"
+  },
+  {
+   "game": "Seattle Seahawks @ Washington Commanders",
+   "pick": "Cooper Kupp Over 2.5 receptions",
+   "reason": "edge 2.2 < 7 once checked against 4 books (engine said 14.4 vs FanDuel)"
+  },
+  {
+   "game": "UConn Huskies @ Miami (OH) RedHawks",
+   "pick": "UConn Huskies +3.5",
+   "reason": "edge 2.5 < 5 once checked against 8 books (engine said 11.1 vs FanDuel)"
+  },
+  {
+   "game": "New York Jets @ Detroit Lions",
+   "pick": "Detroit Lions ML",
+   "reason": "edge 3.6 < 5 once checked against 10 books (engine said 15.1 vs FanDuel)"
+  },
+  {
+   "game": "Navy Midshipmen @ UAB Blazers",
+   "pick": "Navy Midshipmen ML",
+   "reason": "edge 3.3 < 5 once checked against 9 books (engine said 14.2 vs FanDuel)"
+  },
+  {
+   "game": "Colorado State Rams @ UTSA Roadrunners",
+   "pick": "UTSA Roadrunners -13.5",
+   "reason": "edge 2.2 < 5 once checked against 8 books (engine said 11.3 vs FanDuel)"
+  },
+  {
+   "game": "New York Jets @ Detroit Lions",
+   "pick": "Adonai Mitchell Under 47.5 receiving yards",
+   "reason": "edge 2.2 < 7 once checked against 2 books (engine said 17.2 vs FanDuel)"
+  },
+  {
+   "game": "Seattle Seahawks @ Washington Commanders",
+   "pick": "Seattle Seahawks ML",
+   "reason": "edge 3.1 < 5 once checked against 10 books (engine said 15.1 vs FanDuel)"
+  },
+  {
+   "game": "UCLA Bruins @ Maryland Terrapins",
+   "pick": "Maryland Terrapins +1.5",
+   "reason": "edge 1.8 < 5 once checked against 8 books (engine said 9.2 vs FanDuel)"
+  },
+  {
+   "game": "Philadelphia Eagles @ Chicago Bears",
+   "pick": "DeVonta Smith Under 5.5 receptions",
+   "reason": "edge 1.8 < 7 once checked against 4 books (engine said 11.1 vs FanDuel)"
   },
   {
    "game": "Georgia Tech Yellow Jackets @ Stanford Cardinal",
@@ -1329,19 +1127,39 @@
    "reason": "edge 2.2 < 5 once checked against 8 books (engine said 13.6 vs FanDuel)"
   },
   {
-   "game": "Los Angeles Chargers @ Buffalo Bills",
-   "pick": "DJ Moore Under 49.5 receiving yards",
-   "reason": "edge 1.8 < 7 once checked against 4 books (engine said 11.0 vs FanDuel)"
+   "game": "Atlanta Falcons @ Green Bay Packers",
+   "pick": "Atlanta Falcons +9.5",
+   "reason": "edge 1.7 < 5 once checked against 7 books (engine said 10.6 vs FanDuel)"
+  },
+  {
+   "game": "Los Angeles Rams @ Denver Broncos",
+   "pick": "Los Angeles Rams -2.5",
+   "reason": "edge 1.7 < 5 once checked against 10 books (engine said 9.1 vs FanDuel)"
+  },
+  {
+   "game": "Ball State Cardinals @ Kent State Golden Flashes",
+   "pick": "Kent State Golden Flashes ML",
+   "reason": "edge 1.9 < 5 once checked against 8 books (engine said 8.4 vs FanDuel)"
+  },
+  {
+   "game": "Arizona Cardinals @ San Francisco 49ers",
+   "pick": "San Francisco 49ers -8.5",
+   "reason": "edge 1.7 < 5 once checked against 10 books (engine said 8.7 vs FanDuel)"
   },
   {
    "game": "Minnesota Golden Gophers @ Washington Huskies",
    "pick": "Washington Huskies ML",
-   "reason": "edge 2.5 < 5 once checked against 8 books (engine said 14.3 vs FanDuel)"
+   "reason": "edge 2.5 < 5 once checked against 8 books (engine said 13.9 vs FanDuel)"
   },
   {
-   "game": "Arizona Wildcats @ Washington State Cougars",
-   "pick": "Washington State Cougars +10.5",
-   "reason": "edge 1.6 < 5 once checked against 8 books (engine said 6.1 vs FanDuel)"
+   "game": "Utah Utes @ Iowa State Cyclones",
+   "pick": "Utah Utes -8.5",
+   "reason": "edge 1.6 < 5 once checked against 8 books (engine said 12.0 vs FanDuel)"
+  },
+  {
+   "game": "South Carolina Gamecocks @ Alabama Crimson Tide",
+   "pick": "Alabama Crimson Tide -12.5",
+   "reason": "edge 1.6 < 5 once checked against 9 books (engine said 10.9 vs FanDuel)"
   },
   {
    "game": "Las Vegas Raiders @ New Orleans Saints",
@@ -1349,19 +1167,9 @@
    "reason": "edge 1.9 < 5 once checked against 10 books (engine said 9.7 vs FanDuel)"
   },
   {
-   "game": "Arizona Cardinals @ San Francisco 49ers",
-   "pick": "San Francisco 49ers -8.5",
-   "reason": "edge 1.6 < 5 once checked against 10 books (engine said 9.9 vs FanDuel)"
-  },
-  {
-   "game": "Middle Tennessee Blue Raiders @ Jacksonville State Gamecocks",
-   "pick": "Jacksonville State Gamecocks -7.5",
-   "reason": "edge 1.4 < 5 once checked against 8 books (engine said 5.7 vs FanDuel)"
-  },
-  {
-   "game": "Las Vegas Raiders @ New Orleans Saints",
-   "pick": "Tre Tucker Under 3.5 receptions",
-   "reason": "edge 1.5 < 7 once checked against 4 books (engine said 11.3 vs FanDuel)"
+   "game": "Oregon Ducks @ USC Trojans",
+   "pick": "Oregon Ducks ML",
+   "reason": "edge 1.7 < 5 once checked against 9 books (engine said 7.6 vs FanDuel)"
   },
   {
    "game": "TCU Horned Frogs @ UCF Knights",
@@ -1369,14 +1177,14 @@
    "reason": "edge 1.6 < 5 once checked against 8 books (engine said 5.8 vs FanDuel)"
   },
   {
-   "game": "Texas Longhorns @ Tennessee Volunteers",
-   "pick": "Tennessee Volunteers +4.5",
-   "reason": "edge 1.4 < 5 once checked against 9 books (engine said 6.7 vs FanDuel)"
+   "game": "San Diego State Aztecs @ Toledo Rockets",
+   "pick": "Toledo Rockets ML",
+   "reason": "edge 1.6 < 5 once checked against 8 books (engine said 9.6 vs FanDuel)"
   },
   {
-   "game": "Los Angeles Rams @ Denver Broncos",
-   "pick": "Los Angeles Rams -2.5",
-   "reason": "edge 1.4 < 5 once checked against 10 books (engine said 8.2 vs FanDuel)"
+   "game": "Middle Tennessee Blue Raiders @ Jacksonville State Gamecocks",
+   "pick": "Jacksonville State Gamecocks -7.5",
+   "reason": "edge 1.3 < 5 once checked against 8 books (engine said 5.7 vs FanDuel)"
   },
   {
    "game": "Philadelphia Eagles @ Chicago Bears",
@@ -1384,54 +1192,69 @@
    "reason": "edge 1.4 < 7 once checked against 2 books (engine said 12.4 vs FanDuel)"
   },
   {
-   "game": "Ball State Cardinals @ Kent State Golden Flashes",
-   "pick": "Kent State Golden Flashes ML",
-   "reason": "edge 1.6 < 5 once checked against 8 books (engine said 5.6 vs FanDuel)"
-  },
-  {
    "game": "UCLA Bruins @ Maryland Terrapins",
    "pick": "Maryland Terrapins ML",
-   "reason": "edge 1.3 < 5 once checked against 8 books (engine said 6.9 vs FanDuel)"
-  },
-  {
-   "game": "Wisconsin Badgers @ Penn State Nittany Lions",
-   "pick": "Penn State Nittany Lions ML",
-   "reason": "edge 2.0 < 5 once checked against 9 books (engine said 10.6 vs FanDuel)"
-  },
-  {
-   "game": "Ball State Cardinals @ Kent State Golden Flashes",
-   "pick": "Kent State Golden Flashes -3.5",
-   "reason": "edge 1.3 < 5 once checked against 8 books (engine said 5.8 vs FanDuel)"
+   "reason": "edge 1.2 < 5 once checked against 8 books (engine said 6.9 vs FanDuel)"
   },
   {
    "game": "Philadelphia Eagles @ Chicago Bears",
    "pick": "DeVonta Smith Under 72.5 receiving yards",
-   "reason": "edge 1.0 < 7 once checked against 4 books (engine said 10.9 vs FanDuel)"
+   "reason": "edge 1.3 < 7 once checked against 2 books (engine said 10.9 vs FanDuel)"
   },
   {
-   "game": "Oregon Ducks @ USC Trojans",
-   "pick": "Oregon Ducks ML",
-   "reason": "edge 1.0 < 5 once checked against 9 books (engine said 6.7 vs FanDuel)"
+   "game": "Wisconsin Badgers @ Penn State Nittany Lions",
+   "pick": "Penn State Nittany Lions ML",
+   "reason": "edge 1.9 < 5 once checked against 9 books (engine said 10.9 vs FanDuel)"
+  },
+  {
+   "game": "Texas Longhorns @ Tennessee Volunteers",
+   "pick": "Tennessee Volunteers +4.5",
+   "reason": "edge 1.2 < 5 once checked against 9 books (engine said 6.7 vs FanDuel)"
+  },
+  {
+   "game": "Arizona Wildcats @ Washington State Cougars",
+   "pick": "Washington State Cougars +10.5",
+   "reason": "edge 1.1 < 5 once checked against 8 books (engine said 6.1 vs FanDuel)"
+  },
+  {
+   "game": "Pittsburgh Steelers @ Cleveland Browns",
+   "pick": "Pittsburgh Steelers ML",
+   "reason": "edge 1.1 < 5 once checked against 4 books (engine said 6.4 vs FanDuel)"
+  },
+  {
+   "game": "Mercyhurst Lakers @ Western Kentucky Hilltoppers",
+   "pick": "Western Kentucky Hilltoppers -40.5",
+   "reason": "edge 0.7 < 5 once checked against 6 books (engine said 8.7 vs FanDuel)"
   },
   {
    "game": "Los Angeles Chargers @ Buffalo Bills",
    "pick": "Buffalo Bills -7.5",
-   "reason": "edge 0.7 < 5 once checked against 10 books (engine said 5.5 vs FanDuel)"
-  },
-  {
-   "game": "Utah Utes @ Iowa State Cyclones",
-   "pick": "Utah Utes ML",
-   "reason": "edge 1.1 < 5 once checked against 8 books (engine said 7.9 vs FanDuel)"
+   "reason": "edge 0.6 < 5 once checked against 10 books (engine said 5.5 vs FanDuel)"
   },
   {
    "game": "New Mexico Lobos @ New Mexico State Aggies",
    "pick": "New Mexico Lobos ML",
-   "reason": "edge 0.9 < 5 once checked against 8 books (engine said 9.6 vs FanDuel)"
+   "reason": "edge 1.0 < 5 once checked against 8 books (engine said 9.6 vs FanDuel)"
   },
   {
-   "game": "San Diego State Aztecs @ Toledo Rockets",
-   "pick": "Toledo Rockets -2.5",
-   "reason": "edge 0.4 < 5 once checked against 8 books (engine said 6.6 vs FanDuel)"
+   "game": "Kansas City Chiefs @ Miami Dolphins",
+   "pick": "Miami Dolphins +10.5",
+   "reason": "edge 0.5 < 5 once checked against 10 books (engine said 7.0 vs FanDuel)"
+  },
+  {
+   "game": "TCU Horned Frogs @ UCF Knights",
+   "pick": "TCU Horned Frogs -3.5",
+   "reason": "edge 0.5 < 5 once checked against 8 books (engine said 5.1 vs FanDuel)"
+  },
+  {
+   "game": "Utah Utes @ Iowa State Cyclones",
+   "pick": "Utah Utes ML",
+   "reason": "edge 0.8 < 5 once checked against 8 books (engine said 7.9 vs FanDuel)"
+  },
+  {
+   "game": "UNLV Rebels @ Akron Zips",
+   "pick": "UNLV Rebels ML",
+   "reason": "edge 0.8 < 5 once checked against 8 books (engine said 8.9 vs FanDuel)"
   },
   {
    "game": "South Carolina Gamecocks @ Alabama Crimson Tide",
@@ -1439,39 +1262,29 @@
    "reason": "edge 0.7 < 5 once checked against 9 books (engine said 7.3 vs FanDuel)"
   },
   {
-   "game": "TCU Horned Frogs @ UCF Knights",
-   "pick": "TCU Horned Frogs -3.5",
-   "reason": "edge 0.4 < 5 once checked against 8 books (engine said 5.1 vs FanDuel)"
-  },
-  {
-   "game": "UNLV Rebels @ Akron Zips",
-   "pick": "UNLV Rebels ML",
-   "reason": "edge 0.5 < 5 once checked against 8 books (engine said 8.2 vs FanDuel)"
-  },
-  {
    "game": "Colorado State Rams @ UTSA Roadrunners",
    "pick": "UTSA Roadrunners ML",
-   "reason": "edge 0.2 < 5 once checked against 8 books (engine said 7.2 vs FanDuel)"
+   "reason": "edge 0.3 < 5 once checked against 8 books (engine said 7.2 vs FanDuel)"
   },
   {
-   "game": "Boise State Broncos @ Western Michigan Broncos",
-   "pick": "Western Michigan Broncos +7.5",
-   "reason": "edge 0.1 < 5 once checked against 8 books (engine said 5.1 vs FanDuel)"
+   "game": "Florida Atlantic Owls @ UL Monroe Warhawks",
+   "pick": "UL Monroe Warhawks +12.5",
+   "reason": "edge 0.2 < 5 once checked against 8 books (engine said 5.3 vs FanDuel)"
   },
   {
-   "game": "Kansas City Chiefs @ Miami Dolphins",
-   "pick": "Miami Dolphins +10.5",
-   "reason": "edge -0.1 < 5 once checked against 10 books (engine said 7.0 vs FanDuel)"
+   "game": "Oregon Ducks @ USC Trojans",
+   "pick": "Oregon Ducks -2.5",
+   "reason": "edge -0.4 < 5 once checked against 9 books (engine said 5.1 vs FanDuel)"
+  },
+  {
+   "game": "San Diego State Aztecs @ Toledo Rockets",
+   "pick": "Toledo Rockets -2.5",
+   "reason": "edge -0.7 < 5 once checked against 8 books (engine said 6.6 vs FanDuel)"
   },
   {
    "game": "Colorado Buffaloes @ Baylor Bears",
    "pick": "Baylor Bears ML",
-   "reason": "edge -1.0 < 5 once checked against 8 books (engine said 2.2 vs FanDuel)"
-  },
-  {
-   "game": "Mercyhurst Lakers @ Western Kentucky Hilltoppers",
-   "pick": "Western Kentucky Hilltoppers -40.5",
-   "reason": "edge -1.0 < 5 once checked against 6 books (engine said 8.7 vs FanDuel)"
+   "reason": "edge -1.5 < 5 once checked against 8 books (engine said 2.2 vs FanDuel)"
   },
   {
    "game": "Arizona Cardinals @ San Francisco 49ers",
@@ -1479,8 +1292,43 @@
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
+   "game": "Los Angeles Rams @ Denver Broncos",
+   "pick": "Terrance Ferguson Under 3.5 receptions",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Atlanta Falcons @ Green Bay Packers",
+   "pick": "Austin Hooper Over 2.5 receiving yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Los Angeles Rams @ Denver Broncos",
+   "pick": "Terrance Ferguson Under 49.5 receiving yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Baltimore Ravens @ Dallas Cowboys",
+   "pick": "Rashod Bateman Under 43.5 receiving yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Los Angeles Chargers @ Buffalo Bills",
+   "pick": "Oronde Gadsden Under 3.5 receptions",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
    "game": "Los Angeles Chargers @ Buffalo Bills",
    "pick": "Oronde Gadsden Under 35.5 receiving yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Kansas City Chiefs @ Miami Dolphins",
+   "pick": "Keon Coleman anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Las Vegas Raiders @ New Orleans Saints",
+   "pick": "Connor Heyward anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
@@ -1494,13 +1342,8 @@
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
-   "game": "Baltimore Ravens @ Dallas Cowboys",
-   "pick": "Jake Ferguson anytime TD",
-   "reason": "under 2 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Los Angeles Rams @ Denver Broncos",
-   "pick": "RJ Harvey anytime TD",
+   "game": "Los Angeles Chargers @ Buffalo Bills",
+   "pick": "Kimani Vidal anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
@@ -1510,12 +1353,7 @@
   },
   {
    "game": "Seattle Seahawks @ Washington Commanders",
-   "pick": "Jaxon Smith-Njigba anytime TD",
-   "reason": "under 2 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Las Vegas Raiders @ New Orleans Saints",
-   "pick": "Noah Fant anytime TD",
+   "pick": "Stefon Diggs anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   }
  ]
