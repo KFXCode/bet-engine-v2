@@ -1,83 +1,83 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": -0.3665671641791045,
-   "clv_beat_rate": 0.11940298507462686,
-   "clv_n": 67,
+   "avg_clv": -0.3051304347826087,
+   "clv_beat_rate": 0.13043478260869565,
+   "clv_n": 69,
    "graded": 31,
    "record": {
     "l": 15,
     "p": 0,
-    "void": 53,
+    "void": 57,
     "w": 16
    },
    "win_rate": 0.5161290322580645
   },
   "value": {
-   "avg_clv": -0.024115671641791056,
-   "clv_beat_rate": 0.24253731343283583,
-   "clv_n": 268,
-   "graded": 194,
+   "avg_clv": -0.009420664206642074,
+   "clv_beat_rate": 0.24354243542435425,
+   "clv_n": 271,
+   "graded": 200,
    "record": {
-    "l": 105,
+    "l": 107,
     "p": 0,
     "void": 109,
-    "w": 89
+    "w": 93
    },
-   "win_rate": 0.4587628865979381
+   "win_rate": 0.465
   }
  },
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": -0.02540372670807455,
-   "clv_beat_rate": 0.33540372670807456,
-   "clv_n": 161,
-   "graded": 173,
+   "avg_clv": -0.0011042944785276201,
+   "clv_beat_rate": 0.3374233128834356,
+   "clv_n": 163,
+   "graded": 177,
    "record": {
-    "l": 86,
+    "l": 88,
     "p": 0,
     "void": 0,
-    "w": 87
+    "w": 89
    },
-   "win_rate": 0.5028901734104047
+   "win_rate": 0.5028248587570622
   },
   "NFL Props": {
-   "avg_clv": 0.016759689922480614,
-   "clv_beat_rate": 0.046511627906976744,
-   "clv_n": 129,
+   "avg_clv": 0.04326717557251907,
+   "clv_beat_rate": 0.05343511450381679,
+   "clv_n": 131,
    "graded": 0,
    "record": {
     "l": 0,
     "p": 0,
-    "void": 162,
+    "void": 166,
     "w": 0
    },
    "win_rate": null
   },
   "NFL Sides": {
-   "avg_clv": -0.6465555555555556,
-   "clv_beat_rate": 0.28888888888888886,
-   "clv_n": 45,
-   "graded": 52,
+   "avg_clv": -0.6325,
+   "clv_beat_rate": 0.2826086956521739,
+   "clv_n": 46,
+   "graded": 54,
    "record": {
     "l": 34,
     "p": 0,
     "void": 0,
-    "w": 18
+    "w": 20
    },
-   "win_rate": 0.34615384615384615
+   "win_rate": 0.37037037037037035
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6267 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6287 player-games cached"
  ],
- "generated_at": "2026-09-25T00:46:59+00:00",
+ "generated_at": "2026-09-25T13:03:27+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
-   "avg_clv": 0.016759689922480614,
-   "clv_beat_rate": 0.046511627906976744,
-   "clv_n": 129,
+   "avg_clv": 0.04326717557251907,
+   "clv_beat_rate": 0.05343511450381679,
+   "clv_n": 131,
    "graded": 0,
    "label": "Player props",
    "picks": [
@@ -2996,22 +2996,94 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 40.302,
+     "ev": 0.75655,
+     "final": "did not play",
+     "game": "Atlanta Falcons @ Green Bay Packers",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Rushing yards",
+     "pick": "Kaleb Johnson Under 32.5 rushing yards",
+     "player": "Kaleb Johnson",
+     "price": -114,
+     "proj": 11.449,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -174,
+     "clv": 3.506,
+     "edge": 23.311,
+     "ev": 0.39062,
+     "final": "did not play",
+     "game": "Atlanta Falcons @ Green Bay Packers",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Receptions",
+     "pick": "Matthew Golden Under 4.5 receptions",
+     "player": "Matthew Golden",
+     "price": -148,
+     "proj": 2.662,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 38.928,
+     "ev": 0.73075,
+     "final": "did not play",
+     "game": "Atlanta Falcons @ Green Bay Packers",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Receiving yards",
+     "pick": "Austin Hooper Over 2.5 receiving yards",
+     "player": "Austin Hooper",
+     "price": -114,
+     "proj": 15.837,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 35.059,
+     "ev": 0.65813,
+     "final": "did not play",
+     "game": "Atlanta Falcons @ Green Bay Packers",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Receiving yards",
+     "pick": "Matthew Golden Under 86.5 receiving yards",
+     "player": "Matthew Golden",
+     "price": -114,
+     "proj": 42.833,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
     }
    ],
    "record": {
     "l": 0,
     "p": 0,
-    "void": 162,
+    "void": 166,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.16109223300970874,
-   "clv_beat_rate": 0.32524271844660196,
-   "clv_n": 206,
-   "graded": 225,
+   "avg_clv": -0.14007177033492824,
+   "clv_beat_rate": 0.3253588516746411,
+   "clv_n": 209,
+   "graded": 231,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -7029,6 +7101,60 @@
      "week": "Week of Sep 14"
     },
     {
+     "closing_price": 270,
+     "clv": 0.0,
+     "edge": 5.639,
+     "ev": 0.20864,
+     "final": "35-14",
+     "game": "Atlanta Falcons @ Green Bay Packers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Atlanta Falcons ML",
+     "player": null,
+     "price": 270,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -120,
+     "clv": 3.91,
+     "edge": 10.101,
+     "ev": 0.20005,
+     "final": "34-17",
+     "game": "Liberty Flames @ Coastal Carolina Chanticleers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Liberty Flames ML",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 12.786,
+     "ev": 0.2441,
+     "final": "34-17",
+     "game": "Liberty Flames @ Coastal Carolina Chanticleers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Liberty Flames +1.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 5.688,
@@ -7063,21 +7189,75 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 10.577,
+     "ev": 0.20946,
+     "final": "35-14",
+     "game": "Atlanta Falcons @ Green Bay Packers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Atlanta Falcons +9.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.403,
+     "ev": 0.57614,
+     "final": "34-17",
+     "game": "Liberty Flames @ Coastal Carolina Chanticleers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Coastal Carolina Chanticleers ML",
+     "player": null,
+     "price": 300,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 12.186,
+     "ev": 0.23903,
+     "final": "34-17",
+     "game": "Liberty Flames @ Coastal Carolina Chanticleers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Coastal Carolina Chanticleers +7.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
     }
    ],
    "record": {
-    "l": 120,
+    "l": 122,
     "p": 0,
     "void": 0,
-    "w": 105
+    "w": 109
    },
    "threshold": 5.0,
-   "win_rate": 0.4666666666666667
+   "win_rate": 0.47186147186147187
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 53,
-  "Sides": 104
+  "Props": 49,
+  "Sides": 98
  }
 }
