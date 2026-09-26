@@ -71,7 +71,7 @@
  "diagnostics": [
   "NFL player logs: cache already current (6287 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-26T12:31:08+00:00",
+ "generated_at": "2026-09-26T18:13:18+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
@@ -7329,7 +7329,7 @@
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 49,
-  "Sides": 94
+  "Props": 59,
+  "Sides": 98
  }
 }
