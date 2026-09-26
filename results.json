@@ -1,45 +1,45 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": -0.3051304347826087,
-   "clv_beat_rate": 0.13043478260869565,
-   "clv_n": 69,
-   "graded": 31,
+   "avg_clv": -0.26704285714285714,
+   "clv_beat_rate": 0.14285714285714285,
+   "clv_n": 70,
+   "graded": 32,
    "record": {
-    "l": 15,
+    "l": 16,
     "p": 0,
     "void": 57,
     "w": 16
    },
-   "win_rate": 0.5161290322580645
+   "win_rate": 0.5
   },
   "value": {
-   "avg_clv": -0.009420664206642074,
-   "clv_beat_rate": 0.24354243542435425,
-   "clv_n": 271,
-   "graded": 200,
+   "avg_clv": -0.027912408759124097,
+   "clv_beat_rate": 0.24452554744525548,
+   "clv_n": 274,
+   "graded": 203,
    "record": {
-    "l": 107,
+    "l": 109,
     "p": 0,
     "void": 109,
-    "w": 93
+    "w": 94
    },
-   "win_rate": 0.465
+   "win_rate": 0.4630541871921182
   }
  },
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": -0.0011042944785276201,
-   "clv_beat_rate": 0.3374233128834356,
-   "clv_n": 163,
-   "graded": 177,
+   "avg_clv": -0.017449101796407195,
+   "clv_beat_rate": 0.3413173652694611,
+   "clv_n": 167,
+   "graded": 181,
    "record": {
-    "l": 88,
+    "l": 91,
     "p": 0,
     "void": 0,
-    "w": 89
+    "w": 90
    },
-   "win_rate": 0.5028248587570622
+   "win_rate": 0.4972375690607735
   },
   "NFL Props": {
    "avg_clv": 0.04326717557251907,
@@ -69,9 +69,9 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6287 player-games cached"
+  "NFL player logs: cache already current (6287 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-09-25T13:03:27+00:00",
+ "generated_at": "2026-09-26T12:31:08+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
@@ -3080,10 +3080,10 @@
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.14007177033492824,
-   "clv_beat_rate": 0.3253588516746411,
-   "clv_n": 209,
-   "graded": 231,
+   "avg_clv": -0.1502769953051643,
+   "clv_beat_rate": 0.3286384976525822,
+   "clv_n": 213,
+   "graded": 235,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -7155,6 +7155,24 @@
      "week": "Week of Sep 21"
     },
     {
+     "closing_price": -105,
+     "clv": -1.083,
+     "edge": 17.86,
+     "ev": 0.34096,
+     "final": "24-10",
+     "game": "Clemson Tigers @ California Golden Bears",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Clemson Tigers -1.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 5.688,
@@ -7171,6 +7189,60 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 14"
+    },
+    {
+     "closing_price": -110,
+     "clv": 1.083,
+     "edge": 5.929,
+     "ev": 0.11575,
+     "final": "20-24",
+     "game": "Navy Midshipmen @ UAB Blazers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Navy Midshipmen -10.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -122,
+     "clv": 2.361,
+     "edge": 29.545,
+     "ev": 0.56404,
+     "final": "23-29",
+     "game": "Northwestern Wildcats @ Indiana Hoosiers",
+     "group": "Sides",
+     "lane": "confidence",
+     "market": "Spread",
+     "pick": "Indiana Hoosiers -22.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -240,
+     "clv": -5.095,
+     "edge": 8.882,
+     "ev": 0.11701,
+     "final": "20-24",
+     "game": "Navy Midshipmen @ UAB Blazers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Navy Midshipmen ML",
+     "player": null,
+     "price": -315,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 21"
     },
     {
      "closing_price": null,
@@ -7246,18 +7318,18 @@
     }
    ],
    "record": {
-    "l": 122,
+    "l": 125,
     "p": 0,
     "void": 0,
-    "w": 109
+    "w": 110
    },
    "threshold": 5.0,
-   "win_rate": 0.47186147186147187
+   "win_rate": 0.46808510638297873
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Props": 49,
-  "Sides": 98
+  "Sides": 94
  }
 }
