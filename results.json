@@ -1,30 +1,30 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": -0.09046315789473686,
-   "clv_beat_rate": 0.16842105263157894,
-   "clv_n": 95,
+   "avg_clv": -0.08952083333333334,
+   "clv_beat_rate": 0.16666666666666666,
+   "clv_n": 96,
    "graded": 44,
    "record": {
     "l": 21,
     "p": 0,
-    "void": 80,
+    "void": 82,
     "w": 23
    },
    "win_rate": 0.5227272727272727
   },
   "value": {
-   "avg_clv": 0.02544908616187989,
-   "clv_beat_rate": 0.2689295039164491,
-   "clv_n": 383,
-   "graded": 283,
+   "avg_clv": 0.009744186046511621,
+   "clv_beat_rate": 0.2661498708010336,
+   "clv_n": 387,
+   "graded": 287,
    "record": {
-    "l": 142,
+    "l": 144,
     "p": 0,
-    "void": 155,
-    "w": 141
+    "void": 158,
+    "w": 143
    },
-   "win_rate": 0.49823321554770317
+   "win_rate": 0.49825783972125437
   }
  },
  "by_sport": {
@@ -42,42 +42,42 @@
    "win_rate": 0.5252918287937743
   },
   "NFL Props": {
-   "avg_clv": 0.05864444444444443,
-   "clv_beat_rate": 0.06111111111111111,
-   "clv_n": 180,
+   "avg_clv": 0.044879781420765014,
+   "clv_beat_rate": 0.060109289617486336,
+   "clv_n": 183,
    "graded": 0,
    "record": {
     "l": 0,
     "p": 0,
-    "void": 235,
+    "void": 240,
     "w": 0
    },
    "win_rate": null
   },
   "NFL Sides": {
-   "avg_clv": -0.37722033898305085,
-   "clv_beat_rate": 0.3050847457627119,
-   "clv_n": 59,
-   "graded": 70,
+   "avg_clv": -0.42440983606557375,
+   "clv_beat_rate": 0.29508196721311475,
+   "clv_n": 61,
+   "graded": 74,
    "record": {
-    "l": 41,
+    "l": 43,
     "p": 0,
     "void": 0,
-    "w": 29
+    "w": 31
    },
-   "win_rate": 0.4142857142857143
+   "win_rate": 0.4189189189189189
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6545 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6564 player-games cached"
  ],
- "generated_at": "2026-09-28T01:35:40+00:00",
+ "generated_at": "2026-09-28T16:08:02+00:00",
  "graded_through": "Week of Sep 7",
  "groups": {
   "Props": {
-   "avg_clv": 0.05864444444444443,
-   "clv_beat_rate": 0.06111111111111111,
-   "clv_n": 180,
+   "avg_clv": 0.044879781420765014,
+   "clv_beat_rate": 0.060109289617486336,
+   "clv_n": 183,
    "graded": 0,
    "label": "Player props",
    "picks": [
@@ -3430,6 +3430,24 @@
      "week": "Week of Sep 21"
     },
     {
+     "closing_price": -140,
+     "clv": 0.0,
+     "edge": 15.783,
+     "ev": 0.27056,
+     "final": "did not play",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Matthew Stafford Under 0.5 rushing yards",
+     "player": "Matthew Stafford",
+     "price": -140,
+     "proj": 1.793,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.775,
@@ -3464,6 +3482,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": 128,
+     "clv": -2.343,
+     "edge": 14.873,
+     "ev": 0.32125,
+     "final": "did not play",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Jaylen Waddle Under 4.5 receptions",
+     "player": "Jaylen Waddle",
+     "price": 116,
+     "proj": 4.143,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
     },
     {
      "closing_price": -113,
@@ -3518,6 +3554,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.172,
+     "ev": 0.58107,
+     "final": "did not play",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "RJ Harvey anytime TD",
+     "player": "RJ Harvey",
+     "price": 310,
+     "proj": 0.487,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
     },
     {
      "closing_price": null,
@@ -3662,6 +3716,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 36.474,
+     "ev": 0.68468,
+     "final": "did not play",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Receiving yards",
+     "pick": "Terrance Ferguson Under 49.5 receiving yards",
+     "player": "Terrance Ferguson",
+     "price": -114,
+     "proj": 19.783,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
     },
     {
      "closing_price": -113,
@@ -4310,22 +4382,40 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 51.96,
+     "ev": 1.19507,
+     "final": "did not play",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Receiving yards",
+     "pick": "Jordan Whittington Over 0.5 receiving yards",
+     "player": "Jordan Whittington",
+     "price": 130,
+     "proj": 12.968,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
     }
    ],
    "record": {
     "l": 0,
     "p": 0,
-    "void": 235,
+    "void": 240,
     "w": 0
    },
    "threshold": 7.0,
    "win_rate": null
   },
   "Sides": {
-   "avg_clv": -0.03155369127516779,
-   "clv_beat_rate": 0.3624161073825503,
-   "clv_n": 298,
-   "graded": 327,
+   "avg_clv": -0.04345333333333334,
+   "clv_beat_rate": 0.36,
+   "clv_n": 300,
+   "graded": 331,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -9639,6 +9729,42 @@
      "week": "Week of Sep 21"
     },
     {
+     "closing_price": -126,
+     "clv": -2.135,
+     "edge": 10.38,
+     "ev": 0.17903,
+     "final": "26-30",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Los Angeles Rams ML",
+     "player": null,
+     "price": -138,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -104,
+     "clv": -1.498,
+     "edge": 8.017,
+     "ev": 0.15306,
+     "final": "26-30",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Los Angeles Rams -2.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": -240,
      "clv": -5.095,
      "edge": 8.882,
@@ -10213,21 +10339,57 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 21"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 12.725,
+     "ev": 0.66171,
+     "final": "26-30",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Denver Broncos ML",
+     "player": null,
+     "price": 420,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 6.611,
+     "ev": 0.1162,
+     "final": "26-30",
+     "game": "Los Angeles Rams @ Denver Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Denver Broncos +9.5",
+     "player": null,
+     "price": -132,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
     }
    ],
    "record": {
-    "l": 163,
+    "l": 165,
     "p": 0,
     "void": 0,
-    "w": 164
+    "w": 166
    },
    "threshold": 5.0,
-   "win_rate": 0.5015290519877675
+   "win_rate": 0.5015105740181269
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Props": 9,
-  "Sides": 87
+  "Props": 4,
+  "Sides": 83
  }
 }
