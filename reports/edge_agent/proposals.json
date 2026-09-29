@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-29",
+  "proposals": [
+    {
+      "type": "review_model",
+      "segment": "sides",
+      "evidence": "best blend 0.00 < floor 0.3",
+      "suggestion": "Audit model inputs; model not beating market-at-bet out of sample."
+    }
+  ]
+}
