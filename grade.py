@@ -98,9 +98,33 @@ CONF_MAX_PRICE = float(os.environ.get("CONF_MAX_PRICE", "-400"))
 
 
 def confident(c):
-    """True when a candidate qualifies on likelihood rather than on edge."""
+    """True when a candidate qualifies on likelihood rather than on edge.
+
+    The edge ceiling applies here too. Without it this lane published props at
+    30-54 points of "edge" — Kirk Cousins over 0.5 rushing yards, Lamar Jackson
+    under 308.5 passing — where we said 90%+ and the market said a coin flip.
+    Those are not likely bets, they are the model's biggest mistakes, and only
+    17% of them beat the close. With the ceiling, p >= 80% forces the price to
+    imply at least 60%: the market must also think it is likely, which is what
+    "very likely to hit" actually means.
+    """
     return (c["p"] >= CONF_MIN_P and c["price"] is not None
-            and float(c["price"]) >= CONF_MAX_PRICE and c["ev"] > 0)
+            and float(c["price"]) >= CONF_MAX_PRICE and c["ev"] > 0
+            and c["edge"] <= MAX_EDGE)
+
+
+# NFL ratings came into 2026 almost entirely built on last season (12% mature),
+# and NFL sides went 33-44 with only 29% beating the close — the market moved
+# against them. Until enough 2026 games are in, NFL sides need a bigger edge.
+# NCAAF (135-122, positive CLV) keeps the standard bar.
+NFL_STRICT_THRESHOLD = float(os.environ.get("NFL_STRICT_THRESHOLD", "8"))
+NFL_STRICT_UNTIL = os.environ.get("NFL_STRICT_UNTIL", "2026-10-12")
+
+
+def side_threshold(sport, commence):
+    if sport == "NFL" and (commence or "")[:10] < NFL_STRICT_UNTIL:
+        return max(THRESHOLD, NFL_STRICT_THRESHOLD)
+    return THRESHOLD
 
 HTTP_TIMEOUT = 20
 
@@ -212,10 +236,11 @@ def side_picks(slate):
             c["edge"] = edge_points(c["p"], c["price"])
             c["ev"] = expected_value(c["p"], c["price"])
             by_market.setdefault(c["market"], []).append(c)
+        gth = side_threshold(g.get("sport"), g.get("time"))
         for cands in by_market.values():
             cands.sort(key=lambda c: -c["edge"])
             clears = [c for c in cands
-                      if c["edge"] >= THRESHOLD and c["ev"] > 0 and c["edge"] <= MAX_EDGE]
+                      if c["edge"] >= gth and c["ev"] > 0 and c["edge"] <= MAX_EDGE]
             if clears:
                 c, lane = clears[0], "value"
             else:
@@ -357,12 +382,18 @@ STAT_OF = {
 
 
 def player_finals(sports, diag):
-    """{(sport, event_id, normalized player): {stat: value}} for finished games.
+    """Box-score lookups for grading props, keyed by DATE, never by game id.
 
-    Reads the same box-score cache the projections are built from, refreshing it
-    first so a standalone grading run still sees last night's games.
+    A prop pick carries the ODDS feed's event id; the box-score cache is keyed
+    by ESPN's. They are different id systems and never match — which is why all
+    245 props graded so far came back "did not play" while the players plainly
+    did. Player name + game date is shared by both sources, so that is the key.
+
+    Returns (by_player, by_team):
+      by_player[(sport, player, date)] = stat line
+      by_team[(sport, team, date)] = True when that team's box score is cached
     """
-    out = {}
+    by_player, by_team = {}, {}
     for s in sports:
         if s not in ("NFL", "NBA"):
             continue
@@ -373,8 +404,37 @@ def player_finals(sports, diag):
     logs = load_logs()
     for s in sports:
         for g in logs.get(s, {}).get("games", []):
-            out[(s, str(g.get("event")), norm_name(g.get("player")))] = g
-    return out
+            d = g.get("date") or ""
+            by_player[(s, norm_name(g.get("player")), d)] = g
+            by_team[(s, normalize(g.get("team")), d)] = True
+    return by_player, by_team
+
+
+def game_dates(commence):
+    """The US calendar dates a game could be filed under.
+
+    Kickoff is stored in UTC, the box scores under the US date. A Sunday night
+    game kicks off after midnight UTC, so it is also tried one day earlier.
+    """
+    try:
+        d = datetime.fromisoformat((commence or "").replace("Z", "+00:00")).date()
+    except ValueError:
+        return []
+    return [d.isoformat(), (d - timedelta(days=1)).isoformat()]
+
+
+def find_prop_stats(p, by_player, by_team):
+    """(stats, box_is_in). stats None + box_is_in True means he did not play."""
+    who = norm_name(p.get("player"))
+    teams = (normalize(p.get("home")), normalize(p.get("away")))
+    box_in = False
+    for d in game_dates(p.get("commence")):
+        hit = by_player.get((p["sport"], who, d))
+        if hit is not None:
+            return hit, True
+        if any(by_team.get((p["sport"], t, d)) for t in teams):
+            box_in = True
+    return None, box_in
 
 
 def settle_prop(pick, stats):
@@ -535,6 +595,20 @@ def main():
                 updated += 1
 
     # ------------------------------------------------------------- grading --
+    # One-time correction. Every prop graded before the id fix came back "did
+    # not play" because the grader looked the box score up by the wrong game id.
+    # Those were never real voids, so they are reopened and graded properly.
+    # Prices, lines and publish times are untouched — only the broken result.
+    if not log.get("prop_regrade_v1"):
+        reopened = 0
+        for p in log["picks"]:
+            if (p.get("result") == "V" and p.get("final") == "did not play"
+                    and group_of(p.get("market", ""), p.get("player")) == "Props"):
+                p["result"], p["final"] = None, None
+                reopened += 1
+        log["prop_regrade_v1"] = True
+        print("reopened %d props wrongly graded 'did not play' for regrading" % reopened)
+
     pending = [p for p in log["picks"] if p.get("result") is None]
     sports = {p["sport"] for p in pending}
     finals = {}
@@ -544,7 +618,7 @@ def main():
 
     prop_sports = {p["sport"] for p in pending
                    if group_of(p.get("market", ""), p.get("player")) == "Props"}
-    box = player_finals(prop_sports, diag) if prop_sports else {}
+    box = player_finals(prop_sports, diag) if prop_sports else ({}, {})
 
     graded_now = 0
     for p in log["picks"]:
@@ -563,7 +637,9 @@ def main():
             score = find_final(finals.get(p["sport"], {}), p["away"], p["home"])
             if not score:
                 continue
-            stats = box.get((p["sport"], str(p.get("event")), norm_name(p.get("player"))))
+            stats, box_in = find_prop_stats(p, box[0], box[1])
+            if stats is None and not box_in:
+                continue        # that game's box score is not cached yet — wait
             outcome = settle_prop(p, stats)
             if outcome is None:
                 continue
@@ -615,7 +691,8 @@ def main():
 
     save_results({
         "generated_at": now_iso,
-        "graded_through": max((p["week"] for p in graded), default=None),
+        "graded_through": (week_of(max(p.get("commence") or "" for p in graded))
+                           if graded else None),
         "groups": groups,
         "by_sport": {k: summarize(v) for k, v in sorted(by_sport.items())},
         # Whether the confidence lane earns its place. It is expected to show a
