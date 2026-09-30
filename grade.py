@@ -292,6 +292,127 @@ def prop_picks(slate):
     return picks
 
 
+# ------------------------------------------------------------ cosmic ----
+# The Cosmic picks tab, reproduced exactly so its picks can be recorded and
+# graded in their OWN record. Stored with group "Cosmic" and a separate key, so
+# a cosmic pick can never merge with, replace or count toward an engine pick.
+# The cosmic read only chooses a side; every probability is the engine's own.
+MAX_CREDIBLE_P_SIDES = float(os.environ.get("MAX_CREDIBLE_P_SIDES", "0.97"))
+
+_PHASES = ["New Moon", "Waxing Crescent", "First Quarter", "Waxing Gibbous",
+           "Full Moon", "Waning Gibbous", "Last Quarter", "Waning Crescent"]
+_PHASE_LEAN = {"New Moon": "dog", "Waxing Crescent": "fav", "First Quarter": "dog",
+               "Waxing Gibbous": "dog", "Full Moon": "fav", "Waning Gibbous": "dog",
+               "Last Quarter": "dog", "Waning Crescent": "home"}
+_SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra",
+          "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
+_SIGN_LEAN = {"Cancer": "home", "Leo": "fav", "Gemini": "dog", "Scorpio": "dog",
+              "Aquarius": "dog", "Libra": "tight"}
+
+
+def moon_at(when):
+    ref = datetime(2000, 1, 6, 18, 14, tzinfo=timezone.utc)
+    syn = 29.530588853
+    age = ((when - ref).total_seconds() / 86400.0) % syn
+    phase = _PHASES[int(((age / syn) * 8 + 0.5) % 8)]
+    d = (when - datetime(2000, 1, 1, 12, tzinfo=timezone.utc)).total_seconds() / 86400.0
+    lon = (218.316 + 13.176396 * d
+           + 6.289 * math.sin(math.radians(134.963 + 13.064993 * d))) % 360
+    return phase, _SIGNS[int(lon // 30)]
+
+
+def day_number(when):
+    """Date digits summed and reduced, keeping 11/22/33. Eastern calendar date,
+    which is what the board shows."""
+    try:
+        from zoneinfo import ZoneInfo
+        local = when.astimezone(ZoneInfo("America/New_York"))
+    except Exception:
+        local = when - timedelta(hours=4)
+    n = sum(int(ch) for ch in "%d%d%d" % (local.year, local.month, local.day))
+    while n > 9 and n not in (11, 22, 33):
+        n = sum(int(ch) for ch in str(n))
+    return n
+
+
+def cosmic_picks(slate):
+    best = {}
+    for g in slate.get("games", []):
+        if g.get("mlHome") is None or g.get("mlAway") is None or not g.get("sdMargin"):
+            continue
+        try:
+            when = datetime.fromisoformat((g.get("time") or "").replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        phase, sign = moon_at(when)
+        num = day_number(when)
+        lean = _PHASE_LEAN[phase]
+        sd = g["sdMargin"]
+        margin = g.get("projMargin")
+        if margin is None:
+            margin = g["homeRtg"] - g["awayRtg"] + g.get("hfa", 0.0)
+        p_home = clamp01(ncdf(margin / sd))
+        spread = g.get("spread")
+        home_fav = spread < 0 if spread is not None else g["mlHome"] < g["mlAway"]
+        heavy = spread is not None and abs(spread) > 7
+        cands = [
+            dict(market="Moneyline", selection="home", line=None, label=g["home"] + " ML",
+                 p=p_home, price=g["mlHome"], other=g["mlAway"], is_home=True, is_fav=home_fav),
+            dict(market="Moneyline", selection="away", line=None, label=g["away"] + " ML",
+                 p=1.0 - p_home, price=g["mlAway"], other=g["mlHome"], is_home=False, is_fav=not home_fav),
+        ]
+        if spread is not None and g.get("sprHome") is not None and g.get("sprAway") is not None:
+            pc = clamp01(ncdf((margin + spread) / sd))
+            cands.append(dict(market="Spread", selection="home", line=spread,
+                              label="%s %+.1f" % (g["home"], spread), p=pc,
+                              price=g["sprHome"], other=g["sprAway"], is_home=True, is_fav=home_fav))
+            cands.append(dict(market="Spread", selection="away", line=-spread,
+                              label="%s %+.1f" % (g["away"], -spread), p=1.0 - pc,
+                              price=g["sprAway"], other=g["sprHome"], is_home=False, is_fav=not home_fav))
+
+        def fits(l, c):
+            return (not c["is_fav"]) if l == "dog" else c["is_fav"] if l == "fav" else c["is_home"] if l == "home" else False
+
+        for c in cands:
+            if not fits(lean, c):
+                continue
+            if phase == "First Quarter" and c["is_fav"] and heavy:
+                continue
+            c["edge"] = edge_points(c["p"], c["price"])
+            c["ev"] = expected_value(c["p"], c["price"])
+            if c["ev"] <= 0 or c["edge"] > MAX_EDGE or c["p"] > MAX_CREDIBLE_P_SIDES:
+                continue
+            if c["market"] == "Moneyline" and not (-600 <= float(c["price"]) <= 600):
+                continue
+            score = 1
+            sl = _SIGN_LEAN.get(sign)
+            if sl:
+                score += 1 if ((not heavy) if sl == "tight" else fits(sl, c)) else -1
+            master = num in (11, 22, 33)
+            num_lean = lean if master else "dog" if num in (2, 4, 6, 8) else "fav"
+            agree = master or fits(num_lean, c) or (lean == "home" and c["is_home"] and num_lean == "fav")
+            score += 1 if agree else -1
+            if score < 2:
+                continue
+            key = (g["away"], g["home"], c["market"])
+            cur = best.get(key)
+            if cur is None or score > cur["stars"] or (score == cur["stars"] and c["ev"] > cur["ev"]):
+                c.update(sport=g["sport"], home=g["home"], away=g["away"],
+                         commence=g.get("time"), player=None, event=None, proj=None,
+                         stat_line=None, lane="cosmic", stars=score,
+                         cosmic="%s, Moon in %s, date number %d" % (phase, sign, num))
+                best[key] = c
+    return list(best.values())
+
+
+def rec_key(p):
+    """canon_key plus the group, so a cosmic pick and an engine pick on the same
+    side of the same game stay two separate records."""
+    k = canon_key(p.get("sport"), p.get("away"), p.get("home"),
+                  p.get("market"), p.get("selection"))
+    return k + "|cosmic" if p.get("group") == "Cosmic" else k
+
+
 def todays_picks(slate):
     return side_picks(slate) + prop_picks(slate)
 
@@ -527,8 +648,7 @@ def main():
     # nothing already settled is lost.
     canon, order = {}, []
     for p in log["picks"]:
-        key = canon_key(p.get("sport"), p.get("away"), p.get("home"),
-                        p.get("market"), p.get("selection"))
+        key = rec_key(p)
         keep = canon.get(key)
         if keep is None:
             canon[key] = p
@@ -549,16 +669,20 @@ def main():
               % (len(log["picks"]) - len(canon), len(canon)))
         log["picks"] = [canon[k] for k in order]
 
-    by_id = {canon_key(p.get("sport"), p.get("away"), p.get("home"),
-                       p.get("market"), p.get("selection")): p
-             for p in log["picks"]}
+    by_id = {rec_key(p): p for p in log["picks"]}
     now = datetime.now(timezone.utc)
     now_iso = now.isoformat(timespec="seconds")
     added = updated = 0
 
-    for c in todays_picks(slate):
+    tagged = [(c, None) for c in todays_picks(slate)] + \
+             [(c, "Cosmic") for c in cosmic_picks(slate)]
+    for c, forced in tagged:
         key = canon_key(c["sport"], c["away"], c["home"], c["market"], c["selection"])
+        if forced == "Cosmic":
+            key += "|cosmic"
         pid = pick_id(c["sport"], c["away"], c["home"], c["market"], c["label"])
+        if forced == "Cosmic":
+            pid += "-cosmic"
         rec = by_id.get(key)
         if rec is None:
             rec = {
@@ -576,12 +700,17 @@ def main():
                 "history": [], "result": None, "final": None, "clv": None,
                 "week": week_of(c["commence"]),
             }
+            if forced == "Cosmic":
+                rec["group"] = "Cosmic"
+                rec["stars"] = c.get("stars")
+                rec["cosmic"] = c.get("cosmic")
             log["picks"].append(rec)
             by_id[key] = rec
             added += 1
         rec.setdefault("group", group_of(rec.get("market", ""), rec.get("player")))
         # a record written before the groups were split may carry the wrong one
-        rec["group"] = group_of(rec.get("market", ""), rec.get("player"))
+        if rec.get("group") != "Cosmic":
+            rec["group"] = group_of(rec.get("market", ""), rec.get("player"))
         # line history: only until the game starts, and only while ungraded
         if rec.get("result") is None:
             started = False
@@ -658,9 +787,12 @@ def main():
     # -------------------------------------------------------------- output --
     graded = [p for p in log["picks"] if p.get("result")]
     for p in graded:
-        p["group"] = group_of(p.get("market", ""), p.get("player"))
+        if p.get("group") != "Cosmic":
+            p["group"] = group_of(p.get("market", ""), p.get("player"))
     sides = [p for p in graded if p["group"] == "Sides"]
     props = [p for p in graded if p["group"] == "Props"]
+    cosmic = [p for p in graded if p["group"] == "Cosmic"]
+    engine = [p for p in graded if p["group"] != "Cosmic"]
 
     def rows(items):
         return [
@@ -687,6 +819,8 @@ def main():
                       threshold=THRESHOLD, picks=rows(sides)),
         "Props": dict(summarize(props), label="Player props",
                       threshold=PROPS_THRESHOLD, picks=rows(props)),
+        "Cosmic": dict(summarize(cosmic), label="Cosmic picks",
+                       threshold=None, picks=rows(cosmic)),
     }
 
     save_results({
@@ -699,15 +833,19 @@ def main():
         # higher win rate and a thinner profit than the value lane; if it shows
         # a LOWER win rate it is not doing the one job it was added for.
         "by_lane": {
-            lane: summarize([p for p in graded if p.get("lane", "value") == lane])
+            lane: summarize([p for p in engine if p.get("lane", "value") == lane])
             for lane in ("value", "confidence")
-            if any(p.get("lane", "value") == lane for p in graded)
+            if any(p.get("lane", "value") == lane for p in engine)
         },
         "pending": {
             "Sides": sum(1 for p in log["picks"] if p.get("result") is None
+                         and p.get("group") != "Cosmic"
                          and group_of(p.get("market", ""), p.get("player")) == "Sides"),
             "Props": sum(1 for p in log["picks"] if p.get("result") is None
+                         and p.get("group") != "Cosmic"
                          and group_of(p.get("market", ""), p.get("player")) == "Props"),
+            "Cosmic": sum(1 for p in log["picks"] if p.get("result") is None
+                          and p.get("group") == "Cosmic"),
         },
         "diagnostics": diag,
         "note": "Sides and props are tracked separately: different models, "
