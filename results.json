@@ -1,77 +1,77 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": 0.052315789473684184,
-   "clv_beat_rate": 0.21052631578947367,
-   "clv_n": 76,
-   "graded": 94,
+   "avg_clv": 0.060658227848101244,
+   "clv_beat_rate": 0.22784810126582278,
+   "clv_n": 79,
+   "graded": 97,
    "record": {
-    "l": 50,
+    "l": 51,
     "p": 0,
     "void": 5,
-    "w": 44
+    "w": 46
    },
-   "win_rate": 0.46808510638297873
+   "win_rate": 0.4742268041237113
   },
   "value": {
-   "avg_clv": -0.010003039513677817,
-   "clv_beat_rate": 0.303951367781155,
-   "clv_n": 329,
-   "graded": 372,
+   "avg_clv": -0.010304216867469884,
+   "clv_beat_rate": 0.3042168674698795,
+   "clv_n": 332,
+   "graded": 376,
    "record": {
-    "l": 186,
+    "l": 189,
     "p": 0,
     "void": 5,
-    "w": 186
+    "w": 187
    },
-   "win_rate": 0.5
+   "win_rate": 0.4973404255319149
   }
  },
  "by_sport": {
   "NCAAF Sides": {
-   "avg_clv": 0.05377824267782426,
-   "clv_beat_rate": 0.37656903765690375,
-   "clv_n": 239,
-   "graded": 257,
+   "avg_clv": 0.07426446280991734,
+   "clv_beat_rate": 0.38016528925619836,
+   "clv_n": 242,
+   "graded": 260,
    "record": {
-    "l": 122,
+    "l": 123,
     "p": 0,
     "void": 0,
-    "w": 135
+    "w": 137
    },
-   "win_rate": 0.5252918287937743
+   "win_rate": 0.5269230769230769
   },
   "NFL Props": {
-   "avg_clv": 0.1719611650485437,
-   "clv_beat_rate": 0.07766990291262135,
-   "clv_n": 103,
-   "graded": 132,
+   "avg_clv": 0.12279047619047619,
+   "clv_beat_rate": 0.0761904761904762,
+   "clv_n": 105,
+   "graded": 135,
    "record": {
-    "l": 70,
+    "l": 72,
     "p": 0,
     "void": 10,
-    "w": 62
+    "w": 63
    },
-   "win_rate": 0.4696969696969697
+   "win_rate": 0.4666666666666667
   },
   "NFL Sides": {
-   "avg_clv": -0.47428571428571425,
-   "clv_beat_rate": 0.2857142857142857,
-   "clv_n": 63,
-   "graded": 77,
+   "avg_clv": -0.46084375,
+   "clv_beat_rate": 0.296875,
+   "clv_n": 64,
+   "graded": 78,
    "record": {
-    "l": 44,
+    "l": 45,
     "p": 0,
     "void": 0,
     "w": 33
    },
-   "win_rate": 0.42857142857142855
+   "win_rate": 0.4230769230769231
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6584 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6603 player-games cached"
  ],
- "generated_at": "2026-10-02T01:50:38+00:00",
+ "generated_at": "2026-10-02T14:12:23+00:00",
  "graded_through": "Week of Sep 28",
  "groups": {
   "Cosmic": {
@@ -91,10 +91,10 @@
    "win_rate": null
   },
   "Props": {
-   "avg_clv": 0.1719611650485437,
-   "clv_beat_rate": 0.07766990291262135,
-   "clv_n": 103,
-   "graded": 132,
+   "avg_clv": 0.12279047619047619,
+   "clv_beat_rate": 0.0761904761904762,
+   "clv_n": 105,
+   "graded": 135,
    "label": "Player props",
    "picks": [
     {
@@ -2636,6 +2636,42 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -114,
+     "clv": -4.819,
+     "edge": 29.911,
+     "ev": 0.51276,
+     "final": "0",
+     "game": "Pittsburgh Steelers @ Cleveland Browns",
+     "group": "Props",
+     "lane": "confidence",
+     "market": "Rushing yards",
+     "pick": "Aaron Rodgers Over 0.5 rushing yards",
+     "player": "Aaron Rodgers",
+     "price": -140,
+     "proj": 6.018,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.515,
+     "ev": 0.70359,
+     "final": "1 TD",
+     "game": "Pittsburgh Steelers @ Cleveland Browns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Harold Fannin Jr. anytime TD",
+     "player": "Harold Fannin Jr.",
+     "price": 280,
+     "proj": 0.595,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 16.904,
@@ -2652,22 +2688,40 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 14.867,
+     "ev": 0.27909,
+     "final": "93",
+     "game": "Pittsburgh Steelers @ Cleveland Browns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Jaylen Warren Under 73.5 rushing yards",
+     "player": "Jaylen Warren",
+     "price": -114,
+     "proj": 62.584,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
     }
    ],
    "record": {
-    "l": 70,
+    "l": 72,
     "p": 0,
     "void": 10,
-    "w": 62
+    "w": 63
    },
    "threshold": 7.0,
-   "win_rate": 0.4696969696969697
+   "win_rate": 0.4666666666666667
   },
   "Sides": {
-   "avg_clv": -0.05638079470198676,
-   "clv_beat_rate": 0.3576158940397351,
-   "clv_n": 302,
-   "graded": 334,
+   "avg_clv": -0.03765359477124184,
+   "clv_beat_rate": 0.3627450980392157,
+   "clv_n": 306,
+   "graded": 338,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -8431,6 +8485,24 @@
      "week": "Week of Sep 21"
     },
     {
+     "closing_price": -136,
+     "clv": 0.386,
+     "edge": 6.402,
+     "ev": 0.1118,
+     "final": "24-27",
+     "game": "Pittsburgh Steelers @ Cleveland Browns",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Pittsburgh Steelers ML",
+     "player": null,
+     "price": -134,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 14.403,
@@ -8629,6 +8701,60 @@
      "week": "Week of Sep 21"
     },
     {
+     "closing_price": 104,
+     "clv": -0.516,
+     "edge": 18.792,
+     "ev": 0.37961,
+     "final": "13-34",
+     "game": "Western Kentucky Hilltoppers @ New Mexico State Aggies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Western Kentucky Hilltoppers ML",
+     "player": null,
+     "price": 102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -104,
+     "clv": 4.552,
+     "edge": 46.851,
+     "ev": 1.01197,
+     "final": "45-44",
+     "game": "North Texas Mean Green @ Tulsa Golden Hurricane",
+     "group": "Sides",
+     "lane": "confidence",
+     "market": "Moneyline",
+     "pick": "North Texas Mean Green ML",
+     "player": null,
+     "price": 116,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -110,
+     "clv": 1.083,
+     "edge": 44.183,
+     "ev": 0.86263,
+     "final": "45-44",
+     "game": "North Texas Mean Green @ Tulsa Golden Hurricane",
+     "group": "Sides",
+     "lane": "confidence",
+     "market": "Spread",
+     "pick": "North Texas Mean Green +2.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 12.725,
@@ -8684,19 +8810,19 @@
     }
    ],
    "record": {
-    "l": 166,
+    "l": 168,
     "p": 0,
     "void": 0,
-    "w": 168
+    "w": 170
    },
    "threshold": 5.0,
-   "win_rate": 0.5029940119760479
+   "win_rate": 0.5029585798816568
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 8,
-  "Props": 162,
-  "Sides": 96
+  "Props": 159,
+  "Sides": 92
  }
 }
