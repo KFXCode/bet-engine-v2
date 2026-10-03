@@ -1,45 +1,58 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": 0.060658227848101244,
-   "clv_beat_rate": 0.22784810126582278,
-   "clv_n": 79,
-   "graded": 97,
+   "avg_clv": 0.06802499999999997,
+   "clv_beat_rate": 0.2375,
+   "clv_n": 80,
+   "graded": 98,
    "record": {
     "l": 51,
     "p": 0,
     "void": 5,
-    "w": 46
+    "w": 47
    },
-   "win_rate": 0.4742268041237113
+   "win_rate": 0.47959183673469385
   },
   "value": {
-   "avg_clv": -0.010304216867469884,
-   "clv_beat_rate": 0.3042168674698795,
-   "clv_n": 332,
-   "graded": 376,
+   "avg_clv": -0.02141071428571429,
+   "clv_beat_rate": 0.30357142857142855,
+   "clv_n": 336,
+   "graded": 380,
    "record": {
-    "l": 189,
+    "l": 193,
     "p": 0,
     "void": 5,
     "w": 187
    },
-   "win_rate": 0.4973404255319149
+   "win_rate": 0.4921052631578947
   }
  },
  "by_sport": {
-  "NCAAF Sides": {
-   "avg_clv": 0.07426446280991734,
-   "clv_beat_rate": 0.38016528925619836,
-   "clv_n": 242,
-   "graded": 260,
+  "NCAAF Cosmic": {
+   "avg_clv": -1.0835,
+   "clv_beat_rate": 0.0,
+   "clv_n": 2,
+   "graded": 2,
    "record": {
-    "l": 123,
+    "l": 2,
     "p": 0,
     "void": 0,
-    "w": 137
+    "w": 0
    },
-   "win_rate": 0.5269230769230769
+   "win_rate": 0.0
+  },
+  "NCAAF Sides": {
+   "avg_clv": 0.06011740890688258,
+   "clv_beat_rate": 0.3805668016194332,
+   "clv_n": 247,
+   "graded": 265,
+   "record": {
+    "l": 127,
+    "p": 0,
+    "void": 0,
+    "w": 138
+   },
+   "win_rate": 0.5207547169811321
   },
   "NFL Props": {
    "avg_clv": 0.12279047619047619,
@@ -69,26 +82,63 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6603 player-games cached"
+  "NFL player logs: cache already current (6603 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-02T14:12:23+00:00",
+ "generated_at": "2026-10-03T12:47:29+00:00",
  "graded_through": "Week of Sep 28",
  "groups": {
   "Cosmic": {
-   "avg_clv": null,
-   "clv_beat_rate": null,
-   "clv_n": 0,
-   "graded": 0,
+   "avg_clv": -1.0835,
+   "clv_beat_rate": 0.0,
+   "clv_n": 2,
+   "graded": 2,
    "label": "Cosmic picks",
-   "picks": [],
+   "picks": [
+    {
+     "closing_price": -105,
+     "clv": -2.167,
+     "edge": 19.92,
+     "ev": 0.37242,
+     "final": "30-14",
+     "game": "Liberty Flames @ Delaware Blue Hens",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Delaware Blue Hens +7.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": 210,
+     "clv": 0.0,
+     "edge": 18.966,
+     "ev": 0.58793,
+     "final": "30-14",
+     "game": "Liberty Flames @ Delaware Blue Hens",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Delaware Blue Hens ML",
+     "player": null,
+     "price": 210,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    }
+   ],
    "record": {
-    "l": 0,
+    "l": 2,
     "p": 0,
     "void": 0,
     "w": 0
    },
    "threshold": null,
-   "win_rate": null
+   "win_rate": 0.0
   },
   "Props": {
    "avg_clv": 0.12279047619047619,
@@ -2718,10 +2768,10 @@
    "win_rate": 0.4666666666666667
   },
   "Sides": {
-   "avg_clv": -0.03765359477124184,
-   "clv_beat_rate": 0.3627450980392157,
-   "clv_n": 306,
-   "graded": 338,
+   "avg_clv": -0.04709003215434084,
+   "clv_beat_rate": 0.3633440514469453,
+   "clv_n": 311,
+   "graded": 343,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -8611,6 +8661,24 @@
      "week": "Week of Sep 21"
     },
     {
+     "closing_price": -115,
+     "clv": 0.65,
+     "edge": 32.95,
+     "ev": 0.62369,
+     "final": "35-33",
+     "game": "Pittsburgh Panthers @ Virginia Tech Hokies",
+     "group": "Sides",
+     "lane": "confidence",
+     "market": "Spread",
+     "pick": "Pittsburgh Panthers +5.5",
+     "player": null,
+     "price": -112,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 9.035,
@@ -8755,6 +8823,60 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": 210,
+     "clv": -0.465,
+     "edge": 18.47,
+     "ev": 0.56333,
+     "final": "30-14",
+     "game": "Liberty Flames @ Delaware Blue Hens",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Delaware Blue Hens ML",
+     "player": null,
+     "price": 205,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -142,
+     "clv": -0.727,
+     "edge": 8.891,
+     "ev": 0.14981,
+     "final": "13-34",
+     "game": "Penn State Nittany Lions @ Northwestern Wildcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Penn State Nittany Lions ML",
+     "player": null,
+     "price": -146,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.863,
+     "edge": 6.745,
+     "ev": 0.12462,
+     "final": "13-34",
+     "game": "Penn State Nittany Lions @ Northwestern Wildcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Penn State Nittany Lions -2.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 12.725,
@@ -8791,6 +8913,24 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -105,
+     "clv": -3.444,
+     "edge": 18.453,
+     "ev": 0.33579,
+     "final": "30-14",
+     "game": "Liberty Flames @ Delaware Blue Hens",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Delaware Blue Hens +7.5",
+     "player": null,
+     "price": -122,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 16.629,
@@ -8810,19 +8950,19 @@
     }
    ],
    "record": {
-    "l": 168,
+    "l": 172,
     "p": 0,
     "void": 0,
-    "w": 170
+    "w": 171
    },
    "threshold": 5.0,
-   "win_rate": 0.5029585798816568
+   "win_rate": 0.49854227405247814
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 8,
+  "Cosmic": 6,
   "Props": 159,
-  "Sides": 92
+  "Sides": 87
  }
 }
