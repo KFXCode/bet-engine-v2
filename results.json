@@ -14,17 +14,17 @@
    "win_rate": 0.47959183673469385
   },
   "value": {
-   "avg_clv": -0.02141071428571429,
-   "clv_beat_rate": 0.30357142857142855,
-   "clv_n": 336,
-   "graded": 380,
+   "avg_clv": -0.021347181008902084,
+   "clv_beat_rate": 0.3026706231454006,
+   "clv_n": 337,
+   "graded": 381,
    "record": {
     "l": 193,
     "p": 0,
     "void": 5,
-    "w": 187
+    "w": 188
    },
-   "win_rate": 0.4921052631578947
+   "win_rate": 0.49343832020997375
   }
  },
  "by_sport": {
@@ -42,17 +42,17 @@
    "win_rate": 0.0
   },
   "NCAAF Sides": {
-   "avg_clv": 0.06011740890688258,
-   "clv_beat_rate": 0.3805668016194332,
-   "clv_n": 247,
-   "graded": 265,
+   "avg_clv": 0.059874999999999984,
+   "clv_beat_rate": 0.3790322580645161,
+   "clv_n": 248,
+   "graded": 266,
    "record": {
     "l": 127,
     "p": 0,
     "void": 0,
-    "w": 138
+    "w": 139
    },
-   "win_rate": 0.5207547169811321
+   "win_rate": 0.5225563909774437
   },
   "NFL Props": {
    "avg_clv": 0.12279047619047619,
@@ -84,7 +84,7 @@
  "diagnostics": [
   "NFL player logs: cache already current (6603 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-03T12:47:29+00:00",
+ "generated_at": "2026-10-03T18:29:57+00:00",
  "graded_through": "Week of Sep 28",
  "groups": {
   "Cosmic": {
@@ -2768,10 +2768,10 @@
    "win_rate": 0.4666666666666667
   },
   "Sides": {
-   "avg_clv": -0.04709003215434084,
-   "clv_beat_rate": 0.3633440514469453,
-   "clv_n": 311,
-   "graded": 343,
+   "avg_clv": -0.046939102564102574,
+   "clv_beat_rate": 0.36217948717948717,
+   "clv_n": 312,
+   "graded": 344,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -8913,6 +8913,24 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 5.309,
+     "ev": 0.10136,
+     "final": "59-8",
+     "game": "Memphis Tigers @ Charlotte 49ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Memphis Tigers -20.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": -105,
      "clv": -3.444,
      "edge": 18.453,
@@ -8953,16 +8971,16 @@
     "l": 172,
     "p": 0,
     "void": 0,
-    "w": 171
+    "w": 172
    },
    "threshold": 5.0,
-   "win_rate": 0.49854227405247814
+   "win_rate": 0.5
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 6,
-  "Props": 159,
-  "Sides": 87
+  "Cosmic": 8,
+  "Props": 167,
+  "Sides": 90
  }
 }
