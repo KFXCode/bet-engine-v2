@@ -14,17 +14,17 @@
    "win_rate": 0.5
   },
   "value": {
-   "avg_clv": -0.03921671018276763,
-   "clv_beat_rate": 0.31070496083550914,
-   "clv_n": 383,
-   "graded": 430,
+   "avg_clv": -0.033620779220779225,
+   "clv_beat_rate": 0.3142857142857143,
+   "clv_n": 385,
+   "graded": 432,
    "record": {
     "l": 212,
     "p": 0,
     "void": 5,
-    "w": 218
+    "w": 220
    },
-   "win_rate": 0.5069767441860465
+   "win_rate": 0.5092592592592593
   }
  },
  "by_sport": {
@@ -68,23 +68,23 @@
    "win_rate": 0.4666666666666667
   },
   "NFL Sides": {
-   "avg_clv": -0.46084375,
-   "clv_beat_rate": 0.296875,
-   "clv_n": 64,
-   "graded": 78,
+   "avg_clv": -0.4154242424242424,
+   "clv_beat_rate": 0.3181818181818182,
+   "clv_n": 66,
+   "graded": 80,
    "record": {
     "l": 45,
     "p": 0,
     "void": 0,
-    "w": 33
+    "w": 35
    },
-   "win_rate": 0.4230769230769231
+   "win_rate": 0.4375
   }
  },
  "diagnostics": [
   "NFL player logs: cache already current (6603 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-04T13:30:46+00:00",
+ "generated_at": "2026-10-04T19:24:43+00:00",
  "graded_through": "Week of Sep 28",
  "groups": {
   "Cosmic": {
@@ -2768,10 +2768,10 @@
    "win_rate": 0.4666666666666667
   },
   "Sides": {
-   "avg_clv": -0.04930913978494625,
-   "clv_beat_rate": 0.3682795698924731,
-   "clv_n": 372,
-   "graded": 407,
+   "avg_clv": -0.04349465240641712,
+   "clv_beat_rate": 0.3716577540106952,
+   "clv_n": 374,
+   "graded": 409,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -9813,6 +9813,42 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -184,
+     "clv": 1.231,
+     "edge": 8.681,
+     "ev": 0.1367,
+     "final": "30-13",
+     "game": "Indianapolis Colts @ Washington Commanders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Indianapolis Colts ML",
+     "player": null,
+     "price": -174,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.845,
+     "edge": 10.85,
+     "ev": 0.21488,
+     "final": "30-13",
+     "game": "Indianapolis Colts @ Washington Commanders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Indianapolis Colts -3.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Sep 28"
+    },
+    {
      "closing_price": -110,
      "clv": 0.0,
      "edge": 5.309,
@@ -10105,16 +10141,16 @@
     "l": 196,
     "p": 0,
     "void": 0,
-    "w": 211
+    "w": 213
    },
    "threshold": 5.0,
-   "win_rate": 0.5184275184275184
+   "win_rate": 0.5207823960880196
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 17,
-  "Props": 168,
-  "Sides": 56
+  "Cosmic": 20,
+  "Props": 174,
+  "Sides": 76
  }
 }
