@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": -0.01033632286995516,
-   "clv_beat_rate": 0.2914798206278027,
-   "clv_n": 446,
-   "graded": 504,
+   "avg_clv": -0.016760000000000004,
+   "clv_beat_rate": 0.2911111111111111,
+   "clv_n": 450,
+   "graded": 511,
    "record": {
-    "l": 246,
+    "l": 250,
     "p": 0,
     "void": 10,
-    "w": 258
+    "w": 261
    },
-   "win_rate": 0.5119047619047619
+   "win_rate": 0.5107632093933464
   }
  },
  "by_sport": {
@@ -68,37 +68,37 @@
    "win_rate": 0.5
   },
   "NFL Props": {
-   "avg_clv": 0.09252258064516129,
-   "clv_beat_rate": 0.07096774193548387,
-   "clv_n": 155,
-   "graded": 193,
+   "avg_clv": 0.07175471698113207,
+   "clv_beat_rate": 0.07547169811320754,
+   "clv_n": 159,
+   "graded": 198,
    "record": {
-    "l": 102,
+    "l": 104,
     "p": 0,
     "void": 15,
-    "w": 91
+    "w": 94
    },
-   "win_rate": 0.47150259067357514
+   "win_rate": 0.47474747474747475
   },
   "NFL Sides": {
    "avg_clv": -0.26996341463414636,
    "clv_beat_rate": 0.34146341463414637,
    "clv_n": 82,
-   "graded": 99,
+   "graded": 101,
    "record": {
-    "l": 50,
+    "l": 52,
     "p": 0,
     "void": 0,
     "w": 49
    },
-   "win_rate": 0.494949494949495
+   "win_rate": 0.48514851485148514
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6856 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6874 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-05T01:51:32+00:00",
- "graded_through": "Week of Sep 28",
+ "generated_at": "2026-10-05T08:15:39+00:00",
+ "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
    "avg_clv": 0.29083333333333344,
@@ -262,10 +262,10 @@
    "win_rate": 0.375
   },
   "Props": {
-   "avg_clv": 0.09252258064516129,
-   "clv_beat_rate": 0.07096774193548387,
-   "clv_n": 155,
-   "graded": 193,
+   "avg_clv": 0.07175471698113207,
+   "clv_beat_rate": 0.07547169811320754,
+   "clv_n": 159,
+   "graded": 198,
    "label": "Player props",
    "picks": [
     {
@@ -3329,6 +3329,24 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": 128,
+     "clv": -3.193,
+     "edge": 14.679,
+     "ev": 0.3112,
+     "final": "14",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Tetairoa McMillan Under 4.5 receptions",
+     "player": "Tetairoa McMillan",
+     "price": 112,
+     "proj": 4.053,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 14.54,
@@ -3363,6 +3381,24 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 13.823,
+     "ev": 0.25948,
+     "final": "46",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Jahmyr Gibbs Under 94.5 rushing yards",
+     "player": "Jahmyr Gibbs",
+     "price": -114,
+     "proj": 81.848,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     },
     {
      "closing_price": -114,
@@ -3745,6 +3781,24 @@
     {
      "closing_price": null,
      "clv": null,
+     "edge": 13.953,
+     "ev": 0.80925,
+     "final": "0 TD",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Bryce Young anytime TD",
+     "player": "Bryce Young",
+     "price": 480,
+     "proj": 0.374,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
      "edge": 10.699,
      "ev": 1.01641,
      "final": "0 TD",
@@ -3867,6 +3921,24 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.261,
+     "edge": 15.302,
+     "ev": 0.30304,
+     "final": "8",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Brock Wright Over 5.5 receiving yards",
+     "player": "Brock Wright",
+     "price": -102,
+     "proj": 11.878,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     },
     {
      "closing_price": -113,
@@ -3995,6 +4067,24 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 16.243,
+     "ev": 0.30618,
+     "final": "32",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Brycen Tremayne Under 33.5 receiving yards",
+     "player": "Brycen Tremayne",
+     "price": -113,
+     "proj": 28.859,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 13.635,
@@ -4014,19 +4104,19 @@
     }
    ],
    "record": {
-    "l": 102,
+    "l": 104,
     "p": 0,
     "void": 15,
-    "w": 91
+    "w": 94
    },
    "threshold": 7.0,
-   "win_rate": 0.47150259067357514
+   "win_rate": 0.47474747474747475
   },
   "Sides": {
    "avg_clv": -0.028169230769230776,
    "clv_beat_rate": 0.37435897435897436,
    "clv_n": 390,
-   "graded": 428,
+   "graded": 430,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -11732,22 +11822,58 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 8.575,
+     "ev": 0.1572,
+     "final": "26-32",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Detroit Lions ML",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 8.619,
+     "ev": 0.17411,
+     "final": "26-32",
+     "game": "Detroit Lions @ Carolina Panthers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Detroit Lions -1.5",
+     "player": null,
+     "price": 102,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 201,
+    "l": 203,
     "p": 0,
     "void": 0,
     "w": 227
    },
    "threshold": 5.0,
-   "win_rate": 0.530373831775701
+   "win_rate": 0.5279069767441861
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 26,
-  "Props": 111,
-  "Sides": 74
+  "Cosmic": 27,
+  "Props": 109,
+  "Sides": 72
  }
 }
