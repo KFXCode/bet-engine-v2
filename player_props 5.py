@@ -1,0 +1,991 @@
+#!/usr/bin/env python3
+"""
+player_props.py — player projections and FanDuel prop lines for the Edge Engine.
+
+The team-ratings model in edge_slate.py cannot price a player prop. It knows
+Georgia is twelve points better than Auburn; it knows nothing about whether a
+back gets 62 rushing yards. So this module builds a SECOND model from a
+different data source: every player's own game log, scraped free from ESPN box
+scores and cached on disk so a run only ever fetches games it has not seen.
+
+What it does
+
+  1. Sweeps the scoreboard for finished games, then pulls each box score once
+     and stores every player's line from it. The cache (player_logs.json) is
+     what makes this cheap: the first run backfills, later runs add a handful
+     of games.
+  2. Projects each stat from that log — recency-weighted mean, shrunk toward a
+     league baseline by how few games the player has, then adjusted for the
+     defence he faces.
+  3. Prices the prop with a distribution that fits the STAT, not one normal
+     curve for everything: gamma for yardage (non-negative and right-skewed),
+     negative binomial for counts that are more spread out than Poisson,
+     Poisson for anytime touchdown.
+  4. Emits every priced side. The caller does the EV filtering.
+
+Honest limits, stated because they matter more than the model does:
+
+  * No injury or inactive feed. A player who is questionable and then plays
+    twelve snaps will be projected as though healthy. The activity gate below
+    catches players who are already out, not players who are limited.
+  * No weather, no snap-count projection, no depth-chart change detection.
+  * Anytime touchdown is the weakest market here — red-zone usage is noisy and
+    a season of games is a small sample for a rate that low. It carries the
+    heaviest shrinkage and the highest games-played gate as a result.
+
+Odds cost: the props endpoint bills PER MARKET PER EVENT, unlike the game-line
+endpoint which bills once per league. Everything below — the event cap, the
+disk cache with a TTL, the credit reserve — exists to keep that bill bounded.
+
+Env: ODDS_API_KEY, ODDS_API_KEY_BACKUP, PROPS_CREDIT_RESERVE (default 200),
+     PROPS_MAX_EVENTS (default 24), PROPS_CACHE_MINUTES (default 180),
+     MAX_NEW_BOXSCORES (default 350), PLAYER_LOGS_PATH, PROPS_CACHE_PATH.
+"""
+
+import json
+import math
+import os
+import re
+import time
+from collections import defaultdict
+from datetime import date, datetime, timedelta, timezone
+
+import requests
+
+HTTP_TIMEOUT = 20
+LOGS_PATH = os.environ.get("PLAYER_LOGS_PATH", "player_logs.json")
+CACHE_PATH = os.environ.get("PROPS_CACHE_PATH", "props_cache.json")
+
+CREDIT_RESERVE = int(os.environ.get("PROPS_CREDIT_RESERVE", "200"))
+MAX_EVENTS = int(os.environ.get("PROPS_MAX_EVENTS", "24"))
+CACHE_MINUTES = int(os.environ.get("PROPS_CACHE_MINUTES", "180"))
+MAX_NEW_BOXSCORES = int(os.environ.get("MAX_NEW_BOXSCORES", "350"))
+
+# Bumped whenever the shape or the contents of a cached game log change in a
+# way that makes the existing cache wrong. On a mismatch the league's log is
+# rebuilt from scratch rather than appended to — a stale cache full of games
+# that should never have been collected is worse than no cache.
+# Bumped to 4 to purge preseason games that the incremental scan could not
+# reach. The 21-day catch-up window only revisits recent dates, so early-August
+# preseason games stayed in the log forever. They made the newest game on file a
+# late-August date, which switched the staleness gate ON, which then rejected
+# every player whose last real game was in February — all 717 of them, so the
+# prop card went completely empty while every other diagnostic read normal.
+LOG_VERSION = 4
+
+# ESPN blocks some datacenter IPs on some hosts. A single-host call returns
+# nothing on a runner and a whole league silently vanishes, so every request
+# goes through a helper that tries each host and takes the first that answers.
+ESPN_HOSTS = ["https://site.api.espn.com", "https://site.web.api.espn.com"]
+
+LEAGUE_PATHS = {"NFL": "football/nfl", "NBA": "basketball/nba"}
+
+# How far back to build game logs. 400 days so a league between seasons still
+# has last season to project from — week 1 has no current-season games at all,
+# and a model with no history produces nothing exactly when the card is biggest.
+LOG_DAYS = {"NFL": 400, "NBA": 400}
+
+# odds-api market key -> (stat, distribution, sport, min games, shrink games)
+MARKETS = {
+    "player_pass_yds":    ("passYds",    "gamma",   "NFL", 4, 3.0),
+    "player_rush_yds":    ("rushYds",    "gamma",   "NFL", 4, 3.0),
+    "player_reception_yds": ("recYds",   "gamma",   "NFL", 4, 3.0),
+    "player_receptions":  ("receptions", "count",   "NFL", 4, 3.0),
+    "player_anytime_td":  ("tds",        "poisson", "NFL", 6, 6.0),
+    "player_points":      ("points",     "gamma",   "NBA", 6, 5.0),
+    "player_rebounds":    ("rebounds",   "count",   "NBA", 6, 5.0),
+    "player_assists":     ("assists",    "count",   "NBA", 6, 5.0),
+    "player_points_rebounds_assists": ("pra", "gamma", "NBA", 6, 5.0),
+}
+
+MARKET_LABEL = {
+    "player_pass_yds": "Passing yards", "player_rush_yds": "Rushing yards",
+    "player_reception_yds": "Receiving yards", "player_receptions": "Receptions",
+    "player_anytime_td": "Anytime TD", "player_points": "Points",
+    "player_rebounds": "Rebounds", "player_assists": "Assists",
+    "player_points_rebounds_assists": "Pts+Reb+Ast",
+}
+
+# Recency: a game this many games back counts half as much as the last one.
+HALF_LIFE = {"NFL": 6.0, "NBA": 12.0}
+# A player whose last appearance is older than this is treated as unavailable.
+# A player whose team has played this many games without him is treated as
+# unavailable — injured, benched or gone. Counted in GAMES, never in days: in a
+# season opener every player last played the previous February, so any day-based
+# staleness test rejects the whole league at once.
+MISSED_GAMES_OUT = int(os.environ.get("MISSED_GAMES_OUT", "3"))
+STALE_DAYS = {"NFL": 24, "NBA": 12}
+DEF_SHRINK = 4.0        # games before a defence's own number is trusted
+DEF_CLAMP = (0.80, 1.25)
+
+
+# ------------------------------------------------------------------ http ----
+def espn_get(path, params, diag, what):
+    """GET an ESPN site-API path from whichever host answers first."""
+    for host in ESPN_HOSTS:
+        try:
+            r = requests.get(host + path, params=params, timeout=HTTP_TIMEOUT)
+            if r.status_code == 200:
+                return r.json()
+        except Exception:
+            continue
+    diag.append("espn: every host refused %s" % what)
+    return None
+
+
+# ------------------------------------------------------------ box scores ----
+def stat_map(group):
+    """{label: value} for one ESPN box-score athlete row."""
+    labels = [str(x).upper() for x in (group.get("labels") or [])]
+    def row(athlete):
+        vals = athlete.get("stats") or []
+        return {labels[i]: vals[i] for i in range(min(len(labels), len(vals)))}
+    return row
+
+
+def num(d, key, default=0.0):
+    raw = d.get(key)
+    if raw is None:
+        return default
+    txt = str(raw).strip()
+    if txt in ("", "-", "--"):
+        return default
+    # "12/20" style cells (completions/attempts) — take nothing, callers ask
+    # for YDS/TD/REC which are plain numbers.
+    try:
+        return float(txt.replace(",", ""))
+    except ValueError:
+        return default
+
+
+def parse_nfl(box):
+    """{player: {stat: value}} from one NFL box score.
+
+    Every stat the player is eligible for is set explicitly, including zero — a
+    rusher who did not score carries tds = 0. That zero is the whole point:
+    averaging only the games a player scored in guarantees a projection above
+    one touchdown per game.
+    """
+    out, teams = {}, {}
+
+    def slot(name, keys):
+        rec = out.setdefault(name, {})
+        for k in keys:
+            rec.setdefault(k, 0.0)
+        return rec
+
+    for team_block in box.get("players", []):
+        tname = ((team_block.get("team") or {}).get("displayName")) or "?"
+        for group in team_block.get("statistics", []):
+            gname = (group.get("name") or "").lower()
+            if gname not in ("passing", "rushing", "receiving"):
+                continue
+            row = stat_map(group)
+            for ath in group.get("athletes", []):
+                name = ((ath.get("athlete") or {}).get("displayName") or "").strip()
+                if not name:
+                    continue
+                s = row(ath)
+                teams[name] = tname
+                if gname == "passing":
+                    rec = slot(name, ("passYds",))
+                    rec["passYds"] += num(s, "YDS")
+                elif gname == "rushing":
+                    rec = slot(name, ("rushYds", "tds"))
+                    rec["rushYds"] += num(s, "YDS")
+                    rec["tds"] += num(s, "TD")
+                else:
+                    rec = slot(name, ("recYds", "receptions", "tds"))
+                    rec["recYds"] += num(s, "YDS")
+                    rec["receptions"] += num(s, "REC")
+                    rec["tds"] += num(s, "TD")
+    return out, teams
+
+
+def parse_nba(box):
+    out, teams = {}, {}
+    for team_block in box.get("players", []):
+        tname = ((team_block.get("team") or {}).get("displayName")) or "?"
+        for group in team_block.get("statistics", []):
+            row = stat_map(group)
+            for ath in group.get("athletes", []):
+                name = ((ath.get("athlete") or {}).get("displayName") or "").strip()
+                if not name or ath.get("didNotPlay"):
+                    continue
+                s = row(ath)
+                if not (s.get("MIN") or "").strip():
+                    continue
+                teams[name] = tname
+                pts, reb, ast = num(s, "PTS"), num(s, "REB"), num(s, "AST")
+                out[name] = {"points": pts, "rebounds": reb, "assists": ast,
+                             "pra": pts + reb + ast}
+    return out, teams
+
+
+PARSERS = {"NFL": parse_nfl, "NBA": parse_nba}
+
+
+def season_type(event, scoreboard):
+    """1 = preseason, 2 = regular, 3 = post. None when ESPN does not say.
+
+    Preseason has to be identifiable because it MUST be excluded from player
+    logs. Starters play a quarter and sit; a quarterback throws for fifty yards
+    and leaves. Those games are real and completed, so they sail through a
+    'finished games' filter — and because recency weighting counts the newest
+    games heaviest, in early September they dominate every projection. That is
+    how C.J. Stroud came out projected for 156 passing yards against a 218.5
+    line, making the under look like an 80% shot when it is closer to a coin
+    flip. Nothing about the model was wrong; it was being fed exhibition games.
+    """
+    for src in (event or {}), (event or {}).get("competitions", [{}])[0] if (event or {}).get("competitions") else {}:
+        st = (src or {}).get("season") or {}
+        t = st.get("type")
+        if isinstance(t, dict):
+            t = t.get("type")
+        if isinstance(t, int):
+            return t
+        if isinstance(t, str) and t.isdigit():
+            return int(t)
+    lg = ((scoreboard or {}).get("leagues") or [{}])[0]
+    t = ((lg.get("season") or {}).get("type") or {}).get("type")
+    return t if isinstance(t, int) else None
+
+
+def load_logs():
+    try:
+        with open(LOGS_PATH) as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        data = {}
+    for lg in LEAGUE_PATHS:
+        blob = data.get(lg)
+        if not isinstance(blob, dict) or blob.get("version") != LOG_VERSION:
+            blob = {"version": LOG_VERSION, "seen": [], "games": []}
+        blob.setdefault("seen", [])
+        blob.setdefault("games", [])
+        blob["version"] = LOG_VERSION
+        data[lg] = blob
+    return data
+
+
+def save_logs(data):
+    # Bound the file: keep the newest LOG_DAYS worth and the ids that go with it.
+    for lg, blob in data.items():
+        if not isinstance(blob, dict):
+            continue
+        cut = (date.today() - timedelta(days=LOG_DAYS.get(lg, 400))).isoformat()
+        blob["games"] = [g for g in blob["games"] if g.get("date", "") >= cut]
+        keep = {g.get("event") for g in blob["games"]}
+        blob["seen"] = sorted(x for x in blob["seen"] if x in keep)
+        blob["version"] = LOG_VERSION
+    with open(LOGS_PATH, "w") as f:
+        json.dump(data, f, separators=(",", ":"))
+
+
+def refresh_logs(league, diag):
+    """Add every finished game not already cached. Newest first, capped."""
+    path = LEAGUE_PATHS[league]
+    logs = load_logs()
+    blob = logs[league]
+    seen = set(blob["seen"])
+
+    # A full 400-day sweep is only needed the first time. Once the cache has
+    # games in it, anything new is within the last few weeks — re-scanning a
+    # year of scoreboards every run would triple the ESPN traffic and add
+    # minutes to a job that also runs before kickoff.
+    span = LOG_DAYS.get(league, 400) if not blob["games"] else 21
+    if blob["games"]:
+        newest = max(g.get("date", "") for g in blob["games"])
+        try:
+            behind = (date.today() - datetime.fromisoformat(newest).date()).days
+            span = max(span, min(behind + 3, LOG_DAYS.get(league, 400)))
+        except ValueError:
+            pass
+
+    wanted = []          # [(event_id, iso_date)] newest first
+    today = date.today()
+    preseason_skipped = 0
+    pre_ids = set()
+    for i in range(span):
+        d = today - timedelta(days=i + 1)
+        js = espn_get("/apis/site/v2/sports/%s/scoreboard" % path,
+                      {"dates": d.strftime("%Y%m%d"), "limit": 400},
+                      diag, "%s scoreboard %s" % (league, d))
+        if not js:
+            continue
+        for ev in js.get("events", []):
+            comp = (ev.get("competitions") or [{}])[0]
+            if not comp.get("status", {}).get("type", {}).get("completed"):
+                continue
+            if season_type(ev, js) == 1:
+                preseason_skipped += 1
+                # Also evict it if an earlier run cached it. Skipping only new
+                # preseason games left the old ones in the log, and since the
+                # staleness gate below measures each player against the NEWEST
+                # game on file, one stale preseason date made every veteran
+                # look like he had not played in six months. That emptied the
+                # entire prop card while every other diagnostic read normal.
+                pre_ids.add(str(ev.get("id") or ""))
+                continue
+            eid = str(ev.get("id") or "")
+            if eid and eid not in seen:
+                wanted.append((eid, d.isoformat()))
+        if len(wanted) >= MAX_NEW_BOXSCORES:
+            break
+        time.sleep(0.03)
+
+    if preseason_skipped:
+        diag.append("%s player logs: skipped %d preseason games — starters play a "
+                    "quarter in those, so counting them drags every projection "
+                    "down" % (league, preseason_skipped))
+
+    if pre_ids:
+        before = len(blob["games"])
+        blob["games"] = [g for g in blob["games"] if str(g.get("event")) not in pre_ids]
+        blob["seen"] = [x for x in blob["seen"] if x not in pre_ids]
+        evicted = before - len(blob["games"])
+        if evicted:
+            diag.append("%s player logs: evicted %d player-games left over from "
+                        "preseason by an earlier run" % (league, evicted))
+            save_logs(logs)
+
+    if not wanted:
+        diag.append("%s player logs: cache already current (%d player-games, "
+                    "looked back %d days)" % (league, len(blob["games"]), span))
+        return logs
+
+    wanted = wanted[:MAX_NEW_BOXSCORES]
+    parser = PARSERS[league]
+    added = 0
+    for eid, iso in wanted:
+        js = espn_get("/apis/site/v2/sports/%s/summary" % path, {"event": eid},
+                      diag, "%s box score %s" % (league, eid))
+        if not js:
+            continue
+        box = js.get("boxscore") or {}
+        try:
+            players, teams = parser(box)
+        except Exception as e:
+            diag.append("%s box score %s did not parse — %s" % (league, eid, e))
+            continue
+        if not players:
+            continue
+        # opponent for each team in this game, for the defence adjustment
+        sides = []
+        for tb in box.get("players", []):
+            nm = ((tb.get("team") or {}).get("displayName"))
+            if nm:
+                sides.append(nm)
+        opp_of = {}
+        if len(sides) == 2:
+            opp_of = {sides[0]: sides[1], sides[1]: sides[0]}
+        for name, stats in players.items():
+            team = teams.get(name, "?")
+            blob["games"].append({
+                "event": eid, "date": iso, "player": name, "team": team,
+                "opp": opp_of.get(team, "?"),
+                # Zeros are kept deliberately. A player who took the field and
+                # did not score has a real 0 in his touchdown log, and dropping
+                # it — as an earlier version did to save space — makes every
+                # average an average of his SCORING games only. That put elite
+                # backs at 1.4 touchdowns per game and made "at least one" a 76%
+                # shot, producing 30- and 50-point edges the credible-edge cap
+                # then had to discard. Keys exist only for the stat groups the
+                # player actually appeared in, so a quarterback still carries no
+                # reception line.
+                **{k: round(v, 2) for k, v in stats.items()},
+            })
+        blob["seen"].append(eid)
+        added += 1
+        time.sleep(0.03)
+
+    diag.append("%s player logs: added %d box scores, %d player-games cached"
+                % (league, added, len(blob["games"])))
+    save_logs(logs)
+    return logs
+
+
+# ----------------------------------------------------------- projections ----
+def weighted(vals, half_life):
+    """(mean, variance, effective n) with the newest entry weighted most.
+
+    vals arrives oldest-first. Weight 0.5 ** (games_ago / half_life), so the
+    most recent game counts 1.0 and one half-life back counts 0.5.
+    """
+    n = len(vals)
+    ws = [0.5 ** ((n - 1 - i) / half_life) for i in range(n)]
+    sw = sum(ws)
+    if sw <= 0:
+        return 0.0, 0.0, 0.0
+    mean = sum(w * v for w, v in zip(ws, vals)) / sw
+    sw2 = sum(w * w for w in ws)
+    n_eff = (sw * sw) / sw2 if sw2 else 0.0
+    if n_eff <= 1:
+        return mean, 0.0, n_eff
+    # reliability-weighted (unbiased) variance
+    var = sum(w * (v - mean) ** 2 for w, v in zip(ws, vals)) / (sw - sw2 / sw)
+    return mean, max(var, 0.0), n_eff
+
+
+def build_projections(league, logs, diag):
+    """{player: {stat: {'mean','sd','n','last','team'}}} plus defence factors."""
+    games = sorted(logs[league]["games"], key=lambda g: g.get("date", ""))
+    if not games:
+        return {}, {}, None
+
+    stats = sorted({MARKETS[m][0] for m in MARKETS if MARKETS[m][2] == league})
+
+    by_player = defaultdict(lambda: defaultdict(list))   # player -> stat -> [(date, v)]
+    last_seen, team_of = {}, {}
+    allowed = defaultdict(lambda: defaultdict(list))     # defence -> stat -> [per-game total]
+    per_game_def = defaultdict(lambda: defaultdict(float))  # (event,def) -> stat -> total
+
+    for g in games:
+        p, d = g["player"], g["date"]
+        last_seen[p] = max(last_seen.get(p, ""), d)
+        team_of[p] = g.get("team", "?")
+        for s in stats:
+            if s in g:
+                by_player[p][s].append((d, float(g[s])))
+                if g.get("opp") and g["opp"] != "?":
+                    per_game_def[(g["event"], g["opp"])][s] += float(g[s])
+    for (_, defence), sm in per_game_def.items():
+        for s, v in sm.items():
+            allowed[defence][s].append(v)
+
+    # league average allowed per game, then each defence relative to it
+    league_avg = {}
+    for s in stats:
+        pool = [v for dfn in allowed.values() for v in dfn.get(s, [])]
+        league_avg[s] = (sum(pool) / len(pool)) if pool else 0.0
+
+    def_factor = defaultdict(dict)
+    for defence, sm in allowed.items():
+        for s, vals in sm.items():
+            if not vals or league_avg.get(s, 0) <= 0:
+                continue
+            raw = (sum(vals) / len(vals)) / league_avg[s]
+            n = len(vals)
+            f = (n * raw + DEF_SHRINK * 1.0) / (n + DEF_SHRINK)   # toward neutral
+            def_factor[defence][s] = min(DEF_CLAMP[1], max(DEF_CLAMP[0], f))
+
+    # Baseline per stat, used as the prior a thin sample is shrunk toward.
+    #
+    # This was originally the median across EVERY player who recorded the stat,
+    # which was badly wrong. For passing yards that pool is mostly backups who
+    # threw a few passes, so the median sat near 60 yards — and a 240-yard
+    # starter with five games got dragged to about 170. The model then loved
+    # every passing-yards UNDER on the board, which is exactly the pattern that
+    # showed up on a hand-picked card: seven of eleven props were unders.
+    #
+    # The prior has to come from COMPARABLE players. Bucket each stat's players
+    # into quintiles by their own raw mean and use each bucket's median, so a
+    # starter is shrunk toward other starters and a rotation player toward other
+    # rotation players. Shrinkage still does its job on a fluky short sample
+    # without pretending a starter is a backup.
+    tiers = {}
+    for s in stats:
+        means = sorted(sum(v for _, v in by_player[p][s]) / len(by_player[p][s])
+                       for p in by_player if len(by_player[p].get(s, [])) >= 3)
+        means = [m for m in means if m > 0]
+        if not means:
+            tiers[s] = []
+            continue
+        k = max(1, len(means) // 5)
+        buckets = [means[i:i + k] for i in range(0, len(means), k)] or [means]
+        tiers[s] = [(b[0], b[-1], b[len(b) // 2]) for b in buckets if b]
+
+    half = HALF_LIFE.get(league, 8.0)
+    latest = games[-1]["date"]
+    proj = {}
+    for p, per_stat in by_player.items():
+        entry = {}
+        for s, series in per_stat.items():
+            series.sort(key=lambda x: x[0])
+            vals = [v for _, v in series]
+            if len(vals) < 3:
+                continue
+            mean_r, var_r, n_eff = weighted(vals, half)
+            entry[s] = {"mean_raw": mean_r, "var_raw": var_r, "n": len(vals),
+                        "n_eff": n_eff}
+        if entry:
+            proj[p] = {"stats": entry, "last": last_seen.get(p, ""),
+                       "team": team_of.get(p, "?")}
+
+    # Every date each team appears on. The staleness gate uses this to ask the
+    # only question that actually matters — has this player's team played games
+    # he did not appear in? — rather than "how long ago did he last play", which
+    # is unanswerable in a season opener when the honest answer for everyone is
+    # "last February".
+    team_dates = defaultdict(set)
+    for g in games:
+        if g.get("team") and g.get("team") != "?":
+            team_dates[g["team"]].add(g["date"])
+    team_dates = {t: sorted(ds) for t, ds in team_dates.items()}
+
+    return proj, {"def": def_factor, "tiers": tiers, "latest": latest,
+                  "team_dates": team_dates}, latest
+
+
+def tier_baseline(ctx, stat, raw_mean):
+    """The median of the usage bucket this player's own average falls in."""
+    buckets = (ctx.get("tiers") or {}).get(stat) or []
+    if not buckets:
+        return raw_mean
+    for lo, hi, med in buckets:
+        if lo <= raw_mean <= hi:
+            return med
+    return buckets[0][2] if raw_mean < buckets[0][0] else buckets[-1][2]
+
+
+# ------------------------------------------------------- distributions ------
+def ncdf(z):
+    return 0.5 * (1.0 + math.erf(z / math.sqrt(2.0)))
+
+
+def gammap(a, x):
+    """Regularized lower incomplete gamma P(a, x) = P(X <= x) for Gamma(a, 1)."""
+    if a <= 0 or x <= 0:
+        return 0.0
+    if x < a + 1.0:
+        ap, s, d = a, 1.0 / a, 1.0 / a
+        for _ in range(1000):
+            ap += 1.0
+            d *= x / ap
+            s += d
+            if abs(d) < abs(s) * 1e-14:
+                break
+        return min(1.0, s * math.exp(-x + a * math.log(x) - math.lgamma(a)))
+    tiny = 1e-300
+    b = x + 1.0 - a
+    c = 1.0 / tiny
+    d = 1.0 / b
+    h = d
+    for i in range(1, 1000):
+        an = -i * (i - a)
+        b += 2.0
+        d = an * d + b
+        if abs(d) < tiny:
+            d = tiny
+        c = b + an / c
+        if abs(c) < tiny:
+            c = tiny
+        d = 1.0 / d
+        step = d * c
+        h *= step
+        if abs(step - 1.0) < 1e-14:
+            break
+    q = math.exp(-x + a * math.log(x) - math.lgamma(a)) * h
+    return min(1.0, max(0.0, 1.0 - q))
+
+
+def p_over_gamma(mean, sd, line):
+    """P(X > line) for a gamma matched on mean and sd.
+
+    Gamma rather than normal because yardage is non-negative and skews right:
+    a receiver's ceiling is far above his median but his floor is zero, and a
+    normal curve puts real probability below zero and understates the long
+    games.
+    """
+    if mean <= 0 or sd <= 0:
+        return None
+    shape = (mean * mean) / (sd * sd)
+    scale = (sd * sd) / mean
+    if shape <= 0 or scale <= 0:
+        return None
+    return 1.0 - gammap(shape, line / scale)
+
+
+def p_over_count(mean, var, line):
+    """P(X > line) for a count. Negative binomial when overdispersed, else Poisson.
+
+    line is a half-point (4.5), so P(X > 4.5) = 1 - P(X <= 4): sum the pmf up
+    to floor(line). Getting this off by one silently misprices every count prop.
+    """
+    if mean <= 0:
+        return None
+    k_max = int(math.floor(line))
+    if k_max < 0:
+        return 1.0
+    if var > mean * 1.02:
+        r = (mean * mean) / (var - mean)
+        p = r / (r + mean)
+        if r <= 0 or not (0 < p < 1):
+            return None
+        cdf = 0.0
+        for k in range(k_max + 1):
+            lp = (math.lgamma(k + r) - math.lgamma(r) - math.lgamma(k + 1)
+                  + r * math.log(p) + k * math.log1p(-p))
+            cdf += math.exp(lp)
+    else:
+        cdf = 0.0
+        for k in range(k_max + 1):
+            cdf += math.exp(-mean + k * math.log(mean) - math.lgamma(k + 1))
+    return max(0.0, 1.0 - min(1.0, cdf))
+
+
+def p_at_least_one(lam):
+    """P(at least one TD) for a Poisson rate. Complement of P(none) = e^-lam."""
+    if lam <= 0:
+        return None
+    return 1.0 - math.exp(-lam)
+
+
+def half_point(x):
+    return x is not None and abs(x * 2) % 2 == 1
+
+
+# Calibration. Graded NFL props showed the model is overconfident on players:
+# props it called 80%+ went 21-30 (41%). So for NFL the model only keeps part of
+# its disagreement with the market. KEEP = 0.6 means: start from the book's
+# no-vig fair probability, then move 60% of the way toward our number.
+#   p_final = fair + KEEP * (p_model - fair)
+# Over and Under stay complementary: fair_over + fair_under = 1 and
+# p_over + p_under = 1, so the two calibrated values still add to exactly 1.
+CALIBRATION_KEEP = {"NFL": float(os.environ.get("NFL_PROP_KEEP", "0.6")), "NBA": 1.0}
+
+
+def _dec(a):
+    a = float(a)
+    return 1.0 + a / 100.0 if a > 0 else 1.0 + 100.0 / abs(a)
+
+
+def calibrate(league, p, price, other):
+    keep = CALIBRATION_KEEP.get(league, 1.0)
+    if keep >= 1.0 or p is None or price is None:
+        return p
+    imp = 1.0 / _dec(price)
+    if other is not None:
+        imp_o = 1.0 / _dec(other)
+        fair = imp / (imp + imp_o)      # vig divided out
+    else:
+        fair = imp                      # one-sided market (anytime TD with no No price)
+    return max(1e-6, min(1.0 - 1e-6, fair + keep * (p - fair)))
+
+
+# -------------------------------------------------------------- projecting --
+def project(league, player, stat, ctx, proj, opponent, shrink_games):
+    """(projection, None) or (None, reason). The reason is what gets logged.
+
+    Every early return names itself. A props run that silently produces nothing
+    used to be indistinguishable from a run with no edges in it.
+    """
+    rec = proj.get(player)
+    if not rec:
+        return None, "player has no game log"
+    if stat not in rec["stats"]:
+        return None, "under 3 logged games of %s" % stat
+    s = rec["stats"][stat]
+
+    # Is he actually unavailable? Measured in GAMES HIS TEAM PLAYED without
+    # him, not in days since he last played.
+    #
+    # Days-since cannot work. In a season opener every player's last game was
+    # the previous January or February, so a day-based gate rejects the entire
+    # league at once — which is exactly what emptied this card: the smallest gap
+    # on file was 213 days (the Super Bowl) against a 24-day limit, so all 717
+    # players failed. Counting missed team games asks the real question and
+    # answers it correctly in both cases: between seasons his team has played
+    # nothing either, so nobody is stale; mid-season a player who sat out three
+    # straight games his team played is genuinely not in the plans.
+    missed = 0
+    last = rec.get("last") or ""
+    for d in (ctx.get("team_dates") or {}).get(rec.get("team"), []):
+        if d > last:
+            missed += 1
+    if missed >= MISSED_GAMES_OUT:
+        return None, "sat out the last %d games his team played" % missed
+
+    base = tier_baseline(ctx, stat, s["mean_raw"])
+    n_eff = s["n_eff"]
+    mean = (n_eff * s["mean_raw"] + shrink_games * base) / (n_eff + shrink_games)
+    if mean <= 0:
+        return None, "projects to zero %s" % stat
+    # Belt and braces: the prior may never move a projection more than 20% off
+    # what the player himself has actually done. Shrinkage is meant to calm a
+    # small sample, not to overrule it. Skipped when the player's own average
+    # is zero, since the clamp would otherwise force the projection back to
+    # zero and throw away the prior entirely.
+    if s["mean_raw"] > 0:
+        lo, hi = s["mean_raw"] * 0.8, s["mean_raw"] * 1.2
+        mean = max(lo, min(hi, mean))
+
+    factor = ctx["def"].get(opponent, {}).get(stat, 1.0)
+    mean *= factor
+
+    var = s["var_raw"]
+    if var <= 0:
+        var = mean * max(mean, 1.0) * 0.35
+    sd = math.sqrt(var)
+    # a mean estimated from few games is itself uncertain; widen by that much
+    sd = sd * math.sqrt(1.0 + 1.0 / max(n_eff, 1.0))
+    return {"mean": mean, "sd": sd, "var": var * (1.0 + 1.0 / max(n_eff, 1.0)),
+            "n": s["n"], "factor": factor}, None
+
+
+# ------------------------------------------------------------- odds fetch ----
+def load_cache():
+    try:
+        with open(CACHE_PATH) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def save_cache(c):
+    with open(CACHE_PATH, "w") as f:
+        json.dump(c, f, separators=(",", ":"))
+
+
+def fetch_event_props(sport_key, event_id, market_keys, keys, exhausted, diag, cache):
+    """FanDuel props for one event, from cache when fresh enough.
+
+    Billed per market per event, which is why the cache exists: the pre-kickoff
+    refreshes re-read the same slate and would otherwise re-buy every market.
+    """
+    ck = "%s:%s:%s" % (sport_key, event_id, ",".join(sorted(market_keys)))
+    hit = cache.get(ck)
+    if hit:
+        try:
+            age = (datetime.now(timezone.utc)
+                   - datetime.fromisoformat(hit["at"])).total_seconds() / 60.0
+            if age < CACHE_MINUTES:
+                return hit["data"], True, "cache"
+        except (ValueError, KeyError):
+            pass
+
+    url = ("https://api.the-odds-api.com/v4/sports/%s/events/%s/odds"
+           % (sport_key, event_id))
+    for i, key in enumerate(keys):
+        if key in exhausted:
+            continue
+        label = "primary" if i == 0 else "backup %d" % i
+        try:
+            r = requests.get(url, timeout=HTTP_TIMEOUT, params={
+                "apiKey": key, "regions": "us", "oddsFormat": "american",
+                "markets": ",".join(market_keys), "bookmakers": "fanduel"})
+        except Exception as e:
+            diag.append("props %s: %s key failed — %s" % (event_id, label, e))
+            continue
+        if r.status_code == 200:
+            left = r.headers.get("x-requests-remaining")
+            data = r.json()
+            cache[ck] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                         "data": data}
+            if left is not None:
+                try:
+                    if int(left) <= CREDIT_RESERVE:
+                        exhausted.add(key)
+                        diag.append("props: %s key down to %s credits — at the "
+                                    "reserve floor, stopping paid prop calls on it"
+                                    % (label, left))
+                except ValueError:
+                    pass
+            return data, False, "ok"
+        body = r.text[:160]
+        if r.status_code in (401, 429) and ("USAGE" in body.upper() or "QUOTA" in body.upper()):
+            exhausted.add(key)
+            diag.append("props: %s key is out of credits" % label)
+            continue
+        if r.status_code == 404:
+            # No prop board for this event yet. Counted and reported by the
+            # caller — a silent 404 once emptied a whole card while the log
+            # still read as a normal run.
+            return None, False, "no board"
+        diag.append("props %s on %s key: HTTP %d %s" % (event_id, label, r.status_code, body))
+        return None, False, "http %d" % r.status_code
+    return None, False, "no key"
+
+
+# ----------------------------------------------------------------- names ----
+SUFFIX = re.compile(r"\b(jr|sr|ii|iii|iv|v)\b")
+
+
+def norm_name(n):
+    n = (n or "").lower()
+    n = n.replace(".", " ").replace("'", "").replace("-", " ")
+    n = SUFFIX.sub(" ", n)
+    return " ".join(n.split())
+
+
+def short_key(n):
+    parts = norm_name(n).split()
+    if len(parts) < 2:
+        return norm_name(n)
+    return parts[0][0] + " " + parts[-1]
+
+
+def name_index(proj):
+    idx, short = {}, {}
+    for p in proj:
+        idx[norm_name(p)] = p
+        short.setdefault(short_key(p), []).append(p)
+    return idx, short
+
+
+def match_player(name, idx, short):
+    k = norm_name(name)
+    if k in idx:
+        return idx[k]
+    cands = short.get(short_key(name), [])
+    # only accept a first-initial match when it is unambiguous — two players
+    # sharing "j smith" must not silently resolve to whichever came first
+    return cands[0] if len(cands) == 1 else None
+
+
+# ----------------------------------------------------------------- build ----
+def build_props(league, sport_key, events, keys, exhausted, diag):
+    """[{...priced prop side...}] for the given upcoming events."""
+    if league not in LEAGUE_PATHS:
+        return []
+    market_keys = [m for m, v in MARKETS.items() if v[2] == league]
+    if not market_keys:
+        return []
+
+    logs = refresh_logs(league, diag)
+    proj, ctx, latest = build_projections(league, logs, diag)
+    if not proj or not ctx:
+        diag.append("%s props: no player logs to project from — skipped" % league)
+        return []
+    idx, short = name_index(proj)
+    diag.append("%s props: projections for %d players from %d player-games"
+                % (league, len(proj), len(logs[league]["games"])))
+
+    cache = load_cache()
+    out = []
+    used = cached_hits = 0
+    # Why each event produced nothing. A props run that quietly returns zero
+    # sides is the failure this counter exists to make visible.
+    outcome, unmatched, no_markets = {}, set(), 0
+    # Players we DID match but could not price. Without this the log blamed
+    # name matching for failures that were really the staleness gate.
+    filtered = {}
+    for ev in events[:MAX_EVENTS]:
+        eid = ev.get("id")
+        home, away = ev.get("home_team"), ev.get("away_team")
+        if not (eid and home and away):
+            continue
+        if all(k in exhausted for k in keys):
+            diag.append("props: every key is at or past its reserve — "
+                        "%d events left unpriced" % (len(events) - used))
+            break
+        data, from_cache, why = fetch_event_props(sport_key, eid, market_keys, keys,
+                                                   exhausted, diag, cache)
+        used += 1
+        cached_hits += 1 if from_cache else 0
+        if not data:
+            outcome[why] = outcome.get(why, 0) + 1
+            continue
+        books = data.get("bookmakers") or []
+        if not books:
+            outcome["no fanduel"] = outcome.get("no fanduel", 0) + 1
+            continue
+        found_market = False
+        for m in books[0].get("markets", []):
+            mkey = m.get("key")
+            if mkey not in MARKETS:
+                continue
+            found_market = True
+            stat, kind, _lg, min_games, shrink = MARKETS[mkey]
+            # group the two sides of each player's line together
+            per_player = defaultdict(dict)
+            for o in m.get("outcomes", []):
+                who = o.get("description") or o.get("name")
+                side = (o.get("name") or "").lower()
+                per_player[who][side] = o
+            for who, sides in per_player.items():
+                matched = match_player(who, idx, short)
+                if not matched:
+                    unmatched.add(who)
+                    continue
+                # a player's own team is where he last played; the defence he
+                # faces is the other team in this event
+                team = proj[matched]["team"]
+                opponent = away if norm_name(team) == norm_name(home) else home
+                pr, why_not = project(league, matched, stat, ctx, proj,
+                                      opponent, shrink)
+                if not pr:
+                    filtered[why_not] = filtered.get(why_not, 0) + 1
+                    continue
+                if pr["n"] < min_games:
+                    filtered["under %d games of history" % min_games] = \
+                        filtered.get("under %d games of history" % min_games, 0) + 1
+                    continue
+
+                if kind == "poisson":
+                    yes = sides.get("yes")
+                    if not yes or yes.get("price") is None:
+                        continue
+                    p = p_at_least_one(pr["mean"])
+                    if p is None:
+                        continue
+                    no = sides.get("no")
+                    out.append({
+                        "sport": league, "home": home, "away": away,
+                        "time": ev.get("commence_time"), "eventId": eid,
+                        "player": matched, "market": mkey,
+                        "marketLabel": MARKET_LABEL[mkey], "line": None,
+                        "side": "Yes", "label": "%s anytime TD" % matched,
+                        "p": round(calibrate(league, p, yes.get("price"),
+                                              (no or {}).get("price")), 6),
+                        "price": yes.get("price"),
+                        "other": (no or {}).get("price"),
+                        "proj": round(pr["mean"], 3), "sd": None,
+                        "n": pr["n"], "defFactor": round(pr["factor"], 3),
+                    })
+                    continue
+
+                over, under = sides.get("over"), sides.get("under")
+                if not over or not under:
+                    continue
+                line = over.get("point")
+                if not half_point(line):
+                    continue        # whole number: a push is a third outcome
+                if kind == "gamma":
+                    p_over = p_over_gamma(pr["mean"], pr["sd"], line)
+                else:
+                    p_over = p_over_count(pr["mean"], pr["var"], line)
+                if p_over is None or not (0 < p_over < 1):
+                    continue
+                base = {
+                    "sport": league, "home": home, "away": away,
+                    "time": ev.get("commence_time"), "eventId": eid,
+                    "player": matched, "market": mkey,
+                    "marketLabel": MARKET_LABEL[mkey], "line": line,
+                    "proj": round(pr["mean"], 3), "sd": round(pr["sd"], 3),
+                    "n": pr["n"], "defFactor": round(pr["factor"], 3),
+                }
+                p_over_c = calibrate(league, p_over, over.get("price"), under.get("price"))
+                out.append(dict(base, side="Over", p=round(p_over_c, 6),
+                                label="%s Over %s %s" % (matched, line, MARKET_LABEL[mkey].lower()),
+                                price=over.get("price"), other=under.get("price")))
+                out.append(dict(base, side="Under", p=round(1.0 - p_over_c, 6),
+                                label="%s Under %s %s" % (matched, line, MARKET_LABEL[mkey].lower()),
+                                price=under.get("price"), other=over.get("price")))
+
+        if not found_market:
+            no_markets += 1
+
+    save_cache(cache)
+    if out:
+        diag.append("%s props: %d events read (%d cached, %d fetched), "
+                    "%d priced sides" % (league, used, cached_hits,
+                                         used - cached_hits, len(out)))
+    else:
+        # Say exactly why nothing came back, in plain terms.
+        parts = ["%s props: %d events read but NO sides priced" % (league, used)]
+        if outcome:
+            parts.append("reasons: " + ", ".join(
+                "%d %s" % (v, k) for k, v in sorted(outcome.items())))
+        if no_markets:
+            parts.append("%d events returned a FanDuel board with none of our "
+                         "markets on it" % no_markets)
+        if unmatched:
+            sample = ", ".join(sorted(unmatched)[:5])
+            parts.append("%d player names on the board matched nobody in our "
+                         "game logs (e.g. %s)" % (len(unmatched), sample))
+        if filtered:
+            parts.append("matched but not priced: " + ", ".join(
+                "%d %s" % (v, k) for k, v in sorted(filtered.items())))
+        diag.append(" — ".join(parts))
+    return out
