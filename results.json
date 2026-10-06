@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": -0.016760000000000004,
-   "clv_beat_rate": 0.2911111111111111,
-   "clv_n": 450,
-   "graded": 511,
+   "avg_clv": -0.016612334801762118,
+   "clv_beat_rate": 0.28854625550660795,
+   "clv_n": 454,
+   "graded": 516,
    "record": {
-    "l": 250,
+    "l": 252,
     "p": 0,
     "void": 10,
-    "w": 261
+    "w": 264
    },
-   "win_rate": 0.5107632093933464
+   "win_rate": 0.5116279069767442
   }
  },
  "by_sport": {
@@ -68,36 +68,36 @@
    "win_rate": 0.5
   },
   "NFL Props": {
-   "avg_clv": 0.07175471698113207,
-   "clv_beat_rate": 0.07547169811320754,
-   "clv_n": 159,
-   "graded": 198,
+   "avg_clv": 0.07042592592592592,
+   "clv_beat_rate": 0.07407407407407407,
+   "clv_n": 162,
+   "graded": 202,
    "record": {
-    "l": 104,
+    "l": 106,
     "p": 0,
     "void": 15,
-    "w": 94
+    "w": 96
    },
-   "win_rate": 0.47474747474747475
+   "win_rate": 0.4752475247524752
   },
   "NFL Sides": {
-   "avg_clv": -0.26996341463414636,
-   "clv_beat_rate": 0.34146341463414637,
-   "clv_n": 82,
-   "graded": 101,
+   "avg_clv": -0.266710843373494,
+   "clv_beat_rate": 0.3373493975903614,
+   "clv_n": 83,
+   "graded": 102,
    "record": {
     "l": 52,
     "p": 0,
     "void": 0,
-    "w": 49
+    "w": 50
    },
-   "win_rate": 0.48514851485148514
+   "win_rate": 0.49019607843137253
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6874 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6894 player-games cached"
  ],
- "generated_at": "2026-10-06T02:40:04+00:00",
+ "generated_at": "2026-10-06T14:32:10+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
@@ -262,10 +262,10 @@
    "win_rate": 0.375
   },
   "Props": {
-   "avg_clv": 0.07175471698113207,
-   "clv_beat_rate": 0.07547169811320754,
-   "clv_n": 159,
-   "graded": 198,
+   "avg_clv": 0.07042592592592592,
+   "clv_beat_rate": 0.07407407407407407,
+   "clv_n": 162,
+   "graded": 202,
    "label": "Player props",
    "picks": [
     {
@@ -3149,6 +3149,60 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": 102,
+     "clv": 0.0,
+     "edge": 17.042,
+     "ev": 0.34425,
+     "final": "5",
+     "game": "Atlanta Falcons @ New Orleans Saints",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Drake London Under 5.5 receptions",
+     "player": "Drake London",
+     "price": 102,
+     "proj": 4.66,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 17.016,
+     "ev": 0.31943,
+     "final": "35",
+     "game": "Atlanta Falcons @ New Orleans Saints",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Alvin Kamara Under 16.5 receiving yards",
+     "player": "Alvin Kamara",
+     "price": -114,
+     "proj": 13.69,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 16.985,
+     "ev": 0.31884,
+     "final": "223",
+     "game": "Atlanta Falcons @ New Orleans Saints",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Michael Penix Jr. Under 224.5 passing yards",
+     "player": "Michael Penix Jr.",
+     "price": -114,
+     "proj": 198.952,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": -114,
      "clv": 0.0,
      "edge": 16.933,
@@ -4101,22 +4155,40 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.738,
+     "ev": 4.87192,
+     "final": "0 TD",
+     "game": "Atlanta Falcons @ New Orleans Saints",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Kyle Pitts Sr. anytime TD",
+     "player": "Kyle Pitts Sr.",
+     "price": 2500,
+     "proj": 0.256,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 104,
+    "l": 106,
     "p": 0,
     "void": 15,
-    "w": 94
+    "w": 96
    },
    "threshold": 7.0,
-   "win_rate": 0.47474747474747475
+   "win_rate": 0.4752475247524752
   },
   "Sides": {
-   "avg_clv": -0.028169230769230776,
-   "clv_beat_rate": 0.37435897435897436,
-   "clv_n": 390,
-   "graded": 430,
+   "avg_clv": -0.02809718670076727,
+   "clv_beat_rate": 0.3734015345268542,
+   "clv_n": 391,
+   "graded": 431,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -11644,6 +11716,24 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 5.475,
+     "ev": 0.10739,
+     "final": "45-24",
+     "game": "Atlanta Falcons @ New Orleans Saints",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Atlanta Falcons +2.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": -113,
      "clv": -1.411,
      "edge": 5.09,
@@ -11864,16 +11954,16 @@
     "l": 203,
     "p": 0,
     "void": 0,
-    "w": 227
+    "w": 228
    },
    "threshold": 5.0,
-   "win_rate": 0.5279069767441861
+   "win_rate": 0.5290023201856149
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 27,
-  "Props": 120,
-  "Sides": 76
+  "Props": 116,
+  "Sides": 75
  }
 }
