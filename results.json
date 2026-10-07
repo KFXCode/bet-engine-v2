@@ -95,9 +95,9 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6894 player-games cached"
+  "NFL player logs: cache already current (6894 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-06T14:32:10+00:00",
+ "generated_at": "2026-10-07T14:48:14+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
