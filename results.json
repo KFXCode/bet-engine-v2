@@ -14,45 +14,45 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": -0.016612334801762118,
-   "clv_beat_rate": 0.28854625550660795,
-   "clv_n": 454,
-   "graded": 516,
+   "avg_clv": -0.005243421052631583,
+   "clv_beat_rate": 0.2894736842105263,
+   "clv_n": 456,
+   "graded": 518,
    "record": {
-    "l": 252,
+    "l": 253,
     "p": 0,
     "void": 10,
-    "w": 264
+    "w": 265
    },
-   "win_rate": 0.5116279069767442
+   "win_rate": 0.5115830115830116
   }
  },
  "by_sport": {
   "NCAAF Cosmic": {
-   "avg_clv": -1.0835,
-   "clv_beat_rate": 0.0,
-   "clv_n": 2,
-   "graded": 2,
+   "avg_clv": 0.8193333333333334,
+   "clv_beat_rate": 0.5,
+   "clv_n": 6,
+   "graded": 6,
    "record": {
-    "l": 2,
+    "l": 3,
     "p": 0,
     "void": 0,
-    "w": 0
+    "w": 3
    },
-   "win_rate": 0.0
+   "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.03620454545454545,
-   "clv_beat_rate": 0.38311688311688313,
-   "clv_n": 308,
-   "graded": 329,
+   "avg_clv": 0.052587096774193536,
+   "clv_beat_rate": 0.38387096774193546,
+   "clv_n": 310,
+   "graded": 331,
    "record": {
-    "l": 151,
+    "l": 152,
     "p": 0,
     "void": 0,
-    "w": 178
+    "w": 179
    },
-   "win_rate": 0.541033434650456
+   "win_rate": 0.540785498489426
   },
   "NFL Cosmic": {
    "avg_clv": 0.9780000000000001,
@@ -97,14 +97,14 @@
  "diagnostics": [
   "NFL player logs: cache already current (6894 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-07T14:48:14+00:00",
+ "generated_at": "2026-10-08T14:59:16+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
-   "avg_clv": 0.29083333333333344,
-   "clv_beat_rate": 0.3333333333333333,
-   "clv_n": 6,
-   "graded": 8,
+   "avg_clv": 0.8827999999999999,
+   "clv_beat_rate": 0.5,
+   "clv_n": 10,
+   "graded": 12,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -198,6 +198,42 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": 122,
+     "clv": 0.0,
+     "edge": 16.79,
+     "ev": 0.37274,
+     "final": "27-26",
+     "game": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Kennesaw State Owls ML",
+     "player": null,
+     "price": 122,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -124,
+     "clv": 5.151,
+     "edge": 19.123,
+     "ev": 0.38245,
+     "final": "27-26",
+     "game": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Kennesaw State Owls +2.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": 210,
      "clv": 0.0,
      "edge": 18.966,
@@ -214,6 +250,42 @@
      "result": "L",
      "sport": "NCAAF",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": -184,
+     "clv": 0.849,
+     "edge": 3.096,
+     "ev": 0.04835,
+     "final": "3-22",
+     "game": "New Mexico State Aggies @ Florida International Panthers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Florida International Panthers ML",
+     "player": null,
+     "price": -178,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -110,
+     "clv": 1.083,
+     "edge": 2.328,
+     "ev": 0.04546,
+     "final": "3-22",
+     "game": "New Mexico State Aggies @ Florida International Panthers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Florida International Panthers -4.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
     },
     {
      "closing_price": null,
@@ -253,13 +325,13 @@
     }
    ],
    "record": {
-    "l": 5,
+    "l": 6,
     "p": 0,
     "void": 0,
-    "w": 3
+    "w": 6
    },
    "threshold": null,
-   "win_rate": 0.375
+   "win_rate": 0.5
   },
   "Props": {
    "avg_clv": 0.07042592592592592,
@@ -4185,10 +4257,10 @@
    "win_rate": 0.4752475247524752
   },
   "Sides": {
-   "avg_clv": -0.02809718670076727,
-   "clv_beat_rate": 0.3734015345268542,
-   "clv_n": 391,
-   "graded": 431,
+   "avg_clv": -0.014847328244274817,
+   "clv_beat_rate": 0.37404580152671757,
+   "clv_n": 393,
+   "graded": 433,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -11770,6 +11842,42 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": 122,
+     "clv": 0.0,
+     "edge": 16.79,
+     "ev": 0.37274,
+     "final": "27-26",
+     "game": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Kennesaw State Owls ML",
+     "player": null,
+     "price": 122,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -124,
+     "clv": 5.151,
+     "edge": 19.123,
+     "ev": 0.38245,
+     "final": "27-26",
+     "game": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Kennesaw State Owls +2.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": -110,
      "clv": 0.0,
      "edge": 5.836,
@@ -11951,19 +12059,19 @@
     }
    ],
    "record": {
-    "l": 203,
+    "l": 204,
     "p": 0,
     "void": 0,
-    "w": 228
+    "w": 229
    },
    "threshold": 5.0,
-   "win_rate": 0.5290023201856149
+   "win_rate": 0.5288683602771362
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 27,
+  "Cosmic": 23,
   "Props": 116,
-  "Sides": 75
+  "Sides": 73
  }
 }
