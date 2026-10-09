@@ -14,45 +14,45 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.007338427947598249,
-   "clv_beat_rate": 0.2903930131004367,
-   "clv_n": 458,
-   "graded": 520,
+   "avg_clv": 0.002552688172043007,
+   "clv_beat_rate": 0.2860215053763441,
+   "clv_n": 465,
+   "graded": 529,
    "record": {
-    "l": 253,
+    "l": 259,
     "p": 0,
     "void": 10,
-    "w": 267
+    "w": 270
    },
-   "win_rate": 0.5134615384615384
+   "win_rate": 0.5103969754253308
   }
  },
  "by_sport": {
   "NCAAF Cosmic": {
-   "avg_clv": 1.3335,
-   "clv_beat_rate": 0.5,
-   "clv_n": 8,
-   "graded": 8,
+   "avg_clv": 0.6566,
+   "clv_beat_rate": 0.4,
+   "clv_n": 10,
+   "graded": 10,
    "record": {
-    "l": 3,
+    "l": 5,
     "p": 0,
     "void": 0,
     "w": 5
    },
-   "win_rate": 0.625
+   "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.07068589743589743,
-   "clv_beat_rate": 0.38461538461538464,
-   "clv_n": 312,
-   "graded": 333,
+   "avg_clv": 0.06291139240506327,
+   "clv_beat_rate": 0.379746835443038,
+   "clv_n": 316,
+   "graded": 337,
    "record": {
-    "l": 152,
+    "l": 154,
     "p": 0,
     "void": 0,
-    "w": 181
+    "w": 183
    },
-   "win_rate": 0.5435435435435435
+   "win_rate": 0.543026706231454
   },
   "NFL Cosmic": {
    "avg_clv": 0.9780000000000001,
@@ -68,17 +68,17 @@
    "win_rate": 0.5
   },
   "NFL Props": {
-   "avg_clv": 0.07042592592592592,
-   "clv_beat_rate": 0.07407407407407407,
-   "clv_n": 162,
-   "graded": 202,
+   "avg_clv": 0.06914545454545454,
+   "clv_beat_rate": 0.07272727272727272,
+   "clv_n": 165,
+   "graded": 207,
    "record": {
-    "l": 106,
+    "l": 110,
     "p": 0,
     "void": 15,
-    "w": 96
+    "w": 97
    },
-   "win_rate": 0.4752475247524752
+   "win_rate": 0.46859903381642515
   },
   "NFL Sides": {
    "avg_clv": -0.266710843373494,
@@ -95,16 +95,16 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6894 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6914 player-games cached"
  ],
- "generated_at": "2026-10-09T02:29:55+00:00",
+ "generated_at": "2026-10-09T14:44:12+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
-   "avg_clv": 1.215,
-   "clv_beat_rate": 0.5,
-   "clv_n": 12,
-   "graded": 14,
+   "avg_clv": 0.7484285714285714,
+   "clv_beat_rate": 0.42857142857142855,
+   "clv_n": 14,
+   "graded": 16,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -324,6 +324,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -110,
+     "clv": -2.174,
+     "edge": 5.836,
+     "ev": 0.107,
+     "final": "56-49",
+     "game": "South Alabama Jaguars @ Arkansas State Red Wolves",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Arkansas State Red Wolves ML",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -102,
+     "clv": -1.928,
+     "edge": 3.467,
+     "ev": 0.06618,
+     "final": "56-49",
+     "game": "South Alabama Jaguars @ Arkansas State Red Wolves",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Arkansas State Red Wolves -1.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 10.379,
@@ -361,19 +397,19 @@
     }
    ],
    "record": {
-    "l": 6,
+    "l": 8,
     "p": 0,
     "void": 0,
     "w": 8
    },
    "threshold": null,
-   "win_rate": 0.5714285714285714
+   "win_rate": 0.5
   },
   "Props": {
-   "avg_clv": 0.07042592592592592,
-   "clv_beat_rate": 0.07407407407407407,
-   "clv_n": 162,
-   "graded": 202,
+   "avg_clv": 0.06914545454545454,
+   "clv_beat_rate": 0.07272727272727272,
+   "clv_n": 165,
+   "graded": 207,
    "label": "Player props",
    "picks": [
     {
@@ -4265,6 +4301,60 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 18.957,
+     "ev": 0.35585,
+     "final": "37",
+     "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Chris Godwin Jr. Over 26.5 receiving yards",
+     "player": "Chris Godwin Jr.",
+     "price": -114,
+     "proj": 45.696,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.974,
+     "ev": 0.95262,
+     "final": "0 TD",
+     "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Kenny Gainwell anytime TD",
+     "player": "Kenny Gainwell",
+     "price": 430,
+     "proj": 0.46,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 12.457,
+     "ev": 0.23384,
+     "final": "17",
+     "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Javonte Williams Under 14.5 receiving yards",
+     "player": "Javonte Williams",
+     "price": -114,
+     "proj": 13.087,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.738,
@@ -4281,22 +4371,58 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 124,
+     "clv": 0.0,
+     "edge": 15.034,
+     "ev": 0.33676,
+     "final": "3",
+     "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Chris Godwin Jr. Over 3.5 receptions",
+     "player": "Chris Godwin Jr.",
+     "price": 124,
+     "proj": 4.158,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.613,
+     "ev": 0.29904,
+     "final": "0",
+     "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Dak Prescott Over 3.5 rushing yards",
+     "player": "Dak Prescott",
+     "price": -125,
+     "proj": 11.053,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 106,
+    "l": 110,
     "p": 0,
     "void": 15,
-    "w": 96
+    "w": 97
    },
    "threshold": 7.0,
-   "win_rate": 0.4752475247524752
+   "win_rate": 0.46859903381642515
   },
   "Sides": {
-   "avg_clv": -0.00021012658227848998,
-   "clv_beat_rate": 0.37468354430379747,
-   "clv_n": 395,
-   "graded": 435,
+   "avg_clv": -0.005656641604010034,
+   "clv_beat_rate": 0.37092731829573933,
+   "clv_n": 399,
+   "graded": 439,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -6330,6 +6456,42 @@
      "price": -108,
      "proj": null,
      "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": 330,
+     "clv": 0.0,
+     "edge": 10.841,
+     "ev": 0.46618,
+     "final": "56-49",
+     "game": "South Alabama Jaguars @ Arkansas State Red Wolves",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "South Alabama Jaguars ML",
+     "player": null,
+     "price": 330,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Sep 7"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 15.093,
+     "ev": 0.28814,
+     "final": "56-49",
+     "game": "South Alabama Jaguars @ Arkansas State Red Wolves",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "South Alabama Jaguars +10.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
      "sport": "NCAAF",
      "week": "Week of Sep 7"
     },
@@ -12040,6 +12202,24 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -110,
+     "clv": -2.174,
+     "edge": 5.836,
+     "ev": 0.107,
+     "final": "56-49",
+     "game": "South Alabama Jaguars @ Arkansas State Red Wolves",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Arkansas State Red Wolves ML",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.157,
@@ -12094,6 +12274,24 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 5.352,
+     "ev": 0.106,
+     "final": "56-49",
+     "game": "South Alabama Jaguars @ Arkansas State Red Wolves",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Arkansas State Red Wolves -1.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 8.575,
@@ -12131,19 +12329,19 @@
     }
    ],
    "record": {
-    "l": 204,
+    "l": 206,
     "p": 0,
     "void": 0,
-    "w": 231
+    "w": 233
    },
    "threshold": 5.0,
-   "win_rate": 0.5310344827586206
+   "win_rate": 0.530751708428246
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 23,
-  "Props": 149,
-  "Sides": 78
+  "Cosmic": 21,
+  "Props": 144,
+  "Sides": 74
  }
 }
