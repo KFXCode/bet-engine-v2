@@ -14,45 +14,45 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": -0.005243421052631583,
-   "clv_beat_rate": 0.2894736842105263,
-   "clv_n": 456,
-   "graded": 518,
+   "avg_clv": 0.007338427947598249,
+   "clv_beat_rate": 0.2903930131004367,
+   "clv_n": 458,
+   "graded": 520,
    "record": {
     "l": 253,
     "p": 0,
     "void": 10,
-    "w": 265
+    "w": 267
    },
-   "win_rate": 0.5115830115830116
+   "win_rate": 0.5134615384615384
   }
  },
  "by_sport": {
   "NCAAF Cosmic": {
-   "avg_clv": 0.8193333333333334,
+   "avg_clv": 1.3335,
    "clv_beat_rate": 0.5,
-   "clv_n": 6,
-   "graded": 6,
+   "clv_n": 8,
+   "graded": 8,
    "record": {
     "l": 3,
     "p": 0,
     "void": 0,
-    "w": 3
+    "w": 5
    },
-   "win_rate": 0.5
+   "win_rate": 0.625
   },
   "NCAAF Sides": {
-   "avg_clv": 0.052587096774193536,
-   "clv_beat_rate": 0.38387096774193546,
-   "clv_n": 310,
-   "graded": 331,
+   "avg_clv": 0.07068589743589743,
+   "clv_beat_rate": 0.38461538461538464,
+   "clv_n": 312,
+   "graded": 333,
    "record": {
     "l": 152,
     "p": 0,
     "void": 0,
-    "w": 179
+    "w": 181
    },
-   "win_rate": 0.540785498489426
+   "win_rate": 0.5435435435435435
   },
   "NFL Cosmic": {
    "avg_clv": 0.9780000000000001,
@@ -97,14 +97,14 @@
  "diagnostics": [
   "NFL player logs: cache already current (6894 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-08T14:59:16+00:00",
+ "generated_at": "2026-10-09T02:29:55+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
-   "avg_clv": 0.8827999999999999,
+   "avg_clv": 1.215,
    "clv_beat_rate": 0.5,
-   "clv_n": 10,
-   "graded": 12,
+   "clv_n": 12,
+   "graded": 14,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -288,6 +288,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -140,
+     "clv": 5.752,
+     "edge": 17.793,
+     "ev": 0.33969,
+     "final": "13-34",
+     "game": "Missouri State Bears @ Western Kentucky Hilltoppers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Western Kentucky Hilltoppers ML",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -118,
+     "clv": 0.0,
+     "edge": 19.943,
+     "ev": 0.36844,
+     "final": "13-34",
+     "game": "Missouri State Bears @ Western Kentucky Hilltoppers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Western Kentucky Hilltoppers +1.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 10.379,
@@ -328,10 +364,10 @@
     "l": 6,
     "p": 0,
     "void": 0,
-    "w": 6
+    "w": 8
    },
    "threshold": null,
-   "win_rate": 0.5
+   "win_rate": 0.5714285714285714
   },
   "Props": {
    "avg_clv": 0.07042592592592592,
@@ -4257,10 +4293,10 @@
    "win_rate": 0.4752475247524752
   },
   "Sides": {
-   "avg_clv": -0.014847328244274817,
-   "clv_beat_rate": 0.37404580152671757,
-   "clv_n": 393,
-   "graded": 433,
+   "avg_clv": -0.00021012658227848998,
+   "clv_beat_rate": 0.37468354430379747,
+   "clv_n": 395,
+   "graded": 435,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -11968,6 +12004,42 @@
      "week": "Week of Sep 28"
     },
     {
+     "closing_price": -140,
+     "clv": 5.752,
+     "edge": 17.793,
+     "ev": 0.33969,
+     "final": "13-34",
+     "game": "Missouri State Bears @ Western Kentucky Hilltoppers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Western Kentucky Hilltoppers ML",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -118,
+     "clv": 0.0,
+     "edge": 19.943,
+     "ev": 0.36844,
+     "final": "13-34",
+     "game": "Missouri State Bears @ Western Kentucky Hilltoppers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Western Kentucky Hilltoppers +1.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.157,
@@ -12062,16 +12134,16 @@
     "l": 204,
     "p": 0,
     "void": 0,
-    "w": 229
+    "w": 231
    },
    "threshold": 5.0,
-   "win_rate": 0.5288683602771362
+   "win_rate": 0.5310344827586206
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 23,
-  "Props": 116,
-  "Sides": 73
+  "Props": 149,
+  "Sides": 78
  }
 }

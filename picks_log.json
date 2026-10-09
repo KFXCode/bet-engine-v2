@@ -52713,12 +52713,13 @@
   },
   {
    "away": "Missouri State Bears",
-   "clv": null,
+   "closing_price": -140,
+   "clv": 5.752,
    "commence": "2026-10-08T23:00:00Z",
    "edge": 17.793,
    "ev": 0.33969,
    "event": null,
-   "final": null,
+   "final": "13-34",
    "first_seen": "2026-10-04T08:46:42+00:00",
    "group": "Sides",
    "history": [
@@ -52749,7 +52750,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NCAAF",
    "stat_key": null,
@@ -52757,12 +52758,13 @@
   },
   {
    "away": "Missouri State Bears",
-   "clv": null,
+   "closing_price": -118,
+   "clv": 0.0,
    "commence": "2026-10-08T23:00:00Z",
    "edge": 19.943,
    "ev": 0.36844,
    "event": null,
-   "final": null,
+   "final": "13-34",
    "first_seen": "2026-10-04T08:46:42+00:00",
    "group": "Sides",
    "history": [
@@ -52793,7 +52795,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NCAAF",
    "stat_key": null,
@@ -52991,6 +52993,11 @@
      "2026-10-08T14:59:16+00:00",
      132,
      -160
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     126,
+     -152
     ]
    ],
    "home": "Washington Huskies",
@@ -53070,6 +53077,11 @@
      "2026-10-08T14:59:16+00:00",
      -122,
      100
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     100,
+     -122
     ]
    ],
    "home": "Washington Huskies",
@@ -53203,6 +53215,11 @@
      "2026-10-08T14:59:16+00:00",
      146,
      -176
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     138,
+     -170
     ]
    ],
    "home": "NC State Wolfpack",
@@ -53282,6 +53299,11 @@
      "2026-10-08T14:59:16+00:00",
      -106,
      -114
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -106
     ]
    ],
    "home": "NC State Wolfpack",
@@ -53361,6 +53383,11 @@
      "2026-10-08T14:59:16+00:00",
      390,
      -530
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     340,
+     -450
     ]
    ],
    "home": "Florida Gators",
@@ -53425,6 +53452,11 @@
      "2026-10-08T14:59:16+00:00",
      -114,
      -106
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Florida Gators",
@@ -53504,6 +53536,11 @@
      "2026-10-08T14:59:16+00:00",
      142,
      -172
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     132,
+     -160
     ]
    ],
    "home": "Missouri Tigers",
@@ -53583,6 +53620,11 @@
      "2026-10-08T14:59:16+00:00",
      -106,
      -114
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -120,
+     -102
     ]
    ],
    "home": "Missouri Tigers",
@@ -53662,6 +53704,11 @@
      "2026-10-08T14:59:16+00:00",
      285,
      -365
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     290,
+     -375
     ]
    ],
    "home": "California Golden Bears",
@@ -53739,6 +53786,11 @@
     ],
     [
      "2026-10-08T14:59:16+00:00",
+     210,
+     -260
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
      210,
      -260
     ]
@@ -53864,6 +53916,11 @@
      "2026-10-08T14:59:16+00:00",
      -144,
      120
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -138,
+     115
     ]
    ],
    "home": "Kansas State Wildcats",
@@ -53921,6 +53978,11 @@
     ],
     [
      "2026-10-05T16:28:47+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
      -110,
      -110
     ]
@@ -54090,6 +54152,11 @@
      "2026-10-08T14:59:16+00:00",
      -465,
      340
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -465,
+     350
     ]
    ],
    "home": "Oregon Ducks",
@@ -54169,6 +54236,11 @@
      "2026-10-08T14:59:16+00:00",
      400,
      -550
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     420,
+     -580
     ]
    ],
    "home": "Arkansas Razorbacks",
@@ -54246,6 +54318,11 @@
     ],
     [
      "2026-10-08T14:59:16+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
      -110,
      -110
     ]
@@ -54327,6 +54404,11 @@
      "2026-10-08T14:59:16+00:00",
      270,
      -345
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     260,
+     -330
     ]
    ],
    "home": "Kentucky Wildcats",
@@ -54406,6 +54488,11 @@
      "2026-10-08T14:59:16+00:00",
      -112,
      -108
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "Kentucky Wildcats",
@@ -54589,13 +54676,14 @@
   },
   {
    "away": "Missouri State Bears",
-   "clv": null,
+   "closing_price": -140,
+   "clv": 5.752,
    "commence": "2026-10-08T23:00:00Z",
    "cosmic": "Waning Crescent, Moon in Virgo, date number 1",
    "edge": 17.793,
    "ev": 0.33969,
    "event": null,
-   "final": null,
+   "final": "13-34",
    "first_seen": "2026-10-04T08:46:42+00:00",
    "group": "Cosmic",
    "history": [
@@ -54661,7 +54749,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NCAAF",
    "stars": 2,
@@ -54670,13 +54758,14 @@
   },
   {
    "away": "Missouri State Bears",
-   "clv": null,
+   "closing_price": -118,
+   "clv": 0.0,
    "commence": "2026-10-08T23:00:00Z",
    "cosmic": "Waning Crescent, Moon in Virgo, date number 1",
    "edge": 19.943,
    "ev": 0.36844,
    "event": null,
-   "final": null,
+   "final": "13-34",
    "first_seen": "2026-10-04T08:46:42+00:00",
    "group": "Cosmic",
    "history": [
@@ -54742,7 +54831,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NCAAF",
    "stars": 2,
@@ -55094,6 +55183,11 @@
      "2026-10-08T14:59:16+00:00",
      132,
      -160
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     126,
+     -152
     ]
    ],
    "home": "Washington Huskies",
@@ -55175,6 +55269,11 @@
      "2026-10-08T14:59:16+00:00",
      -122,
      100
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     100,
+     -122
     ]
    ],
    "home": "Washington Huskies",
@@ -55256,6 +55355,11 @@
      "2026-10-08T14:59:16+00:00",
      -108,
      -112
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Utah State Aggies",
@@ -55444,6 +55548,11 @@
      "2026-10-08T14:59:16+00:00",
      -108,
      -112
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Utah State Aggies",
@@ -55562,6 +55671,11 @@
      "2026-10-08T14:59:16+00:00",
      215,
      -265
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     220,
+     -275
     ]
    ],
    "home": "Akron Zips",
@@ -55629,6 +55743,11 @@
     ],
     [
      "2026-10-08T14:59:16+00:00",
+     100,
+     -122
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
      100,
      -122
     ]
@@ -55700,6 +55819,11 @@
      "2026-10-08T14:59:16+00:00",
      -112,
      -108
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -122,
+     100
     ]
    ],
    "home": "Toledo Rockets",
@@ -55769,6 +55893,11 @@
      "2026-10-08T14:59:16+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "California Golden Bears",
@@ -55838,6 +55967,11 @@
      "2026-10-08T14:59:16+00:00",
      -142,
      118
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -150,
+     125
     ]
    ],
    "home": "Ohio Bobcats",
@@ -55907,6 +56041,11 @@
      "2026-10-08T14:59:16+00:00",
      -120,
      -102
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -122,
+     100
     ]
    ],
    "home": "Ohio Bobcats",
@@ -55976,6 +56115,11 @@
      "2026-10-08T14:59:16+00:00",
      -138,
      115
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -137,
+     114
     ]
    ],
    "home": "Michigan State Spartans",
@@ -56025,6 +56169,11 @@
      "2026-10-05T16:28:47+00:00",
      100,
      -122
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -115,
+     -105
     ]
    ],
    "home": "Michigan State Spartans",
@@ -56092,6 +56241,11 @@
     ],
     [
      "2026-10-08T14:59:16+00:00",
+     -114,
+     -106
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
      -114,
      -106
     ]
@@ -56163,6 +56317,11 @@
      "2026-10-08T14:59:16+00:00",
      -410,
      315
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -360,
+     280
     ]
    ],
    "home": "East Carolina Pirates",
@@ -56232,6 +56391,11 @@
      "2026-10-08T14:59:16+00:00",
      -142,
      118
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -166,
+     138
     ]
    ],
    "home": "Marshall Thundering Herd",
@@ -56301,6 +56465,11 @@
      "2026-10-08T14:59:16+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -106,
+     -114
     ]
    ],
    "home": "Marshall Thundering Herd",
@@ -56368,6 +56537,11 @@
     ],
     [
      "2026-10-08T14:59:16+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
      -110,
      -110
     ]
@@ -56557,6 +56731,11 @@
      "2026-10-08T14:59:16+00:00",
      -350,
      275
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -360,
+     280
     ]
    ],
    "home": "Virginia Cavaliers",
@@ -56876,6 +57055,11 @@
      "2026-10-08T14:59:16+00:00",
      172,
      -210
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     176,
+     -215
     ]
    ],
    "home": "Utah State Aggies",
@@ -57085,6 +57269,11 @@
      "2026-10-08T14:59:16+00:00",
      295,
      -370
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     260,
+     -320
     ]
    ],
    "home": "Miami Dolphins",
@@ -57149,6 +57338,11 @@
      "2026-10-08T14:59:16+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     100,
+     -122
     ]
    ],
    "home": "Miami Dolphins",
@@ -57213,6 +57407,11 @@
      "2026-10-08T14:59:16+00:00",
      110,
      -130
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     114,
+     -134
     ]
    ],
    "home": "New York Jets",
@@ -57277,6 +57476,11 @@
      "2026-10-08T14:59:16+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -102,
+     -120
     ]
    ],
    "home": "New York Jets",
@@ -57341,6 +57545,11 @@
      "2026-10-08T14:59:16+00:00",
      -330,
      265
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -390,
+     310
     ]
    ],
    "home": "Tennessee Titans",
@@ -57405,6 +57614,11 @@
      "2026-10-08T14:59:16+00:00",
      -120,
      -102
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -105,
+     -115
     ]
    ],
    "home": "Tennessee Titans",
@@ -57469,6 +57683,11 @@
      "2026-10-08T14:59:16+00:00",
      116,
      -136
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     120,
+     -142
     ]
    ],
    "home": "Pittsburgh Steelers",
@@ -57533,6 +57752,11 @@
      "2026-10-08T14:59:16+00:00",
      -104,
      -118
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Pittsburgh Steelers",
@@ -57577,6 +57801,11 @@
      "2026-10-05T16:28:47+00:00",
      -120,
      102
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -132,
+     112
     ]
    ],
    "home": "New Orleans Saints",
@@ -57611,6 +57840,11 @@
      "2026-10-05T01:51:32+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -120,
+     -102
     ]
    ],
    "home": "New Orleans Saints",
@@ -57675,6 +57909,11 @@
      "2026-10-08T14:59:16+00:00",
      154,
      -184
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     166,
+     -198
     ]
    ],
    "home": "Washington Commanders",
@@ -57739,6 +57978,11 @@
      "2026-10-08T14:59:16+00:00",
      -114,
      -106
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -102,
+     -120
     ]
    ],
    "home": "Washington Commanders",
@@ -57803,6 +58047,11 @@
      "2026-10-08T14:59:16+00:00",
      -164,
      138
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -172,
+     144
     ]
    ],
    "home": "Seattle Seahawks",
@@ -57868,6 +58117,11 @@
      "2026-10-08T14:59:16+00:00",
      295,
      -370
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     260,
+     -320
     ]
    ],
    "home": "Miami Dolphins",
@@ -57934,6 +58188,11 @@
      "2026-10-08T14:59:16+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     100,
+     -122
     ]
    ],
    "home": "Miami Dolphins",
@@ -58000,6 +58259,11 @@
      "2026-10-08T14:59:16+00:00",
      110,
      -130
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     114,
+     -134
     ]
    ],
    "home": "New York Jets",
@@ -58066,6 +58330,11 @@
      "2026-10-08T14:59:16+00:00",
      -105,
      -115
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -102,
+     -120
     ]
    ],
    "home": "New York Jets",
@@ -58132,6 +58401,11 @@
      "2026-10-08T14:59:16+00:00",
      116,
      -136
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     120,
+     -142
     ]
    ],
    "home": "Pittsburgh Steelers",
@@ -58198,6 +58472,11 @@
      "2026-10-08T14:59:16+00:00",
      -104,
      -118
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Pittsburgh Steelers",
@@ -58264,6 +58543,11 @@
      "2026-10-08T14:59:16+00:00",
      154,
      -184
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     166,
+     -198
     ]
    ],
    "home": "Washington Commanders",
@@ -58330,6 +58614,11 @@
      "2026-10-08T14:59:16+00:00",
      -114,
      -106
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -102,
+     -120
     ]
    ],
    "home": "Washington Commanders",
@@ -58396,6 +58685,11 @@
      "2026-10-08T14:59:16+00:00",
      156,
      -186
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     152,
+     -180
     ]
    ],
    "home": "Los Angeles Chargers",
@@ -58802,6 +59096,11 @@
      "2026-10-08T14:59:16+00:00",
      -152,
      128
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -176,
+     148
     ]
    ],
    "home": "Los Angeles Rams",
@@ -58851,6 +59150,11 @@
      "2026-10-08T14:59:16+00:00",
      -122,
      100
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -104,
+     -118
     ]
    ],
    "home": "Los Angeles Rams",
@@ -58900,6 +59204,11 @@
      "2026-10-08T14:59:16+00:00",
      172,
      -210
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     176,
+     -215
     ]
    ],
    "home": "Utah State Aggies",
@@ -58949,6 +59258,11 @@
      "2026-10-08T14:59:16+00:00",
      -106,
      -114
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Utah Utes",
@@ -59045,6 +59359,21 @@
     [
      "2026-10-08T14:59:16+00:00",
      400,
+     null
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     1900,
+     null
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     390,
+     null
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     320,
      null
     ]
    ],
@@ -59213,6 +59542,11 @@
      "2026-10-08T14:59:16+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "Los Angeles Rams",
@@ -59311,6 +59645,11 @@
      "2026-10-08T14:59:16+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "New England Patriots",
@@ -59359,6 +59698,11 @@
     [
      "2026-10-08T14:59:16+00:00",
      -125,
+     null
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -115,
      null
     ]
    ],
@@ -59527,6 +59871,16 @@
      "2026-10-08T14:59:16+00:00",
      -130,
      -102
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     140,
+     -188
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     116,
+     -154
     ]
    ],
    "home": "Seattle Seahawks",
@@ -59545,6 +59899,1442 @@
    "sport": "NFL",
    "stat_key": "player_receptions",
    "week": "Week of Oct 5"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "edge": 16.359,
+   "ev": 0.39916,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     144,
+     -172
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Moneyline|Baltimore Ravens ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -172,
+   "p": 0.573425,
+   "pick": "Baltimore Ravens ML",
+   "player": null,
+   "price": 144,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "edge": 13.752,
+   "ev": 0.25024,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -122,
+     100
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Spread|Baltimore Ravens +3.5",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Spread",
+   "other_price": 100,
+   "p": 0.687068,
+   "pick": "Baltimore Ravens +3.5",
+   "player": null,
+   "price": -122,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Seattle Seahawks",
+   "clv": null,
+   "commence": "2026-10-16T00:15:00Z",
+   "edge": 17.057,
+   "ev": 0.29418,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -138,
+     118
+    ]
+   ],
+   "home": "Denver Broncos",
+   "id": "NFL|Seattle Seahawks @ Denver Broncos|Moneyline|Seattle Seahawks ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 118,
+   "p": 0.750406,
+   "pick": "Seattle Seahawks ML",
+   "player": null,
+   "price": -138,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Seattle Seahawks",
+   "clv": null,
+   "commence": "2026-10-16T00:15:00Z",
+   "edge": 15.334,
+   "ev": 0.29273,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Denver Broncos",
+   "id": "NFL|Seattle Seahawks @ Denver Broncos|Spread|Seattle Seahawks -2.5",
+   "lane": "value",
+   "line": -2.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.677145,
+   "pick": "Seattle Seahawks -2.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Maryland Terrapins",
+   "clv": null,
+   "commence": "2026-10-10T20:15:00Z",
+   "edge": 11.222,
+   "ev": 0.21424,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Ohio State Buckeyes",
+   "id": "NCAAF|Maryland Terrapins @ Ohio State Buckeyes|Spread|Ohio State Buckeyes -33.5",
+   "lane": "value",
+   "line": -33.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.636032,
+   "pick": "Ohio State Buckeyes -33.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Delaware Blue Hens",
+   "clv": null,
+   "commence": "2026-10-13T23:00:00Z",
+   "edge": 9.25,
+   "ev": 0.18318,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -102,
+     -118
+    ]
+   ],
+   "home": "Middle Tennessee Blue Raiders",
+   "id": "NCAAF|Delaware Blue Hens @ Middle Tennessee Blue Raiders|Moneyline|Delaware Blue Hens ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -118,
+   "p": 0.597446,
+   "pick": "Delaware Blue Hens ML",
+   "player": null,
+   "price": -102,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Delaware Blue Hens",
+   "clv": null,
+   "commence": "2026-10-13T23:00:00Z",
+   "edge": 11.818,
+   "ev": 0.22562,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Middle Tennessee Blue Raiders",
+   "id": "NCAAF|Delaware Blue Hens @ Middle Tennessee Blue Raiders|Spread|Delaware Blue Hens +1.5",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.641993,
+   "pick": "Delaware Blue Hens +1.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Cleveland Browns",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 19.828,
+   "ev": 0.3722,
+   "event": "9db4ed15fe34fca1fb62f040cd244591",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "New York Jets",
+   "id": "NFL|Cleveland Browns @ New York Jets|Rushing yards|Geno Smith Under 10.5 rushing yards",
+   "lane": "value",
+   "line": 10.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.730986,
+   "pick": "Geno Smith Under 10.5 rushing yards",
+   "player": "Geno Smith",
+   "price": -114,
+   "proj": 8.008,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Cincinnati Bengals",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 19.774,
+   "ev": 0.3712,
+   "event": "c4647ca1201e6768501877267ca8251b",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Miami Dolphins",
+   "id": "NFL|Cincinnati Bengals @ Miami Dolphins|Receiving yards|Greg Dulcich Over 25.5 receiving yards",
+   "lane": "value",
+   "line": 25.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.73045,
+   "pick": "Greg Dulcich Over 25.5 receiving yards",
+   "player": "Greg Dulcich",
+   "price": -114,
+   "proj": 37.205,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Indianapolis Colts",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 19.699,
+   "ev": 0.36978,
+   "event": "448d7cf18c6db4c811ed82ded1b72867",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Pittsburgh Steelers",
+   "id": "NFL|Indianapolis Colts @ Pittsburgh Steelers|Rushing yards|Daniel Jones Under 10.5 rushing yards",
+   "lane": "value",
+   "line": 10.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.729698,
+   "pick": "Daniel Jones Under 10.5 rushing yards",
+   "player": "Daniel Jones",
+   "price": -114,
+   "proj": 8.928,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Buffalo Bills",
+   "clv": null,
+   "commence": "2026-10-13T00:15:00Z",
+   "edge": 19.535,
+   "ev": 0.42587,
+   "event": "e6d00eedd87d367e510314bd8cab8f6f",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     118,
+     -158
+    ]
+   ],
+   "home": "Los Angeles Rams",
+   "id": "NFL|Buffalo Bills @ Los Angeles Rams|Receptions|Dawson Knox Over 1.5 receptions",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Receptions",
+   "other_price": -158,
+   "p": 0.654069,
+   "pick": "Dawson Knox Over 1.5 receptions",
+   "player": "Dawson Knox",
+   "price": 118,
+   "proj": 2.236,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Las Vegas Raiders",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 19.221,
+   "ev": 0.36081,
+   "event": "6b024bad1abb54f597225e4ab9b39d89",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "New England Patriots",
+   "id": "NFL|Las Vegas Raiders @ New England Patriots|Receiving yards|Brock Bowers Under 70.5 receiving yards",
+   "lane": "value",
+   "line": 70.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.72492,
+   "pick": "Brock Bowers Under 70.5 receiving yards",
+   "player": "Brock Bowers",
+   "price": -114,
+   "proj": 55.731,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Indianapolis Colts",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 19.081,
+   "ev": 0.32711,
+   "event": "448d7cf18c6db4c811ed82ded1b72867",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -140,
+     106
+    ]
+   ],
+   "home": "Pittsburgh Steelers",
+   "id": "NFL|Indianapolis Colts @ Pittsburgh Steelers|Receptions|Roman Wilson Under 3.5 receptions",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Receptions",
+   "other_price": 106,
+   "p": 0.774145,
+   "pick": "Roman Wilson Under 3.5 receptions",
+   "player": "Roman Wilson",
+   "price": -140,
+   "proj": 2.371,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Cincinnati Bengals",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 18.93,
+   "ev": 0.35536,
+   "event": "c4647ca1201e6768501877267ca8251b",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Miami Dolphins",
+   "id": "NFL|Cincinnati Bengals @ Miami Dolphins|Receiving yards|Malik Washington Under 44.5 receiving yards",
+   "lane": "value",
+   "line": 44.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.722012,
+   "pick": "Malik Washington Under 44.5 receiving yards",
+   "player": "Malik Washington",
+   "price": -114,
+   "proj": 35.089,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Indianapolis Colts",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 18.565,
+   "ev": 0.40472,
+   "event": "448d7cf18c6db4c811ed82ded1b72867",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     118,
+     -158
+    ]
+   ],
+   "home": "Pittsburgh Steelers",
+   "id": "NFL|Indianapolis Colts @ Pittsburgh Steelers|Receptions|Keenan Allen Over 3.5 receptions",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Receptions",
+   "other_price": -158,
+   "p": 0.644366,
+   "pick": "Keenan Allen Over 3.5 receptions",
+   "player": "Keenan Allen",
+   "price": 118,
+   "proj": 4.59,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Cleveland Browns",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 18.544,
+   "ev": 0.36039,
+   "event": "9db4ed15fe34fca1fb62f040cd244591",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -106,
+     -125
+    ]
+   ],
+   "home": "New York Jets",
+   "id": "NFL|Cleveland Browns @ New York Jets|Receptions|Jerry Jeudy Over 1.5 receptions",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Receptions",
+   "other_price": -125,
+   "p": 0.700008,
+   "pick": "Jerry Jeudy Over 1.5 receptions",
+   "player": "Jerry Jeudy",
+   "price": -106,
+   "proj": 2.491,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Denver Broncos",
+   "clv": null,
+   "commence": "2026-10-11T20:05:00Z",
+   "edge": 18.536,
+   "ev": 2.03895,
+   "event": "d1d408fdfd272046fb517fe992a1c5a0",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     1000,
+     null
+    ]
+   ],
+   "home": "Los Angeles Chargers",
+   "id": "NFL|Denver Broncos @ Los Angeles Chargers|Anytime TD|Nate Adkins anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.276268,
+   "pick": "Nate Adkins anytime TD",
+   "player": "Nate Adkins",
+   "price": 1000,
+   "proj": 0.323,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Cincinnati Bengals",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 17.821,
+   "ev": 0.41701,
+   "event": "c4647ca1201e6768501877267ca8251b",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     134,
+     -180
+    ]
+   ],
+   "home": "Miami Dolphins",
+   "id": "NFL|Cincinnati Bengals @ Miami Dolphins|Receptions|Ollie Gordon II Under 1.5 receptions",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Receptions",
+   "other_price": -180,
+   "p": 0.60556,
+   "pick": "Ollie Gordon II Under 1.5 receptions",
+   "player": "Ollie Gordon II",
+   "price": 134,
+   "proj": 1.36,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Chicago Bears",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 17.736,
+   "ev": 0.49659,
+   "event": "2caea57b1e5cfbba1334cfbfd46f6771",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     180,
+     null
+    ]
+   ],
+   "home": "Green Bay Packers",
+   "id": "NFL|Chicago Bears @ Green Bay Packers|Anytime TD|Christian Watson anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.534498,
+   "pick": "Christian Watson anytime TD",
+   "player": "Christian Watson",
+   "price": 180,
+   "proj": 0.765,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "New York Giants",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 17.505,
+   "ev": 2.10057,
+   "event": "fbffd0b7722fd81d68d5d62472dc80e8",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     1100,
+     null
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     700,
+     null
+    ]
+   ],
+   "home": "Washington Commanders",
+   "id": "NFL|New York Giants @ Washington Commanders|Anytime TD|Tyrone Tracy Jr. anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.258381,
+   "pick": "Tyrone Tracy Jr. anytime TD",
+   "player": "Tyrone Tracy Jr.",
+   "price": 1100,
+   "proj": 0.299,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Denver Broncos",
+   "clv": null,
+   "commence": "2026-10-11T20:05:00Z",
+   "edge": 17.446,
+   "ev": 0.3275,
+   "event": "d1d408fdfd272046fb517fe992a1c5a0",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Los Angeles Chargers",
+   "id": "NFL|Denver Broncos @ Los Angeles Chargers|Receiving yards|Jaylen Waddle Under 55.5 receiving yards",
+   "lane": "value",
+   "line": 55.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.707172,
+   "pick": "Jaylen Waddle Under 55.5 receiving yards",
+   "player": "Jaylen Waddle",
+   "price": -114,
+   "proj": 45.129,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Detroit Lions",
+   "clv": null,
+   "commence": "2026-10-11T20:25:00Z",
+   "edge": 17.018,
+   "ev": 0.31946,
+   "event": "f8e7f43f73aa983c5c99c189587f0118",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Arizona Cardinals",
+   "id": "NFL|Detroit Lions @ Arizona Cardinals|Rushing yards|Jared Goff Over 0.5 rushing yards",
+   "lane": "value",
+   "line": 0.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.70289,
+   "pick": "Jared Goff Over 0.5 rushing yards",
+   "player": "Jared Goff",
+   "price": -114,
+   "proj": 4.516,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Tampa Bay Buccaneers",
+   "clv": null,
+   "commence": "2026-10-09T00:15:55Z",
+   "edge": 16.613,
+   "ev": 0.29904,
+   "event": "259b5df9aa0d10257f56de78523495e0",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "Dallas Cowboys",
+   "id": "NFL|Tampa Bay Buccaneers @ Dallas Cowboys|Rushing yards|Dak Prescott Over 3.5 rushing yards",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Rushing yards",
+   "other_price": -106,
+   "p": 0.721688,
+   "pick": "Dak Prescott Over 3.5 rushing yards",
+   "player": "Dak Prescott",
+   "price": -125,
+   "proj": 11.053,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Minnesota Vikings",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 16.343,
+   "ev": 1.14404,
+   "event": "2cda9bf0fbe35a2735f0dd8aaafe9eff",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     600,
+     null
+    ]
+   ],
+   "home": "New Orleans Saints",
+   "id": "NFL|Minnesota Vikings @ New Orleans Saints|Anytime TD|Jauan Jennings anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.306292,
+   "pick": "Jauan Jennings anytime TD",
+   "player": "Jauan Jennings",
+   "price": 600,
+   "proj": 0.366,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "edge": 16.287,
+   "ev": 0.32899,
+   "event": "86457f91112732f21ad4bb7d37bd291c",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     102,
+     -136
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Receptions|Kyle Pitts Sr. Over 2.5 receptions",
+   "lane": "value",
+   "line": 2.5,
+   "market": "Receptions",
+   "other_price": -136,
+   "p": 0.657915,
+   "pick": "Kyle Pitts Sr. Over 2.5 receptions",
+   "player": "Kyle Pitts Sr.",
+   "price": 102,
+   "proj": 4.235,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "edge": 16.044,
+   "ev": 0.30118,
+   "event": "86457f91112732f21ad4bb7d37bd291c",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Rushing yards|Justice Hill Under 11.5 rushing yards",
+   "lane": "value",
+   "line": 11.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.693152,
+   "pick": "Justice Hill Under 11.5 rushing yards",
+   "player": "Justice Hill",
+   "price": -114,
+   "proj": 12.452,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Cleveland Browns",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 16.025,
+   "ev": 0.30081,
+   "event": "9db4ed15fe34fca1fb62f040cd244591",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "New York Jets",
+   "id": "NFL|Cleveland Browns @ New York Jets|Receiving yards|Jerry Jeudy Over 14.5 receiving yards",
+   "lane": "value",
+   "line": 14.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.692956,
+   "pick": "Jerry Jeudy Over 14.5 receiving yards",
+   "player": "Jerry Jeudy",
+   "price": -114,
+   "proj": 29.018,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Detroit Lions",
+   "clv": null,
+   "commence": "2026-10-11T20:25:00Z",
+   "edge": 15.942,
+   "ev": 0.29927,
+   "event": "f8e7f43f73aa983c5c99c189587f0118",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Arizona Cardinals",
+   "id": "NFL|Detroit Lions @ Arizona Cardinals|Rushing yards|Jahmyr Gibbs Under 90.5 rushing yards",
+   "lane": "value",
+   "line": 90.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.692135,
+   "pick": "Jahmyr Gibbs Under 90.5 rushing yards",
+   "player": "Jahmyr Gibbs",
+   "price": -114,
+   "proj": 75.337,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Houston Texans",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 15.377,
+   "ev": 0.28865,
+   "event": "cc52bba56e74f5cddbe9011046181c3d",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Tennessee Titans",
+   "id": "NFL|Houston Texans @ Tennessee Titans|Receiving yards|Woody Marks Under 8.5 receiving yards",
+   "lane": "value",
+   "line": 8.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.686476,
+   "pick": "Woody Marks Under 8.5 receiving yards",
+   "player": "Woody Marks",
+   "price": -114,
+   "proj": 8.801,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Las Vegas Raiders",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 15.286,
+   "ev": 0.29706,
+   "event": "6b024bad1abb54f597225e4ab9b39d89",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -106,
+     -122
+    ]
+   ],
+   "home": "New England Patriots",
+   "id": "NFL|Las Vegas Raiders @ New England Patriots|Receptions|DeMario Douglas Under 2.5 receptions",
+   "lane": "value",
+   "line": 2.5,
+   "market": "Receptions",
+   "other_price": -122,
+   "p": 0.667421,
+   "pick": "DeMario Douglas Under 2.5 receptions",
+   "player": "DeMario Douglas",
+   "price": -106,
+   "proj": 2.043,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Denver Broncos",
+   "clv": null,
+   "commence": "2026-10-11T20:05:00Z",
+   "edge": 15.214,
+   "ev": 0.31341,
+   "event": "d1d408fdfd272046fb517fe992a1c5a0",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     106,
+     -140
+    ]
+   ],
+   "home": "Los Angeles Chargers",
+   "id": "NFL|Denver Broncos @ Los Angeles Chargers|Receptions|Marvin Mims Jr. Over 1.5 receptions",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Receptions",
+   "other_price": -140,
+   "p": 0.63758,
+   "pick": "Marvin Mims Jr. Over 1.5 receptions",
+   "player": "Marvin Mims Jr.",
+   "price": 106,
+   "proj": 2.717,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Chicago Bears",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 14.823,
+   "ev": 0.27825,
+   "event": "2caea57b1e5cfbba1334cfbfd46f6771",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Green Bay Packers",
+   "id": "NFL|Chicago Bears @ Green Bay Packers|Receiving yards|Matthew Golden Under 55.5 receiving yards",
+   "lane": "value",
+   "line": 55.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.680938,
+   "pick": "Matthew Golden Under 55.5 receiving yards",
+   "player": "Matthew Golden",
+   "price": -114,
+   "proj": 47.426,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "edge": 14.795,
+   "ev": 2.8111,
+   "event": "86457f91112732f21ad4bb7d37bd291c",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     1800,
+     null
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Anytime TD|Chris Moore anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.200584,
+   "pick": "Chris Moore anytime TD",
+   "player": "Chris Moore",
+   "price": 1800,
+   "proj": 0.224,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Chicago Bears",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 14.751,
+   "ev": 0.39533,
+   "event": "2caea57b1e5cfbba1334cfbfd46f6771",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     168,
+     -230
+    ]
+   ],
+   "home": "Green Bay Packers",
+   "id": "NFL|Chicago Bears @ Green Bay Packers|Receptions|Jonnu Smith Over 1.5 receptions",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Receptions",
+   "other_price": -230,
+   "p": 0.520647,
+   "pick": "Jonnu Smith Over 1.5 receptions",
+   "player": "Jonnu Smith",
+   "price": 168,
+   "proj": 1.778,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "San Francisco 49ers",
+   "clv": null,
+   "commence": "2026-10-11T20:25:00Z",
+   "edge": 14.585,
+   "ev": 0.2738,
+   "event": "8e5d515b10d8a5ffb324640ed60bcc55",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Seattle Seahawks",
+   "id": "NFL|San Francisco 49ers @ Seattle Seahawks|Receiving yards|Tory Horton Over 11.5 receiving yards",
+   "lane": "value",
+   "line": 11.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.678564,
+   "pick": "Tory Horton Over 11.5 receiving yards",
+   "player": "Tory Horton",
+   "price": -114,
+   "proj": 25.189,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Houston Texans",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 13.668,
+   "ev": 0.25658,
+   "event": "cc52bba56e74f5cddbe9011046181c3d",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Tennessee Titans",
+   "id": "NFL|Houston Texans @ Tennessee Titans|Rushing yards|David Montgomery Under 43.5 rushing yards",
+   "lane": "value",
+   "line": 43.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.669391,
+   "pick": "David Montgomery Under 43.5 rushing yards",
+   "player": "David Montgomery",
+   "price": -114,
+   "proj": 37.785,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "New York Giants",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 13.424,
+   "ev": 0.252,
+   "event": "fbffd0b7722fd81d68d5d62472dc80e8",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Washington Commanders",
+   "id": "NFL|New York Giants @ Washington Commanders|Receiving yards|Darnell Mooney Over 18.5 receiving yards",
+   "lane": "value",
+   "line": 18.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.666955,
+   "pick": "Darnell Mooney Over 18.5 receiving yards",
+   "player": "Darnell Mooney",
+   "price": -114,
+   "proj": 29.34,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Minnesota Vikings",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 13.305,
+   "ev": 0.24977,
+   "event": "2cda9bf0fbe35a2735f0dd8aaafe9eff",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "New Orleans Saints",
+   "id": "NFL|Minnesota Vikings @ New Orleans Saints|Rushing yards|Aaron Jones Sr. Under 72.5 rushing yards",
+   "lane": "value",
+   "line": 72.5,
+   "market": "Rushing yards",
+   "other_price": -114,
+   "p": 0.665764,
+   "pick": "Aaron Jones Sr. Under 72.5 rushing yards",
+   "player": "Aaron Jones Sr.",
+   "price": -114,
+   "proj": 63.829,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Detroit Lions",
+   "clv": null,
+   "commence": "2026-10-11T20:25:00Z",
+   "edge": 12.904,
+   "ev": 0.24224,
+   "event": "f8e7f43f73aa983c5c99c189587f0118",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -114,
+     -114
+    ]
+   ],
+   "home": "Arizona Cardinals",
+   "id": "NFL|Detroit Lions @ Arizona Cardinals|Receiving yards|Trey McBride Under 80.5 receiving yards",
+   "lane": "value",
+   "line": 80.5,
+   "market": "Receiving yards",
+   "other_price": -114,
+   "p": 0.661753,
+   "pick": "Trey McBride Under 80.5 receiving yards",
+   "player": "Trey McBride",
+   "price": -114,
+   "proj": 71.596,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Minnesota Vikings",
+   "clv": null,
+   "commence": "2026-10-11T17:00:00Z",
+   "edge": 12.437,
+   "ev": 0.28605,
+   "event": "2cda9bf0fbe35a2735f0dd8aaafe9eff",
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     130,
+     -174
+    ]
+   ],
+   "home": "New Orleans Saints",
+   "id": "NFL|Minnesota Vikings @ New Orleans Saints|Receptions|Aaron Jones Sr. Under 2.5 receptions",
+   "lane": "value",
+   "line": 2.5,
+   "market": "Receptions",
+   "other_price": -174,
+   "p": 0.559153,
+   "pick": "Aaron Jones Sr. Under 2.5 receptions",
+   "player": "Aaron Jones Sr.",
+   "price": 130,
+   "proj": 2.484,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_receptions",
+   "week": "Week of Oct 5"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "cosmic": "New Moon, Moon in Scorpio, date number 4",
+   "edge": 16.359,
+   "ev": 0.39916,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Cosmic",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     144,
+     -172
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Moneyline|Baltimore Ravens ML-cosmic",
+   "lane": "cosmic",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -172,
+   "p": 0.573425,
+   "pick": "Baltimore Ravens ML",
+   "player": null,
+   "price": 144,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stars": 3,
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-12T00:20:00Z",
+   "cosmic": "New Moon, Moon in Scorpio, date number 4",
+   "edge": 13.752,
+   "ev": 0.25024,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-09T02:29:55+00:00",
+   "group": "Cosmic",
+   "history": [
+    [
+     "2026-10-09T02:29:55+00:00",
+     -122,
+     100
+    ]
+   ],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Baltimore Ravens @ Atlanta Falcons|Spread|Baltimore Ravens +3.5-cosmic",
+   "lane": "cosmic",
+   "line": 3.5,
+   "market": "Spread",
+   "other_price": 100,
+   "p": 0.687068,
+   "pick": "Baltimore Ravens +3.5",
+   "player": null,
+   "price": -122,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stars": 3,
+   "stat_key": null,
+   "week": "Week of Oct 12"
   }
  ],
  "prop_regrade_v1": true
