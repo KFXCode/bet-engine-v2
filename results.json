@@ -14,45 +14,45 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.002552688172043007,
-   "clv_beat_rate": 0.2860215053763441,
-   "clv_n": 465,
-   "graded": 529,
+   "avg_clv": 0.0008598726114649635,
+   "clv_beat_rate": 0.28874734607218683,
+   "clv_n": 471,
+   "graded": 535,
    "record": {
-    "l": 259,
+    "l": 262,
     "p": 0,
     "void": 10,
-    "w": 270
+    "w": 273
    },
-   "win_rate": 0.5103969754253308
+   "win_rate": 0.5102803738317757
   }
  },
  "by_sport": {
   "NCAAF Cosmic": {
-   "avg_clv": 0.6566,
-   "clv_beat_rate": 0.4,
-   "clv_n": 10,
-   "graded": 10,
+   "avg_clv": -0.010812500000000034,
+   "clv_beat_rate": 0.4375,
+   "clv_n": 16,
+   "graded": 16,
    "record": {
-    "l": 5,
+    "l": 8,
     "p": 0,
     "void": 0,
-    "w": 5
+    "w": 8
    },
    "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.06291139240506327,
-   "clv_beat_rate": 0.379746835443038,
-   "clv_n": 316,
-   "graded": 337,
+   "avg_clv": 0.05931055900621117,
+   "clv_beat_rate": 0.38198757763975155,
+   "clv_n": 322,
+   "graded": 343,
    "record": {
-    "l": 154,
+    "l": 157,
     "p": 0,
     "void": 0,
-    "w": 183
+    "w": 186
    },
-   "win_rate": 0.543026706231454
+   "win_rate": 0.5422740524781341
   },
   "NFL Cosmic": {
    "avg_clv": 0.9780000000000001,
@@ -95,16 +95,16 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6914 player-games cached"
+  "NFL player logs: cache already current (6914 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-09T14:44:12+00:00",
+ "generated_at": "2026-10-10T14:00:53+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
-   "avg_clv": 0.7484285714285714,
-   "clv_beat_rate": 0.42857142857142855,
-   "clv_n": 14,
-   "graded": 16,
+   "avg_clv": 0.18695,
+   "clv_beat_rate": 0.45,
+   "clv_n": 20,
+   "graded": 22,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -360,6 +360,96 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": 172,
+     "clv": 3.505,
+     "edge": 16.075,
+     "ev": 0.48547,
+     "final": "20-44",
+     "game": "Florida State Seminoles @ Louisville Cardinals",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Florida State Seminoles ML",
+     "player": null,
+     "price": 202,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.433,
+     "edge": 16.618,
+     "ev": 0.32005,
+     "final": "20-44",
+     "game": "Florida State Seminoles @ Louisville Cardinals",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Florida State Seminoles +6.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 126,
+     "clv": -4.349,
+     "edge": 7.549,
+     "ev": 0.15476,
+     "final": "41-24",
+     "game": "Iowa Hawkeyes @ Washington Huskies",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Iowa Hawkeyes ML",
+     "player": null,
+     "price": 105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 100,
+     "clv": -0.863,
+     "edge": 9.872,
+     "ev": 0.19364,
+     "final": "41-24",
+     "game": "Iowa Hawkeyes @ Washington Huskies",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Iowa Hawkeyes +1.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -110,
+     "clv": 1.498,
+     "edge": 1.517,
+     "ev": 0.02975,
+     "final": "16-17",
+     "game": "Washington State Cougars @ Utah State Aggies",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Washington State Cougars +1.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 10.379,
@@ -394,13 +484,31 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Sep 28"
+    },
+    {
+     "closing_price": 176,
+     "clv": -6.963,
+     "edge": 4.388,
+     "ev": 0.10093,
+     "final": "16-17",
+     "game": "Washington State Cougars @ Utah State Aggies",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Washington State Cougars ML",
+     "player": null,
+     "price": 130,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 8,
+    "l": 11,
     "p": 0,
     "void": 0,
-    "w": 8
+    "w": 11
    },
    "threshold": null,
    "win_rate": 0.5
@@ -4419,10 +4527,10 @@
    "win_rate": 0.46859903381642515
   },
   "Sides": {
-   "avg_clv": -0.005656641604010034,
-   "clv_beat_rate": 0.37092731829573933,
-   "clv_n": 399,
-   "graded": 439,
+   "avg_clv": -0.007503703703703713,
+   "clv_beat_rate": 0.3728395061728395,
+   "clv_n": 405,
+   "graded": 445,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -12220,6 +12328,78 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": 176,
+     "clv": 3.002,
+     "edge": 16.075,
+     "ev": 0.48547,
+     "final": "20-44",
+     "game": "Florida State Seminoles @ Louisville Cardinals",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Florida State Seminoles ML",
+     "player": null,
+     "price": 202,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.433,
+     "edge": 16.618,
+     "ev": 0.32005,
+     "final": "20-44",
+     "game": "Florida State Seminoles @ Louisville Cardinals",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Florida State Seminoles +6.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 126,
+     "clv": -4.349,
+     "edge": 7.549,
+     "ev": 0.15476,
+     "final": "41-24",
+     "game": "Iowa Hawkeyes @ Washington Huskies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Iowa Hawkeyes ML",
+     "player": null,
+     "price": 105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 100,
+     "clv": -0.863,
+     "edge": 9.872,
+     "ev": 0.19364,
+     "final": "41-24",
+     "game": "Iowa Hawkeyes @ Washington Huskies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Iowa Hawkeyes +1.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.157,
@@ -12292,6 +12472,24 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -110,
+     "clv": 1.498,
+     "edge": 7.628,
+     "ev": 0.14963,
+     "final": "16-17",
+     "game": "Washington State Cougars @ Utah State Aggies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Washington State Cougars +3.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 8.575,
@@ -12326,22 +12524,40 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 176,
+     "clv": -0.503,
+     "edge": 10.389,
+     "ev": 0.28258,
+     "final": "16-17",
+     "game": "Washington State Cougars @ Utah State Aggies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Washington State Cougars ML",
+     "player": null,
+     "price": 172,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 206,
+    "l": 209,
     "p": 0,
     "void": 0,
-    "w": 233
+    "w": 236
    },
    "threshold": 5.0,
-   "win_rate": 0.530751708428246
+   "win_rate": 0.5303370786516854
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 21,
+  "Cosmic": 15,
   "Props": 144,
-  "Sides": 74
+  "Sides": 68
  }
 }
