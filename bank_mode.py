@@ -61,6 +61,21 @@ PROP_NAMES = {
 SPORT_NAMES = {"americanfootball_nfl": "NFL", "americanfootball_ncaaf": "NCAAF",
                "basketball_nba": "NBA", "basketball_ncaab": "NCAAB"}
 
+# Milestones ("Bijan Robinson 150+ rushing yards", "Steph Curry 10+ threes").
+# These are one-sided ladders: there is no "under" to take the cut out of, so
+# instead FanDuel is compared with every other book's price on the SAME
+# milestone. Books price these close together, so FanDuel paying far more than
+# the best other book is a real outlier.
+MILESTONE_NAMES = {
+    "player_pass_yds_alternate": "passing yards", "player_rush_yds_alternate": "rushing yards",
+    "player_reception_yds_alternate": "receiving yards", "player_receptions_alternate": "receptions",
+    "player_points_alternate": "points", "player_rebounds_alternate": "rebounds",
+    "player_assists_alternate": "assists", "player_threes_alternate": "threes",
+}
+MILESTONE_MIN_BOOKS = 4    # other books that must post the same milestone
+MILESTONE_GREEN = 0.20     # FanDuel's payout at least 20% above the best other book
+MILESTONE_YELLOW = 0.05    # 5-20% above: worth a look, not a bet
+
 
 # ------------------------------------------------------------------ math ----
 def american_to_decimal(price: float) -> float:
@@ -269,6 +284,78 @@ def build_rows(odds: dict, now: datetime) -> list[dict]:
     return rows
 
 
+def _milestone_label(point) -> str:
+    """149.5 -> '150+', 9.5 -> '10+'; a whole number stays 'over 150'."""
+    p = float(point)
+    return f"{int(p + 0.5)}+" if abs(p % 1 - 0.5) < 1e-9 else f"over {point:g}"
+
+
+def _overs(book: dict | None, key: str) -> dict:
+    """One book's milestone ladder: {(player, point): over price}."""
+    m = _find(book, key)
+    return {(o.get("description"), o.get("point")): o["price"]
+            for o in (m or {}).get("outcomes") or []
+            if o.get("name") == "Over" and o.get("description") and o.get("point") is not None}
+
+
+def build_milestones(odds: dict, now: datetime) -> list[dict]:
+    rows = []
+    for sport_key, events in (odds.get("sports") or {}).items():
+        for ev in events:
+            start = _ts(ev.get("commence_time"))
+            if not start or start <= now:
+                continue
+            books = {b["key"]: b for b in ev.get("bookmakers") or []}
+            fd = books.get("fanduel")
+            if not fd:
+                continue
+            for key, stat in MILESTONE_NAMES.items():
+                fd_ladder = _overs(fd, key)
+                if not fd_ladder:
+                    continue
+                others = {bk: _overs(b, key) for bk, b in books.items() if bk != "fanduel"}
+                for (player, point), price in fd_ladder.items():
+                    rivals = {bk: lad[(player, point)] for bk, lad in others.items() if (player, point) in lad}
+                    label = f"{player} {_milestone_label(point)} {stat}"
+                    side = {"team": label, "point": None, "price": price, "name": "Over", "line": point,
+                            "impliedPct": round(100 / american_to_decimal(price), 1),
+                            "fairPct": None, "evPct": None, "booksCompared": len(rivals)}
+                    if len(rivals) < MILESTONE_MIN_BOOKS:
+                        side.update({"fairPrice": None, "outlierPct": None, "light": "none",
+                                     "why": f"Only {len(rivals)} other book(s) post this milestone; "
+                                            f"need {MILESTONE_MIN_BOOKS} to compare."})
+                        source = None
+                    else:
+                        best_bk, best = max(rivals.items(), key=lambda kv: american_to_decimal(kv[1]))
+                        fd_profit = american_to_decimal(price) - 1
+                        best_profit = american_to_decimal(best) - 1
+                        outlier = fd_profit / best_profit - 1
+                        avg_prob = sum(1 / american_to_decimal(p) for p in rivals.values()) / len(rivals)
+                        if outlier >= MILESTONE_GREEN:
+                            light = "green"
+                            why = (f"FanDuel pays {outlier * 100:.0f}% more than the best of {len(rivals)} "
+                                   f"other books. FanDuel is way out of line on this milestone.")
+                        elif outlier >= MILESTONE_YELLOW:
+                            light, why = "yellow", (f"FanDuel pays {outlier * 100:.0f}% more than the best "
+                                                    f"other book. A little generous, not enough to bet.")
+                        else:
+                            light, why = "red", "Other books pay the same or more. No FanDuel mistake here."
+                        side.update({"fairPrice": best, "bestBook": best_bk,
+                                     "avgOtherPrice": decimal_to_american(1 / avg_prob),
+                                     "outlierPct": round(outlier * 100, 1), "light": light, "why": why})
+                        source = f"Best of {len(rivals)} books"
+                    rows.append({
+                        "id": f'{ev["id"]}|{key}|{player}|{point}', "eventId": ev["id"], "marketKey": key,
+                        "player": player, "sport": SPORT_NAMES.get(sport_key, sport_key),
+                        "time": ev["commence_time"], "game": f'{ev["away_team"]} at {ev["home_team"]}',
+                        "market": f"Milestone {stat}", "isProp": True, "isMilestone": True,
+                        "fdHoldPct": None, "fairSource": source, "sharpHoldPct": None,
+                        "stale": False, "shadedSide": None, "sides": [side],
+                    })
+    rows.sort(key=lambda r: (r["time"], r["game"], r["market"], r["player"], r["sides"][0]["line"]))
+    return rows
+
+
 # ---------------------------------------------------------- odds sources ----
 def _merge_markets(primary: list, extra: list) -> None:
     """Add markets (totals, props) that `extra` has and `primary` lacks, per event and book."""
@@ -417,18 +504,24 @@ def main(now: datetime | None = None, odds: dict | None = None) -> dict:
             log = json.load(f)
     rows = build_rows(odds, now)
     log = update_log(log, rows, odds, now, stamp)
+    milestones = build_milestones(odds, now)
 
     game_rows = [r for r in rows if not r["isProp"]]
     holds = [r["fdHoldPct"] / 100 for r in game_rows]
     avg_hold = sum(holds) / len(holds) if holds else 100 / 2100   # -110/-110 when empty
     counts = {k: sum(1 for r in rows for s in r["sides"] if s["light"] == k)
               for k in ("green", "yellow", "red", "check", "none")}
+    m_counts = {k: sum(1 for r in milestones if r["sides"][0]["light"] == k)
+                for k in ("green", "yellow", "red", "none")}
+    rows = rows + milestones
     out = {
         "generated_at": stamp, "odds_as_of": odds.get("generated_at"),
         "rules": {"greenEvPct": GREEN_EV * 100, "capEvPct": CAP_EV * 100,
                   "staleMinutes": STALE_MINUTES, "sharpBooks": [BOOK_NAMES[b] for b in SHARP_BOOKS],
-                  "propMinBooks": PROP_MIN_BOOKS, "propAvgEvPct": PROP_AVG_EV * 100},
+                  "propMinBooks": PROP_MIN_BOOKS, "propAvgEvPct": PROP_AVG_EV * 100,
+                  "milestoneMinBooks": MILESTONE_MIN_BOOKS, "milestoneGreenPct": MILESTONE_GREEN * 100},
         "counts": counts,
+        "milestoneCounts": m_counts,
         "markets": sorted({r["market"] for r in rows}),
         "avgFdHoldPct": round(avg_hold * 100, 2),
         "parlay": [{"legs": n, "houseKeepsPct": round(parlay_house_keep(avg_hold, n) * 100, 1)}

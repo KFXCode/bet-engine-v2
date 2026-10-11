@@ -12,7 +12,8 @@ What it buys (The Odds API, one region of 10 books):
   - game lines for a sport with a game starting soon: moneyline, spread and
     total = 3 credits per sport
   - player props for NFL and NBA games starting soon, only at the "last look"
-    times (PROPS_RUNS): 4 prop markets = 4 credits per game
+    times (PROPS_RUNS): 4 over/under markets + 4 milestone ladders = 8 credits
+    per game
 Before buying anything it asks which games are coming up, which is free.
 """
 from __future__ import annotations
@@ -34,9 +35,13 @@ ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 EVENT_ODDS = "https://api.the-odds-api.com/v4/sports/{key}/events/{event}/odds"
 EVENTS = "https://api.the-odds-api.com/v4/sports/{key}/events"   # free: no credits
 ALL = ["americanfootball_nfl", "americanfootball_ncaaf", "basketball_nba", "basketball_ncaab"]
-PROP_MARKETS = {
-    "americanfootball_nfl": "player_pass_yds,player_rush_yds,player_reception_yds,player_receptions",
-    "basketball_nba": "player_points,player_rebounds,player_assists,player_threes",
+PROP_MARKETS = {   # regular over/unders, then the milestone ladders (150+ yards, 10+ threes)
+    "americanfootball_nfl": "player_pass_yds,player_rush_yds,player_reception_yds,player_receptions,"
+                            "player_pass_yds_alternate,player_rush_yds_alternate,"
+                            "player_reception_yds_alternate,player_receptions_alternate",
+    "basketball_nba": "player_points,player_rebounds,player_assists,player_threes,"
+                      "player_points_alternate,player_rebounds_alternate,"
+                      "player_assists_alternate,player_threes_alternate",
 }
 
 # Which sports to check and how far ahead to look, per scheduled time (UTC).
@@ -156,6 +161,7 @@ def main(now: datetime | None = None) -> list[str]:
     out = bank_mode.main(now)
     c = out["counts"]
     notes.append(f"Bank Mode: green {c['green']} yellow {c['yellow']} red {c['red']} check {c['check']}"
+                 f" | milestone greens {out['milestoneCounts']['green']}"
                  f" | markets: {', '.join(out['markets'])}")
     return notes
 
