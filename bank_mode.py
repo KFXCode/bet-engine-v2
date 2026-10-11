@@ -72,6 +72,7 @@ MILESTONE_NAMES = {
     "player_points_alternate": "points", "player_rebounds_alternate": "rebounds",
     "player_assists_alternate": "assists", "player_threes_alternate": "threes",
 }
+MILESTONE_MIN_PRICE = 100  # milestones must pay plus money (+100 or more)
 MILESTONE_MIN_BOOKS = 4    # other books that must post the same milestone
 MILESTONE_GREEN = 0.20     # FanDuel's payout at least 20% above the best other book
 MILESTONE_YELLOW = 0.05    # 5-20% above: worth a look, not a bet
@@ -298,7 +299,22 @@ def _overs(book: dict | None, key: str) -> dict:
             if o.get("name") == "Over" and o.get("description") and o.get("point") is not None}
 
 
+def _main_lines(books: dict, key: str) -> dict:
+    """Each player's normal over/under line for this stat: FanDuel's, else the middle of the other books'."""
+    base = key.replace("_alternate", "")
+    fd = {p: pt for (p, pt) in prop_pairs(books.get("fanduel"), base)}
+    pts: dict = {}
+    for bk, b in books.items():
+        if bk != "fanduel":
+            for (p, pt) in prop_pairs(b, base):
+                pts.setdefault(p, []).append(pt)
+    lines = {p: sorted(v)[len(v) // 2] for p, v in pts.items()}
+    lines.update(fd)
+    return lines
+
+
 def build_milestones(odds: dict, now: datetime) -> list[dict]:
+    """Upside milestones only: a number ABOVE the player's normal line, paying plus money."""
     rows = []
     for sport_key, events in (odds.get("sports") or {}).items():
         for ev in events:
@@ -314,10 +330,15 @@ def build_milestones(odds: dict, now: datetime) -> list[dict]:
                 if not fd_ladder:
                     continue
                 others = {bk: _overs(b, key) for bk, b in books.items() if bk != "fanduel"}
+                lines = _main_lines(books, key)
                 for (player, point), price in fd_ladder.items():
+                    main = lines.get(player)
+                    if main is None or point <= main or price < MILESTONE_MIN_PRICE:
+                        continue        # not an upside milestone (at/below the normal line, or minus money)
                     rivals = {bk: lad[(player, point)] for bk, lad in others.items() if (player, point) in lad}
                     label = f"{player} {_milestone_label(point)} {stat}"
                     side = {"team": label, "point": None, "price": price, "name": "Over", "line": point,
+                            "mainLine": main,
                             "impliedPct": round(100 / american_to_decimal(price), 1),
                             "fairPct": None, "evPct": None, "booksCompared": len(rivals)}
                     if len(rivals) < MILESTONE_MIN_BOOKS:
@@ -333,8 +354,8 @@ def build_milestones(odds: dict, now: datetime) -> list[dict]:
                         avg_prob = sum(1 / american_to_decimal(p) for p in rivals.values()) / len(rivals)
                         if outlier >= MILESTONE_GREEN:
                             light = "green"
-                            why = (f"FanDuel pays {outlier * 100:.0f}% more than the best of {len(rivals)} "
-                                   f"other books. FanDuel is way out of line on this milestone.")
+                            why = (f"Normal line is {main:g}. FanDuel pays {outlier * 100:.0f}% more than the best "
+                                   f"of {len(rivals)} other books on this milestone. FanDuel is way out of line.")
                         elif outlier >= MILESTONE_YELLOW:
                             light, why = "yellow", (f"FanDuel pays {outlier * 100:.0f}% more than the best "
                                                     f"other book. A little generous, not enough to bet.")
