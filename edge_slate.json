@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-10-11T19:11:38+00:00",
+ "generated_at": "2026-10-11T19:48:07+00:00",
  "model": "game lines: adjusted-margin ratings fit jointly with home field, normal distribution over the game margin. Moneylines outside -600 to +600 are not bet, spread underdogs of more than +24 are not bet, and a game is skipped when the projection lands more than 28 points of margin from the market's own line. player props: per-player game logs with recency weighting, shrunk toward a league baseline and adjusted for the defence, priced with gamma (yardage), negative binomial (counts) or Poisson (anytime TD). half-point lines only; totals are not priced; games starting within 7 days",
  "days_ahead": 7,
  "lookahead_days": 45,
  "diagnostics": [
   "NFL: ignored 49 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NFL: fit on 349 games, hfa 1.60, sd margin 11.59, 4.1 games per team in the last 60 days (ratings maturity 51%)",
-  "americanfootball_nfl: 13 events from the primary key, 18439 credits left on it",
-  "NFL: 13 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
+  "americanfootball_nfl: 13 events from the primary key, 18433 credits left on it",
+  "NFL: 10 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 3 with no FanDuel moneyline",
   "NFL player logs: cache already current (6914 player-games, looked back 21 days)",
   "NFL props: projections for 540 players from 6914 player-games",
   "NFL props: 13 events read (13 cached, 0 fetched), 737 priced sides",
   "NCAAF: fit on 1304 games, hfa 2.94, sd margin 12.97, 3.8 games per team in the last 60 days (ratings maturity 64%)",
-  "americanfootball_ncaaf: 59 events from the primary key, 18437 credits left on it",
+  "americanfootball_ncaaf: 59 events from the primary key, 18431 credits left on it",
   "NCAAF: 52 priced, 0 outside the 7-day window, 7 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
   "NBA: ignored 103 preseason games \u2014 starters sit in those, so the result says little about the team",
   "NBA: fit on 1326 games, hfa 1.76, sd margin 14.13, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_nba: 46 events from the primary key, 18435 credits left on it",
+  "basketball_nba: 46 events from the primary key, 18429 credits left on it",
   "NBA: 0 priced, 16 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline",
   "NCAAB: fit on 1156 games, hfa 3.03, sd margin 9.49, 0.0 games per team in the last 60 days (ratings maturity 0%)",
-  "basketball_ncaab: 0 events from the primary key, 18435 credits left on it",
+  "basketball_ncaab: 0 events from the primary key, 18429 credits left on it",
   "NCAAB: 0 priced, 0 outside the 7-day window, 0 with no rating, 0 with a team under 2 fitted games, 0 more than 28 points of margin away from the market, 0 with no FanDuel moneyline"
  ],
  "games": [
@@ -33,18 +33,18 @@
    "hfa": 1.597,
    "sdMargin": 11.589,
    "projMargin": -3.451,
-   "marketMargin": 4.5,
+   "marketMargin": 6.5,
    "trust": 0.508,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -310,
-   "mlAway": 230,
-   "spread": -4.5,
-   "sprHome": -114,
-   "sprAway": -114
+   "mlHome": -3500,
+   "mlAway": 1060,
+   "spread": -6.5,
+   "sprHome": -136,
+   "sprAway": 102
   },
   {
    "sport": "NFL",
@@ -56,41 +56,18 @@
    "hfa": 1.597,
    "sdMargin": 11.589,
    "projMargin": -0.687,
-   "marketMargin": 12.5,
+   "marketMargin": 10.5,
    "trust": 0.508,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -1800,
-   "mlAway": 800,
-   "spread": -12.5,
-   "sprHome": -102,
-   "sprAway": -130
-  },
-  {
-   "sport": "NFL",
-   "home": "Tennessee Titans",
-   "away": "Houston Texans",
-   "time": "2026-10-11T17:02:34Z",
-   "homeRtg": -8.586,
-   "awayRtg": 5.975,
-   "hfa": 1.597,
-   "sdMargin": 11.589,
-   "projMargin": -12.964,
-   "marketMargin": -18.5,
-   "trust": 0.508,
-   "mlBand": [
-    -600.0,
-    600.0
-   ],
-   "maxDog": 24.0,
-   "mlHome": 2500,
-   "mlAway": -20000,
-   "spread": 18.5,
-   "sprHome": -108,
-   "sprAway": -122
+   "mlHome": -3500,
+   "mlAway": 1060,
+   "spread": -10.5,
+   "sprHome": -114,
+   "sprAway": -114
   },
   {
    "sport": "NFL",
@@ -102,18 +79,18 @@
    "hfa": 1.597,
    "sdMargin": 11.589,
    "projMargin": -2.618,
-   "marketMargin": 2.5,
+   "marketMargin": -2.5,
    "trust": 0.508,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -210,
-   "mlAway": 162,
-   "spread": -2.5,
-   "sprHome": -118,
-   "sprAway": -112
+   "mlHome": 220,
+   "mlAway": -295,
+   "spread": 2.5,
+   "sprHome": 138,
+   "sprAway": -186
   },
   {
    "sport": "NFL",
@@ -125,18 +102,18 @@
    "hfa": 1.597,
    "sdMargin": 11.589,
    "projMargin": -2.564,
-   "marketMargin": -14.5,
+   "marketMargin": -9.5,
    "trust": 0.508,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 1500,
-   "mlAway": -7000,
-   "spread": 14.5,
-   "sprHome": -114,
-   "sprAway": -118
+   "mlHome": 3500,
+   "mlAway": -50000,
+   "spread": 9.5,
+   "sprHome": 178,
+   "sprAway": -245
   },
   {
    "sport": "NFL",
@@ -148,64 +125,18 @@
    "hfa": 1.597,
    "sdMargin": 11.589,
    "projMargin": -5.34,
-   "marketMargin": -3.5,
+   "marketMargin": -9.5,
    "trust": 0.508,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 215,
-   "mlAway": -290,
-   "spread": 3.5,
-   "sprHome": -130,
-   "sprAway": -102
-  },
-  {
-   "sport": "NFL",
-   "home": "New England Patriots",
-   "away": "Las Vegas Raiders",
-   "time": "2026-10-11T17:03:05Z",
-   "homeRtg": 6.048,
-   "awayRtg": -7.589,
-   "hfa": 1.597,
-   "sdMargin": 11.589,
-   "projMargin": 15.234,
-   "marketMargin": 17.5,
-   "trust": 0.508,
-   "mlBand": [
-    -600.0,
-    600.0
-   ],
-   "maxDog": 24.0,
-   "mlHome": -10000,
-   "mlAway": 1700,
-   "spread": -17.5,
-   "sprHome": -108,
-   "sprAway": -122
-  },
-  {
-   "sport": "NFL",
-   "home": "Green Bay Packers",
-   "away": "Chicago Bears",
-   "time": "2026-10-11T17:03:41Z",
-   "homeRtg": -0.936,
-   "awayRtg": 2.067,
-   "hfa": 1.597,
-   "sdMargin": 11.589,
-   "projMargin": -1.405,
-   "marketMargin": 12.5,
-   "trust": 0.508,
-   "mlBand": [
-    -600.0,
-    600.0
-   ],
-   "maxDog": 24.0,
-   "mlHome": -2500,
-   "mlAway": 900,
-   "spread": -12.5,
-   "sprHome": -128,
-   "sprAway": -104
+   "mlHome": 2000,
+   "mlAway": -20000,
+   "spread": 9.5,
+   "sprHome": 140,
+   "sprAway": -188
   },
   {
    "sport": "NFL",
@@ -250,8 +181,8 @@
    "mlHome": 200,
    "mlAway": -245,
    "spread": 5.5,
-   "sprHome": -115,
-   "sprAway": -105
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NFL",
@@ -359,8 +290,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -144,
-   "mlAway": 120,
+   "mlHome": -146,
+   "mlAway": 122,
    "spread": -2.5,
    "sprHome": -124,
    "sprAway": 102
@@ -398,18 +329,18 @@
    "hfa": 2.942,
    "sdMargin": 12.975,
    "projMargin": -14.673,
-   "marketMargin": -6.5,
+   "marketMargin": -4.5,
    "trust": 0.635,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 176,
-   "mlAway": -215,
-   "spread": 6.5,
-   "sprHome": -122,
-   "sprAway": 100
+   "mlHome": 158,
+   "mlAway": -192,
+   "spread": 4.5,
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NCAAF",
@@ -474,8 +405,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 215,
-   "mlAway": -265,
+   "mlHome": 220,
+   "mlAway": -275,
    "spread": 7.5,
    "sprHome": -122,
    "sprAway": 100
@@ -566,8 +497,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 180,
-   "mlAway": -220,
+   "mlHome": 184,
+   "mlAway": -225,
    "spread": 6.5,
    "sprHome": -115,
    "sprAway": -105
@@ -635,8 +566,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -490,
-   "mlAway": 365,
+   "mlHome": -480,
+   "mlAway": 360,
    "spread": -11.5,
    "sprHome": -110,
    "sprAway": -110
@@ -661,8 +592,8 @@
    "mlHome": 152,
    "mlAway": -184,
    "spread": 3.5,
-   "sprHome": -102,
-   "sprAway": -120
+   "sprHome": -105,
+   "sprAway": -115
   },
   {
    "sport": "NCAAF",
@@ -704,8 +635,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -400,
-   "mlAway": 310,
+   "mlHome": -410,
+   "mlAway": 315,
    "spread": -10.5,
    "sprHome": -110,
    "sprAway": -110
@@ -750,8 +681,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -315,
-   "mlAway": 250,
+   "mlHome": -310,
+   "mlAway": 245,
    "spread": -7.5,
    "sprHome": -115,
    "sprAway": -105
@@ -789,16 +720,16 @@
    "hfa": 2.942,
    "sdMargin": 12.975,
    "projMargin": 20.94,
-   "marketMargin": 23.5,
+   "marketMargin": 22.5,
    "trust": 0.635,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -3500,
-   "mlAway": 1280,
-   "spread": -23.5,
+   "mlHome": -3000,
+   "mlAway": 1200,
+   "spread": -22.5,
    "sprHome": -106,
    "sprAway": -114
   },
@@ -842,8 +773,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 102,
-   "mlAway": -122,
+   "mlHome": 100,
+   "mlAway": -120,
    "spread": 1.5,
    "sprHome": -105,
    "sprAway": -115
@@ -888,8 +819,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 205,
-   "mlAway": -255,
+   "mlHome": 202,
+   "mlAway": -250,
    "spread": 6.5,
    "sprHome": -106,
    "sprAway": -114
@@ -934,8 +865,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -1300,
-   "mlAway": 760,
+   "mlHome": -1450,
+   "mlAway": 810,
    "spread": -18.5,
    "sprHome": -110,
    "sprAway": -110
@@ -1049,8 +980,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -210,
-   "mlAway": 172,
+   "mlHome": -200,
+   "mlAway": 164,
    "spread": -6.5,
    "sprHome": -102,
    "sprAway": -120
@@ -1095,11 +1026,11 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 140,
-   "mlAway": -170,
+   "mlHome": 158,
+   "mlAway": -192,
    "spread": 4.5,
-   "sprHome": -120,
-   "sprAway": -102
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NCAAF",
@@ -1111,18 +1042,18 @@
    "hfa": 2.942,
    "sdMargin": 12.975,
    "projMargin": -1.003,
-   "marketMargin": 16.5,
+   "marketMargin": 17.5,
    "trust": 0.635,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -950,
-   "mlAway": 610,
-   "spread": -16.5,
-   "sprHome": -112,
-   "sprAway": -108
+   "mlHome": -1100,
+   "mlAway": 680,
+   "spread": -17.5,
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NCAAF",
@@ -1187,8 +1118,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -2300,
-   "mlAway": 1060,
+   "mlHome": -2100,
+   "mlAway": 1000,
    "spread": -21.5,
    "sprHome": -108,
    "sprAway": -112
@@ -1210,7 +1141,7 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -1800,
+   "mlHome": -2000,
    "mlAway": 980,
    "spread": -20.5,
    "sprHome": -110,
@@ -1256,8 +1187,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 340,
-   "mlAway": -450,
+   "mlHome": 350,
+   "mlAway": -465,
    "spread": 11.5,
    "sprHome": -114,
    "sprAway": -106
@@ -1272,18 +1203,18 @@
    "hfa": 2.942,
    "sdMargin": 12.975,
    "projMargin": 19.802,
-   "marketMargin": 3.5,
+   "marketMargin": 4.5,
    "trust": 0.635,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -182,
-   "mlAway": 150,
-   "spread": -3.5,
-   "sprHome": -118,
-   "sprAway": -104
+   "mlHome": -188,
+   "mlAway": 155,
+   "spread": -4.5,
+   "sprHome": -108,
+   "sprAway": -112
   },
   {
    "sport": "NCAAF",
@@ -1318,18 +1249,18 @@
    "hfa": 2.942,
    "sdMargin": 12.975,
    "projMargin": -14.251,
-   "marketMargin": -12.5,
+   "marketMargin": -13.5,
    "trust": 0.635,
    "mlBand": [
     -600.0,
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 390,
-   "mlAway": -530,
-   "spread": 12.5,
-   "sprHome": -105,
-   "sprAway": -115
+   "mlHome": 440,
+   "mlAway": -610,
+   "spread": 13.5,
+   "sprHome": -110,
+   "sprAway": -110
   },
   {
    "sport": "NCAAF",
@@ -1371,8 +1302,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 500,
-   "mlAway": -720,
+   "mlHome": 520,
+   "mlAway": -750,
    "spread": 14.5,
    "sprHome": -110,
    "sprAway": -110
@@ -1394,11 +1325,11 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -280,
-   "mlAway": 225,
+   "mlHome": -255,
+   "mlAway": 205,
    "spread": -6.5,
-   "sprHome": -124,
-   "sprAway": 102
+   "sprHome": -114,
+   "sprAway": -106
   },
   {
    "sport": "NCAAF",
@@ -1486,8 +1417,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": 300,
-   "mlAway": -385,
+   "mlHome": 285,
+   "mlAway": -365,
    "spread": 9.5,
    "sprHome": -110,
    "sprAway": -110
@@ -1509,8 +1440,8 @@
     600.0
    ],
    "maxDog": 24.0,
-   "mlHome": -240,
-   "mlAway": 195,
+   "mlHome": -245,
+   "mlAway": 198,
    "spread": -6.5,
    "sprHome": -115,
    "sprAway": -105
