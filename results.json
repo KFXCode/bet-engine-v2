@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.0097719298245614,
-   "clv_beat_rate": 0.30214424951267055,
-   "clv_n": 513,
-   "graded": 579,
+   "avg_clv": 0.006970873786407764,
+   "clv_beat_rate": 0.3029126213592233,
+   "clv_n": 515,
+   "graded": 581,
    "record": {
-    "l": 282,
+    "l": 283,
     "p": 0,
     "void": 10,
-    "w": 297
+    "w": 298
    },
-   "win_rate": 0.5129533678756477
+   "win_rate": 0.5129087779690189
   }
  },
  "by_sport": {
@@ -81,23 +81,23 @@
    "win_rate": 0.46859903381642515
   },
   "NFL Sides": {
-   "avg_clv": -0.266710843373494,
-   "clv_beat_rate": 0.3373493975903614,
-   "clv_n": 83,
-   "graded": 102,
+   "avg_clv": -0.2771764705882353,
+   "clv_beat_rate": 0.3411764705882353,
+   "clv_n": 85,
+   "graded": 104,
    "record": {
-    "l": 52,
+    "l": 53,
     "p": 0,
     "void": 0,
-    "w": 50
+    "w": 51
    },
-   "win_rate": 0.49019607843137253
+   "win_rate": 0.49038461538461536
   }
  },
  "diagnostics": [
   "NFL player logs: cache already current (6914 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-11T14:26:13+00:00",
+ "generated_at": "2026-10-11T18:37:09+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
@@ -4527,10 +4527,10 @@
    "win_rate": 0.46859903381642515
   },
   "Sides": {
-   "avg_clv": 0.003510067114093952,
-   "clv_beat_rate": 0.38031319910514544,
-   "clv_n": 447,
-   "graded": 489,
+   "avg_clv": 0.000325167037861908,
+   "clv_beat_rate": 0.38084632516703787,
+   "clv_n": 449,
+   "graded": 491,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -13228,6 +13228,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -205,
+     "clv": 0.527,
+     "edge": 12.234,
+     "ev": 0.18351,
+     "final": "17-19",
+     "game": "Philadelphia Eagles @ Jacksonville Jaguars",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Jacksonville Jaguars ML",
+     "player": null,
+     "price": -200,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -106,
+     "clv": -1.95,
+     "edge": 15.649,
+     "ev": 0.29256,
+     "final": "17-19",
+     "game": "Philadelphia Eagles @ Jacksonville Jaguars",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Jacksonville Jaguars -3.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": 176,
      "clv": -0.503,
      "edge": 10.389,
@@ -13337,19 +13373,19 @@
     }
    ],
    "record": {
-    "l": 229,
+    "l": 230,
     "p": 0,
     "void": 0,
-    "w": 260
+    "w": 261
    },
    "threshold": 5.0,
-   "win_rate": 0.5316973415132924
+   "win_rate": 0.5315682281059063
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 15,
-  "Props": 157,
-  "Sides": 51
+  "Cosmic": 16,
+  "Props": 166,
+  "Sides": 61
  }
 }
