@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.006970873786407764,
-   "clv_beat_rate": 0.3029126213592233,
-   "clv_n": 515,
-   "graded": 581,
+   "avg_clv": 0.020373795761078995,
+   "clv_beat_rate": 0.3063583815028902,
+   "clv_n": 519,
+   "graded": 587,
    "record": {
-    "l": 283,
+    "l": 285,
     "p": 0,
     "void": 10,
-    "w": 298
+    "w": 302
    },
-   "win_rate": 0.5129087779690189
+   "win_rate": 0.514480408858603
   }
  },
  "by_sport": {
@@ -55,17 +55,17 @@
    "win_rate": 0.5426356589147286
   },
   "NFL Cosmic": {
-   "avg_clv": 0.9780000000000001,
-   "clv_beat_rate": 0.5,
-   "clv_n": 4,
-   "graded": 6,
+   "avg_clv": 0.7824000000000001,
+   "clv_beat_rate": 0.4,
+   "clv_n": 5,
+   "graded": 11,
    "record": {
-    "l": 3,
+    "l": 7,
     "p": 0,
     "void": 0,
-    "w": 3
+    "w": 4
    },
-   "win_rate": 0.5
+   "win_rate": 0.36363636363636365
   },
   "NFL Props": {
    "avg_clv": 0.06914545454545454,
@@ -81,30 +81,30 @@
    "win_rate": 0.46859903381642515
   },
   "NFL Sides": {
-   "avg_clv": -0.2771764705882353,
-   "clv_beat_rate": 0.3411764705882353,
-   "clv_n": 85,
-   "graded": 104,
+   "avg_clv": -0.18624719101123596,
+   "clv_beat_rate": 0.3595505617977528,
+   "clv_n": 89,
+   "graded": 110,
    "record": {
-    "l": 53,
+    "l": 55,
     "p": 0,
     "void": 0,
-    "w": 51
+    "w": 55
    },
-   "win_rate": 0.49038461538461536
+   "win_rate": 0.5
   }
  },
  "diagnostics": [
   "NFL player logs: cache already current (6914 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-11T19:48:07+00:00",
+ "generated_at": "2026-10-11T20:08:59+00:00",
  "graded_through": "Week of Oct 5",
  "groups": {
   "Cosmic": {
-   "avg_clv": 0.18695,
-   "clv_beat_rate": 0.45,
-   "clv_n": 20,
-   "graded": 22,
+   "avg_clv": 0.17804761904761904,
+   "clv_beat_rate": 0.42857142857142855,
+   "clv_n": 21,
+   "graded": 27,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -502,16 +502,106 @@
      "result": "L",
      "sport": "NCAAF",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 1.558,
+     "ev": 0.02975,
+     "final": "7-31",
+     "game": "Chicago Bears @ Green Bay Packers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Green Bay Packers +2.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.72,
+     "ev": 0.3312,
+     "final": "7-31",
+     "game": "Chicago Bears @ Green Bay Packers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Chicago Bears +6.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.434,
+     "ev": 0.3165,
+     "final": "26-3",
+     "game": "Houston Texans @ Tennessee Titans",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Tennessee Titans +18.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 0.502,
+     "ev": 0.0158,
+     "final": "23-13",
+     "game": "Minnesota Vikings @ New Orleans Saints",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "New Orleans Saints ML",
+     "player": null,
+     "price": 215,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 2.796,
+     "ev": 0.05088,
+     "final": "17-45",
+     "game": "Las Vegas Raiders @ New England Patriots",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Las Vegas Raiders +17.5",
+     "player": null,
+     "price": -122,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 11,
+    "l": 15,
     "p": 0,
     "void": 0,
-    "w": 11
+    "w": 12
    },
    "threshold": null,
-   "win_rate": 0.5
+   "win_rate": 0.4444444444444444
   },
   "Props": {
    "avg_clv": 0.06914545454545454,
@@ -4527,10 +4617,10 @@
    "win_rate": 0.46859903381642515
   },
   "Sides": {
-   "avg_clv": 0.000325167037861908,
-   "clv_beat_rate": 0.38084632516703787,
-   "clv_n": 449,
-   "graded": 491,
+   "avg_clv": 0.015739514348785864,
+   "clv_beat_rate": 0.3841059602649007,
+   "clv_n": 453,
+   "graded": 497,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -13264,6 +13354,78 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -370,
+     "clv": 2.384,
+     "edge": 10.524,
+     "ev": 0.13812,
+     "final": "26-3",
+     "game": "Houston Texans @ Tennessee Titans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Houston Texans ML",
+     "player": null,
+     "price": -320,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -105,
+     "clv": -2.167,
+     "edge": 17.389,
+     "ev": 0.32511,
+     "final": "26-3",
+     "game": "Houston Texans @ Tennessee Titans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Houston Texans -6.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -134,
+     "clv": 3.756,
+     "edge": 11.42,
+     "ev": 0.21265,
+     "final": "23-13",
+     "game": "Minnesota Vikings @ New Orleans Saints",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Minnesota Vikings ML",
+     "player": null,
+     "price": -116,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -120,
+     "clv": 3.011,
+     "edge": 8.987,
+     "ev": 0.17547,
+     "final": "23-13",
+     "game": "Minnesota Vikings @ New Orleans Saints",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Minnesota Vikings -1.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
      "closing_price": 176,
      "clv": -0.503,
      "edge": 10.389,
@@ -13370,22 +13532,58 @@
      "result": "L",
      "sport": "NCAAF",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.72,
+     "ev": 0.3312,
+     "final": "7-31",
+     "game": "Chicago Bears @ Green Bay Packers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Chicago Bears +6.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.434,
+     "ev": 0.3165,
+     "final": "26-3",
+     "game": "Houston Texans @ Tennessee Titans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Tennessee Titans +18.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 5"
     }
    ],
    "record": {
-    "l": 230,
+    "l": 232,
     "p": 0,
     "void": 0,
-    "w": 261
+    "w": 265
    },
    "threshold": 5.0,
-   "win_rate": 0.5315682281059063
+   "win_rate": 0.5331991951710262
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 21,
+  "Cosmic": 16,
   "Props": 166,
-  "Sides": 64
+  "Sides": 58
  }
 }
