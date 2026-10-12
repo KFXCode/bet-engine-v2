@@ -44,24 +44,37 @@ PROP_MARKETS = {   # regular over/unders, then the milestone ladders (150+ yards
                       "player_assists_alternate,player_threes_alternate",
 }
 
-# Which sports to check and how far ahead to look, per scheduled time (UTC).
-# Eastern times are for daylight time (Mar-Nov); after the November clock
-# change every run lands one hour earlier in Eastern.
-PLAN = {
-    "5 15 * * *":  (ALL, 12),                         # daily 11:05am - college + early slates
-    "0 22 * * *":  (ALL, 6),                          # daily 6:00pm - NBA/NCAAB injury news
-    "45 22 * * *": (ALL, 3),                          # daily 6:45pm - lineups, NFL night-game inactives
-    "30 13 * * 6": (ALL, 6),                          # Sat 9:30am  - college football morning
-    "45 18 * * 6": (ALL, 4),                          # Sat 2:45pm  - before 3:30 kickoffs
-    "45 15 * * 0": (ALL, 3),                          # Sun 11:45am - NFL inactives for 1pm games
-    "30 16 * * 0": (ALL, 3),                          # Sun 12:30pm - last look before 1pm
-    "0 19 * * 0":  (ALL, 3),                          # Sun 3:00pm  - NFL inactives for 4pm games
-    "10 22 * * 0": (["americanfootball_ncaaf"], 168), # Sun 6:10pm  - next week's college openers
-}
-MANUAL = (ALL, 12)
-# Player props are bought only at these last-look times (and on a manual run),
-# for games starting within that run's window.
-PROPS_RUNS = {"45 22 * * *", "45 15 * * 0", "0 19 * * 0", ""}
+# Refresh times in EASTERN time: (minute, hour, weekday "*"/"6"=Sat/"0"=Sun,
+# sports, hours ahead to look, buy player props?). Props are bought only at the
+# last-look times, for games starting within that run's window.
+LOCAL_PLAN = [
+    (5, 11, "*", ALL, 12, False),                        # daily 11:05am - college + early slates
+    (50, 17, "*", ALL, 3, True),                         # daily 5:50pm - NBA/NCAAB 7:00-7:30 tips
+    (45, 18, "*", ALL, 3, True),                         # daily 6:45pm - lineups, NFL night-game inactives
+    (30, 9, "6", ALL, 6, False),                         # Sat 9:30am  - college football morning
+    (20, 14, "6", ALL, 4, False),                        # Sat 2:20pm  - before 3:30 kickoffs
+    (45, 14, "6", ALL, 4, False),                        # Sat 2:45pm  - before 3:30 kickoffs (backup)
+    (45, 11, "0", ALL, 3, True),                         # Sun 11:45am - NFL inactives for 1pm games
+    (30, 12, "0", ALL, 3, False),                        # Sun 12:30pm - last look before 1pm
+    (52, 14, "0", ALL, 3, True),                         # Sun 2:52pm  - NFL inactives for 4pm games
+    (10, 18, "0", ["americanfootball_ncaaf"], 168, False),  # Sun 6:10pm - next week's college openers
+]
+# GitHub only schedules in UTC, so every time is listed twice: once for daylight
+# time (Eastern = UTC-4, Mar-Nov) and once for standard time (UTC-5, Nov-Mar).
+# Each run checks which one is in effect today and the other one does nothing.
+PLAN = {}
+for _m, _h, _dow, _sports, _hours, _props in LOCAL_PLAN:
+    for _off in (4, 5):
+        _cron = f"{_m} {_h + _off} * * {_dow}"
+        assert _cron not in PLAN, f"schedule clash at {_cron}"
+        PLAN[_cron] = (_sports, _hours, _props, _off)
+MANUAL = (ALL, 12, True, None)
+
+
+def eastern_offset(now: datetime) -> int:
+    """4 during daylight time, 5 during standard time."""
+    from zoneinfo import ZoneInfo
+    return int(-now.astimezone(ZoneInfo("America/New_York")).utcoffset().total_seconds() // 3600)
 
 
 def keys() -> list[str]:
@@ -121,8 +134,10 @@ def load(path: str) -> dict:
 def main(now: datetime | None = None) -> list[str]:
     now = now or datetime.now(timezone.utc)
     schedule = os.environ.get("SCHEDULE", "")
-    sports, hours = PLAN.get(schedule, MANUAL)
-    want_props = schedule in PROPS_RUNS
+    sports, hours, want_props, offset = PLAN.get(schedule, MANUAL)
+    if offset is not None and offset != eastern_offset(now):
+        return [f"{schedule} is the {'daylight' if offset == 4 else 'standard'}-time copy of this run; "
+                "the other copy runs today instead. Nothing bought."]
     api_keys, notes = keys(), []
     bank = load(BANK_ODDS_PATH) or {"sports": {}}
     bank.setdefault("sports", {})
