@@ -54,7 +54,7 @@ def setup(tmp_path, monkeypatch, schedule):
 
 
 def test_only_buys_sports_with_games_soon(tmp_path, monkeypatch):
-    calls = setup(tmp_path, monkeypatch, "0 22 * * *")          # 6pm: not a props run
+    calls = setup(tmp_path, monkeypatch, "5 15 * * *")          # 11:05am daylight time: not a props run
     notes = br.main(NOW)
     bought = [u for u in calls if u.endswith("/odds")]
     assert bought == [br.ODDS.format(key="basketball_nba")]      # game lines only
@@ -107,5 +107,17 @@ def test_totals_graded():
 def test_every_workflow_time_has_a_plan():
     import re
     crons = re.findall(r'cron: "([^"]+)"', open(".github/workflows/bank-mode.yml").read())
-    assert crons and set(crons) == set(br.PLAN)
-    assert br.PROPS_RUNS - {""} <= set(br.PLAN)
+    assert crons and set(crons) == set(br.PLAN) and len(crons) == 2 * len(br.LOCAL_PLAN)
+
+
+def test_only_the_right_clock_copy_runs(tmp_path, monkeypatch):
+    # October is daylight time: the 6:45pm standard-time copy (23:45 UTC) must do nothing
+    calls = setup(tmp_path, monkeypatch, "45 23 * * *")
+    notes = br.main(datetime(2026, 10, 12, 23, 45, tzinfo=timezone.utc))
+    assert calls == [] and "Nothing bought" in notes[0]
+    # December is standard time: the daylight copy (22:45 UTC) must do nothing
+    calls = setup(tmp_path, monkeypatch, "45 22 * * *")
+    notes = br.main(datetime(2026, 12, 14, 22, 45, tzinfo=timezone.utc))
+    assert calls == [] and "Nothing bought" in notes[0]
+    assert br.eastern_offset(datetime(2026, 10, 12, tzinfo=timezone.utc)) == 4
+    assert br.eastern_offset(datetime(2026, 12, 14, tzinfo=timezone.utc)) == 5
