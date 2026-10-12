@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.01754850088183421,
-   "clv_beat_rate": 0.2874779541446208,
-   "clv_n": 567,
-   "graded": 647,
+   "avg_clv": 0.01739510489510489,
+   "clv_beat_rate": 0.28496503496503495,
+   "clv_n": 572,
+   "graded": 651,
    "record": {
-    "l": 314,
+    "l": 315,
     "p": 1,
-    "void": 15,
-    "w": 332
+    "void": 17,
+    "w": 335
    },
-   "win_rate": 0.5139318885448917
+   "win_rate": 0.5153846153846153
   }
  },
  "by_sport": {
@@ -55,56 +55,56 @@
    "win_rate": 0.5426356589147286
   },
   "NFL Cosmic": {
-   "avg_clv": -0.22773333333333332,
-   "clv_beat_rate": 0.26666666666666666,
-   "clv_n": 15,
-   "graded": 23,
+   "avg_clv": -0.17978947368421053,
+   "clv_beat_rate": 0.21052631578947367,
+   "clv_n": 19,
+   "graded": 27,
    "record": {
-    "l": 14,
+    "l": 16,
     "p": 1,
     "void": 0,
-    "w": 8
+    "w": 10
    },
-   "win_rate": 0.36363636363636365
+   "win_rate": 0.38461538461538464
   },
   "NFL Props": {
-   "avg_clv": 0.0879656862745098,
-   "clv_beat_rate": 0.07352941176470588,
-   "clv_n": 204,
-   "graded": 257,
+   "avg_clv": 0.08669082125603865,
+   "clv_beat_rate": 0.07246376811594203,
+   "clv_n": 207,
+   "graded": 259,
    "record": {
-    "l": 133,
+    "l": 134,
     "p": 0,
-    "void": 20,
-    "w": 124
+    "void": 22,
+    "w": 125
    },
-   "win_rate": 0.48249027237354086
+   "win_rate": 0.4826254826254826
   },
   "NFL Sides": {
-   "avg_clv": -0.24220408163265306,
-   "clv_beat_rate": 0.336734693877551,
-   "clv_n": 98,
-   "graded": 120,
+   "avg_clv": -0.23736000000000002,
+   "clv_beat_rate": 0.33,
+   "clv_n": 100,
+   "graded": 122,
    "record": {
     "l": 61,
     "p": 1,
     "void": 0,
-    "w": 58
+    "w": 60
    },
-   "win_rate": 0.48739495798319327
+   "win_rate": 0.49586776859504134
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (7114 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 7132 player-games cached"
  ],
- "generated_at": "2026-10-12T02:17:35+00:00",
- "graded_through": "Week of Oct 5",
+ "generated_at": "2026-10-12T17:03:46+00:00",
+ "graded_through": "Week of Oct 12",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.11577419354838711,
-   "clv_beat_rate": 0.3548387096774194,
-   "clv_n": 31,
-   "graded": 39,
+   "avg_clv": -0.10254285714285716,
+   "clv_beat_rate": 0.3142857142857143,
+   "clv_n": 35,
+   "graded": 43,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -684,6 +684,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": 176,
+     "clv": 0.0,
+     "edge": 2.931,
+     "ev": 0.08089,
+     "final": "30-23",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Atlanta Falcons ML",
+     "player": null,
+     "price": 176,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -118,
+     "clv": 0.0,
+     "edge": 0.441,
+     "ev": 0.00815,
+     "final": "30-23",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Atlanta Falcons +4.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": -110,
      "clv": 0.0,
      "edge": 1.558,
@@ -700,6 +736,42 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 144,
+     "clv": 0.0,
+     "edge": 16.359,
+     "ev": 0.39916,
+     "final": "30-23",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Baltimore Ravens ML",
+     "player": null,
+     "price": 144,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.0,
+     "edge": 13.752,
+     "ev": 0.25024,
+     "final": "30-23",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Baltimore Ravens +3.5",
+     "player": null,
+     "price": -122,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
     },
     {
      "closing_price": null,
@@ -811,19 +883,19 @@
     }
    ],
    "record": {
-    "l": 22,
+    "l": 24,
     "p": 1,
     "void": 0,
-    "w": 16
+    "w": 18
    },
    "threshold": null,
-   "win_rate": 0.42105263157894735
+   "win_rate": 0.42857142857142855
   },
   "Props": {
-   "avg_clv": 0.0879656862745098,
-   "clv_beat_rate": 0.07352941176470588,
-   "clv_n": 204,
-   "graded": 257,
+   "avg_clv": 0.08669082125603865,
+   "clv_beat_rate": 0.07246376811594203,
+   "clv_n": 207,
+   "graded": 259,
    "label": "Player props",
    "picks": [
     {
@@ -5201,6 +5273,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": 102,
+     "clv": 0.0,
+     "edge": 16.287,
+     "ev": 0.32899,
+     "final": "5",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Kyle Pitts Sr. Over 2.5 receptions",
+     "player": "Kyle Pitts Sr.",
+     "price": 102,
+     "proj": 4.235,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 16.044,
+     "ev": 0.30118,
+     "final": "73",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Justice Hill Under 11.5 rushing yards",
+     "player": "Justice Hill",
+     "price": -114,
+     "proj": 12.452,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 16.025,
@@ -5307,6 +5415,24 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.795,
+     "ev": 2.8111,
+     "final": "did not play",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Chris Moore anytime TD",
+     "player": "Chris Moore",
+     "price": 1800,
+     "proj": 0.224,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
     },
     {
      "closing_price": 168,
@@ -5597,6 +5723,24 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 19.811,
+     "ev": 0.37343,
+     "final": "did not play",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Austin Hooper Over 7.5 receiving yards",
+     "player": "Austin Hooper",
+     "price": -113,
+     "proj": 15.636,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": 134,
      "clv": 0.0,
      "edge": 18.555,
@@ -5814,19 +5958,19 @@
     }
    ],
    "record": {
-    "l": 133,
+    "l": 134,
     "p": 0,
-    "void": 20,
-    "w": 124
+    "void": 22,
+    "w": 125
    },
    "threshold": 7.0,
-   "win_rate": 0.48249027237354086
+   "win_rate": 0.4826254826254826
   },
   "Sides": {
-   "avg_clv": -6.493506493507292e-05,
-   "clv_beat_rate": 0.3787878787878788,
-   "clv_n": 462,
-   "graded": 507,
+   "avg_clv": -6.465517241380106e-05,
+   "clv_beat_rate": 0.3771551724137931,
+   "clv_n": 464,
+   "graded": 509,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -14830,6 +14974,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": 144,
+     "clv": 0.0,
+     "edge": 16.359,
+     "ev": 0.39916,
+     "final": "30-23",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Baltimore Ravens ML",
+     "player": null,
+     "price": 144,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.0,
+     "edge": 13.752,
+     "ev": 0.25024,
+     "final": "30-23",
+     "game": "Baltimore Ravens @ Atlanta Falcons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Baltimore Ravens +3.5",
+     "player": null,
+     "price": -122,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": -102,
      "clv": -1.928,
      "edge": 11.222,
@@ -14960,16 +15140,16 @@
     "l": 238,
     "p": 1,
     "void": 0,
-    "w": 268
+    "w": 270
    },
    "threshold": 5.0,
-   "win_rate": 0.5296442687747036
+   "win_rate": 0.531496062992126
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 10,
-  "Props": 112,
-  "Sides": 63
+  "Cosmic": 6,
+  "Props": 108,
+  "Sides": 61
  }
 }
