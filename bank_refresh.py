@@ -55,6 +55,8 @@ PROP_MARKETS = {   # over/unders, milestone ladders (150+ yards, 10+ threes, 2+ 
 # last-look times, for games starting within that run's window.
 LOCAL_PLAN = [
     (5, 11, "*", ALL, 12, False),                        # daily 11:05am - college + early slates
+    (35, 13, "*", ALL, 12, False),                       # daily 1:35pm  - midday prices stay fresh
+    (35, 15, "*", ALL, 8, False),                        # daily 3:35pm  - afternoon prices stay fresh
     (50, 17, "*", ALL, 3, True),                         # daily 5:50pm - NBA/NCAAB 7:00-7:30 tips
     (45, 18, "*", ALL, 3, True),                         # daily 6:45pm - lineups, NFL night-game inactives
     (30, 9, "6", ALL, 6, True),                          # Sat 9:30am  - college football morning
@@ -129,6 +131,12 @@ def buy_props(sport: str, games: list[dict], api_keys: list[str], notes: list[st
     return out
 
 
+def just_refreshed(bank: dict, now: datetime, minutes: int = 45) -> bool:
+    """Did any price check buy odds in the last `minutes`?"""
+    stamps = [bank_mode._ts(e.get("fetched_at")) for e in (bank.get("sports") or {}).values()]
+    return any(t and (now - t).total_seconds() < minutes * 60 for t in stamps)
+
+
 def load(path: str) -> dict:
     try:
         with open(path) as f:
@@ -144,6 +152,8 @@ def main(now: datetime | None = None) -> list[str]:
     if offset is not None and offset != eastern_offset(now):
         return [f"{schedule} is the {'daylight' if offset == 4 else 'standard'}-time copy of this run; "
                 "the other copy runs today instead. Nothing bought."]
+    if os.environ.get("SOURCE") == "schedule" and just_refreshed(load(BANK_ODDS_PATH), now):
+        return ["GitHub's late copy of a price check the Bank Mode clock already ran on time. Nothing bought."]
     api_keys, notes = keys(), []
     bank = load(BANK_ODDS_PATH) or {"sports": {}}
     bank.setdefault("sports", {})
