@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.01739510489510489,
-   "clv_beat_rate": 0.28496503496503495,
-   "clv_n": 572,
-   "graded": 651,
+   "avg_clv": 0.018473229706390325,
+   "clv_beat_rate": 0.2849740932642487,
+   "clv_n": 579,
+   "graded": 659,
    "record": {
-    "l": 315,
+    "l": 319,
     "p": 1,
     "void": 17,
-    "w": 335
+    "w": 339
    },
-   "win_rate": 0.5153846153846153
+   "win_rate": 0.5151975683890577
   }
  },
  "by_sport": {
@@ -68,36 +68,36 @@
    "win_rate": 0.38461538461538464
   },
   "NFL Props": {
-   "avg_clv": 0.08669082125603865,
-   "clv_beat_rate": 0.07246376811594203,
-   "clv_n": 207,
-   "graded": 259,
+   "avg_clv": 0.08854716981132074,
+   "clv_beat_rate": 0.07547169811320754,
+   "clv_n": 212,
+   "graded": 265,
    "record": {
-    "l": 134,
+    "l": 136,
     "p": 0,
     "void": 22,
-    "w": 125
+    "w": 129
    },
-   "win_rate": 0.4826254826254826
+   "win_rate": 0.4867924528301887
   },
   "NFL Sides": {
-   "avg_clv": -0.23736000000000002,
-   "clv_beat_rate": 0.33,
-   "clv_n": 100,
-   "graded": 122,
+   "avg_clv": -0.2335,
+   "clv_beat_rate": 0.3333333333333333,
+   "clv_n": 102,
+   "graded": 124,
    "record": {
-    "l": 61,
+    "l": 63,
     "p": 1,
     "void": 0,
     "w": 60
    },
-   "win_rate": 0.49586776859504134
+   "win_rate": 0.4878048780487805
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (7132 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 7150 player-games cached"
  ],
- "generated_at": "2026-10-13T03:19:24+00:00",
+ "generated_at": "2026-10-13T15:20:06+00:00",
  "graded_through": "Week of Oct 12",
  "groups": {
   "Cosmic": {
@@ -892,10 +892,10 @@
    "win_rate": 0.42857142857142855
   },
   "Props": {
-   "avg_clv": 0.08669082125603865,
-   "clv_beat_rate": 0.07246376811594203,
-   "clv_n": 207,
-   "graded": 259,
+   "avg_clv": 0.08854716981132074,
+   "clv_beat_rate": 0.07547169811320754,
+   "clv_n": 212,
+   "graded": 265,
    "label": "Player props",
    "picks": [
     {
@@ -4913,6 +4913,24 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 15.648,
+     "ev": 0.29374,
+     "final": "19",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Blake Corum Over 31.5 rushing yards",
+     "player": "Blake Corum",
+     "price": -114,
+     "proj": 49.689,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": 124,
      "clv": 0.0,
      "edge": 15.034,
@@ -4947,6 +4965,42 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 11.728,
+     "ev": 0.2111,
+     "final": "1 TD",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Josh Allen anytime TD",
+     "player": "Josh Allen",
+     "price": -125,
+     "proj": 1.117,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 10.635,
+     "ev": 0.19964,
+     "final": "51",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Davante Adams Under 62.5 receiving yards",
+     "player": "Davante Adams",
+     "price": -114,
+     "proj": 60.237,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
     },
     {
      "closing_price": -114,
@@ -5037,6 +5091,24 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": 114,
+     "clv": 0.827,
+     "edge": 19.535,
+     "ev": 0.42587,
+     "final": "1",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Dawson Knox Over 1.5 receptions",
+     "player": "Dawson Knox",
+     "price": 118,
+     "proj": 2.236,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
     },
     {
      "closing_price": -113,
@@ -5955,22 +6027,58 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -130,
+     "clv": 0.0,
+     "edge": 12.348,
+     "ev": 0.21847,
+     "final": "1",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Dalton Kincaid Under 4.5 receptions",
+     "player": "Dalton Kincaid",
+     "price": -130,
+     "proj": 3.645,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 12.949,
+     "ev": 0.24408,
+     "final": "72",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Ty Johnson Over 14.5 receiving yards",
+     "player": "Ty Johnson",
+     "price": -113,
+     "proj": 24.85,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
     }
    ],
    "record": {
-    "l": 134,
+    "l": 136,
     "p": 0,
     "void": 22,
-    "w": 125
+    "w": 129
    },
    "threshold": 7.0,
-   "win_rate": 0.4826254826254826
+   "win_rate": 0.4867924528301887
   },
   "Sides": {
-   "avg_clv": -6.465517241380106e-05,
-   "clv_beat_rate": 0.3771551724137931,
-   "clv_n": 464,
-   "graded": 509,
+   "avg_clv": -0.0002381974248927117,
+   "clv_beat_rate": 0.3776824034334764,
+   "clv_n": 466,
+   "graded": 511,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -14938,6 +15046,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -176,
+     "clv": 3.363,
+     "edge": 9.527,
+     "ev": 0.15795,
+     "final": "37-34",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Los Angeles Rams ML",
+     "player": null,
+     "price": -152,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -105,
+     "clv": -3.444,
+     "edge": 6.959,
+     "ev": 0.12663,
+     "final": "37-34",
+     "game": "Buffalo Bills @ Los Angeles Rams",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Los Angeles Rams -2.5",
+     "player": null,
+     "price": -122,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": 176,
      "clv": -0.503,
      "edge": 10.389,
@@ -15137,19 +15281,19 @@
     }
    ],
    "record": {
-    "l": 238,
+    "l": 240,
     "p": 1,
     "void": 0,
     "w": 270
    },
    "threshold": 5.0,
-   "win_rate": 0.531496062992126
+   "win_rate": 0.5294117647058824
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 10,
-  "Props": 120,
-  "Sides": 74
+  "Props": 114,
+  "Sides": 72
  }
 }
