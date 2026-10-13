@@ -81,3 +81,15 @@ def test_log_and_closing_line_value():
     assert e["closed"] and e["clvPct"] == 10.0     # 2.20 x 50% - 1
     sb = bm.scoreboard(log)
     assert sb["closed"] == 1 and sb["beatClose"] == 1 and sb["avgClvPct"] == 10.0
+
+
+def test_best_maryland_book_wins_two_way():
+    # DraftKings pays +125 on Away, FanDuel only +120; Pinnacle fair from -110/+105
+    o = odds(book("fanduel", -110, 120), book("draftkings", -135, 125), book("pinnacle", -110, 105))
+    away = bm.build_rows(o, NOW)[0]["sides"][1]
+    assert away["book"] == "draftkings" and away["price"] == 125 and away["light"] == "green"
+
+
+def test_offshore_books_are_never_the_pick():
+    o = odds(book("betonlineag", -110, 140), book("pinnacle", -110, 105))
+    assert bm.build_rows(o, NOW) == []
