@@ -85,3 +85,23 @@ def test_college_games_get_blowout_spreads_and_saturday_buys():
         assert "alternate_spreads" in br.PROP_MARKETS[sport] and "alternate_totals" in br.PROP_MARKETS[sport]
     sat = [p for p in br.LOCAL_PLAN if p[2] == "6"]
     assert [p[5] for p in sat] == [True, True, False]       # 9:30 and 2:20 buy; the 2:45 backup doesn't
+
+
+def test_book_that_only_posts_a_harder_number_still_counts():
+    # FanDuel 100+ rush yds +2200. DK/MGM/Fanatics post 100+; ESPN only posts 105+ (harder) at +1500.
+    def b(k, ladder, main=False):
+        outs = [{"name": "Over", "description": "Josh Allen", "price": p, "point": q} for q, p in ladder]
+        m = [{"key": "player_rush_yds_alternate", "outcomes": outs}]
+        if main:
+            m.append({"key": "player_rush_yds", "outcomes": [
+                {"name": "Over", "description": "Josh Allen", "price": -110, "point": 36.5},
+                {"name": "Under", "description": "Josh Allen", "price": -110, "point": 36.5}]})
+        return {"key": k, "last_update": "2026-10-12T21:55:00Z", "markets": m}
+    odds = {"sports": {"americanfootball_nfl": [{"id": "g1", "commence_time": "2026-10-13T00:20:00Z",
+            "home_team": "H", "away_team": "A", "bookmakers": [
+                b("fanduel", [(99.5, 2200)], main=True), b("draftkings", [(99.5, 1400)]),
+                b("betmgm", [(99.5, 1100)]), b("fanatics", [(99.5, 1500)]),
+                b("espnbet", [(104.5, 1500), (149.5, 9000)])]}]}}
+    s = bm.build_milestones(odds, NOW)[0]["sides"][0]
+    assert s["booksCompared"] == 4                     # ESPN's 105+ counts; its 150+ is too far away
+    assert s["light"] == "green" and s["fairPrice"] == 1500 and "harder number" in s["why"]
