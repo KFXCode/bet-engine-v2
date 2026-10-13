@@ -13,7 +13,8 @@ What it buys (The Odds API, one region of 10 books):
     total = 3 credits per sport
   - player props for NFL and NBA games starting soon, only at the "last look"
     times: over/unders, milestone ladders, anytime TD and 2+ TDs, plus blowout
-    spreads and alt totals = 12 credits per NFL game, 10 per NBA game
+    spreads and alt totals = 12 credits per NFL game, 10 per NBA game, 2 per
+    college game (blowout spreads and alt totals only)
 Before buying anything it asks which games are coming up, which is free.
 """
 from __future__ import annotations
@@ -44,6 +45,9 @@ PROP_MARKETS = {   # over/unders, milestone ladders (150+ yards, 10+ threes, 2+ 
                       "player_points_alternate,player_rebounds_alternate,"
                       "player_assists_alternate,player_threes_alternate,"
                       "alternate_spreads,alternate_totals",
+    # college: blowout spreads and alt totals (player props are too thin at most books)
+    "americanfootball_ncaaf": "alternate_spreads,alternate_totals",
+    "basketball_ncaab": "alternate_spreads,alternate_totals",
 }
 
 # Refresh times in EASTERN time: (minute, hour, weekday "*"/"6"=Sat/"0"=Sun,
@@ -53,8 +57,8 @@ LOCAL_PLAN = [
     (5, 11, "*", ALL, 12, False),                        # daily 11:05am - college + early slates
     (50, 17, "*", ALL, 3, True),                         # daily 5:50pm - NBA/NCAAB 7:00-7:30 tips
     (45, 18, "*", ALL, 3, True),                         # daily 6:45pm - lineups, NFL night-game inactives
-    (30, 9, "6", ALL, 6, False),                         # Sat 9:30am  - college football morning
-    (20, 14, "6", ALL, 4, False),                        # Sat 2:20pm  - before 3:30 kickoffs
+    (30, 9, "6", ALL, 6, True),                          # Sat 9:30am  - college football morning
+    (20, 14, "6", ALL, 4, True),                         # Sat 2:20pm  - before 3:30 kickoffs
     (45, 14, "6", ALL, 4, False),                        # Sat 2:45pm  - before 3:30 kickoffs (backup)
     (45, 11, "0", ALL, 3, True),                         # Sun 11:45am - NFL inactives for 1pm games
     (30, 12, "0", ALL, 3, False),                        # Sun 12:30pm - last look before 1pm
