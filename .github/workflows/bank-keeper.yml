@@ -1,0 +1,38 @@
+name: Bank Mode clock
+
+# Starts every Bank Mode price check on time. GitHub's scheduler runs hours
+# late, but a workflow started by another workflow runs within seconds. This
+# job stays awake for about 5.5 hours, starts each planned check
+# (bank_refresh.py PLAN) at its exact Eastern time, then starts the next shift.
+# The schedule below only restarts the clock if a shift ever fails to hand off.
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "23 */4 * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: bank-keeper
+  cancel-in-progress: false
+
+jobs:
+  keep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Start each price check on time, then hand off to the next shift
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python bank_keeper.py

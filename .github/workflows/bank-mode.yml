@@ -6,11 +6,18 @@ name: Bank Mode refresh
 # for daylight time (Mar-Nov) and one for standard time (Nov-Mar). Each run
 # checks which applies today; the other copy exits without buying anything.
 # Each time and what it checks is listed in bank_refresh.py (PLAN).
+# GitHub runs these schedules hours late, so the Bank Mode clock
+# (bank-keeper.yml) starts each check on time; a late copy here sees the
+# check was just done and buys nothing.
 
 on:
   schedule:
     - cron: "5 15 * * *"      # daily 11:05am ET (daylight time)
     - cron: "5 16 * * *"      # daily 11:05am ET (standard time)
+    - cron: "35 17 * * *"     # daily 1:35pm ET (daylight time)
+    - cron: "35 18 * * *"     # daily 1:35pm ET (standard time)
+    - cron: "35 19 * * *"     # daily 3:35pm ET (daylight time)
+    - cron: "35 20 * * *"     # daily 3:35pm ET (standard time)
     - cron: "50 21 * * *"     # daily 5:50pm ET (daylight time) props
     - cron: "50 22 * * *"     # daily 5:50pm ET (standard time) props
     - cron: "45 22 * * *"     # daily 6:45pm ET (daylight time) props
@@ -29,7 +36,12 @@ on:
     - cron: "52 19 * * 0"     # Sun   2:52pm ET (standard time) props
     - cron: "10 22 * * 0"     # Sun   6:10pm ET (daylight time)
     - cron: "10 23 * * 0"     # Sun   6:10pm ET (standard time)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      plan:
+        description: "Which planned price check this is (left blank = check everything)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -55,7 +67,8 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ODDS_API_KEY_BACKUP: ${{ secrets.ODDS_API_KEY_BACKUP }}
-          SCHEDULE: ${{ github.event.schedule }}
+          SCHEDULE: ${{ github.event.schedule || inputs.plan }}
+          SOURCE: ${{ github.event_name }}
         run: python bank_refresh.py
 
       - name: Publish Bank Mode files only
