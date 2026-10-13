@@ -449,6 +449,35 @@ def _milestone_spots(ev: dict, books: dict):
             yield key, market, name, point, label, main, ladders, ok
 
 
+def _harder(key: str, name: str, q: float, p: float) -> bool:
+    """Is milestone q harder to hit than milestone p? (more yards, bigger win, further from the total)"""
+    if key == "alternate_spreads" or (key == "alternate_totals" and name == "Under"):
+        return q < p
+    return q > p
+
+
+def _rival_prices(ladders: dict, pick_bk: str, key: str, subject: str, point) -> tuple[dict, int]:
+    """Every other book's price for this milestone. A book that skips this exact number
+    but posts a HARDER one (Allen 125+ when we're looking at 100+) is still compared:
+    a harder milestone should pay more, so if the pick out-pays even that, it's out of line.
+    Returns the prices and how many came from a harder number."""
+    rivals, stretched = {}, 0
+    for bk, lad in ladders.items():
+        if bk == pick_bk:
+            continue
+        if (subject, point) in lad:
+            rivals[bk] = lad[(subject, point)]
+        elif key not in ONE_SIDED and point is not None:
+            near = max(0.1 * abs(point), 1.0)      # one step up the ladder, not a whole different bet
+            harder = [q for (n, q) in lad if n == subject and q is not None
+                      and _harder(key, subject, q, point) and abs(q - point) <= near]
+            if harder:
+                nearest = min(harder, key=lambda q: abs(q - point))
+                rivals[bk] = lad[(subject, nearest)]
+                stretched += 1
+    return rivals, stretched
+
+
 def build_milestones(odds: dict, now: datetime) -> list[dict]:
     """Upside milestones only: past the normal line, paying plus money.
     Player stats (150+ yards, 10+ threes, 2+ TDs), anytime TD, blowout spreads and alt totals."""
@@ -471,8 +500,7 @@ def build_milestones(odds: dict, now: datetime) -> list[dict]:
                 price = offers[pick_bk]
                 if key not in ONE_SIDED and (not upside or price < MILESTONE_MIN_PRICE):
                     continue        # not an upside milestone (at/below the normal line, or minus money)
-                rivals = {bk: lad[(subject, point)] for bk, lad in ladders.items()
-                          if bk != pick_bk and (subject, point) in lad}
+                rivals, stretched = _rival_prices(ladders, pick_bk, key, subject, point)
                 is_game = key in GAME_MILESTONES
                 side = {"team": label, "point": None, "price": price, "name": subject, "line": point,
                         "mainLine": main, "book": pick_bk, "bookName": BOOK_NAMES.get(pick_bk, pick_bk),
@@ -504,7 +532,9 @@ def build_milestones(odds: dict, now: datetime) -> list[dict]:
                     elif outlier >= MILESTONE_GREEN:
                         light = "green"
                         why = (f"{normal}{name} pays {outlier * 100:.0f}% more than the best "
-                               f"of {len(rivals)} other books on this. {name} is way out of line.")
+                               f"of {len(rivals)} other books on this"
+                               f"{f' ({stretched} of them only post a harder number, which should pay more)' if stretched else ''}"
+                               f". {name} is way out of line.")
                     elif outlier >= MILESTONE_YELLOW:
                         light, why = "yellow", (f"{name} pays {outlier * 100:.0f}% more than the best "
                                                 f"other book. A little generous, not enough to bet.")
