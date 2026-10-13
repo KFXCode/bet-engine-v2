@@ -77,3 +77,11 @@ def test_two_plus_touchdowns():
     s = rows[0]["sides"][0]
     assert rows[0]["market"] == "Milestone touchdowns" and s["team"] == "James Cook 2+ touchdowns"
     assert s["bookName"] == "FanDuel" and s["light"] == "green"     # +550 vs +425: 29% more
+
+
+def test_college_games_get_blowout_spreads_and_saturday_buys():
+    import bank_refresh as br
+    for sport in ("americanfootball_ncaaf", "basketball_ncaab", "basketball_nba", "americanfootball_nfl"):
+        assert "alternate_spreads" in br.PROP_MARKETS[sport] and "alternate_totals" in br.PROP_MARKETS[sport]
+    sat = [p for p in br.LOCAL_PLAN if p[2] == "6"]
+    assert [p[5] for p in sat] == [True, True, False]       # 9:30 and 2:20 buy; the 2:45 backup doesn't
