@@ -68,7 +68,10 @@ PROP_NAMES = {
     "player_assists": "Assists", "player_threes": "Threes made",
 }
 SPORT_NAMES = {"americanfootball_nfl": "NFL", "americanfootball_ncaaf": "NCAAF",
-               "basketball_nba": "NBA", "basketball_ncaab": "NCAAB"}
+               "basketball_nba": "NBA", "basketball_ncaab": "NCAAB",
+               "baseball_mlb": "MLB", "icehockey_nhl": "NHL", "basketball_wnba": "WNBA",
+               "soccer_epl": "Premier League", "soccer_spain_la_liga": "La Liga",
+               "soccer_uefa_champs_league": "Champions League", "soccer_usa_mls": "MLS"}
 
 # Milestones ("Bijan Robinson 150+ rushing yards", "Steph Curry 10+ threes").
 # These are one-sided ladders: there is no "under" to take the cut out of, so

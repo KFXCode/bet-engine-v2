@@ -35,7 +35,10 @@ GAME_MARKETS = "h2h,spreads,totals"
 ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 EVENT_ODDS = "https://api.the-odds-api.com/v4/sports/{key}/events/{event}/odds"
 EVENTS = "https://api.the-odds-api.com/v4/sports/{key}/events"   # free: no credits
-ALL = ["americanfootball_nfl", "americanfootball_ncaaf", "basketball_nba", "basketball_ncaab"]
+ALL = ["americanfootball_nfl", "americanfootball_ncaaf", "basketball_nba", "basketball_ncaab",
+       # more sports for near-even-money greens every day (game lines only: 3 credits per check)
+       "baseball_mlb", "icehockey_nhl", "basketball_wnba",
+       "soccer_epl", "soccer_spain_la_liga", "soccer_uefa_champs_league", "soccer_usa_mls"]
 PROP_MARKETS = {   # over/unders, milestone ladders (150+ yards, 10+ threes, 2+ TDs), blowout spreads, alt totals
     "americanfootball_nfl": "player_pass_yds,player_rush_yds,player_reception_yds,player_receptions,"
                             "player_pass_yds_alternate,player_rush_yds_alternate,"
