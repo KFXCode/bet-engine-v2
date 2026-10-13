@@ -12,8 +12,8 @@ What it buys (The Odds API, one region of 10 books):
   - game lines for a sport with a game starting soon: moneyline, spread and
     total = 3 credits per sport
   - player props for NFL and NBA games starting soon, only at the "last look"
-    times (PROPS_RUNS): 4 over/under markets + 4 milestone ladders = 8 credits
-    per game
+    times: over/unders, milestone ladders, anytime TD and 2+ TDs, plus blowout
+    spreads and alt totals = 12 credits per NFL game, 10 per NBA game
 Before buying anything it asks which games are coming up, which is free.
 """
 from __future__ import annotations
@@ -35,13 +35,15 @@ ODDS = "https://api.the-odds-api.com/v4/sports/{key}/odds"
 EVENT_ODDS = "https://api.the-odds-api.com/v4/sports/{key}/events/{event}/odds"
 EVENTS = "https://api.the-odds-api.com/v4/sports/{key}/events"   # free: no credits
 ALL = ["americanfootball_nfl", "americanfootball_ncaaf", "basketball_nba", "basketball_ncaab"]
-PROP_MARKETS = {   # regular over/unders, then the milestone ladders (150+ yards, 10+ threes)
+PROP_MARKETS = {   # over/unders, milestone ladders (150+ yards, 10+ threes, 2+ TDs), blowout spreads, alt totals
     "americanfootball_nfl": "player_pass_yds,player_rush_yds,player_reception_yds,player_receptions,"
                             "player_pass_yds_alternate,player_rush_yds_alternate,"
-                            "player_reception_yds_alternate,player_receptions_alternate,player_anytime_td",
+                            "player_reception_yds_alternate,player_receptions_alternate,player_anytime_td,"
+                            "player_tds_over,alternate_spreads,alternate_totals",
     "basketball_nba": "player_points,player_rebounds,player_assists,player_threes,"
                       "player_points_alternate,player_rebounds_alternate,"
-                      "player_assists_alternate,player_threes_alternate",
+                      "player_assists_alternate,player_threes_alternate,"
+                      "alternate_spreads,alternate_totals",
 }
 
 # Refresh times in EASTERN time: (minute, hour, weekday "*"/"6"=Sat/"0"=Sun,
