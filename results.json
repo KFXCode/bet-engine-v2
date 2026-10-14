@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.018473229706390325,
-   "clv_beat_rate": 0.2849740932642487,
-   "clv_n": 579,
-   "graded": 659,
+   "avg_clv": 0.025139414802065402,
+   "clv_beat_rate": 0.2857142857142857,
+   "clv_n": 581,
+   "graded": 661,
    "record": {
-    "l": 319,
+    "l": 321,
     "p": 1,
     "void": 17,
     "w": 339
    },
-   "win_rate": 0.5151975683890577
+   "win_rate": 0.5136363636363637
   }
  },
  "by_sport": {
@@ -42,17 +42,17 @@
    "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.06512637362637362,
-   "clv_beat_rate": 0.3901098901098901,
-   "clv_n": 364,
-   "graded": 387,
+   "avg_clv": 0.07545355191256829,
+   "clv_beat_rate": 0.3907103825136612,
+   "clv_n": 366,
+   "graded": 389,
    "record": {
-    "l": 177,
+    "l": 179,
     "p": 0,
     "void": 0,
     "w": 210
    },
-   "win_rate": 0.5426356589147286
+   "win_rate": 0.5398457583547558
   },
   "NFL Cosmic": {
    "avg_clv": -0.17978947368421053,
@@ -95,9 +95,9 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 7150 player-games cached"
+  "NFL player logs: cache already current (6895 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-13T15:20:06+00:00",
+ "generated_at": "2026-10-14T13:08:27+00:00",
  "graded_through": "Week of Oct 12",
  "groups": {
   "Cosmic": {
@@ -6075,10 +6075,10 @@
    "win_rate": 0.4867924528301887
   },
   "Sides": {
-   "avg_clv": -0.0002381974248927117,
-   "clv_beat_rate": 0.3776824034334764,
-   "clv_n": 466,
-   "graded": 511,
+   "avg_clv": 0.00811752136752136,
+   "clv_beat_rate": 0.3782051282051282,
+   "clv_n": 468,
+   "graded": 513,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -15172,6 +15172,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -120,
+     "clv": 3.91,
+     "edge": 9.25,
+     "ev": 0.18318,
+     "final": "30-33",
+     "game": "Delaware Blue Hens @ Middle Tennessee Blue Raiders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Delaware Blue Hens ML",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 11.818,
+     "ev": 0.22562,
+     "final": "30-33",
+     "game": "Delaware Blue Hens @ Middle Tennessee Blue Raiders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Delaware Blue Hens +1.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 9.62,
@@ -15281,19 +15317,19 @@
     }
    ],
    "record": {
-    "l": 240,
+    "l": 242,
     "p": 1,
     "void": 0,
     "w": 270
    },
    "threshold": 5.0,
-   "win_rate": 0.5294117647058824
+   "win_rate": 0.52734375
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 10,
   "Props": 114,
-  "Sides": 72
+  "Sides": 70
  }
 }
