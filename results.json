@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.025139414802065402,
-   "clv_beat_rate": 0.2857142857142857,
-   "clv_n": 581,
-   "graded": 661,
+   "avg_clv": 0.02838250428816466,
+   "clv_beat_rate": 0.2881646655231561,
+   "clv_n": 583,
+   "graded": 663,
    "record": {
     "l": 321,
     "p": 1,
     "void": 17,
-    "w": 339
+    "w": 341
    },
-   "win_rate": 0.5136363636363637
+   "win_rate": 0.5151057401812689
   }
  },
  "by_sport": {
@@ -42,17 +42,17 @@
    "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.07545355191256829,
-   "clv_beat_rate": 0.3907103825136612,
-   "clv_n": 366,
-   "graded": 389,
+   "avg_clv": 0.0803179347826087,
+   "clv_beat_rate": 0.39402173913043476,
+   "clv_n": 368,
+   "graded": 391,
    "record": {
     "l": 179,
     "p": 0,
     "void": 0,
-    "w": 210
+    "w": 212
    },
-   "win_rate": 0.5398457583547558
+   "win_rate": 0.5421994884910486
   },
   "NFL Cosmic": {
    "avg_clv": -0.17978947368421053,
@@ -97,7 +97,7 @@
  "diagnostics": [
   "NFL player logs: cache already current (6895 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-14T13:08:27+00:00",
+ "generated_at": "2026-10-15T12:54:31+00:00",
  "graded_through": "Week of Oct 12",
  "groups": {
   "Cosmic": {
@@ -6075,10 +6075,10 @@
    "win_rate": 0.4867924528301887
   },
   "Sides": {
-   "avg_clv": 0.00811752136752136,
-   "clv_beat_rate": 0.3782051282051282,
-   "clv_n": 468,
-   "graded": 513,
+   "avg_clv": 0.012212765957446801,
+   "clv_beat_rate": 0.38085106382978723,
+   "clv_n": 470,
+   "graded": 515,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -15262,6 +15262,42 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": 122,
+     "clv": 1.509,
+     "edge": 9.854,
+     "ev": 0.22664,
+     "final": "21-24",
+     "game": "Kennesaw State Owls @ Missouri State Bears",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Missouri State Bears ML",
+     "player": null,
+     "price": 130,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.432,
+     "edge": 9.264,
+     "ev": 0.16984,
+     "final": "21-24",
+     "game": "Kennesaw State Owls @ Missouri State Bears",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Missouri State Bears +3.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.72,
@@ -15320,16 +15356,16 @@
     "l": 242,
     "p": 1,
     "void": 0,
-    "w": 270
+    "w": 272
    },
    "threshold": 5.0,
-   "win_rate": 0.52734375
+   "win_rate": 0.5291828793774319
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 10,
   "Props": 114,
-  "Sides": 70
+  "Sides": 68
  }
 }
