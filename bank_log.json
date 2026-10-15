@@ -14,7 +14,7 @@
   "evPctAtFlag": 2.79,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 5.57,
   "closed": false
  },
@@ -33,7 +33,7 @@
   "evPctAtFlag": 3.99,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": -22.89,
   "closed": false
  },
@@ -71,7 +71,7 @@
   "evPctAtFlag": 2.81,
   "closeFairPct": 12.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": -0.94,
   "closed": false
  },
@@ -90,7 +90,7 @@
   "evPctAtFlag": 7.9,
   "closeFairPct": 9.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -107,10 +107,10 @@
   "price": 440,
   "fairPctAtFlag": 19.5,
   "evPctAtFlag": 5.08,
-  "closeFairPct": 16.4,
+  "closeFairPct": 16.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
-  "clvPct": -11.44,
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
+  "clvPct": -9.82,
   "closed": false
  },
  {
@@ -128,7 +128,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 16.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": -0.18,
   "closed": false
  },
@@ -147,7 +147,7 @@
   "evPctAtFlag": 7.43,
   "closeFairPct": 16.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 1.68,
   "closed": false
  },
@@ -170,7 +170,7 @@
   "evPctAtFlag": 6.91,
   "closeFairPct": 16.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 12.56,
   "closed": false
  },
@@ -193,7 +193,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 31.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": -0.16,
   "closed": false
  },
@@ -216,7 +216,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 22.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 7.16,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 23.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -285,7 +285,7 @@
   "evPctAtFlag": 5.5,
   "closeFairPct": 27.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -308,7 +308,7 @@
   "evPctAtFlag": 3.65,
   "closeFairPct": 15.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 4.04,
   "closed": false
  },
@@ -331,7 +331,7 @@
   "evPctAtFlag": 3.54,
   "closeFairPct": 16.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": -7.2,
   "closed": false
  },
@@ -381,7 +381,7 @@
   "evPctAtFlag": 7.45,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 4.04,
   "closed": false
  },
@@ -406,7 +406,7 @@
   "evPctAtFlag": 2.36,
   "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 6.82,
   "closed": false
  },
@@ -431,7 +431,7 @@
   "evPctAtFlag": 2.22,
   "closeFairPct": 36.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 5.27,
   "closed": false
  },
@@ -481,7 +481,7 @@
   "evPctAtFlag": 2.1,
   "closeFairPct": 34.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 7.26,
   "closed": false
  },
@@ -506,7 +506,7 @@
   "evPctAtFlag": 5.01,
   "closeFairPct": 69.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 9.06,
   "closed": false
  },
@@ -531,7 +531,7 @@
   "evPctAtFlag": 7.57,
   "closeFairPct": 15.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 1.76,
   "closed": false
  },
@@ -556,7 +556,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 34.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 8.19,
   "closed": false
  },
@@ -581,7 +581,7 @@
   "evPctAtFlag": 4.91,
   "closeFairPct": 24.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 4.06,
   "closed": false
  },
@@ -629,10 +629,10 @@
   "price": 525,
   "fairPctAtFlag": 17.3,
   "evPctAtFlag": 8.16,
-  "closeFairPct": 16.7,
+  "closeFairPct": 16.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
-  "clvPct": 4.37,
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
+  "clvPct": 1.25,
   "closed": false
  },
  {
@@ -679,10 +679,10 @@
   "price": 250,
   "fairPctAtFlag": 29.6,
   "evPctAtFlag": 3.51,
-  "closeFairPct": 28.3,
+  "closeFairPct": 28.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
-  "clvPct": -0.95,
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
+  "clvPct": 0.1,
   "closed": false
  },
  {
@@ -706,7 +706,7 @@
   "evPctAtFlag": 3.93,
   "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 3.08,
   "closed": false
  },
@@ -731,7 +731,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 16.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": -3.4,
   "closed": false
  },
@@ -758,7 +758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-15T22:45:09+00:00",
   "clvPct": 0.89,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2bbbf3488a5d57c9c13ae578bad17a9d|h2h|Sam Houston State Bearkats|None",
@@ -806,7 +806,7 @@
   "evPctAtFlag": 7.36,
   "closeFairPct": 32.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 5.6,
   "closed": false
  },
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 3.54,
   "closed": false
  },
@@ -856,7 +856,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -908,7 +908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-15T22:45:09+00:00",
   "clvPct": 2.06,
-  "closed": false
+  "closed": true
  },
  {
   "key": "855f58fad5f0f14b239f4f63df27998b|player_rush_yds|Marvin Mims Jr.|0.5|Marvin Mims Jr. Under 0.5|None",
@@ -931,8 +931,33 @@
   "evPctAtFlag": 2.64,
   "closeFairPct": 52.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-15T22:45:09+00:00",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
   "clvPct": 2.61,
+  "closed": false
+ },
+ {
+  "key": "855f58fad5f0f14b239f4f63df27998b|player_receptions|Emanuel Wilson|1.5|Emanuel Wilson Under 1.5|None",
+  "eventId": "855f58fad5f0f14b239f4f63df27998b",
+  "sport": "NFL",
+  "game": "Seattle Seahawks at Denver Broncos",
+  "time": "2026-10-16T00:15:00Z",
+  "market": "Receptions",
+  "marketKey": "player_receptions",
+  "player": "Emanuel Wilson",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Emanuel Wilson Under 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-15T23:54:39+00:00",
+  "price": 104,
+  "fairPctAtFlag": 52.1,
+  "evPctAtFlag": 6.18,
+  "closeFairPct": 52.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-15T23:54:39+00:00",
+  "clvPct": 6.28,
   "closed": false
  }
 ]
