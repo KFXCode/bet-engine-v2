@@ -14,7 +14,7 @@
   "evPctAtFlag": 2.79,
   "closeFairPct": 30.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 5.23,
   "closed": false
  },
@@ -31,10 +31,10 @@
   "price": 152,
   "fairPctAtFlag": 41.3,
   "evPctAtFlag": 3.99,
-  "closeFairPct": 33.6,
+  "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
-  "clvPct": -15.33,
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": -15.83,
   "closed": false
  },
  {
@@ -71,7 +71,7 @@
   "evPctAtFlag": 2.81,
   "closeFairPct": 12.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 0.62,
   "closed": false
  },
@@ -90,7 +90,7 @@
   "evPctAtFlag": 7.9,
   "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 5.6,
   "closed": false
  },
@@ -109,7 +109,7 @@
   "evPctAtFlag": 5.08,
   "closeFairPct": 17.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": -8.2,
   "closed": false
  },
@@ -126,10 +126,10 @@
   "price": 520,
   "fairPctAtFlag": 16.7,
   "evPctAtFlag": 3.64,
-  "closeFairPct": 16.4,
+  "closeFairPct": 16.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
-  "clvPct": 1.68,
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": -0.18,
   "closed": false
  },
  {
@@ -147,7 +147,7 @@
   "evPctAtFlag": 7.43,
   "closeFairPct": 16.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 2.92,
   "closed": false
  },
@@ -170,7 +170,7 @@
   "evPctAtFlag": 6.91,
   "closeFairPct": 16.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 9.88,
   "closed": false
  },
@@ -193,7 +193,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 31.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": -0.8,
   "closed": false
  },
@@ -216,7 +216,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 22.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 4.34,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 23.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 1.05,
   "closed": false
  },
@@ -283,10 +283,10 @@
   "price": 300,
   "fairPctAtFlag": 26.4,
   "evPctAtFlag": 5.5,
-  "closeFairPct": 25.9,
+  "closeFairPct": 27.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
-  "clvPct": 3.6,
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": 8.0,
   "closed": false
  },
  {
@@ -308,7 +308,7 @@
   "evPctAtFlag": 3.65,
   "closeFairPct": 15.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 2.0,
   "closed": false
  },
@@ -331,7 +331,7 @@
   "evPctAtFlag": 3.54,
   "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": -5.46,
   "closed": false
  },
@@ -379,10 +379,10 @@
   "price": 240,
   "fairPctAtFlag": 31.6,
   "evPctAtFlag": 7.45,
-  "closeFairPct": 30.0,
+  "closeFairPct": 29.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
-  "clvPct": 2.0,
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": -0.04,
   "closed": false
  },
  {
@@ -406,7 +406,7 @@
   "evPctAtFlag": 2.36,
   "closeFairPct": 20.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": -0.53,
   "closed": false
  },
@@ -431,7 +431,7 @@
   "evPctAtFlag": 2.22,
   "closeFairPct": 36.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 5.27,
   "closed": false
  },
@@ -481,7 +481,7 @@
   "evPctAtFlag": 2.1,
   "closeFairPct": 36.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 11.91,
   "closed": false
  },
@@ -504,10 +504,10 @@
   "price": -175,
   "fairPctAtFlag": 66.8,
   "evPctAtFlag": 5.01,
-  "closeFairPct": 66.4,
+  "closeFairPct": 66.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
-  "clvPct": 4.34,
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": 4.66,
   "closed": false
  },
  {
@@ -529,10 +529,10 @@
   "price": 540,
   "fairPctAtFlag": 16.8,
   "evPctAtFlag": 7.57,
-  "closeFairPct": 16.5,
+  "closeFairPct": 16.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
-  "clvPct": 5.6,
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": 4.96,
   "closed": false
  },
  {
@@ -556,7 +556,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 33.3,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 3.23,
   "closed": false
  },
@@ -581,7 +581,7 @@
   "evPctAtFlag": 4.91,
   "closeFairPct": 24.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 4.06,
   "closed": false
  },
@@ -631,7 +631,7 @@
   "evPctAtFlag": 8.16,
   "closeFairPct": 17.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 9.38,
   "closed": false
  },
@@ -658,7 +658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-14T22:45:13+00:00",
   "clvPct": 5.57,
-  "closed": false
+  "closed": true
  },
  {
   "key": "31352e6ab98e96d7f2505fa0432b96e2|h2h|Calgary Flames|None",
@@ -681,7 +681,7 @@
   "evPctAtFlag": 3.51,
   "closeFairPct": 26.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": -8.65,
   "closed": false
  },
@@ -706,7 +706,7 @@
   "evPctAtFlag": 3.93,
   "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 3.55,
   "closed": false
  },
@@ -731,7 +731,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 17.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 2.35,
   "closed": false
  },
@@ -756,8 +756,58 @@
   "evPctAtFlag": 2.96,
   "closeFairPct": 36.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-14T22:45:13+00:00",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
   "clvPct": 2.89,
+  "closed": false
+ },
+ {
+  "key": "2bbbf3488a5d57c9c13ae578bad17a9d|h2h|Sam Houston State Bearkats|None",
+  "eventId": "2bbbf3488a5d57c9c13ae578bad17a9d",
+  "sport": "NCAAF",
+  "game": "Western Kentucky Hilltoppers at Sam Houston State Bearkats",
+  "time": "2026-10-15T00:09:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Sam Houston State Bearkats",
+  "line": null,
+  "team": "Sam Houston State Bearkats",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-15T00:08:13+00:00",
+  "price": 115,
+  "fairPctAtFlag": 49.8,
+  "evPctAtFlag": 7.01,
+  "closeFairPct": 49.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": 7.07,
+  "closed": false
+ },
+ {
+  "key": "0728226f9c1e3aace0f64536109f4d05|h2h|Kentucky Wildcats|None",
+  "eventId": "0728226f9c1e3aace0f64536109f4d05",
+  "sport": "NCAAF",
+  "game": "Kentucky Wildcats at Oklahoma Sooners",
+  "time": "2026-10-17T23:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Kentucky Wildcats",
+  "line": null,
+  "team": "Kentucky Wildcats",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-15T00:08:13+00:00",
+  "price": 230,
+  "fairPctAtFlag": 32.5,
+  "evPctAtFlag": 7.36,
+  "closeFairPct": 32.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-15T00:08:13+00:00",
+  "clvPct": 7.25,
   "closed": false
  }
 ]
