@@ -14,20 +14,33 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.02838250428816466,
-   "clv_beat_rate": 0.2881646655231561,
-   "clv_n": 583,
-   "graded": 663,
+   "avg_clv": 0.028333904109589036,
+   "clv_beat_rate": 0.2876712328767123,
+   "clv_n": 584,
+   "graded": 664,
    "record": {
-    "l": 321,
+    "l": 322,
     "p": 1,
     "void": 17,
     "w": 341
    },
-   "win_rate": 0.5151057401812689
+   "win_rate": 0.5143288084464555
   }
  },
  "by_sport": {
+  "NBA Sides": {
+   "avg_clv": 0.0,
+   "clv_beat_rate": 0.0,
+   "clv_n": 1,
+   "graded": 1,
+   "record": {
+    "l": 1,
+    "p": 0,
+    "void": 0,
+    "w": 0
+   },
+   "win_rate": 0.0
+  },
   "NCAAF Cosmic": {
    "avg_clv": -0.010812500000000034,
    "clv_beat_rate": 0.4375,
@@ -95,10 +108,12 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6895 player-games, looked back 21 days)"
+  "NBA player logs: skipped 53 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NBA player logs: cache already current (7551 player-games, looked back 128 days)",
+  "NFL player logs: cache already current (6878 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-15T12:54:31+00:00",
- "graded_through": "Week of Oct 12",
+ "generated_at": "2026-10-16T00:42:53+00:00",
+ "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
    "avg_clv": -0.10254285714285716,
@@ -6075,10 +6090,10 @@
    "win_rate": 0.4867924528301887
   },
   "Sides": {
-   "avg_clv": 0.012212765957446801,
-   "clv_beat_rate": 0.38085106382978723,
-   "clv_n": 470,
-   "graded": 515,
+   "avg_clv": 0.012186836518046702,
+   "clv_beat_rate": 0.38004246284501064,
+   "clv_n": 471,
+   "graded": 516,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -15350,22 +15365,40 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 5"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 7.42,
+     "ev": 0.14487,
+     "final": "132-115",
+     "game": "Dallas Mavericks @ Houston Rockets",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Houston Rockets -8.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 242,
+    "l": 243,
     "p": 1,
     "void": 0,
     "w": 272
    },
    "threshold": 5.0,
-   "win_rate": 0.5291828793774319
+   "win_rate": 0.5281553398058253
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 10,
-  "Props": 114,
-  "Sides": 68
+  "Cosmic": 18,
+  "Props": 150,
+  "Sides": 82
  }
 }
