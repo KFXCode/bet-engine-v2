@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.028333904109589036,
-   "clv_beat_rate": 0.2876712328767123,
-   "clv_n": 584,
-   "graded": 664,
+   "avg_clv": 0.03931302876480541,
+   "clv_beat_rate": 0.2893401015228426,
+   "clv_n": 591,
+   "graded": 673,
    "record": {
-    "l": 322,
+    "l": 328,
     "p": 1,
     "void": 17,
-    "w": 341
+    "w": 344
    },
-   "win_rate": 0.5143288084464555
+   "win_rate": 0.5119047619047619
   }
  },
  "by_sport": {
@@ -55,17 +55,17 @@
    "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.0803179347826087,
-   "clv_beat_rate": 0.39402173913043476,
-   "clv_n": 368,
-   "graded": 391,
+   "avg_clv": 0.09055135135135134,
+   "clv_beat_rate": 0.3972972972972973,
+   "clv_n": 370,
+   "graded": 393,
    "record": {
-    "l": 179,
+    "l": 181,
     "p": 0,
     "void": 0,
     "w": 212
    },
-   "win_rate": 0.5421994884910486
+   "win_rate": 0.539440203562341
   },
   "NFL Cosmic": {
    "avg_clv": -0.17978947368421053,
@@ -81,38 +81,38 @@
    "win_rate": 0.38461538461538464
   },
   "NFL Props": {
-   "avg_clv": 0.08854716981132074,
-   "clv_beat_rate": 0.07547169811320754,
-   "clv_n": 212,
-   "graded": 265,
+   "avg_clv": 0.08731162790697673,
+   "clv_beat_rate": 0.07441860465116279,
+   "clv_n": 215,
+   "graded": 270,
    "record": {
-    "l": 136,
+    "l": 138,
     "p": 0,
     "void": 22,
-    "w": 129
+    "w": 132
    },
-   "win_rate": 0.4867924528301887
+   "win_rate": 0.4888888888888889
   },
   "NFL Sides": {
-   "avg_clv": -0.2335,
-   "clv_beat_rate": 0.3333333333333333,
-   "clv_n": 102,
-   "graded": 124,
+   "avg_clv": -0.20266346153846154,
+   "clv_beat_rate": 0.33653846153846156,
+   "clv_n": 104,
+   "graded": 126,
    "record": {
-    "l": 63,
+    "l": 65,
     "p": 1,
     "void": 0,
     "w": 60
    },
-   "win_rate": 0.4878048780487805
+   "win_rate": 0.48
   }
  },
  "diagnostics": [
-  "NBA player logs: skipped 53 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (7551 player-games, looked back 128 days)",
-  "NFL player logs: cache already current (6878 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 6897 player-games cached",
+  "NBA player logs: skipped 55 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NBA player logs: cache already current (7551 player-games, looked back 128 days)"
  ],
- "generated_at": "2026-10-16T00:42:53+00:00",
+ "generated_at": "2026-10-16T12:46:24+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
@@ -907,10 +907,10 @@
    "win_rate": 0.42857142857142855
   },
   "Props": {
-   "avg_clv": 0.08854716981132074,
-   "clv_beat_rate": 0.07547169811320754,
-   "clv_n": 212,
-   "graded": 265,
+   "avg_clv": 0.08731162790697673,
+   "clv_beat_rate": 0.07441860465116279,
+   "clv_n": 215,
+   "graded": 270,
    "label": "Player props",
    "picks": [
     {
@@ -6062,6 +6062,60 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -168,
+     "clv": 0.0,
+     "edge": 15.029,
+     "ev": 0.23976,
+     "final": "1",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Tory Horton Over 0.5 receptions",
+     "player": "Tory Horton",
+     "price": -168,
+     "proj": 1.797,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 14.253,
+     "ev": 0.26756,
+     "final": "24",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Jaylen Waddle Under 48.5 receiving yards",
+     "player": "Jaylen Waddle",
+     "price": -114,
+     "proj": 43.114,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 13.524,
+     "ev": 0.25387,
+     "final": "4",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Jaylen Waddle Under 4.5 receptions",
+     "player": "Jaylen Waddle",
+     "price": -114,
+     "proj": 3.772,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 12.949,
@@ -6078,22 +6132,58 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.671,
+     "ev": 4.98801,
+     "final": "0 TD",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Eric Saubert anytime TD",
+     "player": "Eric Saubert",
+     "price": 3300,
+     "proj": 0.194,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 13.031,
+     "ev": 0.25096,
+     "final": "0",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "George Holani Over 5.5 receiving yards",
+     "player": "George Holani",
+     "price": -108,
+     "proj": 16.13,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
     }
    ],
    "record": {
-    "l": 136,
+    "l": 138,
     "p": 0,
     "void": 22,
-    "w": 129
+    "w": 132
    },
    "threshold": 7.0,
-   "win_rate": 0.4867924528301887
+   "win_rate": 0.4888888888888889
   },
   "Sides": {
-   "avg_clv": 0.012186836518046702,
-   "clv_beat_rate": 0.38004246284501064,
-   "clv_n": 471,
-   "graded": 516,
+   "avg_clv": 0.026162105263157886,
+   "clv_beat_rate": 0.3831578947368421,
+   "clv_n": 475,
+   "graded": 520,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -15169,6 +15259,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -156,
+     "clv": 2.74,
+     "edge": 17.057,
+     "ev": 0.29418,
+     "final": "14-17",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Seattle Seahawks ML",
+     "player": null,
+     "price": -138,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 15.334,
+     "ev": 0.29273,
+     "final": "14-17",
+     "game": "Seattle Seahawks @ Denver Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Seattle Seahawks -2.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": -102,
      "clv": -1.928,
      "edge": 11.222,
@@ -15331,6 +15457,24 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -215,
+     "clv": 0.503,
+     "edge": 19.353,
+     "ev": 0.28568,
+     "final": "17-30",
+     "game": "East Carolina Pirates @ UAB Blazers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "East Carolina Pirates ML",
+     "player": null,
+     "price": -210,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 16.434,
@@ -15367,6 +15511,24 @@
      "week": "Week of Oct 5"
     },
     {
+     "closing_price": -115,
+     "clv": 3.444,
+     "edge": 5.784,
+     "ev": 0.11568,
+     "final": "27-66",
+     "game": "Colorado State Rams @ Texas State Bobcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Colorado State Rams +13.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": -105,
      "clv": 0.0,
      "edge": 7.42,
@@ -15386,19 +15548,19 @@
     }
    ],
    "record": {
-    "l": 243,
+    "l": 247,
     "p": 1,
     "void": 0,
     "w": 272
    },
    "threshold": 5.0,
-   "win_rate": 0.5281553398058253
+   "win_rate": 0.5240847784200385
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 18,
-  "Props": 150,
-  "Sides": 82
+  "Props": 145,
+  "Sides": 78
  }
 }
