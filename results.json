@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.03931302876480541,
-   "clv_beat_rate": 0.2893401015228426,
-   "clv_n": 591,
-   "graded": 673,
+   "avg_clv": 0.03797470489038786,
+   "clv_beat_rate": 0.2900505902192243,
+   "clv_n": 593,
+   "graded": 675,
    "record": {
     "l": 328,
     "p": 1,
     "void": 17,
-    "w": 344
+    "w": 346
    },
-   "win_rate": 0.5119047619047619
+   "win_rate": 0.5133531157270029
   }
  },
  "by_sport": {
@@ -55,17 +55,17 @@
    "win_rate": 0.5
   },
   "NCAAF Sides": {
-   "avg_clv": 0.09055135135135134,
-   "clv_beat_rate": 0.3972972972972973,
-   "clv_n": 370,
-   "graded": 393,
+   "avg_clv": 0.08814247311827955,
+   "clv_beat_rate": 0.3978494623655914,
+   "clv_n": 372,
+   "graded": 395,
    "record": {
     "l": 181,
     "p": 0,
     "void": 0,
-    "w": 212
+    "w": 214
    },
-   "win_rate": 0.539440203562341
+   "win_rate": 0.5417721518987342
   },
   "NFL Cosmic": {
    "avg_clv": -0.17978947368421053,
@@ -108,11 +108,11 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6897 player-games cached",
-  "NBA player logs: skipped 55 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (7551 player-games, looked back 128 days)"
+  "NBA player logs: skipped 67 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NBA player logs: cache already current (7551 player-games, looked back 129 days)",
+  "NFL player logs: cache already current (6897 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-16T12:46:24+00:00",
+ "generated_at": "2026-10-17T11:47:29+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
@@ -6180,10 +6180,10 @@
    "win_rate": 0.4888888888888889
   },
   "Sides": {
-   "avg_clv": 0.026162105263157886,
-   "clv_beat_rate": 0.3831578947368421,
-   "clv_n": 475,
-   "graded": 520,
+   "avg_clv": 0.024553459119496846,
+   "clv_beat_rate": 0.3836477987421384,
+   "clv_n": 477,
+   "graded": 522,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -15439,6 +15439,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": 220,
+     "clv": -3.076,
+     "edge": 16.028,
+     "ev": 0.4648,
+     "final": "17-31",
+     "game": "Memphis Tigers @ Tulane Green Wave",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Tulane Green Wave ML",
+     "player": null,
+     "price": 190,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -122,
+     "clv": 2.361,
+     "edge": 17.248,
+     "ev": 0.32928,
+     "final": "17-31",
+     "game": "Memphis Tigers @ Tulane Green Wave",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Tulane Green Wave +6.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 12"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.72,
@@ -15551,16 +15587,16 @@
     "l": 247,
     "p": 1,
     "void": 0,
-    "w": 272
+    "w": 274
    },
    "threshold": 5.0,
-   "win_rate": 0.5240847784200385
+   "win_rate": 0.525911708253359
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 18,
   "Props": 145,
-  "Sides": 78
+  "Sides": 76
  }
 }
