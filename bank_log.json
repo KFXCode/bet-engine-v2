@@ -71,7 +71,7 @@
   "evPctAtFlag": 2.81,
   "closeFairPct": 12.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": -4.06,
   "closed": false
  },
@@ -90,7 +90,7 @@
   "evPctAtFlag": 7.9,
   "closeFairPct": 11.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 22.1,
   "closed": false
  },
@@ -109,7 +109,7 @@
   "evPctAtFlag": 5.08,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": -7.66,
   "closed": false
  },
@@ -128,7 +128,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 17.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 9.74,
   "closed": false
  },
@@ -147,7 +147,7 @@
   "evPctAtFlag": 7.43,
   "closeFairPct": 16.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": -0.8,
   "closed": false
  },
@@ -170,7 +170,7 @@
   "evPctAtFlag": 6.91,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 13.23,
   "closed": false
  },
@@ -193,7 +193,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 31.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 1.76,
   "closed": false
  },
@@ -216,7 +216,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 22.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 7.16,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 23.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -308,7 +308,7 @@
   "evPctAtFlag": 3.65,
   "closeFairPct": 15.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 2.0,
   "closed": false
  },
@@ -329,10 +329,10 @@
   "price": 480,
   "fairPctAtFlag": 17.9,
   "evPctAtFlag": 3.54,
-  "closeFairPct": 16.2,
+  "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
-  "clvPct": -6.04,
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "clvPct": -5.46,
   "closed": false
  },
  {
@@ -556,7 +556,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 34.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 8.19,
   "closed": false
  },
@@ -804,10 +804,10 @@
   "price": 230,
   "fairPctAtFlag": 32.5,
   "evPctAtFlag": 7.36,
-  "closeFairPct": 31.6,
+  "closeFairPct": 31.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
-  "clvPct": 4.28,
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "clvPct": 3.62,
   "closed": false
  },
  {
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 3.54,
   "closed": false
  },
@@ -856,7 +856,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 58.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 3.32,
   "closed": false
  },
@@ -1081,7 +1081,7 @@
   "evPctAtFlag": 2.0,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": -0.24,
   "closed": false
  },
@@ -1106,7 +1106,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": -1.82,
   "closed": false
  },
@@ -1208,7 +1208,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-10-17T19:35:10+00:00",
   "clvPct": -3.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b8769f5cc81325b0693ee4b3e3f41407|h2h|Pittsburgh Penguins|None",
@@ -1231,7 +1231,7 @@
   "evPctAtFlag": 2.35,
   "closeFairPct": 35.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 1.66,
   "closed": false
  },
@@ -1283,7 +1283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T19:35:10+00:00",
   "clvPct": 5.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2851c11a3831feac527b6df0b34b2a2a|h2h|Auburn Tigers|None",
@@ -1331,7 +1331,7 @@
   "evPctAtFlag": 3.96,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": -0.23,
   "closed": false
  },
@@ -1356,7 +1356,7 @@
   "evPctAtFlag": 3.07,
   "closeFairPct": 29.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T19:35:10+00:00",
+  "closeSeenAt": "2026-10-17T20:39:24+00:00",
   "clvPct": 2.95,
   "closed": false
  }
