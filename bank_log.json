@@ -71,7 +71,7 @@
   "evPctAtFlag": 2.81,
   "closeFairPct": 12.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -4.06,
   "closed": false
  },
@@ -90,7 +90,7 @@
   "evPctAtFlag": 7.9,
   "closeFairPct": 11.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 22.1,
   "closed": false
  },
@@ -109,7 +109,7 @@
   "evPctAtFlag": 5.08,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -8.74,
   "closed": false
  },
@@ -126,10 +126,10 @@
   "price": 520,
   "fairPctAtFlag": 16.7,
   "evPctAtFlag": 3.64,
-  "closeFairPct": 15.7,
+  "closeFairPct": 17.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
-  "clvPct": -2.66,
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 9.74,
   "closed": false
  },
  {
@@ -147,7 +147,7 @@
   "evPctAtFlag": 7.43,
   "closeFairPct": 16.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 0.44,
   "closed": false
  },
@@ -170,7 +170,7 @@
   "evPctAtFlag": 6.91,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 13.23,
   "closed": false
  },
@@ -193,7 +193,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 31.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 1.76,
   "closed": false
  },
@@ -216,7 +216,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 22.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 7.16,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 23.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -283,10 +283,10 @@
   "price": 300,
   "fairPctAtFlag": 26.4,
   "evPctAtFlag": 5.5,
-  "closeFairPct": 26.7,
+  "closeFairPct": 27.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
-  "clvPct": 6.8,
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 8.0,
   "closed": false
  },
  {
@@ -308,7 +308,7 @@
   "evPctAtFlag": 3.65,
   "closeFairPct": 15.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 2.0,
   "closed": false
  },
@@ -331,7 +331,7 @@
   "evPctAtFlag": 3.54,
   "closeFairPct": 16.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -6.04,
   "closed": false
  },
@@ -531,7 +531,7 @@
   "evPctAtFlag": 7.57,
   "closeFairPct": 14.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -6.56,
   "closed": false
  },
@@ -556,7 +556,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 34.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 8.19,
   "closed": false
  },
@@ -579,10 +579,10 @@
   "price": 330,
   "fairPctAtFlag": 24.4,
   "evPctAtFlag": 4.91,
-  "closeFairPct": 23.8,
+  "closeFairPct": 24.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
-  "clvPct": 2.34,
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 3.63,
   "closed": false
  },
  {
@@ -806,7 +806,7 @@
   "evPctAtFlag": 7.36,
   "closeFairPct": 31.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 4.28,
   "closed": false
  },
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 3.54,
   "closed": false
  },
@@ -856,7 +856,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 58.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 3.32,
   "closed": false
  },
@@ -1029,10 +1029,10 @@
   "price": 340,
   "fairPctAtFlag": 23.2,
   "evPctAtFlag": 2.15,
-  "closeFairPct": 24.6,
+  "closeFairPct": 25.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
-  "clvPct": 8.24,
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 10.44,
   "closed": false
  },
  {
@@ -1056,7 +1056,7 @@
   "evPctAtFlag": 3.55,
   "closeFairPct": 28.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 8.57,
   "closed": false
  },
@@ -1081,7 +1081,7 @@
   "evPctAtFlag": 2.0,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -0.24,
   "closed": false
  },
@@ -1106,7 +1106,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -1.82,
   "closed": false
  },
@@ -1206,7 +1206,7 @@
   "evPctAtFlag": 2.12,
   "closeFairPct": 42.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": -3.4,
   "closed": false
  },
@@ -1231,7 +1231,7 @@
   "evPctAtFlag": 2.35,
   "closeFairPct": 35.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 2.24,
   "closed": false
  },
@@ -1254,10 +1254,10 @@
   "price": 180,
   "fairPctAtFlag": 36.9,
   "evPctAtFlag": 3.31,
-  "closeFairPct": 37.8,
+  "closeFairPct": 37.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
-  "clvPct": 5.84,
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 4.44,
   "closed": false
  },
  {
@@ -1281,7 +1281,7 @@
   "evPctAtFlag": 3.78,
   "closeFairPct": 23.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
   "clvPct": 3.84,
   "closed": false
  },
@@ -1304,10 +1304,60 @@
   "price": 860,
   "fairPctAtFlag": 11.2,
   "evPctAtFlag": 7.99,
-  "closeFairPct": 11.2,
+  "closeFairPct": 11.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T17:35:08+00:00",
-  "clvPct": 7.52,
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 6.56,
+  "closed": false
+ },
+ {
+  "key": "c4c9cbe2a4507d3f1235f7ca9e424a19|spreads|Elon Phoenix:34.5/Stanford Cardinal:-34.5|Elon Phoenix|34.5",
+  "eventId": "c4c9cbe2a4507d3f1235f7ca9e424a19",
+  "sport": "NCAAF",
+  "game": "Elon Phoenix at Stanford Cardinal",
+  "time": "2026-10-17T23:30:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Elon Phoenix",
+  "line": 34.5,
+  "team": "Elon Phoenix",
+  "point": 34.5,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-17T18:20:08+00:00",
+  "price": -105,
+  "fairPctAtFlag": 53.2,
+  "evPctAtFlag": 3.96,
+  "closeFairPct": 53.2,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 3.87,
+  "closed": false
+ },
+ {
+  "key": "917d8eb9ffc25af2925d0e7e8c91a0f4|h2h|San Diego State Aztecs|None",
+  "eventId": "917d8eb9ffc25af2925d0e7e8c91a0f4",
+  "sport": "NCAAF",
+  "game": "Fresno State Bulldogs at San Diego State Aztecs",
+  "time": "2026-10-18T02:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "San Diego State Aztecs",
+  "line": null,
+  "team": "San Diego State Aztecs",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-17T18:20:08+00:00",
+  "price": 255,
+  "fairPctAtFlag": 29.0,
+  "evPctAtFlag": 3.07,
+  "closeFairPct": 29.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-17T18:20:08+00:00",
+  "clvPct": 2.95,
   "closed": false
  }
 ]
