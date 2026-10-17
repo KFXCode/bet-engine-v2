@@ -69,10 +69,10 @@
   "price": 680,
   "fairPctAtFlag": 13.2,
   "evPctAtFlag": 2.81,
-  "closeFairPct": 12.3,
+  "closeFairPct": 12.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": -4.06,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": -6.4,
   "closed": false
  },
  {
@@ -88,10 +88,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.8,
   "evPctAtFlag": 7.9,
-  "closeFairPct": 11.1,
+  "closeFairPct": 11.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": 22.1,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": 21.0,
   "closed": false
  },
  {
@@ -107,10 +107,10 @@
   "price": 440,
   "fairPctAtFlag": 19.5,
   "evPctAtFlag": 5.08,
-  "closeFairPct": 17.1,
+  "closeFairPct": 17.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": -7.66,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": -8.2,
   "closed": false
  },
  {
@@ -128,7 +128,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 17.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 9.74,
   "closed": false
  },
@@ -145,10 +145,10 @@
   "price": 520,
   "fairPctAtFlag": 17.3,
   "evPctAtFlag": 7.43,
-  "closeFairPct": 16.0,
+  "closeFairPct": 15.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": -0.8,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": -1.42,
   "closed": false
  },
  {
@@ -168,10 +168,10 @@
   "price": 570,
   "fairPctAtFlag": 16.0,
   "evPctAtFlag": 6.91,
-  "closeFairPct": 16.9,
+  "closeFairPct": 16.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": 13.23,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": 11.22,
   "closed": false
  },
  {
@@ -193,7 +193,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 31.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 1.76,
   "closed": false
  },
@@ -216,7 +216,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 22.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 7.16,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 23.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -306,10 +306,10 @@
   "price": 580,
   "fairPctAtFlag": 15.2,
   "evPctAtFlag": 3.65,
-  "closeFairPct": 15.0,
+  "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": 2.0,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": -0.04,
   "closed": false
  },
  {
@@ -331,7 +331,7 @@
   "evPctAtFlag": 3.54,
   "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": -5.46,
   "closed": false
  },
@@ -556,7 +556,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 34.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 8.19,
   "closed": false
  },
@@ -804,10 +804,10 @@
   "price": 230,
   "fairPctAtFlag": 32.5,
   "evPctAtFlag": 7.36,
-  "closeFairPct": 31.4,
+  "closeFairPct": 30.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": 3.62,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": 1.97,
   "closed": false
  },
  {
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 3.54,
   "closed": false
  },
@@ -856,7 +856,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 58.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 3.32,
   "closed": false
  },
@@ -1081,7 +1081,7 @@
   "evPctAtFlag": 2.0,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": -0.24,
   "closed": false
  },
@@ -1106,7 +1106,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": -1.82,
   "closed": false
  },
@@ -1229,10 +1229,10 @@
   "price": 188,
   "fairPctAtFlag": 35.5,
   "evPctAtFlag": 2.35,
-  "closeFairPct": 35.3,
+  "closeFairPct": 35.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
-  "clvPct": 1.66,
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": 1.38,
   "closed": false
  },
  {
@@ -1331,7 +1331,7 @@
   "evPctAtFlag": 3.96,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": -0.23,
   "closed": false
  },
@@ -1356,8 +1356,33 @@
   "evPctAtFlag": 3.07,
   "closeFairPct": 29.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T20:39:24+00:00",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
   "clvPct": 2.95,
+  "closed": false
+ },
+ {
+  "key": "c76ea1404c07eb9c6d54d0c9d890b17d|totals|Over:3.5/Under:3.5|Under 3.5|None",
+  "eventId": "c76ea1404c07eb9c6d54d0c9d890b17d",
+  "sport": "MLS",
+  "game": "Inter Miami CF at Atlanta United FC",
+  "time": "2026-10-17T23:30:00Z",
+  "market": "Total",
+  "marketKey": "totals",
+  "player": null,
+  "name": "Under",
+  "line": 3.5,
+  "team": "Under 3.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-17T21:40:01+00:00",
+  "price": 123,
+  "fairPctAtFlag": 46.7,
+  "evPctAtFlag": 4.12,
+  "closeFairPct": 46.7,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-10-17T21:40:01+00:00",
+  "clvPct": 4.14,
   "closed": false
  }
 ]
