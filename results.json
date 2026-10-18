@@ -108,11 +108,11 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6897 player-games, looked back 21 days)",
   "NBA player logs: skipped 67 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (7551 player-games, looked back 130 days)"
+  "NBA player logs: cache already current (7551 player-games, looked back 130 days)",
+  "NFL player logs: cache already current (6897 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-18T07:28:51+00:00",
+ "generated_at": "2026-10-18T12:13:04+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
