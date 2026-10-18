@@ -218,7 +218,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": -0.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "20fefae8c296247460ba5773caa42218|h2h|Los Angeles Chargers|None",
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 21.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T16:30:12+00:00",
+  "closeSeenAt": "2026-10-18T17:35:09+00:00",
   "clvPct": -0.36,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T16:30:12+00:00",
+  "closeSeenAt": "2026-10-18T17:35:09+00:00",
   "clvPct": -3.25,
   "closed": false
  },
@@ -558,7 +558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 19.66,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6af8b2523c07aebb827163640d2a865d|h2h|Akron Zips|None",
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 32.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T16:30:12+00:00",
+  "closeSeenAt": "2026-10-18T17:35:09+00:00",
   "clvPct": 0.13,
   "closed": false
  },
@@ -858,7 +858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 11.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7d7f757d2bf4cb7b6d8bbfe9589d25a2|spreads|Buffalo Bulls:-6.5/UMass Minutemen:6.5|UMass Minutemen|6.5",
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 57.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T16:30:12+00:00",
+  "closeSeenAt": "2026-10-18T17:35:09+00:00",
   "clvPct": 1.91,
   "closed": false
  },
@@ -1406,7 +1406,7 @@
   "evPctAtFlag": 2.15,
   "closeFairPct": 54.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T16:30:12+00:00",
+  "closeSeenAt": "2026-10-18T17:35:09+00:00",
   "clvPct": 2.21,
   "closed": false
  },
@@ -1431,7 +1431,7 @@
   "evPctAtFlag": 2.57,
   "closeFairPct": 49.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T16:30:12+00:00",
+  "closeSeenAt": "2026-10-18T17:35:09+00:00",
   "clvPct": 2.54,
   "closed": false
  },
@@ -1458,7 +1458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 2.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0b0b582b32b09ab6ff6664ffae0c9653|player_receptions|Eli Raridon|1.5|Eli Raridon Over 1.5|None",
@@ -1483,7 +1483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 3.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0b0b582b32b09ab6ff6664ffae0c9653|player_receptions|Rhamondre Stevenson|2.5|Rhamondre Stevenson Under 2.5|None",
@@ -1508,7 +1508,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 1.99,
-  "closed": false
+  "closed": true
  },
  {
   "key": "27f3994841ce8081c0b7349cf3d1e3d7|player_receptions|Bucky Irving|1.5|Bucky Irving Under 1.5|None",
@@ -1533,7 +1533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 2.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "84aa9e190e625d7e9cd67e1f157a45b4|player_receptions|Jonathan Taylor|2.5|Jonathan Taylor Under 2.5|None",
@@ -1558,6 +1558,6 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 5.41,
-  "closed": false
+  "closed": true
  }
 ]
