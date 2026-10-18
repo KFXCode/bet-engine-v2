@@ -68819,6 +68819,11 @@
      "2026-10-18T12:13:04+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Los Angeles Rams",
@@ -68886,6 +68891,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -245,
+     200
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -245,
      200
     ]
@@ -69100,6 +69110,11 @@
      "2026-10-18T12:13:04+00:00",
      -116,
      -102
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -110,
+     -106
     ]
    ],
    "home": "Green Bay Packers",
@@ -69187,6 +69202,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -104,
+     -118
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -104,
      -118
     ]
@@ -69636,6 +69656,11 @@
      "2026-10-18T12:13:04+00:00",
      310,
      -390
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     310,
+     -390
     ]
    ],
    "home": "Kansas City Chiefs",
@@ -69725,6 +69750,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -115,
+     -105
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -115,
      -105
     ]
@@ -69831,12 +69861,13 @@
   },
   {
    "away": "Houston Texans",
-   "clv": null,
+   "closing_price": -138,
+   "clv": 0.0,
    "commence": "2026-10-18T13:30:00Z",
    "edge": 5.396,
    "ev": 0.09306,
    "event": null,
-   "final": null,
+   "final": "34-31",
    "first_seen": "2026-10-12T21:30:04+00:00",
    "group": "Sides",
    "history": [
@@ -69877,7 +69908,7 @@
    "player": null,
    "price": -138,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NFL",
    "stat_key": null,
@@ -71203,6 +71234,11 @@
      "2026-10-18T12:13:04+00:00",
      -420,
      330
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -420,
+     330
     ]
    ],
    "home": "San Francisco 49ers",
@@ -71275,6 +71311,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -108,
+     -112
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -108,
      -112
     ]
@@ -71434,6 +71475,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     120,
+     null
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      120,
      null
     ]
@@ -71702,6 +71748,11 @@
      "2026-10-18T12:13:04+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "San Francisco 49ers",
@@ -71953,6 +72004,11 @@
      "2026-10-18T12:13:04+00:00",
      128,
      -154
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     128,
+     -154
     ]
    ],
    "home": "Marshall Thundering Herd",
@@ -72005,6 +72061,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -102,
+     -120
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -102,
      -120
     ]
@@ -72061,6 +72122,11 @@
      "2026-10-18T12:13:04+00:00",
      -190,
      160
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -190,
+     160
     ]
    ],
    "home": "New York Knicks",
@@ -72113,6 +72179,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -105,
      -115
     ]
@@ -72169,6 +72240,11 @@
      "2026-10-18T12:13:04+00:00",
      -104,
      -116
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -104,
+     -116
     ]
    ],
    "home": "Memphis Grizzlies",
@@ -72221,6 +72297,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -114,
+     -106
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -114,
      -106
     ]
@@ -72312,6 +72393,11 @@
      "2026-10-18T12:13:04+00:00",
      130,
      -154
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     130,
+     -154
     ]
    ],
    "home": "Portland Trail Blazers",
@@ -72364,6 +72450,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -106,
+     -114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -106,
      -114
     ]
@@ -72420,6 +72511,11 @@
      "2026-10-18T12:13:04+00:00",
      114,
      -134
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     114,
+     -134
     ]
    ],
    "home": "Philadelphia 76ers",
@@ -72472,6 +72568,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -112,
+     -108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -112,
      -108
     ]
@@ -72878,6 +72979,16 @@
      "2026-10-18T12:13:04+00:00",
      -102,
      -130
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -140,
+     106
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -104,
+     -128
     ]
    ],
    "home": "Las Vegas Raiders",
@@ -72976,6 +73087,11 @@
      "2026-10-18T12:13:04+00:00",
      122,
      -162
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     118,
+     -158
     ]
    ],
    "home": "Los Angeles Rams",
@@ -73182,6 +73298,11 @@
      "2026-10-18T12:13:04+00:00",
      114,
      -152
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     114,
+     -152
     ]
    ],
    "home": "Los Angeles Rams",
@@ -73234,6 +73355,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -178,
+     132
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -178,
      132
     ]
@@ -73492,6 +73618,11 @@
      "2026-10-18T12:13:04+00:00",
      -113,
      -113
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -113,
+     -113
     ]
    ],
    "home": "Kansas City Chiefs",
@@ -73698,6 +73829,11 @@
      "2026-10-18T12:13:04+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "Kansas City Chiefs",
@@ -73752,6 +73888,11 @@
      "2026-10-18T12:13:04+00:00",
      -108,
      -122
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -118,
+     -112
     ]
    ],
    "home": "San Antonio Spurs",
@@ -73842,6 +73983,16 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -158,
+     118
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -205,
+     152
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -158,
      118
     ]
@@ -74030,6 +74181,11 @@
      "2026-10-18T12:13:04+00:00",
      -112,
      -118
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -114,
+     -118
     ]
    ],
    "home": "Detroit Pistons",
@@ -74210,6 +74366,11 @@
      "2026-10-18T12:13:04+00:00",
      -122,
      -108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -125,
+     -106
     ]
    ],
    "home": "New York Knicks",
@@ -74264,6 +74425,11 @@
      "2026-10-18T12:13:04+00:00",
      -130,
      -102
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -130,
+     -102
     ]
    ],
    "home": "San Antonio Spurs",
@@ -74308,6 +74474,11 @@
      "2026-10-17T11:47:29+00:00",
      -138,
      104
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -154,
+     116
     ]
    ],
    "home": "Detroit Pistons",
@@ -74424,6 +74595,16 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -112,
+     -118
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -132,
+     100
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -112,
      -118
     ]
@@ -74593,6 +74774,11 @@
      "2026-10-18T12:13:04+00:00",
      128,
      -154
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     128,
+     -154
     ]
    ],
    "home": "Marshall Thundering Herd",
@@ -74647,6 +74833,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -102,
+     -120
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -102,
      -120
     ]
@@ -74705,6 +74896,11 @@
      "2026-10-18T12:13:04+00:00",
      112,
      -132
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     112,
+     -132
     ]
    ],
    "home": "San Antonio Spurs",
@@ -74759,6 +74955,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -114,
+     -106
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -114,
      -106
     ]
@@ -74817,6 +75018,11 @@
      "2026-10-18T12:13:04+00:00",
      114,
      -134
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     114,
+     -134
     ]
    ],
    "home": "Philadelphia 76ers",
@@ -74871,6 +75077,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -112,
+     -108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -112,
      -108
     ]
@@ -74952,6 +75163,11 @@
      "2026-10-18T12:13:04+00:00",
      320,
      -410
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     310,
+     -400
     ]
    ],
    "home": "Memphis Tigers",
@@ -74991,6 +75207,11 @@
      "2026-10-18T12:13:04+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -104,
+     -118
     ]
    ],
    "home": "Memphis Tigers",
@@ -75030,6 +75251,11 @@
      "2026-10-18T12:13:04+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -115,
+     -102
     ]
    ],
    "home": "Tulsa Golden Hurricane",
@@ -75069,6 +75295,11 @@
      "2026-10-18T12:13:04+00:00",
      -120,
      -102
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -122,
+     100
     ]
    ],
    "home": "Tulsa Golden Hurricane",
@@ -75186,6 +75417,11 @@
      "2026-10-18T12:13:04+00:00",
      520,
      -750
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     530,
+     -780
     ]
    ],
    "home": "Alabama Crimson Tide",
@@ -75225,6 +75461,11 @@
      "2026-10-18T12:13:04+00:00",
      180,
      -220
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     205,
+     -255
     ]
    ],
    "home": "Auburn Tigers",
@@ -75264,6 +75505,11 @@
      "2026-10-18T12:13:04+00:00",
      -106,
      -114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     108,
+     -132
     ]
    ],
    "home": "Auburn Tigers",
@@ -75301,6 +75547,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -105,
      -115
     ]
@@ -75342,6 +75593,11 @@
      "2026-10-18T12:13:04+00:00",
      -330,
      260
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -320,
+     255
     ]
    ],
    "home": "Michigan Wolverines",
@@ -75379,6 +75635,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     126,
+     -152
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      126,
      -152
     ]
@@ -75420,6 +75681,11 @@
      "2026-10-18T12:13:04+00:00",
      -122,
      100
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -122,
+     100
     ]
    ],
    "home": "Texas Longhorns",
@@ -75459,6 +75725,11 @@
      "2026-10-18T12:13:04+00:00",
      -142,
      118
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -152,
+     126
     ]
    ],
    "home": "Mississippi State Bulldogs",
@@ -75498,6 +75769,11 @@
      "2026-10-18T12:13:04+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -124,
+     102
     ]
    ],
    "home": "Mississippi State Bulldogs",
@@ -75537,6 +75813,11 @@
      "2026-10-18T12:13:04+00:00",
      -130,
      108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -125,
+     104
     ]
    ],
    "home": "South Carolina Gamecocks",
@@ -75576,6 +75857,11 @@
      "2026-10-18T12:13:04+00:00",
      -137,
      114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -134,
+     112
     ]
    ],
    "home": "Wisconsin Badgers",
@@ -75613,6 +75899,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -112,
+     -108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -112,
      -108
     ]
@@ -75654,6 +75945,11 @@
      "2026-10-18T12:13:04+00:00",
      -132,
      100
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -136,
+     102
     ]
    ],
    "home": "Detroit Pistons",
@@ -75691,6 +75987,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -122,
+     -108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -122,
      -108
     ]
@@ -75771,6 +76072,11 @@
      "2026-10-18T12:13:04+00:00",
      -122,
      -108
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -122,
+     -108
     ]
    ],
    "home": "Miami Heat",
@@ -75849,6 +76155,11 @@
      "2026-10-18T12:13:04+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "San Francisco 49ers",
@@ -75925,6 +76236,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -128,
+     -104
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -128,
      -104
     ]
@@ -76044,6 +76360,11 @@
      "2026-10-18T12:13:04+00:00",
      -113,
      -113
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -113,
+     -113
     ]
    ],
    "home": "Las Vegas Raiders",
@@ -76082,6 +76403,11 @@
     [
      "2026-10-18T12:13:04+00:00",
      440,
+     null
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     450,
      null
     ]
    ],
@@ -76239,6 +76565,11 @@
      "2026-10-18T12:13:04+00:00",
      154,
      -210
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     168,
+     -230
     ]
    ],
    "home": "Kansas City Chiefs",
@@ -76276,6 +76607,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     124,
+     -166
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      124,
      -166
     ]
@@ -76317,6 +76653,11 @@
      "2026-10-18T12:13:04+00:00",
      -128,
      -102
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -128,
+     -104
     ]
    ],
    "home": "Los Angeles Lakers",
@@ -76356,6 +76697,11 @@
      "2026-10-18T12:13:04+00:00",
      -132,
      100
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -132,
+     100
     ]
    ],
    "home": "Los Angeles Lakers",
@@ -76393,6 +76739,11 @@
     ],
     [
      "2026-10-18T12:13:04+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
      -114,
      -114
     ]
@@ -76515,6 +76866,11 @@
      "2026-10-18T12:13:04+00:00",
      320,
      -410
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     310,
+     -400
     ]
    ],
    "home": "Memphis Tigers",
@@ -76556,6 +76912,11 @@
      "2026-10-18T12:13:04+00:00",
      -118,
      -104
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -104,
+     -118
     ]
    ],
    "home": "Memphis Tigers",
@@ -76575,6 +76936,1453 @@
    "stars": 2,
    "stat_key": null,
    "week": "Week of Oct 19"
+  },
+  {
+   "away": "Chicago Bears",
+   "clv": null,
+   "commence": "2026-10-18T17:02:41Z",
+   "edge": 19.909,
+   "ev": 0.35223,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Chicago Bears @ Atlanta Falcons|Spread|Atlanta Falcons +10.5",
+   "lane": "value",
+   "line": 10.5,
+   "market": "Spread",
+   "other_price": -102,
+   "p": 0.764305,
+   "pick": "Atlanta Falcons +10.5",
+   "player": null,
+   "price": -130,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "New York Jets",
+   "clv": null,
+   "commence": "2026-10-18T17:02:43Z",
+   "edge": 6.068,
+   "ev": 0.12257,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [],
+   "home": "New England Patriots",
+   "id": "NFL|New York Jets @ New England Patriots|Spread|New England Patriots -17.5",
+   "lane": "value",
+   "line": -17.5,
+   "market": "Spread",
+   "other_price": -136,
+   "p": 0.555729,
+   "pick": "New England Patriots -17.5",
+   "player": null,
+   "price": 102,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Pittsburgh Steelers",
+   "clv": null,
+   "commence": "2026-10-18T17:02:52Z",
+   "edge": 19.11,
+   "ev": 0.35874,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [],
+   "home": "Tampa Bay Buccaneers",
+   "id": "NFL|Pittsburgh Steelers @ Tampa Bay Buccaneers|Spread|Pittsburgh Steelers +6.5",
+   "lane": "value",
+   "line": 6.5,
+   "market": "Spread",
+   "other_price": -114,
+   "p": 0.723813,
+   "pick": "Pittsburgh Steelers +6.5",
+   "player": null,
+   "price": -114,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-18T17:02:53Z",
+   "edge": 13.557,
+   "ev": 0.84055,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [],
+   "home": "Cleveland Browns",
+   "id": "NFL|Baltimore Ravens @ Cleveland Browns|Moneyline|Cleveland Browns ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -900,
+   "p": 0.296864,
+   "pick": "Cleveland Browns ML",
+   "player": null,
+   "price": 520,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-18T17:02:53Z",
+   "edge": 8.402,
+   "ev": 0.15904,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [],
+   "home": "Cleveland Browns",
+   "id": "NFL|Baltimore Ravens @ Cleveland Browns|Spread|Cleveland Browns +9.5",
+   "lane": "value",
+   "line": 9.5,
+   "market": "Spread",
+   "other_price": -118,
+   "p": 0.612324,
+   "pick": "Cleveland Browns +9.5",
+   "player": null,
+   "price": -112,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Tennessee Titans",
+   "clv": null,
+   "commence": "2026-10-18T17:03:40Z",
+   "edge": 8.064,
+   "ev": 0.16451,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [],
+   "home": "Indianapolis Colts",
+   "id": "NFL|Tennessee Titans @ Indianapolis Colts|Spread|Tennessee Titans +15.5",
+   "lane": "value",
+   "line": 15.5,
+   "market": "Spread",
+   "other_price": -138,
+   "p": 0.570836,
+   "pick": "Tennessee Titans +15.5",
+   "player": null,
+   "price": 104,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "BYU Cougars",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 8.732,
+   "ev": 0.11643,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -300,
+     240
+    ]
+   ],
+   "home": "UCF Knights",
+   "id": "NCAAF|BYU Cougars @ UCF Knights|Moneyline|BYU Cougars ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 240,
+   "p": 0.837319,
+   "pick": "BYU Cougars ML",
+   "player": null,
+   "price": -300,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "BYU Cougars",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 11.997,
+   "ev": 0.21226,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -130,
+     106
+    ]
+   ],
+   "home": "UCF Knights",
+   "id": "NCAAF|BYU Cougars @ UCF Knights|Spread|BYU Cougars -6.5",
+   "lane": "value",
+   "line": -6.5,
+   "market": "Spread",
+   "other_price": 106,
+   "p": 0.685191,
+   "pick": "BYU Cougars -6.5",
+   "player": null,
+   "price": -130,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Texas Tech Red Raiders",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 13.341,
+   "ev": 0.16444,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -430,
+     330
+    ]
+   ],
+   "home": "Cincinnati Bearcats",
+   "id": "NCAAF|Texas Tech Red Raiders @ Cincinnati Bearcats|Moneyline|Texas Tech Red Raiders ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 330,
+   "p": 0.94473,
+   "pick": "Texas Tech Red Raiders ML",
+   "player": null,
+   "price": -430,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "West Virginia Mountaineers",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 12.146,
+   "ev": 0.16563,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -275,
+     220
+    ]
+   ],
+   "home": "TCU Horned Frogs",
+   "id": "NCAAF|West Virginia Mountaineers @ TCU Horned Frogs|Moneyline|TCU Horned Frogs ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 220,
+   "p": 0.854794,
+   "pick": "TCU Horned Frogs ML",
+   "player": null,
+   "price": -275,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "West Virginia Mountaineers",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 17.418,
+   "ev": 0.34166,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -104,
+     -118
+    ]
+   ],
+   "home": "TCU Horned Frogs",
+   "id": "NCAAF|West Virginia Mountaineers @ TCU Horned Frogs|Spread|TCU Horned Frogs -7.5",
+   "lane": "value",
+   "line": -7.5,
+   "market": "Spread",
+   "other_price": -118,
+   "p": 0.683985,
+   "pick": "TCU Horned Frogs -7.5",
+   "player": null,
+   "price": -104,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Western Michigan Broncos",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 6.109,
+   "ev": 0.09542,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -178,
+     146
+    ]
+   ],
+   "home": "Toledo Rockets",
+   "id": "NCAAF|Western Michigan Broncos @ Toledo Rockets|Moneyline|Toledo Rockets ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 146,
+   "p": 0.701381,
+   "pick": "Toledo Rockets ML",
+   "player": null,
+   "price": -178,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Western Michigan Broncos",
+   "clv": null,
+   "commence": "2026-10-24T16:00:00Z",
+   "edge": 5.977,
+   "ev": 0.11669,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -105,
+     -115
+    ]
+   ],
+   "home": "Toledo Rockets",
+   "id": "NCAAF|Western Michigan Broncos @ Toledo Rockets|Spread|Toledo Rockets -4.5",
+   "lane": "value",
+   "line": -4.5,
+   "market": "Spread",
+   "other_price": -115,
+   "p": 0.571961,
+   "pick": "Toledo Rockets -4.5",
+   "player": null,
+   "price": -105,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Akron Zips",
+   "clv": null,
+   "commence": "2026-10-24T17:00:00Z",
+   "edge": 6.917,
+   "ev": 0.16323,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     136,
+     -164
+    ]
+   ],
+   "home": "Kent State Golden Flashes",
+   "id": "NCAAF|Akron Zips @ Kent State Golden Flashes|Moneyline|Akron Zips ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -164,
+   "p": 0.492894,
+   "pick": "Akron Zips ML",
+   "player": null,
+   "price": 136,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Akron Zips",
+   "clv": null,
+   "commence": "2026-10-24T17:00:00Z",
+   "edge": 7.57,
+   "ev": 0.14452,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Kent State Golden Flashes",
+   "id": "NCAAF|Akron Zips @ Kent State Golden Flashes|Spread|Akron Zips +3.5",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.599511,
+   "pick": "Akron Zips +3.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Baylor Bears",
+   "clv": null,
+   "commence": "2026-10-24T17:00:00Z",
+   "edge": 9.741,
+   "ev": 0.19872,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     104,
+     -125
+    ]
+   ],
+   "home": "Kansas Jayhawks",
+   "id": "NCAAF|Baylor Bears @ Kansas Jayhawks|Moneyline|Kansas Jayhawks ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -125,
+   "p": 0.587606,
+   "pick": "Kansas Jayhawks ML",
+   "player": null,
+   "price": 104,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Baylor Bears",
+   "clv": null,
+   "commence": "2026-10-24T17:00:00Z",
+   "edge": 11.74,
+   "ev": 0.22816,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -106,
+     -114
+    ]
+   ],
+   "home": "Kansas Jayhawks",
+   "id": "NCAAF|Baylor Bears @ Kansas Jayhawks|Spread|Kansas Jayhawks +1.5",
+   "lane": "value",
+   "line": 1.5,
+   "market": "Spread",
+   "other_price": -114,
+   "p": 0.631964,
+   "pick": "Kansas Jayhawks +1.5",
+   "player": null,
+   "price": -106,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Iowa Hawkeyes",
+   "clv": null,
+   "commence": "2026-10-24T19:30:00Z",
+   "edge": 19.53,
+   "ev": 0.28021,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -230,
+     188
+    ]
+   ],
+   "home": "Minnesota Golden Gophers",
+   "id": "NCAAF|Iowa Hawkeyes @ Minnesota Golden Gophers|Moneyline|Iowa Hawkeyes ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 188,
+   "p": 0.892265,
+   "pick": "Iowa Hawkeyes ML",
+   "player": null,
+   "price": -230,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "North Texas Mean Green",
+   "clv": null,
+   "commence": "2026-10-24T19:30:00Z",
+   "edge": 16.33,
+   "ev": 0.28701,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -132,
+     110
+    ]
+   ],
+   "home": "Navy Midshipmen",
+   "id": "NCAAF|North Texas Mean Green @ Navy Midshipmen|Moneyline|North Texas Mean Green ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 110,
+   "p": 0.732265,
+   "pick": "North Texas Mean Green ML",
+   "player": null,
+   "price": -132,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "North Texas Mean Green",
+   "clv": null,
+   "commence": "2026-10-24T19:30:00Z",
+   "edge": 14.146,
+   "ev": 0.27007,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Navy Midshipmen",
+   "id": "NCAAF|North Texas Mean Green @ Navy Midshipmen|Spread|North Texas Mean Green -2.5",
+   "lane": "value",
+   "line": -2.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.665273,
+   "pick": "North Texas Mean Green -2.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Eastern Michigan Eagles",
+   "clv": null,
+   "commence": "2026-10-24T20:00:00Z",
+   "edge": 8.544,
+   "ev": 0.10917,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -360,
+     280
+    ]
+   ],
+   "home": "Ohio Bobcats",
+   "id": "NCAAF|Eastern Michigan Eagles @ Ohio Bobcats|Moneyline|Ohio Bobcats ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 280,
+   "p": 0.868048,
+   "pick": "Ohio Bobcats ML",
+   "player": null,
+   "price": -360,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Eastern Michigan Eagles",
+   "clv": null,
+   "commence": "2026-10-24T20:00:00Z",
+   "edge": 12.594,
+   "ev": 0.24043,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -110,
+     -110
+    ]
+   ],
+   "home": "Ohio Bobcats",
+   "id": "NCAAF|Eastern Michigan Eagles @ Ohio Bobcats|Spread|Ohio Bobcats -9.5",
+   "lane": "value",
+   "line": -9.5,
+   "market": "Spread",
+   "other_price": -110,
+   "p": 0.649748,
+   "pick": "Ohio Bobcats -9.5",
+   "player": null,
+   "price": -110,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Boise State Broncos",
+   "clv": null,
+   "commence": "2026-10-24T22:00:00Z",
+   "edge": 17.999,
+   "ev": 1.06194,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     490,
+     -710
+    ]
+   ],
+   "home": "Washington State Cougars",
+   "id": "NCAAF|Boise State Broncos @ Washington State Cougars|Moneyline|Washington State Cougars ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -710,
+   "p": 0.349481,
+   "pick": "Washington State Cougars ML",
+   "player": null,
+   "price": 490,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "San Diego State Aztecs",
+   "clv": null,
+   "commence": "2026-10-24T22:30:00Z",
+   "edge": 19.618,
+   "ev": 0.32696,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -150,
+     125
+    ]
+   ],
+   "home": "Colorado State Rams",
+   "id": "NCAAF|San Diego State Aztecs @ Colorado State Rams|Moneyline|San Diego State Aztecs ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 125,
+   "p": 0.796176,
+   "pick": "San Diego State Aztecs ML",
+   "player": null,
+   "price": -150,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Virginia Tech Hokies",
+   "clv": null,
+   "commence": "2026-10-24T23:00:00Z",
+   "edge": 19.884,
+   "ev": 0.34722,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -134,
+     112
+    ]
+   ],
+   "home": "Clemson Tigers",
+   "id": "NCAAF|Virginia Tech Hokies @ Clemson Tigers|Moneyline|Clemson Tigers ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": 112,
+   "p": 0.771487,
+   "pick": "Clemson Tigers ML",
+   "player": null,
+   "price": -134,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Virginia Tech Hokies",
+   "clv": null,
+   "commence": "2026-10-24T23:00:00Z",
+   "edge": 17.646,
+   "ev": 0.33126,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -114,
+     -106
+    ]
+   ],
+   "home": "Clemson Tigers",
+   "id": "NCAAF|Virginia Tech Hokies @ Clemson Tigers|Spread|Clemson Tigers -2.5",
+   "lane": "value",
+   "line": -2.5,
+   "market": "Spread",
+   "other_price": -106,
+   "p": 0.709173,
+   "pick": "Clemson Tigers -2.5",
+   "player": null,
+   "price": -114,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Colorado Buffaloes",
+   "clv": null,
+   "commence": "2026-10-24T23:00:00Z",
+   "edge": 19.647,
+   "ev": 1.06096,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Sides",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     440,
+     -610
+    ]
+   ],
+   "home": "Oklahoma State Cowboys",
+   "id": "NCAAF|Colorado Buffaloes @ Oklahoma State Cowboys|Moneyline|Colorado Buffaloes ML",
+   "lane": "value",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -610,
+   "p": 0.381659,
+   "pick": "Colorado Buffaloes ML",
+   "player": null,
+   "price": 440,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NCAAF",
+   "stat_key": null,
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "New York Jets",
+   "clv": null,
+   "commence": "2026-10-18T17:02:43Z",
+   "edge": 19.808,
+   "ev": 0.36595,
+   "event": "0b0b582b32b09ab6ff6664ffae0c9653",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "New England Patriots",
+   "id": "NFL|New York Jets @ New England Patriots|Rushing yards|TreVeyon Henderson Over 24.5 rushing yards",
+   "lane": "value",
+   "line": 24.5,
+   "market": "Rushing yards",
+   "other_price": -112,
+   "p": 0.739367,
+   "pick": "TreVeyon Henderson Over 24.5 rushing yards",
+   "player": "TreVeyon Henderson",
+   "price": -118,
+   "proj": 50.389,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Dallas Mavericks",
+   "clv": null,
+   "commence": "2026-10-22T00:40:00Z",
+   "edge": 19.607,
+   "ev": 0.37114,
+   "event": "af2f084075391e55ba2a596e7846bb40",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -112,
+     -118
+    ],
+    [
+     "2026-10-18T18:35:20+00:00",
+     -154,
+     116
+    ]
+   ],
+   "home": "Houston Rockets",
+   "id": "NBA|Dallas Mavericks @ Houston Rockets|Assists|Amen Thompson Over 4.5 assists",
+   "lane": "value",
+   "line": 4.5,
+   "market": "Assists",
+   "other_price": -118,
+   "p": 0.724374,
+   "pick": "Amen Thompson Over 4.5 assists",
+   "player": "Amen Thompson",
+   "price": -112,
+   "proj": 6.071,
+   "result": null,
+   "selection": "over",
+   "sport": "NBA",
+   "stat_key": "player_assists",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Chicago Bears",
+   "clv": null,
+   "commence": "2026-10-18T17:02:41Z",
+   "edge": 18.905,
+   "ev": 0.35784,
+   "event": "7c312fdf24fb35f58b0e07c2932cc997",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "Atlanta Falcons",
+   "id": "NFL|Chicago Bears @ Atlanta Falcons|Receiving yards|D'Andre Swift Under 26.5 receiving yards",
+   "lane": "value",
+   "line": 26.5,
+   "market": "Receiving yards",
+   "other_price": -118,
+   "p": 0.717347,
+   "pick": "D'Andre Swift Under 26.5 receiving yards",
+   "player": "D'Andre Swift",
+   "price": -112,
+   "proj": 20.856,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_reception_yds",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "New Orleans Saints",
+   "clv": null,
+   "commence": "2026-10-18T17:03:01Z",
+   "edge": 18.834,
+   "ev": 0.80986,
+   "event": "1cf74afd313e9fd300e1462012b174cb",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "New York Giants",
+   "id": "NFL|New Orleans Saints @ New York Giants|Anytime TD|Malik Nabers anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.420897,
+   "pick": "Malik Nabers anytime TD",
+   "player": "Malik Nabers",
+   "price": 330,
+   "proj": 0.546,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Atlanta Hawks",
+   "clv": null,
+   "commence": "2026-10-21T23:10:00Z",
+   "edge": 17.703,
+   "ev": 0.3753,
+   "event": "85e6e4e2404ef7268659739997758da1",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     112,
+     -148
+    ]
+   ],
+   "home": "Orlando Magic",
+   "id": "NBA|Atlanta Hawks @ Orlando Magic|Rebounds|Jalen Johnson Under 9.5 rebounds",
+   "lane": "value",
+   "line": 9.5,
+   "market": "Rebounds",
+   "other_price": -148,
+   "p": 0.648726,
+   "pick": "Jalen Johnson Under 9.5 rebounds",
+   "player": "Jalen Johnson",
+   "price": 112,
+   "proj": 8.516,
+   "result": null,
+   "selection": "under",
+   "sport": "NBA",
+   "stat_key": "player_rebounds",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Dallas Mavericks",
+   "clv": null,
+   "commence": "2026-10-22T00:40:00Z",
+   "edge": 17.169,
+   "ev": 0.33366,
+   "event": "af2f084075391e55ba2a596e7846bb40",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -106,
+     -125
+    ]
+   ],
+   "home": "Houston Rockets",
+   "id": "NBA|Dallas Mavericks @ Houston Rockets|Pts+Reb+Ast|Amen Thompson Over 30.5 pts+reb+ast",
+   "lane": "value",
+   "line": 30.5,
+   "market": "Pts+Reb+Ast",
+   "other_price": -125,
+   "p": 0.686253,
+   "pick": "Amen Thompson Over 30.5 pts+reb+ast",
+   "player": "Amen Thompson",
+   "price": -106,
+   "proj": 34.974,
+   "result": null,
+   "selection": "over",
+   "sport": "NBA",
+   "stat_key": "player_points_rebounds_assists",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Atlanta Hawks",
+   "clv": null,
+   "commence": "2026-10-21T23:10:00Z",
+   "edge": 17.005,
+   "ev": 0.28495,
+   "event": "85e6e4e2404ef7268659739997758da1",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -148,
+     112
+    ]
+   ],
+   "home": "Orlando Magic",
+   "id": "NBA|Atlanta Hawks @ Orlando Magic|Assists|Jalen Johnson Under 7.5 assists",
+   "lane": "value",
+   "line": 7.5,
+   "market": "Assists",
+   "other_price": 112,
+   "p": 0.766827,
+   "pick": "Jalen Johnson Under 7.5 assists",
+   "player": "Jalen Johnson",
+   "price": -148,
+   "proj": 5.545,
+   "result": null,
+   "selection": "under",
+   "sport": "NBA",
+   "stat_key": "player_assists",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Tennessee Titans",
+   "clv": null,
+   "commence": "2026-10-18T17:03:40Z",
+   "edge": 17.004,
+   "ev": 0.36558,
+   "event": "84aa9e190e625d7e9cd67e1f157a45b4",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "Indianapolis Colts",
+   "id": "NFL|Tennessee Titans @ Indianapolis Colts|Anytime TD|Jonathan Taylor anytime TD",
+   "lane": "value",
+   "line": null,
+   "market": "Anytime TD",
+   "other_price": null,
+   "p": 0.635153,
+   "pick": "Jonathan Taylor anytime TD",
+   "player": "Jonathan Taylor",
+   "price": 115,
+   "proj": 1.008,
+   "result": null,
+   "selection": "yes",
+   "sport": "NFL",
+   "stat_key": "player_anytime_td",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Chicago Bulls",
+   "clv": null,
+   "commence": "2026-10-21T23:40:00Z",
+   "edge": 16.624,
+   "ev": 0.36239,
+   "event": "60431a347feac3f1c7ed925b8b769ec5",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     118,
+     -158
+    ]
+   ],
+   "home": "Toronto Raptors",
+   "id": "NBA|Chicago Bulls @ Toronto Raptors|Assists|RJ Barrett Over 3.5 assists",
+   "lane": "value",
+   "line": 3.5,
+   "market": "Assists",
+   "other_price": -158,
+   "p": 0.624951,
+   "pick": "RJ Barrett Over 3.5 assists",
+   "player": "RJ Barrett",
+   "price": 118,
+   "proj": 4.312,
+   "result": null,
+   "selection": "over",
+   "sport": "NBA",
+   "stat_key": "player_assists",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Chicago Bulls",
+   "clv": null,
+   "commence": "2026-10-21T23:40:00Z",
+   "edge": 15.858,
+   "ev": 0.37107,
+   "event": "60431a347feac3f1c7ed925b8b769ec5",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     134,
+     -180
+    ]
+   ],
+   "home": "Toronto Raptors",
+   "id": "NBA|Chicago Bulls @ Toronto Raptors|Rebounds|Norman Powell Under 2.5 rebounds",
+   "lane": "value",
+   "line": 2.5,
+   "market": "Rebounds",
+   "other_price": -180,
+   "p": 0.585927,
+   "pick": "Norman Powell Under 2.5 rebounds",
+   "player": "Norman Powell",
+   "price": 134,
+   "proj": 2.382,
+   "result": null,
+   "selection": "under",
+   "sport": "NBA",
+   "stat_key": "player_rebounds",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-18T17:02:53Z",
+   "edge": 15.34,
+   "ev": 0.29036,
+   "event": "e86227938fd3cf008fc5648fb5128344",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "Cleveland Browns",
+   "id": "NFL|Baltimore Ravens @ Cleveland Browns|Rushing yards|Tyler Huntley Under 30.5 rushing yards",
+   "lane": "value",
+   "line": 30.5,
+   "market": "Rushing yards",
+   "other_price": -118,
+   "p": 0.681701,
+   "pick": "Tyler Huntley Under 30.5 rushing yards",
+   "player": "Tyler Huntley",
+   "price": -112,
+   "proj": 26.491,
+   "result": null,
+   "selection": "under",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Chicago Bulls",
+   "clv": null,
+   "commence": "2026-10-21T23:40:00Z",
+   "edge": 14.154,
+   "ev": 0.25041,
+   "event": "60431a347feac3f1c7ed925b8b769ec5",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -130,
+     -102
+    ]
+   ],
+   "home": "Toronto Raptors",
+   "id": "NBA|Chicago Bulls @ Toronto Raptors|Points|Norman Powell Under 19.5 points",
+   "lane": "value",
+   "line": 19.5,
+   "market": "Points",
+   "other_price": -102,
+   "p": 0.706755,
+   "pick": "Norman Powell Under 19.5 points",
+   "player": "Norman Powell",
+   "price": -130,
+   "proj": 16.849,
+   "result": null,
+   "selection": "under",
+   "sport": "NBA",
+   "stat_key": "player_points",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-18T17:02:53Z",
+   "edge": 13.654,
+   "ev": 0.24576,
+   "event": "e86227938fd3cf008fc5648fb5128344",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [],
+   "home": "Cleveland Browns",
+   "id": "NFL|Baltimore Ravens @ Cleveland Browns|Rushing yards|Justice Hill Over 5.5 rushing yards",
+   "lane": "value",
+   "line": 5.5,
+   "market": "Rushing yards",
+   "other_price": -106,
+   "p": 0.692091,
+   "pick": "Justice Hill Over 5.5 rushing yards",
+   "player": "Justice Hill",
+   "price": -125,
+   "proj": 23.753,
+   "result": null,
+   "selection": "over",
+   "sport": "NFL",
+   "stat_key": "player_rush_yds",
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Atlanta Hawks",
+   "clv": null,
+   "commence": "2026-10-21T23:10:00Z",
+   "edge": 11.527,
+   "ev": 0.22828,
+   "event": "85e6e4e2404ef7268659739997758da1",
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Props",
+   "history": [
+    [
+     "2026-10-18T18:35:20+00:00",
+     -102,
+     -130
+    ]
+   ],
+   "home": "Orlando Magic",
+   "id": "NBA|Atlanta Hawks @ Orlando Magic|Points|Jalen Johnson Under 20.5 points",
+   "lane": "value",
+   "line": 20.5,
+   "market": "Points",
+   "other_price": -130,
+   "p": 0.62022,
+   "pick": "Jalen Johnson Under 20.5 points",
+   "player": "Jalen Johnson",
+   "price": -102,
+   "proj": 19.451,
+   "result": null,
+   "selection": "under",
+   "sport": "NBA",
+   "stat_key": "player_points",
+   "week": "Week of Oct 19"
+  },
+  {
+   "away": "Pittsburgh Steelers",
+   "clv": null,
+   "commence": "2026-10-18T17:02:52Z",
+   "cosmic": "First Quarter, Moon in Capricorn, date number 2",
+   "edge": 19.11,
+   "ev": 0.35874,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Cosmic",
+   "history": [],
+   "home": "Tampa Bay Buccaneers",
+   "id": "NFL|Pittsburgh Steelers @ Tampa Bay Buccaneers|Spread|Pittsburgh Steelers +6.5-cosmic",
+   "lane": "cosmic",
+   "line": 6.5,
+   "market": "Spread",
+   "other_price": -114,
+   "p": 0.723813,
+   "pick": "Pittsburgh Steelers +6.5",
+   "player": null,
+   "price": -114,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stars": 2,
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-18T17:02:53Z",
+   "cosmic": "First Quarter, Moon in Capricorn, date number 2",
+   "edge": 13.557,
+   "ev": 0.84055,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Cosmic",
+   "history": [],
+   "home": "Cleveland Browns",
+   "id": "NFL|Baltimore Ravens @ Cleveland Browns|Moneyline|Cleveland Browns ML-cosmic",
+   "lane": "cosmic",
+   "line": null,
+   "market": "Moneyline",
+   "other_price": -900,
+   "p": 0.296864,
+   "pick": "Cleveland Browns ML",
+   "player": null,
+   "price": 520,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stars": 2,
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Baltimore Ravens",
+   "clv": null,
+   "commence": "2026-10-18T17:02:53Z",
+   "cosmic": "First Quarter, Moon in Capricorn, date number 2",
+   "edge": 8.402,
+   "ev": 0.15904,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Cosmic",
+   "history": [],
+   "home": "Cleveland Browns",
+   "id": "NFL|Baltimore Ravens @ Cleveland Browns|Spread|Cleveland Browns +9.5-cosmic",
+   "lane": "cosmic",
+   "line": 9.5,
+   "market": "Spread",
+   "other_price": -118,
+   "p": 0.612324,
+   "pick": "Cleveland Browns +9.5",
+   "player": null,
+   "price": -112,
+   "proj": null,
+   "result": null,
+   "selection": "home",
+   "sport": "NFL",
+   "stars": 2,
+   "stat_key": null,
+   "week": "Week of Oct 12"
+  },
+  {
+   "away": "Tennessee Titans",
+   "clv": null,
+   "commence": "2026-10-18T17:03:40Z",
+   "cosmic": "First Quarter, Moon in Capricorn, date number 2",
+   "edge": 8.064,
+   "ev": 0.16451,
+   "event": null,
+   "final": null,
+   "first_seen": "2026-10-18T18:35:20+00:00",
+   "group": "Cosmic",
+   "history": [],
+   "home": "Indianapolis Colts",
+   "id": "NFL|Tennessee Titans @ Indianapolis Colts|Spread|Tennessee Titans +15.5-cosmic",
+   "lane": "cosmic",
+   "line": 15.5,
+   "market": "Spread",
+   "other_price": -138,
+   "p": 0.570836,
+   "pick": "Tennessee Titans +15.5",
+   "player": null,
+   "price": 104,
+   "proj": null,
+   "result": null,
+   "selection": "away",
+   "sport": "NFL",
+   "stars": 2,
+   "stat_key": null,
+   "week": "Week of Oct 12"
   }
  ],
  "prop_regrade_v1": true

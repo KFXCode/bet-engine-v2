@@ -237,10 +237,10 @@
   "price": 370,
   "fairPctAtFlag": 22.4,
   "evPctAtFlag": 5.15,
-  "closeFairPct": 21.2,
+  "closeFairPct": 21.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T17:35:09+00:00",
-  "clvPct": -0.36,
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
+  "clvPct": -0.83,
   "closed": false
  },
  {
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T17:35:09+00:00",
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
   "clvPct": -3.25,
   "closed": false
  },
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 32.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T17:35:09+00:00",
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
   "clvPct": 0.13,
   "closed": false
  },
@@ -979,10 +979,10 @@
   "price": -130,
   "fairPctAtFlag": 58.4,
   "evPctAtFlag": 3.26,
-  "closeFairPct": 57.6,
+  "closeFairPct": 56.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T17:35:09+00:00",
-  "clvPct": 1.91,
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
+  "clvPct": -0.92,
   "closed": false
  },
  {
@@ -1404,10 +1404,10 @@
   "price": -112,
   "fairPctAtFlag": 54.0,
   "evPctAtFlag": 2.15,
-  "closeFairPct": 54.0,
+  "closeFairPct": 53.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T17:35:09+00:00",
-  "clvPct": 2.21,
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
+  "clvPct": 0.7,
   "closed": false
  },
  {
@@ -1429,10 +1429,10 @@
   "price": 108,
   "fairPctAtFlag": 49.3,
   "evPctAtFlag": 2.57,
-  "closeFairPct": 49.3,
+  "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T17:35:09+00:00",
-  "clvPct": 2.54,
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
+  "clvPct": 4.42,
   "closed": false
  },
  {
@@ -1559,5 +1559,30 @@
   "closeSeenAt": "2026-10-18T16:30:12+00:00",
   "clvPct": 5.41,
   "closed": true
+ },
+ {
+  "key": "dc65142bf9a0e7652a252b2074037efa|spreads|Delaware Blue Hens:-3.0/Missouri State Bears:3.0|Delaware Blue Hens|-3.0",
+  "eventId": "dc65142bf9a0e7652a252b2074037efa",
+  "sport": "NCAAF",
+  "game": "Missouri State Bears at Delaware Blue Hens",
+  "time": "2026-10-20T23:00:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Delaware Blue Hens",
+  "line": -3.0,
+  "team": "Delaware Blue Hens",
+  "point": -3.0,
+  "book": "fanatics",
+  "bookName": "Fanatics",
+  "flaggedAt": "2026-10-18T18:35:41+00:00",
+  "price": -105,
+  "fairPctAtFlag": 52.3,
+  "evPctAtFlag": 2.07,
+  "closeFairPct": 52.3,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-10-18T18:35:41+00:00",
+  "clvPct": 2.11,
+  "closed": false
  }
 ]
