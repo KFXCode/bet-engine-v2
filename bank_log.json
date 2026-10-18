@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": -3.25,
   "closed": false
  },
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 56.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": -0.92,
   "closed": false
  },
@@ -1406,7 +1406,7 @@
   "evPctAtFlag": 2.15,
   "closeFairPct": 53.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 0.7,
   "closed": false
  },
@@ -1431,7 +1431,7 @@
   "evPctAtFlag": 2.57,
   "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 4.42,
   "closed": false
  },
@@ -1581,7 +1581,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": -2.38,
   "closed": false
  },
@@ -1679,10 +1679,10 @@
   "price": 150,
   "fairPctAtFlag": 41.0,
   "evPctAtFlag": 2.43,
-  "closeFairPct": 41.0,
+  "closeFairPct": 40.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
-  "clvPct": 2.5,
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "clvPct": 1.5,
   "closed": false
  },
  {
@@ -1704,10 +1704,10 @@
   "price": 120,
   "fairPctAtFlag": 47.7,
   "evPctAtFlag": 5.01,
-  "closeFairPct": 47.7,
+  "closeFairPct": 46.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
-  "clvPct": 4.94,
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "clvPct": 1.64,
   "closed": false
  },
  {
@@ -1731,7 +1731,7 @@
   "evPctAtFlag": 3.84,
   "closeFairPct": 22.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 3.96,
   "closed": false
  },
@@ -1756,7 +1756,7 @@
   "evPctAtFlag": 3.81,
   "closeFairPct": 23.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 3.84,
   "closed": false
  },
@@ -1781,7 +1781,7 @@
   "evPctAtFlag": 2.66,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 2.69,
   "closed": false
  },
@@ -1806,7 +1806,7 @@
   "evPctAtFlag": 8.13,
   "closeFairPct": 29.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 8.04,
   "closed": false
  },
@@ -1831,7 +1831,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 44.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -1856,7 +1856,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 45.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 3.51,
   "closed": false
  },
@@ -1881,7 +1881,7 @@
   "evPctAtFlag": 7.01,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 6.96,
   "closed": false
  },
@@ -1906,7 +1906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 57.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 2.26,
   "closed": false
  },
@@ -1931,8 +1931,33 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 45.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 3.51,
+  "closed": false
+ },
+ {
+  "key": "82fd5a159fa130e67abab93a9537f70b|player_rush_yds|Tyler Goodson|9.5|Tyler Goodson Under 9.5|None",
+  "eventId": "82fd5a159fa130e67abab93a9537f70b",
+  "sport": "NFL",
+  "game": "Dallas Cowboys at Green Bay Packers",
+  "time": "2026-10-19T00:20:00Z",
+  "market": "Rushing yards",
+  "marketKey": "player_rush_yds",
+  "player": "Tyler Goodson",
+  "name": "Under",
+  "line": 9.5,
+  "team": "Tyler Goodson Under 9.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-18T23:42:14+00:00",
+  "price": 105,
+  "fairPctAtFlag": 50.5,
+  "evPctAtFlag": 3.56,
+  "closeFairPct": 50.5,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "clvPct": 3.53,
   "closed": false
  }
 ]
