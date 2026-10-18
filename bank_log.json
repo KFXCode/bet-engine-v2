@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 21.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": -0.83,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": -3.25,
   "closed": false
  },
@@ -829,10 +829,10 @@
   "price": 210,
   "fairPctAtFlag": 33.5,
   "evPctAtFlag": 3.89,
-  "closeFairPct": 32.3,
+  "closeFairPct": 32.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
-  "clvPct": 0.13,
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
+  "clvPct": 0.44,
   "closed": false
  },
  {
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 56.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": -0.92,
   "closed": false
  },
@@ -1406,7 +1406,7 @@
   "evPctAtFlag": 2.15,
   "closeFairPct": 53.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": 0.7,
   "closed": false
  },
@@ -1431,7 +1431,7 @@
   "evPctAtFlag": 2.57,
   "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": 4.42,
   "closed": false
  },
@@ -1581,7 +1581,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 52.3,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": 2.11,
   "closed": false
  },
@@ -1606,7 +1606,7 @@
   "evPctAtFlag": 2.8,
   "closeFairPct": 51.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -1631,7 +1631,7 @@
   "evPctAtFlag": 3.13,
   "closeFairPct": 55.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": 3.09,
   "closed": false
  },
@@ -1656,7 +1656,7 @@
   "evPctAtFlag": 3.13,
   "closeFairPct": 36.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T18:52:09+00:00",
+  "closeSeenAt": "2026-10-18T19:35:09+00:00",
   "clvPct": 3.04,
   "closed": false
  }
