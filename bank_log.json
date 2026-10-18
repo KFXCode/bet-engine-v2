@@ -92,7 +92,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 21.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f9cb1259d9221016efb7646258f2acd5|h2h|Syracuse Orange|None",
@@ -111,7 +111,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": -8.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a9a289b7b19e28b51572d20315e6bf42|h2h|UL Monroe Warhawks|None",
@@ -130,7 +130,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 9.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "11430b210e5b57c938e1c95a9db5ffb2|h2h|Sacramento State Hornets|None",
@@ -145,10 +145,10 @@
   "price": 520,
   "fairPctAtFlag": 17.3,
   "evPctAtFlag": 7.43,
-  "closeFairPct": 15.9,
+  "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
-  "clvPct": -1.42,
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "clvPct": -8.86,
   "closed": false
  },
  {
@@ -172,7 +172,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 14.57,
-  "closed": false
+  "closed": true
  },
  {
   "key": "004aa0d62485e4264794681a6cc6c513|h2h|Navy Midshipmen|None",
@@ -195,7 +195,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 1.76,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0b0b582b32b09ab6ff6664ffae0c9653|h2h|New York Jets|None",
@@ -216,7 +216,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -239,7 +239,7 @@
   "evPctAtFlag": 5.15,
   "closeFairPct": 22.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 7.16,
   "closed": false
  },
@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 23.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -306,10 +306,10 @@
   "price": 580,
   "fairPctAtFlag": 15.2,
   "evPctAtFlag": 3.65,
-  "closeFairPct": 14.7,
+  "closeFairPct": 14.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
-  "clvPct": -0.04,
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "clvPct": 0.64,
   "closed": false
  },
  {
@@ -329,10 +329,10 @@
   "price": 480,
   "fairPctAtFlag": 17.9,
   "evPctAtFlag": 3.54,
-  "closeFairPct": 16.3,
+  "closeFairPct": 15.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
-  "clvPct": -5.46,
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "clvPct": -8.36,
   "closed": false
  },
  {
@@ -556,7 +556,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 34.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 8.19,
   "closed": false
  },
@@ -808,7 +808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 1.97,
-  "closed": false
+  "closed": true
  },
  {
   "key": "45b2690b350ed45145c7a716b18e8e66|h2h|Las Vegas Raiders|None",
@@ -831,7 +831,7 @@
   "evPctAtFlag": 3.89,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 3.54,
   "closed": false
  },
@@ -856,7 +856,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 58.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 3.32,
   "closed": false
  },
@@ -1079,10 +1079,10 @@
   "price": 104,
   "fairPctAtFlag": 50.0,
   "evPctAtFlag": 2.0,
-  "closeFairPct": 48.7,
+  "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
-  "clvPct": -0.65,
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "clvPct": -0.86,
   "closed": false
  },
  {
@@ -1104,10 +1104,10 @@
   "price": 325,
   "fairPctAtFlag": 24.3,
   "evPctAtFlag": 3.48,
-  "closeFairPct": 22.6,
+  "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
-  "clvPct": -3.95,
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "clvPct": -4.37,
   "closed": false
  },
  {
@@ -1229,10 +1229,10 @@
   "price": 188,
   "fairPctAtFlag": 35.5,
   "evPctAtFlag": 2.35,
-  "closeFairPct": 34.9,
+  "closeFairPct": 35.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
-  "clvPct": 0.51,
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "clvPct": 0.8,
   "closed": false
  },
  {
@@ -1333,7 +1333,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": -0.23,
-  "closed": false
+  "closed": true
  },
  {
   "key": "917d8eb9ffc25af2925d0e7e8c91a0f4|h2h|San Diego State Aztecs|None",
@@ -1356,7 +1356,7 @@
   "evPctAtFlag": 3.07,
   "closeFairPct": 29.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-17T22:45:09+00:00",
+  "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 2.95,
   "closed": false
  },
@@ -1383,6 +1383,6 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 4.14,
-  "closed": false
+  "closed": true
  }
 ]
