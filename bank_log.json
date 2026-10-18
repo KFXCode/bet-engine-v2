@@ -149,7 +149,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": -8.86,
-  "closed": false
+  "closed": true
  },
  {
   "key": "24244a1062254de107b2a7f5f79affe1|h2h|Nevada Wolf Pack|None",
@@ -214,10 +214,10 @@
   "price": 300,
   "fairPctAtFlag": 25.7,
   "evPctAtFlag": 2.68,
-  "closeFairPct": 25.7,
+  "closeFairPct": 24.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
-  "clvPct": 2.8,
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": -2.0,
   "closed": false
  },
  {
@@ -237,10 +237,10 @@
   "price": 370,
   "fairPctAtFlag": 22.4,
   "evPctAtFlag": 5.15,
-  "closeFairPct": 22.8,
+  "closeFairPct": 20.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
-  "clvPct": 7.16,
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": -1.77,
   "closed": false
  },
  {
@@ -260,10 +260,10 @@
   "price": 330,
   "fairPctAtFlag": 24.2,
   "evPctAtFlag": 4.22,
-  "closeFairPct": 23.8,
+  "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
-  "clvPct": 2.34,
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": -3.25,
   "closed": false
  },
  {
@@ -310,7 +310,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 0.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "dd062699e8f42bd17509cfba1952e286|h2h|Hawaii Rainbow Warriors|None",
@@ -333,7 +333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": -8.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "62dd374d95f55eaaad10717b58220ce7|h2h|Middle Tennessee Blue Raiders|None",
@@ -554,10 +554,10 @@
   "price": 210,
   "fairPctAtFlag": 33.3,
   "evPctAtFlag": 3.31,
-  "closeFairPct": 34.9,
+  "closeFairPct": 39.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
-  "clvPct": 8.19,
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": 22.14,
   "closed": false
  },
  {
@@ -829,10 +829,10 @@
   "price": 210,
   "fairPctAtFlag": 33.5,
   "evPctAtFlag": 3.89,
-  "closeFairPct": 33.4,
+  "closeFairPct": 32.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
-  "clvPct": 3.54,
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": 1.99,
   "closed": false
  },
  {
@@ -856,7 +856,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -979,10 +979,10 @@
   "price": -130,
   "fairPctAtFlag": 58.4,
   "evPctAtFlag": 3.26,
-  "closeFairPct": 58.4,
+  "closeFairPct": 57.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T00:25:24+00:00",
-  "clvPct": 3.32,
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": 1.91,
   "closed": false
  },
  {
@@ -1083,7 +1083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": -0.86,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b5e637cf502d6d5f408af440ea2d591d|h2h|California Golden Bears|None",
@@ -1108,7 +1108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": -4.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fc01e4b9ad4f39e975b7e1fd9ad124d1|h2h|Michigan State Spartans|None",
@@ -1233,7 +1233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 0.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5d09c85c1d67e8f9db8db560cb038027|h2h|Missouri Tigers|None",
@@ -1358,7 +1358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T00:25:24+00:00",
   "clvPct": 2.95,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c76ea1404c07eb9c6d54d0c9d890b17d|totals|Over:3.5/Under:3.5|Under 3.5|None",
@@ -1384,5 +1384,55 @@
   "closeSeenAt": "2026-10-17T22:45:09+00:00",
   "clvPct": 4.14,
   "closed": true
+ },
+ {
+  "key": "47cc511bb5ce50f715e3625ce5ef77ee|h2h|Charlotte Hornets|None",
+  "eventId": "47cc511bb5ce50f715e3625ce5ef77ee",
+  "sport": "NBA",
+  "game": "Charlotte Hornets at Brooklyn Nets",
+  "time": "2026-10-21T23:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Charlotte Hornets",
+  "line": null,
+  "team": "Charlotte Hornets",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-18T07:29:18+00:00",
+  "price": -112,
+  "fairPctAtFlag": 54.0,
+  "evPctAtFlag": 2.15,
+  "closeFairPct": 54.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": 2.21,
+  "closed": false
+ },
+ {
+  "key": "e6769c813dd625b622df94c14a562ce2|h2h|Memphis Grizzlies|None",
+  "eventId": "e6769c813dd625b622df94c14a562ce2",
+  "sport": "NBA",
+  "game": "Utah Jazz at Memphis Grizzlies",
+  "time": "2026-10-22T00:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Memphis Grizzlies",
+  "line": null,
+  "team": "Memphis Grizzlies",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-18T07:29:18+00:00",
+  "price": 108,
+  "fairPctAtFlag": 49.3,
+  "evPctAtFlag": 2.57,
+  "closeFairPct": 49.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-18T07:29:18+00:00",
+  "clvPct": 2.54,
+  "closed": false
  }
 ]
