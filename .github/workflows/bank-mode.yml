@@ -22,6 +22,8 @@ on:
     - cron: "50 22 * * *"     # daily 5:50pm ET (standard time) props
     - cron: "45 22 * * *"     # daily 6:45pm ET (daylight time) props
     - cron: "45 23 * * *"     # daily 6:45pm ET (standard time) props
+    - cron: "35 23 * * *"     # daily 7:35pm ET (daylight time) props
+    - cron: "35 0 * * *"      # daily 7:35pm ET (standard time) props
     - cron: "30 13 * * 6"     # Sat   9:30am ET (daylight time)
     - cron: "30 14 * * 6"     # Sat   9:30am ET (standard time)
     - cron: "20 18 * * 6"     # Sat   2:20pm ET (daylight time)
