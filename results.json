@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.041767203513909223,
-   "clv_beat_rate": 0.28550512445095166,
-   "clv_n": 683,
-   "graded": 782,
+   "avg_clv": 0.03910917030567685,
+   "clv_beat_rate": 0.2852983988355167,
+   "clv_n": 687,
+   "graded": 788,
    "record": {
-    "l": 384,
+    "l": 386,
     "p": 1,
-    "void": 19,
-    "w": 397
+    "void": 20,
+    "w": 401
    },
-   "win_rate": 0.5083226632522407
+   "win_rate": 0.5095298602287166
   }
  },
  "by_sport": {
@@ -68,58 +68,58 @@
    "win_rate": 0.5377574370709383
   },
   "NFL Cosmic": {
-   "avg_clv": -0.004555555555555562,
-   "clv_beat_rate": 0.2962962962962963,
-   "clv_n": 27,
-   "graded": 39,
+   "avg_clv": -0.004241379310344833,
+   "clv_beat_rate": 0.27586206896551724,
+   "clv_n": 29,
+   "graded": 41,
    "record": {
     "l": 24,
     "p": 1,
     "void": 0,
-    "w": 14
+    "w": 16
    },
-   "win_rate": 0.3684210526315789
+   "win_rate": 0.4
   },
   "NFL Props": {
-   "avg_clv": 0.11390650406504065,
-   "clv_beat_rate": 0.08536585365853659,
-   "clv_n": 246,
-   "graded": 312,
+   "avg_clv": 0.11298790322580644,
+   "clv_beat_rate": 0.0846774193548387,
+   "clv_n": 248,
+   "graded": 316,
    "record": {
-    "l": 159,
+    "l": 161,
     "p": 0,
-    "void": 24,
-    "w": 153
+    "void": 25,
+    "w": 155
    },
-   "win_rate": 0.49038461538461536
+   "win_rate": 0.49050632911392406
   },
   "NFL Sides": {
-   "avg_clv": -0.15888235294117647,
-   "clv_beat_rate": 0.3445378151260504,
-   "clv_n": 119,
-   "graded": 147,
+   "avg_clv": -0.16996694214876035,
+   "clv_beat_rate": 0.34710743801652894,
+   "clv_n": 121,
+   "graded": 149,
    "record": {
     "l": 79,
     "p": 1,
     "void": 0,
-    "w": 67
+    "w": 69
    },
-   "win_rate": 0.4589041095890411
+   "win_rate": 0.46621621621621623
   }
  },
  "diagnostics": [
+  "NFL player logs: added 1 box scores, 7105 player-games cached",
   "NBA player logs: skipped 67 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (7551 player-games, looked back 131 days)",
-  "NFL player logs: cache already current (7088 player-games, looked back 21 days)"
+  "NBA player logs: cache already current (7551 player-games, looked back 131 days)"
  ],
- "generated_at": "2026-10-19T01:05:50+00:00",
+ "generated_at": "2026-10-19T15:03:12+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.006883720930232574,
-   "clv_beat_rate": 0.3488372093023256,
-   "clv_n": 43,
-   "graded": 55,
+   "avg_clv": -0.0065777777777777935,
+   "clv_beat_rate": 0.3333333333333333,
+   "clv_n": 45,
+   "graded": 57,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -969,6 +969,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 16.134,
+     "ev": 0.31647,
+     "final": "13-23",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Green Bay Packers ML",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -118,
+     "clv": 0.0,
+     "edge": 17.521,
+     "ev": 0.3237,
+     "final": "13-23",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Green Bay Packers +1.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": 158,
      "clv": 0.0,
      "edge": 3.145,
@@ -1117,16 +1153,16 @@
     "l": 32,
     "p": 1,
     "void": 0,
-    "w": 22
+    "w": 24
    },
    "threshold": null,
-   "win_rate": 0.4074074074074074
+   "win_rate": 0.42857142857142855
   },
   "Props": {
-   "avg_clv": 0.11390650406504065,
-   "clv_beat_rate": 0.08536585365853659,
-   "clv_n": 246,
-   "graded": 312,
+   "avg_clv": 0.11298790322580644,
+   "clv_beat_rate": 0.0846774193548387,
+   "clv_n": 248,
+   "graded": 316,
    "label": "Player props",
    "picks": [
     {
@@ -6404,6 +6440,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.935,
+     "ev": 0.44853,
+     "final": "0 TD",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Christian Watson anytime TD",
+     "player": "Christian Watson",
+     "price": 125,
+     "proj": 1.032,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 14.724,
+     "ev": 0.27641,
+     "final": "13",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Jake Ferguson Under 27.5 receiving yards",
+     "player": "Jake Ferguson",
+     "price": -114,
+     "proj": 23.605,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -130,
      "clv": 6.042,
      "edge": 19.75,
@@ -6762,6 +6834,24 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -158,
+     "clv": 0.0,
+     "edge": 14.513,
+     "ev": 0.23699,
+     "final": "did not play",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "KaVontae Turpin Over 0.5 receptions",
+     "player": "KaVontae Turpin",
+     "price": -158,
+     "proj": 1.417,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
     },
     {
      "closing_price": null,
@@ -7176,22 +7266,58 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 15.926,
+     "ev": 0.29895,
+     "final": "276",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Jordan Love Under 323.5 passing yards",
+     "player": "Jordan Love",
+     "price": -114,
+     "proj": 283.542,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 15.115,
+     "ev": 0.29374,
+     "final": "7",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Dak Prescott Over 7.5 rushing yards",
+     "player": "Dak Prescott",
+     "price": -106,
+     "proj": 14.047,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 159,
+    "l": 161,
     "p": 0,
-    "void": 24,
-    "w": 153
+    "void": 25,
+    "w": 155
    },
    "threshold": 7.0,
-   "win_rate": 0.49038461538461536
+   "win_rate": 0.49050632911392406
   },
   "Sides": {
-   "avg_clv": 0.015804104477611935,
-   "clv_beat_rate": 0.375,
-   "clv_n": 536,
-   "graded": 587,
+   "avg_clv": 0.012661710037174714,
+   "clv_beat_rate": 0.3754646840148699,
+   "clv_n": 538,
+   "graded": 589,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -17311,6 +17437,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -110,
+     "clv": 1.336,
+     "edge": 16.134,
+     "ev": 0.31647,
+     "final": "13-23",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Green Bay Packers ML",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -104,
+     "clv": -2.995,
+     "edge": 17.521,
+     "ev": 0.3237,
+     "final": "13-23",
+     "game": "Dallas Cowboys @ Green Bay Packers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Green Bay Packers +1.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -102,
      "clv": -3.011,
      "edge": 13.094,
@@ -17765,16 +17927,16 @@
     "l": 282,
     "p": 1,
     "void": 0,
-    "w": 304
+    "w": 306
    },
    "threshold": 5.0,
-   "win_rate": 0.5187713310580204
+   "win_rate": 0.5204081632653061
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 25,
-  "Props": 141,
-  "Sides": 79
+  "Cosmic": 23,
+  "Props": 136,
+  "Sides": 77
  }
 }
