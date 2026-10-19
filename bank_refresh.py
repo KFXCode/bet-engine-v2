@@ -62,6 +62,7 @@ LOCAL_PLAN = [
     (35, 15, "*", ALL, 8, False),                        # daily 3:35pm  - afternoon prices stay fresh
     (50, 17, "*", ALL, 3, True),                         # daily 5:50pm - NBA/NCAAB 7:00-7:30 tips
     (45, 18, "*", ALL, 3, True),                         # daily 6:45pm - lineups, NFL night-game inactives
+    (35, 19, "*", ALL, 3, True),                         # daily 7:35pm - night games: SNF/MNF/TNF inactives, late NBA
     (30, 9, "6", ALL, 6, True),                          # Sat 9:30am  - college football morning
     (20, 14, "6", ALL, 4, True),                         # Sat 2:20pm  - before 3:30 kickoffs
     (45, 14, "6", ALL, 4, False),                        # Sat 2:45pm  - before 3:30 kickoffs (backup)
@@ -76,7 +77,10 @@ LOCAL_PLAN = [
 PLAN = {}
 for _m, _h, _dow, _sports, _hours, _props in LOCAL_PLAN:
     for _off in (4, 5):
-        _cron = f"{_m} {_h + _off} * * {_dow}"
+        _hu, _du = _h + _off, _dow
+        if _hu >= 24:      # past midnight UTC: next UTC day
+            _hu, _du = _hu - 24, _dow if _dow == "*" else str((int(_dow) + 1) % 7)
+        _cron = f"{_m} {_hu} * * {_du}"
         assert _cron not in PLAN, f"schedule clash at {_cron}"
         PLAN[_cron] = (_sports, _hours, _props, _off)
 MANUAL = (ALL, 12, True, None)
