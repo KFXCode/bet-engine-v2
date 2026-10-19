@@ -262,7 +262,7 @@
   "evPctAtFlag": 4.22,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": -3.25,
   "closed": false
  },
@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 56.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": -0.92,
   "closed": false
  },
@@ -1406,7 +1406,7 @@
   "evPctAtFlag": 2.15,
   "closeFairPct": 53.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 0.7,
   "closed": false
  },
@@ -1431,7 +1431,7 @@
   "evPctAtFlag": 2.57,
   "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 4.42,
   "closed": false
  },
@@ -1581,7 +1581,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": -2.38,
   "closed": false
  },
@@ -1683,7 +1683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 1.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "82fd5a159fa130e67abab93a9537f70b|player_receptions|Christian Watson|4.5|Christian Watson Under 4.5|None",
@@ -1708,7 +1708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 1.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c85512046e05e5ed845e60dd5d6d5e1e|h2h|Middle Tennessee Blue Raiders|None",
@@ -1731,7 +1731,7 @@
   "evPctAtFlag": 3.84,
   "closeFairPct": 22.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 3.96,
   "closed": false
  },
@@ -1756,7 +1756,7 @@
   "evPctAtFlag": 3.81,
   "closeFairPct": 23.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 3.84,
   "closed": false
  },
@@ -1781,7 +1781,7 @@
   "evPctAtFlag": 2.66,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 2.69,
   "closed": false
  },
@@ -1806,7 +1806,7 @@
   "evPctAtFlag": 8.13,
   "closeFairPct": 29.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 8.04,
   "closed": false
  },
@@ -1831,7 +1831,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 44.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -1856,7 +1856,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 45.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 3.51,
   "closed": false
  },
@@ -1881,7 +1881,7 @@
   "evPctAtFlag": 7.01,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 6.96,
   "closed": false
  },
@@ -1906,7 +1906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 57.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 2.26,
   "closed": false
  },
@@ -1931,7 +1931,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 45.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-18T23:42:14+00:00",
+  "closeSeenAt": "2026-10-19T00:32:35+00:00",
   "clvPct": 3.51,
   "closed": false
  },
@@ -1958,6 +1958,6 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-18T23:42:14+00:00",
   "clvPct": 3.53,
-  "closed": false
+  "closed": true
  }
 ]
