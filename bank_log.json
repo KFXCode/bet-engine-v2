@@ -979,10 +979,10 @@
   "price": -130,
   "fairPctAtFlag": 58.4,
   "evPctAtFlag": 3.26,
-  "closeFairPct": 54.9,
+  "closeFairPct": 57.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": -2.87,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 1.91,
   "closed": false
  },
  {
@@ -1406,7 +1406,7 @@
   "evPctAtFlag": 2.15,
   "closeFairPct": 42.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": -19.17,
   "closed": false
  },
@@ -1429,10 +1429,10 @@
   "price": 108,
   "fairPctAtFlag": 49.3,
   "evPctAtFlag": 2.57,
-  "closeFairPct": 51.1,
+  "closeFairPct": 51.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 6.29,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 7.95,
   "closed": false
  },
  {
@@ -1579,10 +1579,10 @@
   "price": -105,
   "fairPctAtFlag": 52.3,
   "evPctAtFlag": 2.07,
-  "closeFairPct": 50.9,
+  "closeFairPct": 48.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T02:02:30+00:00",
-  "clvPct": -0.62,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": -5.7,
   "closed": false
  },
  {
@@ -1729,10 +1729,10 @@
   "price": 360,
   "fairPctAtFlag": 22.6,
   "evPctAtFlag": 3.84,
-  "closeFairPct": 22.7,
+  "closeFairPct": 22.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 4.42,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 3.04,
   "closed": false
  },
  {
@@ -1754,10 +1754,10 @@
   "price": 340,
   "fairPctAtFlag": 23.6,
   "evPctAtFlag": 3.81,
-  "closeFairPct": 23.0,
+  "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 1.2,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 2.52,
   "closed": false
  },
  {
@@ -1781,7 +1781,7 @@
   "evPctAtFlag": 2.66,
   "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": -0.46,
   "closed": false
  },
@@ -1806,7 +1806,7 @@
   "evPctAtFlag": 8.13,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 11.69,
   "closed": false
  },
@@ -1831,7 +1831,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 35.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": -17.43,
   "closed": false
  },
@@ -1856,7 +1856,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 11.49,
   "closed": false
  },
@@ -1879,10 +1879,10 @@
   "price": 460,
   "fairPctAtFlag": 19.1,
   "evPctAtFlag": 7.01,
-  "closeFairPct": 18.9,
+  "closeFairPct": 19.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 5.84,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 8.08,
   "closed": false
  },
  {
@@ -1904,10 +1904,10 @@
   "price": -130,
   "fairPctAtFlag": 57.8,
   "evPctAtFlag": 2.21,
-  "closeFairPct": 57.0,
+  "closeFairPct": 57.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 0.85,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 1.91,
   "closed": false
  },
  {
@@ -1931,7 +1931,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 44.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 1.02,
   "closed": false
  },
@@ -1979,10 +1979,10 @@
   "price": 265,
   "fairPctAtFlag": 28.6,
   "evPctAtFlag": 4.43,
-  "closeFairPct": 35.1,
+  "closeFairPct": 34.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 28.12,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 25.19,
   "closed": false
  },
  {
@@ -2006,7 +2006,7 @@
   "evPctAtFlag": 3.41,
   "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 7.83,
   "closed": false
  },
@@ -2029,10 +2029,10 @@
   "price": 800,
   "fairPctAtFlag": 12.2,
   "evPctAtFlag": 9.88,
-  "closeFairPct": 11.8,
+  "closeFairPct": 11.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 6.2,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 4.4,
   "closed": false
  },
  {
@@ -2056,7 +2056,7 @@
   "evPctAtFlag": 4.87,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": -14.08,
   "closed": false
  },
@@ -2079,10 +2079,10 @@
   "price": 360,
   "fairPctAtFlag": 22.5,
   "evPctAtFlag": 3.4,
-  "closeFairPct": 21.1,
+  "closeFairPct": 21.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": -2.94,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": -2.48,
   "closed": false
  },
  {
@@ -2106,7 +2106,7 @@
   "evPctAtFlag": 4.7,
   "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 1.05,
   "closed": false
  },
@@ -2131,7 +2131,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 33.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 8.88,
   "closed": false
  },
@@ -2181,7 +2181,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 34.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 1.78,
   "closed": false
  },
@@ -2204,10 +2204,10 @@
   "price": 148,
   "fairPctAtFlag": 41.4,
   "evPctAtFlag": 2.79,
-  "closeFairPct": 43.9,
+  "closeFairPct": 43.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 8.87,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 6.64,
   "closed": false
  },
  {
@@ -2229,10 +2229,10 @@
   "price": 140,
   "fairPctAtFlag": 42.6,
   "evPctAtFlag": 2.25,
-  "closeFairPct": 43.8,
+  "closeFairPct": 43.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 5.12,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 4.64,
   "closed": false
  },
  {
@@ -2256,7 +2256,7 @@
   "evPctAtFlag": 3.82,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -2281,7 +2281,7 @@
   "evPctAtFlag": 9.21,
   "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 10.4,
   "closed": false
  },
@@ -2306,7 +2306,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 17.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 5.6,
   "closed": false
  },
@@ -2329,10 +2329,10 @@
   "price": 430,
   "fairPctAtFlag": 19.8,
   "evPctAtFlag": 5.12,
-  "closeFairPct": 19.8,
+  "closeFairPct": 19.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 4.94,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 2.82,
   "closed": false
  },
  {
@@ -2354,10 +2354,10 @@
   "price": 285,
   "fairPctAtFlag": 28.4,
   "evPctAtFlag": 9.51,
-  "closeFairPct": 28.3,
+  "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 8.96,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 7.41,
   "closed": false
  },
  {
@@ -2381,7 +2381,7 @@
   "evPctAtFlag": 3.57,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 0.0,
   "closed": false
  },
@@ -2404,10 +2404,10 @@
   "price": 110,
   "fairPctAtFlag": 48.9,
   "evPctAtFlag": 2.63,
-  "closeFairPct": 50.2,
+  "closeFairPct": 51.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 5.42,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 8.57,
   "closed": false
  },
  {
@@ -2429,10 +2429,10 @@
   "price": 255,
   "fairPctAtFlag": 28.9,
   "evPctAtFlag": 2.48,
-  "closeFairPct": 27.1,
+  "closeFairPct": 27.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": -3.8,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": -2.02,
   "closed": false
  },
  {
@@ -2456,7 +2456,7 @@
   "evPctAtFlag": 7.89,
   "closeFairPct": 39.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -2481,7 +2481,7 @@
   "evPctAtFlag": 2.92,
   "closeFairPct": 54.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 2.78,
   "closed": false
  },
@@ -2506,7 +2506,7 @@
   "evPctAtFlag": 3.16,
   "closeFairPct": 52.8,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 3.09,
   "closed": false
  },
@@ -2554,10 +2554,10 @@
   "price": 102,
   "fairPctAtFlag": 50.7,
   "evPctAtFlag": 2.37,
-  "closeFairPct": 48.3,
+  "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": -2.43,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": -1.22,
   "closed": false
  },
  {
@@ -2581,7 +2581,7 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 30.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -2604,10 +2604,10 @@
   "price": 110,
   "fairPctAtFlag": 48.6,
   "evPctAtFlag": 2.11,
-  "closeFairPct": 48.4,
+  "closeFairPct": 47.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 1.64,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": -0.04,
   "closed": false
  },
  {
@@ -2631,7 +2631,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 28.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
   "clvPct": 1.15,
   "closed": false
  },
@@ -2654,10 +2654,10 @@
   "price": 380,
   "fairPctAtFlag": 21.6,
   "evPctAtFlag": 3.58,
-  "closeFairPct": 21.6,
+  "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 3.68,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 4.16,
   "closed": false
  },
  {
@@ -2679,10 +2679,60 @@
   "price": 360,
   "fairPctAtFlag": 22.8,
   "evPctAtFlag": 4.8,
-  "closeFairPct": 22.8,
+  "closeFairPct": 22.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T15:05:11+00:00",
-  "clvPct": 4.88,
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 3.96,
+  "closed": false
+ },
+ {
+  "key": "99932501288d30e4693c828c0ab2455e|h2h|Rutgers Scarlet Knights|None",
+  "eventId": "99932501288d30e4693c828c0ab2455e",
+  "sport": "NCAAF",
+  "game": "Rutgers Scarlet Knights at Northwestern Wildcats",
+  "time": "2026-10-24T16:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Rutgers Scarlet Knights",
+  "line": null,
+  "team": "Rutgers Scarlet Knights",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-20T17:35:48+00:00",
+  "price": 600,
+  "fairPctAtFlag": 15.0,
+  "evPctAtFlag": 5.18,
+  "closeFairPct": 15.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 5.0,
+  "closed": false
+ },
+ {
+  "key": "c4e171dd82e86c3a4dd50d4d3b54edab|h2h|Utah State Aggies|None",
+  "eventId": "c4e171dd82e86c3a4dd50d4d3b54edab",
+  "sport": "NCAAF",
+  "game": "Utah State Aggies at Texas State Bobcats",
+  "time": "2026-10-24T23:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Utah State Aggies",
+  "line": null,
+  "team": "Utah State Aggies",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-20T17:35:48+00:00",
+  "price": 450,
+  "fairPctAtFlag": 19.3,
+  "evPctAtFlag": 6.4,
+  "closeFairPct": 19.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-20T17:35:48+00:00",
+  "clvPct": 6.15,
   "closed": false
  }
 ]
