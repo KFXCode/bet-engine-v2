@@ -981,7 +981,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 57.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 1.2,
   "closed": false
  },
@@ -1404,10 +1404,10 @@
   "price": -112,
   "fairPctAtFlag": 54.0,
   "evPctAtFlag": 2.15,
-  "closeFairPct": 43.7,
+  "closeFairPct": 43.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
-  "clvPct": -17.28,
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": -17.09,
   "closed": false
  },
  {
@@ -1429,10 +1429,10 @@
   "price": 108,
   "fairPctAtFlag": 49.3,
   "evPctAtFlag": 2.57,
-  "closeFairPct": 51.9,
+  "closeFairPct": 51.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
-  "clvPct": 7.95,
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": 6.29,
   "closed": false
  },
  {
@@ -1583,7 +1583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T21:50:09+00:00",
   "clvPct": -6.68,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3729ac6d2a66b642850caf2044cdc658|player_receptions|Elijah Higgins|1.5|Elijah Higgins Under 1.5|None",
@@ -1733,7 +1733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 3.96,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5be63fd8c778b46afe084d3352e38a40|h2h|East Carolina Pirates|None",
@@ -1756,7 +1756,7 @@
   "evPctAtFlag": 3.81,
   "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 2.52,
   "closed": false
  },
@@ -1781,7 +1781,7 @@
   "evPctAtFlag": 2.66,
   "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": -0.46,
   "closed": false
  },
@@ -1806,7 +1806,7 @@
   "evPctAtFlag": 8.13,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 11.69,
   "closed": false
  },
@@ -1831,7 +1831,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 36.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": -16.05,
   "closed": false
  },
@@ -1856,7 +1856,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 11.49,
   "closed": false
  },
@@ -1881,7 +1881,7 @@
   "evPctAtFlag": 7.01,
   "closeFairPct": 19.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 7.52,
   "closed": false
  },
@@ -1906,7 +1906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 57.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 1.91,
   "closed": false
  },
@@ -1931,7 +1931,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 44.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 1.02,
   "closed": false
  },
@@ -1981,7 +1981,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 34.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 24.47,
   "closed": false
  },
@@ -2006,7 +2006,7 @@
   "evPctAtFlag": 3.41,
   "closeFairPct": 52.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 8.03,
   "closed": false
  },
@@ -2031,7 +2031,7 @@
   "evPctAtFlag": 9.88,
   "closeFairPct": 11.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 4.4,
   "closed": false
  },
@@ -2056,7 +2056,7 @@
   "evPctAtFlag": 4.87,
   "closeFairPct": 17.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": -14.56,
   "closed": false
  },
@@ -2081,7 +2081,7 @@
   "evPctAtFlag": 3.4,
   "closeFairPct": 20.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": -5.24,
   "closed": false
  },
@@ -2106,7 +2106,7 @@
   "evPctAtFlag": 4.7,
   "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 1.05,
   "closed": false
  },
@@ -2131,7 +2131,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 33.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 8.88,
   "closed": false
  },
@@ -2181,7 +2181,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 34.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 1.78,
   "closed": false
  },
@@ -2208,7 +2208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": -0.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a3ed14cd9d938b3c5bea48fb0c78805d|h2h|Marshall Thundering Herd|None",
@@ -2233,7 +2233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 8.48,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d476cb73381765342220f698035bc889|h2h|Appalachian State Mountaineers|None",
@@ -2256,7 +2256,7 @@
   "evPctAtFlag": 3.82,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -2281,7 +2281,7 @@
   "evPctAtFlag": 9.21,
   "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 10.4,
   "closed": false
  },
@@ -2306,7 +2306,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 7.4,
   "closed": false
  },
@@ -2331,7 +2331,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 19.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 2.82,
   "closed": false
  },
@@ -2356,7 +2356,7 @@
   "evPctAtFlag": 9.51,
   "closeFairPct": 28.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 8.18,
   "closed": false
  },
@@ -2383,7 +2383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 1.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b1c2bb946e4f5824800dab22ae585454|h2h|Detroit Red Wings|None",
@@ -2406,7 +2406,7 @@
   "evPctAtFlag": 2.63,
   "closeFairPct": 52.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 9.2,
   "closed": false
  },
@@ -2429,10 +2429,10 @@
   "price": 255,
   "fairPctAtFlag": 28.9,
   "evPctAtFlag": 2.48,
-  "closeFairPct": 27.3,
+  "closeFairPct": 27.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
-  "clvPct": -3.09,
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": -3.8,
   "closed": false
  },
  {
@@ -2456,7 +2456,7 @@
   "evPctAtFlag": 7.89,
   "closeFairPct": 39.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -2481,7 +2481,7 @@
   "evPctAtFlag": 2.92,
   "closeFairPct": 54.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 2.78,
   "closed": false
  },
@@ -2506,7 +2506,7 @@
   "evPctAtFlag": 3.16,
   "closeFairPct": 52.8,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 3.09,
   "closed": false
  },
@@ -2554,10 +2554,10 @@
   "price": 102,
   "fairPctAtFlag": 50.7,
   "evPctAtFlag": 2.37,
-  "closeFairPct": 47.8,
+  "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
-  "clvPct": -3.44,
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": -4.25,
   "closed": false
  },
  {
@@ -2581,7 +2581,7 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 30.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 2.34,
   "closed": false
  },
@@ -2631,7 +2631,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 28.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 0.8,
   "closed": false
  },
@@ -2656,7 +2656,7 @@
   "evPctAtFlag": 3.58,
   "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 4.16,
   "closed": false
  },
@@ -2681,7 +2681,7 @@
   "evPctAtFlag": 4.8,
   "closeFairPct": 22.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 3.96,
   "closed": false
  },
@@ -2706,7 +2706,7 @@
   "evPctAtFlag": 5.18,
   "closeFairPct": 15.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -2731,7 +2731,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 19.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 6.15,
   "closed": false
  },
@@ -2756,7 +2756,7 @@
   "evPctAtFlag": 4.2,
   "closeFairPct": 32.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 9.14,
   "closed": false
  },
@@ -2781,7 +2781,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 49.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 2.09,
   "closed": false
  },
@@ -2808,7 +2808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 8.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_assists|OG Anunoby|1.5|OG Anunoby Under 1.5|None",
@@ -2833,7 +2833,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 3.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_points|Andre Drummond|5.5|Andre Drummond Under 5.5|None",
@@ -2858,7 +2858,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 4.84,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_rebounds|Jaylen Brown|5.5|Jaylen Brown Under 5.5|None",
@@ -2883,7 +2883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 2.12,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_rebounds|Josh Hart|7.5|Josh Hart Under 7.5|None",
@@ -2908,7 +2908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 0.43,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_threes|Karl-Anthony Towns|1.5|Karl-Anthony Towns Over 1.5|None",
@@ -2933,7 +2933,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 5.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_threes|LeBron James|1.5|LeBron James Over 1.5|None",
@@ -2958,7 +2958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 2.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "95bc14af9668222d8528934b43d65566|h2h|Michigan State Spartans|None",
@@ -2981,7 +2981,7 @@
   "evPctAtFlag": 6.37,
   "closeFairPct": 17.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 6.14,
   "closed": false
  },
@@ -3008,7 +3008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_points|Kentavious Caldwell-Pope|5.5|Kentavious Caldwell-Pope Over 5.5|None",
@@ -3033,7 +3033,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 3.41,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_rebounds|Andre Drummond|6.5|Andre Drummond Under 6.5|None",
@@ -3058,7 +3058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 3.28,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_rebounds|Joel Embiid|7.5|Joel Embiid Under 7.5|None",
@@ -3083,7 +3083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-20T22:45:13+00:00",
   "clvPct": 2.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "bccd283de56915e29af1788beb0abfc9|player_assists|Cason Wallace|2.5|Cason Wallace Under 2.5|None",
@@ -3106,7 +3106,7 @@
   "evPctAtFlag": 4.69,
   "closeFairPct": 50.8,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 4.65,
   "closed": false
  },
@@ -3131,7 +3131,7 @@
   "evPctAtFlag": 3.67,
   "closeFairPct": 49.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -3156,7 +3156,7 @@
   "evPctAtFlag": 4.09,
   "closeFairPct": 43.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 4.01,
   "closed": false
  },
@@ -3179,10 +3179,10 @@
   "price": -106,
   "fairPctAtFlag": 52.6,
   "evPctAtFlag": 2.28,
-  "closeFairPct": 52.6,
+  "closeFairPct": 51.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
-  "clvPct": 2.22,
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": -0.3,
   "closed": false
  },
  {
@@ -3204,10 +3204,10 @@
   "price": 102,
   "fairPctAtFlag": 50.5,
   "evPctAtFlag": 2.06,
-  "closeFairPct": 50.5,
+  "closeFairPct": 50.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
-  "clvPct": 2.01,
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": 2.21,
   "closed": false
  },
  {
@@ -3231,7 +3231,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 48.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 3.2,
   "closed": false
  },
@@ -3256,7 +3256,7 @@
   "evPctAtFlag": 5.11,
   "closeFairPct": 44.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 5.05,
   "closed": false
  },
@@ -3281,8 +3281,83 @@
   "evPctAtFlag": 3.52,
   "closeFairPct": 15.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-20T22:45:13+00:00",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
   "clvPct": 3.35,
+  "closed": false
+ },
+ {
+  "key": "bccd283de56915e29af1788beb0abfc9|player_rebounds|Keldon Johnson|3.5|Keldon Johnson Under 3.5|None",
+  "eventId": "bccd283de56915e29af1788beb0abfc9",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at San Antonio Spurs",
+  "time": "2026-10-21T01:30:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Keldon Johnson",
+  "name": "Under",
+  "line": 3.5,
+  "team": "Keldon Johnson Under 3.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-20T23:35:12+00:00",
+  "price": 105,
+  "fairPctAtFlag": 50.0,
+  "evPctAtFlag": 2.5,
+  "closeFairPct": 50.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": 2.5,
+  "closed": false
+ },
+ {
+  "key": "bccd283de56915e29af1788beb0abfc9|player_rebounds|Shai Gilgeous-Alexander|3.5|Shai Gilgeous-Alexander Under 3.5|None",
+  "eventId": "bccd283de56915e29af1788beb0abfc9",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at San Antonio Spurs",
+  "time": "2026-10-21T01:30:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Shai Gilgeous-Alexander",
+  "name": "Under",
+  "line": 3.5,
+  "team": "Shai Gilgeous-Alexander Under 3.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-20T23:35:12+00:00",
+  "price": 125,
+  "fairPctAtFlag": 46.6,
+  "evPctAtFlag": 4.78,
+  "closeFairPct": 46.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": 4.85,
+  "closed": false
+ },
+ {
+  "key": "bccd283de56915e29af1788beb0abfc9|player_threes|Cason Wallace|1.5|Cason Wallace Under 1.5|None",
+  "eventId": "bccd283de56915e29af1788beb0abfc9",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at San Antonio Spurs",
+  "time": "2026-10-21T01:30:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Cason Wallace",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Cason Wallace Under 1.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-20T23:35:12+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.1,
+  "evPctAtFlag": 2.11,
+  "closeFairPct": 51.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-20T23:35:12+00:00",
+  "clvPct": 2.2,
   "closed": false
  }
 ]
