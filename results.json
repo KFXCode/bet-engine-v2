@@ -14,17 +14,17 @@
    "win_rate": 0.5128205128205128
   },
   "value": {
-   "avg_clv": 0.03910917030567685,
-   "clv_beat_rate": 0.2852983988355167,
-   "clv_n": 687,
-   "graded": 788,
+   "avg_clv": 0.033295815295815295,
+   "clv_beat_rate": 0.2842712842712843,
+   "clv_n": 693,
+   "graded": 795,
    "record": {
-    "l": 386,
+    "l": 390,
     "p": 1,
     "void": 20,
-    "w": 401
+    "w": 404
    },
-   "win_rate": 0.5095298602287166
+   "win_rate": 0.5088161209068011
   }
  },
  "by_sport": {
@@ -81,38 +81,38 @@
    "win_rate": 0.4
   },
   "NFL Props": {
-   "avg_clv": 0.11298790322580644,
-   "clv_beat_rate": 0.0846774193548387,
-   "clv_n": 248,
-   "graded": 316,
+   "avg_clv": 0.11088888888888888,
+   "clv_beat_rate": 0.0873015873015873,
+   "clv_n": 252,
+   "graded": 321,
    "record": {
-    "l": 161,
+    "l": 164,
     "p": 0,
     "void": 25,
-    "w": 155
+    "w": 157
    },
-   "win_rate": 0.49050632911392406
+   "win_rate": 0.48909657320872274
   },
   "NFL Sides": {
-   "avg_clv": -0.16996694214876035,
-   "clv_beat_rate": 0.34710743801652894,
-   "clv_n": 121,
-   "graded": 149,
+   "avg_clv": -0.1974227642276423,
+   "clv_beat_rate": 0.34146341463414637,
+   "clv_n": 123,
+   "graded": 151,
    "record": {
-    "l": 79,
+    "l": 80,
     "p": 1,
     "void": 0,
-    "w": 69
+    "w": 70
    },
-   "win_rate": 0.46621621621621623
+   "win_rate": 0.4666666666666667
   }
  },
  "diagnostics": [
   "NBA player logs: skipped 67 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
   "NBA player logs: cache already current (7551 player-games, looked back 132 days)",
-  "NFL player logs: cache already current (7105 player-games, looked back 21 days)"
+  "NFL player logs: added 1 box scores, 7125 player-games cached"
  ],
- "generated_at": "2026-10-20T01:25:10+00:00",
+ "generated_at": "2026-10-20T13:04:58+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
@@ -1159,10 +1159,10 @@
    "win_rate": 0.42857142857142855
   },
   "Props": {
-   "avg_clv": 0.11298790322580644,
-   "clv_beat_rate": 0.0846774193548387,
-   "clv_n": 248,
-   "graded": 316,
+   "avg_clv": 0.11088888888888888,
+   "clv_beat_rate": 0.0873015873015873,
+   "clv_n": 252,
+   "graded": 321,
    "label": "Player props",
    "picks": [
     {
@@ -6458,6 +6458,42 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": 100,
+     "clv": -2.893,
+     "edge": 17.718,
+     "ev": 0.33259,
+     "final": "94",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Mike Evans Under 77.5 receiving yards",
+     "player": "Mike Evans",
+     "price": -114,
+     "proj": 63.123,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.979,
+     "ev": 0.59914,
+     "final": "0 TD",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Jayden Daniels anytime TD",
+     "player": "Jayden Daniels",
+     "price": 300,
+     "proj": 0.51,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -114,
      "clv": 0.0,
      "edge": 14.724,
@@ -6472,6 +6508,24 @@
      "price": -114,
      "proj": 23.605,
      "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 12.784,
+     "ev": 0.23998,
+     "final": "10",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Jayden Daniels Over 31.5 rushing yards",
+     "player": "Jayden Daniels",
+     "price": -114,
+     "proj": 48.83,
+     "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 19"
     },
@@ -6998,6 +7052,24 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -130,
+     "clv": 2.816,
+     "edge": 18.455,
+     "ev": 0.34643,
+     "final": "3",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Mike Evans Under 5.5 receptions",
+     "player": "Mike Evans",
+     "price": -114,
+     "proj": 4.416,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 18.147,
@@ -7160,6 +7232,24 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": 124,
+     "clv": 0.0,
+     "edge": 15.162,
+     "ev": 0.33964,
+     "final": "3",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Antonio Williams Over 2.5 receptions",
+     "player": "Antonio Williams",
+     "price": 124,
+     "proj": 3.096,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 19.808,
@@ -7305,19 +7395,19 @@
     }
    ],
    "record": {
-    "l": 161,
+    "l": 164,
     "p": 0,
     "void": 25,
-    "w": 155
+    "w": 157
    },
    "threshold": 7.0,
-   "win_rate": 0.49050632911392406
+   "win_rate": 0.48909657320872274
   },
   "Sides": {
-   "avg_clv": 0.012661710037174714,
-   "clv_beat_rate": 0.3754646840148699,
-   "clv_n": 538,
-   "graded": 589,
+   "avg_clv": 0.005731481481481475,
+   "clv_beat_rate": 0.37407407407407406,
+   "clv_n": 540,
+   "graded": 591,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -17689,6 +17779,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -400,
+     "clv": -1.789,
+     "edge": 6.025,
+     "ev": 0.07364,
+     "final": "17-23",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "San Francisco 49ers ML",
+     "player": null,
+     "price": -450,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -102,
+     "clv": -1.928,
+     "edge": 17.459,
+     "ev": 0.33331,
+     "final": "17-23",
+     "game": "Washington Commanders @ San Francisco 49ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "San Francisco 49ers -7.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -110,
      "clv": -1.498,
      "edge": 8.22,
@@ -17924,19 +18050,19 @@
     }
    ],
    "record": {
-    "l": 282,
+    "l": 283,
     "p": 1,
     "void": 0,
-    "w": 306
+    "w": 307
    },
    "threshold": 5.0,
-   "win_rate": 0.5204081632653061
+   "win_rate": 0.5203389830508475
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 29,
-  "Props": 154,
-  "Sides": 87
+  "Props": 149,
+  "Sides": 85
  }
 }
