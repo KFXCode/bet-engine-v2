@@ -1,71 +1,97 @@
 {
  "by_lane": {
   "confidence": {
-   "avg_clv": 0.08045454545454543,
-   "clv_beat_rate": 0.2727272727272727,
-   "clv_n": 99,
-   "graded": 117,
+   "avg_clv": 0.07378999999999998,
+   "clv_beat_rate": 0.27,
+   "clv_n": 100,
+   "graded": 118,
    "record": {
-    "l": 57,
+    "l": 58,
     "p": 0,
     "void": 5,
     "w": 60
    },
-   "win_rate": 0.5128205128205128
+   "win_rate": 0.5084745762711864
   },
   "value": {
-   "avg_clv": 0.033295815295815295,
-   "clv_beat_rate": 0.2842712842712843,
-   "clv_n": 693,
-   "graded": 795,
+   "avg_clv": 0.03885895627644569,
+   "clv_beat_rate": 0.28913963328631875,
+   "clv_n": 709,
+   "graded": 811,
    "record": {
-    "l": 390,
+    "l": 395,
     "p": 1,
     "void": 20,
-    "w": 404
+    "w": 415
    },
-   "win_rate": 0.5088161209068011
+   "win_rate": 0.5123456790123457
   }
  },
  "by_sport": {
-  "NBA Sides": {
-   "avg_clv": 0.0,
-   "clv_beat_rate": 0.0,
-   "clv_n": 3,
-   "graded": 3,
+  "NBA Cosmic": {
+   "avg_clv": 0.2365,
+   "clv_beat_rate": 0.5,
+   "clv_n": 4,
+   "graded": 4,
    "record": {
-    "l": 1,
+    "l": 0,
     "p": 0,
     "void": 0,
-    "w": 2
+    "w": 4
    },
-   "win_rate": 0.6666666666666666
+   "win_rate": 1.0
   },
-  "NCAAF Cosmic": {
-   "avg_clv": -0.010812500000000034,
-   "clv_beat_rate": 0.4375,
-   "clv_n": 16,
-   "graded": 16,
+  "NBA Props": {
+   "avg_clv": 0.6086363636363636,
+   "clv_beat_rate": 0.6363636363636364,
+   "clv_n": 11,
+   "graded": 11,
    "record": {
-    "l": 8,
+    "l": 3,
     "p": 0,
     "void": 0,
     "w": 8
    },
-   "win_rate": 0.5
+   "win_rate": 0.7272727272727273
   },
-  "NCAAF Sides": {
-   "avg_clv": 0.06613043478260869,
-   "clv_beat_rate": 0.3864734299516908,
-   "clv_n": 414,
-   "graded": 437,
+  "NBA Sides": {
+   "avg_clv": -0.5758333333333333,
+   "clv_beat_rate": 0.0,
+   "clv_n": 6,
+   "graded": 6,
    "record": {
-    "l": 202,
+    "l": 3,
     "p": 0,
     "void": 0,
-    "w": 235
+    "w": 3
    },
-   "win_rate": 0.5377574370709383
+   "win_rate": 0.5
+  },
+  "NCAAF Cosmic": {
+   "avg_clv": 0.05319999999999998,
+   "clv_beat_rate": 0.4,
+   "clv_n": 20,
+   "graded": 20,
+   "record": {
+    "l": 9,
+    "p": 0,
+    "void": 0,
+    "w": 11
+   },
+   "win_rate": 0.55
+  },
+  "NCAAF Sides": {
+   "avg_clv": 0.06721582733812949,
+   "clv_beat_rate": 0.38609112709832133,
+   "clv_n": 417,
+   "graded": 440,
+   "record": {
+    "l": 203,
+    "p": 0,
+    "void": 0,
+    "w": 237
+   },
+   "win_rate": 0.5386363636363637
   },
   "NFL Cosmic": {
    "avg_clv": -0.004241379310344833,
@@ -108,18 +134,18 @@
   }
  },
  "diagnostics": [
+  "NFL player logs: cache already current (6872 player-games, looked back 21 days)",
   "NBA player logs: skipped 67 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (7551 player-games, looked back 132 days)",
-  "NFL player logs: added 1 box scores, 7125 player-games cached"
+  "NBA player logs: added 3 box scores, 7619 player-games cached"
  ],
- "generated_at": "2026-10-20T13:04:58+00:00",
+ "generated_at": "2026-10-21T13:16:33+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.0065777777777777935,
-   "clv_beat_rate": 0.3333333333333333,
-   "clv_n": 45,
-   "graded": 57,
+   "avg_clv": 0.03560377358490565,
+   "clv_beat_rate": 0.33962264150943394,
+   "clv_n": 53,
+   "graded": 65,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -1077,6 +1103,96 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": 122,
+     "clv": -1.553,
+     "edge": 13.303,
+     "ev": 0.28469,
+     "final": "13-20",
+     "game": "South Alabama Jaguars @ Marshall Thundering Herd",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Marshall Thundering Herd ML",
+     "player": null,
+     "price": 114,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -124,
+     "clv": 2.79,
+     "edge": 14.877,
+     "ev": 0.28401,
+     "final": "13-20",
+     "game": "South Alabama Jaguars @ Marshall Thundering Herd",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Marshall Thundering Herd +2.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": 108,
+     "clv": 0.977,
+     "edge": 3.211,
+     "ev": 0.06808,
+     "final": "116-104",
+     "game": "Oklahoma City Thunder @ San Antonio Spurs",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Oklahoma City Thunder ML",
+     "player": null,
+     "price": 112,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.845,
+     "edge": 3.907,
+     "ev": 0.07304,
+     "final": "116-104",
+     "game": "Oklahoma City Thunder @ San Antonio Spurs",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Oklahoma City Thunder +2.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 0.183,
+     "ev": 0.00357,
+     "final": "26-23",
+     "game": "Middle Tennessee Blue Raiders @ Florida International Panthers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Middle Tennessee Blue Raiders +10.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 19.11,
@@ -1147,22 +1263,76 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": 100,
+     "clv": 0.0,
+     "edge": 0.863,
+     "ev": 0.01725,
+     "final": "38-61",
+     "game": "Missouri State Bears @ Delaware Blue Hens",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Missouri State Bears +2.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": 100,
+     "clv": -0.443,
+     "edge": 4.424,
+     "ev": 0.08761,
+     "final": "113-121",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Detroit Pistons ML",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -110,
+     "clv": -0.433,
+     "edge": 6.255,
+     "ev": 0.1184,
+     "final": "113-121",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Detroit Pistons +1.5",
+     "player": null,
+     "price": -112,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 32,
+    "l": 33,
     "p": 1,
     "void": 0,
-    "w": 24
+    "w": 31
    },
    "threshold": null,
-   "win_rate": 0.42857142857142855
+   "win_rate": 0.484375
   },
   "Props": {
-   "avg_clv": 0.11088888888888888,
-   "clv_beat_rate": 0.0873015873015873,
-   "clv_n": 252,
-   "graded": 321,
+   "avg_clv": 0.13170722433460075,
+   "clv_beat_rate": 0.11026615969581749,
+   "clv_n": 263,
+   "graded": 332,
    "label": "Player props",
    "picks": [
     {
@@ -6746,6 +6916,24 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -178,
+     "clv": -0.302,
+     "edge": 17.352,
+     "ev": 0.26992,
+     "final": "6",
+     "game": "Oklahoma City Thunder @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Shai Gilgeous-Alexander Under 4.5 rebounds",
+     "player": "Shai Gilgeous-Alexander",
+     "price": -180,
+     "proj": 2.993,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 17.308,
@@ -6855,6 +7043,24 @@
     },
     {
      "closing_price": -114,
+     "clv": -1.418,
+     "edge": 15.739,
+     "ev": 0.2864,
+     "final": "28",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Jayson Tatum Under 42.5 pts+reb+ast",
+     "player": "Jayson Tatum",
+     "price": -122,
+     "proj": 38.791,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -114,
      "clv": -10.068,
      "edge": 15.237,
      "ev": 0.23702,
@@ -6870,6 +7076,24 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -118,
+     "clv": 0.607,
+     "edge": 14.944,
+     "ev": 0.28052,
+     "final": "28",
+     "game": "Oklahoma City Thunder @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Victor Wembanyama Under 40.5 pts+reb+ast",
+     "player": "Victor Wembanyama",
+     "price": -114,
+     "proj": 35.847,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     },
     {
      "closing_price": null,
@@ -6962,6 +7186,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -132,
+     "clv": 1.31,
+     "edge": 13.907,
+     "ev": 0.25033,
+     "final": "22",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Cade Cunningham Under 24.5 points",
+     "player": "Cade Cunningham",
+     "price": -125,
+     "proj": 20.712,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 13.739,
+     "ev": 0.25791,
+     "final": "7",
+     "game": "Philadelphia 76ers @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "LeBron James Under 7.5 assists",
+     "player": "LeBron James",
+     "price": -114,
+     "proj": 6.411,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 13.031,
@@ -6998,6 +7258,60 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -112,
+     "clv": 0.811,
+     "edge": 12.722,
+     "ev": 0.24502,
+     "final": "14",
+     "game": "Philadelphia 76ers @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "LeBron James Over 16.5 points",
+     "player": "LeBron James",
+     "price": -108,
+     "proj": 19.347,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -130,
+     "clv": -0.41,
+     "edge": 12.686,
+     "ev": 0.22297,
+     "final": "12",
+     "game": "Oklahoma City Thunder @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Victor Wembanyama Under 26.5 points",
+     "player": "Victor Wembanyama",
+     "price": -132,
+     "proj": 22.908,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -146,
+     "clv": 1.295,
+     "edge": 11.097,
+     "ev": 0.19138,
+     "final": "4",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Cade Cunningham Under 5.5 rebounds",
+     "player": "Cade Cunningham",
+     "price": -138,
+     "proj": 4.456,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 9.97,
@@ -7014,6 +7328,42 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.406,
+     "edge": 9.369,
+     "ev": 0.18044,
+     "final": "13",
+     "game": "Philadelphia 76ers @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Joel Embiid Under 22.5 points",
+     "player": "Joel Embiid",
+     "price": -108,
+     "proj": 21.197,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -136,
+     "clv": 0.565,
+     "edge": 19.653,
+     "ev": 0.34542,
+     "final": "8",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Derrick White Under 4.5 assists",
+     "player": "Derrick White",
+     "price": -132,
+     "proj": 3.284,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     },
     {
      "closing_price": 102,
@@ -7358,6 +7708,24 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -125,
+     "clv": 3.831,
+     "edge": 17.213,
+     "ev": 0.33451,
+     "final": "32",
+     "game": "Philadelphia 76ers @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Karl-Anthony Towns Under 34.5 pts+reb+ast",
+     "player": "Karl-Anthony Towns",
+     "price": -106,
+     "proj": 31.174,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.926,
@@ -7395,19 +7763,19 @@
     }
    ],
    "record": {
-    "l": 164,
+    "l": 167,
     "p": 0,
     "void": 25,
-    "w": 157
+    "w": 165
    },
    "threshold": 7.0,
-   "win_rate": 0.48909657320872274
+   "win_rate": 0.49698795180722893
   },
   "Sides": {
-   "avg_clv": 0.005731481481481475,
-   "clv_beat_rate": 0.37407407407407406,
-   "clv_n": 540,
-   "graded": 591,
+   "avg_clv": 0.0005329670329670272,
+   "clv_beat_rate": 0.3717948717948718,
+   "clv_n": 546,
+   "graded": 597,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -17869,6 +18237,78 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": 122,
+     "clv": -1.553,
+     "edge": 13.303,
+     "ev": 0.28469,
+     "final": "13-20",
+     "game": "South Alabama Jaguars @ Marshall Thundering Herd",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Marshall Thundering Herd ML",
+     "player": null,
+     "price": 114,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -124,
+     "clv": 2.79,
+     "edge": 14.877,
+     "ev": 0.28401,
+     "final": "13-20",
+     "game": "South Alabama Jaguars @ Marshall Thundering Herd",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Marshall Thundering Herd +2.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -190,
+     "clv": -0.855,
+     "edge": 10.88,
+     "ev": 0.16375,
+     "final": "106-100",
+     "game": "Philadelphia 76ers @ New York Knicks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "New York Knicks ML",
+     "player": null,
+     "price": -198,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -105,
+     "clv": -2.167,
+     "edge": 10.583,
+     "ev": 0.19785,
+     "final": "106-100",
+     "game": "Philadelphia 76ers @ New York Knicks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "New York Knicks -5.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -105,
      "clv": 0.0,
      "edge": 7.42,
@@ -18013,6 +18453,24 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": -385,
+     "clv": -0.586,
+     "edge": 0.359,
+     "ev": 0.00449,
+     "final": "26-23",
+     "game": "Middle Tennessee Blue Raiders @ Florida International Panthers",
+     "group": "Sides",
+     "lane": "confidence",
+     "market": "Moneyline",
+     "pick": "Florida International Panthers ML",
+     "player": null,
+     "price": -400,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": 265,
      "clv": 0.0,
      "edge": 11.757,
@@ -18047,22 +18505,40 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -110,
+     "clv": -0.433,
+     "edge": 6.255,
+     "ev": 0.1184,
+     "final": "113-121",
+     "game": "Boston Celtics @ Detroit Pistons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Detroit Pistons +1.5",
+     "player": null,
+     "price": -112,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 283,
+    "l": 286,
     "p": 1,
     "void": 0,
-    "w": 307
+    "w": 310
    },
    "threshold": 5.0,
-   "win_rate": 0.5203389830508475
+   "win_rate": 0.5201342281879194
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 29,
-  "Props": 149,
-  "Sides": 85
+  "Cosmic": 21,
+  "Props": 138,
+  "Sides": 79
  }
 }
