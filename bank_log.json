@@ -1758,7 +1758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": -3.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a493efd6ef737f676a45aacc0eaf7be8|h2h|Duke Blue Devils|None",
@@ -1781,7 +1781,7 @@
   "evPctAtFlag": 2.66,
   "closeFairPct": 46.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -1.72,
   "closed": false
  },
@@ -1806,7 +1806,7 @@
   "evPctAtFlag": 8.13,
   "closeFairPct": 30.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 10.23,
   "closed": false
  },
@@ -1831,7 +1831,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 34.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -20.42,
   "closed": false
  },
@@ -1856,7 +1856,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 49.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 11.95,
   "closed": false
  },
@@ -1881,7 +1881,7 @@
   "evPctAtFlag": 7.01,
   "closeFairPct": 18.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 1.36,
   "closed": false
  },
@@ -1906,7 +1906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 56.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -0.92,
   "closed": false
  },
@@ -1931,7 +1931,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 43.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -1.69,
   "closed": false
  },
@@ -2006,7 +2006,7 @@
   "evPctAtFlag": 3.41,
   "closeFairPct": 52.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 8.24,
   "closed": false
  },
@@ -2031,7 +2031,7 @@
   "evPctAtFlag": 9.88,
   "closeFairPct": 11.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 6.2,
   "closed": false
  },
@@ -2056,7 +2056,7 @@
   "evPctAtFlag": 4.87,
   "closeFairPct": 17.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -16.0,
   "closed": false
  },
@@ -2081,7 +2081,7 @@
   "evPctAtFlag": 3.4,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -13.52,
   "closed": false
  },
@@ -2106,7 +2106,7 @@
   "evPctAtFlag": 4.7,
   "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -4.12,
   "closed": false
  },
@@ -2131,7 +2131,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 36.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 19.27,
   "closed": false
  },
@@ -2181,7 +2181,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 34.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 0.6,
   "closed": false
  },
@@ -2258,7 +2258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": -7.41,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2d125f14eca5c6eb1417f126cafde7c0|h2h|Pittsburgh Panthers|None",
@@ -2281,7 +2281,7 @@
   "evPctAtFlag": 9.21,
   "closeFairPct": 9.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 6.95,
   "closed": false
  },
@@ -2306,7 +2306,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 7.4,
   "closed": false
  },
@@ -2331,7 +2331,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -0.36,
   "closed": false
  },
@@ -2356,7 +2356,7 @@
   "evPctAtFlag": 9.51,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 7.41,
   "closed": false
  },
@@ -2456,7 +2456,7 @@
   "evPctAtFlag": 7.89,
   "closeFairPct": 42.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 13.94,
   "closed": false
  },
@@ -2506,7 +2506,7 @@
   "evPctAtFlag": 3.16,
   "closeFairPct": 52.2,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 1.91,
   "closed": false
  },
@@ -2581,7 +2581,7 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 28.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -3.44,
   "closed": false
  },
@@ -2631,7 +2631,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 28.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 0.1,
   "closed": false
  },
@@ -2656,7 +2656,7 @@
   "evPctAtFlag": 3.58,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.24,
   "closed": false
  },
@@ -2683,7 +2683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 10.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "99932501288d30e4693c828c0ab2455e|h2h|Rutgers Scarlet Knights|None",
@@ -2706,7 +2706,7 @@
   "evPctAtFlag": 5.18,
   "closeFairPct": 14.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -0.6,
   "closed": false
  },
@@ -2731,7 +2731,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 18.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -2756,7 +2756,7 @@
   "evPctAtFlag": 4.2,
   "closeFairPct": 30.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 4.38,
   "closed": false
  },
@@ -2981,7 +2981,7 @@
   "evPctAtFlag": 6.37,
   "closeFairPct": 15.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": -3.62,
   "closed": false
  },
@@ -3281,7 +3281,7 @@
   "evPctAtFlag": 3.52,
   "closeFairPct": 15.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.7,
   "closed": false
  },
@@ -5604,10 +5604,10 @@
   "price": 130,
   "fairPctAtFlag": 45.0,
   "evPctAtFlag": 3.45,
-  "closeFairPct": 42.8,
+  "closeFairPct": 43.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
-  "clvPct": -1.56,
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
+  "clvPct": -1.1,
   "closed": false
  },
  {
@@ -5631,7 +5631,7 @@
   "evPctAtFlag": 2.88,
   "closeFairPct": 34.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 7.26,
   "closed": false
  },
@@ -5656,7 +5656,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 23.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 5.75,
   "closed": false
  },
@@ -5681,7 +5681,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 44.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -5706,7 +5706,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 27.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 3.36,
   "closed": false
  },
@@ -5731,7 +5731,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 20.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 1.36,
   "closed": false
  },
@@ -5756,7 +5756,7 @@
   "evPctAtFlag": 5.39,
   "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 5.2,
   "closed": false
  },
@@ -5783,7 +5783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 2.23,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_points|Jarrett Allen|13.5|Jarrett Allen Under 13.5|None",
@@ -5808,7 +5808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 6.25,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_threes|Peyton Watson|1.5|Peyton Watson Over 1.5|None",
@@ -5833,7 +5833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 3.22,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_threes|Tyrese Maxey|2.5|Tyrese Maxey Over 2.5|None",
@@ -5858,7 +5858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 2.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d73ad8085e6fe1f88a0f79d9538083d6|h2h|Syracuse Orange|None",
@@ -5881,7 +5881,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 24.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -5908,7 +5908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 8.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_points|Jaylen Brown|20.5|Jaylen Brown Over 20.5|None",
@@ -5933,7 +5933,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 2.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_points|LeBron James|15.5|LeBron James Over 15.5|None",
@@ -5958,7 +5958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 8.55,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_rebounds|Jaylon Tyson|4.5|Jaylon Tyson Over 4.5|None",
@@ -5983,7 +5983,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 1.95,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_threes|VJ Edgecombe|1.5|VJ Edgecombe Over 1.5|None",
@@ -6008,7 +6008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 5.03,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d57c3873ab3f113b8b77614edff4cf8f|spreads|Florida Panthers:1.5/Pittsburgh Penguins:-1.5|Pittsburgh Penguins|-1.5",
@@ -6033,7 +6033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T22:45:11+00:00",
   "clvPct": 1.97,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ffebea881c1d7b2dfb85b3e590c35985|player_receptions|DeMario Douglas|3.5|DeMario Douglas Over 3.5|None",
@@ -6056,7 +6056,7 @@
   "evPctAtFlag": 2.06,
   "closeFairPct": 49.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.09,
   "closed": false
  },
@@ -6081,7 +6081,7 @@
   "evPctAtFlag": 2.85,
   "closeFairPct": 49.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -6106,7 +6106,7 @@
   "evPctAtFlag": 3.8,
   "closeFairPct": 50.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 3.73,
   "closed": false
  },
@@ -6131,7 +6131,7 @@
   "evPctAtFlag": 2.0,
   "closeFairPct": 50.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.0,
   "closed": false
  },
@@ -6156,7 +6156,7 @@
   "evPctAtFlag": 2.58,
   "closeFairPct": 56.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.61,
   "closed": false
  },
@@ -6179,10 +6179,135 @@
   "price": -150,
   "fairPctAtFlag": 61.5,
   "evPctAtFlag": 2.46,
-  "closeFairPct": 61.5,
+  "closeFairPct": 61.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-22T22:45:11+00:00",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
+  "clvPct": 1.67,
+  "closed": false
+ },
+ {
+  "key": "ffebea881c1d7b2dfb85b3e590c35985|player_rush_yds|Caleb Williams|19.5|Caleb Williams Over 19.5|None",
+  "eventId": "ffebea881c1d7b2dfb85b3e590c35985",
+  "sport": "NFL",
+  "game": "New England Patriots at Chicago Bears",
+  "time": "2026-10-23T00:15:00Z",
+  "market": "Rushing yards",
+  "marketKey": "player_rush_yds",
+  "player": "Caleb Williams",
+  "name": "Over",
+  "line": 19.5,
+  "team": "Caleb Williams Over 19.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-22T23:35:09+00:00",
+  "price": 115,
+  "fairPctAtFlag": 49.6,
+  "evPctAtFlag": 6.57,
+  "closeFairPct": 49.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
+  "clvPct": 6.64,
+  "closed": false
+ },
+ {
+  "key": "ffebea881c1d7b2dfb85b3e590c35985|player_rush_yds|Drake Maye|29.5|Drake Maye Over 29.5|None",
+  "eventId": "ffebea881c1d7b2dfb85b3e590c35985",
+  "sport": "NFL",
+  "game": "New England Patriots at Chicago Bears",
+  "time": "2026-10-23T00:15:00Z",
+  "market": "Rushing yards",
+  "marketKey": "player_rush_yds",
+  "player": "Drake Maye",
+  "name": "Over",
+  "line": 29.5,
+  "team": "Drake Maye Over 29.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-22T23:35:09+00:00",
+  "price": 105,
+  "fairPctAtFlag": 50.0,
+  "evPctAtFlag": 2.5,
+  "closeFairPct": 50.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
   "clvPct": 2.5,
+  "closed": false
+ },
+ {
+  "key": "223b2883b9b05a67329ef246384b85f1|player_assists|Jamal Murray|6.5|Jamal Murray Under 6.5|None",
+  "eventId": "223b2883b9b05a67329ef246384b85f1",
+  "sport": "NBA",
+  "game": "Denver Nuggets at Oklahoma City Thunder",
+  "time": "2026-10-23T01:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Jamal Murray",
+  "name": "Under",
+  "line": 6.5,
+  "team": "Jamal Murray Under 6.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-22T23:35:09+00:00",
+  "price": -132,
+  "fairPctAtFlag": 59.1,
+  "evPctAtFlag": 3.96,
+  "closeFairPct": 59.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
+  "clvPct": 3.87,
+  "closed": false
+ },
+ {
+  "key": "d7525d3e92349ef234ca0c1ac699b365|h2h|Memphis Grizzlies|None",
+  "eventId": "d7525d3e92349ef234ca0c1ac699b365",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Golden State Warriors",
+  "time": "2026-10-24T02:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Memphis Grizzlies",
+  "line": null,
+  "team": "Memphis Grizzlies",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-22T23:35:09+00:00",
+  "price": 140,
+  "fairPctAtFlag": 43.1,
+  "evPctAtFlag": 3.53,
+  "closeFairPct": 43.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
+  "clvPct": 3.44,
+  "closed": false
+ },
+ {
+  "key": "d7525d3e92349ef234ca0c1ac699b365|spreads|Golden State Warriors:-3.5/Memphis Grizzlies:3.5|Memphis Grizzlies|3.5",
+  "eventId": "d7525d3e92349ef234ca0c1ac699b365",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Golden State Warriors",
+  "time": "2026-10-24T02:10:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Memphis Grizzlies",
+  "line": 3.5,
+  "team": "Memphis Grizzlies",
+  "point": 3.5,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-22T23:35:09+00:00",
+  "price": -103,
+  "fairPctAtFlag": 51.9,
+  "evPctAtFlag": 2.36,
+  "closeFairPct": 51.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-22T23:35:09+00:00",
+  "clvPct": 2.29,
   "closed": false
  }
 ]
