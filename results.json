@@ -14,138 +14,138 @@
    "win_rate": 0.5084745762711864
   },
   "value": {
-   "avg_clv": 0.07345417789757411,
-   "clv_beat_rate": 0.29514824797843664,
-   "clv_n": 742,
-   "graded": 843,
+   "avg_clv": 0.06808090185676392,
+   "clv_beat_rate": 0.2957559681697613,
+   "clv_n": 754,
+   "graded": 861,
    "record": {
-    "l": 411,
+    "l": 424,
     "p": 1,
-    "void": 21,
-    "w": 431
+    "void": 22,
+    "w": 436
    },
-   "win_rate": 0.5118764845605701
+   "win_rate": 0.5069767441860465
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.2365,
+   "avg_clv": 0.19599999999999998,
    "clv_beat_rate": 0.5,
-   "clv_n": 4,
-   "graded": 4,
+   "clv_n": 6,
+   "graded": 8,
    "record": {
-    "l": 0,
+    "l": 2,
     "p": 0,
     "void": 0,
-    "w": 4
+    "w": 6
    },
-   "win_rate": 1.0
+   "win_rate": 0.75
   },
   "NBA Props": {
-   "avg_clv": 0.69595,
-   "clv_beat_rate": 0.475,
-   "clv_n": 40,
-   "graded": 39,
+   "avg_clv": 0.6975,
+   "clv_beat_rate": 0.47619047619047616,
+   "clv_n": 42,
+   "graded": 44,
    "record": {
-    "l": 17,
+    "l": 21,
     "p": 0,
     "void": 1,
-    "w": 22
+    "w": 23
    },
-   "win_rate": 0.5641025641025641
+   "win_rate": 0.5227272727272727
   },
   "NBA Sides": {
-   "avg_clv": 0.2354,
-   "clv_beat_rate": 0.2,
-   "clv_n": 10,
-   "graded": 10,
+   "avg_clv": 0.21533333333333335,
+   "clv_beat_rate": 0.25,
+   "clv_n": 12,
+   "graded": 13,
    "record": {
-    "l": 5,
+    "l": 7,
     "p": 0,
     "void": 0,
-    "w": 5
+    "w": 6
    },
-   "win_rate": 0.5
+   "win_rate": 0.46153846153846156
   },
   "NCAAF Cosmic": {
-   "avg_clv": 0.05319999999999998,
-   "clv_beat_rate": 0.4,
-   "clv_n": 20,
-   "graded": 20,
+   "avg_clv": 0.06360869565217389,
+   "clv_beat_rate": 0.43478260869565216,
+   "clv_n": 23,
+   "graded": 24,
    "record": {
-    "l": 9,
+    "l": 11,
     "p": 0,
     "void": 0,
-    "w": 11
+    "w": 13
    },
-   "win_rate": 0.55
+   "win_rate": 0.5416666666666666
   },
   "NCAAF Sides": {
-   "avg_clv": 0.06721582733812949,
-   "clv_beat_rate": 0.38609112709832133,
-   "clv_n": 417,
-   "graded": 440,
+   "avg_clv": 0.06768571428571428,
+   "clv_beat_rate": 0.3880952380952381,
+   "clv_n": 420,
+   "graded": 444,
    "record": {
-    "l": 203,
+    "l": 205,
     "p": 0,
     "void": 0,
-    "w": 237
+    "w": 239
    },
-   "win_rate": 0.5386363636363637
+   "win_rate": 0.5382882882882883
   },
   "NFL Cosmic": {
-   "avg_clv": -0.004241379310344833,
-   "clv_beat_rate": 0.27586206896551724,
-   "clv_n": 29,
-   "graded": 41,
+   "avg_clv": -0.17351612903225808,
+   "clv_beat_rate": 0.25806451612903225,
+   "clv_n": 31,
+   "graded": 43,
    "record": {
-    "l": 24,
+    "l": 26,
     "p": 1,
     "void": 0,
     "w": 16
    },
-   "win_rate": 0.4
+   "win_rate": 0.38095238095238093
   },
   "NFL Props": {
-   "avg_clv": 0.11088888888888888,
-   "clv_beat_rate": 0.0873015873015873,
-   "clv_n": 252,
-   "graded": 321,
+   "avg_clv": 0.1095843137254902,
+   "clv_beat_rate": 0.08627450980392157,
+   "clv_n": 255,
+   "graded": 325,
    "record": {
-    "l": 164,
+    "l": 167,
     "p": 0,
-    "void": 25,
-    "w": 157
+    "void": 26,
+    "w": 158
    },
-   "win_rate": 0.48909657320872274
+   "win_rate": 0.48615384615384616
   },
   "NFL Sides": {
-   "avg_clv": -0.1974227642276423,
-   "clv_beat_rate": 0.34146341463414637,
-   "clv_n": 123,
-   "graded": 151,
+   "avg_clv": -0.23631200000000002,
+   "clv_beat_rate": 0.336,
+   "clv_n": 125,
+   "graded": 153,
    "record": {
-    "l": 80,
+    "l": 82,
     "p": 1,
     "void": 0,
     "w": 70
    },
-   "win_rate": 0.4666666666666667
+   "win_rate": 0.4605263157894737
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6837 player-games, looked back 21 days)",
   "NBA player logs: skipped 67 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (7873 player-games, looked back 21 days)"
+  "NBA player logs: added 2 box scores, 7918 player-games cached",
+  "NFL player logs: added 1 box scores, 6855 player-games cached"
  ],
- "generated_at": "2026-10-23T00:54:23+00:00",
+ "generated_at": "2026-10-23T12:54:02+00:00",
  "graded_through": "Week of Oct 19",
  "groups": {
   "Cosmic": {
-   "avg_clv": 0.03560377358490565,
-   "clv_beat_rate": 0.33962264150943394,
-   "clv_n": 53,
-   "graded": 65,
+   "avg_clv": -0.045666666666666675,
+   "clv_beat_rate": 0.35,
+   "clv_n": 60,
+   "graded": 75,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -1103,6 +1103,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": 132,
+     "clv": -4.173,
+     "edge": 17.866,
+     "ev": 0.37518,
+     "final": "24-30",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "New England Patriots ML",
+     "player": null,
+     "price": 110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -110,
+     "clv": -1.083,
+     "edge": 19.556,
+     "ev": 0.36561,
+     "final": "24-30",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "New England Patriots +2.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": 122,
      "clv": -1.553,
      "edge": 13.303,
@@ -1175,6 +1211,42 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": 114,
+     "clv": 0.23,
+     "edge": 9.797,
+     "ev": 0.21161,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Cleveland Cavaliers ML",
+     "player": null,
+     "price": 116,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -112,
+     "clv": 0.0,
+     "edge": 10.108,
+     "ev": 0.19133,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Cleveland Cavaliers +2.5",
+     "player": null,
+     "price": -112,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -105,
      "clv": 0.0,
      "edge": 0.183,
@@ -1187,6 +1259,42 @@
      "pick": "Middle Tennessee Blue Raiders +10.5",
      "player": null,
      "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": 330,
+     "clv": -0.571,
+     "edge": 13.201,
+     "ev": 0.55442,
+     "final": "34-41",
+     "game": "East Carolina Pirates @ Memphis Tigers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "East Carolina Pirates ML",
+     "player": null,
+     "price": 320,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.431,
+     "edge": 14.243,
+     "ev": 0.26313,
+     "final": "34-41",
+     "game": "East Carolina Pirates @ Memphis Tigers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "East Carolina Pirates +10.5",
+     "player": null,
+     "price": -118,
      "proj": null,
      "result": "W",
      "sport": "NCAAF",
@@ -1283,6 +1391,24 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": 330,
+     "clv": 0.539,
+     "edge": 19.968,
+     "ev": 0.8786,
+     "final": "34-6",
+     "game": "Liberty Flames @ Kennesaw State Owls",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Kennesaw State Owls ML",
+     "player": null,
+     "price": 340,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": 100,
      "clv": -0.443,
      "edge": 4.424,
@@ -1317,22 +1443,76 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.407,
+     "ev": 0.30797,
+     "final": "34-41",
+     "game": "East Carolina Pirates @ Memphis Tigers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Memphis Tigers +3.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 9.044,
+     "ev": 0.25504,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Philadelphia 76ers ML",
+     "player": null,
+     "price": 182,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 3.706,
+     "ev": 0.06601,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Philadelphia 76ers +5.5",
+     "player": null,
+     "price": -128,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 33,
+    "l": 39,
     "p": 1,
     "void": 0,
-    "w": 31
+    "w": 35
    },
    "threshold": null,
-   "win_rate": 0.484375
+   "win_rate": 0.47297297297297297
   },
   "Props": {
-   "avg_clv": 0.19103424657534246,
-   "clv_beat_rate": 0.1404109589041096,
-   "clv_n": 292,
-   "graded": 360,
+   "avg_clv": 0.19272390572390571,
+   "clv_beat_rate": 0.1414141414141414,
+   "clv_n": 297,
+   "graded": 369,
    "label": "Player props",
    "picks": [
     {
@@ -8104,6 +8284,24 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.411,
+     "ev": 0.79168,
+     "final": "did not play",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Romeo Doubs anytime TD",
+     "player": "Romeo Doubs",
+     "price": 330,
+     "proj": 0.539,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -130,
      "clv": 9.163,
      "edge": 17.956,
@@ -8173,6 +8371,42 @@
      "proj": 2.959,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 14.497,
+     "ev": 0.27213,
+     "final": "130",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Luther Burden III Under 57.5 receiving yards",
+     "player": "Luther Burden III",
+     "price": -114,
+     "proj": 49.236,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 14.319,
+     "ev": 0.2688,
+     "final": "308",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Caleb Williams Under 245.5 passing yards",
+     "player": "Caleb Williams",
+     "price": -114,
+     "proj": 220.534,
+     "result": "L",
+     "sport": "NFL",
      "week": "Week of Oct 19"
     },
     {
@@ -8266,6 +8500,24 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 13.168,
+     "ev": 0.24719,
+     "final": "78",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "D'Andre Swift Under 62.5 rushing yards",
+     "player": "D'Andre Swift",
+     "price": -114,
+     "proj": 54.926,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": 124,
      "clv": 0.0,
      "edge": 10.693,
@@ -8282,22 +8534,130 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -125,
+     "clv": 0.0,
+     "edge": 19.487,
+     "ev": 0.35077,
+     "final": "29",
+     "game": "Denver Nuggets @ Oklahoma City Thunder",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Jalen Williams Under 28.5 pts+reb+ast",
+     "player": "Jalen Williams",
+     "price": -125,
+     "proj": 22.058,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -113,
+     "clv": 1.457,
+     "edge": 18.414,
+     "ev": 0.35785,
+     "final": "20",
+     "game": "Denver Nuggets @ Oklahoma City Thunder",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Aaron Gordon Under 14.5 points",
+     "player": "Aaron Gordon",
+     "price": -106,
+     "proj": 12.055,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.541,
+     "ev": 0.35433,
+     "final": "17",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "LeBron James Over 17.5 points",
+     "player": "LeBron James",
+     "price": 102,
+     "proj": 20.754,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 15.114,
+     "ev": 0.28609,
+     "final": "71",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Hunter Henry Over 28.5 receiving yards",
+     "player": "Hunter Henry",
+     "price": -112,
+     "proj": 42.475,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.553,
+     "ev": 0.28027,
+     "final": "6",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Tyrese Maxey Under 6.5 assists",
+     "player": "Tyrese Maxey",
+     "price": -108,
+     "proj": 5.635,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 11.918,
+     "ev": 0.24074,
+     "final": "7",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "VJ Edgecombe Under 6.5 rebounds",
+     "player": "VJ Edgecombe",
+     "price": 102,
+     "proj": 5.953,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 181,
+    "l": 188,
     "p": 0,
-    "void": 26,
-    "w": 179
+    "void": 27,
+    "w": 181
    },
    "threshold": 7.0,
-   "win_rate": 0.49722222222222223
+   "win_rate": 0.4905149051490515
   },
   "Sides": {
-   "avg_clv": 0.011090909090909085,
-   "clv_beat_rate": 0.37272727272727274,
-   "clv_n": 550,
-   "graded": 601,
+   "avg_clv": 0.0026445242369838363,
+   "clv_beat_rate": 0.3734290843806104,
+   "clv_n": 557,
+   "graded": 610,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -18741,6 +19101,42 @@
      "week": "Week of Oct 12"
     },
     {
+     "closing_price": 132,
+     "clv": -4.173,
+     "edge": 17.866,
+     "ev": 0.37518,
+     "final": "24-30",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "New England Patriots ML",
+     "player": null,
+     "price": 110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -110,
+     "clv": -1.083,
+     "edge": 19.556,
+     "ev": 0.36561,
+     "final": "24-30",
+     "game": "New England Patriots @ Chicago Bears",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "New England Patriots +2.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -115,
      "clv": 0.0,
      "edge": 19.002,
@@ -18921,6 +19317,42 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": 114,
+     "clv": 0.23,
+     "edge": 9.797,
+     "ev": 0.21161,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Cleveland Cavaliers ML",
+     "player": null,
+     "price": 116,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -112,
+     "clv": 0.0,
+     "edge": 10.108,
+     "ev": 0.19133,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Cleveland Cavaliers +2.5",
+     "player": null,
+     "price": -112,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": -176,
      "clv": 0.0,
      "edge": 6.546,
@@ -18937,6 +19369,42 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 12"
+    },
+    {
+     "closing_price": 330,
+     "clv": -0.571,
+     "edge": 13.201,
+     "ev": 0.55442,
+     "final": "34-41",
+     "game": "East Carolina Pirates @ Memphis Tigers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "East Carolina Pirates ML",
+     "player": null,
+     "price": 320,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.431,
+     "edge": 14.243,
+     "ev": 0.26313,
+     "final": "34-41",
+     "game": "East Carolina Pirates @ Memphis Tigers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "East Carolina Pirates +10.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
     },
     {
      "closing_price": null,
@@ -19065,6 +19533,24 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": 330,
+     "clv": 0.539,
+     "edge": 19.968,
+     "ev": 0.8786,
+     "final": "34-6",
+     "game": "Liberty Flames @ Kennesaw State Owls",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Kennesaw State Owls ML",
+     "player": null,
+     "price": 340,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
      "closing_price": 265,
      "clv": 0.0,
      "edge": 11.757,
@@ -19117,22 +19603,58 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.407,
+     "ev": 0.30797,
+     "final": "34-41",
+     "game": "East Carolina Pirates @ Memphis Tigers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Memphis Tigers +3.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 19"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 9.044,
+     "ev": 0.25504,
+     "final": "106-114",
+     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Philadelphia 76ers ML",
+     "player": null,
+     "price": 182,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 19"
     }
    ],
    "record": {
-    "l": 288,
+    "l": 294,
     "p": 1,
     "void": 0,
-    "w": 312
+    "w": 315
    },
    "threshold": 5.0,
-   "win_rate": 0.52
+   "win_rate": 0.5172413793103449
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 26,
-  "Props": 173,
-  "Sides": 96
+  "Cosmic": 16,
+  "Props": 163,
+  "Sides": 87
  }
 }
