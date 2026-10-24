@@ -1829,10 +1829,10 @@
   "price": 130,
   "fairPctAtFlag": 44.4,
   "evPctAtFlag": 2.02,
-  "closeFairPct": 47.2,
+  "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 8.56,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 9.02,
   "closed": false
  },
  {
@@ -1856,7 +1856,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 48.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 11.26,
   "closed": false
  },
@@ -1881,7 +1881,7 @@
   "evPctAtFlag": 7.01,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -1906,7 +1906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 58.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 2.79,
   "closed": false
  },
@@ -1929,10 +1929,10 @@
   "price": 126,
   "fairPctAtFlag": 45.8,
   "evPctAtFlag": 3.53,
-  "closeFairPct": 41.8,
+  "closeFairPct": 42.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": -5.53,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": -3.72,
   "closed": false
  },
  {
@@ -2033,7 +2033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T15:05:13+00:00",
   "clvPct": 4.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b4b3b6c003cd39a6258130ad906d0025|h2h|Sacramento State Hornets|None",
@@ -2054,10 +2054,10 @@
   "price": 380,
   "fairPctAtFlag": 21.8,
   "evPctAtFlag": 4.87,
-  "closeFairPct": 16.6,
+  "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": -20.32,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": -18.88,
   "closed": false
  },
  {
@@ -2079,10 +2079,10 @@
   "price": 360,
   "fairPctAtFlag": 22.5,
   "evPctAtFlag": 3.4,
-  "closeFairPct": 18.1,
+  "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": -16.74,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": -16.28,
   "closed": false
  },
  {
@@ -2106,7 +2106,7 @@
   "evPctAtFlag": 4.7,
   "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": -4.12,
   "closed": false
  },
@@ -2131,7 +2131,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 36.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 19.27,
   "closed": false
  },
@@ -2181,7 +2181,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 34.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 0.3,
   "closed": false
  },
@@ -2283,7 +2283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T15:05:13+00:00",
   "clvPct": 1.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "173057d32ff5946d42566a0d164de287|h2h|Texas A&M Aggies|None",
@@ -2306,7 +2306,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 17.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 5.6,
   "closed": false
  },
@@ -2329,10 +2329,10 @@
   "price": 430,
   "fairPctAtFlag": 19.8,
   "evPctAtFlag": 5.12,
-  "closeFairPct": 16.9,
+  "closeFairPct": 16.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": -10.43,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": -14.14,
   "closed": false
  },
  {
@@ -2356,7 +2356,7 @@
   "evPctAtFlag": 9.51,
   "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": -2.21,
   "closed": false
  },
@@ -2456,7 +2456,7 @@
   "evPctAtFlag": 7.89,
   "closeFairPct": 42.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 13.4,
   "closed": false
  },
@@ -2506,7 +2506,7 @@
   "evPctAtFlag": 3.16,
   "closeFairPct": 52.2,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 1.91,
   "closed": false
  },
@@ -2581,7 +2581,7 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 28.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": -3.44,
   "closed": false
  },
@@ -2633,7 +2633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T15:05:13+00:00",
   "clvPct": -3.05,
-  "closed": false
+  "closed": true
  },
  {
   "key": "cc78a514047b7ed0d2c5a3acdf3cdc1e|h2h|Vanderbilt Commodores|None",
@@ -2654,10 +2654,10 @@
   "price": 380,
   "fairPctAtFlag": 21.6,
   "evPctAtFlag": 3.58,
-  "closeFairPct": 21.3,
+  "closeFairPct": 21.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 2.24,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 2.72,
   "closed": false
  },
  {
@@ -2708,7 +2708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T15:05:13+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c4e171dd82e86c3a4dd50d4d3b54edab|h2h|Utah State Aggies|None",
@@ -2731,7 +2731,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": -1.55,
   "closed": false
  },
@@ -2754,10 +2754,10 @@
   "price": 240,
   "fairPctAtFlag": 30.6,
   "evPctAtFlag": 4.2,
-  "closeFairPct": 27.6,
+  "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": -6.16,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": -6.5,
   "closed": false
  },
  {
@@ -2979,10 +2979,10 @@
   "price": 510,
   "fairPctAtFlag": 17.4,
   "evPctAtFlag": 6.37,
-  "closeFairPct": 14.8,
+  "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": -9.72,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": -10.33,
   "closed": false
  },
  {
@@ -5656,7 +5656,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 22.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 2.15,
   "closed": false
  },
@@ -5679,10 +5679,10 @@
   "price": 130,
   "fairPctAtFlag": 44.4,
   "evPctAtFlag": 2.04,
-  "closeFairPct": 50.2,
+  "closeFairPct": 52.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 15.46,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 20.06,
   "closed": false
  },
  {
@@ -5731,7 +5731,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 22.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 10.58,
   "closed": false
  },
@@ -5756,7 +5756,7 @@
   "evPctAtFlag": 5.39,
   "closeFairPct": 52.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 4.8,
   "closed": false
  },
@@ -5881,7 +5881,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 2.06,
   "closed": false
  },
@@ -6529,10 +6529,10 @@
   "price": 105,
   "fairPctAtFlag": 50.0,
   "evPctAtFlag": 2.5,
-  "closeFairPct": 48.9,
+  "closeFairPct": 49.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 0.24,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 0.66,
   "closed": false
  },
  {
@@ -6554,10 +6554,10 @@
   "price": 135,
   "fairPctAtFlag": 43.5,
   "evPctAtFlag": 2.31,
-  "closeFairPct": 43.3,
+  "closeFairPct": 43.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 1.75,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 2.46,
   "closed": false
  },
  {
@@ -6606,7 +6606,7 @@
   "evPctAtFlag": 2.16,
   "closeFairPct": 50.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 0.41,
   "closed": false
  },
@@ -8406,7 +8406,7 @@
   "evPctAtFlag": 3.79,
   "closeFairPct": 28.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 4.75,
   "closed": false
  },
@@ -8904,10 +8904,10 @@
   "price": 114,
   "fairPctAtFlag": 48.1,
   "evPctAtFlag": 2.86,
-  "closeFairPct": 52.3,
+  "closeFairPct": 52.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 11.92,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 12.14,
   "closed": false
  },
  {
@@ -8931,7 +8931,7 @@
   "evPctAtFlag": 3.84,
   "closeFairPct": 47.9,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
   "clvPct": 3.94,
   "closed": false
  },
@@ -8954,10 +8954,10 @@
   "price": 500,
   "fairPctAtFlag": 17.1,
   "evPctAtFlag": 2.72,
-  "closeFairPct": 17.1,
+  "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 2.6,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 3.8,
   "closed": false
  },
  {
@@ -8979,10 +8979,10 @@
   "price": 490,
   "fairPctAtFlag": 17.7,
   "evPctAtFlag": 4.7,
-  "closeFairPct": 17.7,
+  "closeFairPct": 18.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 4.43,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 6.79,
   "closed": false
  },
  {
@@ -9004,10 +9004,10 @@
   "price": 400,
   "fairPctAtFlag": 20.7,
   "evPctAtFlag": 3.61,
-  "closeFairPct": 20.7,
+  "closeFairPct": 20.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 3.5,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 1.5,
   "closed": false
  },
  {
@@ -9029,10 +9029,110 @@
   "price": 320,
   "fairPctAtFlag": 24.7,
   "evPctAtFlag": 3.73,
-  "closeFairPct": 24.7,
+  "closeFairPct": 24.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T15:05:13+00:00",
-  "clvPct": 3.74,
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 4.16,
+  "closed": false
+ },
+ {
+  "key": "0abd50d04d02296b33809f9458fd47e4|player_assists|Davion Mitchell|6.5|Davion Mitchell Under 6.5|None",
+  "eventId": "0abd50d04d02296b33809f9458fd47e4",
+  "sport": "NBA",
+  "game": "Miami Heat at Charlotte Hornets",
+  "time": "2026-10-24T22:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Davion Mitchell",
+  "name": "Under",
+  "line": 6.5,
+  "team": "Davion Mitchell Under 6.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-24T16:50:57+00:00",
+  "price": -125,
+  "fairPctAtFlag": 57.1,
+  "evPctAtFlag": 2.8,
+  "closeFairPct": 57.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 2.78,
+  "closed": false
+ },
+ {
+  "key": "0abd50d04d02296b33809f9458fd47e4|player_assists|Klay Thompson|1.5|Klay Thompson Over 1.5|None",
+  "eventId": "0abd50d04d02296b33809f9458fd47e4",
+  "sport": "NBA",
+  "game": "Miami Heat at Charlotte Hornets",
+  "time": "2026-10-24T22:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Klay Thompson",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Klay Thompson Over 1.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-24T16:50:57+00:00",
+  "price": 130,
+  "fairPctAtFlag": 44.4,
+  "evPctAtFlag": 2.01,
+  "closeFairPct": 44.4,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 2.12,
+  "closed": false
+ },
+ {
+  "key": "0abd50d04d02296b33809f9458fd47e4|player_rebounds|Naz Reid|7.5|Naz Reid Under 7.5|None",
+  "eventId": "0abd50d04d02296b33809f9458fd47e4",
+  "sport": "NBA",
+  "game": "Miami Heat at Charlotte Hornets",
+  "time": "2026-10-24T22:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Naz Reid",
+  "name": "Under",
+  "line": 7.5,
+  "team": "Naz Reid Under 7.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-24T16:50:57+00:00",
+  "price": 105,
+  "fairPctAtFlag": 50.2,
+  "evPctAtFlag": 2.91,
+  "closeFairPct": 50.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 2.91,
+  "closed": false
+ },
+ {
+  "key": "0abd50d04d02296b33809f9458fd47e4|player_threes|Sion James|1.5|Sion James Over 1.5|None",
+  "eventId": "0abd50d04d02296b33809f9458fd47e4",
+  "sport": "NBA",
+  "game": "Miami Heat at Charlotte Hornets",
+  "time": "2026-10-24T22:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Sion James",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Sion James Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-24T16:50:57+00:00",
+  "price": 130,
+  "fairPctAtFlag": 44.4,
+  "evPctAtFlag": 2.01,
+  "closeFairPct": 44.4,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-24T16:50:57+00:00",
+  "clvPct": 2.12,
   "closed": false
  }
 ]
