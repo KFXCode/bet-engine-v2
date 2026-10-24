@@ -1833,7 +1833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T18:45:09+00:00",
   "clvPct": 7.87,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c5223791e733b6bc0744618614b007b7|h2h|Colorado State Rams|None",
@@ -1854,10 +1854,10 @@
   "price": 128,
   "fairPctAtFlag": 45.4,
   "evPctAtFlag": 3.53,
-  "closeFairPct": 48.8,
+  "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
-  "clvPct": 11.26,
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
+  "clvPct": 10.81,
   "closed": false
  },
  {
@@ -1881,7 +1881,7 @@
   "evPctAtFlag": 7.01,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -1906,7 +1906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 58.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.79,
   "closed": false
  },
@@ -1931,7 +1931,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 42.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -3.72,
   "closed": false
  },
@@ -2058,7 +2058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T18:45:09+00:00",
   "clvPct": -18.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7d846d56825d93b254d23d0929bba224|h2h|Old Dominion Monarchs|None",
@@ -2079,10 +2079,10 @@
   "price": 360,
   "fairPctAtFlag": 22.5,
   "evPctAtFlag": 3.4,
-  "closeFairPct": 18.1,
+  "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
-  "clvPct": -16.74,
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
+  "clvPct": -15.82,
   "closed": false
  },
  {
@@ -2106,7 +2106,7 @@
   "evPctAtFlag": 4.7,
   "closeFairPct": 20.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -3.65,
   "closed": false
  },
@@ -2131,7 +2131,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 38.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 26.1,
   "closed": false
  },
@@ -2181,7 +2181,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 32.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -3.24,
   "closed": false
  },
@@ -2308,7 +2308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T18:45:09+00:00",
   "clvPct": 7.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "8a67420bfc49f0bcf8c92bc4c08be602|h2h|Washington State Cougars|None",
@@ -2329,10 +2329,10 @@
   "price": 430,
   "fairPctAtFlag": 19.8,
   "evPctAtFlag": 5.12,
-  "closeFairPct": 16.2,
+  "closeFairPct": 16.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
-  "clvPct": -14.14,
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
+  "clvPct": -12.55,
   "closed": false
  },
  {
@@ -2356,7 +2356,7 @@
   "evPctAtFlag": 9.51,
   "closeFairPct": 24.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -5.67,
   "closed": false
  },
@@ -2456,7 +2456,7 @@
   "evPctAtFlag": 7.89,
   "closeFairPct": 42.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 13.94,
   "closed": false
  },
@@ -2581,7 +2581,7 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 28.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -3.44,
   "closed": false
  },
@@ -2656,7 +2656,7 @@
   "evPctAtFlag": 3.58,
   "closeFairPct": 21.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.72,
   "closed": false
  },
@@ -2731,7 +2731,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -1.55,
   "closed": false
  },
@@ -2758,7 +2758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T18:45:09+00:00",
   "clvPct": -5.14,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6dab7d3b6ae25bd042a24a6e550a4f23|spreads|Iowa Hawkeyes:-6.5/Minnesota Golden Gophers:6.5|Minnesota Golden Gophers|6.5",
@@ -2783,7 +2783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T17:35:15+00:00",
   "clvPct": 2.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_assists|LeBron James|7.5|LeBron James Under 7.5|None",
@@ -2983,7 +2983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T18:45:09+00:00",
   "clvPct": -10.33,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2b042ddad3d3c6c6fe5b7005dc26c775|player_points|Joel Embiid|22.5|Joel Embiid Over 22.5|None",
@@ -5656,7 +5656,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 22.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.15,
   "closed": false
  },
@@ -5729,10 +5729,10 @@
   "price": 385,
   "fairPctAtFlag": 21.0,
   "evPctAtFlag": 2.07,
-  "closeFairPct": 22.1,
+  "closeFairPct": 20.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
-  "clvPct": 7.18,
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
+  "clvPct": -0.09,
   "closed": false
  },
  {
@@ -5756,7 +5756,7 @@
   "evPctAtFlag": 5.39,
   "closeFairPct": 52.4,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 4.8,
   "closed": false
  },
@@ -5881,7 +5881,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.06,
   "closed": false
  },
@@ -6531,7 +6531,7 @@
   "evPctAtFlag": 2.5,
   "closeFairPct": 49.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 0.66,
   "closed": false
  },
@@ -6556,7 +6556,7 @@
   "evPctAtFlag": 2.31,
   "closeFairPct": 43.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 3.16,
   "closed": false
  },
@@ -6606,7 +6606,7 @@
   "evPctAtFlag": 2.16,
   "closeFairPct": 50.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 0.41,
   "closed": false
  },
@@ -8408,7 +8408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-24T18:45:09+00:00",
   "clvPct": 0.01,
-  "closed": false
+  "closed": true
  },
  {
   "key": "49fc89a9696a9a20b658732b34ce61c4|player_assists|Dylan Harper|4.5|Dylan Harper Over 4.5|None",
@@ -8906,7 +8906,7 @@
   "evPctAtFlag": 2.86,
   "closeFairPct": 52.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 13.21,
   "closed": false
  },
@@ -8931,7 +8931,7 @@
   "evPctAtFlag": 3.84,
   "closeFairPct": 46.2,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 0.25,
   "closed": false
  },
@@ -8956,7 +8956,7 @@
   "evPctAtFlag": 2.72,
   "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 3.8,
   "closed": false
  },
@@ -8979,10 +8979,10 @@
   "price": 490,
   "fairPctAtFlag": 17.7,
   "evPctAtFlag": 4.7,
-  "closeFairPct": 15.7,
+  "closeFairPct": 15.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
-  "clvPct": -7.37,
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
+  "clvPct": -7.96,
   "closed": false
  },
  {
@@ -9006,7 +9006,7 @@
   "evPctAtFlag": 3.61,
   "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 1.0,
   "closed": false
  },
@@ -9029,10 +9029,10 @@
   "price": 320,
   "fairPctAtFlag": 24.7,
   "evPctAtFlag": 3.73,
-  "closeFairPct": 25.2,
+  "closeFairPct": 25.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
-  "clvPct": 5.84,
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
+  "clvPct": 5.0,
   "closed": false
  },
  {
@@ -9056,7 +9056,7 @@
   "evPctAtFlag": 2.8,
   "closeFairPct": 56.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 1.7,
   "closed": false
  },
@@ -9081,7 +9081,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 42.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": -1.79,
   "closed": false
  },
@@ -9106,7 +9106,7 @@
   "evPctAtFlag": 2.91,
   "closeFairPct": 50.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 4.14,
   "closed": false
  },
@@ -9131,7 +9131,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 44.4,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -9156,7 +9156,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 60.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.11,
   "closed": false
  },
@@ -9181,7 +9181,7 @@
   "evPctAtFlag": 3.18,
   "closeFairPct": 56.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 3.22,
   "closed": false
  },
@@ -9206,7 +9206,7 @@
   "evPctAtFlag": 4.5,
   "closeFairPct": 48.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 4.54,
   "closed": false
  },
@@ -9231,7 +9231,7 @@
   "evPctAtFlag": 2.03,
   "closeFairPct": 54.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-24T18:45:09+00:00",
+  "closeSeenAt": "2026-10-24T19:35:09+00:00",
   "clvPct": 2.08,
   "closed": false
  }
