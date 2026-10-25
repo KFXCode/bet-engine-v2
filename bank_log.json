@@ -2108,7 +2108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 1.05,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f7679cf18454e4d88a8f2b990c3f08ac|h2h|Las Vegas Raiders|None",
@@ -2129,10 +2129,10 @@
   "price": 225,
   "fairPctAtFlag": 31.8,
   "evPctAtFlag": 3.48,
-  "closeFairPct": 39.2,
+  "closeFairPct": 38.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T16:30:09+00:00",
-  "clvPct": 27.4,
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
+  "clvPct": 26.42,
   "closed": false
  },
  {
@@ -2179,10 +2179,10 @@
   "price": 195,
   "fairPctAtFlag": 34.6,
   "evPctAtFlag": 2.04,
-  "closeFairPct": 33.5,
+  "closeFairPct": 33.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T16:30:09+00:00",
-  "clvPct": -1.17,
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
+  "clvPct": -1.77,
   "closed": false
  },
  {
@@ -2458,7 +2458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 8.81,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2823e986597c449ab94126cd5ed3fae9|spreads|Carolina Panthers:-3.5/Tampa Bay Buccaneers:3.5|Tampa Bay Buccaneers|3.5",
@@ -2483,7 +2483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-22T01:47:26+00:00",
   "clvPct": 2.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e8e5715eefb6a9ce64765e9ddf49c0cc|spreads|Detroit Lions:-3.0/Green Bay Packers:3.0|Detroit Lions|-3.0",
@@ -2583,7 +2583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": -11.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "26b036ff107f3c658258eaf4a6f26228|h2h|Detroit Pistons|None",
@@ -5758,7 +5758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "110e33c79c5ec8c0377702aff685f83b|player_points|Donovan Mitchell|26.5|Donovan Mitchell Under 26.5|None",
@@ -11479,10 +11479,10 @@
   "price": -230,
   "fairPctAtFlag": 71.2,
   "evPctAtFlag": 2.23,
-  "closeFairPct": 70.0,
+  "closeFairPct": 68.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T16:30:09+00:00",
-  "clvPct": 0.43,
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
+  "clvPct": -2.15,
   "closed": false
  },
  {
@@ -11506,7 +11506,7 @@
   "evPctAtFlag": 3.94,
   "closeFairPct": 49.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
   "clvPct": 2.05,
   "closed": false
  },
@@ -11531,7 +11531,7 @@
   "evPctAtFlag": 3.3,
   "closeFairPct": 28.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
   "clvPct": 6.19,
   "closed": false
  },
@@ -11558,7 +11558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.46,
-  "closed": false
+  "closed": true
  },
  {
   "key": "550ec5290f935d311995affbcb0b5c79|player_receptions|Dohnte Meyers|1.5|Dohnte Meyers Under 1.5|None",
@@ -11583,7 +11583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 5.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5dce18baccec5d3ad5fb3a3ce52f7619|player_receptions|Elic Ayomanor|1.5|Elic Ayomanor Under 1.5|None",
@@ -11608,7 +11608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5dce18baccec5d3ad5fb3a3ce52f7619|player_receptions|Gunnar Helm|1.5|Gunnar Helm Under 1.5|None",
@@ -11633,7 +11633,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 9.25,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5dce18baccec5d3ad5fb3a3ce52f7619|player_receptions|Quinshon Judkins|2.5|Quinshon Judkins Over 2.5|None",
@@ -11658,7 +11658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.58,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f3992ad4496724baf7dcd1ef58245d6b|player_receptions|Laquon Treadwell|1.5|Laquon Treadwell Under 1.5|None",
@@ -11683,7 +11683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.87,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|player_reception_yds|Mason Taylor|17.5|Mason Taylor Over 17.5|None",
@@ -11708,7 +11708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 1.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|player_reception_yds|Ollie Gordon II|8.5|Ollie Gordon II Under 8.5|None",
@@ -11733,7 +11733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.73,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|player_receptions|Garrett Wilson|5.5|Garrett Wilson Under 5.5|None",
@@ -11758,7 +11758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|player_receptions|Malik Washington|4.5|Malik Washington Over 4.5|None",
@@ -11783,7 +11783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|player_receptions|Omar Cooper Jr.|2.5|Omar Cooper Jr. Under 2.5|None",
@@ -11808,7 +11808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2bba7fde6f97d0e54403d53676e4ab63|player_receptions|Kayshon Boutte|1.5|Kayshon Boutte Over 1.5|None",
@@ -11833,7 +11833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2bba7fde6f97d0e54403d53676e4ab63|player_receptions|Xavier Hutchinson|1.5|Xavier Hutchinson Over 1.5|None",
@@ -11858,7 +11858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.96,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b1be064fb52a198a62109c279e7ab24c|player_receptions|Austin Hooper|0.5|Austin Hooper Under 0.5|None",
@@ -11883,7 +11883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.28,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|h2h|Miami Dolphins|None",
@@ -11908,7 +11908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "be5dd120ca08b43d647b6caa8953500a|spreads|Miami Dolphins:3.5/New York Jets:-3.5|Miami Dolphins|3.5",
@@ -11933,6 +11933,81 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.2,
+  "closed": true
+ },
+ {
+  "key": "3f57b691d91174cd878320071f585c11|h2h|Brooklyn Nets|None",
+  "eventId": "3f57b691d91174cd878320071f585c11",
+  "sport": "NBA",
+  "game": "Indiana Pacers at Brooklyn Nets",
+  "time": "2026-10-25T22:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Brooklyn Nets",
+  "line": null,
+  "team": "Brooklyn Nets",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-25T17:35:09+00:00",
+  "price": 225,
+  "fairPctAtFlag": 31.8,
+  "evPctAtFlag": 3.19,
+  "closeFairPct": 31.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
+  "clvPct": 3.35,
+  "closed": false
+ },
+ {
+  "key": "e6834225d7e218a59333dbbc01fe67ab|h2h|Los Angeles Clippers|None",
+  "eventId": "e6834225d7e218a59333dbbc01fe67ab",
+  "sport": "NBA",
+  "game": "Los Angeles Clippers at Oklahoma City Thunder",
+  "time": "2026-10-25T23:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Los Angeles Clippers",
+  "line": null,
+  "team": "Los Angeles Clippers",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-25T17:35:09+00:00",
+  "price": 900,
+  "fairPctAtFlag": 10.4,
+  "evPctAtFlag": 4.21,
+  "closeFairPct": 10.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
+  "clvPct": 4.0,
+  "closed": false
+ },
+ {
+  "key": "5b70654c977b6cc9a110ad8c04c57cac|spreads|Detroit Red Wings:1.5/Edmonton Oilers:-1.5|Detroit Red Wings|1.5",
+  "eventId": "5b70654c977b6cc9a110ad8c04c57cac",
+  "sport": "NHL",
+  "game": "Detroit Red Wings at Edmonton Oilers",
+  "time": "2026-10-27T01:40:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Detroit Red Wings",
+  "line": 1.5,
+  "team": "Detroit Red Wings",
+  "point": 1.5,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-25T17:35:09+00:00",
+  "price": -134,
+  "fairPctAtFlag": 58.6,
+  "evPctAtFlag": 2.25,
+  "closeFairPct": 58.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-25T17:35:09+00:00",
+  "clvPct": 2.33,
   "closed": false
  }
 ]
