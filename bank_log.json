@@ -2131,7 +2131,7 @@
   "evPctAtFlag": 3.48,
   "closeFairPct": 38.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 26.42,
   "closed": false
  },
@@ -2181,7 +2181,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 34.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 0.3,
   "closed": false
  },
@@ -11479,10 +11479,10 @@
   "price": -230,
   "fairPctAtFlag": 71.2,
   "evPctAtFlag": 2.23,
-  "closeFairPct": 68.1,
+  "closeFairPct": 67.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
-  "clvPct": -2.29,
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
+  "clvPct": -2.72,
   "closed": false
  },
  {
@@ -11506,7 +11506,7 @@
   "evPctAtFlag": 3.94,
   "closeFairPct": 49.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 2.05,
   "closed": false
  },
@@ -11531,7 +11531,7 @@
   "evPctAtFlag": 3.3,
   "closeFairPct": 28.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 6.19,
   "closed": false
  },
@@ -11954,10 +11954,10 @@
   "price": 225,
   "fairPctAtFlag": 31.8,
   "evPctAtFlag": 3.19,
-  "closeFairPct": 31.9,
+  "closeFairPct": 32.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
-  "clvPct": 3.68,
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
+  "clvPct": 4.65,
   "closed": false
  },
  {
@@ -11979,10 +11979,10 @@
   "price": 900,
   "fairPctAtFlag": 10.4,
   "evPctAtFlag": 4.21,
-  "closeFairPct": 10.5,
+  "closeFairPct": 10.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
-  "clvPct": 5.0,
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
+  "clvPct": 3.0,
   "closed": false
  },
  {
@@ -12006,7 +12006,7 @@
   "evPctAtFlag": 2.25,
   "closeFairPct": 59.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 3.03,
   "closed": false
  },
@@ -12031,7 +12031,7 @@
   "evPctAtFlag": 2.43,
   "closeFairPct": 53.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 2.39,
   "closed": false
  },
@@ -12056,7 +12056,7 @@
   "evPctAtFlag": 3.41,
   "closeFairPct": 39.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 3.49,
   "closed": false
  },
@@ -12081,7 +12081,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 51.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 2.4,
   "closed": false
  },
@@ -12106,7 +12106,7 @@
   "evPctAtFlag": 6.87,
   "closeFairPct": 57.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 6.94,
   "closed": false
  },
@@ -12131,7 +12131,7 @@
   "evPctAtFlag": 2.03,
   "closeFairPct": 44.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -12156,7 +12156,7 @@
   "evPctAtFlag": 4.15,
   "closeFairPct": 49.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 4.16,
   "closed": false
  },
@@ -12181,7 +12181,7 @@
   "evPctAtFlag": 2.43,
   "closeFairPct": 53.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 2.39,
   "closed": false
  },
@@ -12206,7 +12206,7 @@
   "evPctAtFlag": 2.47,
   "closeFairPct": 52.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T18:52:10+00:00",
+  "closeSeenAt": "2026-10-25T19:35:09+00:00",
   "clvPct": 2.5,
   "closed": false
  }
