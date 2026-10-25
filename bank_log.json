@@ -2106,7 +2106,7 @@
   "evPctAtFlag": 4.7,
   "closeFairPct": 20.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
   "clvPct": -3.65,
   "closed": false
  },
@@ -2129,10 +2129,10 @@
   "price": 225,
   "fairPctAtFlag": 31.8,
   "evPctAtFlag": 3.48,
-  "closeFairPct": 38.8,
+  "closeFairPct": 39.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
-  "clvPct": 26.1,
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
+  "clvPct": 27.08,
   "closed": false
  },
  {
@@ -2179,10 +2179,10 @@
   "price": 195,
   "fairPctAtFlag": 34.6,
   "evPctAtFlag": 2.04,
-  "closeFairPct": 32.8,
+  "closeFairPct": 34.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
-  "clvPct": -3.24,
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
+  "clvPct": 0.3,
   "closed": false
  },
  {
@@ -2454,10 +2454,10 @@
   "price": 170,
   "fairPctAtFlag": 40.0,
   "evPctAtFlag": 7.89,
-  "closeFairPct": 42.2,
+  "closeFairPct": 40.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
-  "clvPct": 13.94,
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
+  "clvPct": 9.62,
   "closed": false
  },
  {
@@ -2579,10 +2579,10 @@
   "price": 240,
   "fairPctAtFlag": 30.1,
   "evPctAtFlag": 2.38,
-  "closeFairPct": 28.4,
+  "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
-  "clvPct": -3.44,
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
+  "clvPct": -5.48,
   "closed": false
  },
  {
@@ -5756,7 +5756,7 @@
   "evPctAtFlag": 5.39,
   "closeFairPct": 52.4,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
   "clvPct": 4.8,
   "closed": false
  },
@@ -6608,7 +6608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 0.41,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fd0625e5807950edc0d2d31772639859|player_points|Luguentz Dort|6.5|Luguentz Dort Over 6.5|None",
@@ -9033,7 +9033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": -5.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0abd50d04d02296b33809f9458fd47e4|player_assists|Davion Mitchell|6.5|Davion Mitchell Under 6.5|None",
@@ -11033,7 +11033,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 3.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_assists|Gui Santos|3.5|Gui Santos Over 3.5|None",
@@ -11058,7 +11058,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 6.72,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_assists|Yaxel Lendeborg|3.5|Yaxel Lendeborg Under 3.5|None",
@@ -11083,7 +11083,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": -7.92,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_points|Yaxel Lendeborg|17.5|Yaxel Lendeborg Under 17.5|None",
@@ -11108,7 +11108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 2.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_threes|Dillon Brooks|1.5|Dillon Brooks Under 1.5|None",
@@ -11133,7 +11133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 6.47,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_threes|Jalen Green|2.5|Jalen Green Over 2.5|None",
@@ -11158,7 +11158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 0.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "66849d2333774f4256873260f8e48c6c|player_assists|Alperen Sengun|5.5|Alperen Sengun Under 5.5|None",
@@ -11358,7 +11358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 7.31,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_points|Khaman Maluach|9.5|Khaman Maluach Under 9.5|None",
@@ -11383,7 +11383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 4.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_threes|Brandon Williams|1.5|Brandon Williams Over 1.5|None",
@@ -11408,7 +11408,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 4.1,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_points|De'Anthony Melton|12.5|De'Anthony Melton Over 12.5|None",
@@ -11433,7 +11433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 3.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a71197130d9b661f5b29c812583fe652|player_points|Gui Santos|12.5|Gui Santos Over 12.5|None",
@@ -11458,7 +11458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 3.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3f57b691d91174cd878320071f585c11|h2h|Indiana Pacers|None",
@@ -11479,10 +11479,10 @@
   "price": -230,
   "fairPctAtFlag": 71.2,
   "evPctAtFlag": 2.23,
-  "closeFairPct": 71.2,
+  "closeFairPct": 70.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T01:33:23+00:00",
-  "clvPct": 2.16,
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
+  "clvPct": 0.72,
   "closed": false
  },
  {
@@ -11508,6 +11508,31 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T01:33:23+00:00",
   "clvPct": 3.91,
+  "closed": false
+ },
+ {
+  "key": "4bdaabae0c074d48156aaa3e315a5c4d|h2h|Orlando Magic|None",
+  "eventId": "4bdaabae0c074d48156aaa3e315a5c4d",
+  "sport": "NBA",
+  "game": "Orlando Magic at New York Knicks",
+  "time": "2026-10-25T23:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Orlando Magic",
+  "line": null,
+  "team": "Orlando Magic",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-25T07:55:13+00:00",
+  "price": 270,
+  "fairPctAtFlag": 27.9,
+  "evPctAtFlag": 3.3,
+  "closeFairPct": 27.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-25T07:55:13+00:00",
+  "clvPct": 3.23,
   "closed": false
  }
 ]
