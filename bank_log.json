@@ -2104,10 +2104,10 @@
   "price": 370,
   "fairPctAtFlag": 22.3,
   "evPctAtFlag": 4.7,
-  "closeFairPct": 20.8,
+  "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
-  "clvPct": -2.24,
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": 1.05,
   "closed": false
  },
  {
@@ -2129,10 +2129,10 @@
   "price": 225,
   "fairPctAtFlag": 31.8,
   "evPctAtFlag": 3.48,
-  "closeFairPct": 38.9,
+  "closeFairPct": 39.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
-  "clvPct": 26.42,
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": 27.4,
   "closed": false
  },
  {
@@ -2179,10 +2179,10 @@
   "price": 195,
   "fairPctAtFlag": 34.6,
   "evPctAtFlag": 2.04,
-  "closeFairPct": 33.6,
+  "closeFairPct": 33.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
-  "clvPct": -0.88,
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": -1.17,
   "closed": false
  },
  {
@@ -2454,10 +2454,10 @@
   "price": 170,
   "fairPctAtFlag": 40.0,
   "evPctAtFlag": 7.89,
-  "closeFairPct": 40.8,
+  "closeFairPct": 40.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
-  "clvPct": 10.16,
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": 8.81,
   "closed": false
  },
  {
@@ -2579,10 +2579,10 @@
   "price": 240,
   "fairPctAtFlag": 30.1,
   "evPctAtFlag": 2.38,
-  "closeFairPct": 26.2,
+  "closeFairPct": 26.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
-  "clvPct": -10.92,
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": -11.6,
   "closed": false
  },
  {
@@ -5754,10 +5754,10 @@
   "price": 100,
   "fairPctAtFlag": 52.7,
   "evPctAtFlag": 5.39,
-  "closeFairPct": 51.6,
+  "closeFairPct": 51.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
-  "clvPct": 3.2,
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": 2.4,
   "closed": false
  },
  {
@@ -11481,7 +11481,7 @@
   "evPctAtFlag": 2.23,
   "closeFairPct": 70.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 0.43,
   "closed": false
  },
@@ -11506,7 +11506,7 @@
   "evPctAtFlag": 3.94,
   "closeFairPct": 49.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.05,
   "closed": false
  },
@@ -11531,7 +11531,7 @@
   "evPctAtFlag": 3.3,
   "closeFairPct": 28.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 6.19,
   "closed": false
  },
@@ -11556,7 +11556,7 @@
   "evPctAtFlag": 2.48,
   "closeFairPct": 53.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.46,
   "closed": false
  },
@@ -11581,7 +11581,7 @@
   "evPctAtFlag": 5.0,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -11606,7 +11606,7 @@
   "evPctAtFlag": 3.45,
   "closeFairPct": 53.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.42,
   "closed": false
  },
@@ -11631,7 +11631,7 @@
   "evPctAtFlag": 9.34,
   "closeFairPct": 43.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 9.25,
   "closed": false
  },
@@ -11656,7 +11656,7 @@
   "evPctAtFlag": 2.54,
   "closeFairPct": 41.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.58,
   "closed": false
  },
@@ -11681,7 +11681,7 @@
   "evPctAtFlag": 2.86,
   "closeFairPct": 40.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.87,
   "closed": false
  },
@@ -11706,7 +11706,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 54.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 1.98,
   "closed": false
  },
@@ -11731,7 +11731,7 @@
   "evPctAtFlag": 2.77,
   "closeFairPct": 54.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.73,
   "closed": false
  },
@@ -11756,7 +11756,7 @@
   "evPctAtFlag": 3.0,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.0,
   "closed": false
  },
@@ -11781,7 +11781,7 @@
   "evPctAtFlag": 2.32,
   "closeFairPct": 45.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.37,
   "closed": false
  },
@@ -11806,7 +11806,7 @@
   "evPctAtFlag": 2.94,
   "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.91,
   "closed": false
  },
@@ -11831,7 +11831,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 41.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.09,
   "closed": false
  },
@@ -11856,7 +11856,7 @@
   "evPctAtFlag": 3.01,
   "closeFairPct": 39.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 2.96,
   "closed": false
  },
@@ -11881,8 +11881,58 @@
   "evPctAtFlag": 3.24,
   "closeFairPct": 45.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T15:45:09+00:00",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
   "clvPct": 3.28,
+  "closed": false
+ },
+ {
+  "key": "be5dd120ca08b43d647b6caa8953500a|h2h|Miami Dolphins|None",
+  "eventId": "be5dd120ca08b43d647b6caa8953500a",
+  "sport": "NFL",
+  "game": "Miami Dolphins at New York Jets",
+  "time": "2026-10-25T17:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Miami Dolphins",
+  "line": null,
+  "team": "Miami Dolphins",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-25T16:30:09+00:00",
+  "price": 180,
+  "fairPctAtFlag": 37.0,
+  "evPctAtFlag": 3.68,
+  "closeFairPct": 37.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": 3.6,
+  "closed": false
+ },
+ {
+  "key": "be5dd120ca08b43d647b6caa8953500a|spreads|Miami Dolphins:3.5/New York Jets:-3.5|Miami Dolphins|3.5",
+  "eventId": "be5dd120ca08b43d647b6caa8953500a",
+  "sport": "NFL",
+  "game": "Miami Dolphins at New York Jets",
+  "time": "2026-10-25T17:00:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Miami Dolphins",
+  "line": 3.5,
+  "team": "Miami Dolphins",
+  "point": 3.5,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-25T16:30:09+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.6,
+  "evPctAtFlag": 3.25,
+  "closeFairPct": 51.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-25T16:30:09+00:00",
+  "clvPct": 3.2,
   "closed": false
  }
 ]
