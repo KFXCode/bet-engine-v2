@@ -12004,10 +12004,10 @@
   "price": -134,
   "fairPctAtFlag": 58.6,
   "evPctAtFlag": 2.25,
-  "closeFairPct": 59.4,
+  "closeFairPct": 59.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
-  "clvPct": 3.73,
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
+  "clvPct": 3.38,
   "closed": false
  },
  {
@@ -12931,7 +12931,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 18.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 13.4,
   "closed": false
  },
@@ -12956,7 +12956,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 9.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -12981,7 +12981,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 24.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 7.07,
   "closed": false
  },
@@ -13006,7 +13006,7 @@
   "evPctAtFlag": 4.18,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 5.86,
   "closed": false
  },
@@ -13904,10 +13904,10 @@
   "price": 600,
   "fairPctAtFlag": 15.5,
   "evPctAtFlag": 8.56,
-  "closeFairPct": 14.8,
+  "closeFairPct": 14.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
-  "clvPct": 3.6,
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
+  "clvPct": 2.2,
   "closed": false
  },
  {
@@ -13929,10 +13929,10 @@
   "price": -130,
   "fairPctAtFlag": 57.7,
   "evPctAtFlag": 2.02,
-  "closeFairPct": 57.2,
+  "closeFairPct": 58.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
-  "clvPct": 1.2,
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
+  "clvPct": 2.79,
   "closed": false
  },
  {
@@ -13956,7 +13956,7 @@
   "evPctAtFlag": 9.88,
   "closeFairPct": 23.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 13.28,
   "closed": false
  },
@@ -13981,7 +13981,7 @@
   "evPctAtFlag": 5.38,
   "closeFairPct": 15.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 5.97,
   "closed": false
  },
@@ -14006,7 +14006,7 @@
   "evPctAtFlag": 2.24,
   "closeFairPct": 18.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 4.98,
   "closed": false
  },
@@ -14031,7 +14031,7 @@
   "evPctAtFlag": 2.27,
   "closeFairPct": 61.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 1.3,
   "closed": false
  },
@@ -14056,7 +14056,7 @@
   "evPctAtFlag": 8.71,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -14081,7 +14081,7 @@
   "evPctAtFlag": 3.55,
   "closeFairPct": 34.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -14106,7 +14106,7 @@
   "evPctAtFlag": 4.83,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 1.64,
   "closed": false
  },
@@ -14131,7 +14131,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 53.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -14156,7 +14156,7 @@
   "evPctAtFlag": 6.31,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 9.82,
   "closed": false
  },
@@ -14181,7 +14181,7 @@
   "evPctAtFlag": 5.35,
   "closeFairPct": 24.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 4.58,
   "closed": false
  },
@@ -14206,7 +14206,7 @@
   "evPctAtFlag": 5.11,
   "closeFairPct": 29.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 5.12,
   "closed": false
  },
@@ -14229,10 +14229,10 @@
   "price": -105,
   "fairPctAtFlag": 52.6,
   "evPctAtFlag": 2.69,
-  "closeFairPct": 53.5,
+  "closeFairPct": 53.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
-  "clvPct": 4.45,
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
+  "clvPct": 4.06,
   "closed": false
  },
  {
@@ -14256,7 +14256,7 @@
   "evPctAtFlag": 8.77,
   "closeFairPct": 19.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 8.64,
   "closed": false
  },
@@ -14281,7 +14281,7 @@
   "evPctAtFlag": 2.11,
   "closeFairPct": 29.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -14306,7 +14306,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 2.86,
   "closed": false
  },
@@ -14331,7 +14331,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 18.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 4.08,
   "closed": false
  },
@@ -14356,7 +14356,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 6.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -14381,7 +14381,7 @@
   "evPctAtFlag": 3.0,
   "closeFairPct": 17.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 3.24,
   "closed": false
  },
@@ -14406,7 +14406,7 @@
   "evPctAtFlag": 3.75,
   "closeFairPct": 16.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 3.54,
   "closed": false
  },
@@ -14431,7 +14431,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 45.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -14456,7 +14456,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 28.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 4.02,
   "closed": false
  },
@@ -14481,7 +14481,7 @@
   "evPctAtFlag": 7.62,
   "closeFairPct": 16.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 7.9,
   "closed": false
  },
@@ -14506,8 +14506,33 @@
   "evPctAtFlag": 3.56,
   "closeFairPct": 22.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-26T20:22:59+00:00",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
   "clvPct": 3.4,
+  "closed": false
+ },
+ {
+  "key": "d639f79210d0b4b17c8f293c53c8c5aa|h2h|Cleveland Cavaliers|None",
+  "eventId": "d639f79210d0b4b17c8f293c53c8c5aa",
+  "sport": "NBA",
+  "game": "Minnesota Timberwolves at Cleveland Cavaliers",
+  "time": "2026-10-26T23:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Cleveland Cavaliers",
+  "line": null,
+  "team": "Cleveland Cavaliers",
+  "point": null,
+  "book": "williamhill_us",
+  "bookName": "Caesars",
+  "flaggedAt": "2026-10-26T21:48:29+00:00",
+  "price": -135,
+  "fairPctAtFlag": 60.7,
+  "evPctAtFlag": 5.65,
+  "closeFairPct": 60.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T21:48:29+00:00",
+  "clvPct": 5.66,
   "closed": false
  }
 ]
