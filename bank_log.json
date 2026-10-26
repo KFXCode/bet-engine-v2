@@ -11506,7 +11506,7 @@
   "evPctAtFlag": 3.94,
   "closeFairPct": 49.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 2.05,
   "closed": false
  },
@@ -12006,7 +12006,7 @@
   "evPctAtFlag": 2.25,
   "closeFairPct": 59.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 4.25,
   "closed": false
  },
@@ -12583,7 +12583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T22:10:10+00:00",
   "clvPct": 2.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3f57b691d91174cd878320071f585c11|player_rebounds|Tyrese Haliburton|3.5|Tyrese Haliburton Under 3.5|None",
@@ -12833,7 +12833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 4.73,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_rebounds|Tyrese Maxey|3.5|Tyrese Maxey Over 3.5|None",
@@ -12858,7 +12858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 4.96,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_rebounds|Tyrese Maxey|3.5|Tyrese Maxey Under 3.5|None",
@@ -12883,7 +12883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 5.56,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_threes|Jaylen Brown|1.5|Jaylen Brown Over 1.5|None",
@@ -12908,7 +12908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 2.52,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fc416b26c2c25018a05bc5cb0d80dbb6|h2h|Bowling Green Falcons|None",
@@ -12931,7 +12931,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 3.8,
   "closed": false
  },
@@ -12956,7 +12956,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 8.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 3.2,
   "closed": false
  },
@@ -12981,7 +12981,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 24.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 3.63,
   "closed": false
  },
@@ -13006,7 +13006,7 @@
   "evPctAtFlag": 4.18,
   "closeFairPct": 26.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 4.28,
   "closed": false
  },
@@ -13408,7 +13408,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 12.86,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_rebounds|Daniss Jenkins|3.5|Daniss Jenkins Under 3.5|None",
@@ -13433,7 +13433,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": -6.83,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_rebounds|Paul Reed Jr|9.5|Paul Reed Jr Under 9.5|None",
@@ -13458,7 +13458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": -0.17,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_threes|Duncan Robinson|2.5|Duncan Robinson Under 2.5|None",
@@ -13483,7 +13483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 4.86,
-  "closed": false
+  "closed": true
  },
  {
   "key": "176d474ed8b2bbf1eb4d7e9c56b4bf22|player_receptions|Emanuel Wilson|1.5|Emanuel Wilson Over 1.5|None",
@@ -13508,7 +13508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": -0.25,
-  "closed": false
+  "closed": true
  },
  {
   "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_points|Jaylen Wells|11.5|Jaylen Wells Over 11.5|None",
@@ -13529,10 +13529,10 @@
   "price": 102,
   "fairPctAtFlag": 51.2,
   "evPctAtFlag": 3.45,
-  "closeFairPct": 50.9,
+  "closeFairPct": 44.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
-  "clvPct": 2.82,
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": -10.51,
   "closed": false
  },
  {
@@ -13556,7 +13556,7 @@
   "evPctAtFlag": 2.46,
   "closeFairPct": 54.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 2.49,
   "closed": false
  },
@@ -13583,7 +13583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 2.21,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_points|LeBron James|18.5|LeBron James Over 18.5|None",
@@ -13608,7 +13608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 2.15,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_rebounds|Adem Bona|5.5|Adem Bona Under 5.5|None",
@@ -13633,7 +13633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 2.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_rebounds|John Collins|6.5|John Collins Under 6.5|None",
@@ -13658,7 +13658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 4.14,
-  "closed": false
+  "closed": true
  },
  {
   "key": "252f3af49fb5271bb040e95e0119f207|player_threes|LeBron James|1.5|LeBron James Over 1.5|None",
@@ -13683,7 +13683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-25T23:35:11+00:00",
   "clvPct": 4.62,
-  "closed": false
+  "closed": true
  },
  {
   "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_rebounds|Ty Jerome|3.5|Ty Jerome Over 3.5|None",
@@ -13704,10 +13704,10 @@
   "price": 118,
   "fairPctAtFlag": 46.9,
   "evPctAtFlag": 2.33,
-  "closeFairPct": 46.9,
+  "closeFairPct": 43.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
-  "clvPct": 2.24,
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": -4.73,
   "closed": false
  },
  {
@@ -13731,8 +13731,183 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 56.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-25T23:35:11+00:00",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
   "clvPct": 2.42,
+  "closed": false
+ },
+ {
+  "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_assists|Jaylen Wells|1.5|Jaylen Wells Over 1.5|None",
+  "eventId": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Sacramento Kings",
+  "time": "2026-10-26T01:00:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Jaylen Wells",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Jaylen Wells Over 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": 116,
+  "fairPctAtFlag": 48.1,
+  "evPctAtFlag": 4.0,
+  "closeFairPct": 48.1,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 3.9,
+  "closed": false
+ },
+ {
+  "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_points|Cameron Boozer|17.5|Cameron Boozer Under 17.5|None",
+  "eventId": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Sacramento Kings",
+  "time": "2026-10-26T01:00:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Cameron Boozer",
+  "name": "Under",
+  "line": 17.5,
+  "team": "Cameron Boozer Under 17.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": -115,
+  "fairPctAtFlag": 56.5,
+  "evPctAtFlag": 5.68,
+  "closeFairPct": 56.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 5.63,
+  "closed": false
+ },
+ {
+  "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_points|Domantas Sabonis|18.5|Domantas Sabonis Under 18.5|None",
+  "eventId": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Sacramento Kings",
+  "time": "2026-10-26T01:00:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Domantas Sabonis",
+  "name": "Under",
+  "line": 18.5,
+  "team": "Domantas Sabonis Under 18.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": -117,
+  "fairPctAtFlag": 55.7,
+  "evPctAtFlag": 3.25,
+  "closeFairPct": 55.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 3.31,
+  "closed": false
+ },
+ {
+  "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_threes|Cameron Boozer|1.5|Cameron Boozer Under 1.5|None",
+  "eventId": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Sacramento Kings",
+  "time": "2026-10-26T01:00:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Cameron Boozer",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Cameron Boozer Under 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": -107,
+  "fairPctAtFlag": 53.2,
+  "evPctAtFlag": 2.97,
+  "closeFairPct": 53.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 2.92,
+  "closed": false
+ },
+ {
+  "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_threes|Jerami Grant|1.5|Jerami Grant Over 1.5|None",
+  "eventId": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Sacramento Kings",
+  "time": "2026-10-26T01:00:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Jerami Grant",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Jerami Grant Over 1.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": 105,
+  "fairPctAtFlag": 50.8,
+  "evPctAtFlag": 4.16,
+  "closeFairPct": 50.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 4.14,
+  "closed": false
+ },
+ {
+  "key": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a|player_threes|Zach LaVine|2.5|Zach LaVine Under 2.5|None",
+  "eventId": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
+  "sport": "NBA",
+  "game": "Memphis Grizzlies at Sacramento Kings",
+  "time": "2026-10-26T01:00:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Zach LaVine",
+  "name": "Under",
+  "line": 2.5,
+  "team": "Zach LaVine Under 2.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": -105,
+  "fairPctAtFlag": 52.8,
+  "evPctAtFlag": 3.12,
+  "closeFairPct": 52.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 3.09,
+  "closed": false
+ },
+ {
+  "key": "32ac8b94cc41f272efa96f0cf993e07a|h2h|Chicago Bulls|None",
+  "eventId": "32ac8b94cc41f272efa96f0cf993e07a",
+  "sport": "NBA",
+  "game": "Chicago Bulls at Boston Celtics",
+  "time": "2026-10-26T23:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Chicago Bulls",
+  "line": null,
+  "team": "Chicago Bulls",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-26T00:44:20+00:00",
+  "price": 600,
+  "fairPctAtFlag": 15.5,
+  "evPctAtFlag": 8.56,
+  "closeFairPct": 15.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-26T00:44:20+00:00",
+  "clvPct": 8.5,
   "closed": false
  }
 ]
