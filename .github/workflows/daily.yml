@@ -11,7 +11,10 @@ on:
     # ---- Monday morning: the week's card goes up ----
     - cron: "45 12 * * 1"   # Mon  8:45am ET — publish the week
     # ---- near-kickoff slate refreshes, so the captured close is a real close ----
+    - cron: "30 22 * * 2"   # Tue  6:30pm ET — new NBA/college games as soon as they're posted
+    - cron: "30 22 * * 3"   # Wed  6:30pm ET — new NBA/college games as soon as they're posted
     - cron: "30 22 * * 4"   # Thu  6:30pm ET — before Thursday night games
+    - cron: "30 22 * * 5"   # Fri  6:30pm ET — new NBA/college games as soon as they're posted
     - cron: "0 15 * * 6"    # Sat 11:00am ET — before the college slate
     - cron: "30 2 * * 0"    # Sat 10:30pm ET — before late West Coast kickoffs
     - cron: "0 16 * * 0"    # Sun 12:00pm ET — before the early NFL window
