@@ -94,6 +94,7 @@ MILESTONE_NAMES["player_tds_over"] = "touchdowns"
 # total landing far from the normal total. Same book-to-book check as player milestones.
 GAME_MILESTONES = {"alternate_spreads": "Blowout spread", "alternate_totals": "Alt total"}
 MILESTONE_MIN_PRICE = 100  # milestones must pay plus money (+100 or more)
+MILESTONE_MAX_PRICE = 2000  # past +2000 a "better price" is noise, not a mistake (3+ TDs at +20000)
 MILESTONE_MIN_BOOKS = 4    # other books that must post the same milestone
 MILESTONE_GREEN = 0.20     # best Maryland payout at least 20% above the best other book
 MILESTONE_YELLOW = 0.05    # 5-20% above: worth a look, not a bet
@@ -503,6 +504,8 @@ def build_milestones(odds: dict, now: datetime) -> list[dict]:
                 price = offers[pick_bk]
                 if key not in ONE_SIDED and (not upside or price < MILESTONE_MIN_PRICE):
                     continue        # not an upside milestone (at/below the normal line, or minus money)
+                if price > MILESTONE_MAX_PRICE:
+                    continue        # lottery ticket: too long to judge against other books
                 rivals, stretched = _rival_prices(ladders, pick_bk, key, subject, point)
                 is_game = key in GAME_MILESTONES
                 side = {"team": label, "point": None, "price": price, "name": subject, "line": point,
