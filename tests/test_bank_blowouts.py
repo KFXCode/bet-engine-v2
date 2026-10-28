@@ -88,7 +88,7 @@ def test_college_games_get_blowout_spreads_and_saturday_buys():
 
 
 def test_book_that_only_posts_a_harder_number_still_counts():
-    # FanDuel 100+ rush yds +2200. DK/MGM/Fanatics post 100+; ESPN only posts 105+ (harder) at +1500.
+    # FanDuel 100+ rush yds +1900. DK/MGM/Fanatics post 100+; ESPN only posts 105+ (harder) at +1500.
     def b(k, ladder, main=False):
         outs = [{"name": "Over", "description": "Josh Allen", "price": p, "point": q} for q, p in ladder]
         m = [{"key": "player_rush_yds_alternate", "outcomes": outs}]
@@ -99,9 +99,20 @@ def test_book_that_only_posts_a_harder_number_still_counts():
         return {"key": k, "last_update": "2026-10-12T21:55:00Z", "markets": m}
     odds = {"sports": {"americanfootball_nfl": [{"id": "g1", "commence_time": "2026-10-13T00:20:00Z",
             "home_team": "H", "away_team": "A", "bookmakers": [
-                b("fanduel", [(99.5, 2200)], main=True), b("draftkings", [(99.5, 1400)]),
+                b("fanduel", [(99.5, 1900)], main=True), b("draftkings", [(99.5, 1400)]),
                 b("betmgm", [(99.5, 1100)]), b("fanatics", [(99.5, 1500)]),
                 b("espnbet", [(104.5, 1500), (149.5, 9000)])]}]}}
     s = bm.build_milestones(odds, NOW)[0]["sides"][0]
     assert s["booksCompared"] == 4                     # ESPN's 105+ counts; its 150+ is too far away
     assert s["light"] == "green" and s["fairPrice"] == 1500 and "harder number" in s["why"]
+
+
+def test_lottery_ticket_milestones_are_skipped():
+    def b(k, price):
+        return {"key": k, "last_update": "2026-10-12T21:55:00Z", "markets": [{"key": "player_tds_over", "outcomes": [
+            {"name": "Over", "description": "Stefon Diggs", "price": price, "point": 2.5}]}]}
+    odds = {"sports": {"americanfootball_nfl": [{"id": "g1", "commence_time": "2026-10-13T00:20:00Z",
+            "home_team": "H", "away_team": "A",
+            "bookmakers": [b("caesars", 20000), b("draftkings", 9000), b("betmgm", 8000), b("fanatics", 9000),
+                           b("betrivers", 8500)]}]}}
+    assert bm.build_milestones(odds, NOW) == []           # +20000 is past the +2000 cap
