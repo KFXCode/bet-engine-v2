@@ -12931,7 +12931,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 14.6,
   "closed": false
  },
@@ -12956,7 +12956,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 8.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 5.6,
   "closed": false
  },
@@ -12979,10 +12979,10 @@
   "price": 330,
   "fairPctAtFlag": 24.1,
   "evPctAtFlag": 3.64,
-  "closeFairPct": 25.2,
+  "closeFairPct": 24.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 8.36,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": 6.64,
   "closed": false
  },
  {
@@ -13006,7 +13006,7 @@
   "evPctAtFlag": 4.18,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 10.2,
   "closed": false
  },
@@ -13956,7 +13956,7 @@
   "evPctAtFlag": 9.88,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 16.64,
   "closed": false
  },
@@ -13981,7 +13981,7 @@
   "evPctAtFlag": 5.38,
   "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -14006,7 +14006,7 @@
   "evPctAtFlag": 2.24,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 3.82,
   "closed": false
  },
@@ -14031,7 +14031,7 @@
   "evPctAtFlag": 2.27,
   "closeFairPct": 61.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.46,
   "closed": false
  },
@@ -14056,7 +14056,7 @@
   "evPctAtFlag": 8.71,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 10.0,
   "closed": false
  },
@@ -14081,7 +14081,7 @@
   "evPctAtFlag": 3.55,
   "closeFairPct": 33.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 5.53,
   "closed": false
  },
@@ -14104,10 +14104,10 @@
   "price": 340,
   "fairPctAtFlag": 23.8,
   "evPctAtFlag": 4.83,
-  "closeFairPct": 23.1,
+  "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 1.64,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": -10.24,
   "closed": false
  },
  {
@@ -14131,7 +14131,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 53.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -14154,10 +14154,10 @@
   "price": 475,
   "fairPctAtFlag": 18.5,
   "evPctAtFlag": 6.31,
-  "closeFairPct": 19.1,
+  "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 9.82,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": 7.52,
   "closed": false
  },
  {
@@ -14179,10 +14179,10 @@
   "price": 320,
   "fairPctAtFlag": 25.1,
   "evPctAtFlag": 5.35,
-  "closeFairPct": 24.9,
+  "closeFairPct": 26.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 4.58,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": 9.62,
   "closed": false
  },
  {
@@ -14231,7 +14231,7 @@
   "evPctAtFlag": 2.69,
   "closeFairPct": 53.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 4.06,
   "closed": false
  },
@@ -14254,10 +14254,10 @@
   "price": 460,
   "fairPctAtFlag": 19.4,
   "evPctAtFlag": 8.77,
-  "closeFairPct": 19.2,
+  "closeFairPct": 19.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 7.52,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": 6.4,
   "closed": false
  },
  {
@@ -14281,7 +14281,7 @@
   "evPctAtFlag": 2.11,
   "closeFairPct": 29.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.81,
   "closed": false
  },
@@ -14306,7 +14306,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 27.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -14331,7 +14331,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": -2.82,
   "closed": false
  },
@@ -14356,7 +14356,7 @@
   "evPctAtFlag": 3.26,
   "closeFairPct": 6.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.3,
   "closed": false
  },
@@ -14381,7 +14381,7 @@
   "evPctAtFlag": 3.0,
   "closeFairPct": 19.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 13.1,
   "closed": false
  },
@@ -14406,7 +14406,7 @@
   "evPctAtFlag": 3.75,
   "closeFairPct": 16.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.3,
   "closed": false
  },
@@ -14431,7 +14431,7 @@
   "evPctAtFlag": 3.64,
   "closeFairPct": 44.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 0.78,
   "closed": false
  },
@@ -14456,7 +14456,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 1.47,
   "closed": false
  },
@@ -14481,7 +14481,7 @@
   "evPctAtFlag": 7.62,
   "closeFairPct": 17.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 10.5,
   "closed": false
  },
@@ -14506,7 +14506,7 @@
   "evPctAtFlag": 3.56,
   "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 1.05,
   "closed": false
  },
@@ -16056,7 +16056,7 @@
   "evPctAtFlag": 4.23,
   "closeFairPct": 61.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 3.58,
   "closed": false
  },
@@ -16079,10 +16079,10 @@
   "price": 315,
   "fairPctAtFlag": 25.4,
   "evPctAtFlag": 5.43,
-  "closeFairPct": 25.1,
+  "closeFairPct": 23.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 4.17,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": -0.81,
   "closed": false
  },
  {
@@ -16104,10 +16104,10 @@
   "price": 375,
   "fairPctAtFlag": 21.9,
   "evPctAtFlag": 4.18,
-  "closeFairPct": 21.7,
+  "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": 3.08,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": 1.17,
   "closed": false
  },
  {
@@ -16154,10 +16154,10 @@
   "price": 265,
   "fairPctAtFlag": 28.5,
   "evPctAtFlag": 4.11,
-  "closeFairPct": 26.8,
+  "closeFairPct": 26.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
-  "clvPct": -2.18,
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": -2.91,
   "closed": false
  },
  {
@@ -16181,7 +16181,7 @@
   "evPctAtFlag": 6.31,
   "closeFairPct": 7.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": -0.6,
   "closed": false
  },
@@ -17256,7 +17256,7 @@
   "evPctAtFlag": 2.69,
   "closeFairPct": 29.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.81,
   "closed": false
  },
@@ -18456,7 +18456,7 @@
   "evPctAtFlag": 6.51,
   "closeFairPct": 11.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 6.4,
   "closed": false
  },
@@ -18983,7 +18983,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 2.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_assists|Kyrie Irving|3.5|Kyrie Irving Under 3.5|None",
@@ -19008,7 +19008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 0.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_points|Daniel Gafford|9.5|Daniel Gafford Under 9.5|None",
@@ -19033,7 +19033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 9.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_rebounds|Cooper Flagg|6.5|Cooper Flagg Under 6.5|None",
@@ -19058,7 +19058,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 3.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_threes|P.J. Washington|1.5|P.J. Washington Under 1.5|None",
@@ -19083,7 +19083,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 4.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "67550840fbe9bb9c550d3d4958e259ea|player_assists|Desmond Bane|3.5|Desmond Bane Under 3.5|None",
@@ -19483,7 +19483,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 21.45,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_assists|Isaiah Hartenstein|3.5|Isaiah Hartenstein Under 3.5|None",
@@ -19508,7 +19508,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 2.27,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_points|Ajay Mitchell|18.5|Ajay Mitchell Over 18.5|None",
@@ -19533,7 +19533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 2.59,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_rebounds|Aday Mara|5.5|Aday Mara Under 5.5|None",
@@ -19558,7 +19558,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 2.48,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_rebounds|Ajay Mitchell|3.5|Ajay Mitchell Over 3.5|None",
@@ -19583,7 +19583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 3.97,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_rebounds|Isaiah Hartenstein|9.5|Isaiah Hartenstein Over 9.5|None",
@@ -19608,7 +19608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 3.68,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_threes|Jared McCain|2.5|Jared McCain Under 2.5|None",
@@ -19633,7 +19633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 3.95,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_threes|Kyrie Irving|2.5|Kyrie Irving Under 2.5|None",
@@ -19658,7 +19658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 3.02,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1e3ca91e27ded6e4b4bb35aabb67b505|player_threes|Shai Gilgeous-Alexander|1.5|Shai Gilgeous-Alexander Under 1.5|None",
@@ -19683,7 +19683,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-29T01:16:56+00:00",
   "clvPct": 2.15,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6e8a41f3aeff105b0e10766515517d5e|player_assists|Austin Reaves|7.5|Austin Reaves Under 7.5|None",
@@ -19706,7 +19706,7 @@
   "evPctAtFlag": 4.26,
   "closeFairPct": 54.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 4.17,
   "closed": false
  },
@@ -19731,7 +19731,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 43.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 1.99,
   "closed": false
  },
@@ -19756,7 +19756,7 @@
   "evPctAtFlag": 3.34,
   "closeFairPct": 55.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 3.39,
   "closed": false
  },
@@ -19781,7 +19781,7 @@
   "evPctAtFlag": 2.32,
   "closeFairPct": 58.8,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 2.36,
   "closed": false
  },
@@ -19806,8 +19806,33 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 38.5,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-29T01:16:56+00:00",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
   "clvPct": 3.95,
+  "closed": false
+ },
+ {
+  "key": "47548a73e429985e77f81a4617b4fdfd|h2h|Coastal Carolina Chanticleers|None",
+  "eventId": "47548a73e429985e77f81a4617b4fdfd",
+  "sport": "NCAAF",
+  "game": "Coastal Carolina Chanticleers at Georgia State Panthers",
+  "time": "2026-10-31T18:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Coastal Carolina Chanticleers",
+  "line": null,
+  "team": "Coastal Carolina Chanticleers",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-29T01:59:44+00:00",
+  "price": 210,
+  "fairPctAtFlag": 33.8,
+  "evPctAtFlag": 4.67,
+  "closeFairPct": 33.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-29T01:59:44+00:00",
+  "clvPct": 4.78,
   "closed": false
  }
 ]
