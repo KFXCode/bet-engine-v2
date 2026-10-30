@@ -14,58 +14,58 @@
    "win_rate": 0.5084745762711864
   },
   "value": {
-   "avg_clv": 0.0067064777327935235,
-   "clv_beat_rate": 0.2611336032388664,
-   "clv_n": 988,
-   "graded": 1143,
+   "avg_clv": 0.012618236472945894,
+   "clv_beat_rate": 0.26152304609218435,
+   "clv_n": 998,
+   "graded": 1161,
    "record": {
-    "l": 564,
+    "l": 575,
     "p": 1,
     "void": 25,
-    "w": 578
+    "w": 585
    },
-   "win_rate": 0.5061295971978984
+   "win_rate": 0.5043103448275862
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.0784,
-   "clv_beat_rate": 0.2,
-   "clv_n": 15,
-   "graded": 22,
+   "avg_clv": 0.06917647058823528,
+   "clv_beat_rate": 0.17647058823529413,
+   "clv_n": 17,
+   "graded": 26,
    "record": {
-    "l": 6,
+    "l": 7,
     "p": 0,
     "void": 0,
-    "w": 16
+    "w": 19
    },
-   "win_rate": 0.7272727272727273
+   "win_rate": 0.7307692307692307
   },
   "NBA Props": {
-   "avg_clv": 0.2644146341463415,
-   "clv_beat_rate": 0.1951219512195122,
-   "clv_n": 123,
-   "graded": 150,
+   "avg_clv": 0.25811904761904764,
+   "clv_beat_rate": 0.19047619047619047,
+   "clv_n": 126,
+   "graded": 157,
    "record": {
-    "l": 69,
+    "l": 73,
     "p": 0,
     "void": 3,
-    "w": 81
+    "w": 84
    },
-   "win_rate": 0.54
+   "win_rate": 0.535031847133758
   },
   "NBA Sides": {
    "avg_clv": 0.06152380952380952,
    "clv_beat_rate": 0.07142857142857142,
    "clv_n": 42,
-   "graded": 53,
+   "graded": 55,
    "record": {
-    "l": 25,
+    "l": 26,
     "p": 0,
     "void": 0,
-    "w": 28
+    "w": 29
    },
-   "win_rate": 0.5283018867924528
+   "win_rate": 0.5272727272727272
   },
   "NCAAF Cosmic": {
    "avg_clv": 0.06360869565217389,
@@ -81,17 +81,17 @@
    "win_rate": 0.5416666666666666
   },
   "NCAAF Sides": {
-   "avg_clv": 0.06104938271604938,
-   "clv_beat_rate": 0.3868312757201646,
-   "clv_n": 486,
-   "graded": 514,
+   "avg_clv": 0.06880122950819671,
+   "clv_beat_rate": 0.38934426229508196,
+   "clv_n": 488,
+   "graded": 517,
    "record": {
-    "l": 251,
+    "l": 253,
     "p": 0,
     "void": 0,
-    "w": 263
+    "w": 264
    },
-   "win_rate": 0.5116731517509727
+   "win_rate": 0.5106382978723404
   },
   "NFL Cosmic": {
    "avg_clv": -0.3590204081632653,
@@ -107,17 +107,17 @@
    "win_rate": 0.43333333333333335
   },
   "NFL Props": {
-   "avg_clv": -0.040442567567567575,
-   "clv_beat_rate": 0.0777027027027027,
-   "clv_n": 296,
-   "graded": 375,
+   "avg_clv": -0.0329202657807309,
+   "clv_beat_rate": 0.07973421926910298,
+   "clv_n": 301,
+   "graded": 381,
    "record": {
-    "l": 188,
+    "l": 192,
     "p": 0,
     "void": 27,
-    "w": 187
+    "w": 189
    },
-   "win_rate": 0.49866666666666665
+   "win_rate": 0.49606299212598426
   },
   "NFL Sides": {
    "avg_clv": -0.2751843971631206,
@@ -135,17 +135,17 @@
  },
  "diagnostics": [
   "NBA player logs: skipped 44 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (9083 player-games, looked back 21 days)",
-  "NFL player logs: cache already current (6793 player-games, looked back 21 days)"
+  "NBA player logs: added 3 box scores, 9149 player-games cached",
+  "NFL player logs: added 1 box scores, 6812 player-games cached"
  ],
- "generated_at": "2026-10-30T02:09:21+00:00",
+ "generated_at": "2026-10-30T14:38:03+00:00",
  "graded_through": "Week of Oct 26",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.1718735632183908,
-   "clv_beat_rate": 0.3218390804597701,
-   "clv_n": 87,
-   "graded": 107,
+   "avg_clv": -0.16801123595505618,
+   "clv_beat_rate": 0.3146067415730337,
+   "clv_n": 89,
+   "graded": 111,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -2073,22 +2073,94 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 10.304,
+     "ev": 0.18231,
+     "final": "111-114",
+     "game": "Cleveland Cavaliers @ Atlanta Hawks",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Cleveland Cavaliers +6.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 5.614,
+     "ev": 0.11678,
+     "final": "120-132",
+     "game": "Sacramento Kings @ New Orleans Pelicans",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Sacramento Kings +8.5",
+     "player": null,
+     "price": 108,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": 245,
+     "clv": 0.0,
+     "edge": 1.509,
+     "ev": 0.05204,
+     "final": "124-103",
+     "game": "Memphis Grizzlies @ Portland Trail Blazers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Memphis Grizzlies ML",
+     "player": null,
+     "price": 245,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -115,
+     "clv": 0.0,
+     "edge": 0.027,
+     "ev": 0.0005,
+     "final": "124-103",
+     "game": "Memphis Grizzlies @ Portland Trail Blazers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Memphis Grizzlies +8.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
     }
    ],
    "record": {
-    "l": 51,
+    "l": 52,
     "p": 1,
     "void": 0,
-    "w": 55
+    "w": 58
    },
    "threshold": null,
-   "win_rate": 0.5188679245283019
+   "win_rate": 0.5272727272727272
   },
   "Props": {
-   "avg_clv": 0.04905011933174224,
-   "clv_beat_rate": 0.11217183770883055,
-   "clv_n": 419,
-   "graded": 525,
+   "avg_clv": 0.05296018735362998,
+   "clv_beat_rate": 0.11241217798594848,
+   "clv_n": 427,
+   "graded": 538,
    "label": "Player props",
    "picks": [
     {
@@ -11560,6 +11632,42 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": 102,
+     "clv": 2.062,
+     "edge": 16.945,
+     "ev": 0.35923,
+     "final": "7",
+     "game": "Carolina Panthers @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Matthew Golden Under 4.5 receptions",
+     "player": "Matthew Golden",
+     "price": 112,
+     "proj": 3.934,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 16.57,
+     "ev": 0.31106,
+     "final": "81",
+     "game": "Carolina Panthers @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Chuba Hubbard Under 70.5 rushing yards",
+     "player": "Chuba Hubbard",
+     "price": -114,
+     "proj": 57.976,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 26"
+    },
+    {
      "closing_price": 100,
      "clv": 0.0,
      "edge": 16.481,
@@ -11629,6 +11737,24 @@
      "proj": 7.354,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 15.219,
+     "ev": 0.28569,
+     "final": "36",
+     "game": "Carolina Panthers @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Jalen Coker Under 62.5 receiving yards",
+     "player": "Jalen Coker",
+     "price": -114,
+     "proj": 53.203,
+     "result": "W",
+     "sport": "NFL",
      "week": "Week of Oct 26"
     },
     {
@@ -11827,6 +11953,42 @@
      "proj": 5.212,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -130,
+     "clv": 0.0,
+     "edge": 19.363,
+     "ev": 0.34258,
+     "final": "3",
+     "game": "Carolina Panthers @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "John Metchie III Over 1.5 receptions",
+     "player": "John Metchie III",
+     "price": -130,
+     "proj": 2.742,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 19.252,
+     "ev": 0.3629,
+     "final": "14",
+     "game": "Carolina Panthers @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "John Metchie III Over 15.5 receiving yards",
+     "player": "John Metchie III",
+     "price": -113,
+     "proj": 25.591,
+     "result": "L",
+     "sport": "NFL",
      "week": "Week of Oct 26"
     },
     {
@@ -12080,22 +12242,166 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.702,
+     "ev": 1.06213,
+     "final": "0 TD",
+     "game": "Carolina Panthers @ Green Bay Packers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "MarShawn Lloyd anytime TD",
+     "player": "MarShawn Lloyd",
+     "price": 500,
+     "proj": 0.421,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.073,
+     "ev": 0.30412,
+     "final": "25",
+     "game": "Cleveland Cavaliers @ Atlanta Hawks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Nickeil Alexander-Walker Under 23.5 points",
+     "player": "Nickeil Alexander-Walker",
+     "price": -128,
+     "proj": 19.551,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.0,
+     "edge": 15.067,
+     "ev": 0.27418,
+     "final": "9",
+     "game": "Memphis Grizzlies @ Portland Trail Blazers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Scoot Henderson Over 8.5 points",
+     "player": "Scoot Henderson",
+     "price": -122,
+     "proj": 13.754,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.946,
+     "ev": 0.30191,
+     "final": "22",
+     "game": "Sacramento Kings @ New Orleans Pelicans",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Jeremiah Fears Under 20.5 points",
+     "player": "Jeremiah Fears",
+     "price": 102,
+     "proj": 18.552,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": 100,
+     "clv": 0.0,
+     "edge": 14.396,
+     "ev": 0.28792,
+     "final": "18",
+     "game": "Memphis Grizzlies @ Portland Trail Blazers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Isaiah Stewart Under 5.5 points",
+     "player": "Isaiah Stewart",
+     "price": 100,
+     "proj": 5.139,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 12.65,
+     "ev": 0.24813,
+     "final": "7",
+     "game": "Memphis Grizzlies @ Portland Trail Blazers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Deni Avdija Over 5.5 assists",
+     "player": "Deni Avdija",
+     "price": -104,
+     "proj": 6.743,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 8.973,
+     "ev": 0.15983,
+     "final": "29",
+     "game": "Cleveland Cavaliers @ Atlanta Hawks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Nickeil Alexander-Walker Under 28.5 pts+reb+ast",
+     "player": "Nickeil Alexander-Walker",
+     "price": -128,
+     "proj": 26.036,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 8.065,
+     "ev": 0.13996,
+     "final": "5",
+     "game": "Sacramento Kings @ New Orleans Pelicans",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Trey Murphy III Over 4.5 rebounds",
+     "player": "Trey Murphy III",
+     "price": -136,
+     "proj": 5.594,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
     }
    ],
    "record": {
-    "l": 257,
+    "l": 265,
     "p": 0,
     "void": 30,
-    "w": 268
+    "w": 273
    },
    "threshold": 7.0,
-   "win_rate": 0.5104761904761905
+   "win_rate": 0.5074349442379182
   },
   "Sides": {
-   "avg_clv": -0.009786248131539612,
-   "clv_beat_rate": 0.35575485799701045,
-   "clv_n": 669,
-   "graded": 736,
+   "avg_clv": -0.003937406855439644,
+   "clv_beat_rate": 0.35767511177347244,
+   "clv_n": 671,
+   "graded": 741,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -24933,6 +25239,24 @@
      "week": "Week of Oct 19"
     },
     {
+     "closing_price": -520,
+     "clv": 2.608,
+     "edge": 14.559,
+     "ev": 0.17689,
+     "final": "41-48",
+     "game": "Florida Atlantic Owls @ North Texas Mean Green",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "North Texas Mean Green ML",
+     "player": null,
+     "price": -465,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Oct 26"
+    },
+    {
      "closing_price": 215,
      "clv": 0.0,
      "edge": 18.077,
@@ -24999,6 +25323,24 @@
      "pick": "Western Kentucky Hilltoppers ML",
      "player": null,
      "price": -106,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -115,
+     "clv": 1.297,
+     "edge": 15.205,
+     "ev": 0.29028,
+     "final": "24-21",
+     "game": "Troy Trojans @ James Madison Dukes",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "James Madison Dukes -20.5",
+     "player": null,
+     "price": -110,
      "proj": null,
      "result": "L",
      "sport": "NCAAF",
@@ -25345,22 +25687,76 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 13.075,
+     "ev": 0.15409,
+     "final": "24-21",
+     "game": "Troy Trojans @ James Madison Dukes",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "James Madison Dukes ML",
+     "player": null,
+     "price": -560,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 10.304,
+     "ev": 0.18231,
+     "final": "111-114",
+     "game": "Cleveland Cavaliers @ Atlanta Hawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Cleveland Cavaliers +6.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 5.614,
+     "ev": 0.11678,
+     "final": "120-132",
+     "game": "Sacramento Kings @ New Orleans Pelicans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Sacramento Kings +8.5",
+     "player": null,
+     "price": 108,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
     }
    ],
    "record": {
-    "l": 365,
+    "l": 368,
     "p": 1,
     "void": 0,
-    "w": 370
+    "w": 372
    },
    "threshold": 5.0,
-   "win_rate": 0.5034013605442177
+   "win_rate": 0.5027027027027027
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 13,
-  "Props": 171,
-  "Sides": 92
+  "Cosmic": 9,
+  "Props": 158,
+  "Sides": 87
  }
 }
