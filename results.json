@@ -17,14 +17,14 @@
    "avg_clv": 0.012618236472945894,
    "clv_beat_rate": 0.26152304609218435,
    "clv_n": 998,
-   "graded": 1161,
+   "graded": 1163,
    "record": {
     "l": 575,
     "p": 1,
     "void": 25,
-    "w": 585
+    "w": 587
    },
-   "win_rate": 0.5043103448275862
+   "win_rate": 0.5051635111876076
   }
  },
  "by_sport": {
@@ -58,14 +58,14 @@
    "avg_clv": 0.06152380952380952,
    "clv_beat_rate": 0.07142857142857142,
    "clv_n": 42,
-   "graded": 55,
+   "graded": 57,
    "record": {
     "l": 26,
     "p": 0,
     "void": 0,
-    "w": 29
+    "w": 31
    },
-   "win_rate": 0.5272727272727272
+   "win_rate": 0.543859649122807
   },
   "NCAAF Cosmic": {
    "avg_clv": 0.06360869565217389,
@@ -134,11 +134,11 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: skipped 44 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: added 3 box scores, 9149 player-games cached",
-  "NFL player logs: added 1 box scores, 6812 player-games cached"
+  "NBA player logs: skipped 42 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NBA player logs: cache already current (9174 player-games, looked back 21 days)",
+  "NFL player logs: cache already current (6794 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-10-30T14:38:03+00:00",
+ "generated_at": "2026-10-31T01:50:45+00:00",
  "graded_through": "Week of Oct 26",
  "groups": {
   "Cosmic": {
@@ -12401,7 +12401,7 @@
    "avg_clv": -0.003937406855439644,
    "clv_beat_rate": 0.35767511177347244,
    "clv_n": 671,
-   "graded": 741,
+   "graded": 743,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -25741,22 +25741,58 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.869,
+     "ev": 0.48083,
+     "final": "99-129",
+     "game": "Orlando Magic @ Toronto Raptors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Toronto Raptors ML",
+     "player": null,
+     "price": 142,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 10.099,
+     "ev": 0.17526,
+     "final": "99-129",
+     "game": "Orlando Magic @ Toronto Raptors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Toronto Raptors +2.5",
+     "player": null,
+     "price": -136,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Oct 26"
     }
    ],
    "record": {
     "l": 368,
     "p": 1,
     "void": 0,
-    "w": 372
+    "w": 374
    },
    "threshold": 5.0,
-   "win_rate": 0.5027027027027027
+   "win_rate": 0.5040431266846361
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 9,
-  "Props": 158,
-  "Sides": 87
+  "Cosmic": 12,
+  "Props": 189,
+  "Sides": 98
  }
 }
