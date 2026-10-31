@@ -12983,7 +12983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 1.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "877d5834acad37b6142a835438c23001|h2h|Washington Huskies|None",
@@ -13004,10 +13004,10 @@
   "price": 295,
   "fairPctAtFlag": 26.4,
   "evPctAtFlag": 4.18,
-  "closeFairPct": 26.7,
+  "closeFairPct": 26.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 5.47,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 3.89,
   "closed": false
  },
  {
@@ -14058,7 +14058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 17.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d0126c335a51772c70c76e17ca06afb3|h2h|Fresno State Bulldogs|None",
@@ -14079,10 +14079,10 @@
   "price": 215,
   "fairPctAtFlag": 32.9,
   "evPctAtFlag": 3.55,
-  "closeFairPct": 33.6,
+  "closeFairPct": 33.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 5.84,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 6.15,
   "closed": false
  },
  {
@@ -14106,7 +14106,7 @@
   "evPctAtFlag": 4.83,
   "closeFairPct": 20.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": -9.8,
   "closed": false
  },
@@ -14131,7 +14131,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 53.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -14156,7 +14156,7 @@
   "evPctAtFlag": 6.31,
   "closeFairPct": 14.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": -18.92,
   "closed": false
  },
@@ -14181,7 +14181,7 @@
   "evPctAtFlag": 5.35,
   "closeFairPct": 24.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -14433,7 +14433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": -1.73,
-  "closed": false
+  "closed": true
  },
  {
   "key": "49aa48a7dbcd6563f389ae4232707d64|h2h|Georgia Tech Yellow Jackets|None",
@@ -14458,7 +14458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": -1.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "85b5947ccfe102a2fa2179d54c83ae31|h2h|North Carolina Tar Heels|None",
@@ -14483,7 +14483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 15.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b02a5444929be961896a4db9742a01fa|h2h|Texas State Bobcats|None",
@@ -14504,10 +14504,10 @@
   "price": 370,
   "fairPctAtFlag": 22.0,
   "evPctAtFlag": 3.56,
-  "closeFairPct": 21.4,
+  "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 0.58,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 1.99,
   "closed": false
  },
  {
@@ -16179,10 +16179,10 @@
   "price": 1300,
   "fairPctAtFlag": 7.6,
   "evPctAtFlag": 6.31,
-  "closeFairPct": 7.4,
+  "closeFairPct": 7.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 3.6,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 7.8,
   "closed": false
  },
  {
@@ -20181,7 +20181,7 @@
   "evPctAtFlag": 3.41,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 5.86,
   "closed": false
  },
@@ -20929,10 +20929,10 @@
   "price": 315,
   "fairPctAtFlag": 25.3,
   "evPctAtFlag": 5.08,
-  "closeFairPct": 21.1,
+  "closeFairPct": 22.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": -12.43,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": -4.97,
   "closed": false
  },
  {
@@ -20979,10 +20979,10 @@
   "price": -137,
   "fairPctAtFlag": 60.1,
   "evPctAtFlag": 3.96,
-  "closeFairPct": 59.8,
+  "closeFairPct": 58.8,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 3.45,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 1.72,
   "closed": false
  },
  {
@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -23804,10 +23804,10 @@
   "price": 450,
   "fairPctAtFlag": 19.2,
   "evPctAtFlag": 5.35,
-  "closeFairPct": 18.0,
+  "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": -1.0,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": -7.05,
   "closed": false
  },
  {
@@ -23854,10 +23854,10 @@
   "price": 300,
   "fairPctAtFlag": 25.9,
   "evPctAtFlag": 3.59,
-  "closeFairPct": 24.7,
+  "closeFairPct": 28.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": -1.2,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 13.2,
   "closed": false
  },
  {
@@ -24158,7 +24158,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": -2.25,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2ff84d3f6053d083c8c0a5bebf7cdd4c|spreads|Los Angeles Chargers:6.5/Los Angeles Rams:-6.5|Los Angeles Chargers|6.5",
@@ -24181,7 +24181,7 @@
   "evPctAtFlag": 2.4,
   "closeFairPct": 51.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.39,
   "closed": false
  },
@@ -24206,7 +24206,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 31.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.3,
   "closed": false
  },
@@ -24280,8 +24280,8 @@
   "fairPctAtFlag": 56.1,
   "evPctAtFlag": 3.97,
   "closeFairPct": 54.6,
-  "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 1.27,
   "closed": false
  },
@@ -24304,10 +24304,10 @@
   "price": -105,
   "fairPctAtFlag": 52.7,
   "evPctAtFlag": 2.83,
-  "closeFairPct": 50.0,
+  "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": -2.38,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": -4.53,
   "closed": false
  },
  {
@@ -24458,7 +24458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 2.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_assists|Zion Williamson|2.5|Zion Williamson Under 2.5|None",
@@ -24483,7 +24483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": -16.97,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_rebounds|Karlo Matkovic|5.5|Karlo Matkovic Over 5.5|None",
@@ -24508,7 +24508,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_rebounds|Trey Murphy III|4.5|Trey Murphy III Under 4.5|None",
@@ -24533,7 +24533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 3.46,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_rebounds|Zion Williamson|5.5|Zion Williamson Under 5.5|None",
@@ -24558,7 +24558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": -3.27,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_threes|Luguentz Dort|1.5|Luguentz Dort Over 1.5|None",
@@ -24583,7 +24583,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 3.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_threes|Onyeka Okongwu|1.5|Onyeka Okongwu Under 1.5|None",
@@ -24608,7 +24608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 3.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_threes|Saddiq Bey|1.5|Saddiq Bey Under 1.5|None",
@@ -24633,7 +24633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 3.73,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6d7e1e0af6d568f4435d35a1763a3622|player_rebounds|Kyle Kuzma|5.5|Kyle Kuzma Over 5.5|None",
@@ -24654,10 +24654,10 @@
   "price": 118,
   "fairPctAtFlag": 48.1,
   "evPctAtFlag": 4.82,
-  "closeFairPct": 48.1,
+  "closeFairPct": 47.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 4.86,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 4.42,
   "closed": false
  },
  {
@@ -24681,7 +24681,7 @@
   "evPctAtFlag": 5.81,
   "closeFairPct": 48.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 5.41,
   "closed": false
  },
@@ -24706,7 +24706,7 @@
   "evPctAtFlag": 2.09,
   "closeFairPct": 38.5,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.02,
   "closed": false
  },
@@ -24729,10 +24729,10 @@
   "price": 145,
   "fairPctAtFlag": 41.9,
   "evPctAtFlag": 2.71,
-  "closeFairPct": 41.9,
+  "closeFairPct": 41.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 2.66,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 1.43,
   "closed": false
  },
  {
@@ -24756,7 +24756,7 @@
   "evPctAtFlag": 5.91,
   "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 5.95,
   "closed": false
  },
@@ -24779,10 +24779,10 @@
   "price": 125,
   "fairPctAtFlag": 46.5,
   "evPctAtFlag": 4.68,
-  "closeFairPct": 42.0,
+  "closeFairPct": 42.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": -5.5,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": -4.83,
   "closed": false
  },
  {
@@ -24806,7 +24806,7 @@
   "evPctAtFlag": 2.28,
   "closeFairPct": 52.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.3,
   "closed": false
  },
@@ -24829,10 +24829,10 @@
   "price": -106,
   "fairPctAtFlag": 52.7,
   "evPctAtFlag": 2.48,
-  "closeFairPct": 52.1,
+  "closeFairPct": 44.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 1.25,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": -14.3,
   "closed": false
  },
  {
@@ -24854,10 +24854,10 @@
   "price": 110,
   "fairPctAtFlag": 49.6,
   "evPctAtFlag": 4.15,
-  "closeFairPct": 49.6,
+  "closeFairPct": 52.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 4.16,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 9.83,
   "closed": false
  },
  {
@@ -24881,7 +24881,7 @@
   "evPctAtFlag": 2.57,
   "closeFairPct": 55.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.51,
   "closed": false
  },
@@ -24906,7 +24906,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 54.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": -2.44,
   "closed": false
  },
@@ -24931,7 +24931,7 @@
   "evPctAtFlag": 2.96,
   "closeFairPct": 42.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.91,
   "closed": false
  },
@@ -24954,10 +24954,10 @@
   "price": 102,
   "fairPctAtFlag": 51.0,
   "evPctAtFlag": 3.04,
-  "closeFairPct": 50.8,
+  "closeFairPct": 51.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 2.62,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 4.23,
   "closed": false
  },
  {
@@ -24981,7 +24981,7 @@
   "evPctAtFlag": 2.97,
   "closeFairPct": 53.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.92,
   "closed": false
  },
@@ -25006,7 +25006,7 @@
   "evPctAtFlag": 4.18,
   "closeFairPct": 54.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.97,
   "closed": false
  },
@@ -25031,7 +25031,7 @@
   "evPctAtFlag": 3.33,
   "closeFairPct": 50.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 3.32,
   "closed": false
  },
@@ -25056,7 +25056,7 @@
   "evPctAtFlag": 3.27,
   "closeFairPct": 46.9,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 3.18,
   "closed": false
  },
@@ -25133,7 +25133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 7.61,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_assists|Zion Williamson|2.5|Zion Williamson Over 2.5|None",
@@ -25158,7 +25158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 8.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_points|Jeremiah Fears|16.5|Jeremiah Fears Over 16.5|None",
@@ -25183,7 +25183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_rebounds|Zion Williamson|5.5|Zion Williamson Over 5.5|None",
@@ -25208,7 +25208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 5.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77270837bc694d198c10f42937690d75|player_threes|Jeremiah Fears|1.5|Jeremiah Fears Over 1.5|None",
@@ -25233,7 +25233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": -10.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c30d3bdf126e98ced5b9389db8617926|player_assists|Marcus Smart|3.5|Marcus Smart Under 3.5|None",
@@ -25254,10 +25254,10 @@
   "price": -109,
   "fairPctAtFlag": 54.4,
   "evPctAtFlag": 4.28,
-  "closeFairPct": 54.0,
+  "closeFairPct": 54.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 3.54,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 5.27,
   "closed": false
  },
  {
@@ -25279,10 +25279,10 @@
   "price": -107,
   "fairPctAtFlag": 53.5,
   "evPctAtFlag": 3.59,
-  "closeFairPct": 52.3,
-  "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 1.18,
+  "closeFairPct": 52.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 1.37,
   "closed": false
  },
  {
@@ -25308,7 +25308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-10-31T22:45:08+00:00",
   "clvPct": 3.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6d7e1e0af6d568f4435d35a1763a3622|player_points|Jarrett Allen|13.5|Jarrett Allen Under 13.5|None",
@@ -25331,7 +25331,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 54.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.16,
   "closed": false
  },
@@ -25356,7 +25356,7 @@
   "evPctAtFlag": 3.38,
   "closeFairPct": 54.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 3.3,
   "closed": false
  },
@@ -25381,7 +25381,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 46.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -25404,10 +25404,10 @@
   "price": 117,
   "fairPctAtFlag": 47.2,
   "evPctAtFlag": 2.39,
-  "closeFairPct": 47.2,
+  "closeFairPct": 47.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 2.42,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 1.99,
   "closed": false
  },
  {
@@ -25431,7 +25431,7 @@
   "evPctAtFlag": 3.24,
   "closeFairPct": 51.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 3.2,
   "closed": false
  },
@@ -25454,10 +25454,10 @@
   "price": 105,
   "fairPctAtFlag": 53.3,
   "evPctAtFlag": 9.28,
-  "closeFairPct": 53.3,
+  "closeFairPct": 52.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
-  "clvPct": 9.26,
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 7.21,
   "closed": false
  },
  {
@@ -25481,7 +25481,7 @@
   "evPctAtFlag": 3.08,
   "closeFairPct": 45.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 3.05,
   "closed": false
  },
@@ -25506,8 +25506,283 @@
   "evPctAtFlag": 5.02,
   "closeFairPct": 36.5,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-10-31T22:45:08+00:00",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
   "clvPct": 5.12,
+  "closed": false
+ },
+ {
+  "key": "6d7e1e0af6d568f4435d35a1763a3622|player_rebounds|Myles Turner|4.5|Myles Turner Under 4.5|None",
+  "eventId": "6d7e1e0af6d568f4435d35a1763a3622",
+  "sport": "NBA",
+  "game": "Cleveland Cavaliers at Milwaukee Bucks",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Myles Turner",
+  "name": "Under",
+  "line": 4.5,
+  "team": "Myles Turner Under 4.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 120,
+  "fairPctAtFlag": 47.0,
+  "evPctAtFlag": 3.36,
+  "closeFairPct": 47.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 3.4,
+  "closed": false
+ },
+ {
+  "key": "06a03fb0ce0f81a970c6000fb71fdc6d|player_rebounds|Victor Wembanyama|11.5|Victor Wembanyama Under 11.5|None",
+  "eventId": "06a03fb0ce0f81a970c6000fb71fdc6d",
+  "sport": "NBA",
+  "game": "Minnesota Timberwolves at San Antonio Spurs",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Victor Wembanyama",
+  "name": "Under",
+  "line": 11.5,
+  "team": "Victor Wembanyama Under 11.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": -112,
+  "fairPctAtFlag": 54.6,
+  "evPctAtFlag": 3.31,
+  "closeFairPct": 54.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 3.35,
+  "closed": false
+ },
+ {
+  "key": "06a03fb0ce0f81a970c6000fb71fdc6d|player_threes|Ayo Dosunmu|1.5|Ayo Dosunmu Over 1.5|None",
+  "eventId": "06a03fb0ce0f81a970c6000fb71fdc6d",
+  "sport": "NBA",
+  "game": "Minnesota Timberwolves at San Antonio Spurs",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Ayo Dosunmu",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Ayo Dosunmu Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 128,
+  "fairPctAtFlag": 45.0,
+  "evPctAtFlag": 2.52,
+  "closeFairPct": 45.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 2.6,
+  "closed": false
+ },
+ {
+  "key": "06a03fb0ce0f81a970c6000fb71fdc6d|player_threes|Julian Champagnie|2.5|Julian Champagnie Over 2.5|None",
+  "eventId": "06a03fb0ce0f81a970c6000fb71fdc6d",
+  "sport": "NBA",
+  "game": "Minnesota Timberwolves at San Antonio Spurs",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Julian Champagnie",
+  "name": "Over",
+  "line": 2.5,
+  "team": "Julian Champagnie Over 2.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 136,
+  "fairPctAtFlag": 43.7,
+  "evPctAtFlag": 3.17,
+  "closeFairPct": 43.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 3.13,
+  "closed": false
+ },
+ {
+  "key": "863ae1092be42c6b563b2c4f099a3eb3|player_assists|Cam Spencer|6.5|Cam Spencer Under 6.5|None",
+  "eventId": "863ae1092be42c6b563b2c4f099a3eb3",
+  "sport": "NBA",
+  "game": "Sacramento Kings at Memphis Grizzlies",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Cam Spencer",
+  "name": "Under",
+  "line": 6.5,
+  "team": "Cam Spencer Under 6.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": -108,
+  "fairPctAtFlag": 53.1,
+  "evPctAtFlag": 2.19,
+  "closeFairPct": 53.1,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 2.27,
+  "closed": false
+ },
+ {
+  "key": "863ae1092be42c6b563b2c4f099a3eb3|player_assists|Jaylen Wells|1.5|Jaylen Wells Under 1.5|None",
+  "eventId": "863ae1092be42c6b563b2c4f099a3eb3",
+  "sport": "NBA",
+  "game": "Sacramento Kings at Memphis Grizzlies",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Jaylen Wells",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Jaylen Wells Under 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": -105,
+  "fairPctAtFlag": 54.4,
+  "evPctAtFlag": 6.12,
+  "closeFairPct": 54.4,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 6.21,
+  "closed": false
+ },
+ {
+  "key": "863ae1092be42c6b563b2c4f099a3eb3|player_rebounds|Cedric Coward|6.5|Cedric Coward Over 6.5|None",
+  "eventId": "863ae1092be42c6b563b2c4f099a3eb3",
+  "sport": "NBA",
+  "game": "Sacramento Kings at Memphis Grizzlies",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Cedric Coward",
+  "name": "Over",
+  "line": 6.5,
+  "team": "Cedric Coward Over 6.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 110,
+  "fairPctAtFlag": 48.8,
+  "evPctAtFlag": 2.45,
+  "closeFairPct": 48.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 2.48,
+  "closed": false
+ },
+ {
+  "key": "863ae1092be42c6b563b2c4f099a3eb3|player_rebounds|Jaylen Wells|3.5|Jaylen Wells Over 3.5|None",
+  "eventId": "863ae1092be42c6b563b2c4f099a3eb3",
+  "sport": "NBA",
+  "game": "Sacramento Kings at Memphis Grizzlies",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Jaylen Wells",
+  "name": "Over",
+  "line": 3.5,
+  "team": "Jaylen Wells Over 3.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 146,
+  "fairPctAtFlag": 42.1,
+  "evPctAtFlag": 3.54,
+  "closeFairPct": 42.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 3.57,
+  "closed": false
+ },
+ {
+  "key": "c30d3bdf126e98ced5b9389db8617926|player_rebounds|Ajay Mitchell|3.5|Ajay Mitchell Under 3.5|None",
+  "eventId": "c30d3bdf126e98ced5b9389db8617926",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at Houston Rockets",
+  "time": "2026-11-01T00:40:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Ajay Mitchell",
+  "name": "Under",
+  "line": 3.5,
+  "team": "Ajay Mitchell Under 3.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 107,
+  "fairPctAtFlag": 49.4,
+  "evPctAtFlag": 2.24,
+  "closeFairPct": 49.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 2.26,
+  "closed": false
+ },
+ {
+  "key": "c30d3bdf126e98ced5b9389db8617926|player_rebounds|Shai Gilgeous-Alexander|4.5|Shai Gilgeous-Alexander Over 4.5|None",
+  "eventId": "c30d3bdf126e98ced5b9389db8617926",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at Houston Rockets",
+  "time": "2026-11-01T00:40:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Shai Gilgeous-Alexander",
+  "name": "Over",
+  "line": 4.5,
+  "team": "Shai Gilgeous-Alexander Over 4.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": 138,
+  "fairPctAtFlag": 43.9,
+  "evPctAtFlag": 4.48,
+  "closeFairPct": 43.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 4.48,
+  "closed": false
+ },
+ {
+  "key": "c30d3bdf126e98ced5b9389db8617926|player_threes|Jabari Smith Jr|2.5|Jabari Smith Jr Under 2.5|None",
+  "eventId": "c30d3bdf126e98ced5b9389db8617926",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at Houston Rockets",
+  "time": "2026-11-01T00:40:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Jabari Smith Jr",
+  "name": "Under",
+  "line": 2.5,
+  "team": "Jabari Smith Jr Under 2.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-10-31T23:35:08+00:00",
+  "price": -160,
+  "fairPctAtFlag": 63.8,
+  "evPctAtFlag": 3.64,
+  "closeFairPct": 63.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T23:35:08+00:00",
+  "clvPct": 3.68,
   "closed": false
  }
 ]
