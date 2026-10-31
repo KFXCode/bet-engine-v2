@@ -12929,10 +12929,10 @@
   "price": 500,
   "fairPctAtFlag": 17.3,
   "evPctAtFlag": 4.02,
-  "closeFairPct": 18.1,
+  "closeFairPct": 17.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 8.6,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 5.6,
   "closed": false
  },
  {
@@ -12954,10 +12954,10 @@
   "price": 1100,
   "fairPctAtFlag": 8.6,
   "evPctAtFlag": 3.26,
-  "closeFairPct": 8.8,
+  "closeFairPct": 8.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 5.6,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -0.4,
   "closed": false
  },
  {
@@ -12979,10 +12979,10 @@
   "price": 330,
   "fairPctAtFlag": 24.1,
   "evPctAtFlag": 3.64,
-  "closeFairPct": 24.9,
+  "closeFairPct": 24.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 7.07,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 3.2,
   "closed": false
  },
  {
@@ -13004,10 +13004,10 @@
   "price": 295,
   "fairPctAtFlag": 26.4,
   "evPctAtFlag": 4.18,
-  "closeFairPct": 27.8,
+  "closeFairPct": 26.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 9.81,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 5.07,
   "closed": false
  },
  {
@@ -13979,10 +13979,10 @@
   "price": 575,
   "fairPctAtFlag": 15.6,
   "evPctAtFlag": 5.38,
-  "closeFairPct": 15.0,
+  "closeFairPct": 14.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 1.25,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 0.57,
   "closed": false
  },
  {
@@ -14004,10 +14004,10 @@
   "price": 480,
   "fairPctAtFlag": 17.6,
   "evPctAtFlag": 2.24,
-  "closeFairPct": 18.1,
+  "closeFairPct": 17.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 4.98,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 3.24,
   "closed": false
  },
  {
@@ -14029,10 +14029,10 @@
   "price": -152,
   "fairPctAtFlag": 61.7,
   "evPctAtFlag": 2.27,
-  "closeFairPct": 62.1,
+  "closeFairPct": 63.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 2.96,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 4.78,
   "closed": false
  },
  {
@@ -14054,10 +14054,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.71,
-  "closeFairPct": 9.9,
+  "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 8.9,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 5.6,
   "closed": false
  },
  {
@@ -14079,10 +14079,10 @@
   "price": 215,
   "fairPctAtFlag": 32.9,
   "evPctAtFlag": 3.55,
-  "closeFairPct": 32.6,
+  "closeFairPct": 32.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 2.69,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 3.32,
   "closed": false
  },
  {
@@ -14106,7 +14106,7 @@
   "evPctAtFlag": 4.83,
   "closeFairPct": 20.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": -8.48,
   "closed": false
  },
@@ -14131,7 +14131,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 53.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -14156,7 +14156,7 @@
   "evPctAtFlag": 6.31,
   "closeFairPct": 14.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": -18.92,
   "closed": false
  },
@@ -14181,7 +14181,7 @@
   "evPctAtFlag": 5.35,
   "closeFairPct": 24.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -14279,10 +14279,10 @@
   "price": 245,
   "fairPctAtFlag": 29.6,
   "evPctAtFlag": 2.11,
-  "closeFairPct": 27.2,
+  "closeFairPct": 27.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": -6.16,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -6.5,
   "closed": false
  },
  {
@@ -14304,10 +14304,10 @@
   "price": 270,
   "fairPctAtFlag": 27.8,
   "evPctAtFlag": 2.74,
-  "closeFairPct": 27.9,
+  "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 3.23,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 2.86,
   "closed": false
  },
  {
@@ -14329,10 +14329,10 @@
   "price": 475,
   "fairPctAtFlag": 18.1,
   "evPctAtFlag": 4.04,
-  "closeFairPct": 16.2,
+  "closeFairPct": 15.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": -6.85,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -9.73,
   "closed": false
  },
  {
@@ -14354,10 +14354,10 @@
   "price": 1550,
   "fairPctAtFlag": 6.3,
   "evPctAtFlag": 3.26,
-  "closeFairPct": 6.3,
+  "closeFairPct": 5.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 3.95,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -2.65,
   "closed": false
  },
  {
@@ -14379,10 +14379,10 @@
   "price": 480,
   "fairPctAtFlag": 17.8,
   "evPctAtFlag": 3.0,
-  "closeFairPct": 19.5,
+  "closeFairPct": 19.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 13.1,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 10.2,
   "closed": false
  },
  {
@@ -14404,10 +14404,10 @@
   "price": 520,
   "fairPctAtFlag": 16.7,
   "evPctAtFlag": 3.75,
-  "closeFairPct": 16.5,
+  "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 2.3,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 1.06,
   "closed": false
  },
  {
@@ -14429,10 +14429,10 @@
   "price": 128,
   "fairPctAtFlag": 45.5,
   "evPctAtFlag": 3.64,
-  "closeFairPct": 44.7,
+  "closeFairPct": 44.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 1.92,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 1.69,
   "closed": false
  },
  {
@@ -14454,10 +14454,10 @@
   "price": 265,
   "fairPctAtFlag": 28.5,
   "evPctAtFlag": 4.11,
-  "closeFairPct": 27.9,
+  "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 1.83,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 1.47,
   "closed": false
  },
  {
@@ -14479,10 +14479,10 @@
   "price": 550,
   "fairPctAtFlag": 16.6,
   "evPctAtFlag": 7.62,
-  "closeFairPct": 17.1,
+  "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 11.15,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 9.85,
   "closed": false
  },
  {
@@ -14504,10 +14504,10 @@
   "price": 370,
   "fairPctAtFlag": 22.0,
   "evPctAtFlag": 3.56,
-  "closeFairPct": 21.4,
+  "closeFairPct": 21.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 0.58,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -0.36,
   "closed": false
  },
  {
@@ -16054,10 +16054,10 @@
   "price": -145,
   "fairPctAtFlag": 61.7,
   "evPctAtFlag": 4.23,
-  "closeFairPct": 62.1,
+  "closeFairPct": 62.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 4.93,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 6.11,
   "closed": false
  },
  {
@@ -16079,10 +16079,10 @@
   "price": 315,
   "fairPctAtFlag": 25.4,
   "evPctAtFlag": 5.43,
-  "closeFairPct": 25.4,
+  "closeFairPct": 25.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 5.41,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 5.83,
   "closed": false
  },
  {
@@ -16106,7 +16106,7 @@
   "evPctAtFlag": 4.18,
   "closeFairPct": 21.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": 0.23,
   "closed": false
  },
@@ -16154,10 +16154,10 @@
   "price": 265,
   "fairPctAtFlag": 28.5,
   "evPctAtFlag": 4.11,
-  "closeFairPct": 24.6,
+  "closeFairPct": 24.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": -10.21,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -12.4,
   "closed": false
  },
  {
@@ -16179,10 +16179,10 @@
   "price": 1300,
   "fairPctAtFlag": 7.6,
   "evPctAtFlag": 6.31,
-  "closeFairPct": 7.8,
+  "closeFairPct": 7.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 9.2,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 3.6,
   "closed": false
  },
  {
@@ -17254,10 +17254,10 @@
   "price": 245,
   "fairPctAtFlag": 29.8,
   "evPctAtFlag": 2.69,
-  "closeFairPct": 30.2,
+  "closeFairPct": 30.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 4.19,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 3.85,
   "closed": false
  },
  {
@@ -19829,10 +19829,10 @@
   "price": 210,
   "fairPctAtFlag": 33.8,
   "evPctAtFlag": 4.67,
-  "closeFairPct": 38.0,
+  "closeFairPct": 38.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 17.8,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 18.42,
   "closed": false
  },
  {
@@ -20181,7 +20181,7 @@
   "evPctAtFlag": 3.41,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": 5.86,
   "closed": false
  },
@@ -20329,10 +20329,10 @@
   "price": -132,
   "fairPctAtFlag": 58.7,
   "evPctAtFlag": 3.16,
-  "closeFairPct": 55.8,
+  "closeFairPct": 55.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": -1.93,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -3.33,
   "closed": false
  },
  {
@@ -20354,10 +20354,10 @@
   "price": 245,
   "fairPctAtFlag": 30.4,
   "evPctAtFlag": 4.97,
-  "closeFairPct": 29.9,
+  "closeFairPct": 29.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 3.15,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 0.74,
   "closed": false
  },
  {
@@ -20904,10 +20904,10 @@
   "price": -102,
   "fairPctAtFlag": 51.7,
   "evPctAtFlag": 2.36,
-  "closeFairPct": 50.7,
+  "closeFairPct": 49.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T01:05:16+00:00",
-  "clvPct": 0.41,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -1.38,
   "closed": false
  },
  {
@@ -20929,10 +20929,10 @@
   "price": 315,
   "fairPctAtFlag": 25.3,
   "evPctAtFlag": 5.08,
-  "closeFairPct": 22.8,
-  "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T01:05:16+00:00",
-  "clvPct": -5.38,
+  "closeFairPct": 21.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": -11.19,
   "closed": false
  },
  {
@@ -20954,10 +20954,10 @@
   "price": -115,
   "fairPctAtFlag": 54.6,
   "evPctAtFlag": 2.03,
-  "closeFairPct": 54.4,
+  "closeFairPct": 56.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
-  "clvPct": 1.7,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 4.88,
   "closed": false
  },
  {
@@ -20979,10 +20979,10 @@
   "price": -137,
   "fairPctAtFlag": 60.1,
   "evPctAtFlag": 3.96,
-  "closeFairPct": 61.7,
+  "closeFairPct": 59.6,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T01:05:16+00:00",
-  "clvPct": 6.74,
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 3.1,
   "closed": false
  },
  {
@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-10-31T02:41:11+00:00",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -23759,5 +23759,55 @@
   "closeSeenAt": "2026-10-31T01:51:54+00:00",
   "clvPct": 3.22,
   "closed": true
+ },
+ {
+  "key": "f0eeae1be040fca9b93b46bc8c55068d|totals|Over:6.0/Under:6.0|Under 6.0|None",
+  "eventId": "f0eeae1be040fca9b93b46bc8c55068d",
+  "sport": "NHL",
+  "game": "St Louis Blues at Detroit Red Wings",
+  "time": "2026-10-31T17:10:00Z",
+  "market": "Total",
+  "marketKey": "totals",
+  "player": null,
+  "name": "Under",
+  "line": 6.0,
+  "team": "Under 6.0",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-10-31T13:30:09+00:00",
+  "price": -105,
+  "fairPctAtFlag": 52.4,
+  "evPctAtFlag": 2.26,
+  "closeFairPct": 52.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 2.3,
+  "closed": false
+ },
+ {
+  "key": "06a03fb0ce0f81a970c6000fb71fdc6d|h2h|Minnesota Timberwolves|None",
+  "eventId": "06a03fb0ce0f81a970c6000fb71fdc6d",
+  "sport": "NBA",
+  "game": "Minnesota Timberwolves at San Antonio Spurs",
+  "time": "2026-11-01T00:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Minnesota Timberwolves",
+  "line": null,
+  "team": "Minnesota Timberwolves",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-10-31T13:30:09+00:00",
+  "price": 450,
+  "fairPctAtFlag": 19.2,
+  "evPctAtFlag": 5.35,
+  "closeFairPct": 19.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-10-31T13:30:09+00:00",
+  "clvPct": 5.6,
+  "closed": false
  }
 ]
