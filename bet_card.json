@@ -1,34 +1,194 @@
 {
- "generated_at": "2026-11-01T09:40:16+00:00",
+ "generated_at": "2026-11-01T20:25:43+00:00",
  "rule": "engine probability blended with sharp multi-book consensus; edge vs best legal price",
  "bets": [
   {
+   "sport": "NFL",
+   "game": "Las Vegas Raiders @ New York Jets",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "New York Jets ML",
+   "lane": "value",
+   "model_prob": 0.4786,
+   "engine_price": 190,
+   "engine_edge": 13.38,
+   "commence": "2026-11-01T18:02:53Z",
+   "home_team": "New York Jets",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "98f1b121b793977434c046e76c707145",
+   "sport_key": "americanfootball_nfl",
+   "sel": "New York Jets",
+   "odds_market": "h2h",
+   "consensus_prob": 0.4061,
+   "final_prob": 0.4279,
+   "n_books": 7.0,
+   "best_book": "betrivers",
+   "best_odds": 230.0,
+   "edge_pts": 12.48,
+   "ev_per_unit": 0.412,
+   "floor_odds": 165.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (AuthenticationError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
    "sport": "NCAAF",
-   "game": "TCU Horned Frogs @ Arizona Wildcats",
+   "game": "Texas A&M Aggies @ South Carolina Gamecocks",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "Texas A&M Aggies ML",
+   "lane": "value",
+   "model_prob": 0.5272,
+   "engine_price": 205,
+   "engine_edge": 19.93,
+   "commence": "2026-11-07T20:00:00Z",
+   "home_team": "South Carolina Gamecocks",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "208e919ada4f5cf6d27af719879d1880",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "Texas A&M Aggies",
+   "odds_market": "h2h",
+   "consensus_prob": 0.3082,
+   "final_prob": 0.3739,
+   "n_books": 7.0,
+   "best_book": "fanatics",
+   "best_odds": 220.0,
+   "edge_pts": 6.14,
+   "ev_per_unit": 0.1964,
+   "floor_odds": 209.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.8 pts away from this side since first published (+198 \u2192 +205, 3 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (AuthenticationError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NFL",
+   "game": "Minnesota Vikings @ Detroit Lions",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "Minnesota Vikings ML",
+   "lane": "value",
+   "model_prob": 0.4471,
+   "engine_price": 210,
+   "engine_edge": 12.46,
+   "commence": "2026-11-01T18:02:36Z",
+   "home_team": "Detroit Lions",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "52e7ee9c42525e6deec02da32dc2fad8",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Minnesota Vikings",
+   "odds_market": "h2h",
+   "consensus_prob": 0.3329,
+   "final_prob": 0.3672,
+   "n_books": 8.0,
+   "best_book": "espnbet",
+   "best_odds": 220.0,
+   "edge_pts": 5.47,
+   "ev_per_unit": 0.1751,
+   "floor_odds": 215.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.3 pts away from this side since first published (+136 \u2192 +138, 3 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (AuthenticationError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NCAAF",
+   "game": "Nebraska Cornhuskers @ Illinois Fighting Illini",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "Illinois Fighting Illini ML",
+   "lane": "value",
+   "model_prob": 0.5222,
+   "engine_price": 172,
+   "engine_edge": 15.46,
+   "commence": "2026-11-07T01:00:00Z",
+   "home_team": "Illinois Fighting Illini",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "59047d3be974c2ec05c7e6282752287b",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "Illinois Fighting Illini",
+   "odds_market": "h2h",
+   "consensus_prob": 0.3526,
+   "final_prob": 0.4035,
+   "n_books": 7.0,
+   "best_book": "betrivers",
+   "best_odds": 185.0,
+   "edge_pts": 5.26,
+   "ev_per_unit": 0.15,
+   "floor_odds": 183.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.8 pts toward this side since first published (+180 \u2192 +172, 3 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (AuthenticationError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NFL",
+   "game": "Tennessee Titans @ Cincinnati Bengals",
    "model": "sides",
    "market": "Spread",
-   "pick": "Arizona Wildcats -7.5",
+   "pick": "Cincinnati Bengals -3.5",
    "lane": "value",
-   "model_prob": 0.68,
-   "engine_price": -110,
-   "engine_edge": 15.62,
-   "commence": "2026-11-07T03:15:00Z",
-   "home_team": "Arizona Wildcats",
+   "model_prob": 0.695,
+   "engine_price": -102,
+   "engine_edge": 19.0,
+   "commence": "2026-11-01T18:02:38Z",
+   "home_team": "Cincinnati Bengals",
    "player": "",
-   "point": -7.5,
-   "model_run_at": "2026-11-01T09:40:01+00:00",
-   "event_id": "722ed661705df150a38e7786949ce241",
-   "sport_key": "americanfootball_ncaaf",
-   "sel": "Arizona Wildcats",
+   "point": -3.5,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+   "sport_key": "americanfootball_nfl",
+   "sel": "Cincinnati Bengals",
    "odds_market": "spreads",
-   "consensus_prob": 0.5291,
-   "final_prob": 0.5744,
-   "n_books": 3.0,
-   "best_book": "fanduel",
-   "best_odds": -110.0,
-   "edge_pts": 5.06,
-   "ev_per_unit": 0.0966,
-   "floor_odds": -110.0,
+   "consensus_prob": 0.5068,
+   "final_prob": 0.5633,
+   "n_books": 8.0,
+   "best_book": "draftkings",
+   "best_odds": 102.0,
+   "edge_pts": 6.82,
+   "ev_per_unit": 0.1378,
+   "floor_odds": -105.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
@@ -46,32 +206,112 @@
    "sport": "NCAAF",
    "game": "BYU Cougars @ Utah Utes",
    "model": "sides",
-   "market": "Moneyline",
-   "pick": "Utah Utes ML",
+   "market": "Spread",
+   "pick": "Utah Utes -5.5",
    "lane": "value",
-   "model_prob": 0.854,
-   "engine_price": -194,
-   "engine_edge": 19.41,
+   "model_prob": 0.7361,
+   "engine_price": -118,
+   "engine_edge": 19.48,
    "commence": "2026-11-07T17:00:00Z",
    "home_team": "Utah Utes",
    "player": "",
-   "point": null,
-   "model_run_at": "2026-11-01T09:40:01+00:00",
+   "point": -5.5,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
    "event_id": "8db5a11826fc84a5a6506c9b85979e70",
    "sport_key": "americanfootball_ncaaf",
    "sel": "Utah Utes",
-   "odds_market": "h2h",
-   "consensus_prob": 0.6218,
-   "final_prob": 0.6914,
-   "n_books": 4.0,
-   "best_book": "draftkings",
-   "best_odds": -175.0,
-   "edge_pts": 5.51,
-   "ev_per_unit": 0.0865,
-   "floor_odds": -179.0,
+   "odds_market": "spreads",
+   "consensus_prob": 0.5237,
+   "final_prob": 0.5874,
+   "n_books": 8.0,
+   "best_book": "betrivers",
+   "best_odds": -110.0,
+   "edge_pts": 6.36,
+   "ev_per_unit": 0.1214,
+   "floor_odds": -116.0,
    "decision": "BET",
    "reason": "",
    "line_move": "no line history yet",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (AuthenticationError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NCAAF",
+   "game": "Iowa Hawkeyes @ Northwestern Wildcats",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "Iowa Hawkeyes ML",
+   "lane": "value",
+   "model_prob": 0.6763,
+   "engine_price": -110,
+   "engine_edge": 15.25,
+   "commence": "2026-11-08T00:30:00Z",
+   "home_team": "Northwestern Wildcats",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "61cf0b043d9d95f0a73d0838ff08a24b",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "Iowa Hawkeyes",
+   "odds_market": "h2h",
+   "consensus_prob": 0.4798,
+   "final_prob": 0.5388,
+   "n_books": 6.0,
+   "best_book": "draftkings",
+   "best_odds": 105.0,
+   "edge_pts": 5.1,
+   "ev_per_unit": 0.1045,
+   "floor_odds": 105.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.2 pts toward this side since first published (-108 \u2192 -110, 3 reads)",
+   "stake_u": 1.0,
+   "weather": null,
+   "research": {
+    "summary": "research failed (AuthenticationError); bet stands on model + market only",
+    "evidence": [],
+    "verdict": "neutral",
+    "confidence": "low",
+    "material_news_after_model_run": false
+   }
+  },
+  {
+   "sport": "NCAAF",
+   "game": "Virginia Tech Hokies @ SMU Mustangs",
+   "model": "sides",
+   "market": "Moneyline",
+   "pick": "SMU Mustangs ML",
+   "lane": "value",
+   "model_prob": 0.8695,
+   "engine_price": -220,
+   "engine_edge": 18.2,
+   "commence": "2026-11-07T00:00:00Z",
+   "home_team": "SMU Mustangs",
+   "player": "",
+   "point": null,
+   "model_run_at": "2026-11-01T20:25:24+00:00",
+   "event_id": "11da04c7d3fba48caf11a5d8b66b8ccd",
+   "sport_key": "americanfootball_ncaaf",
+   "sel": "SMU Mustangs",
+   "odds_market": "h2h",
+   "consensus_prob": 0.6538,
+   "final_prob": 0.7185,
+   "n_books": 7.0,
+   "best_book": "espnbet",
+   "best_odds": -200.0,
+   "edge_pts": 5.19,
+   "ev_per_unit": 0.0778,
+   "floor_odds": -202.0,
+   "decision": "BET",
+   "reason": "",
+   "line_move": "FanDuel moved 0.5 pts away from this side since first published (-225 \u2192 -220, 3 reads)",
    "stake_u": 1.0,
    "weather": null,
    "research": {
@@ -86,359 +326,504 @@
  "held": [],
  "passed": [
   {
-   "game": "Baltimore Ravens @ Buffalo Bills",
-   "pick": "Devontez Walker Over 4.5 receiving yards",
-   "reason": "edge 6.8 < 7 once checked against 3 books (engine said 19.4 vs FanDuel)"
-  },
-  {
-   "game": "Villanova Wildcats @ Notre Dame Fighting Irish",
-   "pick": "Notre Dame Fighting Irish ML",
-   "reason": "edge 4.1 < 5 once checked against 9 books (engine said 12.5 vs FanDuel)"
-  },
-  {
-   "game": "Cleveland Browns @ Pittsburgh Steelers",
-   "pick": "Jerry Jeudy Over 2.5 receptions",
-   "reason": "edge 5.9 < 7 once checked against 5 books (engine said 19.5 vs FanDuel)"
-  },
-  {
-   "game": "Nebraska Cornhuskers @ Illinois Fighting Illini",
-   "pick": "Illinois Fighting Illini ML",
-   "reason": "edge 4.4 < 5 once checked against 3 books (engine said 16.5 vs FanDuel)"
-  },
-  {
-   "game": "Toronto Raptors @ Los Angeles Lakers",
-   "pick": "Ziaire Williams Over 8.5 points",
-   "reason": "edge 6.2 < 7 once checked against 4 books (engine said 19.0 vs FanDuel)"
-  },
-  {
-   "game": "New England Patriots @ Miami Dolphins",
-   "pick": "Efton Chism III Under 27.5 receiving yards",
-   "reason": "edge 5.8 < 7 once checked against 4 books (engine said 19.4 vs FanDuel)"
-  },
-  {
-   "game": "Tennessee Titans @ Cincinnati Bengals",
-   "pick": "Tennessee Titans ML",
-   "reason": "edge 1.7 < 5 once checked against 9 books (engine said 5.8 vs FanDuel)"
-  },
-  {
-   "game": "Arizona Cardinals @ Dallas Cowboys",
-   "pick": "Brevyn Spann-Ford Under 1.5 receptions",
-   "reason": "edge 4.7 < 7 once checked against 5 books (engine said 16.5 vs FanDuel)"
-  },
-  {
-   "game": "Toronto Raptors @ Los Angeles Lakers",
-   "pick": "Jakob Poeltl Under 6.5 rebounds",
-   "reason": "edge 4.8 < 7 once checked against 4 books (engine said 17.1 vs FanDuel)"
-  },
-  {
-   "game": "Alabama Crimson Tide @ LSU Tigers",
-   "pick": "Alabama Crimson Tide ML",
-   "reason": "edge 4.0 < 5 once checked against 6 books (engine said 15.5 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Clippers @ Golden State Warriors",
-   "pick": "Brandon Williams Under 21.5 pts+reb+ast",
-   "reason": "edge 5.0 < 7 once checked against 4 books (engine said 16.4 vs FanDuel)"
-  },
-  {
-   "game": "Boston Celtics @ Orlando Magic",
-   "pick": "Derrick White Under 23.5 pts+reb+ast",
-   "reason": "edge 5.1 < 7 once checked against 4 books (engine said 19.8 vs FanDuel)"
-  },
-  {
-   "game": "Boston Celtics @ Orlando Magic",
-   "pick": "Derrick White Under 14.5 points",
-   "reason": "edge 5.0 < 7 once checked against 5 books (engine said 18.7 vs FanDuel)"
-  },
-  {
-   "game": "Toronto Raptors @ Los Angeles Lakers",
-   "pick": "Scottie Barnes Under 23.5 points",
-   "reason": "edge 4.5 < 7 once checked against 4 books (engine said 19.0 vs FanDuel)"
-  },
-  {
-   "game": "Central Michigan Chippewas @ Eastern Michigan Eagles",
-   "pick": "Central Michigan Chippewas +2.5",
-   "reason": "edge 4.4 < 5 once checked against 3 books (engine said 15.5 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Chargers @ Los Angeles Rams",
-   "pick": "Konata Mumpfield Under 1.5 receptions",
-   "reason": "edge 4.2 < 7 once checked against 5 books (engine said 17.3 vs FanDuel)"
+   "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
+   "pick": "Georgia Tech Yellow Jackets ML",
+   "reason": "edge 3.4 < 5 once checked against 6 books (engine said 8.7 vs FanDuel)"
   },
   {
    "game": "Oklahoma Sooners @ Florida Gators",
    "pick": "Oklahoma Sooners ML",
-   "reason": "edge 2.9 < 5 once checked against 3 books (engine said 12.9 vs FanDuel)"
+   "reason": "edge 4.6 < 5 once checked against 7 books (engine said 15.2 vs FanDuel)"
   },
   {
-   "game": "Arizona Cardinals @ Dallas Cowboys",
-   "pick": "Tyler Goodson Under 19.5 rushing yards",
-   "reason": "edge 4.0 < 7 once checked against 2 books (engine said 19.5 vs FanDuel)"
+   "game": "North Carolina Tar Heels @ UConn Huskies",
+   "pick": "UConn Huskies ML",
+   "reason": "edge 3.6 < 5 once checked against 7 books (engine said 12.3 vs FanDuel)"
   },
   {
-   "game": "Boston Celtics @ Orlando Magic",
-   "pick": "Jayson Tatum Under 26.5 points",
-   "reason": "edge 3.9 < 7 once checked against 5 books (engine said 16.1 vs FanDuel)"
+   "game": "Marshall Thundering Herd @ Georgia Southern Eagles",
+   "pick": "Marshall Thundering Herd ML",
+   "reason": "edge 3.1 < 5 once checked against 6 books (engine said 9.6 vs FanDuel)"
   },
   {
-   "game": "Kansas City Chiefs @ Denver Broncos",
-   "pick": "Evan Engram Under 24.5 receiving yards",
-   "reason": "edge 3.9 < 7 once checked against 4 books (engine said 18.0 vs FanDuel)"
+   "game": "Alabama Crimson Tide @ LSU Tigers",
+   "pick": "Alabama Crimson Tide ML",
+   "reason": "edge 4.4 < 5 once checked against 8 books (engine said 16.5 vs FanDuel)"
   },
   {
-   "game": "Nebraska Cornhuskers @ Illinois Fighting Illini",
-   "pick": "Illinois Fighting Illini +6.5",
-   "reason": "edge 4.0 < 5 once checked against 3 books (engine said 17.8 vs FanDuel)"
+   "game": "Delaware Blue Hens @ Kennesaw State Owls",
+   "pick": "Kennesaw State Owls ML",
+   "reason": "edge 4.7 < 5 once checked against 5 books (engine said 18.2 vs FanDuel)"
   },
   {
-   "game": "Chicago Bears @ Seattle Seahawks",
-   "pick": "Seattle Seahawks ML",
-   "reason": "edge 4.6 < 5 once checked against 9 books (engine said 17.8 vs FanDuel)"
+   "game": "UCLA Bruins @ Minnesota Golden Gophers",
+   "pick": "Minnesota Golden Gophers ML",
+   "reason": "edge 3.3 < 5 once checked against 7 books (engine said 11.5 vs FanDuel)"
   },
   {
-   "game": "Philadelphia Eagles @ Washington Commanders",
-   "pick": "Makai Lemon Under 43.5 receiving yards",
-   "reason": "edge 3.9 < 7 once checked against 3 books (engine said 19.0 vs FanDuel)"
+   "game": "Las Vegas Raiders @ New York Jets",
+   "pick": "New York Jets +3.5",
+   "reason": "correlated with a better bet in this game"
   },
   {
    "game": "Los Angeles Chargers @ Los Angeles Rams",
    "pick": "Konata Mumpfield Under 17.5 receiving yards",
-   "reason": "edge 3.8 < 7 once checked against 2 books (engine said 19.9 vs FanDuel)"
+   "reason": "edge 5.2 < 7 once checked against 5 books (engine said 19.9 vs FanDuel)"
   },
   {
-   "game": "Minnesota Vikings @ Detroit Lions",
-   "pick": "Justin Jefferson Under 75.5 receiving yards",
-   "reason": "edge 3.8 < 7 once checked against 3 books (engine said 18.3 vs FanDuel)"
+   "game": "Delaware Blue Hens @ Kennesaw State Owls",
+   "pick": "Kennesaw State Owls +2.5",
+   "reason": "edge 4.9 < 5 once checked against 7 books (engine said 19.9 vs FanDuel)"
   },
   {
-   "game": "Virginia Tech Hokies @ SMU Mustangs",
-   "pick": "SMU Mustangs ML",
-   "reason": "edge 4.8 < 5 once checked against 3 books (engine said 17.7 vs FanDuel)"
+   "game": "Iowa Hawkeyes @ Northwestern Wildcats",
+   "pick": "Iowa Hawkeyes +1.5",
+   "reason": "edge 4.9 < 5 once checked against 8 books (engine said 17.1 vs FanDuel)"
   },
   {
-   "game": "UTSA Roadrunners @ Florida Atlantic Owls",
-   "pick": "UTSA Roadrunners -7.5",
-   "reason": "edge 3.5 < 5 once checked against 3 books (engine said 15.5 vs FanDuel)"
+   "game": "TCU Horned Frogs @ Arizona Wildcats",
+   "pick": "Arizona Wildcats -8.5",
+   "reason": "edge 4.8 < 5 once checked against 9 books (engine said 14.2 vs FanDuel)"
   },
   {
-   "game": "Los Angeles Chargers @ Los Angeles Rams",
-   "pick": "Los Angeles Rams -6.5",
-   "reason": "edge 3.7 < 5 once checked against 9 books (engine said 16.7 vs FanDuel)"
+   "game": "Southern Indiana Screaming Eagles @ Belmont Bruins",
+   "pick": "Belmont Bruins -16.5",
+   "reason": "edge 4.8 < 5 once checked against 9 books (engine said 13.9 vs FanDuel)"
   },
   {
-   "game": "New England Patriots @ Miami Dolphins",
-   "pick": "Chris Bell Under 18.5 receiving yards",
-   "reason": "edge 3.7 < 7 once checked against 2 books (engine said 19.4 vs FanDuel)"
+   "game": "Iowa State Cyclones @ Baylor Bears",
+   "pick": "Iowa State Cyclones ML",
+   "reason": "edge 2.4 < 5 once checked against 5 books (engine said 9.5 vs FanDuel)"
+  },
+  {
+   "game": "Louisiana Tech Bulldogs @ Troy Trojans",
+   "pick": "Troy Trojans ML",
+   "reason": "edge 3.2 < 5 once checked against 6 books (engine said 12.8 vs FanDuel)"
+  },
+  {
+   "game": "Los Angeles Clippers @ Golden State Warriors",
+   "pick": "Rui Hachimura Under 4.5 rebounds",
+   "reason": "edge 4.0 < 7 once checked against 6 books (engine said 16.9 vs FanDuel)"
+  },
+  {
+   "game": "Boston Celtics @ Orlando Magic",
+   "pick": "Derrick White Under 22.5 pts+reb+ast",
+   "reason": "edge 4.5 < 7 once checked against 5 books (engine said 19.8 vs FanDuel)"
+  },
+  {
+   "game": "Boston Celtics @ Orlando Magic",
+   "pick": "Orlando Magic ML",
+   "reason": "edge 2.4 < 5 once checked against 10 books (engine said 8.8 vs FanDuel)"
+  },
+  {
+   "game": "Kansas City Chiefs @ Denver Broncos",
+   "pick": "Evan Engram Under 24.5 receiving yards",
+   "reason": "edge 4.4 < 7 once checked against 5 books (engine said 18.0 vs FanDuel)"
   },
   {
    "game": "Brooklyn Nets @ Indiana Pacers",
    "pick": "Aaron Nesmith Over 12.5 points",
-   "reason": "edge 3.5 < 7 once checked against 5 books (engine said 16.8 vs FanDuel)"
-  },
-  {
-   "game": "Brooklyn Nets @ Indiana Pacers",
-   "pick": "Julius Randle Under 5.5 assists",
-   "reason": "edge 4.0 < 7 once checked against 6 books (engine said 19.7 vs FanDuel)"
-  },
-  {
-   "game": "Villanova Wildcats @ Notre Dame Fighting Irish",
-   "pick": "Notre Dame Fighting Irish +7.5",
-   "reason": "edge 3.7 < 5 once checked against 9 books (engine said 17.3 vs FanDuel)"
-  },
-  {
-   "game": "Brooklyn Nets @ Indiana Pacers",
-   "pick": "Andrew Nembhard Under 32.5 pts+reb+ast",
-   "reason": "edge 3.6 < 7 once checked against 4 books (engine said 17.4 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Clippers @ Golden State Warriors",
-   "pick": "Brandon Williams Under 14.5 points",
-   "reason": "edge 3.6 < 7 once checked against 5 books (engine said 17.4 vs FanDuel)"
-  },
-  {
-   "game": "Las Vegas Raiders @ New York Jets",
-   "pick": "Garrett Wilson Under 63.5 receiving yards",
-   "reason": "edge 3.5 < 7 once checked against 2 books (engine said 17.1 vs FanDuel)"
-  },
-  {
-   "game": "Philadelphia Eagles @ Washington Commanders",
-   "pick": "Darius Cooper Under 2.5 receptions",
-   "reason": "edge 3.5 < 7 once checked against 5 books (engine said 17.9 vs FanDuel)"
-  },
-  {
-   "game": "Central Michigan Chippewas @ Eastern Michigan Eagles",
-   "pick": "Central Michigan Chippewas ML",
-   "reason": "edge 3.0 < 5 once checked against 3 books (engine said 12.6 vs FanDuel)"
-  },
-  {
-   "game": "Kansas City Chiefs @ Denver Broncos",
-   "pick": "Courtland Sutton Under 40.5 receiving yards",
-   "reason": "edge 3.1 < 7 once checked against 2 books (engine said 18.0 vs FanDuel)"
-  },
-  {
-   "game": "Kansas City Chiefs @ Denver Broncos",
-   "pick": "Evan Engram Under 2.5 receptions",
-   "reason": "edge 3.0 < 7 once checked against 5 books (engine said 13.1 vs FanDuel)"
-  },
-  {
-   "game": "Chicago Bears @ Seattle Seahawks",
-   "pick": "Sam Darnold Over 4.5 rushing yards",
-   "reason": "edge 3.0 < 7 once checked against 3 books (engine said 15.5 vs FanDuel)"
-  },
-  {
-   "game": "Indianapolis Colts @ Jacksonville Jaguars",
-   "pick": "Jonathan Taylor Over 15.5 receiving yards",
-   "reason": "edge 3.0 < 7 once checked against 4 books (engine said 16.5 vs FanDuel)"
-  },
-  {
-   "game": "Kansas City Chiefs @ Denver Broncos",
-   "pick": "Denver Broncos +1.5",
-   "reason": "edge 2.9 < 5 once checked against 9 books (engine said 10.4 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Clippers @ Golden State Warriors",
-   "pick": "Darius Garland Under 2.5 rebounds",
-   "reason": "edge 2.7 < 7 once checked against 3 books (engine said 16.5 vs FanDuel)"
-  },
-  {
-   "game": "Tennessee Titans @ Cincinnati Bengals",
-   "pick": "Michael Carter Over 1.5 receptions",
-   "reason": "edge 2.8 < 7 once checked against 4 books (engine said 15.3 vs FanDuel)"
-  },
-  {
-   "game": "Tennessee Titans @ Cincinnati Bengals",
-   "pick": "Gunnar Helm Under 21.5 receiving yards",
-   "reason": "edge 2.8 < 7 once checked against 4 books (engine said 14.3 vs FanDuel)"
+   "reason": "edge 4.2 < 7 once checked against 6 books (engine said 17.3 vs FanDuel)"
   },
   {
    "game": "Los Angeles Chargers @ Los Angeles Rams",
-   "pick": "Charlie Kolar Under 2.5 receptions",
-   "reason": "edge 3.2 < 7 once checked against 5 books (engine said 15.2 vs FanDuel)"
+   "pick": "Konata Mumpfield Under 1.5 receptions",
+   "reason": "edge 4.2 < 7 once checked against 6 books (engine said 17.3 vs FanDuel)"
   },
   {
-   "game": "Toronto Raptors @ Los Angeles Lakers",
-   "pick": "Toronto Raptors ML",
-   "reason": "edge 2.0 < 5 once checked against 9 books (engine said 8.3 vs FanDuel)"
+   "game": "Kansas City Chiefs @ Denver Broncos",
+   "pick": "J.K. Dobbins Over 30.5 rushing yards",
+   "reason": "edge 4.3 < 7 once checked against 4 books (engine said 19.3 vs FanDuel)"
   },
   {
-   "game": "Alabama Crimson Tide @ LSU Tigers",
-   "pick": "Alabama Crimson Tide +3.5",
-   "reason": "edge 2.6 < 5 once checked against 6 books (engine said 15.2 vs FanDuel)"
+   "game": "Ball State Cardinals @ Georgia Southern Eagles",
+   "pick": "Georgia Southern Eagles ML",
+   "reason": "edge 3.6 < 5 once checked against 7 books (engine said 14.8 vs FanDuel)"
+  },
+  {
+   "game": "Las Vegas Raiders @ New York Jets",
+   "pick": "Garrett Wilson Under 69.5 receiving yards",
+   "reason": "edge 4.3 < 7 once checked against 4 books (engine said 20.0 vs FanDuel)"
+  },
+  {
+   "game": "Boston Celtics @ Orlando Magic",
+   "pick": "Jayson Tatum Under 26.5 points",
+   "reason": "edge 4.0 < 7 once checked against 5 books (engine said 19.4 vs FanDuel)"
+  },
+  {
+   "game": "Los Angeles Chargers @ Los Angeles Rams",
+   "pick": "Los Angeles Rams -6.5",
+   "reason": "edge 4.0 < 5 once checked against 10 books (engine said 15.8 vs FanDuel)"
+  },
+  {
+   "game": "Tennessee Titans @ Cincinnati Bengals",
+   "pick": "Ja'Marr Chase Under 92.5 receiving yards",
+   "reason": "edge 4.0 < 7 once checked against 2 books (engine said 20.0 vs FanDuel)"
+  },
+  {
+   "game": "Philadelphia Eagles @ Washington Commanders",
+   "pick": "Makai Lemon Under 43.5 receiving yards",
+   "reason": "edge 4.0 < 7 once checked against 4 books (engine said 19.0 vs FanDuel)"
+  },
+  {
+   "game": "Boston Celtics @ Orlando Magic",
+   "pick": "Derrick White Under 13.5 points",
+   "reason": "edge 3.9 < 7 once checked against 6 books (engine said 17.7 vs FanDuel)"
   },
   {
    "game": "Oklahoma Sooners @ Florida Gators",
    "pick": "Oklahoma Sooners +6.5",
-   "reason": "edge 2.7 < 5 once checked against 3 books (engine said 14.7 vs FanDuel)"
-  },
-  {
-   "game": "Buffalo Bulls @ Miami (OH) RedHawks",
-   "pick": "Miami (OH) RedHawks -6.5",
-   "reason": "edge 2.3 < 5 once checked against 3 books (engine said 11.6 vs FanDuel)"
-  },
-  {
-   "game": "Cleveland Browns @ Pittsburgh Steelers",
-   "pick": "Quinshon Judkins Over 1.5 receptions",
-   "reason": "edge 2.8 < 7 once checked against 5 books (engine said 13.0 vs FanDuel)"
-  },
-  {
-   "game": "Las Vegas Raiders @ New York Jets",
-   "pick": "Mason Taylor Over 2.5 receptions",
-   "reason": "edge 2.6 < 7 once checked against 3 books (engine said 14.1 vs FanDuel)"
-  },
-  {
-   "game": "Los Angeles Chargers @ Los Angeles Rams",
-   "pick": "Los Angeles Rams ML",
-   "reason": "edge 3.1 < 5 once checked against 9 books (engine said 12.0 vs FanDuel)"
+   "reason": "edge 3.9 < 5 once checked against 9 books (engine said 16.5 vs FanDuel)"
   },
   {
    "game": "Chicago Bears @ Seattle Seahawks",
-   "pick": "Tory Horton Under 20.5 receiving yards",
-   "reason": "edge 2.2 < 7 once checked against 2 books (engine said 14.9 vs FanDuel)"
+   "pick": "Seattle Seahawks ML",
+   "reason": "edge 4.6 < 5 once checked against 10 books (engine said 17.8 vs FanDuel)"
   },
   {
-   "game": "Kansas City Chiefs @ Denver Broncos",
-   "pick": "Denver Broncos ML",
-   "reason": "edge 2.0 < 5 once checked against 9 books (engine said 8.2 vs FanDuel)"
+   "game": "Minnesota Vikings @ Detroit Lions",
+   "pick": "Jordan Addison Over 19.5 receiving yards",
+   "reason": "edge 3.9 < 7 once checked against 3 books (engine said 20.0 vs FanDuel)"
   },
   {
-   "game": "Tennessee Titans @ Cincinnati Bengals",
-   "pick": "Tennessee Titans +12.5",
-   "reason": "edge 2.0 < 5 once checked against 9 books (engine said 8.4 vs FanDuel)"
+   "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
+   "pick": "Georgia Tech Yellow Jackets +13.5",
+   "reason": "edge 3.6 < 5 once checked against 8 books (engine said 16.3 vs FanDuel)"
   },
   {
-   "game": "TCU Horned Frogs @ Arizona Wildcats",
-   "pick": "Arizona Wildcats ML",
-   "reason": "edge 2.8 < 5 once checked against 3 books (engine said 11.1 vs FanDuel)"
-  },
-  {
-   "game": "Toronto Raptors @ Los Angeles Lakers",
-   "pick": "Toronto Raptors +4.5",
-   "reason": "edge 1.8 < 5 once checked against 9 books (engine said 8.1 vs FanDuel)"
+   "game": "Los Angeles Clippers @ Golden State Warriors",
+   "pick": "Brandon Williams Under 13.5 points",
+   "reason": "edge 3.6 < 7 once checked against 5 books (engine said 16.8 vs FanDuel)"
   },
   {
    "game": "New England Patriots @ Miami Dolphins",
-   "pick": "New England Patriots ML",
-   "reason": "edge 2.6 < 5 once checked against 9 books (engine said 12.2 vs FanDuel)"
+   "pick": "Efton Chism III Under 27.5 receiving yards",
+   "reason": "edge 3.8 < 7 once checked against 3 books (engine said 19.4 vs FanDuel)"
   },
   {
-   "game": "Florida Gators @ Miami Hurricanes",
-   "pick": "Florida Gators ML",
-   "reason": "edge 2.0 < 5 once checked against 7 books (engine said 8.3 vs FanDuel)"
+   "game": "Alabama Crimson Tide @ LSU Tigers",
+   "pick": "Alabama Crimson Tide +4.5",
+   "reason": "edge 3.7 < 5 once checked against 10 books (engine said 15.7 vs FanDuel)"
   },
   {
-   "game": "Atlanta Falcons @ Tampa Bay Buccaneers",
-   "pick": "Jahan Dotson Under 2.5 receptions",
-   "reason": "edge 1.9 < 7 once checked against 2 books (engine said 14.2 vs FanDuel)"
+   "game": "UCF Knights @ Kansas Jayhawks",
+   "pick": "Kansas Jayhawks ML",
+   "reason": "edge 4.1 < 5 once checked against 7 books (engine said 12.7 vs FanDuel)"
   },
   {
-   "game": "Kentucky Wildcats @ Tennessee Volunteers",
-   "pick": "Tennessee Volunteers ML",
-   "reason": "edge 1.7 < 5 once checked against 6 books (engine said 7.1 vs FanDuel)"
+   "game": "Florida State Seminoles @ Boston College Eagles",
+   "pick": "Florida State Seminoles -7.5",
+   "reason": "edge 3.5 < 5 once checked against 9 books (engine said 14.6 vs FanDuel)"
   },
   {
-   "game": "Baltimore Ravens @ Buffalo Bills",
-   "pick": "Buffalo Bills ML",
-   "reason": "edge 1.6 < 5 once checked against 9 books (engine said 9.0 vs FanDuel)"
+   "game": "Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders",
+   "pick": "Western Kentucky Hilltoppers ML",
+   "reason": "edge 3.5 < 5 once checked against 6 books (engine said 10.5 vs FanDuel)"
   },
   {
-   "game": "Cleveland Browns @ Pittsburgh Steelers",
-   "pick": "Pittsburgh Steelers -3.5",
-   "reason": "edge 1.3 < 5 once checked against 9 books (engine said 7.8 vs FanDuel)"
+   "game": "Ball State Cardinals @ Georgia Southern Eagles",
+   "pick": "Georgia Southern Eagles +2.5",
+   "reason": "edge 3.6 < 5 once checked against 9 books (engine said 17.2 vs FanDuel)"
   },
   {
-   "game": "Buffalo Bulls @ Miami (OH) RedHawks",
-   "pick": "Miami (OH) RedHawks ML",
-   "reason": "edge 1.6 < 5 once checked against 3 books (engine said 10.3 vs FanDuel)"
+   "game": "Brooklyn Nets @ Indiana Pacers",
+   "pick": "Julius Randle Under 5.5 assists",
+   "reason": "edge 4.0 < 7 once checked against 9 books (engine said 18.6 vs FanDuel)"
+  },
+  {
+   "game": "Toronto Raptors @ Los Angeles Lakers",
+   "pick": "Ziaire Williams Over 8.5 points",
+   "reason": "edge 3.8 < 7 once checked against 7 books (engine said 19.4 vs FanDuel)"
+  },
+  {
+   "game": "Nebraska Cornhuskers @ Illinois Fighting Illini",
+   "pick": "Illinois Fighting Illini +5.5",
+   "reason": "edge 3.6 < 5 once checked against 9 books (engine said 16.0 vs FanDuel)"
+  },
+  {
+   "game": "Tennessee Titans @ Cincinnati Bengals",
+   "pick": "Daniel Bellinger Under 22.5 receiving yards",
+   "reason": "edge 4.2 < 7 once checked against 3 books (engine said 19.7 vs FanDuel)"
+  },
+  {
+   "game": "New England Patriots @ Miami Dolphins",
+   "pick": "Chris Bell Under 18.5 receiving yards",
+   "reason": "edge 3.6 < 7 once checked against 3 books (engine said 19.4 vs FanDuel)"
+  },
+  {
+   "game": "UTSA Roadrunners @ Florida Atlantic Owls",
+   "pick": "UTSA Roadrunners -6.5",
+   "reason": "edge 3.5 < 5 once checked against 9 books (engine said 13.3 vs FanDuel)"
+  },
+  {
+   "game": "Minnesota Vikings @ Detroit Lions",
+   "pick": "Jahmyr Gibbs Over 20.5 receiving yards",
+   "reason": "edge 3.5 < 7 once checked against 3 books (engine said 18.1 vs FanDuel)"
+  },
+  {
+   "game": "BYU Cougars @ Utah Utes",
+   "pick": "Utah Utes ML",
+   "reason": "edge 4.4 < 5 once checked against 7 books (engine said 17.1 vs FanDuel)"
+  },
+  {
+   "game": "UCLA Bruins @ Minnesota Golden Gophers",
+   "pick": "Minnesota Golden Gophers +6.5",
+   "reason": "edge 3.3 < 5 once checked against 9 books (engine said 12.8 vs FanDuel)"
+  },
+  {
+   "game": "Philadelphia Eagles @ Washington Commanders",
+   "pick": "Saquon Barkley Over 44.5 rushing yards",
+   "reason": "edge 3.4 < 7 once checked against 3 books (engine said 19.1 vs FanDuel)"
+  },
+  {
+   "game": "Los Angeles Clippers @ Golden State Warriors",
+   "pick": "Darius Garland Under 2.5 rebounds",
+   "reason": "edge 3.2 < 7 once checked against 6 books (engine said 16.5 vs FanDuel)"
+  },
+  {
+   "game": "Iowa State Cyclones @ Baylor Bears",
+   "pick": "Iowa State Cyclones +9.5",
+   "reason": "edge 3.1 < 5 once checked against 7 books (engine said 13.4 vs FanDuel)"
+  },
+  {
+   "game": "Minnesota Vikings @ Detroit Lions",
+   "pick": "T.J. Hockenson Under 50.5 receiving yards",
+   "reason": "edge 3.3 < 7 once checked against 2 books (engine said 19.1 vs FanDuel)"
+  },
+  {
+   "game": "Kansas City Chiefs @ Denver Broncos",
+   "pick": "Evan Engram Under 2.5 receptions",
+   "reason": "edge 3.1 < 7 once checked against 6 books (engine said 13.1 vs FanDuel)"
+  },
+  {
+   "game": "Vanderbilt Commodores @ Mississippi State Bulldogs",
+   "pick": "Vanderbilt Commodores ML",
+   "reason": "edge 2.5 < 5 once checked against 7 books (engine said 7.3 vs FanDuel)"
+  },
+  {
+   "game": "Louisiana Tech Bulldogs @ Troy Trojans",
+   "pick": "Troy Trojans +6.5",
+   "reason": "edge 3.0 < 5 once checked against 8 books (engine said 14.5 vs FanDuel)"
+  },
+  {
+   "game": "Central Michigan Chippewas @ Eastern Michigan Eagles",
+   "pick": "Central Michigan Chippewas ML",
+   "reason": "edge 2.7 < 5 once checked against 7 books (engine said 10.2 vs FanDuel)"
+  },
+  {
+   "game": "Texas State Bobcats @ Oregon State Beavers",
+   "pick": "Texas State Bobcats ML",
+   "reason": "edge 1.7 < 5 once checked against 6 books (engine said 6.7 vs FanDuel)"
+  },
+  {
+   "game": "South Florida Bulls @ East Carolina Pirates",
+   "pick": "South Florida Bulls ML",
+   "reason": "edge 2.7 < 5 once checked against 7 books (engine said 11.0 vs FanDuel)"
+  },
+  {
+   "game": "Wyoming Cowboys @ UNLV Rebels",
+   "pick": "UNLV Rebels ML",
+   "reason": "edge 3.7 < 5 once checked against 6 books (engine said 13.4 vs FanDuel)"
+  },
+  {
+   "game": "Toronto Raptors @ Los Angeles Lakers",
+   "pick": "Immanuel Quickley Under 5.5 assists",
+   "reason": "edge 2.4 < 7 once checked against 8 books (engine said 14.4 vs FanDuel)"
+  },
+  {
+   "game": "Fresno State Bulldogs @ Utah State Aggies",
+   "pick": "Utah State Aggies +2.5",
+   "reason": "edge 2.6 < 5 once checked against 8 books (engine said 12.5 vs FanDuel)"
+  },
+  {
+   "game": "Brooklyn Nets @ Indiana Pacers",
+   "pick": "Nolan Traore Under 19.5 pts+reb+ast",
+   "reason": "edge 2.7 < 7 once checked against 4 books (engine said 16.1 vs FanDuel)"
+  },
+  {
+   "game": "Kansas City Chiefs @ Denver Broncos",
+   "pick": "Denver Broncos +1.5",
+   "reason": "edge 2.6 < 5 once checked against 10 books (engine said 8.7 vs FanDuel)"
+  },
+  {
+   "game": "Marshall Thundering Herd @ Georgia Southern Eagles",
+   "pick": "Marshall Thundering Herd +9.5",
+   "reason": "edge 2.5 < 5 once checked against 8 books (engine said 12.4 vs FanDuel)"
+  },
+  {
+   "game": "Toronto Raptors @ Los Angeles Lakers",
+   "pick": "Austin Reaves Under 32.5 pts+reb+ast",
+   "reason": "edge 2.6 < 7 once checked against 7 books (engine said 14.2 vs FanDuel)"
+  },
+  {
+   "game": "Arizona Cardinals @ Dallas Cowboys",
+   "pick": "Dak Prescott Over 225.5 passing yards",
+   "reason": "edge 2.6 < 7 once checked against 2 books (engine said 16.4 vs FanDuel)"
+  },
+  {
+   "game": "Vanderbilt Commodores @ Mississippi State Bulldogs",
+   "pick": "Vanderbilt Commodores +2.5",
+   "reason": "edge 2.4 < 5 once checked against 9 books (engine said 10.7 vs FanDuel)"
+  },
+  {
+   "game": "Central Michigan Chippewas @ Eastern Michigan Eagles",
+   "pick": "Central Michigan Chippewas +1.5",
+   "reason": "edge 2.4 < 5 once checked against 9 books (engine said 13.1 vs FanDuel)"
+  },
+  {
+   "game": "Florida State Seminoles @ Boston College Eagles",
+   "pick": "Florida State Seminoles ML",
+   "reason": "edge 3.2 < 5 once checked against 7 books (engine said 10.3 vs FanDuel)"
+  },
+  {
+   "game": "North Carolina Tar Heels @ UConn Huskies",
+   "pick": "UConn Huskies +7.5",
+   "reason": "edge 2.4 < 5 once checked against 9 books (engine said 11.5 vs FanDuel)"
+  },
+  {
+   "game": "Charlotte 49ers @ UAB Blazers",
+   "pick": "UAB Blazers -10.5",
+   "reason": "edge 2.2 < 5 once checked against 8 books (engine said 5.1 vs FanDuel)"
+  },
+  {
+   "game": "Toledo Rockets @ Sacramento State Hornets",
+   "pick": "Toledo Rockets -24.5",
+   "reason": "edge 2.3 < 5 once checked against 9 books (engine said 8.4 vs FanDuel)"
   },
   {
    "game": "UTSA Roadrunners @ Florida Atlantic Owls",
    "pick": "UTSA Roadrunners ML",
-   "reason": "edge 1.6 < 5 once checked against 3 books (engine said 12.2 vs FanDuel)"
+   "reason": "edge 2.8 < 5 once checked against 7 books (engine said 12.6 vs FanDuel)"
   },
   {
-   "game": "New Mexico Lobos @ Nevada Wolf Pack",
-   "pick": "Nevada Wolf Pack +12.5",
-   "reason": "edge 0.3 < 5 once checked against 3 books (engine said 6.5 vs FanDuel)"
+   "game": "Fresno State Bulldogs @ Utah State Aggies",
+   "pick": "Utah State Aggies ML",
+   "reason": "edge 1.9 < 5 once checked against 6 books (engine said 9.4 vs FanDuel)"
   },
   {
-   "game": "Cleveland Browns @ Pittsburgh Steelers",
-   "pick": "Pittsburgh Steelers ML",
-   "reason": "edge 0.2 < 5 once checked against 9 books (engine said 5.3 vs FanDuel)"
+   "game": "Boise State Broncos @ Colorado State Rams",
+   "pick": "Boise State Broncos -17.5",
+   "reason": "edge 2.0 < 5 once checked against 8 books (engine said 7.7 vs FanDuel)"
   },
   {
-   "game": "High Point Panthers @ Liberty Flames",
-   "pick": "High Point Panthers ML",
-   "reason": "edge 0.1 < 5 once checked against 7 books (engine said 3.7 vs FanDuel)"
+   "game": "Tennessee Titans @ Cincinnati Bengals",
+   "pick": "Cincinnati Bengals ML",
+   "reason": "edge 2.4 < 5 once checked against 8 books (engine said 6.6 vs FanDuel)"
+  },
+  {
+   "game": "Air Force Falcons @ Army Black Knights",
+   "pick": "Army Black Knights -4.5",
+   "reason": "edge 1.7 < 5 once checked against 9 books (engine said 6.0 vs FanDuel)"
+  },
+  {
+   "game": "Los Angeles Chargers @ Los Angeles Rams",
+   "pick": "Charlie Kolar Under 2.5 receptions",
+   "reason": "edge 2.1 < 7 once checked against 6 books (engine said 14.0 vs FanDuel)"
+  },
+  {
+   "game": "Los Angeles Chargers @ Los Angeles Rams",
+   "pick": "Los Angeles Rams ML",
+   "reason": "edge 2.3 < 5 once checked against 10 books (engine said 11.0 vs FanDuel)"
+  },
+  {
+   "game": "Kentucky Wildcats @ Tennessee Volunteers",
+   "pick": "Tennessee Volunteers ML",
+   "reason": "edge 2.0 < 5 once checked against 7 books (engine said 7.1 vs FanDuel)"
+  },
+  {
+   "game": "Liberty Flames @ New Mexico State Aggies",
+   "pick": "New Mexico State Aggies +16.5",
+   "reason": "edge 1.5 < 5 once checked against 8 books (engine said 10.9 vs FanDuel)"
+  },
+  {
+   "game": "Florida Gators @ Miami Hurricanes",
+   "pick": "Florida Gators ML",
+   "reason": "edge 1.9 < 5 once checked against 7 books (engine said 7.8 vs FanDuel)"
+  },
+  {
+   "game": "Buffalo Bulls @ Miami (OH) RedHawks",
+   "pick": "Miami (OH) RedHawks ML",
+   "reason": "edge 1.9 < 5 once checked against 7 books (engine said 8.0 vs FanDuel)"
+  },
+  {
+   "game": "UAB Blazers @ McNeese Cowboys",
+   "pick": "McNeese Cowboys ML",
+   "reason": "edge 1.7 < 5 once checked against 7 books (engine said 9.9 vs FanDuel)"
+  },
+  {
+   "game": "Boston Celtics @ Orlando Magic",
+   "pick": "Orlando Magic +7.5",
+   "reason": "edge 1.3 < 5 once checked against 10 books (engine said 7.1 vs FanDuel)"
+  },
+  {
+   "game": "Kansas City Chiefs @ Denver Broncos",
+   "pick": "Denver Broncos ML",
+   "reason": "edge 1.3 < 5 once checked against 8 books (engine said 7.2 vs FanDuel)"
+  },
+  {
+   "game": "TCU Horned Frogs @ Arizona Wildcats",
+   "pick": "Arizona Wildcats ML",
+   "reason": "edge 1.9 < 5 once checked against 7 books (engine said 10.2 vs FanDuel)"
+  },
+  {
+   "game": "Buffalo Bulls @ Miami (OH) RedHawks",
+   "pick": "Miami (OH) RedHawks -6.5",
+   "reason": "edge 1.2 < 5 once checked against 9 books (engine said 8.6 vs FanDuel)"
+  },
+  {
+   "game": "Maryland Terrapins @ Purdue Boilermakers",
+   "pick": "Purdue Boilermakers ML",
+   "reason": "edge 1.5 < 5 once checked against 7 books (engine said 5.5 vs FanDuel)"
+  },
+  {
+   "game": "New England Patriots @ Miami Dolphins",
+   "pick": "New England Patriots ML",
+   "reason": "edge 1.4 < 5 once checked against 10 books (engine said 10.2 vs FanDuel)"
+  },
+  {
+   "game": "Texas State Bobcats @ Oregon State Beavers",
+   "pick": "Texas State Bobcats +7.5",
+   "reason": "edge 0.9 < 5 once checked against 8 books (engine said 5.7 vs FanDuel)"
+  },
+  {
+   "game": "Monmouth Hawks @ St. John's Red Storm",
+   "pick": "St. John's Red Storm -27.5",
+   "reason": "edge 0.7 < 5 once checked against 8 books (engine said 5.7 vs FanDuel)"
   },
   {
    "game": "Oregon Ducks @ Ohio State Buckeyes",
    "pick": "Ohio State Buckeyes ML",
-   "reason": "edge -0.9 < 5 once checked against 3 books (engine said 3.7 vs FanDuel)"
+   "reason": "edge 0.8 < 5 once checked against 7 books (engine said 4.9 vs FanDuel)"
   },
   {
    "game": "Kentucky Wildcats @ Tennessee Volunteers",
    "pick": "Tennessee Volunteers -6.5",
-   "reason": "edge -0.6 < 5 once checked against 6 books (engine said 6.4 vs FanDuel)"
+   "reason": "edge 0.5 < 5 once checked against 9 books (engine said 6.4 vs FanDuel)"
+  },
+  {
+   "game": "High Point Panthers @ Liberty Flames",
+   "pick": "High Point Panthers ML",
+   "reason": "edge 0.6 < 5 once checked against 10 books (engine said 5.7 vs FanDuel)"
+  },
+  {
+   "game": "UL Monroe Warhawks @ Arkansas State Red Wolves",
+   "pick": "Arkansas State Red Wolves -14.5",
+   "reason": "edge 0.4 < 5 once checked against 8 books (engine said 5.4 vs FanDuel)"
+  },
+  {
+   "game": "UCF Knights @ Kansas Jayhawks",
+   "pick": "Kansas Jayhawks -2.5",
+   "reason": "edge 0.2 < 5 once checked against 9 books (engine said 10.6 vs FanDuel)"
+  },
+  {
+   "game": "Charlotte 49ers @ UAB Blazers",
+   "pick": "UAB Blazers ML",
+   "reason": "edge -0.9 < 5 once checked against 6 books (engine said 3.2 vs FanDuel)"
+  },
+  {
+   "game": "South Florida Bulls @ East Carolina Pirates",
+   "pick": "South Florida Bulls -1.5",
+   "reason": "edge -1.1 < 5 once checked against 9 books (engine said 8.0 vs FanDuel)"
   },
   {
    "game": "Florida Gators @ Miami Hurricanes",
@@ -446,84 +831,24 @@
    "reason": "edge -1.3 < 5 once checked against 8 books (engine said 5.1 vs FanDuel)"
   },
   {
-   "game": "Iowa State Cyclones @ Baylor Bears",
-   "pick": "Iowa State Cyclones ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
+   "game": "UAB Blazers @ McNeese Cowboys",
+   "pick": "McNeese Cowboys -4.5",
+   "reason": "edge -1.5 < 5 once checked against 9 books (engine said 5.2 vs FanDuel)"
   },
   {
-   "game": "Iowa State Cyclones @ Baylor Bears",
-   "pick": "Iowa State Cyclones +9.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
+   "game": "Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders",
+   "pick": "Western Kentucky Hilltoppers -1.5",
+   "reason": "edge -1.8 < 5 once checked against 8 books (engine said 7.7 vs FanDuel)"
   },
   {
-   "game": "Florida State Seminoles @ Boston College Eagles",
-   "pick": "Florida State Seminoles ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
+   "game": "Oregon Ducks @ Ohio State Buckeyes",
+   "pick": "Ohio State Buckeyes -9.5",
+   "reason": "edge -4.2 < 5 once checked against 9 books (engine said 5.1 vs FanDuel)"
   },
   {
-   "game": "Florida State Seminoles @ Boston College Eagles",
-   "pick": "Florida State Seminoles -7.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Iowa Hawkeyes @ Northwestern Wildcats",
-   "pick": "Iowa Hawkeyes ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Iowa Hawkeyes @ Northwestern Wildcats",
-   "pick": "Iowa Hawkeyes +1.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "UCF Knights @ Kansas Jayhawks",
-   "pick": "Kansas Jayhawks ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "UCF Knights @ Kansas Jayhawks",
-   "pick": "Kansas Jayhawks -1.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "UCLA Bruins @ Minnesota Golden Gophers",
-   "pick": "Minnesota Golden Gophers ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "UCLA Bruins @ Minnesota Golden Gophers",
-   "pick": "Minnesota Golden Gophers +5.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "North Carolina Tar Heels @ UConn Huskies",
-   "pick": "UConn Huskies ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "North Carolina Tar Heels @ UConn Huskies",
-   "pick": "UConn Huskies +8.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Texas A&M Aggies @ South Carolina Gamecocks",
-   "pick": "Texas A&M Aggies ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Vanderbilt Commodores @ Mississippi State Bulldogs",
-   "pick": "Vanderbilt Commodores +2.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
-   "pick": "Georgia Tech Yellow Jackets ML",
-   "reason": "under 3 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
-   "pick": "Georgia Tech Yellow Jackets +13.5",
-   "reason": "under 3 books at this line, or none of your books offer it"
+   "game": "Tennessee Titans @ Cincinnati Bengals",
+   "pick": "Samaje Perine anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
    "game": "New England Patriots @ Miami Dolphins",
@@ -531,33 +856,73 @@
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
-   "game": "Las Vegas Raiders @ New York Jets",
-   "pick": "Kenyon Sadiq Under 16.5 receiving yards",
+   "game": "Atlanta Falcons @ Tampa Bay Buccaneers",
+   "pick": "Kenny Gainwell anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
-   "game": "Tennessee Titans @ Cincinnati Bengals",
-   "pick": "Mike Gesicki anytime TD",
+   "game": "Cleveland Browns @ Pittsburgh Steelers",
+   "pick": "Darnell Washington anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Cleveland Browns @ Pittsburgh Steelers",
+   "pick": "Quinshon Judkins anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
    "game": "Philadelphia Eagles @ Washington Commanders",
-   "pick": "Saquon Barkley Under 13.5 receiving yards",
+   "pick": "Luke McCaffrey anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
-   "game": "Minnesota Vikings @ Detroit Lions",
-   "pick": "Justin Jefferson Under 5.5 receptions",
+   "game": "Cleveland Browns @ Pittsburgh Steelers",
+   "pick": "Harold Fannin Jr. anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
    "game": "Atlanta Falcons @ Tampa Bay Buccaneers",
-   "pick": "Sean Tucker Over 6.5 rushing yards",
+   "pick": "Tez Johnson anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
-   "game": "Minnesota Vikings @ Detroit Lions",
-   "pick": "Aaron Jones Sr. Over 1.5 receptions",
+   "game": "Las Vegas Raiders @ New York Jets",
+   "pick": "Kenyon Sadiq anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Indianapolis Colts @ Jacksonville Jaguars",
+   "pick": "Tyler Warren anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Atlanta Falcons @ Tampa Bay Buccaneers",
+   "pick": "Drake London anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Arizona Cardinals @ Dallas Cowboys",
+   "pick": "Michael Wilson anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Las Vegas Raiders @ New York Jets",
+   "pick": "Kirk Cousins Under 274.5 passing yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Chicago Bears @ Seattle Seahawks",
+   "pick": "Luther Burden III Under 4.5 rushing yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Baltimore Ravens @ Buffalo Bills",
+   "pick": "Ty Johnson anytime TD",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Chicago Bears @ Seattle Seahawks",
+   "pick": "Tory Horton Under 21.5 receiving yards",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
@@ -566,38 +931,28 @@
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
-   "game": "Atlanta Falcons @ Tampa Bay Buccaneers",
-   "pick": "Tez Johnson Under 31.5 receiving yards",
+   "game": "Baltimore Ravens @ Buffalo Bills",
+   "pick": "Khalil Shakir Under 63.5 receiving yards",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
    "game": "Indianapolis Colts @ Jacksonville Jaguars",
-   "pick": "Caleb Williams anytime TD",
-   "reason": "under 2 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Baltimore Ravens @ Buffalo Bills",
-   "pick": "Devontez Walker anytime TD",
-   "reason": "under 2 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Baltimore Ravens @ Buffalo Bills",
-   "pick": "Keon Coleman anytime TD",
+   "pick": "Mo Alie-Cox anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
    "game": "Arizona Cardinals @ Dallas Cowboys",
-   "pick": "Bam Knight Over 19.5 rushing yards",
+   "pick": "Elijah Higgins Over 12.5 receiving yards",
+   "reason": "under 2 books at this line, or none of your books offer it"
+  },
+  {
+   "game": "Baltimore Ravens @ Buffalo Bills",
+   "pick": "Dawson Knox anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   },
   {
    "game": "Indianapolis Colts @ Jacksonville Jaguars",
-   "pick": "Brian Thomas Jr. Over 15.5 receiving yards",
-   "reason": "under 2 books at this line, or none of your books offer it"
-  },
-  {
-   "game": "Cleveland Browns @ Pittsburgh Steelers",
-   "pick": "Harold Fannin Jr. anytime TD",
+   "pick": "Daniel Jones anytime TD",
    "reason": "under 2 books at this line, or none of your books offer it"
   }
  ]
