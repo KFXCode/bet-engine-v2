@@ -14104,10 +14104,10 @@
   "price": 340,
   "fairPctAtFlag": 23.8,
   "evPctAtFlag": 4.83,
-  "closeFairPct": 20.0,
+  "closeFairPct": 20.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
-  "clvPct": -12.0,
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "clvPct": -10.68,
   "closed": false
  },
  {
@@ -14154,10 +14154,10 @@
   "price": 475,
   "fairPctAtFlag": 18.5,
   "evPctAtFlag": 6.31,
-  "closeFairPct": 13.5,
+  "closeFairPct": 12.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
-  "clvPct": -22.38,
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "clvPct": -26.98,
   "closed": false
  },
  {
@@ -14181,7 +14181,7 @@
   "evPctAtFlag": 5.35,
   "closeFairPct": 24.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.16,
   "closed": false
  },
@@ -20179,10 +20179,10 @@
   "price": 295,
   "fairPctAtFlag": 26.2,
   "evPctAtFlag": 3.41,
-  "closeFairPct": 25.0,
+  "closeFairPct": 24.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
-  "clvPct": -1.25,
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "clvPct": -3.22,
   "closed": false
  },
  {
@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -24181,7 +24181,7 @@
   "evPctAtFlag": 2.4,
   "closeFairPct": 48.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": -3.36,
   "closed": false
  },
@@ -24206,7 +24206,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 30.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": -0.01,
   "closed": false
  },
@@ -24279,10 +24279,10 @@
   "price": -117,
   "fairPctAtFlag": 56.1,
   "evPctAtFlag": 3.97,
-  "closeFairPct": 55.3,
+  "closeFairPct": 55.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
-  "clvPct": 2.56,
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "clvPct": 2.75,
   "closed": false
  },
  {
@@ -24304,10 +24304,10 @@
   "price": -105,
   "fairPctAtFlag": 52.7,
   "evPctAtFlag": 2.83,
-  "closeFairPct": 49.5,
+  "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
-  "clvPct": -3.36,
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "clvPct": -4.53,
   "closed": false
  },
  {
@@ -25279,10 +25279,10 @@
   "price": -107,
   "fairPctAtFlag": 53.5,
   "evPctAtFlag": 3.59,
-  "closeFairPct": 52.4,
+  "closeFairPct": 53.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
-  "clvPct": 1.37,
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "clvPct": 2.73,
   "closed": false
  },
  {
@@ -25831,7 +25831,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 54.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 1.98,
   "closed": false
  },
@@ -25856,7 +25856,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 55.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.69,
   "closed": false
  },
@@ -25881,7 +25881,7 @@
   "evPctAtFlag": 2.94,
   "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.91,
   "closed": false
  },
@@ -25906,7 +25906,7 @@
   "evPctAtFlag": 2.5,
   "closeFairPct": 43.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.49,
   "closed": false
  },
@@ -25931,7 +25931,7 @@
   "evPctAtFlag": 4.99,
   "closeFairPct": 39.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.94,
   "closed": false
  },
@@ -25956,7 +25956,7 @@
   "evPctAtFlag": 3.67,
   "closeFairPct": 51.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.6,
   "closed": false
  },
@@ -25981,7 +25981,7 @@
   "evPctAtFlag": 2.99,
   "closeFairPct": 60.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.03,
   "closed": false
  },
@@ -26006,7 +26006,7 @@
   "evPctAtFlag": 4.15,
   "closeFairPct": 45.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.19,
   "closed": false
  },
@@ -26031,7 +26031,7 @@
   "evPctAtFlag": 3.09,
   "closeFairPct": 47.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.98,
   "closed": false
  },
@@ -26056,7 +26056,7 @@
   "evPctAtFlag": 4.74,
   "closeFairPct": 55.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.8,
   "closed": false
  },
@@ -26081,7 +26081,7 @@
   "evPctAtFlag": 3.81,
   "closeFairPct": 44.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.84,
   "closed": false
  },
@@ -26106,7 +26106,7 @@
   "evPctAtFlag": 2.09,
   "closeFairPct": 45.4,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.15,
   "closed": false
  },
@@ -26131,7 +26131,7 @@
   "evPctAtFlag": 3.39,
   "closeFairPct": 50.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.32,
   "closed": false
  },
@@ -26156,7 +26156,7 @@
   "evPctAtFlag": 3.95,
   "closeFairPct": 55.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T16:45:08+00:00",
+  "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.0,
   "closed": false
  }
