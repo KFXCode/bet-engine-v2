@@ -14181,7 +14181,7 @@
   "evPctAtFlag": 5.35,
   "closeFairPct": 24.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -24181,7 +24181,7 @@
   "evPctAtFlag": 2.4,
   "closeFairPct": 49.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": -2.37,
   "closed": false
  },
@@ -24206,7 +24206,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 30.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 1.64,
   "closed": false
  },
@@ -24279,10 +24279,10 @@
   "price": -117,
   "fairPctAtFlag": 56.1,
   "evPctAtFlag": 3.97,
-  "closeFairPct": 55.3,
+  "closeFairPct": 55.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T19:52:09+00:00",
-  "clvPct": 2.56,
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "clvPct": 2.38,
   "closed": false
  },
  {
@@ -24306,7 +24306,7 @@
   "evPctAtFlag": 2.83,
   "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T19:52:09+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": -5.11,
   "closed": false
  },
@@ -25279,10 +25279,10 @@
   "price": -107,
   "fairPctAtFlag": 53.5,
   "evPctAtFlag": 3.59,
-  "closeFairPct": 52.6,
+  "closeFairPct": 52.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T19:52:09+00:00",
-  "clvPct": 1.76,
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "clvPct": 0.99,
   "closed": false
  },
  {
@@ -26181,7 +26181,7 @@
   "evPctAtFlag": 2.53,
   "closeFairPct": 56.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.45,
   "closed": false
  },
@@ -26206,7 +26206,7 @@
   "evPctAtFlag": 2.92,
   "closeFairPct": 53.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.97,
   "closed": false
  },
@@ -26231,7 +26231,7 @@
   "evPctAtFlag": 3.83,
   "closeFairPct": 54.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 3.85,
   "closed": false
  },
@@ -26256,7 +26256,7 @@
   "evPctAtFlag": 2.84,
   "closeFairPct": 51.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.8,
   "closed": false
  },
@@ -26281,7 +26281,7 @@
   "evPctAtFlag": 7.28,
   "closeFairPct": 51.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 7.31,
   "closed": false
  },
@@ -26306,7 +26306,7 @@
   "evPctAtFlag": 2.57,
   "closeFairPct": 45.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -26331,7 +26331,7 @@
   "evPctAtFlag": 2.27,
   "closeFairPct": 38.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.29,
   "closed": false
  },
@@ -26356,7 +26356,7 @@
   "evPctAtFlag": 2.62,
   "closeFairPct": 51.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -26381,7 +26381,7 @@
   "evPctAtFlag": 2.98,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.86,
   "closed": false
  },
@@ -26406,7 +26406,7 @@
   "evPctAtFlag": 3.32,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T20:25:37+00:00",
+  "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 3.22,
   "closed": false
  }
