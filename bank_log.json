@@ -14183,7 +14183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d7f8398941d7c90befa60f35876a3ae7|h2h|Golden State Warriors|None",
@@ -14233,7 +14233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T09:40:11+00:00",
   "clvPct": 4.06,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c35bb6023b4b5005a38e7cec3ebe4d0b|h2h|Florida Atlantic Owls|None",
@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -24183,7 +24183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": -2.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b9c60db63b1a19ad319f24b33c0defe8|h2h|Philadelphia Eagles|None",
@@ -24206,7 +24206,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 30.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
   "clvPct": 1.64,
   "closed": false
  },
@@ -24279,10 +24279,10 @@
   "price": -117,
   "fairPctAtFlag": 56.1,
   "evPctAtFlag": 3.97,
-  "closeFairPct": 55.2,
+  "closeFairPct": 54.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
-  "clvPct": 2.38,
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
+  "clvPct": 0.52,
   "closed": false
  },
  {
@@ -24306,7 +24306,7 @@
   "evPctAtFlag": 2.83,
   "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
   "clvPct": -5.11,
   "closed": false
  },
@@ -25279,10 +25279,10 @@
   "price": -107,
   "fairPctAtFlag": 53.5,
   "evPctAtFlag": 3.59,
-  "closeFairPct": 52.2,
+  "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
-  "clvPct": 0.99,
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
+  "clvPct": 1.76,
   "closed": false
  },
  {
@@ -26183,7 +26183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.45,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e8559eaac12af915cfe6597644620c13|player_points|Franz Wagner|21.5|Franz Wagner Over 21.5|None",
@@ -26208,7 +26208,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.97,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e8559eaac12af915cfe6597644620c13|player_points|Jayson Tatum|26.5|Jayson Tatum Over 26.5|None",
@@ -26233,7 +26233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 3.85,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e8559eaac12af915cfe6597644620c13|player_points|Tristan da Silva|10.5|Tristan da Silva Under 10.5|None",
@@ -26258,7 +26258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2ff84d3f6053d083c8c0a5bebf7cdd4c|player_reception_yds|Omarion Hampton|5.5|Omarion Hampton Under 5.5|None",
@@ -26283,7 +26283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 7.31,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fc3e945a5be88d3f933456bc512c956d|player_assists|Jarace Walker|2.5|Jarace Walker Over 2.5|None",
@@ -26308,7 +26308,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fc3e945a5be88d3f933456bc512c956d|player_threes|Jay Huff|1.5|Jay Huff Over 1.5|None",
@@ -26333,7 +26333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.29,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fc3e945a5be88d3f933456bc512c956d|player_threes|Obi Toppin|1.5|Obi Toppin Over 1.5|None",
@@ -26358,7 +26358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T20:35:09+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d961840cf470389306fa79cf82f5d46c|h2h|Liberty Flames|None",
@@ -26381,7 +26381,7 @@
   "evPctAtFlag": 2.98,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
   "clvPct": 2.86,
   "closed": false
  },
@@ -26406,8 +26406,33 @@
   "evPctAtFlag": 3.32,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T20:35:09+00:00",
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
   "clvPct": 3.22,
+  "closed": false
+ },
+ {
+  "key": "38f469202f748211c7d5bf585a0f4458|spreads|Queens University Royals:-1.5/Winthrop Eagles:1.5|Queens University Royals|-1.5",
+  "eventId": "38f469202f748211c7d5bf585a0f4458",
+  "sport": "NCAAB",
+  "game": "Winthrop Eagles at Queens University Royals",
+  "time": "2026-11-02T14:00:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Queens University Royals",
+  "line": -1.5,
+  "team": "Queens University Royals",
+  "point": -1.5,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-01T22:18:12+00:00",
+  "price": 110,
+  "fairPctAtFlag": 50.0,
+  "evPctAtFlag": 5.0,
+  "closeFairPct": 50.0,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-01T22:18:12+00:00",
+  "clvPct": 5.0,
   "closed": false
  }
 ]
