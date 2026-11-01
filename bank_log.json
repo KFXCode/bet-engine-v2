@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -24206,7 +24206,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 31.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.3,
   "closed": false
  },
@@ -24279,10 +24279,10 @@
   "price": -117,
   "fairPctAtFlag": 56.1,
   "evPctAtFlag": 3.97,
-  "closeFairPct": 54.2,
+  "closeFairPct": 54.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
-  "clvPct": 0.52,
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "clvPct": 1.27,
   "closed": false
  },
  {
@@ -25281,7 +25281,7 @@
   "evPctAtFlag": 3.59,
   "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 1.76,
   "closed": false
  },
@@ -26381,7 +26381,7 @@
   "evPctAtFlag": 2.98,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.86,
   "closed": false
  },
@@ -26406,7 +26406,7 @@
   "evPctAtFlag": 3.32,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 3.22,
   "closed": false
  },
@@ -26431,7 +26431,7 @@
   "evPctAtFlag": 5.0,
   "closeFairPct": 50.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -26456,7 +26456,7 @@
   "evPctAtFlag": 4.69,
   "closeFairPct": 46.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 4.64,
   "closed": false
  },
@@ -26481,7 +26481,7 @@
   "evPctAtFlag": 2.97,
   "closeFairPct": 54.6,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.92,
   "closed": false
  },
@@ -26506,7 +26506,7 @@
   "evPctAtFlag": 3.34,
   "closeFairPct": 55.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 3.39,
   "closed": false
  },
@@ -26531,7 +26531,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.06,
   "closed": false
  },
@@ -26556,7 +26556,7 @@
   "evPctAtFlag": 2.65,
   "closeFairPct": 58.8,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.68,
   "closed": false
  },
@@ -26579,10 +26579,10 @@
   "price": -101,
   "fairPctAtFlag": 51.6,
   "evPctAtFlag": 2.73,
-  "closeFairPct": 51.6,
+  "closeFairPct": 51.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
-  "clvPct": 2.69,
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "clvPct": 2.29,
   "closed": false
  },
  {
@@ -26606,7 +26606,7 @@
   "evPctAtFlag": 3.69,
   "closeFairPct": 36.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -26631,7 +26631,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 69.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.81,
   "closed": false
  },
@@ -26656,7 +26656,7 @@
   "evPctAtFlag": 3.22,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -26681,7 +26681,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 56.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 2.63,
   "closed": false
  },
@@ -26706,8 +26706,33 @@
   "evPctAtFlag": 9.57,
   "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:10:09+00:00",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
   "clvPct": 9.6,
+  "closed": false
+ },
+ {
+  "key": "31fc89cbf3846e545e8e41a543a71d24|player_points|Sandro Mamukelashvili|8.5|Sandro Mamukelashvili Over 8.5|None",
+  "eventId": "31fc89cbf3846e545e8e41a543a71d24",
+  "sport": "NBA",
+  "game": "Toronto Raptors at Los Angeles Lakers",
+  "time": "2026-11-02T02:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Sandro Mamukelashvili",
+  "name": "Over",
+  "line": 8.5,
+  "team": "Sandro Mamukelashvili Over 8.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-01T23:45:12+00:00",
+  "price": 108,
+  "fairPctAtFlag": 49.4,
+  "evPctAtFlag": 2.74,
+  "closeFairPct": 49.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "clvPct": 2.75,
   "closed": false
  }
 ]
