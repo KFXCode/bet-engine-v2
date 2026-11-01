@@ -14108,7 +14108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": -10.68,
-  "closed": false
+  "closed": true
  },
  {
   "key": "52e7ee9c42525e6deec02da32dc2fad8|spreads|Detroit Lions:-3.0/Minnesota Vikings:3.0|Detroit Lions|-3.0",
@@ -14133,7 +14133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T09:40:11+00:00",
   "clvPct": 6.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9c5d8f57e0ba0fbd9ef436c1f0898f99|h2h|Tennessee Titans|None",
@@ -14158,7 +14158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": -26.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "05405af79752f5e742cdf50b61f6745e|h2h|Miami Dolphins|None",
@@ -14179,10 +14179,10 @@
   "price": 320,
   "fairPctAtFlag": 25.1,
   "evPctAtFlag": 5.35,
-  "closeFairPct": 24.8,
+  "closeFairPct": 24.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
-  "clvPct": 4.16,
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
+  "clvPct": 1.22,
   "closed": false
  },
  {
@@ -20183,7 +20183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": -3.22,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b123d92eb8046e43fabf95a33a676634|player_assists|Evan Mobley|3.5|Evan Mobley Over 3.5|None",
@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -24181,7 +24181,7 @@
   "evPctAtFlag": 2.4,
   "closeFairPct": 48.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
   "clvPct": -3.36,
   "closed": false
  },
@@ -24206,7 +24206,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 30.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
   "clvPct": -0.01,
   "closed": false
  },
@@ -24279,10 +24279,10 @@
   "price": -117,
   "fairPctAtFlag": 56.1,
   "evPctAtFlag": 3.97,
-  "closeFairPct": 55.4,
+  "closeFairPct": 55.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
-  "clvPct": 2.75,
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
+  "clvPct": 2.19,
   "closed": false
  },
  {
@@ -24306,7 +24306,7 @@
   "evPctAtFlag": 2.83,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
   "clvPct": -4.53,
   "closed": false
  },
@@ -25279,10 +25279,10 @@
   "price": -107,
   "fairPctAtFlag": 53.5,
   "evPctAtFlag": 3.59,
-  "closeFairPct": 53.1,
+  "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T17:30:10+00:00",
-  "clvPct": 2.73,
+  "closeSeenAt": "2026-11-01T18:35:09+00:00",
+  "clvPct": 1.76,
   "closed": false
  },
  {
@@ -25833,7 +25833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 1.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9255ca8f32aea590d00aa57de79f6bb6|player_receptions|Ryan Flournoy|3.5|Ryan Flournoy Under 3.5|None",
@@ -25858,7 +25858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.69,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c93c421e5fa46031a43162d111d981d0|player_reception_yds|James Cook|9.5|James Cook Under 9.5|None",
@@ -25883,7 +25883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c93c421e5fa46031a43162d111d981d0|player_receptions|DJ Moore|4.5|DJ Moore Over 4.5|None",
@@ -25908,7 +25908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.49,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c93c421e5fa46031a43162d111d981d0|player_receptions|Derrick Henry|1.5|Derrick Henry Over 1.5|None",
@@ -25933,7 +25933,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ab5ab731ab655bd6308bc7a922275518|player_reception_yds|Quinshon Judkins|9.5|Quinshon Judkins Over 9.5|None",
@@ -25958,7 +25958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ab5ab731ab655bd6308bc7a922275518|player_receptions|Quinshon Judkins|1.5|Quinshon Judkins Over 1.5|None",
@@ -25983,7 +25983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.03,
-  "closed": false
+  "closed": true
  },
  {
   "key": "159dbf0253dd2038eda2212f84387f0c|player_receptions|Josh Downs|3.5|Josh Downs Over 3.5|None",
@@ -26008,7 +26008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.19,
-  "closed": false
+  "closed": true
  },
  {
   "key": "159dbf0253dd2038eda2212f84387f0c|player_receptions|Keenan Allen|4.5|Keenan Allen Over 4.5|None",
@@ -26033,7 +26033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "52e7ee9c42525e6deec02da32dc2fad8|player_pass_yds|Jared Goff|259.5|Jared Goff Under 259.5|None",
@@ -26058,7 +26058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "52e7ee9c42525e6deec02da32dc2fad8|player_receptions|Aaron Jones|1.5|Aaron Jones Under 1.5|None",
@@ -26083,7 +26083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.84,
-  "closed": false
+  "closed": true
  },
  {
   "key": "52e7ee9c42525e6deec02da32dc2fad8|player_receptions|Justin Jefferson|6.5|Justin Jefferson Over 6.5|None",
@@ -26108,7 +26108,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 2.15,
-  "closed": false
+  "closed": true
  },
  {
   "key": "52e7ee9c42525e6deec02da32dc2fad8|player_receptions|T.J. Hockenson|4.5|T.J. Hockenson Under 4.5|None",
@@ -26133,7 +26133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 3.32,
-  "closed": false
+  "closed": true
  },
  {
   "key": "52e7ee9c42525e6deec02da32dc2fad8|player_rush_yds|Aaron Jones|29.5|Aaron Jones Under 29.5|None",
@@ -26158,6 +26158,6 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-01T17:30:10+00:00",
   "clvPct": 4.0,
-  "closed": false
+  "closed": true
  }
 ]
