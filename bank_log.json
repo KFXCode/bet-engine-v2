@@ -26379,10 +26379,10 @@
   "price": 270,
   "fairPctAtFlag": 27.8,
   "evPctAtFlag": 2.98,
-  "closeFairPct": 27.1,
+  "closeFairPct": 25.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
-  "clvPct": 0.27,
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
+  "clvPct": -5.65,
   "closed": false
  },
  {
@@ -26406,7 +26406,7 @@
   "evPctAtFlag": 3.32,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 3.22,
   "closed": false
  },
@@ -26431,7 +26431,7 @@
   "evPctAtFlag": 5.0,
   "closeFairPct": 50.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -26606,7 +26606,7 @@
   "evPctAtFlag": 3.69,
   "closeFairPct": 36.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -26631,7 +26631,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 69.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 2.81,
   "closed": false
  },
@@ -26656,7 +26656,7 @@
   "evPctAtFlag": 3.22,
   "closeFairPct": 14.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 3.6,
   "closed": false
  },
@@ -26681,7 +26681,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 56.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 2.63,
   "closed": false
  },
@@ -26706,7 +26706,7 @@
   "evPctAtFlag": 9.57,
   "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 9.6,
   "closed": false
  },
@@ -26956,7 +26956,7 @@
   "evPctAtFlag": 2.62,
   "closeFairPct": 57.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -26981,7 +26981,7 @@
   "evPctAtFlag": 3.82,
   "closeFairPct": 21.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 5.5,
   "closed": false
  },
@@ -27006,7 +27006,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 2.0,
   "closed": false
  },
@@ -27031,7 +27031,7 @@
   "evPctAtFlag": 8.53,
   "closeFairPct": 6.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 8.9,
   "closed": false
  },
@@ -27056,7 +27056,7 @@
   "evPctAtFlag": 5.68,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 5.62,
   "closed": false
  },
@@ -27081,7 +27081,7 @@
   "evPctAtFlag": 9.02,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 8.81,
   "closed": false
  },
@@ -27106,7 +27106,7 @@
   "evPctAtFlag": 4.01,
   "closeFairPct": 32.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -27131,8 +27131,33 @@
   "evPctAtFlag": 7.65,
   "closeFairPct": 27.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-02T02:22:44+00:00",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
   "clvPct": 7.64,
+  "closed": false
+ },
+ {
+  "key": "cbbce01a444134baf2a8fa533eca853e|totals|Over:134.5/Under:134.5|Over 134.5|None",
+  "eventId": "cbbce01a444134baf2a8fa533eca853e",
+  "sport": "NCAAB",
+  "game": "Merrimack Warriors at Appalachian St Mountaineers",
+  "time": "2026-11-02T11:00:00Z",
+  "market": "Total",
+  "marketKey": "totals",
+  "player": null,
+  "name": "Over",
+  "line": 134.5,
+  "team": "Over 134.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-02T02:45:23+00:00",
+  "price": 115,
+  "fairPctAtFlag": 49.6,
+  "evPctAtFlag": 6.57,
+  "closeFairPct": 49.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-02T02:45:23+00:00",
+  "clvPct": 6.64,
   "closed": false
  }
 ]
