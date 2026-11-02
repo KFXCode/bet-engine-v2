@@ -14,17 +14,17 @@
    "win_rate": 0.5126050420168067
   },
   "value": {
-   "avg_clv": 0.02640535868625756,
-   "clv_beat_rate": 0.2566983578219533,
-   "clv_n": 1157,
-   "graded": 1348,
+   "avg_clv": 0.024960616438356165,
+   "clv_beat_rate": 0.2542808219178082,
+   "clv_n": 1168,
+   "graded": 1359,
    "record": {
-    "l": 664,
+    "l": 672,
     "p": 1,
-    "void": 30,
-    "w": 683
+    "void": 34,
+    "w": 686
    },
-   "win_rate": 0.5070527097253155
+   "win_rate": 0.5051546391752577
   }
  },
  "by_sport": {
@@ -42,30 +42,30 @@
    "win_rate": 0.6785714285714286
   },
   "NBA Props": {
-   "avg_clv": 0.20787741935483872,
-   "clv_beat_rate": 0.18064516129032257,
-   "clv_n": 155,
-   "graded": 197,
+   "avg_clv": 0.1988375,
+   "clv_beat_rate": 0.175,
+   "clv_n": 160,
+   "graded": 201,
    "record": {
-    "l": 89,
+    "l": 91,
     "p": 0,
-    "void": 3,
-    "w": 108
+    "void": 5,
+    "w": 110
    },
-   "win_rate": 0.5482233502538071
+   "win_rate": 0.5472636815920398
   },
   "NBA Sides": {
-   "avg_clv": 0.09613559322033897,
-   "clv_beat_rate": 0.0847457627118644,
-   "clv_n": 59,
-   "graded": 76,
+   "avg_clv": 0.09298360655737704,
+   "clv_beat_rate": 0.08196721311475409,
+   "clv_n": 61,
+   "graded": 78,
    "record": {
-    "l": 39,
+    "l": 41,
     "p": 0,
     "void": 0,
     "w": 37
    },
-   "win_rate": 0.4868421052631579
+   "win_rate": 0.47435897435897434
   },
   "NCAAF Cosmic": {
    "avg_clv": -0.12515625,
@@ -107,39 +107,39 @@
    "win_rate": 0.43333333333333335
   },
   "NFL Props": {
-   "avg_clv": 0.04229446064139941,
-   "clv_beat_rate": 0.08746355685131195,
-   "clv_n": 343,
-   "graded": 430,
+   "avg_clv": 0.03895389048991354,
+   "clv_beat_rate": 0.08645533141210375,
+   "clv_n": 347,
+   "graded": 434,
    "record": {
-    "l": 222,
+    "l": 225,
     "p": 0,
-    "void": 32,
-    "w": 208
+    "void": 34,
+    "w": 209
    },
-   "win_rate": 0.48372093023255813
+   "win_rate": 0.4815668202764977
   },
   "NFL Sides": {
    "avg_clv": -0.34772435897435894,
    "clv_beat_rate": 0.32051282051282054,
    "clv_n": 156,
-   "graded": 188,
+   "graded": 189,
    "record": {
-    "l": 94,
+    "l": 95,
     "p": 1,
     "void": 0,
     "w": 93
    },
-   "win_rate": 0.49732620320855614
+   "win_rate": 0.4946808510638298
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (7002 player-games, looked back 21 days)",
+  "NFL player logs: added 1 box scores, 7020 player-games cached",
   "NBA player logs: skipped 31 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (9581 player-games, looked back 21 days)"
+  "NBA player logs: added 2 box scores, 9631 player-games cached"
  ],
- "generated_at": "2026-11-02T02:22:27+00:00",
- "graded_through": "Week of Oct 26",
+ "generated_at": "2026-11-02T17:29:24+00:00",
+ "graded_through": "Week of Nov 2",
  "groups": {
   "Cosmic": {
    "avg_clv": -0.22394999999999998,
@@ -2355,10 +2355,10 @@
    "win_rate": 0.5206611570247934
   },
   "Props": {
-   "avg_clv": 0.0938313253012048,
-   "clv_beat_rate": 0.11646586345381527,
-   "clv_n": 498,
-   "graded": 627,
+   "avg_clv": 0.0894102564102564,
+   "clv_beat_rate": 0.11439842209072978,
+   "clv_n": 507,
+   "graded": 635,
    "label": "Player props",
    "picks": [
     {
@@ -12532,6 +12532,24 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.453,
+     "ev": 3.66513,
+     "final": "did not play",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Luke McCaffrey anytime TD",
+     "player": "Luke McCaffrey",
+     "price": 2000,
+     "proj": 0.251,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": -114,
      "clv": 0.0,
      "edge": 17.347,
@@ -12872,6 +12890,42 @@
      "result": "W",
      "sport": "NFL",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 12.61,
+     "ev": 0.23672,
+     "final": "217",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Jayden Daniels Under 198.5 passing yards",
+     "player": "Jayden Daniels",
+     "price": -114,
+     "proj": 177.019,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 12.084,
+     "ev": 0.22685,
+     "final": "did not play",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Dyami Brown Under 13.5 receiving yards",
+     "player": "Dyami Brown",
+     "price": -114,
+     "proj": 15.725,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
     },
     {
      "closing_price": -108,
@@ -13540,6 +13594,24 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": -122,
+     "clv": -0.99,
+     "edge": 16.701,
+     "ev": 0.29749,
+     "final": "2",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Darius Cooper Under 2.5 receptions",
+     "player": "Darius Cooper",
+     "price": -128,
+     "proj": 1.808,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.99,
@@ -14098,6 +14170,42 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 19.021,
+     "ev": 0.37669,
+     "final": "29",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Scottie Barnes Under 23.5 points",
+     "player": "Scottie Barnes",
+     "price": -102,
+     "proj": 19.844,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -128,
+     "clv": -0.407,
+     "edge": 19.004,
+     "ev": 0.33623,
+     "final": "did not play",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Ziaire Williams Over 8.5 points",
+     "player": "Ziaire Williams",
+     "price": -130,
+     "proj": 11.709,
+     "result": "V",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": -104,
      "clv": -3.791,
      "edge": 18.682,
@@ -14132,6 +14240,24 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": 108,
+     "clv": 0.0,
+     "edge": 17.148,
+     "ev": 0.35667,
+     "final": "did not play",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Jakob Poeltl Under 6.5 rebounds",
+     "player": "Jakob Poeltl",
+     "price": 108,
+     "proj": 5.655,
+     "result": "V",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
     },
     {
      "closing_price": 100,
@@ -14186,6 +14312,24 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 19.058,
+     "ev": 0.35924,
+     "final": "30",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Saquon Barkley Over 44.5 rushing yards",
+     "player": "Saquon Barkley",
+     "price": -113,
+     "proj": 72.341,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
     },
     {
      "closing_price": null,
@@ -14276,22 +14420,94 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": 108,
+     "clv": 0.0,
+     "edge": 14.378,
+     "ev": 0.29906,
+     "final": "7",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Immanuel Quickley Under 5.5 assists",
+     "player": "Immanuel Quickley",
+     "price": 108,
+     "proj": 4.951,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -118,
+     "clv": 0.0,
+     "edge": 14.205,
+     "ev": 0.26243,
+     "final": "26",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Austin Reaves Under 32.5 pts+reb+ast",
+     "player": "Austin Reaves",
+     "price": -118,
+     "proj": 29.535,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.061,
+     "ev": 0.26271,
+     "final": "25",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Tanner McKee Under 4.5 rushing yards",
+     "player": "Tanner McKee",
+     "price": -220,
+     "proj": 1.944,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 15.889,
+     "ev": 0.29828,
+     "final": "3",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Collin Sexton Over 1.5 rebounds",
+     "player": "Collin Sexton",
+     "price": -114,
+     "proj": 2.968,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 311,
+    "l": 316,
     "p": 0,
-    "void": 35,
-    "w": 316
+    "void": 39,
+    "w": 319
    },
    "threshold": 7.0,
-   "win_rate": 0.5039872408293461
+   "win_rate": 0.5023622047244094
   },
   "Sides": {
-   "avg_clv": -0.01724868421052632,
-   "clv_beat_rate": 0.35,
-   "clv_n": 760,
-   "graded": 840,
+   "avg_clv": -0.017203412073490815,
+   "clv_beat_rate": 0.34908136482939633,
+   "clv_n": 762,
+   "graded": 843,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -29307,6 +29523,42 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": 152,
+     "clv": 0.0,
+     "edge": 8.332,
+     "ev": 0.20996,
+     "final": "125-131",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Toronto Raptors ML",
+     "player": null,
+     "price": 152,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 8.117,
+     "ev": 0.15496,
+     "final": "125-131",
+     "game": "Toronto Raptors @ Los Angeles Lakers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Toronto Raptors +4.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 6.644,
@@ -29413,22 +29665,40 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 6.993,
+     "ev": 0.11718,
+     "final": "10-27",
+     "game": "Philadelphia Eagles @ Washington Commanders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Philadelphia Eagles ML",
+     "player": null,
+     "price": -148,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 411,
+    "l": 414,
     "p": 1,
     "void": 0,
     "w": 428
    },
    "threshold": 5.0,
-   "win_rate": 0.5101311084624554
+   "win_rate": 0.5083135391923991
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 32,
-  "Props": 155,
-  "Sides": 115
+  "Props": 143,
+  "Sides": 112
  }
 }
