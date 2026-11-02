@@ -23581,7 +23581,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -24204,10 +24204,10 @@
   "price": 230,
   "fairPctAtFlag": 31.0,
   "evPctAtFlag": 2.37,
-  "closeFairPct": 31.0,
+  "closeFairPct": 31.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
-  "clvPct": 2.3,
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
+  "clvPct": 3.95,
   "closed": false
  },
  {
@@ -24281,7 +24281,7 @@
   "evPctAtFlag": 3.97,
   "closeFairPct": 54.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 1.27,
   "closed": false
  },
@@ -25281,7 +25281,7 @@
   "evPctAtFlag": 3.59,
   "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 1.76,
   "closed": false
  },
@@ -26381,7 +26381,7 @@
   "evPctAtFlag": 2.98,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.86,
   "closed": false
  },
@@ -26406,7 +26406,7 @@
   "evPctAtFlag": 3.32,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 3.22,
   "closed": false
  },
@@ -26431,7 +26431,7 @@
   "evPctAtFlag": 5.0,
   "closeFairPct": 50.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -26454,10 +26454,10 @@
   "price": 126,
   "fairPctAtFlag": 46.3,
   "evPctAtFlag": 4.69,
-  "closeFairPct": 46.3,
+  "closeFairPct": 45.4,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
-  "clvPct": 4.64,
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
+  "clvPct": 2.6,
   "closed": false
  },
  {
@@ -26481,7 +26481,7 @@
   "evPctAtFlag": 2.97,
   "closeFairPct": 54.6,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.92,
   "closed": false
  },
@@ -26504,10 +26504,10 @@
   "price": -115,
   "fairPctAtFlag": 55.3,
   "evPctAtFlag": 3.34,
-  "closeFairPct": 55.3,
+  "closeFairPct": 55.9,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
-  "clvPct": 3.39,
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
+  "clvPct": 4.51,
   "closed": false
  },
  {
@@ -26531,7 +26531,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 48.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.06,
   "closed": false
  },
@@ -26556,7 +26556,7 @@
   "evPctAtFlag": 2.65,
   "closeFairPct": 58.8,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.68,
   "closed": false
  },
@@ -26579,10 +26579,10 @@
   "price": -101,
   "fairPctAtFlag": 51.6,
   "evPctAtFlag": 2.73,
-  "closeFairPct": 51.4,
+  "closeFairPct": 51.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
-  "clvPct": 2.29,
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
+  "clvPct": 1.5,
   "closed": false
  },
  {
@@ -26606,7 +26606,7 @@
   "evPctAtFlag": 3.69,
   "closeFairPct": 36.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -26631,7 +26631,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 69.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.81,
   "closed": false
  },
@@ -26656,7 +26656,7 @@
   "evPctAtFlag": 3.22,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -26681,7 +26681,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 56.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.63,
   "closed": false
  },
@@ -26706,7 +26706,7 @@
   "evPctAtFlag": 9.57,
   "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 9.6,
   "closed": false
  },
@@ -26731,8 +26731,33 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 49.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-01T23:45:12+00:00",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
   "clvPct": 2.75,
+  "closed": false
+ },
+ {
+  "key": "094b083ace229ca31ff360a80e35a1a8|player_assists|Brandin Podziemski|4.5|Brandin Podziemski Under 4.5|None",
+  "eventId": "094b083ace229ca31ff360a80e35a1a8",
+  "sport": "NBA",
+  "game": "Los Angeles Clippers at Golden State Warriors",
+  "time": "2026-11-02T01:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Brandin Podziemski",
+  "name": "Under",
+  "line": 4.5,
+  "team": "Brandin Podziemski Under 4.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-02T00:35:11+00:00",
+  "price": -106,
+  "fairPctAtFlag": 53.0,
+  "evPctAtFlag": 3.04,
+  "closeFairPct": 53.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-02T00:35:11+00:00",
+  "clvPct": 3.0,
   "closed": false
  }
 ]
