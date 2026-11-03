@@ -26406,7 +26406,7 @@
   "evPctAtFlag": 3.32,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 3.22,
   "closed": false
  },
@@ -26606,7 +26606,7 @@
   "evPctAtFlag": 3.69,
   "closeFairPct": 36.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -26631,7 +26631,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 69.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.81,
   "closed": false
  },
@@ -26656,7 +26656,7 @@
   "evPctAtFlag": 3.22,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -26681,7 +26681,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 56.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.63,
   "closed": false
  },
@@ -26706,7 +26706,7 @@
   "evPctAtFlag": 9.57,
   "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 9.6,
   "closed": false
  },
@@ -26958,7 +26958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|h2h|Milwaukee Bucks|None",
@@ -26983,7 +26983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c0ddb68355a79fb70194e95b75c037ca|h2h|Akron Zips|None",
@@ -27006,7 +27006,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 21.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -27031,7 +27031,7 @@
   "evPctAtFlag": 8.53,
   "closeFairPct": 6.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -27056,7 +27056,7 @@
   "evPctAtFlag": 5.68,
   "closeFairPct": 16.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 0.63,
   "closed": false
  },
@@ -27081,7 +27081,7 @@
   "evPctAtFlag": 9.02,
   "closeFairPct": 22.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 5.09,
   "closed": false
  },
@@ -27106,7 +27106,7 @@
   "evPctAtFlag": 4.01,
   "closeFairPct": 31.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 0.75,
   "closed": false
  },
@@ -27131,7 +27131,7 @@
   "evPctAtFlag": 7.65,
   "closeFairPct": 27.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 6.08,
   "closed": false
  },
@@ -27283,7 +27283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -0.82,
-  "closed": false
+  "closed": true
  },
  {
   "key": "96ba0a5c17c0ea6aac71911c2f1cf059|h2h|Robert Morris Colonials|None",
@@ -27306,7 +27306,7 @@
   "evPctAtFlag": 8.97,
   "closeFairPct": 12.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 9.22,
   "closed": false
  },
@@ -27329,10 +27329,10 @@
   "price": 148,
   "fairPctAtFlag": 42.2,
   "evPctAtFlag": 4.6,
-  "closeFairPct": 44.3,
+  "closeFairPct": 45.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
-  "clvPct": 9.86,
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
+  "clvPct": 11.6,
   "closed": false
  },
  {
@@ -27356,7 +27356,7 @@
   "evPctAtFlag": 7.19,
   "closeFairPct": 22.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 11.0,
   "closed": false
  },
@@ -27508,7 +27508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -0.55,
-  "closed": false
+  "closed": true
  },
  {
   "key": "06d0d53ac98cb4418eb7fb7c32dff55b|totals|Over:139.5/Under:139.5|Under 139.5|None",
@@ -27533,7 +27533,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5e14ec4a691e74f646ffcd0f3f211160|h2h|Air Force Falcons|None",
@@ -27658,7 +27658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -0.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c75744790b7acf6260c78ba5e739c0e5|h2h|Baltimore Ravens|None",
@@ -27681,7 +27681,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 1.99,
   "closed": false
  },
@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 62.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 3.08,
   "closed": false
  },
@@ -27808,7 +27808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-02T22:50:11+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_points|Kelly Oubre Jr.|16.5|Kelly Oubre Jr. Over 16.5|None",
@@ -27833,7 +27833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-02T22:50:11+00:00",
   "clvPct": 3.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_rebounds|Nickeil Alexander-Walker|3.5|Nickeil Alexander-Walker Under 3.5|None",
@@ -27858,7 +27858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -6.52,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_threes|Aaron Wiggins|2.5|Aaron Wiggins Over 2.5|None",
@@ -27883,7 +27883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -4.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_assists|Josh Hart|3.5|Josh Hart Under 3.5|None",
@@ -27908,7 +27908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_points|Day'Ron Sharpe|7.5|Day'Ron Sharpe Under 7.5|None",
@@ -27933,7 +27933,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -0.19,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_points|Mikel Brown Jr.|11.5|Mikel Brown Jr. Under 11.5|None",
@@ -27958,7 +27958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 1.72,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_rebounds|Nolan Traore|2.5|Nolan Traore Over 2.5|None",
@@ -27983,7 +27983,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -2.66,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_threes|Landry Shamet|1.5|Landry Shamet Under 1.5|None",
@@ -28008,7 +28008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_assists|Tre Jones|3.5|Tre Jones Under 3.5|None",
@@ -28033,7 +28033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_rebounds|Tre Jones|2.5|Tre Jones Over 2.5|None",
@@ -28058,7 +28058,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 6.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_threes|Josh Giddey|1.5|Josh Giddey Over 1.5|None",
@@ -28083,7 +28083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.95,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_threes|Leonard Miller|0.5|Leonard Miller Under 0.5|None",
@@ -28108,7 +28108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_assists|Coby White|2.5|Coby White Over 2.5|None",
@@ -28133,7 +28133,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-02T22:50:11+00:00",
   "clvPct": 7.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_points|Bilal Coulibaly|7.5|Bilal Coulibaly Under 7.5|None",
@@ -28158,7 +28158,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_points|Franz Wagner|23.5|Franz Wagner Over 23.5|None",
@@ -28183,7 +28183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -4.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_points|Tre Johnson|8.5|Tre Johnson Under 8.5|None",
@@ -28208,7 +28208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_threes|Bilal Coulibaly|0.5|Bilal Coulibaly Under 0.5|None",
@@ -28233,7 +28233,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-02T23:45:13+00:00",
   "clvPct": 2.48,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_threes|Franz Wagner|1.5|Franz Wagner Over 1.5|None",
@@ -28258,7 +28258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "935de84bb70edb4ad03cb37206a6325c|h2h|Bethune-Cookman Wildcats|None",
@@ -28283,7 +28283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_assists|Jonathan Kuminga|2.5|Jonathan Kuminga Over 2.5|None",
@@ -28308,7 +28308,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.46,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_threes|Myles Turner|1.5|Myles Turner Over 1.5|None",
@@ -28333,7 +28333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 7.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_assists|Trey Murphy III|3.5|Trey Murphy III Over 3.5|None",
@@ -28358,7 +28358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_assists|Zion Williamson|2.5|Zion Williamson Over 2.5|None",
@@ -28383,7 +28383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 17.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_assists|Zion Williamson|2.5|Zion Williamson Under 2.5|None",
@@ -28408,7 +28408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -6.89,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_points|Isaiah Stewart|8.5|Isaiah Stewart Under 8.5|None",
@@ -28433,7 +28433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -4.66,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_points|Karlo Matkovic|6.5|Karlo Matkovic Under 6.5|None",
@@ -28458,7 +28458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -3.46,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_rebounds|Cedric Coward|6.5|Cedric Coward Over 6.5|None",
@@ -28483,7 +28483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_rebounds|Trey Murphy III|4.5|Trey Murphy III Under 4.5|None",
@@ -28508,7 +28508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 1.23,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_rebounds|Zion Williamson|5.5|Zion Williamson Over 5.5|None",
@@ -28533,7 +28533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.34,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_threes|Cedric Coward|1.5|Cedric Coward Over 1.5|None",
@@ -28558,7 +28558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_threes|Trey Murphy III|2.5|Trey Murphy III Over 2.5|None",
@@ -28583,7 +28583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|h2h|Sacramento Kings|None",
@@ -28608,7 +28608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 8.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_assists|Precious Achiuwa|1.5|Precious Achiuwa Over 1.5|None",
@@ -28633,7 +28633,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -6.87,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_rebounds|Cooper Flagg|6.5|Cooper Flagg Over 6.5|None",
@@ -28658,7 +28658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.27,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_rebounds|Zach LaVine|2.5|Zach LaVine Under 2.5|None",
@@ -28683,7 +28683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.49,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7d664fbcd39350e559d83c0068ba7169|player_receptions|D'Andre Swift|3.5|D'Andre Swift Over 3.5|None",
@@ -28708,7 +28708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7d664fbcd39350e559d83c0068ba7169|player_receptions|Luther Burden III|4.5|Luther Burden III Over 4.5|None",
@@ -28733,7 +28733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.57,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7d664fbcd39350e559d83c0068ba7169|player_rush_yds|Roschon Johnson|11.5|Roschon Johnson Over 11.5|None",
@@ -28758,7 +28758,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-02T22:50:11+00:00",
   "clvPct": 3.95,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_assists|Derrick White|4.5|Derrick White Under 4.5|None",
@@ -28783,7 +28783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.86,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_assists|Payton Pritchard|3.5|Payton Pritchard Under 3.5|None",
@@ -28808,7 +28808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.62,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_points|Tari Eason|9.5|Tari Eason Under 9.5|None",
@@ -28833,7 +28833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.45,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_rebounds|Alperen Sengun|8.5|Alperen Sengun Under 8.5|None",
@@ -28858,7 +28858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_threes|Alperen Sengun|0.5|Alperen Sengun Over 0.5|None",
@@ -28883,7 +28883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 6.61,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fe9664deb3e21a28b10a3de39adfb82a|player_points|Keyonte George|20.5|Keyonte George Under 20.5|None",
@@ -28908,7 +28908,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fe9664deb3e21a28b10a3de39adfb82a|player_points|Lauri Markkanen|19.5|Lauri Markkanen Under 19.5|None",
@@ -28933,7 +28933,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.52,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fe9664deb3e21a28b10a3de39adfb82a|player_threes|Lauri Markkanen|2.5|Lauri Markkanen Over 2.5|None",
@@ -28958,7 +28958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 7.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0f97cebc3f20e441be9633bb8ecccc4f|h2h|UCLA Bruins|None",
@@ -28979,10 +28979,10 @@
   "price": 184,
   "fairPctAtFlag": 36.2,
   "evPctAtFlag": 2.74,
-  "closeFairPct": 36.0,
+  "closeFairPct": 35.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
-  "clvPct": 2.24,
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
+  "clvPct": 1.96,
   "closed": false
  },
  {
@@ -29258,7 +29258,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-02T23:45:13+00:00",
   "clvPct": 2.61,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_rebounds|Dyson Daniels|6.5|Dyson Daniels Under 6.5|None",
@@ -29283,7 +29283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -8.27,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_threes|Onyeka Okongwu|1.5|Onyeka Okongwu Over 1.5|None",
@@ -29308,7 +29308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -7.59,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|h2h|Brooklyn Nets|None",
@@ -29333,7 +29333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_points|Miles McBride|6.5|Miles McBride Over 6.5|None",
@@ -29358,7 +29358,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 0.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_rebounds|Michael Porter Jr|6.5|Michael Porter Jr Over 6.5|None",
@@ -29383,7 +29383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_threes|Jalen Brunson|2.5|Jalen Brunson Over 2.5|None",
@@ -29408,7 +29408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -0.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_points|Dean Wade|4.5|Dean Wade Under 4.5|None",
@@ -29433,7 +29433,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-02T23:45:13+00:00",
   "clvPct": 3.81,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_points|Matas Buzelis|14.5|Matas Buzelis Under 14.5|None",
@@ -29458,7 +29458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.22,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_rebounds|LeBron James|6.5|LeBron James Under 6.5|None",
@@ -29483,7 +29483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.03,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_rebounds|Leonard Miller|3.5|Leonard Miller Over 3.5|None",
@@ -29508,7 +29508,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.26,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_threes|Matas Buzelis|1.5|Matas Buzelis Under 1.5|None",
@@ -29533,7 +29533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_threes|Norman Powell|2.5|Norman Powell Under 2.5|None",
@@ -29558,7 +29558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.01,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_points|Coby White|12.5|Coby White Under 12.5|None",
@@ -29583,7 +29583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -10.49,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_assists|Franz Wagner|6.5|Franz Wagner Under 6.5|None",
@@ -29608,7 +29608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.61,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_assists|Kyshawn George|3.5|Kyshawn George Over 3.5|None",
@@ -29633,7 +29633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_threes|Anthony Davis|0.5|Anthony Davis Under 0.5|None",
@@ -29658,7 +29658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.84,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b5b233236c83e477cded34bc6babdaca|h2h|Bryant Bulldogs|None",
@@ -29683,7 +29683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 1.75,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_threes|Ayo Dosunmu|1.5|Ayo Dosunmu Under 1.5|None",
@@ -29708,7 +29708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_assists|Jeremiah Fears|4.5|Jeremiah Fears Over 4.5|None",
@@ -29733,7 +29733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 1.73,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_assists|Saddiq Bey|1.5|Saddiq Bey Under 1.5|None",
@@ -29758,7 +29758,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_points|Jeremiah Fears|16.5|Jeremiah Fears Over 16.5|None",
@@ -29783,7 +29783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -4.67,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_rebounds|Derik Queen|6.5|Derik Queen Over 6.5|None",
@@ -29808,7 +29808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.24,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_rebounds|Jeremiah Fears|4.5|Jeremiah Fears Over 4.5|None",
@@ -29833,7 +29833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.69,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_threes|Saddiq Bey|1.5|Saddiq Bey Over 1.5|None",
@@ -29858,7 +29858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.15,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_assists|Cooper Flagg|6.5|Cooper Flagg Under 6.5|None",
@@ -29883,7 +29883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -8.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_points|Cooper Flagg|27.5|Cooper Flagg Under 27.5|None",
@@ -29908,7 +29908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -3.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_threes|Darius Acuff Jr.|2.5|Darius Acuff Jr. Under 2.5|None",
@@ -29933,7 +29933,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 8.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_threes|Naji Marshall|0.5|Naji Marshall Under 0.5|None",
@@ -29958,7 +29958,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": -0.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7d664fbcd39350e559d83c0068ba7169|player_receptions|Jaxon Smith-Njigba|7.5|Jaxon Smith-Njigba Over 7.5|None",
@@ -29983,7 +29983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.55,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_assists|Jayson Tatum|6.5|Jayson Tatum Under 6.5|None",
@@ -30008,7 +30008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fe9664deb3e21a28b10a3de39adfb82a|player_threes|Darryn Peterson|1.5|Darryn Peterson Over 1.5|None",
@@ -30033,7 +30033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.3,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1dd700c1205f0c7287e5df99c7a17822|player_assists|Nikola Jokic|9.5|Nikola Jokic Under 9.5|None",
@@ -30058,7 +30058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 1.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1dd700c1205f0c7287e5df99c7a17822|player_points|Damian Lillard|20.5|Damian Lillard Under 20.5|None",
@@ -30083,7 +30083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1dd700c1205f0c7287e5df99c7a17822|player_rebounds|Donovan Clingan|10.5|Donovan Clingan Under 10.5|None",
@@ -30108,7 +30108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1dd700c1205f0c7287e5df99c7a17822|player_rebounds|Trevon Brazile|4.5|Trevon Brazile Under 4.5|None",
@@ -30133,7 +30133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1dd700c1205f0c7287e5df99c7a17822|player_threes|Scoot Henderson|1.5|Scoot Henderson Under 1.5|None",
@@ -30158,7 +30158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_assists|Nickeil Alexander-Walker|3.5|Nickeil Alexander-Walker Under 3.5|None",
@@ -30183,7 +30183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_rebounds|C.J. McCollum|2.5|C.J. McCollum Under 2.5|None",
@@ -30208,7 +30208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.61,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53ad3f78c949e79381b5e90a70293ac6|player_threes|Onyeka Okongwu|1.5|Onyeka Okongwu Under 1.5|None",
@@ -30233,7 +30233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_assists|Jalen Brunson|6.5|Jalen Brunson Under 6.5|None",
@@ -30258,7 +30258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f6688e4d1818bd8bb3e65352c7a0406|player_assists|Nolan Traore|3.5|Nolan Traore Over 3.5|None",
@@ -30283,7 +30283,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_assists|Josh Giddey|7.5|Josh Giddey Over 7.5|None",
@@ -30308,7 +30308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.14,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_points|Tyrese Maxey|25.5|Tyrese Maxey Under 25.5|None",
@@ -30333,7 +30333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_points|VJ Edgecombe|12.5|VJ Edgecombe Under 12.5|None",
@@ -30358,7 +30358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.83,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_rebounds|Anfernee Simons|2.5|Anfernee Simons Under 2.5|None",
@@ -30383,7 +30383,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 6.38,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_rebounds|Caleb Wilson|5.5|Caleb Wilson Over 5.5|None",
@@ -30408,7 +30408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.41,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_threes|LeBron James|1.5|LeBron James Over 1.5|None",
@@ -30433,7 +30433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 6.93,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a808d8f7afab3c0e249ca284c470806|player_threes|VJ Edgecombe|1.5|VJ Edgecombe Under 1.5|None",
@@ -30458,7 +30458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_points|Brandon Miller|22.5|Brandon Miller Over 22.5|None",
@@ -30483,7 +30483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_points|Moussa Diabate|7.5|Moussa Diabate Over 7.5|None",
@@ -30508,7 +30508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.87,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_points|Naz Reid|15.5|Naz Reid Over 15.5|None",
@@ -30533,7 +30533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.33,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_rebounds|Ausar Thompson|6.5|Ausar Thompson Under 6.5|None",
@@ -30558,7 +30558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_rebounds|Dennis Schroder|2.5|Dennis Schroder Over 2.5|None",
@@ -30583,7 +30583,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf913d713fd5851d418c59872bdf265|player_threes|Coby White|1.5|Coby White Under 1.5|None",
@@ -30608,7 +30608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.31,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_assists|Bilal Coulibaly|1.5|Bilal Coulibaly Under 1.5|None",
@@ -30633,7 +30633,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.56,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_points|Deandre Ayton|7.5|Deandre Ayton Under 7.5|None",
@@ -30658,7 +30658,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.19,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6acd74a2d987fa101c79eaf378fd5891|player_threes|Tristan da Silva|2.5|Tristan da Silva Over 2.5|None",
@@ -30683,7 +30683,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.24,
-  "closed": false
+  "closed": true
  },
  {
   "key": "90dfb882fa267e2f94e0f7477352de5a|spreads|Ohio Bobcats:1.5/South Alabama Jaguars:-1.5|South Alabama Jaguars|-1.5",
@@ -30708,7 +30708,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.69,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_assists|Tyler Herro|4.5|Tyler Herro Under 4.5|None",
@@ -30733,7 +30733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.24,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_points|Ayo Dosunmu|17.5|Ayo Dosunmu Over 17.5|None",
@@ -30758,7 +30758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.02,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_points|Jonathan Kuminga|15.5|Jonathan Kuminga Over 15.5|None",
@@ -30783,7 +30783,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_rebounds|Ayo Dosunmu|4.5|Ayo Dosunmu Under 4.5|None",
@@ -30808,7 +30808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.03,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_rebounds|Tyler Herro|4.5|Tyler Herro Over 4.5|None",
@@ -30833,7 +30833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.34,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6907851d65a9d0046d4c6c2f4ffb5e80|player_threes|Jaden McDaniels|1.5|Jaden McDaniels Over 1.5|None",
@@ -30858,7 +30858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.83,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_points|Saddiq Bey|13.5|Saddiq Bey Over 13.5|None",
@@ -30883,7 +30883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_rebounds|Isaiah Stewart|3.5|Isaiah Stewart Under 3.5|None",
@@ -30908,7 +30908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 3.96,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6579d9162df09172d12f48eecc5220fb|player_threes|Bennedict Mathurin|0.5|Bennedict Mathurin Under 0.5|None",
@@ -30933,7 +30933,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 8.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_assists|De'Andre Hunter|1.5|De'Andre Hunter Under 1.5|None",
@@ -30958,7 +30958,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 5.26,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_assists|P.J. Washington|1.5|P.J. Washington Over 1.5|None",
@@ -30983,7 +30983,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_points|Darius Acuff Jr.|24.5|Darius Acuff Jr. Under 24.5|None",
@@ -31008,7 +31008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.25,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_points|Precious Achiuwa|11.5|Precious Achiuwa Under 11.5|None",
@@ -31033,7 +31033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 2.31,
-  "closed": false
+  "closed": true
  },
  {
   "key": "df7f8fce0b1c11db5140d60e1e126eb3|player_threes|De'Andre Hunter|1.5|De'Andre Hunter Under 1.5|None",
@@ -31058,7 +31058,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6cb49b0ae478270e74d0e7ce7082e57|player_rebounds|Payton Pritchard|2.5|Payton Pritchard Under 2.5|None",
@@ -31083,7 +31083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-03T00:35:11+00:00",
   "clvPct": 4.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f4e4165c2b9e53531629f6d0ab982b13|player_assists|Bam Adebayo|3.5|Bam Adebayo Under 3.5|None",
@@ -31106,7 +31106,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 54.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.16,
   "closed": false
  },
@@ -31131,7 +31131,7 @@
   "evPctAtFlag": 4.2,
   "closeFairPct": 54.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 4.24,
   "closed": false
  },
@@ -31156,7 +31156,7 @@
   "evPctAtFlag": 2.09,
   "closeFairPct": 56.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.08,
   "closed": false
  },
@@ -31181,7 +31181,7 @@
   "evPctAtFlag": 4.5,
   "closeFairPct": 53.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 4.46,
   "closed": false
  },
@@ -31206,7 +31206,7 @@
   "evPctAtFlag": 2.09,
   "closeFairPct": 54.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -31231,7 +31231,7 @@
   "evPctAtFlag": 2.06,
   "closeFairPct": 56.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.06,
   "closed": false
  },
@@ -31256,7 +31256,7 @@
   "evPctAtFlag": 2.5,
   "closeFairPct": 50.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.5,
   "closed": false
  },
@@ -31281,7 +31281,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 48.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.4,
   "closed": false
  },
@@ -31306,7 +31306,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 50.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.72,
   "closed": false
  },
@@ -31331,7 +31331,7 @@
   "evPctAtFlag": 4.82,
   "closeFairPct": 57.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 4.87,
   "closed": false
  },
@@ -31356,7 +31356,7 @@
   "evPctAtFlag": 3.12,
   "closeFairPct": 52.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 3.09,
   "closed": false
  },
@@ -31381,7 +31381,7 @@
   "evPctAtFlag": 2.14,
   "closeFairPct": 55.7,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -31406,8 +31406,33 @@
   "evPctAtFlag": 2.7,
   "closeFairPct": 54.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-03T00:35:11+00:00",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
   "clvPct": 2.78,
+  "closed": false
+ },
+ {
+  "key": "2586b2f444308de76dfd678703b04568|h2h|Towson Tigers|None",
+  "eventId": "2586b2f444308de76dfd678703b04568",
+  "sport": "NCAAB",
+  "game": "Towson Tigers at Santa Clara Broncos",
+  "time": "2026-11-03T03:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Towson Tigers",
+  "line": null,
+  "team": "Towson Tigers",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-03T02:37:34+00:00",
+  "price": 800,
+  "fairPctAtFlag": 11.6,
+  "evPctAtFlag": 4.17,
+  "closeFairPct": 11.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-03T02:37:34+00:00",
+  "clvPct": 4.4,
   "closed": false
  }
 ]
