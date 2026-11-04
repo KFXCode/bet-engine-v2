@@ -14,17 +14,17 @@
    "win_rate": 0.5126050420168067
   },
   "value": {
-   "avg_clv": 0.016108943089430894,
-   "clv_beat_rate": 0.25203252032520324,
-   "clv_n": 1230,
-   "graded": 1429,
+   "avg_clv": 0.022125506072874494,
+   "clv_beat_rate": 0.25425101214574897,
+   "clv_n": 1235,
+   "graded": 1434,
    "record": {
-    "l": 707,
+    "l": 711,
     "p": 1,
     "void": 37,
-    "w": 721
+    "w": 722
    },
-   "win_rate": 0.5049019607843137
+   "win_rate": 0.5038381018841591
   }
  },
  "by_sport": {
@@ -67,44 +67,57 @@
    },
    "win_rate": 0.4479166666666667
   },
+  "NCAAB Cosmic": {
+   "avg_clv": 0.0,
+   "clv_beat_rate": 0.0,
+   "clv_n": 1,
+   "graded": 1,
+   "record": {
+    "l": 1,
+    "p": 0,
+    "void": 0,
+    "w": 0
+   },
+   "win_rate": 0.0
+  },
   "NCAAB Sides": {
    "avg_clv": 0.0,
    "clv_beat_rate": 0.0,
-   "clv_n": 3,
-   "graded": 5,
+   "clv_n": 4,
+   "graded": 6,
    "record": {
-    "l": 3,
+    "l": 4,
     "p": 0,
     "void": 0,
     "w": 2
    },
-   "win_rate": 0.4
+   "win_rate": 0.3333333333333333
   },
   "NCAAF Cosmic": {
-   "avg_clv": -0.12515625,
-   "clv_beat_rate": 0.40625,
-   "clv_n": 32,
-   "graded": 33,
+   "avg_clv": -0.18835294117647058,
+   "clv_beat_rate": 0.38235294117647056,
+   "clv_n": 34,
+   "graded": 35,
    "record": {
-    "l": 15,
+    "l": 16,
     "p": 0,
     "void": 0,
-    "w": 18
+    "w": 19
    },
-   "win_rate": 0.5454545454545454
+   "win_rate": 0.5428571428571428
   },
   "NCAAF Sides": {
-   "avg_clv": 0.06507155963302752,
-   "clv_beat_rate": 0.3871559633027523,
-   "clv_n": 545,
-   "graded": 576,
+   "avg_clv": 0.07827868852459016,
+   "clv_beat_rate": 0.39162112932604737,
+   "clv_n": 549,
+   "graded": 580,
    "record": {
-    "l": 278,
+    "l": 281,
     "p": 0,
     "void": 0,
-    "w": 298
+    "w": 299
    },
-   "win_rate": 0.5173611111111112
+   "win_rate": 0.5155172413793103
   },
   "NFL Cosmic": {
    "avg_clv": -0.3590204081632653,
@@ -147,18 +160,18 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: skipped 26 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: added 6 box scores, 9965 player-games cached",
-  "NFL player logs: added 1 box scores, 6784 player-games cached"
+  "NFL player logs: cache already current (6784 player-games, looked back 21 days)",
+  "NBA player logs: skipped 21 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NBA player logs: cache already current (9965 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-03T15:31:39+00:00",
+ "generated_at": "2026-11-04T15:49:33+00:00",
  "graded_through": "Week of Nov 2",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.22394999999999998,
-   "clv_beat_rate": 0.31,
-   "clv_n": 100,
-   "graded": 122,
+   "avg_clv": -0.24071844660194175,
+   "clv_beat_rate": 0.30097087378640774,
+   "clv_n": 103,
+   "graded": 125,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -2232,6 +2245,24 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": -110,
+     "clv": -1.083,
+     "edge": 0.924,
+     "ev": 0.01727,
+     "final": "28-20",
+     "game": "Ohio Bobcats @ Akron Zips",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Akron Zips +11.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 10.304,
@@ -2322,6 +2353,24 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": 420,
+     "clv": -1.316,
+     "edge": 0.976,
+     "ev": 0.04734,
+     "final": "28-20",
+     "game": "Ohio Bobcats @ Akron Zips",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Akron Zips ML",
+     "player": null,
+     "price": 385,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": 295,
      "clv": -1.974,
      "edge": 0.729,
@@ -2356,16 +2405,34 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Oct 26"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 2.085,
+     "ev": 0.04129,
+     "final": "59-90",
+     "game": "Wofford Terriers @ Tennessee Volunteers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Wofford Terriers +24.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 58,
+    "l": 60,
     "p": 1,
     "void": 0,
-    "w": 63
+    "w": 64
    },
    "threshold": null,
-   "win_rate": 0.5206611570247934
+   "win_rate": 0.5161290322580645
   },
   "Props": {
    "avg_clv": 0.05397090909090908,
@@ -15399,10 +15466,10 @@
    "win_rate": 0.5080763582966226
   },
   "Sides": {
-   "avg_clv": -0.008709346991037134,
-   "clv_beat_rate": 0.34827144686299616,
-   "clv_n": 781,
-   "graded": 867,
+   "avg_clv": 0.0009020356234096675,
+   "clv_beat_rate": 0.3511450381679389,
+   "clv_n": 786,
+   "graded": 872,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -29914,6 +29981,42 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": -240,
+     "clv": 2.737,
+     "edge": 10.948,
+     "ev": 0.16161,
+     "final": "34-31",
+     "game": "Buffalo Bulls @ Miami (OH) RedHawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Miami (OH) RedHawks ML",
+     "player": null,
+     "price": -210,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -115,
+     "clv": 3.011,
+     "edge": 10.989,
+     "ev": 0.21762,
+     "final": "34-31",
+     "game": "Buffalo Bulls @ Miami (OH) RedHawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Miami (OH) RedHawks -6.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 10.304,
@@ -30616,6 +30719,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -110,
+     "clv": 1.083,
+     "edge": 10.136,
+     "ev": 0.1979,
+     "final": "28-20",
+     "game": "Ohio Bobcats @ Akron Zips",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Akron Zips +12.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": -118,
      "clv": 1.498,
      "edge": 10.799,
@@ -30811,6 +30932,24 @@
      "proj": null,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": 420,
+     "clv": 0.68,
+     "edge": 6.695,
+     "ev": 0.36152,
+     "final": "28-20",
+     "game": "Ohio Bobcats @ Akron Zips",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Akron Zips ML",
+     "player": null,
+     "price": 440,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
      "week": "Week of Nov 2"
     },
     {
@@ -31010,22 +31149,40 @@
      "result": "W",
      "sport": "NCAAB",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.0,
+     "edge": 6.099,
+     "ev": 0.11181,
+     "final": "60-89",
+     "game": "Drexel Dragons @ Virginia Cavaliers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Virginia Cavaliers -30.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 430,
+    "l": 434,
     "p": 1,
     "void": 0,
-    "w": 436
+    "w": 437
    },
    "threshold": 5.0,
-   "win_rate": 0.5034642032332564
+   "win_rate": 0.5017221584385764
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 39,
+  "Cosmic": 36,
   "Props": 130,
-  "Sides": 111
+  "Sides": 106
  }
 }
