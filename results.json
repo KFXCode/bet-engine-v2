@@ -160,11 +160,11 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6784 player-games, looked back 21 days)",
-  "NBA player logs: skipped 21 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (9965 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6746 player-games, looked back 21 days)",
+  "NBA player logs: skipped 14 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
+  "NBA player logs: cache already current (9987 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-04T15:49:33+00:00",
+ "generated_at": "2026-11-05T02:42:07+00:00",
  "graded_through": "Week of Nov 2",
  "groups": {
   "Cosmic": {
@@ -31181,8 +31181,8 @@
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 36,
-  "Props": 130,
-  "Sides": 106
+  "Cosmic": 47,
+  "Props": 192,
+  "Sides": 126
  }
 }
