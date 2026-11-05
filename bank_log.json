@@ -26606,7 +26606,7 @@
   "evPctAtFlag": 3.69,
   "closeFairPct": 35.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.32,
   "closed": false
  },
@@ -26631,7 +26631,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 67.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 0.87,
   "closed": false
  },
@@ -26654,10 +26654,10 @@
   "price": 600,
   "fairPctAtFlag": 14.7,
   "evPctAtFlag": 3.22,
-  "closeFairPct": 13.5,
+  "closeFairPct": 14.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": -5.5,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -1.3,
   "closed": false
  },
  {
@@ -26681,7 +26681,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 54.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": -0.83,
   "closed": false
  },
@@ -26706,7 +26706,7 @@
   "evPctAtFlag": 9.57,
   "closeFairPct": 13.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 6.4,
   "closed": false
  },
@@ -27054,10 +27054,10 @@
   "price": 525,
   "fairPctAtFlag": 16.9,
   "evPctAtFlag": 5.68,
-  "closeFairPct": 17.6,
+  "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 10.0,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 8.13,
   "closed": false
  },
  {
@@ -27081,7 +27081,7 @@
   "evPctAtFlag": 9.02,
   "closeFairPct": 22.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 4.16,
   "closed": false
  },
@@ -27106,7 +27106,7 @@
   "evPctAtFlag": 4.01,
   "closeFairPct": 32.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 4.33,
   "closed": false
  },
@@ -27131,7 +27131,7 @@
   "evPctAtFlag": 7.65,
   "closeFairPct": 27.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 6.86,
   "closed": false
  },
@@ -27356,7 +27356,7 @@
   "evPctAtFlag": 7.19,
   "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 1.0,
   "closed": false
  },
@@ -27679,10 +27679,10 @@
   "price": 370,
   "fairPctAtFlag": 21.9,
   "evPctAtFlag": 2.74,
-  "closeFairPct": 19.8,
+  "closeFairPct": 19.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": -6.94,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -7.41,
   "closed": false
  },
  {
@@ -27704,10 +27704,10 @@
   "price": -154,
   "fairPctAtFlag": 62.5,
   "evPctAtFlag": 3.05,
-  "closeFairPct": 61.2,
+  "closeFairPct": 61.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 0.94,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 0.78,
   "closed": false
  },
  {
@@ -31404,10 +31404,10 @@
   "price": -112,
   "fairPctAtFlag": 54.3,
   "evPctAtFlag": 2.7,
-  "closeFairPct": 52.0,
+  "closeFairPct": 51.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": -1.57,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -2.14,
   "closed": false
  },
  {
@@ -31456,7 +31456,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 31.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 6.76,
   "closed": false
  },
@@ -31481,7 +31481,7 @@
   "evPctAtFlag": 4.41,
   "closeFairPct": 35.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 0.8,
   "closed": false
  },
@@ -31506,7 +31506,7 @@
   "evPctAtFlag": 8.46,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 6.14,
   "closed": false
  },
@@ -31531,7 +31531,7 @@
   "evPctAtFlag": 6.06,
   "closeFairPct": 14.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 7.92,
   "closed": false
  },
@@ -31579,10 +31579,10 @@
   "price": 660,
   "fairPctAtFlag": 13.7,
   "evPctAtFlag": 4.39,
-  "closeFairPct": 12.7,
+  "closeFairPct": 12.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": -3.48,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -4.24,
   "closed": false
  },
  {
@@ -31631,7 +31631,7 @@
   "evPctAtFlag": 4.29,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": -3.14,
   "closed": false
  },
@@ -31656,7 +31656,7 @@
   "evPctAtFlag": 7.43,
   "closeFairPct": 26.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 14.4,
   "closed": false
  },
@@ -31781,7 +31781,7 @@
   "evPctAtFlag": 2.92,
   "closeFairPct": 23.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 3.84,
   "closed": false
  },
@@ -31931,7 +31931,7 @@
   "evPctAtFlag": 2.11,
   "closeFairPct": 48.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": -3.16,
   "closed": false
  },
@@ -31956,7 +31956,7 @@
   "evPctAtFlag": 2.35,
   "closeFairPct": 33.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": -1.69,
   "closed": false
  },
@@ -31981,7 +31981,7 @@
   "evPctAtFlag": 5.03,
   "closeFairPct": 16.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 7.25,
   "closed": false
  },
@@ -32031,7 +32031,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 22.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 5.34,
   "closed": false
  },
@@ -32081,7 +32081,7 @@
   "evPctAtFlag": 3.04,
   "closeFairPct": 56.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 1.88,
   "closed": false
  },
@@ -32981,7 +32981,7 @@
   "evPctAtFlag": 2.05,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": -2.45,
   "closed": false
  },
@@ -34481,7 +34481,7 @@
   "evPctAtFlag": 8.12,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 8.63,
   "closed": false
  },
@@ -34506,7 +34506,7 @@
   "evPctAtFlag": 5.26,
   "closeFairPct": 23.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 3.5,
   "closed": false
  },
@@ -34733,7 +34733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-05T21:55:17+00:00",
   "clvPct": 3.96,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7e1e9d3f832831f68d75b5b8eb1d27d0|h2h|Chattanooga Mocs|None",
@@ -34754,10 +34754,10 @@
   "price": 650,
   "fairPctAtFlag": 13.8,
   "evPctAtFlag": 3.47,
-  "closeFairPct": 14.3,
+  "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 7.25,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 2.75,
   "closed": false
  },
  {
@@ -34779,10 +34779,10 @@
   "price": 1400,
   "fairPctAtFlag": 7.3,
   "evPctAtFlag": 9.44,
-  "closeFairPct": 7.3,
+  "closeFairPct": 7.6,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 9.5,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 14.0,
   "closed": false
  },
  {
@@ -34804,10 +34804,10 @@
   "price": 230,
   "fairPctAtFlag": 31.2,
   "evPctAtFlag": 3.12,
-  "closeFairPct": 30.2,
+  "closeFairPct": 29.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": -0.34,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -1.66,
   "closed": false
  },
  {
@@ -34831,7 +34831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 7.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 12.0,
   "closed": false
  },
@@ -34854,10 +34854,10 @@
   "price": 580,
   "fairPctAtFlag": 15.0,
   "evPctAtFlag": 2.31,
-  "closeFairPct": 15.5,
+  "closeFairPct": 14.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 5.4,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -0.72,
   "closed": false
  },
  {
@@ -34881,7 +34881,7 @@
   "evPctAtFlag": 5.39,
   "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.12,
   "closed": false
  },
@@ -34904,10 +34904,10 @@
   "price": -110,
   "fairPctAtFlag": 54.0,
   "evPctAtFlag": 3.02,
-  "closeFairPct": 52.6,
+  "closeFairPct": 52.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 0.42,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -0.15,
   "closed": false
  },
  {
@@ -34929,10 +34929,10 @@
   "price": 148,
   "fairPctAtFlag": 41.5,
   "evPctAtFlag": 2.9,
-  "closeFairPct": 39.5,
+  "closeFairPct": 38.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": -2.04,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": -3.78,
   "closed": false
  },
  {
@@ -34954,10 +34954,10 @@
   "price": 188,
   "fairPctAtFlag": 35.5,
   "evPctAtFlag": 2.29,
-  "closeFairPct": 35.4,
+  "closeFairPct": 35.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 1.95,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 3.1,
   "closed": false
  },
  {
@@ -34981,7 +34981,7 @@
   "evPctAtFlag": 2.37,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.51,
   "closed": false
  },
@@ -35006,7 +35006,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 30.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 3.36,
   "closed": false
  },
@@ -35033,7 +35033,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-05T18:35:10+00:00",
   "clvPct": 3.87,
-  "closed": false
+  "closed": true
  },
  {
   "key": "cb757b1c9cf684423578700bb6aef492|totals|Over:6.5/Under:6.5|Over 6.5|None",
@@ -35056,7 +35056,7 @@
   "evPctAtFlag": 2.09,
   "closeFairPct": 53.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -35081,7 +35081,7 @@
   "evPctAtFlag": 2.84,
   "closeFairPct": 23.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.66,
   "closed": false
  },
@@ -35106,7 +35106,7 @@
   "evPctAtFlag": 4.18,
   "closeFairPct": 29.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 4.3,
   "closed": false
  },
@@ -35129,10 +35129,10 @@
   "price": 150,
   "fairPctAtFlag": 41.5,
   "evPctAtFlag": 3.73,
-  "closeFairPct": 40.8,
+  "closeFairPct": 40.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 2.0,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 1.25,
   "closed": false
  },
  {
@@ -35156,7 +35156,7 @@
   "evPctAtFlag": 2.23,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.2,
   "closed": false
  },
@@ -35179,10 +35179,10 @@
   "price": 360,
   "fairPctAtFlag": 23.0,
   "evPctAtFlag": 5.7,
-  "closeFairPct": 22.8,
+  "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 4.88,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 7.18,
   "closed": false
  },
  {
@@ -35204,10 +35204,10 @@
   "price": 260,
   "fairPctAtFlag": 28.7,
   "evPctAtFlag": 3.27,
-  "closeFairPct": 28.7,
+  "closeFairPct": 28.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
-  "clvPct": 3.32,
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 2.24,
   "closed": false
  },
  {
@@ -35231,7 +35231,7 @@
   "evPctAtFlag": 2.38,
   "closeFairPct": 41.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.42,
   "closed": false
  },
@@ -35256,8 +35256,108 @@
   "evPctAtFlag": 2.05,
   "closeFairPct": 31.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-05T21:55:17+00:00",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
   "clvPct": 2.05,
+  "closed": false
+ },
+ {
+  "key": "582b7e49e8336dd23eca76cd47f5aeaf|totals|Over:155.5/Under:155.5|Over 155.5|None",
+  "eventId": "582b7e49e8336dd23eca76cd47f5aeaf",
+  "sport": "NCAAB",
+  "game": "Jacksonville Dolphins at Florida Gators",
+  "time": "2026-11-06T01:00:00Z",
+  "market": "Total",
+  "marketKey": "totals",
+  "player": null,
+  "name": "Over",
+  "line": 155.5,
+  "team": "Over 155.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-05T22:50:09+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.8,
+  "evPctAtFlag": 3.67,
+  "closeFairPct": 51.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 3.6,
+  "closed": false
+ },
+ {
+  "key": "c75744790b7acf6260c78ba5e739c0e5|player_receptions|Brenton Strange|3.5|Brenton Strange Over 3.5|None",
+  "eventId": "c75744790b7acf6260c78ba5e739c0e5",
+  "sport": "NFL",
+  "game": "Jacksonville Jaguars at Baltimore Ravens",
+  "time": "2026-11-06T01:15:00Z",
+  "market": "Receptions",
+  "marketKey": "player_receptions",
+  "player": "Brenton Strange",
+  "name": "Over",
+  "line": 3.5,
+  "team": "Brenton Strange Over 3.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-05T22:50:09+00:00",
+  "price": 105,
+  "fairPctAtFlag": 49.8,
+  "evPctAtFlag": 2.06,
+  "closeFairPct": 49.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 2.09,
+  "closed": false
+ },
+ {
+  "key": "c75744790b7acf6260c78ba5e739c0e5|player_receptions|Rashod Bateman|1.5|Rashod Bateman Over 1.5|None",
+  "eventId": "c75744790b7acf6260c78ba5e739c0e5",
+  "sport": "NFL",
+  "game": "Jacksonville Jaguars at Baltimore Ravens",
+  "time": "2026-11-06T01:15:00Z",
+  "market": "Receptions",
+  "marketKey": "player_receptions",
+  "player": "Rashod Bateman",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Rashod Bateman Over 1.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-05T22:50:09+00:00",
+  "price": 130,
+  "fairPctAtFlag": 44.6,
+  "evPctAtFlag": 2.64,
+  "closeFairPct": 44.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 2.58,
+  "closed": false
+ },
+ {
+  "key": "bbb1d38a8f51b761a789459a08fa6ded|h2h|Colorado State Rams|None",
+  "eventId": "bbb1d38a8f51b761a789459a08fa6ded",
+  "sport": "NCAAF",
+  "game": "Boise State Broncos at Colorado State Rams",
+  "time": "2026-11-07T23:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Colorado State Rams",
+  "line": null,
+  "team": "Colorado State Rams",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-05T22:50:09+00:00",
+  "price": 660,
+  "fairPctAtFlag": 13.7,
+  "evPctAtFlag": 3.98,
+  "closeFairPct": 13.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-05T22:50:09+00:00",
+  "clvPct": 4.12,
   "closed": false
  }
 ]
