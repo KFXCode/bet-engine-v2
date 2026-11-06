@@ -14,17 +14,17 @@
    "win_rate": 0.5126050420168067
   },
   "value": {
-   "avg_clv": 0.02189903846153846,
-   "clv_beat_rate": 0.25240384615384615,
-   "clv_n": 1248,
-   "graded": 1476,
+   "avg_clv": 0.02547535771065183,
+   "clv_beat_rate": 0.25119236883942764,
+   "clv_n": 1258,
+   "graded": 1490,
    "record": {
-    "l": 730,
+    "l": 742,
     "p": 1,
-    "void": 37,
-    "w": 745
+    "void": 39,
+    "w": 747
    },
-   "win_rate": 0.5050847457627119
+   "win_rate": 0.5016789791806582
   }
  },
  "by_sport": {
@@ -42,30 +42,30 @@
    "win_rate": 0.6410256410256411
   },
   "NBA Props": {
-   "avg_clv": 0.07848058252427186,
-   "clv_beat_rate": 0.16990291262135923,
-   "clv_n": 206,
-   "graded": 270,
+   "avg_clv": 0.07735406698564594,
+   "clv_beat_rate": 0.1674641148325359,
+   "clv_n": 209,
+   "graded": 276,
    "record": {
-    "l": 121,
+    "l": 125,
     "p": 0,
     "void": 8,
-    "w": 149
+    "w": 151
    },
-   "win_rate": 0.5518518518518518
+   "win_rate": 0.5471014492753623
   },
   "NBA Sides": {
-   "avg_clv": 0.1498974358974359,
-   "clv_beat_rate": 0.1282051282051282,
-   "clv_n": 78,
-   "graded": 104,
+   "avg_clv": 0.14615,
+   "clv_beat_rate": 0.125,
+   "clv_n": 80,
+   "graded": 108,
    "record": {
-    "l": 57,
+    "l": 61,
     "p": 0,
     "void": 0,
     "w": 47
    },
-   "win_rate": 0.4519230769230769
+   "win_rate": 0.4351851851851852
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.0,
@@ -107,17 +107,17 @@
    "win_rate": 0.5428571428571428
   },
   "NCAAF Sides": {
-   "avg_clv": 0.0778623188405797,
-   "clv_beat_rate": 0.391304347826087,
-   "clv_n": 552,
-   "graded": 583,
+   "avg_clv": 0.08609747292418772,
+   "clv_beat_rate": 0.3916967509025271,
+   "clv_n": 554,
+   "graded": 585,
    "record": {
-    "l": 282,
+    "l": 284,
     "p": 0,
     "void": 0,
     "w": 301
    },
-   "win_rate": 0.516295025728988
+   "win_rate": 0.5145299145299145
   },
   "NFL Cosmic": {
    "avg_clv": -0.3590204081632653,
@@ -133,17 +133,17 @@
    "win_rate": 0.43333333333333335
   },
   "NFL Props": {
-   "avg_clv": 0.038619999999999995,
-   "clv_beat_rate": 0.08571428571428572,
-   "clv_n": 350,
-   "graded": 439,
+   "avg_clv": 0.03829178470254957,
+   "clv_beat_rate": 0.08498583569405099,
+   "clv_n": 353,
+   "graded": 441,
    "record": {
-    "l": 228,
+    "l": 230,
     "p": 0,
-    "void": 34,
+    "void": 36,
     "w": 211
    },
-   "win_rate": 0.4806378132118451
+   "win_rate": 0.47845804988662133
   },
   "NFL Sides": {
    "avg_clv": -0.34368152866242035,
@@ -160,11 +160,11 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6746 player-games, looked back 21 days)",
+  "NFL player logs: added 1 box scores, 6766 player-games cached",
   "NBA player logs: skipped 12 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: cache already current (10281 player-games, looked back 21 days)"
+  "NBA player logs: added 2 box scores, 10333 player-games cached"
  ],
- "generated_at": "2026-11-06T02:48:47+00:00",
+ "generated_at": "2026-11-06T15:25:55+00:00",
  "graded_through": "Week of Nov 2",
  "groups": {
   "Cosmic": {
@@ -2633,10 +2633,10 @@
    "win_rate": 0.5185185185185185
   },
   "Props": {
-   "avg_clv": 0.05338848920863309,
-   "clv_beat_rate": 0.11690647482014388,
-   "clv_n": 556,
-   "graded": 709,
+   "avg_clv": 0.05281850533807829,
+   "clv_beat_rate": 0.11565836298932385,
+   "clv_n": 562,
+   "graded": 717,
    "label": "Player props",
    "picks": [
     {
@@ -15240,6 +15240,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 19.655,
+     "ev": 0.36896,
+     "final": "-1",
+     "game": "Jacksonville Jaguars @ Baltimore Ravens",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Travis Hunter Over 9.5 receiving yards",
+     "player": "Travis Hunter",
+     "price": -114,
+     "proj": 35.389,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": -118,
      "clv": 0.0,
      "edge": 19.652,
@@ -15327,6 +15345,24 @@
      "proj": 30.689,
      "result": "L",
      "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": 158,
+     "clv": 0.0,
+     "edge": 18.338,
+     "ev": 0.47313,
+     "final": "did not play",
+     "game": "Jacksonville Jaguars @ Baltimore Ravens",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Brian Thomas Jr. Over 1.5 receptions",
+     "player": "Brian Thomas Jr.",
+     "price": 158,
+     "proj": 2.086,
+     "result": "V",
+     "sport": "NFL",
      "week": "Week of Nov 2"
     },
     {
@@ -15798,6 +15834,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 18.641,
+     "ev": 0.35137,
+     "final": "85",
+     "game": "Jacksonville Jaguars @ Baltimore Ravens",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Justice Hill Under 13.5 rushing yards",
+     "player": "Justice Hill",
+     "price": -113,
+     "proj": 13.716,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.476,
@@ -16014,6 +16068,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.228,
+     "ev": 3.73248,
+     "final": "did not play",
+     "game": "Jacksonville Jaguars @ Baltimore Ravens",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Devontez Walker anytime TD",
+     "player": "Devontez Walker",
+     "price": 2200,
+     "proj": 0.23,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": -115,
      "clv": 0.0,
      "edge": 16.022,
@@ -16156,22 +16228,130 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.0,
+     "edge": 19.929,
+     "ev": 0.36537,
+     "final": "9",
+     "game": "Miami Heat @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Brandin Podziemski Over 15.5 points",
+     "player": "Brandin Podziemski",
+     "price": -120,
+     "proj": 19.591,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -172,
+     "clv": 0.0,
+     "edge": 19.833,
+     "ev": 0.31364,
+     "final": "0",
+     "game": "Miami Heat @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Klay Thompson Under 2.5 rebounds",
+     "player": "Klay Thompson",
+     "price": -172,
+     "proj": 1.268,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.801,
+     "ev": 0.36581,
+     "final": "30",
+     "game": "Orlando Magic @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Devin Booker Under 29.5 points",
+     "player": "Devin Booker",
+     "price": -118,
+     "proj": 24.217,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.535,
+     "ev": 0.33488,
+     "final": "1",
+     "game": "Orlando Magic @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Dillon Brooks Over 2.5 rebounds",
+     "player": "Dillon Brooks",
+     "price": -140,
+     "proj": 4.428,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 19.246,
+     "ev": 0.37752,
+     "final": "10",
+     "game": "Miami Heat @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Will Richard Under 5.5 points",
+     "player": "Will Richard",
+     "price": -104,
+     "proj": 4.499,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.471,
+     "ev": 0.3393,
+     "final": "8",
+     "game": "Orlando Magic @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Khaman Maluach Over 2.5 points",
+     "player": "Khaman Maluach",
+     "price": 106,
+     "proj": 5.053,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 349,
+    "l": 355,
     "p": 0,
-    "void": 42,
-    "w": 360
+    "void": 44,
+    "w": 362
    },
    "threshold": 7.0,
-   "win_rate": 0.5077574047954866
+   "win_rate": 0.504881450488145
   },
   "Sides": {
-   "avg_clv": 0.0009003783102143741,
-   "clv_beat_rate": 0.3493064312736444,
-   "clv_n": 793,
-   "graded": 886,
+   "avg_clv": 0.006815558343789207,
+   "clv_beat_rate": 0.34880803011292344,
+   "clv_n": 797,
+   "graded": 892,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -31277,6 +31457,42 @@
      "week": "Week of Oct 26"
     },
     {
+     "closing_price": -245,
+     "clv": 0.0,
+     "edge": 12.179,
+     "ev": 0.1715,
+     "final": "29-60",
+     "game": "UTSA Roadrunners @ Florida Atlantic Owls",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "UTSA Roadrunners ML",
+     "player": null,
+     "price": -245,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -120,
+     "clv": 4.718,
+     "edge": 15.514,
+     "ev": 0.31339,
+     "final": "29-60",
+     "game": "UTSA Roadrunners @ Florida Atlantic Owls",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "UTSA Roadrunners -7.5",
+     "player": null,
+     "price": 102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": 152,
      "clv": 0.0,
      "edge": 8.332,
@@ -32121,22 +32337,94 @@
      "result": "W",
      "sport": "NCAAB",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.483,
+     "ev": 0.59339,
+     "final": "104-117",
+     "game": "Orlando Magic @ Phoenix Suns",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Orlando Magic ML",
+     "player": null,
+     "price": 260,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 13.962,
+     "ev": 0.27388,
+     "final": "104-117",
+     "game": "Orlando Magic @ Phoenix Suns",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Orlando Magic +7.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": 138,
+     "clv": 0.0,
+     "edge": 8.126,
+     "ev": 0.19341,
+     "final": "100-120",
+     "game": "Miami Heat @ Golden State Warriors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Miami Heat ML",
+     "player": null,
+     "price": 138,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 8.892,
+     "ev": 0.17443,
+     "final": "100-120",
+     "game": "Miami Heat @ Golden State Warriors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Miami Heat +3.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 439,
+    "l": 445,
     "p": 1,
     "void": 0,
     "w": 446
    },
    "threshold": 5.0,
-   "win_rate": 0.503954802259887
+   "win_rate": 0.500561167227834
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 41,
-  "Props": 193,
-  "Sides": 132
+  "Props": 183,
+  "Sides": 126
  }
 }
