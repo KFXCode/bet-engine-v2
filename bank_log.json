@@ -26629,10 +26629,10 @@
   "price": -205,
   "fairPctAtFlag": 69.1,
   "evPctAtFlag": 2.74,
-  "closeFairPct": 65.5,
+  "closeFairPct": 66.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": -2.55,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": -1.8,
   "closed": false
  },
  {
@@ -26654,10 +26654,10 @@
   "price": 600,
   "fairPctAtFlag": 14.7,
   "evPctAtFlag": 3.22,
-  "closeFairPct": 14.4,
+  "closeFairPct": 14.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 0.8,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 1.5,
   "closed": false
  },
  {
@@ -26681,7 +26681,7 @@
   "evPctAtFlag": 2.68,
   "closeFairPct": 49.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": -9.38,
   "closed": false
  },
@@ -26706,7 +26706,7 @@
   "evPctAtFlag": 9.57,
   "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 23.2,
   "closed": false
  },
@@ -27106,7 +27106,7 @@
   "evPctAtFlag": 4.01,
   "closeFairPct": 34.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 10.5,
   "closed": false
  },
@@ -27131,7 +27131,7 @@
   "evPctAtFlag": 7.65,
   "closeFairPct": 26.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 2.96,
   "closed": false
  },
@@ -27356,7 +27356,7 @@
   "evPctAtFlag": 7.19,
   "closeFairPct": 18.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": -5.5,
   "closed": false
  },
@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 60.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": -0.05,
   "closed": false
  },
@@ -31483,7 +31483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -12.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2c3f80e228a486e04f6f7a38e4f00fb4|h2h|Michigan State Spartans|None",
@@ -31504,10 +31504,10 @@
   "price": 480,
   "fairPctAtFlag": 18.7,
   "evPctAtFlag": 8.46,
-  "closeFairPct": 17.4,
+  "closeFairPct": 17.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 0.92,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": -0.24,
   "closed": false
  },
  {
@@ -31529,10 +31529,10 @@
   "price": 660,
   "fairPctAtFlag": 14.0,
   "evPctAtFlag": 6.06,
-  "closeFairPct": 15.3,
+  "closeFairPct": 15.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 16.28,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 15.52,
   "closed": false
  },
  {
@@ -31583,7 +31583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -8.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1a1782b9fde64acd952ea9fd3aff7d83|totals|Over:6.5/Under:6.5|Over 6.5|None",
@@ -31783,7 +31783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -7.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2cccdbb5426caa7a69f652bb577b367c|spreads|Boston College Eagles:-20.5/Wagner Seahawks:20.5|Boston College Eagles|-20.5",
@@ -34481,7 +34481,7 @@
   "evPctAtFlag": 8.12,
   "closeFairPct": 19.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": -0.04,
   "closed": false
  },
@@ -34506,7 +34506,7 @@
   "evPctAtFlag": 5.26,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -35006,7 +35006,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 30.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 2.68,
   "closed": false
  },
@@ -35354,10 +35354,10 @@
   "price": 660,
   "fairPctAtFlag": 13.7,
   "evPctAtFlag": 3.98,
-  "closeFairPct": 14.3,
+  "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 8.68,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 11.72,
   "closed": false
  },
  {
@@ -35608,7 +35608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 14.75,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c75744790b7acf6260c78ba5e739c0e5|player_reception_yds|Justice Hill|18.5|Justice Hill Over 18.5|None",
@@ -36204,10 +36204,10 @@
   "price": 200,
   "fairPctAtFlag": 34.9,
   "evPctAtFlag": 4.58,
-  "closeFairPct": 34.5,
+  "closeFairPct": 34.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 3.5,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.0,
   "closed": false
  },
  {
@@ -36231,7 +36231,7 @@
   "evPctAtFlag": 2.74,
   "closeFairPct": 31.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 3.68,
   "closed": false
  },
@@ -37054,10 +37054,10 @@
   "price": -124,
   "fairPctAtFlag": 57.4,
   "evPctAtFlag": 3.75,
-  "closeFairPct": 55.5,
+  "closeFairPct": 55.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 0.26,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 0.98,
   "closed": false
  },
  {
@@ -37079,10 +37079,10 @@
   "price": 200,
   "fairPctAtFlag": 34.9,
   "evPctAtFlag": 4.83,
-  "closeFairPct": 33.9,
+  "closeFairPct": 34.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 1.7,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.3,
   "closed": false
  },
  {
@@ -38508,7 +38508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 2.85,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e354e6a04b1cb9c96e549b863debb92e|spreads|Kansas City Chiefs:-10.0/New York Jets:10.0|New York Jets|10.0",
@@ -38531,7 +38531,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 54.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -38783,7 +38783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -0.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "74c510490b9dc16a4a1ffca922cb8dfb|h2h|Samford Bulldogs|None",
@@ -38808,7 +38808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -1.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "260aeb4541ffc17bb1c580f72a76497b|h2h|Northern Iowa Panthers|None",
@@ -38833,7 +38833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 0.51,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fa470ca41ec17d226396ce2f307fe9cb|h2h|SIU-Edwardsville Cougars|None",
@@ -38858,7 +38858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -3.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0c0b87a4ca3e26dae6a79d50a65514be|h2h|Southern Indiana Screaming Eagles|None",
@@ -38881,7 +38881,7 @@
   "evPctAtFlag": 3.29,
   "closeFairPct": 25.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 19.14,
   "closed": false
  },
@@ -38906,7 +38906,7 @@
   "evPctAtFlag": 2.67,
   "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 7.94,
   "closed": false
  },
@@ -38929,10 +38929,10 @@
   "price": 500,
   "fairPctAtFlag": 18.0,
   "evPctAtFlag": 8.2,
-  "closeFairPct": 18.0,
+  "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 8.0,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 9.2,
   "closed": false
  },
  {
@@ -38956,7 +38956,7 @@
   "evPctAtFlag": 3.07,
   "closeFairPct": 75.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 3.23,
   "closed": false
  },
@@ -39083,7 +39083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 17.3,
-  "closed": false
+  "closed": true
  },
  {
   "key": "23efc4a58ecc218d159460b515d0a781|h2h|Prairie View Panthers|None",
@@ -39104,10 +39104,10 @@
   "price": 340,
   "fairPctAtFlag": 23.2,
   "evPctAtFlag": 2.13,
-  "closeFairPct": 23.2,
+  "closeFairPct": 23.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 2.08,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 1.2,
   "closed": false
  },
  {
@@ -39129,10 +39129,10 @@
   "price": 150,
   "fairPctAtFlag": 41.2,
   "evPctAtFlag": 2.9,
-  "closeFairPct": 41.0,
+  "closeFairPct": 40.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 2.5,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 0.25,
   "closed": false
  },
  {
@@ -39183,7 +39183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 1.86,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2bddde1bb43d000ff50217cb17849385|spreads|High Point Panthers:-13.5/Washington St Cougars:13.5|High Point Panthers|-13.5",
@@ -39208,7 +39208,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": -1.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "392dbcd0a3077d4062e430d2dbae1a76|h2h|SE Louisiana Lions|None",
@@ -39229,10 +39229,10 @@
   "price": 400,
   "fairPctAtFlag": 21.3,
   "evPctAtFlag": 6.75,
-  "closeFairPct": 21.3,
+  "closeFairPct": 21.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 6.5,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 7.0,
   "closed": false
  },
  {
@@ -39254,10 +39254,10 @@
   "price": -110,
   "fairPctAtFlag": 53.5,
   "evPctAtFlag": 2.05,
-  "closeFairPct": 53.3,
+  "closeFairPct": 53.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 1.75,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 1.18,
   "closed": false
  },
  {
@@ -39279,10 +39279,10 @@
   "price": 185,
   "fairPctAtFlag": 36.2,
   "evPctAtFlag": 3.29,
-  "closeFairPct": 35.8,
+  "closeFairPct": 34.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 2.03,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": -0.82,
   "closed": false
  },
  {
@@ -39308,7 +39308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 9.62,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ca349dad8e0e573b453654d24b63e3d1|totals|Over:55.5/Under:55.5|Over 55.5|None",
@@ -39358,7 +39358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 2.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e76682ca6c25a37b0a53cec226b91aab|player_rebounds|DeMar DeRozan|2.5|DeMar DeRozan Over 2.5|None",
@@ -39383,7 +39383,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 4.62,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e76682ca6c25a37b0a53cec226b91aab|player_threes|Jamal Murray|2.5|Jamal Murray Under 2.5|None",
@@ -39408,7 +39408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-07T20:35:11+00:00",
   "clvPct": 2.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "39099dc03208d0771daaab5f7993478a|h2h|Golden State Warriors|None",
@@ -39431,7 +39431,7 @@
   "evPctAtFlag": 3.74,
   "closeFairPct": 71.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 6.08,
   "closed": false
  },
@@ -39456,7 +39456,7 @@
   "evPctAtFlag": 2.16,
   "closeFairPct": 48.2,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
   "clvPct": 2.18,
   "closed": false
  },
@@ -39479,10 +39479,135 @@
   "price": 190,
   "fairPctAtFlag": 35.6,
   "evPctAtFlag": 3.16,
-  "closeFairPct": 35.6,
+  "closeFairPct": 35.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-07T20:35:11+00:00",
-  "clvPct": 3.24,
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.66,
+  "closed": false
+ },
+ {
+  "key": "e8b5176c1a4665b33b1fc7f70c8d4876|h2h|Providence Friars|None",
+  "eventId": "e8b5176c1a4665b33b1fc7f70c8d4876",
+  "sport": "NCAAB",
+  "game": "Providence Friars at Nebraska Cornhuskers",
+  "time": "2026-11-08T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Providence Friars",
+  "line": null,
+  "team": "Providence Friars",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-07T22:14:15+00:00",
+  "price": 130,
+  "fairPctAtFlag": 44.4,
+  "evPctAtFlag": 2.02,
+  "closeFairPct": 44.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.12,
+  "closed": false
+ },
+ {
+  "key": "f9a714b70c2d395a4d28c564dfb901bc|h2h|Canisius Golden Griffins|None",
+  "eventId": "f9a714b70c2d395a4d28c564dfb901bc",
+  "sport": "NCAAB",
+  "game": "St. Bonaventure Bonnies at Canisius Golden Griffins",
+  "time": "2026-11-08T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Canisius Golden Griffins",
+  "line": null,
+  "team": "Canisius Golden Griffins",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-07T22:14:15+00:00",
+  "price": 365,
+  "fairPctAtFlag": 22.4,
+  "evPctAtFlag": 4.37,
+  "closeFairPct": 22.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 4.16,
+  "closed": false
+ },
+ {
+  "key": "4700f8b90846ac8a1cf14f077523f486|totals|Over:2.5/Under:2.5|Under 2.5|None",
+  "eventId": "4700f8b90846ac8a1cf14f077523f486",
+  "sport": "MLS",
+  "game": "St. Louis City SC at Houston Dynamo",
+  "time": "2026-11-08T00:00:00Z",
+  "market": "Total",
+  "marketKey": "totals",
+  "player": null,
+  "name": "Under",
+  "line": 2.5,
+  "team": "Under 2.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-07T22:14:15+00:00",
+  "price": 115,
+  "fairPctAtFlag": 47.6,
+  "evPctAtFlag": 2.44,
+  "closeFairPct": 47.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.34,
+  "closed": false
+ },
+ {
+  "key": "f2832f61efc983964120a64ef0381763|h2h|San Jos\u00e9 St Spartans|None",
+  "eventId": "f2832f61efc983964120a64ef0381763",
+  "sport": "NCAAB",
+  "game": "San Jos\u00e9 St Spartans at UC Irvine Anteaters",
+  "time": "2026-11-08T03:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "San Jos\u00e9 St Spartans",
+  "line": null,
+  "team": "San Jos\u00e9 St Spartans",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-07T22:14:15+00:00",
+  "price": 310,
+  "fairPctAtFlag": 24.9,
+  "evPctAtFlag": 2.25,
+  "closeFairPct": 24.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.09,
+  "closed": false
+ },
+ {
+  "key": "2303b6223847bd67b993f4263a484f46|spreads|Iona Gaels:26.0/St. John's Red Storm:-26.0|St. John's Red Storm|-26.0",
+  "eventId": "2303b6223847bd67b993f4263a484f46",
+  "sport": "NCAAB",
+  "game": "Iona Gaels at St. John's Red Storm",
+  "time": "2026-11-08T17:00:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "St. John's Red Storm",
+  "line": -26.0,
+  "team": "St. John's Red Storm",
+  "point": -26.0,
+  "book": "fanatics",
+  "bookName": "Fanatics",
+  "flaggedAt": "2026-11-07T22:14:15+00:00",
+  "price": -110,
+  "fairPctAtFlag": 53.5,
+  "evPctAtFlag": 2.05,
+  "closeFairPct": 53.5,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-07T22:14:15+00:00",
+  "clvPct": 2.14,
   "closed": false
  }
 ]
