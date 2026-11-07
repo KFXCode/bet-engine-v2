@@ -14,17 +14,17 @@
    "win_rate": 0.5126050420168067
   },
   "value": {
-   "avg_clv": 0.02547535771065183,
-   "clv_beat_rate": 0.25119236883942764,
-   "clv_n": 1258,
-   "graded": 1490,
+   "avg_clv": 0.02545512311358221,
+   "clv_beat_rate": 0.2509928514694202,
+   "clv_n": 1259,
+   "graded": 1491,
    "record": {
-    "l": 742,
+    "l": 743,
     "p": 1,
     "void": 39,
     "w": 747
    },
-   "win_rate": 0.5016789791806582
+   "win_rate": 0.5013422818791946
   }
  },
  "by_sport": {
@@ -83,15 +83,15 @@
   "NCAAB Sides": {
    "avg_clv": 0.0,
    "clv_beat_rate": 0.0,
-   "clv_n": 6,
-   "graded": 9,
+   "clv_n": 7,
+   "graded": 10,
    "record": {
-    "l": 4,
+    "l": 5,
     "p": 0,
     "void": 0,
     "w": 5
    },
-   "win_rate": 0.5555555555555556
+   "win_rate": 0.5
   },
   "NCAAF Cosmic": {
    "avg_clv": -0.18835294117647058,
@@ -160,11 +160,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6766 player-games cached",
-  "NBA player logs: skipped 12 preseason games \u2014 starters play a quarter in those, so counting them drags every projection down",
-  "NBA player logs: added 2 box scores, 10333 player-games cached"
+  "NBA player logs: cache already current (10333 player-games, looked back 21 days)",
+  "NFL player logs: cache already current (6766 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-06T15:25:55+00:00",
+ "generated_at": "2026-11-07T02:16:04+00:00",
  "graded_through": "Week of Nov 2",
  "groups": {
   "Cosmic": {
@@ -16348,10 +16347,10 @@
    "win_rate": 0.504881450488145
   },
   "Sides": {
-   "avg_clv": 0.006815558343789207,
-   "clv_beat_rate": 0.34880803011292344,
-   "clv_n": 797,
-   "graded": 892,
+   "avg_clv": 0.006807017543859648,
+   "clv_beat_rate": 0.3483709273182957,
+   "clv_n": 798,
+   "graded": 893,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -32409,22 +32408,40 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 18.204,
+     "ev": 0.34752,
+     "final": "80-89",
+     "game": "James Madison Dukes @ Kentucky Wildcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Kentucky Wildcats -25.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 445,
+    "l": 446,
     "p": 1,
     "void": 0,
     "w": 446
    },
    "threshold": 5.0,
-   "win_rate": 0.500561167227834
+   "win_rate": 0.5
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 41,
-  "Props": 183,
-  "Sides": 126
+  "Cosmic": 47,
+  "Props": 205,
+  "Sides": 146
  }
 }
