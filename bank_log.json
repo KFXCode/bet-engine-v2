@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 61.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 1.44,
   "closed": false
  },
@@ -34481,7 +34481,7 @@
   "evPctAtFlag": 8.12,
   "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.02,
   "closed": false
  },
@@ -34506,7 +34506,7 @@
   "evPctAtFlag": 5.26,
   "closeFairPct": 22.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 0.35,
   "closed": false
  },
@@ -35006,7 +35006,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 4.04,
   "closed": false
  },
@@ -39454,10 +39454,10 @@
   "price": 112,
   "fairPctAtFlag": 48.2,
   "evPctAtFlag": 2.16,
-  "closeFairPct": 47.2,
+  "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
-  "clvPct": 0.06,
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
+  "clvPct": 0.49,
   "closed": false
  },
  {
@@ -40856,7 +40856,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 48.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 4.16,
   "closed": false
  },
@@ -40979,10 +40979,10 @@
   "price": 110,
   "fairPctAtFlag": 48.7,
   "evPctAtFlag": 2.19,
-  "closeFairPct": 48.7,
+  "closeFairPct": 48.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
-  "clvPct": 2.27,
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
+  "clvPct": 1.43,
   "closed": false
  },
  {
@@ -41006,7 +41006,7 @@
   "evPctAtFlag": 3.39,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -41456,7 +41456,7 @@
   "evPctAtFlag": 5.2,
   "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.8,
   "closed": false
  },
@@ -41481,7 +41481,7 @@
   "evPctAtFlag": 2.17,
   "closeFairPct": 39.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.18,
   "closed": false
  },
@@ -41506,7 +41506,7 @@
   "evPctAtFlag": 3.74,
   "closeFairPct": 55.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.67,
   "closed": false
  },
@@ -41531,7 +41531,7 @@
   "evPctAtFlag": 3.27,
   "closeFairPct": 46.9,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.18,
   "closed": false
  },
@@ -41556,7 +41556,7 @@
   "evPctAtFlag": 3.44,
   "closeFairPct": 52.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.37,
   "closed": false
  },
@@ -41581,7 +41581,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 55.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.27,
   "closed": false
  },
@@ -41606,7 +41606,7 @@
   "evPctAtFlag": 2.65,
   "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.7,
   "closed": false
  },
@@ -41631,7 +41631,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 46.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 6.72,
   "closed": false
  },
@@ -41656,7 +41656,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 41.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 4.75,
   "closed": false
  },
@@ -41681,7 +41681,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 54.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 1.98,
   "closed": false
  },
@@ -41706,7 +41706,7 @@
   "evPctAtFlag": 5.13,
   "closeFairPct": 43.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 5.08,
   "closed": false
  },
@@ -41731,7 +41731,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 52.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.11,
   "closed": false
  },
@@ -41756,7 +41756,7 @@
   "evPctAtFlag": 2.02,
   "closeFairPct": 31.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 1.4,
   "closed": false
  },
@@ -41781,7 +41781,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.2,
   "closed": false
  }
