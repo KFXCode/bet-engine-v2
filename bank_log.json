@@ -26683,7 +26683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": -8.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6bfae12b9d44d12ca7dde4f4f4aedc7d|h2h|West Virginia Mountaineers|None",
@@ -26708,7 +26708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 22.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "31fc89cbf3846e545e8e41a543a71d24|player_points|Sandro Mamukelashvili|8.5|Sandro Mamukelashvili Over 8.5|None",
@@ -27106,7 +27106,7 @@
   "evPctAtFlag": 4.01,
   "closeFairPct": 34.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 10.5,
   "closed": false
  },
@@ -27131,7 +27131,7 @@
   "evPctAtFlag": 7.65,
   "closeFairPct": 26.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.96,
   "closed": false
  },
@@ -27356,7 +27356,7 @@
   "evPctAtFlag": 7.19,
   "closeFairPct": 18.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": -5.5,
   "closed": false
  },
@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 60.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": -0.05,
   "closed": false
  },
@@ -34481,7 +34481,7 @@
   "evPctAtFlag": 8.12,
   "closeFairPct": 19.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": -0.04,
   "closed": false
  },
@@ -34506,7 +34506,7 @@
   "evPctAtFlag": 5.26,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -35006,7 +35006,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 30.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.68,
   "closed": false
  },
@@ -38531,7 +38531,7 @@
   "evPctAtFlag": 3.53,
   "closeFairPct": 54.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -38908,7 +38908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 7.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "596efaf67c61be49ebddb0f58e2a52fc|h2h|Portland St Vikings|None",
@@ -38931,7 +38931,7 @@
   "evPctAtFlag": 8.2,
   "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 9.2,
   "closed": false
  },
@@ -38956,7 +38956,7 @@
   "evPctAtFlag": 3.07,
   "closeFairPct": 76.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 4.88,
   "closed": false
  },
@@ -39279,10 +39279,10 @@
   "price": 185,
   "fairPctAtFlag": 36.2,
   "evPctAtFlag": 3.29,
-  "closeFairPct": 34.0,
+  "closeFairPct": 34.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
-  "clvPct": -3.1,
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
+  "clvPct": -2.53,
   "closed": false
  },
  {
@@ -39456,7 +39456,7 @@
   "evPctAtFlag": 2.16,
   "closeFairPct": 48.2,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.18,
   "closed": false
  },
@@ -39581,7 +39581,7 @@
   "evPctAtFlag": 2.25,
   "closeFairPct": 23.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": -2.83,
   "closed": false
  },
@@ -40358,7 +40358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 4.17,
-  "closed": false
+  "closed": true
  },
  {
   "key": "af8d920f175d73f12933c64ae296573f|player_points|Reed Sheppard|8.5|Reed Sheppard Under 8.5|None",
@@ -40383,7 +40383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 0.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "af8d920f175d73f12933c64ae296573f|player_points|Tari Eason|9.5|Tari Eason Under 9.5|None",
@@ -40408,7 +40408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 2.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ee45341df802cfb42dd48f1ad60c8b81|h2h|Atlanta Hawks|None",
@@ -40583,7 +40583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 5.12,
-  "closed": false
+  "closed": true
  },
  {
   "key": "08d47dd5e50e83839e395e49870d6a0d|player_points|Dylan Harper|17.5|Dylan Harper Under 17.5|None",
@@ -40606,7 +40606,7 @@
   "evPctAtFlag": 2.49,
   "closeFairPct": 56.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.42,
   "closed": false
  },
@@ -40631,7 +40631,7 @@
   "evPctAtFlag": 2.13,
   "closeFairPct": 55.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.1,
   "closed": false
  },
@@ -40656,7 +40656,7 @@
   "evPctAtFlag": 3.73,
   "closeFairPct": 49.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 3.74,
   "closed": false
  },
@@ -40681,7 +40681,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 54.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.08,
   "closed": false
  },
@@ -40706,7 +40706,7 @@
   "evPctAtFlag": 3.63,
   "closeFairPct": 40.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 3.53,
   "closed": false
  },
@@ -40731,7 +40731,7 @@
   "evPctAtFlag": 3.15,
   "closeFairPct": 44.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 3.19,
   "closed": false
  },
@@ -40758,7 +40758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T01:51:59+00:00",
   "clvPct": 2.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "08d47dd5e50e83839e395e49870d6a0d|player_threes|Toumani Camara|2.5|Toumani Camara Over 2.5|None",
@@ -40781,8 +40781,83 @@
   "evPctAtFlag": 2.28,
   "closeFairPct": 47.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T01:51:59+00:00",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
   "clvPct": 2.29,
+  "closed": false
+ },
+ {
+  "key": "08d47dd5e50e83839e395e49870d6a0d|player_points|Victor Wembanyama|27.5|Victor Wembanyama Under 27.5|None",
+  "eventId": "08d47dd5e50e83839e395e49870d6a0d",
+  "sport": "NBA",
+  "game": "San Antonio Spurs at Portland Trail Blazers",
+  "time": "2026-11-08T03:00:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Victor Wembanyama",
+  "name": "Under",
+  "line": 27.5,
+  "team": "Victor Wembanyama Under 27.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-08T02:43:56+00:00",
+  "price": 100,
+  "fairPctAtFlag": 54.5,
+  "evPctAtFlag": 8.92,
+  "closeFairPct": 54.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
+  "clvPct": 9.0,
+  "closed": false
+ },
+ {
+  "key": "08d47dd5e50e83839e395e49870d6a0d|player_rebounds|Victor Wembanyama|11.5|Victor Wembanyama Over 11.5|None",
+  "eventId": "08d47dd5e50e83839e395e49870d6a0d",
+  "sport": "NBA",
+  "game": "San Antonio Spurs at Portland Trail Blazers",
+  "time": "2026-11-08T03:00:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Victor Wembanyama",
+  "name": "Over",
+  "line": 11.5,
+  "team": "Victor Wembanyama Over 11.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-08T02:43:56+00:00",
+  "price": 106,
+  "fairPctAtFlag": 50.6,
+  "evPctAtFlag": 4.25,
+  "closeFairPct": 50.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
+  "clvPct": 4.24,
+  "closed": false
+ },
+ {
+  "key": "7757c80ca9080492a28d75de6e15e1cb|h2h|Saint Mary's Gaels|None",
+  "eventId": "7757c80ca9080492a28d75de6e15e1cb",
+  "sport": "NCAAB",
+  "game": "Saint Mary's Gaels at Nevada Wolf Pack",
+  "time": "2026-11-08T21:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Saint Mary's Gaels",
+  "line": null,
+  "team": "Saint Mary's Gaels",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-08T02:43:56+00:00",
+  "price": 117,
+  "fairPctAtFlag": 47.6,
+  "evPctAtFlag": 3.31,
+  "closeFairPct": 47.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-08T02:43:56+00:00",
+  "clvPct": 3.29,
   "closed": false
  }
 ]
