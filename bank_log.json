@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 61.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
   "clvPct": 1.44,
   "closed": false
  },
@@ -34483,7 +34483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.02,
-  "closed": false
+  "closed": true
  },
  {
   "key": "240e23b02b1e3fef655d04a286b5a623|h2h|Arizona Cardinals|None",
@@ -34508,7 +34508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 0.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "29988f1011d7738962e13e0a0beb693f|player_threes|De'Andre Hunter|1.5|De'Andre Hunter Under 1.5|None",
@@ -35004,10 +35004,10 @@
   "price": 240,
   "fairPctAtFlag": 30.4,
   "evPctAtFlag": 3.21,
-  "closeFairPct": 30.6,
+  "closeFairPct": 29.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
-  "clvPct": 4.04,
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
+  "clvPct": -0.38,
   "closed": false
  },
  {
@@ -39456,7 +39456,7 @@
   "evPctAtFlag": 2.16,
   "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
   "clvPct": 0.49,
   "closed": false
  },
@@ -40858,7 +40858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 4.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b791f115e68a00b090f9f78d07a757b1|h2h|Siena Saints|None",
@@ -40983,7 +40983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 1.43,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fda713cae3e805506547d5b1e705bcc8|h2h|Incarnate Word Cardinals|None",
@@ -41006,7 +41006,7 @@
   "evPctAtFlag": 3.39,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -41454,10 +41454,10 @@
   "price": 500,
   "fairPctAtFlag": 17.5,
   "evPctAtFlag": 5.2,
-  "closeFairPct": 17.3,
+  "closeFairPct": 18.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
-  "clvPct": 3.8,
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
+  "clvPct": 8.0,
   "closed": false
  },
  {
@@ -41483,7 +41483,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a5d2d9c68b7446860de658aa4bc33c5b|player_rebounds|Josh Giddey|6.5|Josh Giddey Under 6.5|None",
@@ -41508,7 +41508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.67,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a5d2d9c68b7446860de658aa4bc33c5b|player_threes|Dean Wade|0.5|Dean Wade Under 0.5|None",
@@ -41533,7 +41533,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a5d2d9c68b7446860de658aa4bc33c5b|player_threes|Jalen Smith|1.5|Jalen Smith Over 1.5|None",
@@ -41558,7 +41558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a5d2d9c68b7446860de658aa4bc33c5b|player_threes|Jaylen Brown|1.5|Jaylen Brown Over 1.5|None",
@@ -41583,7 +41583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 3.27,
-  "closed": false
+  "closed": true
  },
  {
   "key": "39aeac43cea7b12558b91cdab1255a10|player_reception_yds|Omarion Hampton|6.5|Omarion Hampton Over 6.5|None",
@@ -41608,7 +41608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "39aeac43cea7b12558b91cdab1255a10|player_receptions|Marvin Harrison Jr.|2.5|Marvin Harrison Jr. Over 2.5|None",
@@ -41633,7 +41633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 6.72,
-  "closed": false
+  "closed": true
  },
  {
   "key": "39aeac43cea7b12558b91cdab1255a10|player_receptions|Xavier Hutchinson|2.5|Xavier Hutchinson Over 2.5|None",
@@ -41658,7 +41658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 4.75,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2922c573ec3df8466c4a34975e446898|player_pass_yds|Jordan Love|271.5|Jordan Love Under 271.5|None",
@@ -41683,7 +41683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 1.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ac9d38a18d5c92814233a31aa9a48d78|player_receptions|Jordan Watkins|1.5|Jordan Watkins Under 1.5|None",
@@ -41708,7 +41708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 5.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ac9d38a18d5c92814233a31aa9a48d78|player_rush_yds|Christian McCaffrey|64.5|Christian McCaffrey Over 64.5|None",
@@ -41733,7 +41733,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-08T20:35:10+00:00",
   "clvPct": 2.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "182e2b5349fa0ff4ad3c0e8359c1a9a0|h2h|Los Angeles Lakers|None",
@@ -41754,10 +41754,10 @@
   "price": 225,
   "fairPctAtFlag": 31.4,
   "evPctAtFlag": 2.02,
-  "closeFairPct": 31.2,
+  "closeFairPct": 30.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
-  "clvPct": 1.4,
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
+  "clvPct": -1.52,
   "closed": false
  },
  {
@@ -41781,7 +41781,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 51.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-08T20:35:10+00:00",
+  "closeSeenAt": "2026-11-08T22:24:41+00:00",
   "clvPct": 2.2,
   "closed": false
  }
