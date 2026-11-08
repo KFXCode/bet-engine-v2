@@ -27108,7 +27108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 8.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "44d8c37868b700e90f816db7c5df5cdd|h2h|Miami Dolphins|None",
@@ -27133,7 +27133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "cbbce01a444134baf2a8fa533eca853e|totals|Over:134.5/Under:134.5|Over 134.5|None",
@@ -27358,7 +27358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": -5.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2202ea1b5c467f5f358bfe14e82c0643|h2h|UTSA Roadrunners|None",
@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 61.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 1.44,
   "closed": false
  },
@@ -34479,10 +34479,10 @@
   "price": 410,
   "fairPctAtFlag": 21.2,
   "evPctAtFlag": 8.12,
-  "closeFairPct": 19.8,
+  "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
-  "clvPct": 0.98,
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
+  "clvPct": 3.02,
   "closed": false
  },
  {
@@ -34506,7 +34506,7 @@
   "evPctAtFlag": 5.26,
   "closeFairPct": 22.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 1.7,
   "closed": false
  },
@@ -35006,7 +35006,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 30.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 4.38,
   "closed": false
  },
@@ -38533,7 +38533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 3.61,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d24eb5492983d6e28be3b96df396fa12|player_assists|Stephon Castle|5.5|Stephon Castle Over 5.5|None",
@@ -39456,7 +39456,7 @@
   "evPctAtFlag": 2.16,
   "closeFairPct": 47.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 0.06,
   "closed": false
  },
@@ -40856,7 +40856,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 46.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 1.77,
   "closed": false
  },
@@ -40883,7 +40883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": -10.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "928d73b1594da7d8b59856d8bf7e05eb|h2h|Boise State Broncos|None",
@@ -40906,7 +40906,7 @@
   "evPctAtFlag": 2.21,
   "closeFairPct": 57.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 2.08,
   "closed": false
  },
@@ -40929,10 +40929,10 @@
   "price": 196,
   "fairPctAtFlag": 34.9,
   "evPctAtFlag": 3.25,
-  "closeFairPct": 34.8,
+  "closeFairPct": 35.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
-  "clvPct": 3.01,
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
+  "clvPct": 4.78,
   "closed": false
  },
  {
@@ -40954,10 +40954,10 @@
   "price": 750,
   "fairPctAtFlag": 12.4,
   "evPctAtFlag": 5.07,
-  "closeFairPct": 12.0,
+  "closeFairPct": 11.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
-  "clvPct": 2.0,
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
+  "clvPct": -2.25,
   "closed": false
  },
  {
@@ -40981,7 +40981,7 @@
   "evPctAtFlag": 2.19,
   "closeFairPct": 48.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 2.27,
   "closed": false
  },
@@ -41006,7 +41006,7 @@
   "evPctAtFlag": 3.39,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -41033,7 +41033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.99,
-  "closed": false
+  "closed": true
  },
  {
   "key": "014282b888c741b7d70c857c09f40aa7|player_receptions|Marvin Mims Jr.|1.5|Marvin Mims Jr. Over 1.5|None",
@@ -41058,7 +41058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 7.07,
-  "closed": false
+  "closed": true
  },
  {
   "key": "014282b888c741b7d70c857c09f40aa7|player_receptions|Tetairoa McMillan|5.5|Tetairoa McMillan Under 5.5|None",
@@ -41083,7 +41083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.59,
-  "closed": false
+  "closed": true
  },
  {
   "key": "014282b888c741b7d70c857c09f40aa7|player_receptions|Troy Franklin|0.5|Troy Franklin Under 0.5|None",
@@ -41108,7 +41108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 3.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "44d8c37868b700e90f816db7c5df5cdd|player_reception_yds|Sam LaPorta|48.5|Sam LaPorta Over 48.5|None",
@@ -41133,7 +41133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.92,
-  "closed": false
+  "closed": true
  },
  {
   "key": "44d8c37868b700e90f816db7c5df5cdd|player_receptions|Chris Bell|2.5|Chris Bell Over 2.5|None",
@@ -41158,7 +41158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 5.32,
-  "closed": false
+  "closed": true
  },
  {
   "key": "89de07377e0aa8ffaa2ae6a7dc0855cc|player_rush_yds|Austin Ekeler|24.5|Austin Ekeler Under 24.5|None",
@@ -41183,7 +41183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fe93e6ab1e553c0169936a0a983c324f|player_receptions|Devin Singletary|2.5|Devin Singletary Under 2.5|None",
@@ -41208,7 +41208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 4.24,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e354e6a04b1cb9c96e549b863debb92e|player_pass_yds|Geno Smith|211.5|Geno Smith Over 211.5|None",
@@ -41233,7 +41233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e354e6a04b1cb9c96e549b863debb92e|player_receptions|Breece Hall|2.5|Breece Hall Over 2.5|None",
@@ -41258,7 +41258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.56,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e354e6a04b1cb9c96e549b863debb92e|player_receptions|Isaiah Williams|0.5|Isaiah Williams Under 0.5|None",
@@ -41283,7 +41283,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 7.53,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e354e6a04b1cb9c96e549b863debb92e|player_receptions|Kenyon Sadiq|2.5|Kenyon Sadiq Under 2.5|None",
@@ -41308,7 +41308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a14ef06cee81734fbca92d5a235cf541|h2h|Central Connecticut St Blue Devils|None",
@@ -41331,7 +41331,7 @@
   "evPctAtFlag": 3.7,
   "closeFairPct": 24.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -41358,7 +41358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T17:30:09+00:00",
   "clvPct": 3.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e9ad86daa5e64228cd112ac2dec3b591|h2h|Green Bay Phoenix|None",
@@ -41381,8 +41381,83 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 26.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T17:30:09+00:00",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
   "clvPct": 2.18,
+  "closed": false
+ },
+ {
+  "key": "a14ef06cee81734fbca92d5a235cf541|totals|Over:139.5/Under:139.5|Under 139.5|None",
+  "eventId": "a14ef06cee81734fbca92d5a235cf541",
+  "sport": "NCAAB",
+  "game": "Central Connecticut St Blue Devils at Dartmouth Big Green",
+  "time": "2026-11-08T19:00:00Z",
+  "market": "Total",
+  "marketKey": "totals",
+  "player": null,
+  "name": "Under",
+  "line": 139.5,
+  "team": "Under 139.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-08T18:35:09+00:00",
+  "price": 105,
+  "fairPctAtFlag": 50.0,
+  "evPctAtFlag": 2.5,
+  "closeFairPct": 50.0,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
+  "clvPct": 2.5,
+  "closed": false
+ },
+ {
+  "key": "9288bf238c64fd0f2a07dd7686f7a09a|h2h|Albany Great Danes|None",
+  "eventId": "9288bf238c64fd0f2a07dd7686f7a09a",
+  "sport": "NCAAB",
+  "game": "Merrimack Warriors at Albany Great Danes",
+  "time": "2026-11-08T19:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Albany Great Danes",
+  "line": null,
+  "team": "Albany Great Danes",
+  "point": null,
+  "book": "williamhill_us",
+  "bookName": "Caesars",
+  "flaggedAt": "2026-11-08T18:35:09+00:00",
+  "price": 122,
+  "fairPctAtFlag": 46.3,
+  "evPctAtFlag": 2.79,
+  "closeFairPct": 46.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
+  "clvPct": 2.79,
+  "closed": false
+ },
+ {
+  "key": "758ca94b2abd151c0593b182254dab32|h2h|Utah Jazz|None",
+  "eventId": "758ca94b2abd151c0593b182254dab32",
+  "sport": "NBA",
+  "game": "Utah Jazz at Minnesota Timberwolves",
+  "time": "2026-11-09T00:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Utah Jazz",
+  "line": null,
+  "team": "Utah Jazz",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-08T18:35:09+00:00",
+  "price": 500,
+  "fairPctAtFlag": 17.5,
+  "evPctAtFlag": 5.2,
+  "closeFairPct": 17.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-08T18:35:09+00:00",
+  "clvPct": 5.0,
   "closed": false
  }
 ]
