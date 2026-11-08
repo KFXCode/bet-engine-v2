@@ -14,17 +14,17 @@
    "win_rate": 0.512396694214876
   },
   "value": {
-   "avg_clv": 0.055754014598540146,
-   "clv_beat_rate": 0.2569343065693431,
-   "clv_n": 1370,
-   "graded": 1618,
+   "avg_clv": 0.055951166180758016,
+   "clv_beat_rate": 0.25728862973760935,
+   "clv_n": 1372,
+   "graded": 1620,
    "record": {
-    "l": 814,
+    "l": 815,
     "p": 1,
     "void": 42,
-    "w": 803
+    "w": 804
    },
-   "win_rate": 0.4965986394557823
+   "win_rate": 0.49660284126003706
   }
  },
  "by_sport": {
@@ -83,15 +83,15 @@
   "NCAAB Sides": {
    "avg_clv": 0.0,
    "clv_beat_rate": 0.0,
-   "clv_n": 7,
-   "graded": 10,
+   "clv_n": 8,
+   "graded": 11,
    "record": {
     "l": 5,
     "p": 0,
     "void": 0,
-    "w": 5
+    "w": 6
    },
-   "win_rate": 0.5
+   "win_rate": 0.5454545454545454
   },
   "NCAAF Cosmic": {
    "avg_clv": -0.13042857142857142,
@@ -120,17 +120,17 @@
    "win_rate": 0.5091463414634146
   },
   "NFL Cosmic": {
-   "avg_clv": -0.3590204081632653,
-   "clv_beat_rate": 0.30612244897959184,
-   "clv_n": 49,
-   "graded": 61,
+   "avg_clv": -0.29970588235294116,
+   "clv_beat_rate": 0.3137254901960784,
+   "clv_n": 51,
+   "graded": 63,
    "record": {
-    "l": 34,
+    "l": 36,
     "p": 1,
     "void": 0,
     "w": 26
    },
-   "win_rate": 0.43333333333333335
+   "win_rate": 0.41935483870967744
   },
   "NFL Props": {
    "avg_clv": 0.03829178470254957,
@@ -146,31 +146,31 @@
    "win_rate": 0.47845804988662133
   },
   "NFL Sides": {
-   "avg_clv": -0.34368152866242035,
-   "clv_beat_rate": 0.3248407643312102,
-   "clv_n": 157,
-   "graded": 190,
+   "avg_clv": -0.3390886075949367,
+   "clv_beat_rate": 0.3291139240506329,
+   "clv_n": 158,
+   "graded": 191,
    "record": {
-    "l": 96,
+    "l": 97,
     "p": 1,
     "void": 0,
     "w": 93
    },
-   "win_rate": 0.49206349206349204
+   "win_rate": 0.48947368421052634
   }
  },
  "diagnostics": [
-  "NBA player logs: cache already current (10685 player-games, looked back 21 days)",
-  "NFL player logs: cache already current (6745 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6745 player-games, looked back 21 days)",
+  "NBA player logs: cache already current (10685 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-08T14:35:48+00:00",
+ "generated_at": "2026-11-08T20:23:11+00:00",
  "graded_through": "Week of Nov 2",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.18870212765957448,
-   "clv_beat_rate": 0.2765957446808511,
-   "clv_n": 141,
-   "graded": 172,
+   "avg_clv": -0.16993006993006993,
+   "clv_beat_rate": 0.27972027972027974,
+   "clv_n": 143,
+   "graded": 174,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -2874,6 +2874,42 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": 136,
+     "clv": 2.307,
+     "edge": 5.888,
+     "ev": 0.14721,
+     "final": "34-17",
+     "game": "Cincinnati Bengals @ Atlanta Falcons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Atlanta Falcons ML",
+     "player": null,
+     "price": 150,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.0,
+     "edge": 3.437,
+     "ev": 0.06301,
+     "final": "34-17",
+     "game": "Cincinnati Bengals @ Atlanta Falcons",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Atlanta Falcons +3.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": 215,
      "clv": 0.0,
      "edge": 11.158,
@@ -3271,13 +3307,13 @@
     }
    ],
    "record": {
-    "l": 88,
+    "l": 90,
     "p": 1,
     "void": 0,
     "w": 83
    },
    "threshold": null,
-   "win_rate": 0.4853801169590643
+   "win_rate": 0.4797687861271676
   },
   "Props": {
    "avg_clv": 0.11196828046744575,
@@ -17859,10 +17895,10 @@
    "win_rate": 0.49606299212598426
   },
   "Sides": {
-   "avg_clv": 0.0078649885583524,
-   "clv_beat_rate": 0.3512585812356979,
-   "clv_n": 874,
-   "graded": 977,
+   "avg_clv": 0.008283105022831047,
+   "clv_beat_rate": 0.3515981735159817,
+   "clv_n": 876,
+   "graded": 979,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -34192,6 +34228,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": 148,
+     "clv": 0.382,
+     "edge": 5.888,
+     "ev": 0.14721,
+     "final": "34-17",
+     "game": "Cincinnati Bengals @ Atlanta Falcons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Atlanta Falcons ML",
+     "player": null,
+     "price": 150,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 2"
+    },
+    {
      "closing_price": -110,
      "clv": 1.083,
      "edge": 10.136,
@@ -35450,22 +35504,40 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -134,
+     "clv": 0.0,
+     "edge": 6.531,
+     "ev": 0.11405,
+     "final": "72-91",
+     "game": "Arkansas Razorbacks @ Virginia Cavaliers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Virginia Cavaliers ML",
+     "player": null,
+     "price": -134,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 2"
     }
    ],
    "record": {
-    "l": 489,
+    "l": 490,
     "p": 1,
     "void": 0,
-    "w": 487
+    "w": 488
    },
    "threshold": 5.0,
-   "win_rate": 0.4989754098360656
+   "win_rate": 0.49897750511247446
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 26,
-  "Props": 196,
-  "Sides": 121
+  "Props": 212,
+  "Sides": 140
  }
 }

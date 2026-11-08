@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 61.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 1.44,
   "closed": false
  },
@@ -34481,7 +34481,7 @@
   "evPctAtFlag": 8.12,
   "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 3.02,
   "closed": false
  },
@@ -34504,10 +34504,10 @@
   "price": 350,
   "fairPctAtFlag": 23.4,
   "evPctAtFlag": 5.26,
-  "closeFairPct": 22.6,
+  "closeFairPct": 22.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
-  "clvPct": 1.7,
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "clvPct": 0.35,
   "closed": false
  },
  {
@@ -35006,7 +35006,7 @@
   "evPctAtFlag": 3.21,
   "closeFairPct": 30.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 4.04,
   "closed": false
  },
@@ -40854,10 +40854,10 @@
   "price": 117,
   "fairPctAtFlag": 47.6,
   "evPctAtFlag": 3.31,
-  "closeFairPct": 47.7,
+  "closeFairPct": 48.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
-  "clvPct": 3.51,
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "clvPct": 4.16,
   "closed": false
  },
  {
@@ -40958,7 +40958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-08T19:52:08+00:00",
   "clvPct": -3.1,
-  "closed": false
+  "closed": true
  },
  {
   "key": "09e44525b399ca821650a45c1f57bb75|h2h|NJIT Highlanders|None",
@@ -40981,7 +40981,7 @@
   "evPctAtFlag": 2.19,
   "closeFairPct": 48.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 2.27,
   "closed": false
  },
@@ -41006,7 +41006,7 @@
   "evPctAtFlag": 3.39,
   "closeFairPct": 14.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 2.9,
   "closed": false
  },
@@ -41454,10 +41454,10 @@
   "price": 500,
   "fairPctAtFlag": 17.5,
   "evPctAtFlag": 5.2,
-  "closeFairPct": 17.5,
+  "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
-  "clvPct": 5.0,
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "clvPct": 3.8,
   "closed": false
  },
  {
@@ -41481,7 +41481,7 @@
   "evPctAtFlag": 2.17,
   "closeFairPct": 39.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 2.18,
   "closed": false
  },
@@ -41506,7 +41506,7 @@
   "evPctAtFlag": 3.74,
   "closeFairPct": 55.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 3.67,
   "closed": false
  },
@@ -41531,7 +41531,7 @@
   "evPctAtFlag": 3.27,
   "closeFairPct": 46.9,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 3.18,
   "closed": false
  },
@@ -41556,7 +41556,7 @@
   "evPctAtFlag": 3.44,
   "closeFairPct": 52.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 3.37,
   "closed": false
  },
@@ -41581,7 +41581,7 @@
   "evPctAtFlag": 3.31,
   "closeFairPct": 55.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 3.27,
   "closed": false
  },
@@ -41606,7 +41606,7 @@
   "evPctAtFlag": 2.65,
   "closeFairPct": 52.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 2.7,
   "closed": false
  },
@@ -41631,7 +41631,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 46.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 6.72,
   "closed": false
  },
@@ -41656,7 +41656,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 41.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 4.75,
   "closed": false
  },
@@ -41681,7 +41681,7 @@
   "evPctAtFlag": 2.01,
   "closeFairPct": 54.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 1.98,
   "closed": false
  },
@@ -41706,7 +41706,7 @@
   "evPctAtFlag": 5.13,
   "closeFairPct": 43.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 5.08,
   "closed": false
  },
@@ -41731,7 +41731,7 @@
   "evPctAtFlag": 2.04,
   "closeFairPct": 52.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
   "clvPct": 2.11,
   "closed": false
  },
@@ -41754,10 +41754,35 @@
   "price": 225,
   "fairPctAtFlag": 31.4,
   "evPctAtFlag": 2.02,
-  "closeFairPct": 31.4,
+  "closeFairPct": 31.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-08T19:52:08+00:00",
-  "clvPct": 2.05,
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "clvPct": 1.4,
+  "closed": false
+ },
+ {
+  "key": "873a763cc258ad94bac35324c66e361c|spreads|Liberty Flames:-21.5/Middle Tennessee Blue Raiders:21.5|Liberty Flames|-21.5",
+  "eventId": "873a763cc258ad94bac35324c66e361c",
+  "sport": "NCAAF",
+  "game": "Middle Tennessee Blue Raiders at Liberty Flames",
+  "time": "2026-11-14T20:30:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Liberty Flames",
+  "line": -21.5,
+  "team": "Liberty Flames",
+  "point": -21.5,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-08T20:23:25+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.1,
+  "evPctAtFlag": 2.29,
+  "closeFairPct": 51.1,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-08T20:23:25+00:00",
+  "clvPct": 2.2,
   "closed": false
  }
 ]
