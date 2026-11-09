@@ -14,58 +14,58 @@
    "win_rate": 0.512396694214876
   },
   "value": {
-   "avg_clv": 0.05932127955493741,
-   "clv_beat_rate": 0.25312934631432543,
-   "clv_n": 1438,
-   "graded": 1703,
+   "avg_clv": 0.052506181318681316,
+   "clv_beat_rate": 0.2506868131868132,
+   "clv_n": 1456,
+   "graded": 1725,
    "record": {
-    "l": 844,
+    "l": 856,
     "p": 1,
-    "void": 44,
-    "w": 858
+    "void": 47,
+    "w": 868
    },
-   "win_rate": 0.5041128084606346
+   "win_rate": 0.5034802784222738
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.061933333333333326,
-   "clv_beat_rate": 0.16666666666666666,
-   "clv_n": 30,
-   "graded": 46,
+   "avg_clv": 0.17394117647058824,
+   "clv_beat_rate": 0.20588235294117646,
+   "clv_n": 34,
+   "graded": 51,
    "record": {
-    "l": 18,
+    "l": 22,
     "p": 0,
     "void": 0,
-    "w": 28
+    "w": 29
    },
-   "win_rate": 0.6086956521739131
+   "win_rate": 0.5686274509803921
   },
   "NBA Props": {
-   "avg_clv": 0.2351945525291829,
-   "clv_beat_rate": 0.17120622568093385,
-   "clv_n": 257,
-   "graded": 334,
+   "avg_clv": 0.19249999999999998,
+   "clv_beat_rate": 0.16791044776119404,
+   "clv_n": 268,
+   "graded": 348,
    "record": {
-    "l": 157,
+    "l": 164,
     "p": 0,
-    "void": 11,
-    "w": 177
+    "void": 13,
+    "w": 184
    },
-   "win_rate": 0.5299401197604791
+   "win_rate": 0.5287356321839081
   },
   "NBA Sides": {
-   "avg_clv": 0.0858,
-   "clv_beat_rate": 0.12631578947368421,
-   "clv_n": 95,
-   "graded": 124,
+   "avg_clv": 0.08403092783505155,
+   "clv_beat_rate": 0.12371134020618557,
+   "clv_n": 97,
+   "graded": 127,
    "record": {
-    "l": 67,
+    "l": 70,
     "p": 0,
     "void": 0,
     "w": 57
    },
-   "win_rate": 0.4596774193548387
+   "win_rate": 0.44881889763779526
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.0,
@@ -120,57 +120,57 @@
    "win_rate": 0.5091463414634146
   },
   "NFL Cosmic": {
-   "avg_clv": -0.29538181818181825,
-   "clv_beat_rate": 0.2909090909090909,
-   "clv_n": 55,
-   "graded": 68,
+   "avg_clv": -0.2687894736842106,
+   "clv_beat_rate": 0.2982456140350877,
+   "clv_n": 57,
+   "graded": 70,
    "record": {
-    "l": 40,
+    "l": 41,
     "p": 1,
     "void": 0,
-    "w": 27
+    "w": 28
    },
-   "win_rate": 0.40298507462686567
+   "win_rate": 0.4057971014492754
   },
   "NFL Props": {
-   "avg_clv": 0.02144274809160305,
-   "clv_beat_rate": 0.08396946564885496,
-   "clv_n": 393,
-   "graded": 494,
+   "avg_clv": 0.021226700251889163,
+   "clv_beat_rate": 0.08312342569269521,
+   "clv_n": 397,
+   "graded": 498,
    "record": {
-    "l": 251,
+    "l": 252,
     "p": 0,
-    "void": 38,
-    "w": 243
+    "void": 39,
+    "w": 246
    },
-   "win_rate": 0.49190283400809715
+   "win_rate": 0.4939759036144578
   },
   "NFL Sides": {
-   "avg_clv": -0.2911529411764706,
-   "clv_beat_rate": 0.32941176470588235,
-   "clv_n": 170,
-   "graded": 205,
+   "avg_clv": -0.28945029239766085,
+   "clv_beat_rate": 0.32748538011695905,
+   "clv_n": 171,
+   "graded": 206,
    "record": {
-    "l": 101,
+    "l": 102,
     "p": 1,
     "void": 0,
     "w": 103
    },
-   "win_rate": 0.5049019607843137
+   "win_rate": 0.5024390243902439
   }
  },
  "diagnostics": [
-  "NBA player logs: cache already current (10748 player-games, looked back 21 days)",
-  "NFL player logs: cache already current (6982 player-games, looked back 21 days)"
+  "NBA player logs: added 4 box scores, 10846 player-games cached",
+  "NFL player logs: added 1 box scores, 6999 player-games cached"
  ],
- "generated_at": "2026-11-09T02:35:12+00:00",
+ "generated_at": "2026-11-09T17:52:12+00:00",
  "graded_through": "Week of Nov 9",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.15171140939597316,
-   "clv_beat_rate": 0.28187919463087246,
-   "clv_n": 149,
-   "graded": 181,
+   "avg_clv": -0.1137032258064516,
+   "clv_beat_rate": 0.2903225806451613,
+   "clv_n": 155,
+   "graded": 188,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -2910,6 +2910,42 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": 220,
+     "clv": 1.339,
+     "edge": 5.14,
+     "ev": 0.17219,
+     "final": "24-27",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Tampa Bay Buccaneers ML",
+     "player": null,
+     "price": 235,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -115,
+     "clv": -0.414,
+     "edge": 3.025,
+     "ev": 0.05589,
+     "final": "24-27",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Tampa Bay Buccaneers +6.5",
+     "player": null,
+     "price": -118,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": 136,
      "clv": 0.0,
      "edge": 12.283,
@@ -3414,6 +3450,60 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": 235,
+     "clv": 3.967,
+     "edge": 7.062,
+     "ev": 0.2754,
+     "final": "93-130",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Brooklyn Nets ML",
+     "player": null,
+     "price": 290,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -110,
+     "clv": -0.866,
+     "edge": 5.484,
+     "ev": 0.10295,
+     "final": "93-130",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Brooklyn Nets +9.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 520,
+     "clv": 0.955,
+     "edge": 4.174,
+     "ev": 0.27545,
+     "final": "117-97",
+     "game": "Boston Celtics @ Milwaukee Bucks",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Milwaukee Bucks ML",
+     "player": null,
+     "price": 560,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.218,
@@ -3430,22 +3520,58 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": 320,
+     "clv": 0.0,
+     "edge": 0.799,
+     "ev": 0.03355,
+     "final": "114-108",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Sacramento Kings ML",
+     "player": null,
+     "price": 320,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 1.642,
+     "ev": 0.03083,
+     "final": "114-108",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Sacramento Kings +11.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
-    "l": 95,
+    "l": 100,
     "p": 1,
     "void": 0,
-    "w": 85
+    "w": 87
    },
    "threshold": null,
-   "win_rate": 0.4722222222222222
+   "win_rate": 0.46524064171123
   },
   "Props": {
-   "avg_clv": 0.10595692307692307,
-   "clv_beat_rate": 0.11846153846153847,
-   "clv_n": 650,
-   "graded": 828,
+   "avg_clv": 0.09025112781954886,
+   "clv_beat_rate": 0.11729323308270677,
+   "clv_n": 665,
+   "graded": 846,
    "label": "Player props",
    "picks": [
     {
@@ -16897,6 +17023,24 @@
     {
      "closing_price": -113,
      "clv": 0.0,
+     "edge": 18.374,
+     "ev": 0.34492,
+     "final": "31",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "D'Andre Swift Under 65.5 rushing yards",
+     "player": "D'Andre Swift",
+     "price": -114,
+     "proj": 53.947,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
      "edge": 18.355,
      "ev": 0.34456,
      "final": "127",
@@ -17237,6 +17381,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 15.622,
+     "ev": 0.29326,
+     "final": "243",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Passing yards",
+     "pick": "Baker Mayfield Under 213.5 passing yards",
+     "player": "Baker Mayfield",
+     "price": -114,
+     "proj": 179.954,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 15.491,
@@ -17307,6 +17469,24 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 15.176,
+     "ev": 0.28488,
+     "final": "38",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Emeka Egbuka Under 52.5 receiving yards",
+     "player": "Emeka Egbuka",
+     "price": -114,
+     "proj": 44.414,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
     },
     {
      "closing_price": -102,
@@ -18713,6 +18893,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -162,
+     "clv": 0.0,
+     "edge": 16.06,
+     "ev": 0.25973,
+     "final": "did not play",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Roschon Johnson Over 0.5 receptions",
+     "player": "Roschon Johnson",
+     "price": -162,
+     "proj": 2.171,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -102,
      "clv": 0.0,
      "edge": 16.045,
@@ -18983,6 +19181,78 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 132,
+     "clv": -1.145,
+     "edge": 17.689,
+     "ev": 0.39976,
+     "final": "6",
+     "game": "Boston Celtics @ Milwaukee Bucks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Ryan Rollins Over 3.5 assists",
+     "player": "Ryan Rollins",
+     "price": 126,
+     "proj": 4.433,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -182,
+     "clv": -1.676,
+     "edge": 17.476,
+     "ev": 0.26303,
+     "final": "2",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Klay Thompson Under 2.5 rebounds",
+     "player": "Klay Thompson",
+     "price": -198,
+     "proj": 1.216,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -118,
+     "clv": 1.214,
+     "edge": 16.75,
+     "ev": 0.31705,
+     "final": "3",
+     "game": "Boston Celtics @ Milwaukee Bucks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Myles Turner Under 9.5 points",
+     "player": "Myles Turner",
+     "price": -112,
+     "proj": 7.861,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 140,
+     "clv": -7.248,
+     "edge": 16.736,
+     "ev": 0.33806,
+     "final": "did not play",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Domantas Sabonis Over 12.5 rebounds",
+     "player": "Domantas Sabonis",
+     "price": 102,
+     "proj": 14.242,
+     "result": "V",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 16.465,
@@ -19019,6 +19289,24 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": -106,
+     "clv": 0.0,
+     "edge": 9.099,
+     "ev": 0.17682,
+     "final": "42",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Cooper Flagg Under 37.5 pts+reb+ast",
+     "player": "Cooper Flagg",
+     "price": -106,
+     "proj": 35.63,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 19.979,
@@ -19035,6 +19323,24 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": -108,
+     "clv": 0.0,
+     "edge": 19.925,
+     "ev": 0.38374,
+     "final": "29",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Giannis Antetokounmpo Under 29.5 points",
+     "player": "Giannis Antetokounmpo",
+     "price": -108,
+     "proj": 26.058,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     },
     {
      "closing_price": 124,
@@ -19145,6 +19451,60 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -132,
+     "clv": 0.0,
+     "edge": 17.652,
+     "ev": 0.31024,
+     "final": "did not play",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Domantas Sabonis Over 13.5 points",
+     "player": "Domantas Sabonis",
+     "price": -132,
+     "proj": 17.621,
+     "result": "V",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 116,
+     "clv": 0.0,
+     "edge": 16.87,
+     "ev": 0.36439,
+     "final": "3",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Danny Wolf Over 5.5 rebounds",
+     "player": "Danny Wolf",
+     "price": 116,
+     "proj": 6.505,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 16.686,
+     "ev": 0.33046,
+     "final": "15",
+     "game": "Boston Celtics @ Milwaukee Bucks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Myles Turner Under 16.5 pts+reb+ast",
+     "player": "Myles Turner",
+     "price": -102,
+     "proj": 14.343,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 16.663,
@@ -19199,6 +19559,150 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -118,
+     "clv": 0.0,
+     "edge": 15.792,
+     "ev": 0.29176,
+     "final": "11",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Naji Marshall Over 18.5 pts+reb+ast",
+     "player": "Naji Marshall",
+     "price": -118,
+     "proj": 24.423,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -106,
+     "clv": 0.0,
+     "edge": 15.661,
+     "ev": 0.30436,
+     "final": "2",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Caleb Martin Under 2.5 rebounds",
+     "player": "Caleb Martin",
+     "price": -106,
+     "proj": 2.114,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.936,
+     "ev": 0.33502,
+     "final": "8",
+     "game": "Boston Celtics @ Milwaukee Bucks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Brayden Burries Under 7.5 rebounds",
+     "player": "Brayden Burries",
+     "price": -130,
+     "proj": 5.499,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.928,
+     "ev": 0.33487,
+     "final": "4",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Bam Adebayo Over 2.5 assists",
+     "player": "Bam Adebayo",
+     "price": -130,
+     "proj": 4.024,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.361,
+     "ev": 0.43331,
+     "final": "6",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Day'Ron Sharpe Over 6.5 points",
+     "player": "Day'Ron Sharpe",
+     "price": 136,
+     "proj": 8.363,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.163,
+     "ev": 0.34381,
+     "final": "54",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Colston Loveland Over 33.5 receiving yards",
+     "player": "Colston Loveland",
+     "price": -112,
+     "proj": 55.631,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.786,
+     "ev": 0.34254,
+     "final": "47",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Darius Acuff Jr. Under 40.5 pts+reb+ast",
+     "player": "Darius Acuff Jr.",
+     "price": -108,
+     "proj": 35.819,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.653,
+     "ev": 0.27609,
+     "final": "12",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Moritz Wagner Under 10.5 points",
+     "player": "Moritz Wagner",
+     "price": -152,
+     "proj": 7.593,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 11.436,
@@ -19236,19 +19740,19 @@
     }
    ],
    "record": {
-    "l": 408,
+    "l": 416,
     "p": 0,
-    "void": 49,
-    "w": 420
+    "void": 52,
+    "w": 430
    },
    "threshold": 7.0,
-   "win_rate": 0.5072463768115942
+   "win_rate": 0.508274231678487
   },
   "Sides": {
-   "avg_clv": 0.015703703703703702,
-   "clv_beat_rate": 0.35241301907968575,
-   "clv_n": 891,
-   "graded": 996,
+   "avg_clv": 0.015651006711409392,
+   "clv_beat_rate": 0.3512304250559284,
+   "clv_n": 894,
+   "graded": 1000,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -35740,6 +36244,24 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": 235,
+     "clv": 0.0,
+     "edge": 5.14,
+     "ev": 0.17219,
+     "final": "24-27",
+     "game": "Tampa Bay Buccaneers @ Chicago Bears",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Tampa Bay Buccaneers ML",
+     "player": null,
+     "price": 235,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -110,
      "clv": 1.083,
      "edge": 10.136,
@@ -37144,6 +37666,42 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 290,
+     "clv": 0.0,
+     "edge": 7.062,
+     "ev": 0.2754,
+     "final": "93-130",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Brooklyn Nets ML",
+     "player": null,
+     "price": 290,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 5.484,
+     "ev": 0.10295,
+     "final": "93-130",
+     "game": "Brooklyn Nets @ Dallas Mavericks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Brooklyn Nets +9.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 5.455,
@@ -37178,22 +37736,40 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Nov 2"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 5.359,
+     "ev": 0.27865,
+     "final": "114-108",
+     "game": "Miami Heat @ Sacramento Kings",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Sacramento Kings ML",
+     "player": null,
+     "price": 420,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
-    "l": 495,
+    "l": 499,
     "p": 1,
     "void": 0,
     "w": 500
    },
    "threshold": 5.0,
-   "win_rate": 0.5025125628140703
+   "win_rate": 0.5005005005005005
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 23,
-  "Props": 156,
-  "Sides": 156
+  "Cosmic": 16,
+  "Props": 135,
+  "Sides": 152
  }
 }
