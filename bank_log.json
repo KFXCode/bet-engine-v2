@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 61.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 1.44,
   "closed": false
  },
@@ -35008,7 +35008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": -2.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e3cc352d1f8244d8775114a034a9355a|totals|Over:140.5/Under:140.5|Over 140.5|None",
@@ -39458,7 +39458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 1.34,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fdf3b77f50b2fad3988193af5ef4b00e|h2h|Cleveland Cavaliers|None",
@@ -41781,7 +41781,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 0.0,
   "closed": false
  },
@@ -42008,7 +42008,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 1.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c5b6599e8e4949749798dcdadceb68d4|player_assists|Nolan Traore|4.5|Nolan Traore Over 4.5|None",
@@ -42033,7 +42033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": -9.91,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_points|Jaime Jaquez Jr|13.5|Jaime Jaquez Jr Under 13.5|None",
@@ -42058,7 +42058,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 3.57,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_rebounds|Jayson Tatum|7.5|Jayson Tatum Over 7.5|None",
@@ -42083,7 +42083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 3.26,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_threes|Brayden Burries|1.5|Brayden Burries Over 1.5|None",
@@ -42108,7 +42108,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_threes|Myles Turner|1.5|Myles Turner Over 1.5|None",
@@ -42133,7 +42133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 7.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_threes|Ryan Rollins|1.5|Ryan Rollins Over 1.5|None",
@@ -42158,7 +42158,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 4.62,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5fc2c0b99e391f74694276d2eb95146c|h2h|Akron Zips|None",
@@ -42181,7 +42181,7 @@
   "evPctAtFlag": 7.63,
   "closeFairPct": 16.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 7.9,
   "closed": false
  },
@@ -42206,7 +42206,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -42231,7 +42231,7 @@
   "evPctAtFlag": 2.35,
   "closeFairPct": 63.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.39,
   "closed": false
  },
@@ -42256,7 +42256,7 @@
   "evPctAtFlag": 8.16,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 8.1,
   "closed": false
  },
@@ -42281,7 +42281,7 @@
   "evPctAtFlag": 9.1,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 9.04,
   "closed": false
  },
@@ -42306,7 +42306,7 @@
   "evPctAtFlag": 2.09,
   "closeFairPct": 45.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.15,
   "closed": false
  },
@@ -42331,7 +42331,7 @@
   "evPctAtFlag": 8.57,
   "closeFairPct": 9.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 8.1,
   "closed": false
  },
@@ -42356,7 +42356,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 5.88,
   "closed": false
  },
@@ -42381,7 +42381,7 @@
   "evPctAtFlag": 3.16,
   "closeFairPct": 62.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 3.15,
   "closed": false
  },
@@ -42406,7 +42406,7 @@
   "evPctAtFlag": 6.38,
   "closeFairPct": 13.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 6.4,
   "closed": false
  },
@@ -42431,7 +42431,7 @@
   "evPctAtFlag": 2.33,
   "closeFairPct": 13.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -42456,7 +42456,7 @@
   "evPctAtFlag": 7.63,
   "closeFairPct": 16.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 7.9,
   "closed": false
  },
@@ -42508,7 +42508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 2.26,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c5b6599e8e4949749798dcdadceb68d4|player_rebounds|Nolan Traore|2.5|Nolan Traore Over 2.5|None",
@@ -42533,7 +42533,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-08T23:45:09+00:00",
   "clvPct": 2.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_points|Myles Turner|9.5|Myles Turner Under 9.5|None",
@@ -42558,7 +42558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 3.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_threes|Jordan Walsh|0.5|Jordan Walsh Under 0.5|None",
@@ -42583,7 +42583,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 8.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9760d8f19f84bfee300a74ceb656c95d|player_receptions|Emeka Egbuka|3.5|Emeka Egbuka Under 3.5|None",
@@ -42608,7 +42608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 2.12,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_assists|Andrew Wiggins|1.5|Andrew Wiggins Over 1.5|None",
@@ -42629,10 +42629,10 @@
   "price": -108,
   "fairPctAtFlag": 54.6,
   "evPctAtFlag": 5.21,
-  "closeFairPct": 54.6,
+  "closeFairPct": 48.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
-  "clvPct": 5.16,
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": -7.36,
   "closed": false
  },
  {
@@ -42681,7 +42681,7 @@
   "evPctAtFlag": 3.29,
   "closeFairPct": 52.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 3.27,
   "closed": false
  },
@@ -42704,10 +42704,10 @@
   "price": -110,
   "fairPctAtFlag": 53.7,
   "evPctAtFlag": 2.54,
-  "closeFairPct": 53.7,
+  "closeFairPct": 60.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
-  "clvPct": 2.52,
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 14.93,
   "closed": false
  },
  {
@@ -42729,10 +42729,10 @@
   "price": 133,
   "fairPctAtFlag": 44.1,
   "evPctAtFlag": 2.71,
-  "closeFairPct": 44.1,
-  "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
-  "clvPct": 2.75,
+  "closeFairPct": 43.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 0.19,
   "closed": false
  },
  {
@@ -42754,10 +42754,10 @@
   "price": 140,
   "fairPctAtFlag": 42.7,
   "evPctAtFlag": 2.51,
-  "closeFairPct": 42.5,
+  "closeFairPct": 36.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
-  "clvPct": 2.0,
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": -12.64,
   "closed": false
  },
  {
@@ -42783,7 +42783,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 5.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "98eae523edadc7d4d42ab37222eb2c88|player_assists|Neemias Queta|1.5|Neemias Queta Over 1.5|None",
@@ -42808,7 +42808,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 3.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_assists|Davion Mitchell|7.5|Davion Mitchell Over 7.5|None",
@@ -42829,10 +42829,10 @@
   "price": 101,
   "fairPctAtFlag": 50.8,
   "evPctAtFlag": 2.13,
-  "closeFairPct": 50.8,
-  "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
-  "clvPct": 2.11,
+  "closeFairPct": 46.3,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": -6.94,
   "closed": false
  },
  {
@@ -42854,10 +42854,10 @@
   "price": -107,
   "fairPctAtFlag": 52.8,
   "evPctAtFlag": 2.09,
-  "closeFairPct": 52.8,
+  "closeFairPct": 55.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
-  "clvPct": 2.15,
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 6.98,
   "closed": false
  },
  {
@@ -42881,7 +42881,7 @@
   "evPctAtFlag": 4.3,
   "closeFairPct": 40.9,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 4.29,
   "closed": false
  },
@@ -42906,7 +42906,7 @@
   "evPctAtFlag": 2.0,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.0,
   "closed": false
  },
@@ -42931,8 +42931,258 @@
   "evPctAtFlag": 2.47,
   "closeFairPct": 51.2,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-09T00:35:09+00:00",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.4,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|h2h|Miami Heat|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Miami Heat",
+  "line": null,
+  "team": "Miami Heat",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": -420,
+  "fairPctAtFlag": 82.5,
+  "evPctAtFlag": 2.19,
+  "closeFairPct": 82.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 2.14,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_assists|Giannis Antetokounmpo|6.5|Giannis Antetokounmpo Under 6.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Giannis Antetokounmpo",
+  "name": "Under",
+  "line": 6.5,
+  "team": "Giannis Antetokounmpo Under 6.5",
+  "point": null,
+  "book": "williamhill_us",
+  "bookName": "Caesars",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": -125,
+  "fairPctAtFlag": 56.9,
+  "evPctAtFlag": 2.47,
+  "closeFairPct": 56.9,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 2.42,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_points|De'Andre Hunter|13.5|De'Andre Hunter Under 13.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "De'Andre Hunter",
+  "name": "Under",
+  "line": 13.5,
+  "team": "De'Andre Hunter Under 13.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.0,
+  "evPctAtFlag": 2.02,
+  "closeFairPct": 51.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 2.0,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_points|Precious Achiuwa|10.5|Precious Achiuwa Under 10.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Precious Achiuwa",
+  "name": "Under",
+  "line": 10.5,
+  "team": "Precious Achiuwa Under 10.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": 105,
+  "fairPctAtFlag": 49.8,
+  "evPctAtFlag": 2.09,
+  "closeFairPct": 49.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 2.09,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_rebounds|Andrew Wiggins|3.5|Andrew Wiggins Over 3.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Andrew Wiggins",
+  "name": "Over",
+  "line": 3.5,
+  "team": "Andrew Wiggins Over 3.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": 140,
+  "fairPctAtFlag": 43.7,
+  "evPctAtFlag": 4.96,
+  "closeFairPct": 43.7,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 4.88,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_rebounds|Precious Achiuwa|8.5|Precious Achiuwa Under 8.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Precious Achiuwa",
+  "name": "Under",
+  "line": 8.5,
+  "team": "Precious Achiuwa Under 8.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": -115,
+  "fairPctAtFlag": 54.6,
+  "evPctAtFlag": 2.04,
+  "closeFairPct": 54.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 2.08,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Bobby Portis|1.5|Bobby Portis Over 1.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Bobby Portis",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Bobby Portis Over 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": 175,
+  "fairPctAtFlag": 37.7,
+  "evPctAtFlag": 3.56,
+  "closeFairPct": 37.7,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 3.68,
+  "closed": false
+ },
+ {
+  "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Malik Monk|1.5|Malik Monk Over 1.5|None",
+  "eventId": "7ea5547b35ef782963e4f384d3414dfa",
+  "sport": "NBA",
+  "game": "Miami Heat at Sacramento Kings",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Malik Monk",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Malik Monk Over 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": 113,
+  "fairPctAtFlag": 49.0,
+  "evPctAtFlag": 4.34,
+  "closeFairPct": 49.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 4.37,
+  "closed": false
+ },
+ {
+  "key": "c205d8d8102fbb0e72929fff3c1fd089|player_points|Herb Jones|5.5|Herb Jones Under 5.5|None",
+  "eventId": "c205d8d8102fbb0e72929fff3c1fd089",
+  "sport": "NBA",
+  "game": "New Orleans Pelicans at Los Angeles Clippers",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Herb Jones",
+  "name": "Under",
+  "line": 5.5,
+  "team": "Herb Jones Under 5.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": -110,
+  "fairPctAtFlag": 54.0,
+  "evPctAtFlag": 3.01,
+  "closeFairPct": 54.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 3.09,
+  "closed": false
+ },
+ {
+  "key": "c205d8d8102fbb0e72929fff3c1fd089|player_rebounds|Rui Hachimura|5.5|Rui Hachimura Over 5.5|None",
+  "eventId": "c205d8d8102fbb0e72929fff3c1fd089",
+  "sport": "NBA",
+  "game": "New Orleans Pelicans at Los Angeles Clippers",
+  "time": "2026-11-09T02:10:00Z",
+  "market": "Rebounds",
+  "marketKey": "player_rebounds",
+  "player": "Rui Hachimura",
+  "name": "Over",
+  "line": 5.5,
+  "team": "Rui Hachimura Over 5.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-09T02:00:10+00:00",
+  "price": 105,
+  "fairPctAtFlag": 49.8,
+  "evPctAtFlag": 2.09,
+  "closeFairPct": 49.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "clvPct": 2.09,
   "closed": false
  }
 ]
