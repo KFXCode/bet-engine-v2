@@ -27706,7 +27706,7 @@
   "evPctAtFlag": 3.05,
   "closeFairPct": 61.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 1.44,
   "closed": false
  },
@@ -41781,7 +41781,7 @@
   "evPctAtFlag": 2.29,
   "closeFairPct": 50.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 0.0,
   "closed": false
  },
@@ -42181,7 +42181,7 @@
   "evPctAtFlag": 7.63,
   "closeFairPct": 16.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 7.9,
   "closed": false
  },
@@ -42206,7 +42206,7 @@
   "evPctAtFlag": 2.73,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -42229,10 +42229,10 @@
   "price": -166,
   "fairPctAtFlag": 63.9,
   "evPctAtFlag": 2.35,
-  "closeFairPct": 63.9,
+  "closeFairPct": 60.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
-  "clvPct": 2.39,
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": -3.7,
   "closed": false
  },
  {
@@ -42256,7 +42256,7 @@
   "evPctAtFlag": 8.16,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 8.1,
   "closed": false
  },
@@ -42281,7 +42281,7 @@
   "evPctAtFlag": 9.1,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 9.04,
   "closed": false
  },
@@ -42304,10 +42304,10 @@
   "price": 125,
   "fairPctAtFlag": 45.4,
   "evPctAtFlag": 2.09,
-  "closeFairPct": 45.4,
+  "closeFairPct": 45.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
-  "clvPct": 2.15,
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 2.83,
   "closed": false
  },
  {
@@ -42331,7 +42331,7 @@
   "evPctAtFlag": 8.57,
   "closeFairPct": 9.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 8.1,
   "closed": false
  },
@@ -42354,10 +42354,10 @@
   "price": 285,
   "fairPctAtFlag": 27.5,
   "evPctAtFlag": 5.71,
-  "closeFairPct": 27.5,
+  "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
-  "clvPct": 5.88,
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 7.41,
   "closed": false
  },
  {
@@ -42379,10 +42379,10 @@
   "price": -155,
   "fairPctAtFlag": 62.7,
   "evPctAtFlag": 3.16,
-  "closeFairPct": 62.7,
+  "closeFairPct": 64.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
-  "clvPct": 3.15,
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 6.28,
   "closed": false
  },
  {
@@ -42406,7 +42406,7 @@
   "evPctAtFlag": 6.38,
   "closeFairPct": 13.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 6.4,
   "closed": false
  },
@@ -42429,10 +42429,10 @@
   "price": 660,
   "fairPctAtFlag": 13.5,
   "evPctAtFlag": 2.33,
-  "closeFairPct": 13.5,
+  "closeFairPct": 13.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
-  "clvPct": 2.6,
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 3.36,
   "closed": false
  },
  {
@@ -42454,10 +42454,10 @@
   "price": 550,
   "fairPctAtFlag": 16.6,
   "evPctAtFlag": 7.63,
-  "closeFairPct": 16.6,
+  "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
-  "clvPct": 7.9,
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 5.95,
   "closed": false
  },
  {
@@ -42633,7 +42633,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": -7.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_points|Bobby Portis|8.5|Bobby Portis Under 8.5|None",
@@ -42658,7 +42658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T00:35:09+00:00",
   "clvPct": 5.26,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_points|Zach LaVine|21.5|Zach LaVine Over 21.5|None",
@@ -42683,7 +42683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 3.27,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_rebounds|Keegan Murray|4.5|Keegan Murray Under 4.5|None",
@@ -42708,7 +42708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 14.93,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Davion Mitchell|1.5|Davion Mitchell Under 1.5|None",
@@ -42733,7 +42733,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 0.19,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Keegan Murray|1.5|Keegan Murray Over 1.5|None",
@@ -42758,7 +42758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": -12.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c5b6599e8e4949749798dcdadceb68d4|player_rebounds|Noah Clowney|3.5|Noah Clowney Over 3.5|None",
@@ -42833,7 +42833,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": -6.94,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_rebounds|De'Andre Hunter|4.5|De'Andre Hunter Over 4.5|None",
@@ -42858,7 +42858,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 6.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Pelle Larsson|0.5|Pelle Larsson Under 0.5|None",
@@ -42883,7 +42883,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 4.29,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c205d8d8102fbb0e72929fff3c1fd089|player_assists|Dejounte Murray|5.5|Dejounte Murray Over 5.5|None",
@@ -42908,7 +42908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b5700b4d938fd94429f60d4622cc9c0a|totals|Over:42.5/Under:42.5|Under 42.5|None",
@@ -42931,7 +42931,7 @@
   "evPctAtFlag": 2.47,
   "closeFairPct": 51.2,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-09T02:00:10+00:00",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
   "clvPct": 2.4,
   "closed": false
  },
@@ -42958,7 +42958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.14,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_assists|Giannis Antetokounmpo|6.5|Giannis Antetokounmpo Under 6.5|None",
@@ -42983,7 +42983,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_points|De'Andre Hunter|13.5|De'Andre Hunter Under 13.5|None",
@@ -43008,7 +43008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_points|Precious Achiuwa|10.5|Precious Achiuwa Under 10.5|None",
@@ -43033,7 +43033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_rebounds|Andrew Wiggins|3.5|Andrew Wiggins Over 3.5|None",
@@ -43058,7 +43058,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 4.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_rebounds|Precious Achiuwa|8.5|Precious Achiuwa Under 8.5|None",
@@ -43083,7 +43083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.08,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Bobby Portis|1.5|Bobby Portis Over 1.5|None",
@@ -43108,7 +43108,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 3.68,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea5547b35ef782963e4f384d3414dfa|player_threes|Malik Monk|1.5|Malik Monk Over 1.5|None",
@@ -43133,7 +43133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 4.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c205d8d8102fbb0e72929fff3c1fd089|player_points|Herb Jones|5.5|Herb Jones Under 5.5|None",
@@ -43158,7 +43158,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 3.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c205d8d8102fbb0e72929fff3c1fd089|player_rebounds|Rui Hachimura|5.5|Rui Hachimura Over 5.5|None",
@@ -43183,6 +43183,181 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T02:00:10+00:00",
   "clvPct": 2.09,
+  "closed": true
+ },
+ {
+  "key": "8f68604c47a7db841963eb62623db417|h2h|Ohio Bobcats|None",
+  "eventId": "8f68604c47a7db841963eb62623db417",
+  "sport": "NCAAF",
+  "game": "Ohio Bobcats at Miami (OH) RedHawks",
+  "time": "2026-11-11T01:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Ohio Bobcats",
+  "line": null,
+  "team": "Ohio Bobcats",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.4,
+  "evPctAtFlag": 2.71,
+  "closeFairPct": 51.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 2.8,
+  "closed": false
+ },
+ {
+  "key": "88407c59161b47299b7d8f5d730f916c|h2h|Sacramento State Hornets|None",
+  "eventId": "88407c59161b47299b7d8f5d730f916c",
+  "sport": "NCAAF",
+  "game": "Sacramento State Hornets at Central Michigan Chippewas",
+  "time": "2026-11-12T00:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Sacramento State Hornets",
+  "line": null,
+  "team": "Sacramento State Hornets",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 740,
+  "fairPctAtFlag": 12.8,
+  "evPctAtFlag": 7.25,
+  "closeFairPct": 12.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 7.52,
+  "closed": false
+ },
+ {
+  "key": "4c76e6c2d67084d144ebe452d7d608a0|h2h|Michigan Wolverines|None",
+  "eventId": "4c76e6c2d67084d144ebe452d7d608a0",
+  "sport": "NCAAF",
+  "game": "Michigan Wolverines at Oregon Ducks",
+  "time": "2026-11-14T20:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Michigan Wolverines",
+  "line": null,
+  "team": "Michigan Wolverines",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 380,
+  "fairPctAtFlag": 22.0,
+  "evPctAtFlag": 5.54,
+  "closeFairPct": 22.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 5.6,
+  "closed": false
+ },
+ {
+  "key": "558ce811ad052f49918a2855f3777baf|h2h|Marshall Thundering Herd|None",
+  "eventId": "558ce811ad052f49918a2855f3777baf",
+  "sport": "NCAAF",
+  "game": "Appalachian State Mountaineers at Marshall Thundering Herd",
+  "time": "2026-11-14T23:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Marshall Thundering Herd",
+  "line": null,
+  "team": "Marshall Thundering Herd",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 115,
+  "fairPctAtFlag": 47.9,
+  "evPctAtFlag": 2.91,
+  "closeFairPct": 47.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 2.98,
+  "closed": false
+ },
+ {
+  "key": "f9b805187f3809fdadddfa08dfa2a089|spreads|Boise State Broncos:-10.5/Oregon State Beavers:10.5|Boise State Broncos|-10.5",
+  "eventId": "f9b805187f3809fdadddfa08dfa2a089",
+  "sport": "NCAAF",
+  "game": "Oregon State Beavers at Boise State Broncos",
+  "time": "2026-11-14T23:00:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Boise State Broncos",
+  "line": -10.5,
+  "team": "Boise State Broncos",
+  "point": -10.5,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.1,
+  "evPctAtFlag": 2.23,
+  "closeFairPct": 51.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 2.2,
+  "closed": false
+ },
+ {
+  "key": "d9bfb4f5e7ba909febe2a83fc04d4f15|h2h|San Jose State Spartans|None",
+  "eventId": "d9bfb4f5e7ba909febe2a83fc04d4f15",
+  "sport": "NCAAF",
+  "game": "San Jose State Spartans at Air Force Falcons",
+  "time": "2026-11-15T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "San Jose State Spartans",
+  "line": null,
+  "team": "San Jose State Spartans",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 380,
+  "fairPctAtFlag": 21.3,
+  "evPctAtFlag": 2.45,
+  "closeFairPct": 21.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 2.24,
+  "closed": false
+ },
+ {
+  "key": "ece9b1bb56a95381f1c485d22bd36dd8|spreads|San Diego State Aztecs:1.5/Utah State Aggies:-1.5|Utah State Aggies|-1.5",
+  "eventId": "ece9b1bb56a95381f1c485d22bd36dd8",
+  "sport": "NCAAF",
+  "game": "Utah State Aggies at San Diego State Aztecs",
+  "time": "2026-11-15T02:30:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Utah State Aggies",
+  "line": -1.5,
+  "team": "Utah State Aggies",
+  "point": -1.5,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-09T02:35:24+00:00",
+  "price": 100,
+  "fairPctAtFlag": 51.1,
+  "evPctAtFlag": 2.29,
+  "closeFairPct": 51.1,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-09T02:35:24+00:00",
+  "clvPct": 2.2,
   "closed": false
  }
 ]
