@@ -14,17 +14,17 @@
    "win_rate": 0.512396694214876
   },
   "value": {
-   "avg_clv": 0.050455892255892254,
-   "clv_beat_rate": 0.24781144781144782,
-   "clv_n": 1485,
-   "graded": 1754,
+   "avg_clv": 0.045094694425789124,
+   "clv_beat_rate": 0.24714573539288112,
+   "clv_n": 1489,
+   "graded": 1760,
    "record": {
-    "l": 870,
+    "l": 876,
     "p": 1,
     "void": 49,
     "w": 883
    },
-   "win_rate": 0.5037079292641187
+   "win_rate": 0.5019897669130188
   }
  },
  "by_sport": {
@@ -42,30 +42,30 @@
    "win_rate": 0.5686274509803921
   },
   "NBA Props": {
-   "avg_clv": 0.20208710801393728,
-   "clv_beat_rate": 0.16376306620209058,
-   "clv_n": 287,
-   "graded": 366,
+   "avg_clv": 0.17376470588235296,
+   "clv_beat_rate": 0.16262975778546712,
+   "clv_n": 289,
+   "graded": 370,
    "record": {
-    "l": 171,
+    "l": 175,
     "p": 0,
     "void": 14,
     "w": 195
    },
-   "win_rate": 0.5327868852459017
+   "win_rate": 0.527027027027027
   },
   "NBA Sides": {
-   "avg_clv": 0.08268932038834952,
-   "clv_beat_rate": 0.1262135922330097,
-   "clv_n": 103,
-   "graded": 133,
+   "avg_clv": 0.08111428571428571,
+   "clv_beat_rate": 0.12380952380952381,
+   "clv_n": 105,
+   "graded": 135,
    "record": {
-    "l": 75,
+    "l": 77,
     "p": 0,
     "void": 0,
     "w": 58
    },
-   "win_rate": 0.43609022556390975
+   "win_rate": 0.42962962962962964
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.0,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: added 1 box scores, 6779 player-games cached",
-  "NBA player logs: cache already current (11007 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6779 player-games, looked back 21 days)",
+  "NBA player logs: added 1 box scores, 11031 player-games cached"
  ],
- "generated_at": "2026-11-10T04:28:40+00:00",
+ "generated_at": "2026-11-10T15:51:36+00:00",
  "graded_through": "Week of Nov 9",
  "groups": {
   "Cosmic": {
@@ -3568,10 +3568,10 @@
    "win_rate": 0.46524064171123
   },
   "Props": {
-   "avg_clv": 0.08448982558139534,
-   "clv_beat_rate": 0.11627906976744186,
-   "clv_n": 688,
-   "graded": 869,
+   "avg_clv": 0.07296811594202898,
+   "clv_beat_rate": 0.11594202898550725,
+   "clv_n": 690,
+   "graded": 873,
    "label": "Player props",
    "picks": [
     {
@@ -19883,6 +19883,24 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": -122,
+     "clv": 0.0,
+     "edge": 19.748,
+     "ev": 0.35935,
+     "final": "10",
+     "game": "New Orleans Pelicans @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Herbert Jones Under 9.5 points",
+     "player": "Herbert Jones",
+     "price": -122,
+     "proj": 7.136,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -113,
      "clv": 0.0,
      "edge": 19.051,
@@ -20004,6 +20022,24 @@
      "player": "Ivica Zubac",
      "price": -122,
      "proj": 9.283,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 118,
+     "clv": -7.781,
+     "edge": 16.356,
+     "ev": 0.30217,
+     "final": "6",
+     "game": "New Orleans Pelicans @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Herbert Jones Under 3.5 rebounds",
+     "player": "Herbert Jones",
+     "price": -118,
+     "proj": 2.727,
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 9"
@@ -20173,6 +20209,42 @@
     {
      "closing_price": null,
      "clv": null,
+     "edge": 17.851,
+     "ev": 0.36416,
+     "final": "11",
+     "game": "New Orleans Pelicans @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Jeremiah Fears Over 13.5 points",
+     "player": "Jeremiah Fears",
+     "price": 104,
+     "proj": 18.774,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.653,
+     "ev": 0.26059,
+     "final": "2",
+     "game": "New Orleans Pelicans @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Stephen Curry Over 2.5 assists",
+     "player": "Stephen Curry",
+     "price": -210,
+     "proj": 4.763,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
      "edge": 16.438,
      "ev": 0.29912,
      "final": "107",
@@ -20190,19 +20262,19 @@
     }
    ],
    "record": {
-    "l": 425,
+    "l": 429,
     "p": 0,
     "void": 54,
     "w": 444
    },
    "threshold": 7.0,
-   "win_rate": 0.5109321058688148
+   "win_rate": 0.5085910652920962
   },
   "Sides": {
-   "avg_clv": 0.01595333333333333,
-   "clv_beat_rate": 0.35,
-   "clv_n": 900,
-   "graded": 1006,
+   "avg_clv": 0.015917960088691792,
+   "clv_beat_rate": 0.3492239467849224,
+   "clv_n": 902,
+   "graded": 1008,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -38312,22 +38384,58 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 430,
+     "clv": 0.0,
+     "edge": 14.586,
+     "ev": 0.77308,
+     "final": "87-138",
+     "game": "New Orleans Pelicans @ Golden State Warriors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "New Orleans Pelicans ML",
+     "player": null,
+     "price": 430,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.0,
+     "edge": 12.95,
+     "ev": 0.23741,
+     "final": "87-138",
+     "game": "New Orleans Pelicans @ Golden State Warriors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "New Orleans Pelicans +12.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
-    "l": 504,
+    "l": 506,
     "p": 1,
     "void": 0,
     "w": 501
    },
    "threshold": 5.0,
-   "win_rate": 0.49850746268656715
+   "win_rate": 0.49751737835153925
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 33,
-  "Props": 144,
-  "Sides": 183
+  "Props": 140,
+  "Sides": 181
  }
 }
