@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-10",
+  "proposals": [
+    {
+      "type": "review_segment",
+      "segment": "NFL/props/Receiving yards|value",
+      "evidence": "CLV -0.13 pts, 95% CI [-0.19, -0.07], n=123",
+      "suggestion": "Pause or raise threshold for this segment pending review of its inputs."
+    },
+    {
+      "type": "review_segment",
+      "segment": "NFL/props/Rushing yards|value",
+      "evidence": "CLV -0.06 pts, 95% CI [-0.11, -0.01], n=85",
+      "suggestion": "Pause or raise threshold for this segment pending review of its inputs."
+    },
+    {
+      "type": "review_model",
+      "segment": "props",
+      "evidence": "best blend 0.15 < floor 0.3",
+      "suggestion": "Audit model inputs; model not beating market-at-bet out of sample."
+    },
+    {
+      "type": "review_model",
+      "segment": "sides",
+      "evidence": "best blend 0.15 < floor 0.3",
+      "suggestion": "Audit model inputs; model not beating market-at-bet out of sample."
+    },
+    {
+      "type": "param",
+      "key": "thresholds.sides",
+      "from": 5,
+      "to": 7.0,
+      "evidence": "holdout EV at close -10.78u \u2192 -8.21u"
+    }
+  ]
+}
