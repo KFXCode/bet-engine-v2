@@ -129570,6 +129570,11 @@
      "2026-11-11T02:13:50+00:00",
      -134,
      114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -134,
+     114
     ]
    ],
    "home": "New York Giants",
@@ -129662,6 +129667,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -120,
+     100
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -120,
      100
     ]
@@ -131668,13 +131678,14 @@
   },
   {
    "away": "Ohio Bobcats",
-   "clv": null,
+   "closing_price": -110,
+   "clv": 0.0,
    "commence": "2026-11-11T01:00:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 0.918,
    "ev": 0.01753,
    "event": null,
-   "final": null,
+   "final": "17-34",
    "first_seen": "2026-11-06T02:48:47+00:00",
    "group": "Cosmic",
    "history": [
@@ -131730,7 +131741,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAF",
    "stars": 2,
@@ -131816,6 +131827,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -126,
+     106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -126,
      106
     ]
@@ -135344,6 +135360,11 @@
      "2026-11-11T02:13:50+00:00",
      310,
      -385
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     310,
+     -385
     ]
    ],
    "home": "UCLA Bruins",
@@ -135416,6 +135437,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     100,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      100,
      -120
     ]
@@ -135492,6 +135518,11 @@
      "2026-11-11T02:13:50+00:00",
      -385,
      310
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -385,
+     310
     ]
    ],
    "home": "Colorado Buffaloes",
@@ -135566,6 +135597,11 @@
      "2026-11-11T02:13:50+00:00",
      100,
      -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     100,
+     -120
     ]
    ],
    "home": "Colorado Buffaloes",
@@ -135628,6 +135664,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     120,
+     -142
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      120,
      -142
     ]
@@ -135702,6 +135743,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     100,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      100,
      -120
     ]
@@ -135812,6 +135858,11 @@
      "2026-11-11T02:13:50+00:00",
      100,
      -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     100,
+     -120
     ]
    ],
    "home": "BYU Cougars",
@@ -135884,6 +135935,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -105,
      -115
     ]
@@ -136014,6 +136070,11 @@
      "2026-11-11T02:13:50+00:00",
      -295,
      235
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -295,
+     235
     ]
    ],
    "home": "Maryland Terrapins",
@@ -136086,6 +136147,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -136162,6 +136228,11 @@
      "2026-11-11T02:13:50+00:00",
      -500,
      385
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -500,
+     385
     ]
    ],
    "home": "Ohio State Buckeyes",
@@ -136236,6 +136307,11 @@
      "2026-11-11T02:13:50+00:00",
      116,
      -138
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     116,
+     -138
     ]
    ],
    "home": "Texas A&M Aggies",
@@ -136308,6 +136384,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -105,
      -115
     ]
@@ -136561,6 +136642,11 @@
      "2026-11-11T02:13:50+00:00",
      -385,
      310
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -385,
+     310
     ]
    ],
    "home": "Virginia Cavaliers",
@@ -136633,6 +136719,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     100,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      100,
      -120
     ]
@@ -136753,6 +136844,11 @@
      "2026-11-11T02:13:50+00:00",
      -275,
      225
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -275,
+     225
     ]
    ],
    "home": "Indiana Hoosiers",
@@ -136866,6 +136962,11 @@
      "2026-11-11T02:13:50+00:00",
      100,
      -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     100,
+     -120
     ]
    ],
    "home": "West Virginia Mountaineers",
@@ -136938,6 +137039,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     320,
+     -410
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      320,
      -410
     ]
@@ -137014,6 +137120,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "TCU Horned Frogs",
@@ -137088,6 +137199,11 @@
      "2026-11-11T02:13:50+00:00",
      146,
      -176
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     146,
+     -176
     ]
    ],
    "home": "LSU Tigers",
@@ -137160,6 +137276,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -115,
+     -105
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -115,
      -105
     ]
@@ -137290,6 +137411,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Oregon Ducks",
@@ -137362,6 +137488,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -166,
+     138
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -166,
      138
     ]
@@ -137438,6 +137569,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Michigan State Spartans",
@@ -137510,6 +137646,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -360,
+     280
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -360,
      280
     ]
@@ -137630,6 +137771,11 @@
      "2026-11-11T02:13:50+00:00",
      530,
      -720
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     530,
+     -720
     ]
    ],
    "home": "Virginia Tech Hokies",
@@ -137704,6 +137850,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Virginia Tech Hokies",
@@ -137771,6 +137922,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     240,
+     -295
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      240,
      -295
     ]
@@ -138864,13 +139020,14 @@
   },
   {
    "away": "Ohio Bobcats",
-   "clv": null,
+   "closing_price": 104,
+   "clv": 0.0,
    "commence": "2026-11-11T01:00:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 0.803,
    "ev": 0.01639,
    "event": null,
-   "final": null,
+   "final": "17-34",
    "first_seen": "2026-11-08T09:29:44+00:00",
    "group": "Cosmic",
    "history": [
@@ -138896,7 +139053,7 @@
    "player": null,
    "price": 104,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAF",
    "stars": 2,
@@ -138957,6 +139114,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -105,
      -115
     ]
@@ -139035,6 +139197,11 @@
      "2026-11-11T02:13:50+00:00",
      -385,
      310
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -385,
+     310
     ]
    ],
    "home": "Colorado Buffaloes",
@@ -139109,6 +139276,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     100,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      100,
      -120
     ]
@@ -139549,6 +139721,11 @@
      "2026-11-11T02:13:50+00:00",
      -520,
      390
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -520,
+     390
     ]
    ],
    "home": "Miami Hurricanes",
@@ -139613,6 +139790,11 @@
      "2026-11-11T02:13:50+00:00",
      -450,
      340
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -450,
+     340
     ]
    ],
    "home": "Charlotte 49ers",
@@ -139660,6 +139842,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -139726,6 +139913,11 @@
      "2026-11-11T02:13:50+00:00",
      -126,
      106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -126,
+     106
     ]
    ],
    "home": "Temple Owls",
@@ -139788,6 +139980,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -139854,6 +140051,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Delaware Blue Hens",
@@ -139918,6 +140120,11 @@
      "2026-11-11T02:13:50+00:00",
      -126,
      104
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -126,
+     104
     ]
    ],
    "home": "Missouri State Bears",
@@ -139980,6 +140187,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -115,
+     -105
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -115,
      -105
     ]
@@ -140080,6 +140292,11 @@
      "2026-11-11T02:13:50+00:00",
      255,
      -315
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     255,
+     -315
     ]
    ],
    "home": "Western Kentucky Hilltoppers",
@@ -140142,6 +140359,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -140208,6 +140430,11 @@
      "2026-11-11T02:13:50+00:00",
      280,
      -350
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     280,
+     -350
     ]
    ],
    "home": "Texas State Bobcats",
@@ -140270,6 +140497,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -105,
      -115
     ]
@@ -140500,6 +140732,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -335,
+     270
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -335,
      270
     ]
@@ -141252,6 +141489,11 @@
      "2026-11-11T02:13:50+00:00",
      -450,
      350
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -450,
+     350
     ]
    ],
    "home": "New York Jets",
@@ -141311,6 +141553,11 @@
      "2026-11-11T02:13:50+00:00",
      -235,
      194
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -235,
+     194
     ]
    ],
    "home": "Cleveland Browns",
@@ -141368,6 +141615,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -115,
+     -105
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -115,
      -105
     ]
@@ -141571,6 +141823,11 @@
      "2026-11-11T02:13:50+00:00",
      -590,
      430
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -590,
+     430
     ]
    ],
    "home": "Tennessee Titans",
@@ -141630,6 +141887,11 @@
      "2026-11-11T02:13:50+00:00",
      -430,
      340
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -430,
+     340
     ]
    ],
    "home": "Arizona Cardinals",
@@ -141687,6 +141949,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     100,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      100,
      -120
     ]
@@ -141792,6 +142059,11 @@
      "2026-11-11T02:13:50+00:00",
      -126,
      106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -126,
+     106
     ]
    ],
    "home": "Ball State Cardinals",
@@ -141849,6 +142121,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -105,
      -115
     ]
@@ -141910,6 +142187,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Central Michigan Chippewas",
@@ -141967,6 +142249,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -142028,6 +142315,11 @@
      "2026-11-11T02:13:50+00:00",
      172,
      -210
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     172,
+     -210
     ]
    ],
    "home": "Delaware Blue Hens",
@@ -142087,6 +142379,11 @@
      "2026-11-11T02:13:50+00:00",
      -205,
      168
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -205,
+     168
     ]
    ],
    "home": "Tulsa Golden Hurricane",
@@ -142144,6 +142441,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -142266,6 +142568,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -142442,12 +142749,13 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": -118,
+   "clv": 2.873,
    "commence": "2026-11-11T01:10:00Z",
    "edge": 13.815,
    "ev": 0.27099,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-09T02:35:12+00:00",
    "group": "Sides",
    "history": [
@@ -142488,7 +142796,7 @@
    "player": null,
    "price": -104,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NBA",
    "stat_key": null,
@@ -142496,12 +142804,13 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": -110,
+   "clv": -1.498,
    "commence": "2026-11-11T01:10:00Z",
    "edge": 14.508,
    "ev": 0.26803,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-09T02:35:12+00:00",
    "group": "Sides",
    "history": [
@@ -142542,7 +142851,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NBA",
    "stat_key": null,
@@ -143191,6 +143500,11 @@
      "2026-11-11T02:13:50+00:00",
      -110,
      -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -110,
+     -110
     ]
    ],
    "home": "Central Michigan Chippewas",
@@ -143243,13 +143557,14 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": -104,
+   "clv": 0.0,
    "commence": "2026-11-11T01:10:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 13.815,
    "ev": 0.27099,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-09T02:35:12+00:00",
    "group": "Cosmic",
    "history": [
@@ -143275,7 +143590,7 @@
    "player": null,
    "price": -104,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NBA",
    "stars": 2,
@@ -143284,13 +143599,14 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": -118,
+   "clv": 0.0,
    "commence": "2026-11-11T01:10:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 14.508,
    "ev": 0.26803,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-09T02:35:12+00:00",
    "group": "Cosmic",
    "history": [
@@ -143316,7 +143632,7 @@
    "player": null,
    "price": -118,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NBA",
    "stars": 2,
@@ -143351,6 +143667,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -143402,6 +143723,11 @@
      "2026-11-11T02:13:50+00:00",
      530,
      -720
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     530,
+     -720
     ]
    ],
    "home": "Vanderbilt Commodores",
@@ -143449,6 +143775,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -143500,6 +143831,11 @@
      "2026-11-11T02:13:50+00:00",
      100,
      -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     100,
+     -120
     ]
    ],
    "home": "San Diego State Aztecs",
@@ -143547,6 +143883,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -144067,12 +144408,13 @@
   },
   {
    "away": "Memphis Tigers",
-   "clv": null,
+   "closing_price": -105,
+   "clv": 0.0,
    "commence": "2026-11-11T00:15:00Z",
    "edge": 6.173,
    "ev": 0.12052,
    "event": null,
-   "final": null,
+   "final": "81-105",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Sides",
    "history": [
@@ -144103,7 +144445,7 @@
    "player": null,
    "price": -105,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAB",
    "stat_key": null,
@@ -144111,12 +144453,13 @@
   },
   {
    "away": "Illinois Fighting Illini",
-   "clv": null,
+   "closing_price": -122,
+   "clv": 0.0,
    "commence": "2026-11-11T01:00:00Z",
    "edge": 16.38,
    "ev": 0.29807,
    "event": null,
-   "final": null,
+   "final": "78-84",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Sides",
    "history": [
@@ -144147,7 +144490,7 @@
    "player": null,
    "price": -122,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAB",
    "stat_key": null,
@@ -144155,12 +144498,13 @@
   },
   {
    "away": "Illinois Fighting Illini",
-   "clv": null,
+   "closing_price": -110,
+   "clv": 0.0,
    "commence": "2026-11-11T01:00:00Z",
    "edge": 13.41,
    "ev": 0.256,
    "event": null,
-   "final": null,
+   "final": "78-84",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Sides",
    "history": [
@@ -144191,7 +144535,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAB",
    "stat_key": null,
@@ -144287,12 +144631,13 @@
   },
   {
    "away": "Kansas Jayhawks",
-   "clv": null,
+   "closing_price": 180,
+   "clv": -1.51,
    "commence": "2026-11-11T02:30:00Z",
    "edge": 11.547,
    "ev": 0.30945,
    "event": null,
-   "final": null,
+   "final": "89-69",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Sides",
    "history": [
@@ -144328,7 +144673,7 @@
    "player": null,
    "price": 168,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NCAAB",
    "stat_key": null,
@@ -144336,12 +144681,13 @@
   },
   {
    "away": "Kansas Jayhawks",
-   "clv": null,
+   "closing_price": -120,
+   "clv": 1.928,
    "commence": "2026-11-11T02:30:00Z",
    "edge": 14.65,
    "ev": 0.27968,
    "event": null,
-   "final": null,
+   "final": "89-69",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Sides",
    "history": [
@@ -144377,7 +144723,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NCAAB",
    "stat_key": null,
@@ -144607,6 +144953,11 @@
      "2026-11-11T02:13:50+00:00",
      124,
      -166
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     124,
+     -166
     ]
    ],
    "home": "New York Giants",
@@ -144654,6 +145005,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -144827,12 +145183,13 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": -108,
+   "clv": 0.0,
    "commence": "2026-11-11T01:10:00Z",
    "edge": 17.294,
    "ev": 0.33308,
    "event": "cfa503c66cd505776a910921875ef7dd",
-   "final": null,
+   "final": "21",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Props",
    "history": [
@@ -144863,7 +145220,7 @@
    "player": "Jayson Tatum",
    "price": -108,
    "proj": 23.502,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points",
@@ -145193,6 +145550,11 @@
      "2026-11-11T02:13:50+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "Detroit Lions",
@@ -145319,12 +145681,13 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": -122,
+   "clv": 0.0,
    "commence": "2026-11-11T01:10:00Z",
    "edge": 12.357,
    "ev": 0.22486,
    "event": "cfa503c66cd505776a910921875ef7dd",
-   "final": null,
+   "final": "31",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Props",
    "history": [
@@ -145355,7 +145718,7 @@
    "player": "Jayson Tatum",
    "price": -122,
    "proj": 38.277,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points_rebounds_assists",
@@ -145389,6 +145752,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -145447,12 +145815,13 @@
   },
   {
    "away": "Boston Celtics",
-   "clv": null,
+   "closing_price": 102,
+   "clv": 0.398,
    "commence": "2026-11-11T01:10:00Z",
    "edge": 11.267,
    "ev": 0.22985,
    "event": "cfa503c66cd505776a910921875ef7dd",
-   "final": null,
+   "final": "4",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Props",
    "history": [
@@ -145483,7 +145852,7 @@
    "player": "Tyrese Maxey",
    "price": 104,
    "proj": 5.076,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_assists",
@@ -145552,6 +145921,11 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -145759,13 +146133,14 @@
   },
   {
    "away": "Memphis Tigers",
-   "clv": null,
+   "closing_price": -105,
+   "clv": 0.0,
    "commence": "2026-11-11T00:15:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 6.173,
    "ev": 0.12052,
    "event": null,
-   "final": null,
+   "final": "81-105",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Cosmic",
    "history": [
@@ -145796,7 +146171,7 @@
    "player": null,
    "price": -105,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAB",
    "stars": 2,
@@ -145851,13 +146226,14 @@
   },
   {
    "away": "Kansas Jayhawks",
-   "clv": null,
+   "closing_price": 180,
+   "clv": -1.51,
    "commence": "2026-11-11T02:30:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 11.547,
    "ev": 0.30945,
    "event": null,
-   "final": null,
+   "final": "89-69",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Cosmic",
    "history": [
@@ -145893,7 +146269,7 @@
    "player": null,
    "price": 168,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NCAAB",
    "stars": 2,
@@ -145902,13 +146278,14 @@
   },
   {
    "away": "Kansas Jayhawks",
-   "clv": null,
+   "closing_price": -120,
+   "clv": 1.928,
    "commence": "2026-11-11T02:30:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 14.65,
    "ev": 0.27968,
    "event": null,
-   "final": null,
+   "final": "89-69",
    "first_seen": "2026-11-09T22:46:41+00:00",
    "group": "Cosmic",
    "history": [
@@ -145944,7 +146321,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NCAAB",
    "stars": 2,
@@ -146078,6 +146455,11 @@
      "2026-11-11T02:13:50+00:00",
      -205,
      172
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -205,
+     172
     ]
    ],
    "home": "Dallas Cowboys",
@@ -146099,12 +146481,13 @@
   },
   {
    "away": "Miami Heat",
-   "clv": null,
+   "closing_price": 350,
+   "clv": 0.0,
    "commence": "2026-11-11T02:10:00Z",
    "edge": 6.191,
    "ev": 0.27857,
    "event": null,
-   "final": null,
+   "final": "115-109",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Sides",
    "history": [
@@ -146130,7 +146513,7 @@
    "player": null,
    "price": 350,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NBA",
    "stat_key": null,
@@ -146138,12 +146521,13 @@
   },
   {
    "away": "Oklahoma City Thunder",
-   "clv": null,
+   "closing_price": -126,
+   "clv": 0.0,
    "commence": "2026-11-11T04:10:00Z",
    "edge": 18.161,
    "ev": 0.32575,
    "event": null,
-   "final": null,
+   "final": "103-123",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Sides",
    "history": [
@@ -146174,7 +146558,7 @@
    "player": null,
    "price": -126,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NBA",
    "stat_key": null,
@@ -146182,12 +146566,13 @@
   },
   {
    "away": "Oklahoma City Thunder",
-   "clv": null,
+   "closing_price": -112,
+   "clv": -0.433,
    "commence": "2026-11-11T04:10:00Z",
    "edge": 17.095,
    "ev": 0.32091,
    "event": null,
-   "final": null,
+   "final": "103-123",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Sides",
    "history": [
@@ -146218,7 +146603,7 @@
    "player": null,
    "price": -114,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NBA",
    "stat_key": null,
@@ -146421,12 +146806,13 @@
   },
   {
    "away": "Queens University Royals",
-   "clv": null,
+   "closing_price": -110,
+   "clv": 0.0,
    "commence": "2026-11-11T02:00:00Z",
    "edge": 8.864,
    "ev": 0.16921,
    "event": null,
-   "final": null,
+   "final": "82-98",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Sides",
    "history": [
@@ -146452,7 +146838,7 @@
    "player": null,
    "price": -110,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NCAAB",
    "stat_key": null,
@@ -146499,12 +146885,13 @@
   },
   {
    "away": "Miami Heat",
-   "clv": null,
+   "closing_price": 126,
+   "clv": 0.0,
    "commence": "2026-11-11T02:10:00Z",
    "edge": 19.044,
    "ev": 0.4304,
    "event": "9ac02cb22adf276b325b1e9c9c6c588e",
-   "final": null,
+   "final": "1",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Props",
    "history": [
@@ -146530,7 +146917,7 @@
    "player": "Bobby Portis",
    "price": 126,
    "proj": 6.951,
-   "result": null,
+   "result": "L",
    "selection": "over",
    "sport": "NBA",
    "stat_key": "player_rebounds",
@@ -146538,12 +146925,13 @@
   },
   {
    "away": "Miami Heat",
-   "clv": null,
+   "closing_price": -102,
+   "clv": -4.234,
    "commence": "2026-11-11T02:10:00Z",
    "edge": 18.341,
    "ev": 0.33374,
    "event": "9ac02cb22adf276b325b1e9c9c6c588e",
-   "final": null,
+   "final": "30",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Props",
    "history": [
@@ -146579,7 +146967,7 @@
    "player": "Giannis Antetokounmpo",
    "price": -122,
    "proj": 26.935,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points",
@@ -146671,13 +147059,14 @@
   },
   {
    "away": "Miami Heat",
-   "clv": null,
+   "closing_price": 350,
+   "clv": 0.0,
    "commence": "2026-11-11T02:10:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 6.191,
    "ev": 0.27857,
    "event": null,
-   "final": null,
+   "final": "115-109",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Cosmic",
    "history": [
@@ -146703,7 +147092,7 @@
    "player": null,
    "price": 350,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NBA",
    "stars": 2,
@@ -146712,13 +147101,14 @@
   },
   {
    "away": "Miami Heat",
-   "clv": null,
+   "closing_price": -105,
+   "clv": 0.0,
    "commence": "2026-11-11T02:10:00Z",
    "cosmic": "New Moon, Moon in Sagittarius, date number 4",
    "edge": 2.722,
    "ev": 0.05314,
    "event": null,
-   "final": null,
+   "final": "115-109",
    "first_seen": "2026-11-10T04:28:40+00:00",
    "group": "Cosmic",
    "history": [
@@ -146744,7 +147134,7 @@
    "player": null,
    "price": -105,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "home",
    "sport": "NBA",
    "stars": 2,
@@ -146971,6 +147361,11 @@
      "2026-11-11T02:13:50+00:00",
      118,
      -138
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     118,
+     -138
     ]
    ],
    "home": "New Orleans Saints",
@@ -147003,6 +147398,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -110
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -110
     ]
@@ -147039,6 +147439,11 @@
      "2026-11-11T02:13:50+00:00",
      -300,
      245
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -300,
+     245
     ]
    ],
    "home": "Las Vegas Raiders",
@@ -147065,7 +147470,7 @@
    "edge": 17.296,
    "ev": 0.91667,
    "event": null,
-   "final": null,
+   "final": "28-33",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Sides",
    "history": [],
@@ -147080,7 +147485,7 @@
    "player": null,
    "price": 430,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAF",
    "stat_key": null,
@@ -147093,7 +147498,7 @@
    "edge": 8.288,
    "ev": 0.16576,
    "event": null,
-   "final": null,
+   "final": "28-33",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Sides",
    "history": [],
@@ -147108,7 +147513,7 @@
    "player": null,
    "price": 100,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NCAAF",
    "stat_key": null,
@@ -147121,7 +147526,7 @@
    "edge": 13.218,
    "ev": 0.28021,
    "event": null,
-   "final": null,
+   "final": "85-117",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Sides",
    "history": [],
@@ -147136,7 +147541,7 @@
    "player": null,
    "price": 112,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NBA",
    "stat_key": null,
@@ -147149,7 +147554,7 @@
    "edge": 10.131,
    "ev": 0.40522,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Sides",
    "history": [],
@@ -147164,7 +147569,7 @@
    "player": null,
    "price": 300,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NBA",
    "stat_key": null,
@@ -147177,7 +147582,7 @@
    "edge": 6.27,
    "ev": 0.12665,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Sides",
    "history": [],
@@ -147192,7 +147597,7 @@
    "player": null,
    "price": 102,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NBA",
    "stat_key": null,
@@ -147200,12 +147605,13 @@
   },
   {
    "away": "Orlando Magic",
-   "clv": null,
+   "closing_price": -112,
+   "clv": 0.0,
    "commence": "2026-11-11T03:10:00Z",
    "edge": 5.337,
    "ev": 0.10103,
    "event": null,
-   "final": null,
+   "final": "107-100",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Sides",
    "history": [
@@ -147226,7 +147632,7 @@
    "player": null,
    "price": -112,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NBA",
    "stat_key": null,
@@ -147245,6 +147651,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -162,
+     136
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -162,
      136
     ]
@@ -147279,6 +147690,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -104,
+     -118
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -104,
      -118
     ]
@@ -147371,6 +147787,11 @@
      "2026-11-11T02:13:50+00:00",
      -320,
      255
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -320,
+     255
     ]
    ],
    "home": "Saint Joseph's Hawks",
@@ -147405,6 +147826,11 @@
      "2026-11-11T02:13:50+00:00",
      176,
      -210
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     176,
+     -210
     ]
    ],
    "home": "Florida Atlantic Owls",
@@ -147437,6 +147863,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -102,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -102,
      -120
     ]
@@ -147478,6 +147909,16 @@
      "2026-11-11T02:13:50+00:00",
      -136,
      102
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -104,
+     -128
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -136,
+     102
     ]
    ],
    "home": "New Orleans Pelicans",
@@ -147504,7 +147945,7 @@
    "edge": 19.895,
    "ev": 0.42177,
    "event": "9ac02cb22adf276b325b1e9c9c6c588e",
-   "final": null,
+   "final": "4",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [],
@@ -147519,7 +147960,7 @@
    "player": "Darryn Peterson",
    "price": 112,
    "proj": 4.687,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_assists",
@@ -147538,6 +147979,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -110,
+     -120
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -110,
      -120
     ]
@@ -147574,6 +148020,11 @@
      "2026-11-11T02:13:50+00:00",
      -125,
      -106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -125,
+     -106
     ]
    ],
    "home": "Houston Rockets",
@@ -147608,6 +148059,11 @@
      "2026-11-11T02:13:50+00:00",
      -140,
      106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -140,
+     106
     ]
    ],
    "home": "Chicago Bulls",
@@ -147634,7 +148090,7 @@
    "edge": 18.721,
    "ev": 0.32487,
    "event": "cfa503c66cd505776a910921875ef7dd",
-   "final": null,
+   "final": "5",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [],
@@ -147649,7 +148105,7 @@
    "player": "Paul George",
    "price": -136,
    "proj": 4.991,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_rebounds",
@@ -147657,12 +148113,13 @@
   },
   {
    "away": "Oklahoma City Thunder",
-   "clv": null,
+   "closing_price": -128,
+   "clv": 0.0,
    "commence": "2026-11-11T04:10:00Z",
    "edge": 18.697,
    "ev": 0.33304,
    "event": "f5477c781c94e09e85374bbf9149c0f1",
-   "final": null,
+   "final": "7",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [
@@ -147683,7 +148140,7 @@
    "player": "Isaiah Hartenstein",
    "price": -128,
    "proj": 7.248,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points",
@@ -147691,12 +148148,13 @@
   },
   {
    "away": "Orlando Magic",
-   "clv": null,
+   "closing_price": -108,
+   "clv": 0.0,
    "commence": "2026-11-11T03:10:00Z",
    "edge": 18.437,
    "ev": 0.35507,
    "event": "78ab42ddb22b68903fd53a384d0fc616",
-   "final": null,
+   "final": "13",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [
@@ -147717,7 +148175,7 @@
    "player": "Precious Achiuwa",
    "price": -108,
    "proj": 20.93,
-   "result": null,
+   "result": "L",
    "selection": "over",
    "sport": "NBA",
    "stat_key": "player_points_rebounds_assists",
@@ -147736,6 +148194,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     270,
+     null
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      270,
      null
     ]
@@ -147777,6 +148240,16 @@
      "2026-11-11T02:13:50+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "Dallas Cowboys",
@@ -147809,6 +148282,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -108,
+     -122
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -108,
      -122
     ]
@@ -147845,6 +148323,11 @@
      "2026-11-11T02:13:50+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "Memphis Grizzlies",
@@ -147877,6 +148360,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     100,
+     -132
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      100,
      -132
     ]
@@ -147913,6 +148401,11 @@
      "2026-11-11T02:13:50+00:00",
      -118,
      -112
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -118,
+     -112
     ]
    ],
    "home": "Chicago Bulls",
@@ -147939,7 +148432,7 @@
    "edge": 17.565,
    "ev": 0.33109,
    "event": "9ac02cb22adf276b325b1e9c9c6c588e",
-   "final": null,
+   "final": "9",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [],
@@ -147954,7 +148447,7 @@
    "player": "Jaxson Hayes",
    "price": -113,
    "proj": 15.448,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points_rebounds_assists",
@@ -147973,6 +148466,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -147996,12 +148494,13 @@
   },
   {
    "away": "Oklahoma City Thunder",
-   "clv": null,
+   "closing_price": -111,
+   "clv": 0.0,
    "commence": "2026-11-11T04:10:00Z",
    "edge": 17.32,
    "ev": 0.32924,
    "event": "f5477c781c94e09e85374bbf9149c0f1",
-   "final": null,
+   "final": "27",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [
@@ -148022,7 +148521,7 @@
    "player": "Jared McCain",
    "price": -111,
    "proj": 14.515,
-   "result": null,
+   "result": "L",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points_rebounds_assists",
@@ -148046,6 +148545,16 @@
     ],
     [
      "2026-11-11T02:13:50+00:00",
+     -140,
+     106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     118,
+     -158
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -140,
      106
     ]
@@ -148082,6 +148591,11 @@
      "2026-11-11T02:13:50+00:00",
      -114,
      -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -114,
+     -114
     ]
    ],
    "home": "Indiana Pacers",
@@ -148103,12 +148617,13 @@
   },
   {
    "away": "Oklahoma City Thunder",
-   "clv": null,
+   "closing_price": -180,
+   "clv": 0.0,
    "commence": "2026-11-11T04:10:00Z",
    "edge": 16.843,
    "ev": 0.26201,
    "event": "f5477c781c94e09e85374bbf9149c0f1",
-   "final": null,
+   "final": "5",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [
@@ -148129,7 +148644,7 @@
    "player": "Isaiah Hartenstein",
    "price": -180,
    "proj": 2.832,
-   "result": null,
+   "result": "L",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_assists",
@@ -148148,6 +148663,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -125,
+     -106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -125,
      -106
     ]
@@ -148171,12 +148691,13 @@
   },
   {
    "away": "Orlando Magic",
-   "clv": null,
+   "closing_price": -113,
+   "clv": 0.0,
    "commence": "2026-11-11T03:10:00Z",
    "edge": 16.388,
    "ev": 0.3089,
    "event": "78ab42ddb22b68903fd53a384d0fc616",
-   "final": null,
+   "final": "5",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [
@@ -148197,7 +148718,7 @@
    "player": "Jamal Cain",
    "price": -113,
    "proj": 7.878,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points",
@@ -148216,6 +148737,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -148257,6 +148783,16 @@
      "2026-11-11T02:13:50+00:00",
      700,
      null
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     300,
+     null
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     700,
+     null
     ]
    ],
    "home": "Cincinnati Bengals",
@@ -148278,12 +148814,13 @@
   },
   {
    "away": "Orlando Magic",
-   "clv": null,
+   "closing_price": -140,
+   "clv": 0.0,
    "commence": "2026-11-11T03:10:00Z",
    "edge": 15.256,
    "ev": 0.26154,
    "event": "78ab42ddb22b68903fd53a384d0fc616",
-   "final": null,
+   "final": "3",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [
@@ -148304,7 +148841,7 @@
    "player": "Jamal Cain",
    "price": -140,
    "proj": 3.247,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_rebounds",
@@ -148323,6 +148860,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -148357,6 +148899,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -152,
+     114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -152,
      114
     ]
@@ -148421,6 +148968,11 @@
      "2026-11-11T02:13:50+00:00",
      -122,
      -106
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -122,
+     -106
     ]
    ],
    "home": "Las Vegas Raiders",
@@ -148483,6 +149035,11 @@
      "2026-11-11T02:13:50+00:00",
      220,
      null
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     220,
+     null
     ]
    ],
    "home": "Las Vegas Raiders",
@@ -148515,6 +149072,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     106,
+     -140
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      106,
      -140
     ]
@@ -148571,7 +149133,7 @@
    "edge": 13.647,
    "ev": 0.27027,
    "event": "3689d555c9a1c81e3d300375b4c80530",
-   "final": null,
+   "final": "14",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [],
@@ -148586,7 +149148,7 @@
    "player": "Ryan Rollins",
    "price": -102,
    "proj": 14.067,
-   "result": null,
+   "result": "W",
    "selection": "under",
    "sport": "NBA",
    "stat_key": "player_points",
@@ -148605,6 +149167,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -114,
+     -114
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -114,
      -114
     ]
@@ -148641,6 +149208,11 @@
      "2026-11-11T02:13:50+00:00",
      -112,
      -118
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -112,
+     -118
     ]
    ],
    "home": "Houston Rockets",
@@ -148675,6 +149247,11 @@
      "2026-11-11T02:13:50+00:00",
      -174,
      130
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -174,
+     130
     ]
    ],
    "home": "Houston Rockets",
@@ -148701,7 +149278,7 @@
    "edge": 12.346,
    "ev": 0.26667,
    "event": "3689d555c9a1c81e3d300375b4c80530",
-   "final": null,
+   "final": "4",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Props",
    "history": [],
@@ -148716,7 +149293,7 @@
    "player": "Kel'el Ware",
    "price": 116,
    "proj": 6.596,
-   "result": null,
+   "result": "L",
    "selection": "over",
    "sport": "NBA",
    "stat_key": "player_rebounds",
@@ -148730,7 +149307,7 @@
    "edge": 17.296,
    "ev": 0.91667,
    "event": null,
-   "final": null,
+   "final": "28-33",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Cosmic",
    "history": [],
@@ -148745,7 +149322,7 @@
    "player": null,
    "price": 430,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NCAAF",
    "stars": 2,
@@ -148760,7 +149337,7 @@
    "edge": 8.288,
    "ev": 0.16576,
    "event": null,
-   "final": null,
+   "final": "28-33",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Cosmic",
    "history": [],
@@ -148775,7 +149352,7 @@
    "player": null,
    "price": 100,
    "proj": null,
-   "result": null,
+   "result": "W",
    "selection": "away",
    "sport": "NCAAF",
    "stars": 2,
@@ -148790,7 +149367,7 @@
    "edge": 13.218,
    "ev": 0.28021,
    "event": null,
-   "final": null,
+   "final": "85-117",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Cosmic",
    "history": [],
@@ -148805,7 +149382,7 @@
    "player": null,
    "price": 112,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "away",
    "sport": "NBA",
    "stars": 2,
@@ -148820,7 +149397,7 @@
    "edge": 10.131,
    "ev": 0.40522,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Cosmic",
    "history": [],
@@ -148835,7 +149412,7 @@
    "player": null,
    "price": 300,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NBA",
    "stars": 2,
@@ -148850,7 +149427,7 @@
    "edge": 6.27,
    "ev": 0.12665,
    "event": null,
-   "final": null,
+   "final": "123-101",
    "first_seen": "2026-11-11T02:13:50+00:00",
    "group": "Cosmic",
    "history": [],
@@ -148865,7 +149442,7 @@
    "player": null,
    "price": 102,
    "proj": null,
-   "result": null,
+   "result": "L",
    "selection": "home",
    "sport": "NBA",
    "stars": 2,
@@ -148886,6 +149463,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -168,
+     142
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -168,
      142
     ]
@@ -148924,6 +149506,11 @@
      "2026-11-11T02:13:50+00:00",
      -172,
      144
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -172,
+     144
     ]
    ],
    "home": "New Orleans Pelicans",
@@ -148958,6 +149545,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -105,
+     -115
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -105,
      -115
     ]
@@ -148996,6 +149588,11 @@
      "2026-11-11T02:13:50+00:00",
      -162,
      136
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
+     -162,
+     136
     ]
    ],
    "home": "Memphis Grizzlies",
@@ -149030,6 +149627,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -104,
+     -118
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -104,
      -118
     ]
@@ -149156,6 +149758,11 @@
    "history": [
     [
      "2026-11-11T02:13:50+00:00",
+     -320,
+     255
+    ],
+    [
+     "2026-11-11T15:39:51+00:00",
      -320,
      255
     ]
