@@ -14,45 +14,45 @@
    "win_rate": 0.512396694214876
   },
   "value": {
-   "avg_clv": 0.04277116402116402,
-   "clv_beat_rate": 0.24537037037037038,
-   "clv_n": 1512,
-   "graded": 1793,
+   "avg_clv": 0.042686468646864685,
+   "clv_beat_rate": 0.2448844884488449,
+   "clv_n": 1515,
+   "graded": 1796,
    "record": {
-    "l": 894,
+    "l": 897,
     "p": 1,
     "void": 49,
     "w": 898
    },
-   "win_rate": 0.5011160714285714
+   "win_rate": 0.5002785515320334
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.15563157894736843,
-   "clv_beat_rate": 0.18421052631578946,
-   "clv_n": 38,
-   "graded": 58,
+   "avg_clv": 0.15164102564102563,
+   "clv_beat_rate": 0.1794871794871795,
+   "clv_n": 39,
+   "graded": 59,
    "record": {
     "l": 26,
     "p": 0,
     "void": 0,
-    "w": 32
+    "w": 33
    },
-   "win_rate": 0.5517241379310345
+   "win_rate": 0.559322033898305
   },
   "NBA Props": {
-   "avg_clv": 0.15460666666666667,
-   "clv_beat_rate": 0.16,
-   "clv_n": 300,
-   "graded": 386,
+   "avg_clv": 0.15307590759075906,
+   "clv_beat_rate": 0.15841584158415842,
+   "clv_n": 303,
+   "graded": 389,
    "record": {
-    "l": 180,
+    "l": 183,
     "p": 0,
     "void": 14,
     "w": 206
    },
-   "win_rate": 0.533678756476684
+   "win_rate": 0.5295629820051414
   },
   "NBA Sides": {
    "avg_clv": 0.08521621621621621,
@@ -160,17 +160,17 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: added 6 box scores, 11172 player-games cached",
-  "NFL player logs: cache already current (6759 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6759 player-games, looked back 21 days)",
+  "NBA player logs: cache already current (11232 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-11T15:39:51+00:00",
+ "generated_at": "2026-11-12T03:16:44+00:00",
  "graded_through": "Week of Nov 9",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.10491463414634146,
-   "clv_beat_rate": 0.2804878048780488,
-   "clv_n": 164,
-   "graded": 202,
+   "avg_clv": -0.10427878787878787,
+   "clv_beat_rate": 0.2787878787878788,
+   "clv_n": 165,
+   "graded": 203,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -3808,22 +3808,40 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -168,
+     "clv": 0.0,
+     "edge": 0.588,
+     "ev": 0.00939,
+     "final": "101-114",
+     "game": "Washington Wizards @ Indiana Pacers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Indiana Pacers ML",
+     "player": null,
+     "price": -168,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
     "l": 110,
     "p": 1,
     "void": 0,
-    "w": 91
+    "w": 92
    },
    "threshold": null,
-   "win_rate": 0.4527363184079602
+   "win_rate": 0.45544554455445546
   },
   "Props": {
-   "avg_clv": 0.0663509272467903,
-   "clv_beat_rate": 0.11554921540656206,
-   "clv_n": 701,
-   "graded": 889,
+   "avg_clv": 0.06606818181818182,
+   "clv_beat_rate": 0.11505681818181818,
+   "clv_n": 704,
+   "graded": 892,
    "label": "Player props",
    "picks": [
     {
@@ -20675,6 +20693,42 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": -108,
+     "clv": 0.0,
+     "edge": 18.058,
+     "ev": 0.34779,
+     "final": "12",
+     "game": "Washington Wizards @ Indiana Pacers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Ivica Zubac Under 9.5 rebounds",
+     "player": "Ivica Zubac",
+     "price": -108,
+     "proj": 7.748,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 100,
+     "clv": 0.0,
+     "edge": 17.699,
+     "ev": 0.35399,
+     "final": "2",
+     "game": "Washington Wizards @ Indiana Pacers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Deandre Ayton Over 4.5 points",
+     "player": "Deandre Ayton",
+     "price": 100,
+     "proj": 8.022,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 17.565,
@@ -20706,6 +20760,24 @@
      "player": "Jared McCain",
      "price": -111,
      "proj": 14.515,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 17.048,
+     "ev": 0.32003,
+     "final": "2",
+     "game": "Washington Wizards @ Indiana Pacers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Deandre Ayton Over 4.5 rebounds",
+     "player": "Deandre Ayton",
+     "price": -114,
+     "proj": 6.976,
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 9"
@@ -20802,13 +20874,13 @@
     }
    ],
    "record": {
-    "l": 434,
+    "l": 437,
     "p": 0,
     "void": 54,
     "w": 455
    },
    "threshold": 7.0,
-   "win_rate": 0.5118110236220472
+   "win_rate": 0.5100896860986547
   },
   "Sides": {
    "avg_clv": 0.017196936542669582,
@@ -39280,8 +39352,8 @@
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 33,
-  "Props": 162,
-  "Sides": 180
+  "Cosmic": 35,
+  "Props": 190,
+  "Sides": 192
  }
 }
