@@ -1,0 +1,16 @@
+requests>=2.31
+pandas>=2.0
+pybaseball>=2.2.7
+rich>=13.7
+jinja2>=3.1
+apscheduler>=3.10
+python-dotenv>=1.0
+tzdata>=2024.1        # IANA timezone database -- belt-and-suspenders for zoneinfo
+                       # (auto_gate.py) on systems without one preinstalled
+
+# Pinned explicitly (not used directly by this project) because pybaseball
+# pulls it in transitively via PyGithub -> PyJWT[crypto], and older
+# resolved versions have no pre-built Mac wheel -- that forces pip to
+# compile it from source (needs a Rust toolchain) and fails on a plain
+# machine. Pinning to a modern version keeps pip on the ready-made wheel.
+cryptography>=42.0.0
