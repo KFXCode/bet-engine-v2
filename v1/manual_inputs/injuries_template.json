@@ -1,0 +1,7 @@
+{
+  "_readme": "EXAMPLE only. run_daily.py auto-creates manual_inputs/injuries_<YYYY-MM-DD>.json empty each day. Add entries as team_abbr -> list of {player, status, impact} to feed the situational grading factor. impact must be high, medium, or low.",
+  "NYY": [
+    {"player": "Example Player", "status": "OUT", "impact": "high"},
+    {"player": "Another Player", "status": "QUESTIONABLE", "impact": "low"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "_readme": "This is an EXAMPLE only. run_daily.py auto-creates manual_inputs/public_betting_<YYYY-MM-DD>.json for you with every game listed and neutral 50/50 placeholders. Edit that file's numbers using tickets%/handle% you read off sportsbettingdime.com (or Action Network, etc.) before trusting a day's public/sharp-money factor. Keys are the MLB gamePk id shown in '_matchup'.",
+  "716463": {
+    "_matchup": "Boston Red Sox @ New York Yankees",
+    "tickets_pct_home": 64.0,
+    "handle_pct_home": 71.0,
+    "source": "sportsbettingdime.com"
+  }
+}
