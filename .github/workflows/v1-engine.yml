@@ -1,0 +1,99 @@
+name: Engine V1
+
+# Engine V1 moved here from the bet-engine-v1 repo on Nov 13, 2026. It runs
+# from the v1/ folder and publishes its daily page to v1/index.html, which the
+# app's "Engine V1" tab shows. Same schedule it had before:
+#   - hourly check: publishes once a day, about an hour before the first game
+#   - 2:00 AM ET: grades yesterday's picks, does not publish
+
+on:
+  schedule:
+    - cron: "7 11-23,0-3 * * *"   # hourly, 07:00-23:00 ET
+    - cron: "7 6 * * *"           # 02:00 ET overnight grading (GRADE ONLY)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: engine-v1
+  cancel-in-progress: false
+
+env:
+  GRADING_CRON: "7 6 * * *"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: v1
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Engine V1 (gated publish, overnight grading, or forced manual run)
+        env:
+          STATS_MODE: api
+          ODDS_MODE: api
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          PUBLIC_BETTING_MODE: manual
+          PUBLIC_BETTING_URL: ""
+          TIMEZONE: America/New_York
+          DAILY_RUN_HOUR: "10"
+          DAILY_RUN_MINUTE: "0"
+          AUTO_RUN_LEAD_MINUTES: "60"
+        run: |
+          if [ "${{ github.event.schedule }}" = "${{ env.GRADING_CRON }}" ]; then
+            echo "Overnight GRADING pass -- settling yesterday's games. Will NOT publish."
+            python run_daily.py --date "$(TZ=America/New_York date -d 'yesterday' +%F)"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "Hourly gate check -- publishes only if within the lead window and not already published today."
+            python run_daily.py --auto
+          else
+            echo "Manually triggered -- forcing a fresh run + publish."
+            python run_daily.py
+          fi
+
+      - name: Copy today's report to the tab's page
+        run: |
+          if [ "${{ github.event.schedule }}" = "${{ env.GRADING_CRON }}" ]; then
+            echo "Grading pass -- leaving the live page alone."
+          elif [ -f data_store/reports/latest.html ]; then
+            cp data_store/reports/latest.html index.html
+            echo "Report copied to v1/index.html."
+          else
+            echo "No report this run -- leaving v1/index.html as it is."
+          fi
+
+      - name: Save V1 files only
+        working-directory: .
+        run: |
+          mkdir -p /tmp/out/manual_inputs /tmp/out/data_store
+          cp v1/index.html /tmp/out/ 2>/dev/null || true
+          cp v1/data_store/betting_engine.db v1/data_store/last_published.txt /tmp/out/data_store/ 2>/dev/null || true
+          cp v1/manual_inputs/*.json /tmp/out/manual_inputs/ 2>/dev/null || true
+          git config user.name "bet-engine-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            git checkout -f -B "${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
+            mkdir -p v1/data_store v1/manual_inputs
+            cp /tmp/out/index.html v1/ 2>/dev/null || true
+            cp /tmp/out/data_store/* v1/data_store/ 2>/dev/null || true
+            cp /tmp/out/manual_inputs/*.json v1/manual_inputs/ 2>/dev/null || true
+            git add -f v1/index.html v1/data_store/betting_engine.db v1/data_store/last_published.txt 2>/dev/null || true
+            git add -f v1/manual_inputs/*.json 2>/dev/null || true
+            if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+            git commit -m "Engine V1 update ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push origin "${GITHUB_REF_NAME}" && exit 0
+            echo "Push raced another workflow - retrying"; sleep 15
+          done
+          exit 1
