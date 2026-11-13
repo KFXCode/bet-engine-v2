@@ -5,6 +5,7 @@ Rich-formatted terminal daily report. This is the "just tell me what to bet"
 view -- run `python run_daily.py` and read this.
 """
 
+import config
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
@@ -46,7 +47,9 @@ def print_daily_report(report):
 
 
 def _print_play(play, index):
-    source_tag = "" if play.odds_source == "fanduel" else "  [SIMULATED ODDS -- real line unavailable]"
+    real = play.odds_source in config.MD_BOOKS
+    source_tag = (f"  [{config.MD_BOOK_NAMES[play.odds_source]}]" if real and play.odds_source != "fanduel"
+                  else "" if real else "  [SIMULATED ODDS -- real line unavailable]")
     title = f"PLAY #{index}: {play.team} ({play.sport}) ML ({play.odds_american:+d}){source_tag}"
     body = Table.grid(padding=(0, 1))
     body.add_column(justify="left")
