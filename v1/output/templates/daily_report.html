@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14171c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Cover1 Picks">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<title>Daily Betting Report — {{ date }}</title>
+<style>
+  :root {
+    --bg: oklch(0.16 0.012 250);
+    --card: oklch(0.21 0.014 250);
+    --card-border: oklch(0.30 0.016 250);
+    --fg: oklch(0.94 0.006 250);
+    --muted: oklch(0.68 0.012 250);
+    --accent: oklch(0.75 0.19 155);
+    --accent-dim: oklch(0.32 0.06 155);
+    --warn: oklch(0.78 0.15 80);
+    --warn-dim: oklch(0.32 0.06 80);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(60px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 24px; }
+  .header h1 { font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+  .header .date { font-size: 34px; font-weight: 700; margin: 0; }
+  .header .updated { font-size: 12px; color: var(--muted); margin: 10px 0 0; display: inline-flex; align-items: center; gap: 6px; }
+  .header .updated .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: inline-block; flex-shrink: 0; }
+  .strip { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
+  .strip .item { font-size: 13px; color: var(--muted); }
+  .strip .item b { color: var(--fg); }
+
+  .cosmic { max-width: 520px; margin: 14px auto 0; background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; overflow: hidden; text-align: left; }
+  .cosmic > summary { list-style: none; cursor: pointer; padding: 12px 16px; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+  .cosmic > summary::-webkit-details-marker { display: none; }
+  .cosmic .cx-chev { width: 14px; height: 14px; transition: transform 0.2s; }
+  .cosmic[open] .cx-chev { transform: rotate(180deg); }
+  .cosmic .cx-body { padding: 4px 18px 18px; }
+  .cosmic .cx-row { padding: 12px 0; border-top: 1px solid var(--card-border); }
+  .cosmic .cx-row:first-child { border-top: none; }
+  .cosmic .cx-h { font-size: 13px; font-weight: 700; color: var(--fg); margin-bottom: 3px; }
+  .cosmic .cx-t { font-size: 13px; color: var(--muted); line-height: 1.5; }
+  .cosmic .cx-lean { display: inline-block; margin-top: 6px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 6px; }
+  .cosmic .lean-fav { color: var(--accent); background: var(--accent-dim); }
+  .cosmic .lean-dog { color: var(--warn); background: var(--warn-dim); }
+
+  .warnbox { background: var(--warn-dim); border: 1px solid var(--warn); color: var(--fg);
+             border-radius: 10px; padding: 14px 18px; margin-bottom: 24px; font-size: 14px; }
+  .warnbox ul { margin: 6px 0 0; padding-left: 18px; }
+
+  .changebox { background: var(--card); border: 1px solid var(--accent-dim); color: var(--fg);
+               border-radius: 10px; padding: 14px 18px; margin-bottom: 24px; font-size: 14px; }
+  .changebox .ch-title { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 8px; }
+  .changebox .ch-row { display: flex; gap: 10px; padding: 5px 0; }
+  .changebox .ch-time { color: var(--muted); font-variant-numeric: tabular-nums; flex-shrink: 0; font-size: 12px; padding-top: 1px; }
+  .changebox .ch-text { color: var(--fg); }
+
+  .nobet { background: var(--card); border: 1px solid var(--card-border); border-radius: 16px;
+           padding: 40px; text-align: center; margin-bottom: 24px; }
+  .nobet .big { font-size: 26px; font-weight: 700; color: var(--muted); }
+  .nobet .sub { font-size: 14px; color: var(--muted); margin-top: 8px; }
+
+  .tabs { display: flex; gap: 8px; justify-content: flex-start; margin-bottom: 24px; flex-wrap: wrap; }
+  .tab-btn { cursor: pointer; font: inherit; font-weight: 700; font-size: 13px; padding: 8px 16px;
+             border-radius: 999px; border: 1px solid var(--card-border); background: transparent; color: var(--muted); }
+  .tab-btn.active { border-color: var(--accent); background: var(--accent); color: oklch(0.16 0.01 155); }
+
+  .pick { background: var(--card); border: 1px solid var(--accent-dim); border-radius: 16px;
+          margin-bottom: 14px; position: relative; overflow: hidden; }
+  .pick::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--accent); z-index: 1; }
+  .pick > summary { list-style: none; cursor: pointer; padding: 20px 24px; display: flex;
+                    align-items: center; justify-content: space-between; gap: 12px; }
+  .pick > summary::-webkit-details-marker { display: none; }
+  .pick .s-main { min-width: 0; }
+  .pick .s-team { font-size: 22px; font-weight: 800; line-height: 1.2; }
+  .pick .s-sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
+  .pick .s-right { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+  .pick .s-edge { text-align: right; }
+  .pick .s-edge .n { font-size: 20px; font-weight: 800; font-family: "SF Mono", "Roboto Mono", monospace; color: var(--accent); }
+  .pick .s-edge .l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+  .pick .chev { width: 20px; height: 20px; flex-shrink: 0; transition: transform 0.2s; color: var(--muted); }
+  .pick[open] .chev { transform: rotate(180deg); }
+  .pick .body { padding: 0 24px 22px; }
+  .pick .odds { color: var(--muted); font-size: 15px; font-family: "SF Mono", "Roboto Mono", monospace; }
+
+  @keyframes topPulse {
+    0%, 100% { border-color: var(--accent); box-shadow: 0 0 0 0 rgba(50, 210, 122, 0.0); }
+    50% { border-color: oklch(0.82 0.20 150); box-shadow: 0 0 18px 2px rgba(50, 210, 122, 0.55); }
+  }
+  .pick.top-pick { border-width: 2px; animation: topPulse 1.6s ease-in-out infinite; }
+  .pick.top-pick::before { width: 6px; background: oklch(0.82 0.20 150); }
+  .top-badge { display: inline-block; background: var(--accent); color: oklch(0.16 0.01 155);
+               font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;
+               padding: 3px 9px; border-radius: 999px; margin-bottom: 6px; }
+  .pick.top-prop { border-color: var(--accent); }
+  .pick.top-prop::before { background: oklch(0.82 0.20 150); }
+
+  .metrics { display: flex; gap: 28px; margin: 6px 0 14px; flex-wrap: wrap; }
+  .metric .num { font-size: 20px; font-weight: 700; font-family: "SF Mono", "Roboto Mono", monospace; }
+  .metric .lbl { font-size: 11px; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; }
+  .flags { margin-bottom: 10px; }
+  .flag { display: inline-block; background: var(--warn-dim); color: var(--warn); border-radius: 8px;
+          padding: 6px 10px; font-size: 12px; margin: 2px 6px 2px 0; }
+  .why { font-size: 14px; color: var(--muted); }
+  .why-title { color: var(--fg); font-weight: 600; font-size: 13px; margin-bottom: 6px; }
+  .why ul { margin: 0; padding-left: 18px; }
+  .why li { margin-bottom: 6px; }
+
+  .sport-tag { font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-dim);
+               padding: 2px 8px; border-radius: 6px; vertical-align: middle; margin-left: 4px; }
+  .mkt-tag { font-size: 11px; font-weight: 700; color: var(--muted); border: 1px solid var(--card-border);
+             padding: 2px 7px; border-radius: 6px; vertical-align: middle; margin-left: 6px; }
+
+  .section-title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
+                    font-weight: 700; margin: 32px 0 12px; display: flex; align-items: center; justify-content: space-between; }
+  .expand-all { font-size: 11px; color: var(--accent); cursor: pointer; text-transform: none; letter-spacing: 0; font-weight: 600; }
+
+  .parlay { background: var(--card); border: 1px dashed var(--accent); border-radius: 16px; padding: 22px; margin-bottom: 20px; }
+  .parlay .legs { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+  .parlay .odds { font-family: "SF Mono", "Roboto Mono", monospace; color: var(--accent); }
+  .parlay .note { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .double { background: var(--card); border: 2px solid var(--accent); border-radius: 16px; padding: 22px; margin-bottom: 20px; }
+  .double .dh { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 8px; }
+
+  .dropped { font-size: 13px; color: var(--muted); background: var(--card); border: 1px solid var(--card-border);
+             border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; }
+
+  .rec { background: var(--card); border: 1px solid var(--card-border); border-radius: 16px;
+         overflow: hidden; margin-top: 8px; margin-bottom: 24px; }
+  .rec > summary { list-style: none; cursor: pointer; padding: 18px 22px; display: flex;
+                   align-items: center; justify-content: space-between; gap: 12px; }
+  .rec > summary::-webkit-details-marker { display: none; }
+  .rec .r-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+  .rec .r-sum { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+  .rec .r-stat { text-align: right; }
+  .rec .r-stat .v { font-size: 17px; font-weight: 800; font-family: "SF Mono", "Roboto Mono", monospace; }
+  .rec .r-stat .k { font-size: 9px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-top: 1px; }
+  .rec .chev { width: 20px; height: 20px; flex-shrink: 0; transition: transform 0.2s; color: var(--muted); }
+  .rec[open] .chev { transform: rotate(180deg); }
+  .rec .r-body { padding: 0 22px 20px; }
+  .rec-day { border-top: 1px solid var(--card-border); padding: 14px 0 4px; }
+  .rec-day .d-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+  .rec-day .d-date { font-size: 13px; font-weight: 800; color: var(--fg); font-variant-numeric: tabular-nums; }
+  .rec-day .d-rec { font-size: 12px; color: var(--muted); }
+  .rec-day .d-rec b { color: var(--fg); font-family: "SF Mono", "Roboto Mono", monospace; }
+  .rec-row { display: flex; align-items: center; gap: 11px; padding: 4px 0; }
+  .rec-row .mk { font-size: 18px; line-height: 1; flex-shrink: 0; }
+  .rec-row .lb { font-size: 14px; font-weight: 600; color: var(--fg); }
+
+  .leg-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .leg-row .n { color: var(--accent); font-weight: 800; font-size: 13px; }
+  .leg-row .lbl { color: var(--fg); font-size: 15px; font-weight: 600; }
+  .kind-tag { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border: 1px solid var(--card-border); border-radius: 6px; padding: 1px 6px; }
+
+  a { color: var(--accent); }
+  a:hover { color: var(--fg); }
+
+  @media (max-width: 480px) {
+    .header .date { font-size: 28px; }
+    .pick > summary { padding: 16px 18px; }
+    .pick .body { padding: 0 18px 18px; }
+    .pick .s-team { font-size: 19px; }
+    .metrics { gap: 14px 22px; }
+    .rec > summary { padding: 15px 16px; }
+    .rec .r-body { padding: 0 16px 16px; }
+    .rec .r-sum { gap: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <h1>Daily Betting Report</h1>
+    <p class="date">{{ date }}</p>
+    <p class="updated"><span class="dot"></span>Updated {{ generated_at }}</p>
+    <div class="strip">
+      <div class="item">Slate: <b>{{ slate_size }} game{{ 's' if slate_size != 1 else '' }}</b></div>
+      <div class="item">Moon: <b>{{ celestial.phase }}</b> in <b>{{ celestial.sign }}</b></div>
+      <div class="item">Numerology: <b>{{ numerology.number }}</b></div>
+    </div>
+
+    {% set phase_meaning = {
+      'New Moon': ['Fresh-start energy, a clean slate. Blank canvas favors the stronger, more disciplined side.', 'fav'],
+      'Waxing Crescent': ['Building momentum. Energy is rising toward the favorite as intention takes hold.', 'fav'],
+      'First Quarter': ['A tension/decision point. Push-and-pull energy makes it a coin-flip lean.', 'neutral'],
+      'Waxing Gibbous': ['Public confidence runs high -- fakes and traps show up, and overvalued favorites become fade material.', 'dog'],
+      'Full Moon': ['Peak emotion and chaos. High-variance night -- fade the heavy public favorite, upsets spike.', 'dog'],
+      'Waning Gibbous': ['Release and letdown after the peak. Hot win-streak teams are prime fade spots here.', 'dog'],
+      'Last Quarter': ['Clearing out, re-evaluation. Energy is neutral and unsettled.', 'neutral'],
+      'Waning Crescent': ['Low-energy, fatigue, emotional wind-down. Rest/home-comfort edges matter; slight favorite lean.', 'fav']
+    } %}
+    {% set element_meaning = {
+      'fire': ['Fire signs (Aries, Leo, Sagittarius) bring bold, aggressive, fast-paced energy -- high scoring, favors the stronger team asserting itself.', 'fav'],
+      'earth': ['Earth signs (Taurus, Virgo, Capricorn) are grounded and steady -- lower scoring, favors the disciplined, better-run team.', 'fav'],
+      'air': ['Air signs (Gemini, Libra, Aquarius) are unpredictable and scattered -- nudges toward chaos and the underdog.', 'dog'],
+      'water': ['Water signs (Cancer, Scorpio, Pisces) bring emotional swings and volatility -- underdog/upset energy.', 'dog']
+    } %}
+    {% set number_meaning = {
+      1: 'Leadership &amp; new beginnings -- backs the front-runner.',
+      2: 'Partnership &amp; balance -- close, evenly-matched energy.',
+      3: 'Expression &amp; luck -- creative, favorable vibes.',
+      4: 'Structure disrupted -- foundations shaky, lean underdog.',
+      5: 'Change &amp; chaos -- volatile, unpredictable day.',
+      6: 'Harmony &amp; responsibility -- order favors the stronger side.',
+      7: 'Introspection -- quiet, neutral energy.',
+      8: 'Karma, power &amp; reversal -- revenge spots and upsets carry weight.',
+      9: 'Completion &amp; fulfillment -- things fall into place for the favorite.',
+      11: 'Master number -- heightened intuition, strong favorite energy.',
+      22: 'Master number -- the master builder under strain; upset energy.',
+      33: 'Master number -- rare harmony and balance.'
+    } %}
+    {% set el = celestial.element if celestial.element else '' %}
+    {% set fade_phases = ['Waxing Gibbous', 'Full Moon', 'Waning Gibbous'] %}
+    <details class="cosmic">
+      <summary>Why today's moon &amp; numbers matter <svg class="cx-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></summary>
+      <div class="cx-body">
+        <div class="cx-row">
+          <div class="cx-h">🌙 {{ celestial.phase }}{% if celestial.illumination is defined %} &middot; {{ '%.0f' | format(celestial.illumination * 100) }}% lit{% endif %}</div>
+          <div class="cx-t">{{ phase_meaning.get(celestial.phase, ['Moon-phase energy shading the slate today.', 'neutral'])[0] }}</div>
+          {% set pl = phase_meaning.get(celestial.phase, ['', 'neutral'])[1] %}
+          {% if pl == 'fav' %}<span class="cx-lean lean-fav">Leans favorite</span>{% elif pl == 'dog' %}<span class="cx-lean lean-dog">Leans underdog</span>{% else %}<span class="cx-lean" style="color:var(--muted); background:rgba(255,255,255,0.06);">Neutral / coin-flip</span>{% endif %}
+          {% if celestial.phase in fade_phases %}<div class="cx-t" style="margin-top:8px; color:var(--warn);"><b>Fade phase active:</b> lunar weight is DOUBLED today (0.06, same as the public/sharp factor), so hyped and tired favorites get pushed down and value sides get pushed up.</div>{% endif %}
+        </div>
+        <div class="cx-row">
+          <div class="cx-h">♒ Moon in {{ celestial.sign }}{% if el %} &middot; {{ el|capitalize }} sign{% endif %}</div>
+          <div class="cx-t">{{ element_meaning.get(el, ['The sign the Moon is transiting colors the daily tone.', 'neutral'])[0] }}</div>
+          {% set sl = element_meaning.get(el, ['', 'neutral'])[1] %}
+          {% if sl == 'fav' %}<span class="cx-lean lean-fav">Leans favorite</span>{% elif sl == 'dog' %}<span class="cx-lean lean-dog">Leans underdog</span>{% else %}<span class="cx-lean" style="color:var(--muted); background:rgba(255,255,255,0.06);">Neutral</span>{% endif %}
+        </div>
+        <div class="cx-row">
+          <div class="cx-h">🔢 Numerology {{ numerology.number }}</div>
+          <div class="cx-t">{{ number_meaning.get(numerology.number, 'The date reduces to this number, setting the underlying tone.') }}</div>
+        </div>
+        <div class="cx-row">
+          <div class="cx-t" style="font-size:12px;">These are weighted <b style="color:var(--fg);">nudges</b> -- they tip close calls, and on fade phases they carry real weight, but they never override talent, pitching, and the money/sharp read.</div>
+        </div>
+      </div>
+    </details>
+  </div>
+
+  {% if data_warnings %}
+  <div class="warnbox">
+    <b>Data quality warnings</b>
+    <ul>
+      {% for w in data_warnings %}<li>{{ w }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if pick_changes %}
+  <div class="changebox">
+    <div class="ch-title">Picks updated earlier today</div>
+    {% for c in pick_changes %}
+    <div class="ch-row"><span class="ch-time">{{ c.time }}</span><span class="ch-text">{{ c.text }}</span></div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if not plays and not active_sports %}
+  <div class="nobet">
+    <div class="big">NO GAMES TODAY</div>
+    <div class="sub">No enabled sport has games on the schedule right now. Sections appear automatically once a season opens.</div>
+  </div>
+  {% endif %}
+
+  {% set league_order = ['MLB', 'WNBA', 'NFL', 'NCAAF', 'NCAAB', 'NHL', 'NBA'] %}
+  {% set all_hist_picks = [] %}
+  {% for day in history %}{% for p in day['picks'] %}{% if all_hist_picks.append(p) %}{% endif %}{% endfor %}{% endfor %}
+  {% set hist_sports = all_hist_picks | map(attribute='sport') | list %}
+  {% set shown_sports = [] %}
+  {% for s in league_order %}{% if s in active_sports or s in hist_sports %}{% if shown_sports.append(s) %}{% endif %}{% endif %}{% endfor %}
+
+  <div class="tabs">
+    {% for sport in shown_sports %}
+    <button class="tab-btn" data-target="view-{{ sport }}" onclick="showView(this)">{{ sport }}</button>
+    {% endfor %}
+    <button class="tab-btn" data-target="view-top" onclick="showView(this)">TOP PARLAY</button>
+  </div>
+
+  {% for sport in shown_sports %}
+  {% set sp_plays = plays | selectattr('sport', 'equalto', sport) | list %}
+  {% set sp_totals = totals | selectattr('sport', 'equalto', sport) | list %}
+  {% set sp_hist = all_hist_picks | selectattr('sport', 'equalto', sport) | list %}
+  {% set mlw = sp_hist | selectattr('kind','equalto','moneyline') | selectattr('status','equalto','won') | list | length %}
+  {% set mll = sp_hist | selectattr('kind','equalto','moneyline') | selectattr('status','equalto','lost') | list | length %}
+  {% set prw = sp_hist | rejectattr('kind','equalto','moneyline') | selectattr('status','equalto','won') | list | length %}
+  {% set prl = sp_hist | rejectattr('kind','equalto','moneyline') | selectattr('status','equalto','lost') | list | length %}
+  {% set tw = mlw + prw %}{% set tl = mll + prl %}
+  <div class="view-panel" id="view-{{ sport }}" style="display:none;">
+
+    <div class="section-title"><span>{{ sport }} &middot; Today's Moneyline Picks</span>{% if sp_plays %}<span class="expand-all" onclick="toggleAll(this)">Expand all</span>{% endif %}</div>
+    {% if sp_plays %}
+      {% for play in sp_plays | sort(attribute='edge_pct', reverse=true) %}
+      {% set ml_conf = [[((play.edge_pct * 100) + 2)|round(0)|int, 10]|min, 1]|max %}
+      <details class="pick{% if loop.first %} top-pick{% endif %}"{% if loop.first %} open{% endif %}>
+        <summary>
+          <div class="s-main">
+            {% if loop.first %}<div class="top-badge">★ Top {{ sport }} ML Today</div>{% endif %}
+            <div class="s-team">{{ play.team }} <span class="sport-tag">{{ play.sport }}</span> ML</div>
+            <div class="s-sub">Rank #{{ loop.index }} &middot; Confidence {{ ml_conf }}/10 &middot; <span class="odds">{{ '%+d' | format(play.odds_american) }}</span>{% if play.odds_source != 'fanduel' %} &middot; SIM ODDS{% endif %}</div>
+          </div>
+          <div class="s-right">
+            <div class="s-edge"><div class="n">{{ '%.1f' | format(play.edge_pct * 100) }}%</div><div class="l">Edge</div></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </summary>
+        <div class="body">
+          <div class="metrics">
+            <div class="metric"><div class="num">{{ '%.1f' | format(play.model_prob * 100) }}%</div><div class="lbl">Model win%</div></div>
+            <div class="metric"><div class="num">{{ '%.1f' | format(play.market_prob * 100) }}%</div><div class="lbl">Market win%</div></div>
+          </div>
+          <div class="flags">
+            {% if play.diversification_flag %}<span class="flag">{{ play.diversification_flag }}</span>{% endif %}
+            {% if play.line_movement_flag %}<span class="flag">{{ play.line_movement_flag }}</span>{% endif %}
+          </div>
+          <div class="why">
+            <div class="why-title">Why this clears every layer:</div>
+            <ul>
+              {% for reason in play.reasoning %}<li>{{ reason }}</li>{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </details>
+      {% endfor %}
+    {% else %}
+      <div class="dropped">{% if sport in active_sports %}No {{ sport }} moneyline play cleared a real edge today.{% else %}No {{ sport }} games on today's schedule. Past results are in the record below.{% endif %}</div>
+    {% endif %}
+
+    {% if sp_totals %}
+    <div class="section-title"><span>{{ sport }} &middot; Total Points (O/U)</span><span class="expand-all" onclick="toggleAll(this)">Expand all</span></div>
+      {% for t in sp_totals %}
+      <details class="pick{% if loop.first %} top-prop{% endif %}"{% if loop.first %} open{% endif %}>
+        <summary>
+          <div class="s-main">
+            {% if loop.first %}<div class="top-badge">★ Top {{ sport }} Total Today</div>{% endif %}
+            <div class="s-team">{{ t.side | title }} {{ '%.1f' | format(t.line) }}</div>
+            <div class="s-sub">{{ t.matchup }} &middot; projected <b style="color:var(--fg);">{{ '%.1f' | format(t.projected) }}</b> &middot; <span class="odds">{{ '%+d' | format(t.odds_american) }}</span></div>
+          </div>
+          <div class="s-right">
+            <div class="s-edge"><div class="n">{{ '%.1f' | format(t.edge_pct * 100) }}%</div><div class="l">Edge</div></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </summary>
+        <div class="body">
+          <div class="metrics">
+            <div class="metric"><div class="num">{{ '%.1f' | format(t.model_prob * 100) }}%</div><div class="lbl">Model {{ t.side }}%</div></div>
+            <div class="metric"><div class="num">{{ '%.1f' | format(t.market_prob * 100) }}%</div><div class="lbl">Market implied</div></div>
+            <div class="metric"><div class="num">{{ '%+.1f' | format(t.projected - t.line) }}</div><div class="lbl">Pts vs line</div></div>
+          </div>
+          <div class="why">
+            <div class="why-title">How this total was projected:</div>
+            <ul>
+              {% for reason in t.reasoning %}<li>{{ reason }}</li>{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </details>
+      {% endfor %}
+    {% endif %}
+
+    {% if sport == 'NFL' %}
+    <div class="section-title"><span>Anytime TD Props</span>{% if td_props %}<span class="expand-all" onclick="toggleAll(this)">Expand all</span>{% endif %}</div>
+    {% if td_props %}
+      {% for prop in td_props %}
+      {% set strong = prop.score >= 70 %}
+      <details class="pick{% if loop.first %} top-prop{% endif %}">
+        <summary>
+          <div class="s-main">
+            {% if loop.first %}<div class="top-badge">★ Top NFL TD Prop</div>{% endif %}
+            <div class="s-team">{{ prop.player_name }} <span style="font-size:14px; color:var(--muted); font-weight:600;">TD</span></div>
+            <div class="s-sub">Rank #{{ loop.index }} &middot; {{ prop.position }} &middot; {{ prop.team }} vs {{ prop.opponent }}{% if prop.odds_american is not none %} &middot; <span class="odds">{{ '%+d' | format(prop.odds_american) }}</span>{% else %} &middot; odds n/a{% endif %}</div>
+          </div>
+          <div class="s-right">
+            <div class="s-edge"><div class="n" style="color:{{ 'var(--accent)' if strong else 'var(--warn)' }};">{{ '%.0f' | format(prop.model_prob * 100) }}%</div><div class="l" style="color:{{ 'var(--accent)' if strong else 'var(--warn)' }}; font-weight:800;">{{ 'STRONG' if strong else 'WATCH' }}</div></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </summary>
+        <div class="body">
+          <div class="metrics">
+            <div class="metric"><div class="num">{{ '%.0f' | format(prop.model_prob * 100) }}%</div><div class="lbl">Model TD chance</div></div>
+            {% if prop.implied_prob is defined and prop.implied_prob is not none %}<div class="metric"><div class="num">{{ '%.0f' | format(prop.implied_prob * 100) }}%</div><div class="lbl">Market implied</div></div>{% endif %}
+            <div class="metric"><div class="num">{{ '%.2f' | format(prop.expected_td) }}</div><div class="lbl">Expected TD</div></div>
+          </div>
+          <div class="why">
+            <div class="why-title">Full breakdown &mdash; why this TD was chosen:</div>
+            <ul>
+              {% for reason in prop.reasoning %}<li>{{ reason }}</li>{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </details>
+      {% endfor %}
+    {% else %}
+      <div class="dropped">{% if 'NFL' in active_sports %}No anytime-TD prop cleared today's bar.{% else %}No NFL games today &mdash; TD props return with the next slate.{% endif %}</div>
+    {% endif %}
+
+    <div class="section-title"><span>Player Props &middot; Yards / Receptions / Pass TDs</span>{% if player_props %}<span class="expand-all" onclick="toggleAll(this)">Expand all</span>{% endif %}</div>
+    {% if player_props %}
+      {% for prop in player_props %}
+      <details class="pick{% if loop.first %} top-prop{% endif %}">
+        <summary>
+          <div class="s-main">
+            {% if loop.first %}<div class="top-badge">★ Top NFL Player Prop</div>{% endif %}
+            <div class="s-team">{{ prop.player_name }} <span class="mkt-tag">{{ prop.market_label }}</span></div>
+            <div class="s-sub">Rank #{{ loop.index }} &middot; <b style="color:var(--fg);">{{ prop.side | title }} {{ '%g' | format(prop.line) }}</b> &middot; {{ prop.position }} &middot; {{ prop.team }} vs {{ prop.opponent }} &middot; <span class="odds">{{ '%+d' | format(prop.odds_american) }}</span>{% if prop.book %} ({{ prop.book }}){% endif %}</div>
+          </div>
+          <div class="s-right">
+            <div class="s-edge"><div class="n">{{ '%.1f' | format(prop.edge_pct * 100) }}%</div><div class="l">Edge</div></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </summary>
+        <div class="body">
+          <div class="metrics">
+            <div class="metric"><div class="num">{{ '%.1f' | format(prop.model_prob * 100) }}%</div><div class="lbl">Model {{ prop.side }}%</div></div>
+            <div class="metric"><div class="num">{{ '%.1f' | format(prop.market_prob * 100) }}%</div><div class="lbl">Market implied</div></div>
+            <div class="metric"><div class="num">{{ '%.1f' | format(prop.projection) }}</div><div class="lbl">Projected {{ prop.unit }}</div></div>
+          </div>
+          {% if prop.questionable %}
+          <div class="flags"><span class="flag">Injury designation &mdash; confirm he's active</span></div>
+          {% endif %}
+          <div class="why">
+            <div class="why-title">How this number was projected:</div>
+            <ul>
+              {% for reason in prop.reasoning %}<li>{{ reason }}</li>{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </details>
+      {% endfor %}
+    {% else %}
+      <div class="dropped">{% if 'NFL' in active_sports %}No player prop cleared the edge bar today. The board fills only when the market is genuinely soft &mdash; padding it would just add losing bets.{% else %}No NFL games today &mdash; player props return with the next slate.{% endif %}</div>
+    {% endif %}
+    {% endif %}
+
+    <div class="section-title"><span>{{ sport }} &middot; Best Parlay</span></div>
+    {% set par = sport_parlays.get(sport) %}
+    {% if par and par.legs %}
+    <div class="parlay">
+      <div class="legs">{{ par.leg_count }}-Leg {{ sport }} Parlay</div>
+      <div class="odds">Combined: {{ '%+d' | format(par.combined_odds_american) }} &middot; {{ '%.1f' | format(par.combined_prob * 100) }}% est. win probability</div>
+      <div style="margin-top:14px;">
+        {% for leg in par.legs %}
+        <div class="leg-row"><span class="n">Leg {{ loop.index }}</span><span class="lbl">{{ leg.label }}</span><span class="kind-tag">{% if leg.kind == 'td_prop' %}TD{% elif leg.kind == 'player_prop' %}PROP{% elif leg.kind == 'total' %}O/U{% else %}ML{% endif %}</span></div>
+        {% endfor %}
+      </div>
+      <div class="note">Flat 1 unit. Built only from {{ sport }} legs the system graded today.</div>
+    </div>
+    {% else %}
+    <div class="dropped">No {{ sport }} parlay today &mdash; fewer than 2 {{ sport }} legs cleared the confidence bar.</div>
+    {% endif %}
+
+    <details class="rec">
+      <summary>
+        <span class="r-title">{{ sport }} Record &amp; History</span>
+        <span class="r-sum">
+          <span class="r-stat"><span class="v">{{ mlw }}-{{ mll }}</span><div class="k">Moneyline</div></span>
+          {% if prw or prl %}<span class="r-stat"><span class="v">{{ prw }}-{{ prl }}</span><div class="k">Props/Totals</div></span>{% endif %}
+          <span class="r-stat"><span class="v" style="color:{% if tw > tl %}var(--accent){% elif tl > tw %}var(--warn){% else %}var(--fg){% endif %};">{% if (tw + tl) %}{{ ((100 * tw) / (tw + tl))|round(0)|int }}%{% else %}--{% endif %}</span><div class="k">Win rate</div></span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </span>
+      </summary>
+      <div class="r-body">
+        {% set sport_days = [] %}
+        {% for day in history %}
+        {% set dp = day['picks'] | selectattr('sport','equalto',sport) | list %}
+        {% if dp %}{% if sport_days.append((day.date, dp, day['parlay'], day['double'])) %}{% endif %}{% endif %}
+        {% endfor %}
+        {% if sport_days %}
+          {% for d in sport_days %}
+          {% set dmw = d[1] | selectattr('kind','equalto','moneyline') | selectattr('status','equalto','won') | list | length %}
+          {% set dml = d[1] | selectattr('kind','equalto','moneyline') | selectattr('status','equalto','lost') | list | length %}
+          {% set dpw = d[1] | rejectattr('kind','equalto','moneyline') | selectattr('status','equalto','won') | list | length %}
+          {% set dpl = d[1] | rejectattr('kind','equalto','moneyline') | selectattr('status','equalto','lost') | list | length %}
+          <div class="rec-day">
+            <div class="d-head">
+              <span class="d-date">{{ d[0] }}</span>
+              <span class="d-rec">ML <b>{{ dmw }}-{{ dml }}</b>{% if dpw or dpl %} &middot; Props/Totals <b>{{ dpw }}-{{ dpl }}</b>{% endif %}</span>
+            </div>
+            {% for item in d[1] %}
+            <div class="rec-row">
+              <span class="mk" style="color:{{ '#2fd07a' if item.status == 'won' else ('#e5484d' if item.status == 'lost' else 'var(--muted)') }};">{% if item.status == 'won' %}&#10003;{% elif item.status == 'lost' %}&#10007;{% else %}&ndash;{% endif %}</span>
+              <span class="lb">{{ item.label }}</span>
+              <span class="kind-tag">{% if item.kind == 'td_prop' %}TD{% elif item.kind == 'player_prop' %}PROP{% elif item.kind == 'total' %}O/U{% else %}ML{% endif %}</span>
+            </div>
+            {% endfor %}
+            {% if d[2] or d[3] %}
+            <div style="margin-top:10px; padding-top:8px; border-top:1px dashed var(--card-border);">
+              {% if d[2] %}<div style="font-size:12px; color:var(--muted); margin-bottom:4px;"><b style="color:var(--accent);">Best Parlay:</b> {{ d[2] | join(' + ') }}</div>{% endif %}
+              {% if d[3] %}<div style="font-size:12px; color:var(--muted);"><b style="color:var(--accent);">Double Your Money:</b> {{ d[3] | join(' + ') }}</div>{% endif %}
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        {% else %}
+          <div style="color:var(--muted); font-size:13px; padding:12px 0;">No graded {{ sport }} picks yet. Results appear here once games go final.</div>
+        {% endif %}
+      </div>
+    </details>
+
+  </div>
+  {% endfor %}
+
+  <div class="view-panel" id="view-top" style="display:none;">
+    {% if double_parlay and double_parlay.legs %}
+    <div class="section-title"><span>Double Your Money &middot; 2 ML picks</span></div>
+    <div class="double">
+      <div class="dh">💵 ~2x payout &middot; combined {{ '%+d' | format(double_parlay.combined_odds_american) }}</div>
+      <div style="margin-top:6px;">
+        {% for leg in double_parlay.legs %}
+        <div class="leg-row"><span class="n">Leg {{ loop.index }}</span><span class="lbl">{{ leg.label }}</span><span class="kind-tag">{{ leg.sport }}</span></div>
+        {% endfor %}
+      </div>
+      <div class="note" style="color:var(--muted); font-size:13px; margin-top:8px;">The two safest ML picks across all sports that combine to roughly double a 1-unit stake. Flat 1 unit.</div>
+    </div>
+    {% endif %}
+
+    <div class="section-title"><span>Top Parlay of the Day &middot; all sports combined</span></div>
+    {% if top_parlay and top_parlay.legs %}
+    <div class="parlay">
+      <div class="legs">{{ top_parlay.leg_count }}-Leg Top Parlay</div>
+      <div class="odds">Combined: {{ '%+d' | format(top_parlay.combined_odds_american) }} &middot; {{ '%.1f' | format(top_parlay.combined_prob * 100) }}% est. win probability</div>
+      <div style="margin-top:14px;">
+        {% for leg in top_parlay.legs %}
+        <div class="leg-row"><span class="n">Leg {{ loop.index }}</span><span class="lbl">{{ leg.label }}</span><span class="kind-tag">{% if leg.kind == 'td_prop' %}TD{% elif leg.kind == 'player_prop' %}PROP{% elif leg.kind == 'total' %}O/U{% else %}ML{% endif %}</span></div>
+        {% endfor %}
+      </div>
+      <div class="note">Flat 1 unit. The single strongest ticket across every active sport &mdash; any mix of leagues and props the system rates highest today.</div>
+    </div>
+    {% else %}
+    <div class="dropped">No top parlay today &mdash; fewer than 2 legs cleared the confidence bar across all sports. Discipline over action.</div>
+    {% endif %}
+  </div>
+
+  <script>
+    function showView(btn) {
+      var panels = document.querySelectorAll('.view-panel');
+      for (var i = 0; i < panels.length; i++) panels[i].style.display = 'none';
+      var target = document.getElementById(btn.dataset.target);
+      if (target) target.style.display = 'block';
+      var btns = document.querySelectorAll('.tab-btn');
+      for (var j = 0; j < btns.length; j++) btns[j].classList.remove('active');
+      btn.classList.add('active');
+    }
+    function toggleAll(link) {
+      var section = link.closest('.section-title');
+      var picks = [];
+      var el = section.nextElementSibling;
+      while (el && !el.classList.contains('section-title')) {
+        if (el.tagName === 'DETAILS' && el.classList.contains('pick')) picks.push(el);
+        el = el.nextElementSibling;
+      }
+      var anyClosed = picks.some(function (p) { return !p.open; });
+      picks.forEach(function (p) { p.open = anyClosed; });
+      link.textContent = anyClosed ? 'Collapse all' : 'Expand all';
+    }
+    window.addEventListener('DOMContentLoaded', function () {
+      var first = document.querySelector('.tab-btn');
+      if (first) showView(first);
+    });
+  </script>
+</div>
+</body>
+</html>
