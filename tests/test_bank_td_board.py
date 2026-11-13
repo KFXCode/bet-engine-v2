@@ -28,12 +28,20 @@ def test_board_ranks_by_chance_and_names_the_best_book():
     })
     b = bm.build_td_board(odds, NOW)
     names = [r["player"] for r in b["picks"]]
-    assert names == ["Jahmyr Gibbs", "Amon-Ra St. Brown", "Sam LaPorta"]   # 2-book player left out
-    g = b["picks"][0]
+    assert names == ["Only Two Books", "Jahmyr Gibbs", "Amon-Ra St. Brown", "Sam LaPorta"]   # nobody left out
+    g = b["picks"][1]
     assert g["fairFrom"] == "Pinnacle" and 71 < g["chancePct"] < 73
     assert g["bestBook"] == "BetRivers" and g["bestPrice"] == -260
-    assert b["picks"][2]["value"] and b["picks"][2]["bestBook"] == "BetRivers"   # +250 vs ~+210 fair
-    assert 1.4 < b["expectedHits"] < 1.6
+    assert b["picks"][3]["value"] and b["picks"][3]["bestBook"] == "BetRivers"   # +250 vs ~+210 fair
+    assert [r["player"] for r in b["valuePicks"]] == ["Sam LaPorta"]
+
+
+def test_one_book_player_left_out_unless_pinnacle_two_way():
+    # Backup TE: one Maryland book, nothing to compare -> out.
+    # Gibbs: one Maryland book plus Pinnacle Yes/No (a real fair price) -> in.
+    odds = _odds({"Backup TE": {"fanduel": 900}, "Jahmyr Gibbs": {"fanduel": -280}})
+    names = [r["player"] for r in bm.build_td_board(odds, NOW)["picks"]]
+    assert "Backup TE" not in names and "Jahmyr Gibbs" in names
 
 
 def test_started_games_left_out():
