@@ -189,6 +189,7 @@ def candidates(g):
         margin = g["homeRtg"] - g["awayRtg"] + g.get("hfa", 0.0)
     band = g.get("mlBand") or [ML_MIN_PRICE, ML_MAX_PRICE]
     out = []
+    blocked = set(g.get("block") or [])     # sides sharpen.py switched off
 
     p_home = clamp01(ncdf(margin / sd))
     # The moneyline is only bettable inside the price band.
@@ -216,7 +217,7 @@ def candidates(g):
                             label="%s %+.1f" % (g["away"], -spread),
                             p=1.0 - p_home_cover,
                             price=g["sprAway"], other=g["sprHome"]))
-    return out
+    return [c for c in out if f'{c["market"]}:{c["selection"]}' not in blocked]
 
 
 def side_picks(slate):

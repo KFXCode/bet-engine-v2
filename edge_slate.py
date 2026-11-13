@@ -31,6 +31,7 @@ and a key that reports out-of-credits is dropped for the rest of the run, so a
 spent key falls through to the next one without losing a market.
 """
 
+from sharpen import sharpen
 import json
 import os
 import time
@@ -481,6 +482,11 @@ def build(diag):
 def main():
     diag = []
     games, ahead, props = build(diag)
+    # Turn off the pick types that have lost money (see sharpen.py).
+    before = len(props)
+    props = sharpen(games, props)
+    diag.append(f"sharpen: {sum(len(g['block']) for g in games)} game sides and "
+                f"{before - len(props)} prop sides switched off (losing pick types)")
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": "game lines: adjusted-margin ratings fit jointly with home "

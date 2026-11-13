@@ -753,6 +753,71 @@ def scoreboard(log: list[dict]) -> dict:
             "avgClvPct": round(sum(e["clvPct"] for e in closed) / len(closed), 2) if closed else None}
 
 
+# ------------------------------------------------------------- TD board ----
+# The most likely touchdown scorers across every NFL game in the data, ranked by
+# their real chance to score -- not by edge. Pinnacle posts Yes AND No for some
+# players, which gives a true fair chance. For everyone else the fair chance is
+# the median price across all books with the cut taken out: on 157 players last
+# month, Pinnacle's fair chance was 0.944 x the books' median (TD_CUT_FACTOR).
+# Tested on the 4 Sundays Oct 18 - Nov 8: the top 10 each week scored
+# 3, 3, 5 and 6 times (17 of 38 graded), close to what the chances added up to.
+TD_BOARD_SIZE = 10
+TD_MIN_BOOKS = 4
+TD_CUT_FACTOR = 0.944
+TD_VALUE_EV = 0.05      # best Maryland price pays 5%+ more than fair -> "value" tag
+
+
+def _implied(price: float) -> float:
+    return 1 / american_to_decimal(price)
+
+
+def build_td_board(odds: dict, now: datetime) -> dict:
+    players = []
+    for ev in (odds.get("sports") or {}).get("americanfootball_nfl", []):
+        start = _ts(ev.get("commence_time"))
+        if not start or start <= now:
+            continue
+        yes, no = {}, {}
+        for b in ev.get("bookmakers") or []:
+            m = _find(b, "player_anytime_td")
+            for o in (m or {}).get("outcomes", []):
+                who, price = o.get("description"), o.get("price")
+                if not who or price is None:
+                    continue
+                if o.get("name") == "Yes":
+                    yes.setdefault(who, {})[b["key"]] = price
+                elif o.get("name") == "No":
+                    no.setdefault(who, {})[b["key"]] = price
+        for who, books in yes.items():
+            if len(books) < TD_MIN_BOOKS:
+                continue
+            imps = sorted(_implied(p) for p in books.values())
+            median = imps[len(imps) // 2] if len(imps) % 2 else (imps[len(imps) // 2 - 1] + imps[len(imps) // 2]) / 2
+            fair, source = median * TD_CUT_FACTOR, f"{len(books)}-book median"
+            for sk in SHARP_BOOKS:
+                if sk in books and sk in no.get(who, {}):
+                    a, c = _implied(books[sk]), _implied(no[who][sk])
+                    fair, source = a / (a + c), BOOK_NAMES[sk]
+                    break
+            md = {k: v for k, v in books.items() if k in LEGAL_BOOKS}
+            if not md:
+                continue
+            best_bk = max(md, key=lambda k: american_to_decimal(md[k]))
+            best = md[best_bk]
+            ev_pct = fair * american_to_decimal(best) - 1
+            players.append({
+                "player": who, "game": f'{ev["away_team"]} at {ev["home_team"]}', "time": ev["commence_time"],
+                "chancePct": round(fair * 100, 1), "fairPrice": decimal_to_american(1 / fair),
+                "bestPrice": best, "bestBook": BOOK_NAMES.get(best_bk, best_bk), "books": len(books),
+                "evPct": round(ev_pct * 100, 1), "value": ev_pct >= TD_VALUE_EV, "fairFrom": source,
+            })
+    players.sort(key=lambda r: -r["chancePct"])
+    top = players[:TD_BOARD_SIZE]
+    return {"picks": top, "playersPriced": len(players),
+            "expectedHits": round(sum(r["chancePct"] for r in top) / 100, 1),
+            "valuePicks": [r for r in players if r["value"]][:5]}
+
+
 # ------------------------------------------------------------------ main ----
 def main(now: datetime | None = None, odds: dict | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
@@ -788,6 +853,7 @@ def main(now: datetime | None = None, odds: dict | None = None) -> dict:
         "parlay": [{"legs": n, "houseKeepsPct": round(parlay_house_keep(avg_hold, n) * 100, 1)}
                    for n in range(1, 7)],
         "rows": rows,
+        "tdBoard": build_td_board(odds, now),
         "scoreboard": scoreboard(log),
         "log": sorted(log, key=lambda e: e["flaggedAt"], reverse=True)[:60],
     }
