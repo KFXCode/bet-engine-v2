@@ -130,6 +130,7 @@ MD_BOOK_NAMES = {"fanduel": "FanDuel", "draftkings": "DraftKings", "betmgm": "Be
                  "fanatics": "Fanatics"}
 SHARP_MIN_EV = 0.04        # the best Maryland book must pay 4%+ more than the sharp fair price
 SHARP_MAX_EV = 0.10        # more than 10% better is almost always a bad/stale price
+SHARP_MAX_PRICE = 300      # +300-and-longer dogs lose long-term even with an edge (NBER study; Bank Mode results)
 SHARP_MAX_AGE_MIN = 90     # sharp price older than FanDuel's by more than this is ignored
 
 
