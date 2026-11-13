@@ -824,9 +824,7 @@ def build_td_board(odds: dict, now: datetime) -> dict:
     players.sort(key=lambda r: -r["chancePct"])
     top = players[:TD_BOARD_SIZE]
     return {"picks": top, "playersPriced": len(players),
-            "expectedHits": round(sum(r["chancePct"] for r in top) / 100, 1),
-            # Value from ANY player, ranked by how much more the book pays than fair.
-            "valuePicks": sorted([r for r in players if r["value"]], key=lambda r: -r["evPct"])[:10]}
+            "expectedHits": round(sum(r["chancePct"] for r in top) / 100, 1)}
 
 
 # ------------------------------------------------------------------ main ----
