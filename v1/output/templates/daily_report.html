@@ -311,7 +311,7 @@
           <div class="s-main">
             {% if loop.first %}<div class="top-badge">★ Top {{ sport }} ML Today</div>{% endif %}
             <div class="s-team">{{ play.team }} <span class="sport-tag">{{ play.sport }}</span> ML</div>
-            <div class="s-sub">Rank #{{ loop.index }} &middot; Confidence {{ ml_conf }}/10 &middot; <span class="odds">{{ '%+d' | format(play.odds_american) }}</span>{% if play.odds_source != 'fanduel' %} &middot; SIM ODDS{% endif %}</div>
+            <div class="s-sub">Rank #{{ loop.index }} &middot; Confidence {{ ml_conf }}/10 &middot; <span class="odds">{{ '%+d' | format(play.odds_american) }}</span>{% if play.odds_source in ('mock', '', None) %} &middot; SIM ODDS{% elif play.odds_source != 'fanduel' %} &middot; {{ {'draftkings':'DraftKings','betmgm':'BetMGM','williamhill_us':'Caesars','betrivers':'BetRivers','espnbet':'ESPN Bet','fanatics':'Fanatics'}.get(play.odds_source, play.odds_source) }}{% endif %}</div>
           </div>
           <div class="s-right">
             <div class="s-edge"><div class="n">{{ '%.1f' | format(play.edge_pct * 100) }}%</div><div class="l">Edge</div></div>
