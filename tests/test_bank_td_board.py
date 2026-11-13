@@ -33,7 +33,7 @@ def test_board_ranks_by_chance_and_names_the_best_book():
     assert g["fairFrom"] == "Pinnacle" and 71 < g["chancePct"] < 73
     assert g["bestBook"] == "BetRivers" and g["bestPrice"] == -260
     assert b["picks"][3]["value"] and b["picks"][3]["bestBook"] == "BetRivers"   # +250 vs ~+210 fair
-    assert [r["player"] for r in b["valuePicks"]] == ["Sam LaPorta"]
+    assert "valuePicks" not in b          # long-shot list removed (Ken, Nov 13)
 
 
 def test_one_book_player_left_out_unless_pinnacle_two_way():
