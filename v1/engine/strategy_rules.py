@@ -271,7 +271,7 @@ def select_daily_plays(evaluations, db, public_splits, run_date_str):
                 reasoning.append(
                     f"[Proven price bucket] {odds_american:+d} is a {BIG_DOG_MIN_ODDS}-or-longer MLB dog -- "
                     f"the bucket carrying this system (MLB model rated these ~31%, they won ~59%).")
-            else:
+            elif ev.sharp_ev is None:
                 reasoning.append(
                     f"[Cleared the long-dog bar] {odds_american:+d} with a {ev.edge_pct:.1%} edge -- "
                     f"above the {NON_MLB_LONG_DOG_MIN_EDGE:.0%} bar {sport} long dogs need.")

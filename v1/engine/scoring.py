@@ -40,11 +40,7 @@ def _evaluate_vs_sharp(game, odds, factor_scores, fair_home, fair_away):
     """The model's chance IS the sharp books' fair chance. Pick the side the
     best Maryland book overpays, only if it pays SHARP_MIN_EV more than fair."""
     if getattr(odds, "best_home_ml", None) is not None and getattr(odds, "best_away_ml", None) is not None:
-        names = config.MD_BOOK_NAMES
-        odds = dataclasses.replace(
-            odds, home_ml=odds.best_home_ml, away_ml=odds.best_away_ml,
-            book=f"{names.get(odds.best_home_book, odds.best_home_book)}/"
-                 f"{names.get(odds.best_away_book, odds.best_away_book)}")
+        odds = dataclasses.replace(odds, home_ml=odds.best_home_ml, away_ml=odds.best_away_ml)
     sharp_home = getattr(odds, "sharp_home_prob", None)
     if sharp_home is None:
         return SideEvaluation(game=game, odds=odds, factor_scores=factor_scores,
@@ -57,8 +53,15 @@ def _evaluate_vs_sharp(game, odds, factor_scores, fair_home, fair_away):
     ev_away = sharp_away * american_to_decimal(odds.away_ml) - 1.0
     side, ev = ("home", ev_home) if ev_home >= ev_away else ("away", ev_away)
     edge = (sharp_home - fair_home) if side == "home" else (sharp_away - fair_away)
+    pick_book = getattr(odds, "best_home_book" if side == "home" else "best_away_book", None)
+    if pick_book:
+        odds = dataclasses.replace(odds, book=pick_book)     # the real Maryland book with this price
+    price = odds.home_ml if side == "home" else odds.away_ml
     reason = None
-    if ev < config.SHARP_MIN_EV:
+    if price is not None and price > config.SHARP_MAX_PRICE:
+        reason = (f"{price:+d} is too long a shot -- +300-and-longer underdogs have lost money "
+                  f"even with an edge. Skipped.")
+    elif ev < config.SHARP_MIN_EV:
         reason = (f"The best Maryland price pays only {ev:+.1%} vs the {odds.sharp_source} fair price "
                   f"(needs +{config.SHARP_MIN_EV:.0%}).")
     elif ev > config.SHARP_MAX_EV:
@@ -68,7 +71,9 @@ def _evaluate_vs_sharp(game, odds, factor_scores, fair_home, fair_away):
         game=game, odds=odds, factor_scores=factor_scores,
         market_prob_home=fair_home, market_prob_away=fair_away,
         model_prob_home=sharp_home, model_prob_away=sharp_away,
-        recommended_side=None if reason else side, edge_pct=0.0 if reason else edge,
+        # edge_pct = how much more the book pays than fair, so the report's
+        # "Edge" matches the "pays X% more" in the reason.
+        recommended_side=None if reason else side, edge_pct=0.0 if reason else ev,
         dropped_reason=reason, sharp_ev=ev,
     )
 
