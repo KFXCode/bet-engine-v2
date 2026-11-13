@@ -761,10 +761,15 @@ def scoreboard(log: list[dict]) -> dict:
 # month, Pinnacle's fair chance was 0.944 x the books' median (TD_CUT_FACTOR).
 # Tested on the 4 Sundays Oct 18 - Nov 8: the top 10 each week scored
 # 3, 3, 5 and 6 times (17 of 38 graded), close to what the chances added up to.
+# Every player any book prices is considered -- not just stars. A player needs
+# only 2 books (or Pinnacle's Yes/No) so backups, tight ends and goal-line backs
+# are never left out; the same chance and price rules apply to all of them.
 TD_BOARD_SIZE = 10
-TD_MIN_BOOKS = 4
+TD_MIN_BOOKS = 2
 TD_CUT_FACTOR = 0.944
 TD_VALUE_EV = 0.05      # best Maryland price pays 5%+ more than fair -> "value" tag
+TD_VALUE_MAX_EV = 0.40  # more than 40% over fair is a bad/stale price, same as milestones
+TD_VALUE_MIN_BOOKS = 4  # a value tag needs 4+ books (or Pinnacle Yes/No) to trust the fair price
 
 
 def _implied(price: float) -> float:
@@ -789,7 +794,8 @@ def build_td_board(odds: dict, now: datetime) -> dict:
                 elif o.get("name") == "No":
                     no.setdefault(who, {})[b["key"]] = price
         for who, books in yes.items():
-            if len(books) < TD_MIN_BOOKS:
+            two_way = any(sk in books and sk in no.get(who, {}) for sk in SHARP_BOOKS)
+            if len(books) < TD_MIN_BOOKS and not two_way:
                 continue
             imps = sorted(_implied(p) for p in books.values())
             median = imps[len(imps) // 2] if len(imps) % 2 else (imps[len(imps) // 2 - 1] + imps[len(imps) // 2]) / 2
@@ -805,17 +811,22 @@ def build_td_board(odds: dict, now: datetime) -> dict:
             best_bk = max(md, key=lambda k: american_to_decimal(md[k]))
             best = md[best_bk]
             ev_pct = fair * american_to_decimal(best) - 1
+            trusted = source == BOOK_NAMES.get("pinnacle") or source in (BOOK_NAMES.get(s) for s in SHARP_BOOKS) \
+                or len(books) >= TD_VALUE_MIN_BOOKS
+            is_value = (trusted and TD_VALUE_EV <= ev_pct <= TD_VALUE_MAX_EV
+                        and best <= MILESTONE_MAX_PRICE)
             players.append({
                 "player": who, "game": f'{ev["away_team"]} at {ev["home_team"]}', "time": ev["commence_time"],
                 "chancePct": round(fair * 100, 1), "fairPrice": decimal_to_american(1 / fair),
                 "bestPrice": best, "bestBook": BOOK_NAMES.get(best_bk, best_bk), "books": len(books),
-                "evPct": round(ev_pct * 100, 1), "value": ev_pct >= TD_VALUE_EV, "fairFrom": source,
+                "evPct": round(ev_pct * 100, 1), "value": is_value, "fairFrom": source,
             })
     players.sort(key=lambda r: -r["chancePct"])
     top = players[:TD_BOARD_SIZE]
     return {"picks": top, "playersPriced": len(players),
             "expectedHits": round(sum(r["chancePct"] for r in top) / 100, 1),
-            "valuePicks": [r for r in players if r["value"]][:5]}
+            # Value from ANY player, ranked by how much more the book pays than fair.
+            "valuePicks": sorted([r for r in players if r["value"]], key=lambda r: -r["evPct"])[:10]}
 
 
 # ------------------------------------------------------------------ main ----
