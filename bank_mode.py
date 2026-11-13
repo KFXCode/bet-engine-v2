@@ -53,12 +53,12 @@ BOOK_NAMES = {"pinnacle": "Pinnacle", "lowvig": "LowVig", "betonlineag": "BetOnl
               "fanduel": "FanDuel", "draftkings": "DraftKings", "betmgm": "BetMGM",
               "williamhill_us": "Caesars", "betrivers": "BetRivers", "espnbet": "ESPN Bet",
               "fanatics": "Fanatics"}
-GREEN_EV = 0.02        # the book must pay at least 2% more than fair
+GREEN_EV = 0.04        # the book must pay at least 4% more than fair (2-3% edges lost money, Oct-Nov 2026)
 YELLOW_FLOOR = -0.01   # within 1% of fair counts as "close to fair"
 CAP_EV = 0.10          # more than 10% better than fair = data problem, not a gift
 STALE_MINUTES = 90     # sharp line older than FanDuel's by more than this = don't trust it
 PROP_MIN_BOOKS = 4     # a prop with no sharp line needs this many other books...
-PROP_AVG_EV = 0.03     # ...and this much edge to go green
+PROP_AVG_EV = 0.05     # ...and this much edge to go green
 PROPS_KEEP_HOURS = 12  # props bought by Bank Mode are used for this long
 MARKETS = {"h2h": "Moneyline", "spreads": "Spread", "totals": "Total"}
 PROP_NAMES = {
@@ -96,8 +96,17 @@ GAME_MILESTONES = {"alternate_spreads": "Blowout spread", "alternate_totals": "A
 MILESTONE_MIN_PRICE = 100  # milestones must pay plus money (+100 or more)
 MILESTONE_MAX_PRICE = 2000  # past +2000 a "better price" is noise, not a mistake (3+ TDs at +20000)
 MILESTONE_MIN_BOOKS = 4    # other books that must post the same milestone
-MILESTONE_GREEN = 0.20     # best Maryland payout at least 20% above the best other book
-MILESTONE_YELLOW = 0.05    # 5-20% above: worth a look, not a bet
+MILESTONE_GREEN = 0.40     # best Maryland payout at least 40% above the best other book (20% lit ~100 a day)
+MILESTONE_YELLOW = 0.05    # 5-40% above: worth a look, not a bet
+
+# Spot rules (Nov 13, 2026) from Ken's graded greens and 2026 league trends.
+# SKIP: these never go green, even with an edge -- they lost money.
+#   NBA rebounds props: -36.8 units on 344 graded greens.
+#   NFL home underdogs: 22-32 against the spread, win 28% outright (2026).
+#   College football road underdogs: 46% against the spread, win 17.5% (2026).
+# HOT: a green in one of these spots gets a "hotSpot" tag so alerts list it first.
+SKIP_PROP_MARKETS = {("NBA", "Rebounds")}
+HOT_PROP_MARKETS = {("NBA", "Points"), ("NFL", "Rushing yards"), ("NFL", "Receiving yards")}
 
 
 # ------------------------------------------------------------------ math ----
@@ -319,6 +328,48 @@ def _better(a: dict, b: dict) -> bool:
     return a["book"] == "fanduel" and b["book"] != "fanduel"
 
 
+def _is_underdog(row: dict, side: dict) -> bool | None:
+    """Moneyline: the side priced longer. Spread: the side getting points."""
+    if row["market"] == "Spread" and side.get("point") is not None:
+        return side["point"] > 0
+    if row["market"] == "Moneyline":
+        other = [s for s in row["sides"] if s is not side]
+        if other:
+            return american_to_decimal(side["price"]) > american_to_decimal(other[0]["price"])
+    return None
+
+
+def apply_spot_rules(row: dict) -> None:
+    """Turn SKIP spots from green to yellow, and tag HOT spots."""
+    sport, market = row["sport"], row["market"]
+    away, _, home = row["game"].partition(" at ")
+    for s in row["sides"]:
+        s["hotSpot"] = None
+        skip = None
+        if row["isProp"]:
+            if (sport, market) in SKIP_PROP_MARKETS:
+                skip = f"{sport} {market.lower()} props have lost money for you, so they never go green."
+            elif (sport, market) in HOT_PROP_MARKETS:
+                s["hotSpot"] = f"{sport} {market.lower()} props have been winners."
+        elif market in ("Moneyline", "Spread"):
+            dog = _is_underdog(row, s)
+            is_home = s["team"] == home
+            if dog is None:
+                pass
+            elif sport == "NFL" and dog and is_home:
+                skip = "NFL home underdogs are 22-32 against the spread this season, so they never go green."
+            elif sport == "NCAAF" and dog and not is_home:
+                skip = "College road underdogs cover only 46% this season, so they never go green."
+            elif sport == "NFL" and not dog and not is_home:
+                s["hotSpot"] = "NFL road favorites are 32-22 against the spread this season."
+            elif sport == "NCAAF" and not dog and is_home:
+                s["hotSpot"] = "College home favorites cover 54% and win 82% this season."
+        if skip and s.get("light") == "green":
+            s["light"], s["why"] = "yellow", skip
+        if s.get("light") != "green":
+            s["hotSpot"] = None
+
+
 def build_rows(odds: dict, now: datetime) -> list[dict]:
     """Every two-way market at every Maryland book. Each side shows the book with the best edge."""
     merged: dict = {}
@@ -344,6 +395,7 @@ def build_rows(odds: dict, now: datetime) -> list[dict]:
                             cur["sides"][i] = new
     rows = list(merged.values())
     for r in rows:
+        apply_spot_rules(r)
         r.pop("book", None)
         r["books"] = sorted({sd["bookName"] for sd in r["sides"]})
         src = [sd for sd in r["sides"] if sd.get("fairSource")]
