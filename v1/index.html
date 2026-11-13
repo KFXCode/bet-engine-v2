@@ -186,7 +186,7 @@
   <div class="header">
     <h1>Daily Betting Report</h1>
     <p class="date">2026-11-13</p>
-    <p class="updated"><span class="dot"></span>Updated Nov 13, 2026 - 3:45 AM EST</p>
+    <p class="updated"><span class="dot"></span>Updated Nov 13, 2026 - 1:29 PM EST</p>
     <div class="strip">
       <div class="item">Slate: <b>75 games</b></div>
       <div class="item">Moon: <b>Waxing Crescent</b> in <b>Capricorn</b></div>
@@ -229,7 +229,7 @@
   <div class="warnbox">
     <b>Data quality warnings</b>
     <ul>
-      <li>28 game(s) had no real market price and were left out of the slate entirely. The engine never invents a price -- fewer picks is the correct outcome.</li><li>NO OUTPUT: NBA, NCAAB, NCAAF, NHL had games today but produced no picks and no 'considered and dropped' notes. Either nothing cleared the edge bar (fine) or that sport's odds/stats path is failing silently -- check the log for that league.</li>
+      <li>28 game(s) had no real market price and were left out of the slate entirely. The engine never invents a price -- fewer picks is the correct outcome.</li><li>NO OUTPUT: NCAAF, NHL had games today but produced no picks and no 'considered and dropped' notes. Either nothing cleared the edge bar (fine) or that sport's odds/stats path is failing silently -- check the log for that league.</li>
     </ul>
   </div>
   
@@ -9648,9 +9648,40 @@
   
   <div class="view-panel" id="view-NCAAB" style="display:none;">
 
-    <div class="section-title"><span>NCAAB &middot; Today's Moneyline Picks</span></div>
+    <div class="section-title"><span>NCAAB &middot; Today's Moneyline Picks</span><span class="expand-all" onclick="toggleAll(this)">Expand all</span></div>
     
-      <div class="dropped">No NCAAB moneyline play cleared a real edge today.</div>
+      
+      
+      <details class="pick top-pick" open>
+        <summary>
+          <div class="s-main">
+            <div class="top-badge">★ Top NCAAB ML Today</div>
+            <div class="s-team">East Texas A&M Lions <span class="sport-tag">NCAAB</span> ML</div>
+            <div class="s-sub">Rank #1 &middot; Confidence 6/10 &middot; <span class="odds">+280</span> &middot; BetRivers</div>
+          </div>
+          <div class="s-right">
+            <div class="s-edge"><div class="n">4.3%</div><div class="l">Edge</div></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </summary>
+        <div class="body">
+          <div class="metrics">
+            <div class="metric"><div class="num">27.4%</div><div class="lbl">Model win%</div></div>
+            <div class="metric"><div class="num">26.6%</div><div class="lbl">Market win%</div></div>
+          </div>
+          <div class="flags">
+            
+            
+          </div>
+          <div class="why">
+            <div class="why-title">Why this clears every layer:</div>
+            <ul>
+              <li>[Strongest NCAAB read today] Highest edge on the NCAAB slate at 4.3%.</li><li>SHARP PRICE: Pinnacle (the sharpest book) gives this side a 27.4% chance. At BetRivers's price that is +4.3% expected profit per bet -- BetRivers is paying more than the game is worth. Bet it at BetRivers.</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+      
     
 
     
@@ -10521,9 +10552,40 @@
   
   <div class="view-panel" id="view-NBA" style="display:none;">
 
-    <div class="section-title"><span>NBA &middot; Today's Moneyline Picks</span></div>
+    <div class="section-title"><span>NBA &middot; Today's Moneyline Picks</span><span class="expand-all" onclick="toggleAll(this)">Expand all</span></div>
     
-      <div class="dropped">No NBA moneyline play cleared a real edge today.</div>
+      
+      
+      <details class="pick top-pick" open>
+        <summary>
+          <div class="s-main">
+            <div class="top-badge">★ Top NBA ML Today</div>
+            <div class="s-team">CHI <span class="sport-tag">NBA</span> ML</div>
+            <div class="s-sub">Rank #1 &middot; Confidence 7/10 &middot; <span class="odds">+250</span> &middot; ESPN Bet</div>
+          </div>
+          <div class="s-right">
+            <div class="s-edge"><div class="n">4.7%</div><div class="l">Edge</div></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </summary>
+        <div class="body">
+          <div class="metrics">
+            <div class="metric"><div class="num">29.9%</div><div class="lbl">Model win%</div></div>
+            <div class="metric"><div class="num">28.6%</div><div class="lbl">Market win%</div></div>
+          </div>
+          <div class="flags">
+            
+            
+          </div>
+          <div class="why">
+            <div class="why-title">Why this clears every layer:</div>
+            <ul>
+              <li>[Strongest NBA read today] Highest edge on the NBA slate at 4.7%.</li><li>SHARP PRICE: Pinnacle (the sharpest book) gives this side a 29.9% chance. At ESPN Bet's price that is +4.7% expected profit per bet -- ESPN Bet is paying more than the game is worth. Bet it at ESPN Bet.</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+      
     
 
     
@@ -10929,10 +10991,34 @@
 
   <div class="view-panel" id="view-top" style="display:none;">
     
+    <div class="section-title"><span>Double Your Money &middot; 2 ML picks</span></div>
+    <div class="double">
+      <div class="dh">💵 ~2x payout &middot; combined +1230</div>
+      <div style="margin-top:6px;">
+        
+        <div class="leg-row"><span class="n">Leg 1</span><span class="lbl">CHI ML (+250)</span><span class="kind-tag">NBA</span></div>
+        
+        <div class="leg-row"><span class="n">Leg 2</span><span class="lbl">East Texas A&M Lions ML (+280)</span><span class="kind-tag">NCAAB</span></div>
+        
+      </div>
+      <div class="note" style="color:var(--muted); font-size:13px; margin-top:8px;">The two safest ML picks across all sports that combine to roughly double a 1-unit stake. Flat 1 unit.</div>
+    </div>
+    
 
     <div class="section-title"><span>Top Parlay of the Day &middot; all sports combined</span></div>
     
-    <div class="dropped">No top parlay today &mdash; fewer than 2 legs cleared the confidence bar across all sports. Discipline over action.</div>
+    <div class="parlay">
+      <div class="legs">2-Leg Top Parlay</div>
+      <div class="odds">Combined: +1230 &middot; 8.2% est. win probability</div>
+      <div style="margin-top:14px;">
+        
+        <div class="leg-row"><span class="n">Leg 1</span><span class="lbl">CHI ML (+250)</span><span class="kind-tag">ML</span></div>
+        
+        <div class="leg-row"><span class="n">Leg 2</span><span class="lbl">East Texas A&M Lions ML (+280)</span><span class="kind-tag">ML</span></div>
+        
+      </div>
+      <div class="note">Flat 1 unit. The single strongest ticket across every active sport &mdash; any mix of leagues and props the system rates highest today.</div>
+    </div>
     
   </div>
 
