@@ -14,17 +14,17 @@
    "win_rate": 0.512396694214876
   },
   "value": {
-   "avg_clv": 0.04252971913781842,
-   "clv_beat_rate": 0.24363161332462444,
-   "clv_n": 1531,
-   "graded": 1822,
+   "avg_clv": 0.04630350194552529,
+   "clv_beat_rate": 0.2438391699092088,
+   "clv_n": 1542,
+   "graded": 1844,
    "record": {
-    "l": 907,
+    "l": 918,
     "p": 1,
     "void": 52,
-    "w": 914
+    "w": 925
    },
-   "win_rate": 0.5019220208676551
+   "win_rate": 0.5018990775908845
   }
  },
  "by_sport": {
@@ -45,27 +45,27 @@
    "avg_clv": 0.16745541401273886,
    "clv_beat_rate": 0.15605095541401273,
    "clv_n": 314,
-   "graded": 407,
+   "graded": 415,
    "record": {
-    "l": 190,
+    "l": 194,
     "p": 0,
     "void": 17,
-    "w": 217
+    "w": 221
    },
-   "win_rate": 0.5331695331695332
+   "win_rate": 0.5325301204819277
   },
   "NBA Sides": {
-   "avg_clv": 0.08370796460176991,
-   "clv_beat_rate": 0.12389380530973451,
-   "clv_n": 113,
-   "graded": 147,
+   "avg_clv": 0.0794873949579832,
+   "clv_beat_rate": 0.11764705882352941,
+   "clv_n": 119,
+   "graded": 153,
    "record": {
-    "l": 84,
+    "l": 86,
     "p": 0,
     "void": 0,
-    "w": 63
+    "w": 67
    },
-   "win_rate": 0.42857142857142855
+   "win_rate": 0.43790849673202614
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.10449999999999998,
@@ -133,37 +133,37 @@
    "win_rate": 0.4057971014492754
   },
   "NFL Props": {
-   "avg_clv": 0.0003241895261845324,
-   "clv_beat_rate": 0.08229426433915212,
-   "clv_n": 401,
-   "graded": 503,
+   "avg_clv": 0.003957920792079202,
+   "clv_beat_rate": 0.08415841584158416,
+   "clv_n": 404,
+   "graded": 509,
    "record": {
-    "l": 254,
+    "l": 257,
     "p": 0,
     "void": 40,
-    "w": 249
+    "w": 252
    },
-   "win_rate": 0.49502982107355864
+   "win_rate": 0.4950884086444008
   },
   "NFL Sides": {
-   "avg_clv": -0.28945029239766085,
-   "clv_beat_rate": 0.32748538011695905,
-   "clv_n": 171,
-   "graded": 206,
+   "avg_clv": -0.2582543352601156,
+   "clv_beat_rate": 0.3352601156069364,
+   "clv_n": 173,
+   "graded": 208,
    "record": {
-    "l": 102,
+    "l": 104,
     "p": 1,
     "void": 0,
     "w": 103
    },
-   "win_rate": 0.5024390243902439
+   "win_rate": 0.4975845410628019
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6759 player-games, looked back 21 days)",
-  "NBA player logs: cache already current (11419 player-games, looked back 21 days)"
+  "NBA player logs: added 3 box scores, 11485 player-games cached",
+  "NFL player logs: added 1 box scores, 6777 player-games cached"
  ],
- "generated_at": "2026-11-13T02:52:28+00:00",
+ "generated_at": "2026-11-13T15:44:13+00:00",
  "graded_through": "Week of Nov 9",
  "groups": {
   "Cosmic": {
@@ -3964,10 +3964,10 @@
    "win_rate": 0.46411483253588515
   },
   "Props": {
-   "avg_clv": 0.07372167832167832,
-   "clv_beat_rate": 0.11468531468531469,
-   "clv_n": 715,
-   "graded": 910,
+   "avg_clv": 0.07545961002785516,
+   "clv_beat_rate": 0.11559888579387187,
+   "clv_n": 718,
+   "graded": 924,
    "label": "Player props",
    "picks": [
     {
@@ -20315,6 +20315,42 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 124,
+     "clv": 1.469,
+     "edge": 18.883,
+     "ev": 0.43809,
+     "final": "0",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Devin Singletary Over 1.5 receptions",
+     "player": "Devin Singletary",
+     "price": 132,
+     "proj": 2.098,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 18.527,
+     "ev": 0.34778,
+     "final": "26",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Austin Ekeler Over 6.5 receiving yards",
+     "player": "Austin Ekeler",
+     "price": -114,
+     "proj": 11.23,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -120,
      "clv": 0.0,
      "edge": 18.38,
@@ -20402,6 +20438,24 @@
      "proj": 23.502,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 16.972,
+     "ev": 0.31859,
+     "final": "78",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Cam Skattebo Over 49.5 rushing yards",
+     "player": "Cam Skattebo",
+     "price": -114,
+     "proj": 71.092,
+     "result": "W",
+     "sport": "NFL",
      "week": "Week of Nov 9"
     },
     {
@@ -20891,6 +20945,24 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.346,
+     "ev": 0.67881,
+     "final": "0 TD",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Devin Singletary anytime TD",
+     "player": "Devin Singletary",
+     "price": 270,
+     "proj": 0.605,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -108,
      "clv": 0.0,
      "edge": 18.058,
@@ -21375,22 +21447,202 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.905,
+     "ev": 0.37365,
+     "final": "6",
+     "game": "Charlotte Hornets @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Ryan Kalkbrenner Under 6.5 rebounds",
+     "player": "Ryan Kalkbrenner",
+     "price": -114,
+     "proj": 4.911,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.829,
+     "ev": 0.30845,
+     "final": "6",
+     "game": "Dallas Mavericks @ Minnesota Timberwolves",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Rudy Gobert Over 6.5 rebounds",
+     "player": "Rudy Gobert",
+     "price": -180,
+     "proj": 10.621,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.725,
+     "ev": 0.34229,
+     "final": "27",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Daniss Jenkins Under 28.5 pts+reb+ast",
+     "player": "Daniss Jenkins",
+     "price": -136,
+     "proj": 21.346,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.104,
+     "ev": 0.25074,
+     "final": "17",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Ausar Thompson Under 15.5 points",
+     "player": "Ausar Thompson",
+     "price": -320,
+     "proj": 9.319,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.871,
+     "ev": 0.34597,
+     "final": "3",
+     "game": "Dallas Mavericks @ Minnesota Timberwolves",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Cooper Flagg Over 3.5 assists",
+     "player": "Cooper Flagg",
+     "price": -120,
+     "proj": 5.63,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.662,
+     "ev": 0.35324,
+     "final": "27",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Treylon Burks Under 37.5 receiving yards",
+     "player": "Treylon Burks",
+     "price": -112,
+     "proj": 29.987,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.528,
+     "ev": 0.34781,
+     "final": "2",
+     "game": "Charlotte Hornets @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Collin Gillespie Over 1.5 rebounds",
+     "player": "Collin Gillespie",
+     "price": -114,
+     "proj": 2.855,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.028,
+     "ev": 0.31284,
+     "final": "16",
+     "game": "Charlotte Hornets @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Collin Gillespie Under 18.5 pts+reb+ast",
+     "player": "Collin Gillespie",
+     "price": -136,
+     "proj": 14.007,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.966,
+     "ev": 0.31344,
+     "final": "26",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Austin Ekeler Under 23.5 rushing yards",
+     "player": "Austin Ekeler",
+     "price": -118,
+     "proj": 18.815,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.438,
+     "ev": 0.25885,
+     "final": "11",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Cade Cunningham Under 10.5 assists",
+     "player": "Cade Cunningham",
+     "price": -174,
+     "proj": 8.142,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
-    "l": 444,
+    "l": 451,
     "p": 0,
     "void": 57,
-    "w": 466
+    "w": 473
    },
    "threshold": 7.0,
-   "win_rate": 0.512087912087912
+   "win_rate": 0.5119047619047619
   },
   "Sides": {
-   "avg_clv": 0.010840043525571271,
-   "clv_beat_rate": 0.34602829162132753,
-   "clv_n": 919,
-   "graded": 1033,
+   "avg_clv": 0.01594390507011866,
+   "clv_beat_rate": 0.3451995685005394,
+   "clv_n": 927,
+   "graded": 1041,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -38764,6 +39016,42 @@
      "week": "Week of Nov 2"
     },
     {
+     "closing_price": -134,
+     "clv": 2.644,
+     "edge": 11.824,
+     "ev": 0.21677,
+     "final": "24-21",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "New York Giants ML",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -120,
+     "clv": 2.174,
+     "edge": 9.179,
+     "ev": 0.17524,
+     "final": "24-21",
+     "game": "Washington Commanders @ New York Giants",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "New York Giants -1.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": 235,
      "clv": -1.001,
      "edge": 5.071,
@@ -39986,22 +40274,130 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -370,
+     "clv": 0.0,
+     "edge": 8.395,
+     "ev": 0.10664,
+     "final": "144-140",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Detroit Pistons ML",
+     "player": null,
+     "price": -370,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 16.671,
+     "ev": 0.32547,
+     "final": "144-140",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Detroit Pistons -9.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -210,
+     "clv": 0.0,
+     "edge": 7.444,
+     "ev": 0.10989,
+     "final": "94-133",
+     "game": "Dallas Mavericks @ Minnesota Timberwolves",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Minnesota Timberwolves ML",
+     "player": null,
+     "price": -210,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -108,
+     "clv": 0.0,
+     "edge": 9.639,
+     "ev": 0.18564,
+     "final": "94-133",
+     "game": "Dallas Mavericks @ Minnesota Timberwolves",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Minnesota Timberwolves -5.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 194,
+     "clv": 0.0,
+     "edge": 13.771,
+     "ev": 0.40486,
+     "final": "96-101",
+     "game": "Charlotte Hornets @ Phoenix Suns",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Charlotte Hornets ML",
+     "player": null,
+     "price": 194,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -106,
+     "clv": 0.0,
+     "edge": 14.125,
+     "ev": 0.2745,
+     "final": "96-101",
+     "game": "Charlotte Hornets @ Phoenix Suns",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Charlotte Hornets +6.5",
+     "player": null,
+     "price": -106,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
-    "l": 522,
+    "l": 526,
     "p": 1,
     "void": 0,
-    "w": 510
+    "w": 514
    },
    "threshold": 5.0,
-   "win_rate": 0.4941860465116279
+   "win_rate": 0.49423076923076925
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 40,
-  "Props": 193,
-  "Sides": 211
+  "Props": 179,
+  "Sides": 203
  }
 }
