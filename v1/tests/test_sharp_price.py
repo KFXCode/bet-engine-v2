@@ -66,9 +66,20 @@ class TestSharpPrice(unittest.TestCase):
         self.assertIsNone(odds.sharp_home_prob)
 
     def test_too_good_to_be_real_is_skipped(self):
-        _, ev = _eval((-400, 400), (-170, 150))
+        _, ev = _eval((-400, 200), (-170, 150))
         self.assertIsNone(ev.recommended_side)
         self.assertIn("stale", ev.dropped_reason)
+
+    def test_long_shots_past_300_skipped(self):
+        # Pinnacle +400 (fair ~19%); FanDuel +450 is a 6%+ edge but too long a shot
+        _, ev = _eval((-700, 450), (-560, 400))
+        self.assertIsNone(ev.recommended_side)
+        self.assertIn("too long a shot", ev.dropped_reason)
+
+    def test_pick_names_the_real_book(self):
+        _, ev = _eval((-210, 175), (-170, 150))
+        self.assertEqual(ev.odds.book, "fanduel")
+        self.assertAlmostEqual(ev.edge_pct, ev.sharp_ev)
 
 
 class TestBestMarylandBook(unittest.TestCase):
