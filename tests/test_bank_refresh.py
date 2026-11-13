@@ -98,7 +98,7 @@ def test_totals_graded():
         return {"key": k, "last_update": "2026-10-12T21:55:00Z", "markets": [{"key": "totals", "outcomes": [
             {"name": "Over", "price": o, "point": line}, {"name": "Under", "price": u, "point": line}]}]}
     odds = {"sports": {"americanfootball_nfl": [{"id": "g", "commence_time": "2026-10-13T00:20:00Z",
-            "home_team": "H", "away_team": "A", "bookmakers": [b("fanduel", 110, -130), b("pinnacle", -102, -108)]}]}}
+            "home_team": "H", "away_team": "A", "bookmakers": [b("fanduel", 115, -130), b("pinnacle", -102, -108)]}]}}
     row = bm.build_rows(odds, NOW)[0]
     assert row["market"] == "Total" and row["sides"][0]["team"] == "Over 47.5"
     assert row["sides"][0]["light"] == "green"

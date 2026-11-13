@@ -27,13 +27,13 @@ OTHERS = {"draftkings": 600, "betmgm": 650, "fanatics": 600, "betrivers": 700}
 
 def test_bijan_150_rushing_yards_outlier_is_green():
     # normal line 85.5; 150+ is an upside milestone
-    odds = ladder_event("americanfootball_nfl", "player_rush_yds_alternate", "Bijan Robinson", 149.5, 900,
+    odds = ladder_event("americanfootball_nfl", "player_rush_yds_alternate", "Bijan Robinson", 149.5, 1000,
                         OTHERS, main_line=85.5)
     row = bm.build_milestones(odds, NOW)[0]
     s = row["sides"][0]
     assert s["team"] == "Bijan Robinson 150+ rushing yards" and s["mainLine"] == 85.5
-    # FanDuel +900 vs best other book +700: pays 9.0 vs 7.0 profit = 29% more
-    assert s["light"] == "green" and s["outlierPct"] == 28.6 and s["fairPrice"] == 700
+    # FanDuel +1000 vs best other book +700: pays 10.0 vs 7.0 profit = 43% more
+    assert s["light"] == "green" and s["outlierPct"] == 42.9 and s["fairPrice"] == 700
     assert row["fairSource"] == "Best of 4 books" and row["isMilestone"]
 
 
@@ -91,7 +91,7 @@ def test_slightly_generous_is_yellow_and_too_few_books_is_none():
 def test_milestones_kept_out_of_main_counts(tmp_path, monkeypatch):
     monkeypatch.setattr(bm, "OUT_PATH", str(tmp_path / "out.json"))
     monkeypatch.setattr(bm, "LOG_PATH", str(tmp_path / "log.json"))
-    odds = ladder_event("americanfootball_nfl", "player_rush_yds_alternate", "Bijan Robinson", 149.5, 900,
+    odds = ladder_event("americanfootball_nfl", "player_rush_yds_alternate", "Bijan Robinson", 149.5, 1000,
                         OTHERS, main_line=85.5)
     out = bm.main(NOW, odds=odds)
     assert out["milestoneCounts"]["green"] == 1
@@ -104,10 +104,10 @@ def test_anytime_td_compared_book_to_book():
             {"name": "Yes", "description": "Josh Allen", "price": price}]}]}
     odds = {"sports": {"americanfootball_nfl": [{"id": "e1", "commence_time": "2026-10-13T00:20:00Z",
             "home_team": "Home", "away_team": "Away",
-            "bookmakers": [b("fanduel", -105), b("draftkings", -140), b("betmgm", -135), b("fanatics", -145),
+            "bookmakers": [b("fanduel", 110), b("draftkings", -140), b("betmgm", -135), b("fanatics", -145),
                            b("betrivers", -130)]}]}}
     row = bm.build_milestones(odds, NOW)[0]
     s = row["sides"][0]
     assert row["market"] == "Anytime TD" and s["team"] == "Josh Allen anytime TD"
-    # FanDuel -105 pays 0.952 profit vs best other -130 (0.769): 24% more -> green
+    # FanDuel +110 pays 1.10 profit vs best other -130 (0.769): 43% more -> green
     assert s["light"] == "green" and s["fairPrice"] == -130
