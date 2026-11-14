@@ -42383,7 +42383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -9.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1ce059ad7e592e033a7efe38d7bc7352|h2h|Southern Mississippi Golden Eagles|None",
@@ -42408,7 +42408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 4.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "13916d6f26b193abfc3367d80f27e64c|h2h|Purdue Boilermakers|None",
@@ -42429,10 +42429,10 @@
   "price": 660,
   "fairPctAtFlag": 13.5,
   "evPctAtFlag": 2.33,
-  "closeFairPct": 12.6,
+  "closeFairPct": 12.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": -4.24,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": -8.8,
   "closed": false
  },
  {
@@ -42456,7 +42456,7 @@
   "evPctAtFlag": 7.63,
   "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": -10.95,
   "closed": false
  },
@@ -43279,10 +43279,10 @@
   "price": 115,
   "fairPctAtFlag": 47.9,
   "evPctAtFlag": 2.91,
-  "closeFairPct": 48.1,
+  "closeFairPct": 50.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": 3.41,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": 8.79,
   "closed": false
  },
  {
@@ -43329,10 +43329,10 @@
   "price": 380,
   "fairPctAtFlag": 21.3,
   "evPctAtFlag": 2.45,
-  "closeFairPct": 17.9,
+  "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": -14.08,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": -16.96,
   "closed": false
  },
  {
@@ -43456,7 +43456,7 @@
   "evPctAtFlag": 8.93,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": 12.71,
   "closed": false
  },
@@ -43506,7 +43506,7 @@
   "evPctAtFlag": 5.28,
   "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": -5.36,
   "closed": false
  },
@@ -43729,10 +43729,10 @@
   "price": 145,
   "fairPctAtFlag": 42.0,
   "evPctAtFlag": 2.78,
-  "closeFairPct": 41.9,
+  "closeFairPct": 42.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": 2.66,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": 3.39,
   "closed": false
  },
  {
@@ -43756,7 +43756,7 @@
   "evPctAtFlag": 2.93,
   "closeFairPct": 13.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": -20.8,
   "closed": false
  },
@@ -43781,7 +43781,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 48.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": -6.09,
   "closed": false
  },
@@ -45479,10 +45479,10 @@
   "price": 128,
   "fairPctAtFlag": 45.2,
   "evPctAtFlag": 3.0,
-  "closeFairPct": 42.4,
+  "closeFairPct": 41.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": -3.33,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": -4.92,
   "closed": false
  },
  {
@@ -47029,10 +47029,10 @@
   "price": 163,
   "fairPctAtFlag": 39.3,
   "evPctAtFlag": 3.34,
-  "closeFairPct": 41.3,
+  "closeFairPct": 41.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": 8.62,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": 9.67,
   "closed": false
  },
  {
@@ -49304,10 +49304,10 @@
   "price": 500,
   "fairPctAtFlag": 17.9,
   "evPctAtFlag": 7.61,
-  "closeFairPct": 15.8,
+  "closeFairPct": 15.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": -5.2,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": -7.0,
   "closed": false
  },
  {
@@ -49331,7 +49331,7 @@
   "evPctAtFlag": 5.66,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": 4.37,
   "closed": false
  },
@@ -49581,7 +49581,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 29.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": 11.72,
   "closed": false
  },
@@ -51508,7 +51508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 8.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3930c9baece5db0aff8cc39629b2457d|h2h|Utah Tech Trailblazers|None",
@@ -51533,7 +51533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 24.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "824ff9f1733ae523c61341ca8d9f2fc9|h2h|Brown Bears|None",
@@ -51556,7 +51556,7 @@
   "evPctAtFlag": 6.29,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": 27.16,
   "closed": false
  },
@@ -51583,7 +51583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 8.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "99ab40e7e062011e0f76aa40b199d760|h2h|Colorado Buffaloes|None",
@@ -51606,7 +51606,7 @@
   "evPctAtFlag": 9.62,
   "closeFairPct": 17.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": 25.8,
   "closed": false
  },
@@ -51633,7 +51633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 13.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e6946f339e39ffa6503ccd5fd72e8be6|h2h|Austin Peay Governors|None",
@@ -51656,7 +51656,7 @@
   "evPctAtFlag": 5.76,
   "closeFairPct": 13.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
   "clvPct": 5.64,
   "closed": false
  },
@@ -51679,10 +51679,10 @@
   "price": 500,
   "fairPctAtFlag": 17.4,
   "evPctAtFlag": 4.4,
-  "closeFairPct": 17.3,
+  "closeFairPct": 17.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": 3.8,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": 2.0,
   "closed": false
  },
  {
@@ -51704,10 +51704,35 @@
   "price": 800,
   "fairPctAtFlag": 12.2,
   "evPctAtFlag": 9.61,
-  "closeFairPct": 12.2,
+  "closeFairPct": 12.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T20:35:11+00:00",
-  "clvPct": 9.8,
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": 8.9,
+  "closed": false
+ },
+ {
+  "key": "c4ac537963707b247ad9e4eab06c15de|h2h|Vancouver Canucks|None",
+  "eventId": "c4ac537963707b247ad9e4eab06c15de",
+  "sport": "NHL",
+  "game": "Vancouver Canucks at Vegas Golden Knights",
+  "time": "2026-11-16T02:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Vancouver Canucks",
+  "line": null,
+  "team": "Vancouver Canucks",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-14T22:41:59+00:00",
+  "price": 360,
+  "fairPctAtFlag": 23.0,
+  "evPctAtFlag": 5.92,
+  "closeFairPct": 23.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-14T22:41:59+00:00",
+  "clvPct": 5.8,
   "closed": false
  }
 ]
