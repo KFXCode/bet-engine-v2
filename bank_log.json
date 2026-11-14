@@ -41783,7 +41783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T20:35:12+00:00",
   "clvPct": 0.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "182e2b5349fa0ff4ad3c0e8359c1a9a0|player_points|Austin Reaves|25.5|Austin Reaves Over 25.5|None",
@@ -42333,7 +42333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T19:45:13+00:00",
   "clvPct": 1.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c2ccf2d604c3a791b12d26ccaaf65c70|h2h|Northern Illinois Huskies|None",
@@ -42358,7 +42358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T19:45:13+00:00",
   "clvPct": 20.89,
-  "closed": false
+  "closed": true
  },
  {
   "key": "aa1c9ee516cf122de53e75ffec017edd|h2h|Washington Huskies|None",
@@ -42381,7 +42381,7 @@
   "evPctAtFlag": 3.16,
   "closeFairPct": 55.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -9.35,
   "closed": false
  },
@@ -42406,7 +42406,7 @@
   "evPctAtFlag": 6.38,
   "closeFairPct": 13.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 4.8,
   "closed": false
  },
@@ -42431,7 +42431,7 @@
   "evPctAtFlag": 2.33,
   "closeFairPct": 12.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -4.24,
   "closed": false
  },
@@ -42456,7 +42456,7 @@
   "evPctAtFlag": 7.63,
   "closeFairPct": 13.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -10.95,
   "closed": false
  },
@@ -43258,7 +43258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T19:45:13+00:00",
   "clvPct": 12.32,
-  "closed": false
+  "closed": true
  },
  {
   "key": "558ce811ad052f49918a2855f3777baf|h2h|Marshall Thundering Herd|None",
@@ -43281,7 +43281,7 @@
   "evPctAtFlag": 2.91,
   "closeFairPct": 48.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 3.41,
   "closed": false
  },
@@ -43331,7 +43331,7 @@
   "evPctAtFlag": 2.45,
   "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -14.08,
   "closed": false
  },
@@ -43456,7 +43456,7 @@
   "evPctAtFlag": 8.93,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 12.71,
   "closed": false
  },
@@ -43506,7 +43506,7 @@
   "evPctAtFlag": 5.28,
   "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -5.36,
   "closed": false
  },
@@ -43708,7 +43708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T19:45:13+00:00",
   "clvPct": -7.05,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c83b81cc8d2110c8e4a39eefea4bdc72|h2h|Troy Trojans|None",
@@ -43731,7 +43731,7 @@
   "evPctAtFlag": 2.78,
   "closeFairPct": 41.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 2.66,
   "closed": false
  },
@@ -43756,7 +43756,7 @@
   "evPctAtFlag": 2.93,
   "closeFairPct": 13.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -20.8,
   "closed": false
  },
@@ -43781,7 +43781,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 48.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -6.09,
   "closed": false
  },
@@ -45481,7 +45481,7 @@
   "evPctAtFlag": 3.0,
   "closeFairPct": 42.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -3.33,
   "closed": false
  },
@@ -47031,7 +47031,7 @@
   "evPctAtFlag": 3.34,
   "closeFairPct": 41.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 8.62,
   "closed": false
  },
@@ -49306,7 +49306,7 @@
   "evPctAtFlag": 7.61,
   "closeFairPct": 15.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": -5.2,
   "closed": false
  },
@@ -49331,7 +49331,7 @@
   "evPctAtFlag": 5.66,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 4.37,
   "closed": false
  },
@@ -49581,7 +49581,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 29.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 11.72,
   "closed": false
  },
@@ -49633,7 +49633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T19:45:13+00:00",
   "clvPct": -4.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "bb076258b9d68ac93facc485d09f8f17|h2h|Western Illinois Leathernecks|None",
@@ -49708,7 +49708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T19:45:13+00:00",
   "clvPct": 4.47,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fc5d4e08c0f15ae40d18fe46c8cab1f4|h2h|Central Connecticut St Blue Devils|None",
@@ -51506,7 +51506,7 @@
   "evPctAtFlag": 6.23,
   "closeFairPct": 9.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -51531,7 +51531,7 @@
   "evPctAtFlag": 4.67,
   "closeFairPct": 10.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 24.8,
   "closed": false
  },
@@ -51554,10 +51554,10 @@
   "price": 580,
   "fairPctAtFlag": 15.6,
   "evPctAtFlag": 6.29,
-  "closeFairPct": 17.8,
+  "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
-  "clvPct": 21.04,
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "clvPct": 27.16,
   "closed": false
  },
  {
@@ -51581,7 +51581,7 @@
   "evPctAtFlag": 4.21,
   "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 8.5,
   "closed": false
  },
@@ -51606,7 +51606,7 @@
   "evPctAtFlag": 9.62,
   "closeFairPct": 17.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 25.8,
   "closed": false
  },
@@ -51631,7 +51631,7 @@
   "evPctAtFlag": 8.82,
   "closeFairPct": 9.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 13.4,
   "closed": false
  },
@@ -51656,7 +51656,7 @@
   "evPctAtFlag": 5.76,
   "closeFairPct": 13.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 5.64,
   "closed": false
  },
@@ -51679,10 +51679,10 @@
   "price": 500,
   "fairPctAtFlag": 17.4,
   "evPctAtFlag": 4.4,
-  "closeFairPct": 17.4,
+  "closeFairPct": 17.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
-  "clvPct": 4.4,
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
+  "clvPct": 3.8,
   "closed": false
  },
  {
@@ -51706,7 +51706,7 @@
   "evPctAtFlag": 9.61,
   "closeFairPct": 12.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T19:45:13+00:00",
+  "closeSeenAt": "2026-11-14T20:35:11+00:00",
   "clvPct": 9.8,
   "closed": false
  }
