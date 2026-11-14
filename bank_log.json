@@ -42431,7 +42431,7 @@
   "evPctAtFlag": 2.33,
   "closeFairPct": 12.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -8.8,
   "closed": false
  },
@@ -42454,10 +42454,10 @@
   "price": 550,
   "fairPctAtFlag": 16.6,
   "evPctAtFlag": 7.63,
-  "closeFairPct": 13.7,
+  "closeFairPct": 13.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": -10.95,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": -10.3,
   "closed": false
  },
  {
@@ -43283,7 +43283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T22:50:09+00:00",
   "clvPct": 8.79,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f9b805187f3809fdadddfa08dfa2a089|spreads|Boise State Broncos:-10.5/Oregon State Beavers:10.5|Boise State Broncos|-10.5",
@@ -43308,7 +43308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-09T20:35:12+00:00",
   "clvPct": 2.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d9bfb4f5e7ba909febe2a83fc04d4f15|h2h|San Jose State Spartans|None",
@@ -43329,10 +43329,10 @@
   "price": 380,
   "fairPctAtFlag": 21.3,
   "evPctAtFlag": 2.45,
-  "closeFairPct": 17.3,
+  "closeFairPct": 17.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": -16.96,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": -15.04,
   "closed": false
  },
  {
@@ -43456,7 +43456,7 @@
   "evPctAtFlag": 8.93,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 12.71,
   "closed": false
  },
@@ -43506,7 +43506,7 @@
   "evPctAtFlag": 5.28,
   "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -5.36,
   "closed": false
  },
@@ -43731,7 +43731,7 @@
   "evPctAtFlag": 2.78,
   "closeFairPct": 42.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 3.39,
   "closed": false
  },
@@ -43754,10 +43754,10 @@
   "price": 500,
   "fairPctAtFlag": 17.2,
   "evPctAtFlag": 2.93,
-  "closeFairPct": 13.2,
+  "closeFairPct": 13.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": -20.8,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": -21.4,
   "closed": false
  },
  {
@@ -43781,7 +43781,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 48.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -6.09,
   "closed": false
  },
@@ -45481,7 +45481,7 @@
   "evPctAtFlag": 3.0,
   "closeFairPct": 41.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -4.92,
   "closed": false
  },
@@ -47033,7 +47033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T22:50:09+00:00",
   "clvPct": 9.67,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9e33af22fe8e08e53ec595237d2c8ee9|h2h|Holy Cross Crusaders|None",
@@ -49308,7 +49308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T22:50:09+00:00",
   "clvPct": -7.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6c932a965110f3f89ec4a5f1a6ac256e|h2h|Arizona Cardinals|None",
@@ -49331,7 +49331,7 @@
   "evPctAtFlag": 5.66,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 4.37,
   "closed": false
  },
@@ -49581,7 +49581,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 29.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 11.72,
   "closed": false
  },
@@ -51556,7 +51556,7 @@
   "evPctAtFlag": 6.29,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 27.16,
   "closed": false
  },
@@ -51608,7 +51608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T22:50:09+00:00",
   "clvPct": 25.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "fa1b98a7b5a89d610bb08d8a8f5afc50|h2h|Lafayette Leopards|None",
@@ -51654,10 +51654,10 @@
   "price": 660,
   "fairPctAtFlag": 13.9,
   "evPctAtFlag": 5.76,
-  "closeFairPct": 13.9,
+  "closeFairPct": 13.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": 5.64,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 4.88,
   "closed": false
  },
  {
@@ -51679,10 +51679,10 @@
   "price": 500,
   "fairPctAtFlag": 17.4,
   "evPctAtFlag": 4.4,
-  "closeFairPct": 16.8,
+  "closeFairPct": 17.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": 0.8,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 5.6,
   "closed": false
  },
  {
@@ -51706,7 +51706,7 @@
   "evPctAtFlag": 9.61,
   "closeFairPct": 12.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -51729,10 +51729,10 @@
   "price": 360,
   "fairPctAtFlag": 23.0,
   "evPctAtFlag": 5.92,
-  "closeFairPct": 23.0,
+  "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": 5.8,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 3.5,
   "closed": false
  },
  {
@@ -51754,10 +51754,10 @@
   "price": -130,
   "fairPctAtFlag": 58.9,
   "evPctAtFlag": 4.28,
-  "closeFairPct": 58.9,
+  "closeFairPct": 59.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": 4.21,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 4.38,
   "closed": false
  },
  {
@@ -51779,10 +51779,10 @@
   "price": 125,
   "fairPctAtFlag": 46.3,
   "evPctAtFlag": 4.23,
-  "closeFairPct": 46.3,
+  "closeFairPct": 45.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
-  "clvPct": 4.17,
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 1.48,
   "closed": false
  },
  {
@@ -51806,7 +51806,7 @@
   "evPctAtFlag": 5.13,
   "closeFairPct": 57.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 5.05,
   "closed": false
  },
@@ -51831,7 +51831,7 @@
   "evPctAtFlag": 4.58,
   "closeFairPct": 53.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 4.65,
   "closed": false
  },
@@ -51856,7 +51856,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 53.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 4.45,
   "closed": false
  },
@@ -51881,8 +51881,133 @@
   "evPctAtFlag": 6.54,
   "closeFairPct": 46.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-14T22:50:09+00:00",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 6.49,
+  "closed": false
+ },
+ {
+  "key": "665e8ee69f880c0aff4c376b0b64392e|h2h|Jacksonville St Gamecocks|None",
+  "eventId": "665e8ee69f880c0aff4c376b0b64392e",
+  "sport": "NCAAB",
+  "game": "UAB Blazers at Jacksonville St Gamecocks",
+  "time": "2026-11-15T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Jacksonville St Gamecocks",
+  "line": null,
+  "team": "Jacksonville St Gamecocks",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-14T23:45:10+00:00",
+  "price": 128,
+  "fairPctAtFlag": 45.9,
+  "evPctAtFlag": 4.64,
+  "closeFairPct": 45.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 4.65,
+  "closed": false
+ },
+ {
+  "key": "a7cb6062530bd69eb6caee84a015abd0|player_threes|Cameron Boozer|1.5|Cameron Boozer Under 1.5|None",
+  "eventId": "a7cb6062530bd69eb6caee84a015abd0",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Memphis Grizzlies",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Cameron Boozer",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Cameron Boozer Under 1.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-14T23:45:10+00:00",
+  "price": 130,
+  "fairPctAtFlag": 45.2,
+  "evPctAtFlag": 4.02,
+  "closeFairPct": 45.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 3.96,
+  "closed": false
+ },
+ {
+  "key": "a7cb6062530bd69eb6caee84a015abd0|player_threes|Jerami Grant|1.5|Jerami Grant Under 1.5|None",
+  "eventId": "a7cb6062530bd69eb6caee84a015abd0",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Memphis Grizzlies",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Jerami Grant",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Jerami Grant Under 1.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-14T23:45:10+00:00",
+  "price": -120,
+  "fairPctAtFlag": 57.3,
+  "evPctAtFlag": 5.02,
+  "closeFairPct": 57.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 5.05,
+  "closed": false
+ },
+ {
+  "key": "cb06267ae037a883ae6f71078d6e2aaa|player_threes|Andrew Wiggins|1.5|Andrew Wiggins Over 1.5|None",
+  "eventId": "cb06267ae037a883ae6f71078d6e2aaa",
+  "sport": "NBA",
+  "game": "Detroit Pistons at Miami Heat",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Andrew Wiggins",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Andrew Wiggins Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-14T23:45:10+00:00",
+  "price": 148,
+  "fairPctAtFlag": 43.1,
+  "evPctAtFlag": 6.82,
+  "closeFairPct": 43.1,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 6.89,
+  "closed": false
+ },
+ {
+  "key": "cb06267ae037a883ae6f71078d6e2aaa|player_threes|Cade Cunningham|2.5|Cade Cunningham Over 2.5|None",
+  "eventId": "cb06267ae037a883ae6f71078d6e2aaa",
+  "sport": "NBA",
+  "game": "Detroit Pistons at Miami Heat",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Cade Cunningham",
+  "name": "Over",
+  "line": 2.5,
+  "team": "Cade Cunningham Over 2.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-14T23:45:10+00:00",
+  "price": 126,
+  "fairPctAtFlag": 46.9,
+  "evPctAtFlag": 5.99,
+  "closeFairPct": 46.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "clvPct": 5.99,
   "closed": false
  }
 ]
