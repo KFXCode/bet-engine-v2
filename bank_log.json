@@ -43456,7 +43456,7 @@
   "evPctAtFlag": 8.93,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T03:07:55+00:00",
+  "closeSeenAt": "2026-11-15T07:04:55+00:00",
   "clvPct": 12.71,
   "closed": false
  },
@@ -43506,7 +43506,7 @@
   "evPctAtFlag": 5.28,
   "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T03:07:55+00:00",
+  "closeSeenAt": "2026-11-15T07:04:55+00:00",
   "clvPct": -5.36,
   "closed": false
  },
@@ -43783,7 +43783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T02:09:47+00:00",
   "clvPct": -6.09,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1df5ff8fe9c6d2dbff1d0ae176063b37|player_rebounds|Naz Reid|8.5|Naz Reid Under 8.5|None",
@@ -49331,7 +49331,7 @@
   "evPctAtFlag": 5.66,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T03:07:55+00:00",
+  "closeSeenAt": "2026-11-15T07:04:55+00:00",
   "clvPct": 4.37,
   "closed": false
  },
@@ -51731,7 +51731,7 @@
   "evPctAtFlag": 5.92,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T03:07:55+00:00",
+  "closeSeenAt": "2026-11-15T07:04:55+00:00",
   "clvPct": 3.5,
   "closed": false
  },
@@ -52133,7 +52133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T03:07:55+00:00",
   "clvPct": -2.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "539a387d9fd0da9af213bf8002fdb0d4|totals|Over:6.5/Under:6.5|Under 6.5|None",
@@ -52156,7 +52156,7 @@
   "evPctAtFlag": 4.13,
   "closeFairPct": 47.3,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-15T03:07:55+00:00",
+  "closeSeenAt": "2026-11-15T07:04:55+00:00",
   "clvPct": 4.06,
   "closed": false
  }
