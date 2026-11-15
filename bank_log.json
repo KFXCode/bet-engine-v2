@@ -51729,10 +51729,10 @@
   "price": 360,
   "fairPctAtFlag": 23.0,
   "evPctAtFlag": 5.92,
-  "closeFairPct": 21.8,
+  "closeFairPct": 21.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
-  "clvPct": 0.28,
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
+  "clvPct": -0.18,
   "closed": false
  },
  {
@@ -52156,7 +52156,7 @@
   "evPctAtFlag": 4.13,
   "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
   "clvPct": 4.28,
   "closed": false
  },
@@ -52231,7 +52231,7 @@
   "evPctAtFlag": 4.62,
   "closeFairPct": 14.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
   "clvPct": 6.4,
   "closed": false
  },
@@ -52254,10 +52254,10 @@
   "price": 329,
   "fairPctAtFlag": 24.2,
   "evPctAtFlag": 4.02,
-  "closeFairPct": 24.8,
+  "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
-  "clvPct": 6.39,
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
+  "clvPct": 8.97,
   "closed": false
  },
  {
@@ -52306,7 +52306,7 @@
   "evPctAtFlag": 5.59,
   "closeFairPct": 12.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -52533,7 +52533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T21:57:26+00:00",
   "clvPct": 30.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "956532b58659658093d93e24e83f5213|h2h|Dallas Mavericks|None",
@@ -52554,10 +52554,10 @@
   "price": 650,
   "fairPctAtFlag": 13.9,
   "evPctAtFlag": 4.21,
-  "closeFairPct": 13.0,
+  "closeFairPct": 12.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
-  "clvPct": -2.5,
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
+  "clvPct": -4.0,
   "closed": false
  },
  {
@@ -52583,7 +52583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T21:57:26+00:00",
   "clvPct": 5.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f8334b355cf9346d423fa9eb93b425f0|h2h|Sacramento Kings|None",
@@ -52606,8 +52606,33 @@
   "evPctAtFlag": 5.04,
   "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
   "clvPct": 5.04,
+  "closed": false
+ },
+ {
+  "key": "488c2bc1e099361f06015cf126f95fd6|player_threes|Kevin Durant|1.5|Kevin Durant Under 1.5|None",
+  "eventId": "488c2bc1e099361f06015cf126f95fd6",
+  "sport": "NBA",
+  "game": "Houston Rockets at Washington Wizards",
+  "time": "2026-11-16T00:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Kevin Durant",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Kevin Durant Under 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-15T22:50:10+00:00",
+  "price": 111,
+  "fairPctAtFlag": 49.4,
+  "evPctAtFlag": 4.22,
+  "closeFairPct": 49.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T22:50:10+00:00",
+  "clvPct": 4.23,
   "closed": false
  }
 ]
