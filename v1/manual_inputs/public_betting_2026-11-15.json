@@ -1,0 +1,428 @@
+{
+  "nfl-401873053": {
+    "_matchup": "NE @ DET",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873058": {
+    "_matchup": "KC @ ATL",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873056": {
+    "_matchup": "HOU @ CLE",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873060": {
+    "_matchup": "MIN @ GB",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873057": {
+    "_matchup": "JAX @ TEN",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873059": {
+    "_matchup": "MIA @ IND",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873055": {
+    "_matchup": "CAR @ NO",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873054": {
+    "_matchup": "BUF @ NYJ",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873062": {
+    "_matchup": "SEA @ LV",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873061": {
+    "_matchup": "LAR @ ARI",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873063": {
+    "_matchup": "SF @ DAL",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nfl-401873064": {
+    "_matchup": "PIT @ CIN",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaaf-401856887": {
+    "_matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401929458": {
+    "_matchup": "Abraham Baldwin Agricultural Stallions @ Florida Gulf Coast Eagles",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401924858": {
+    "_matchup": "Quinnipiac Bobcats @ Central Connecticut Blue Devils",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401918949": {
+    "_matchup": "Louisville Cardinals @ Memphis Tigers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401926063": {
+    "_matchup": "Boise State Broncos @ Nebraska Cornhuskers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401925896": {
+    "_matchup": "Norfolk State Spartans @ Georgia State Panthers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920771": {
+    "_matchup": "Colgate Raiders @ Delaware Blue Hens",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920235": {
+    "_matchup": "Dartmouth Big Green @ Boston University Terriers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401912210": {
+    "_matchup": "Harvard Crimson @ American University Eagles",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401909774": {
+    "_matchup": "Niagara Purple Eagles @ Iowa State Cyclones",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401909554": {
+    "_matchup": "New Hampshire Wildcats @ Boston College Eagles",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401918453": {
+    "_matchup": "William & Mary Tribe @ Michigan Wolverines",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401928825": {
+    "_matchup": "Capital Crusaders @ Robert Morris Colonials",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401925926": {
+    "_matchup": "South Carolina State Bulldogs @ Charleston Cougars",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401925812": {
+    "_matchup": "Temple Owls @ La Salle Explorers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401924744": {
+    "_matchup": "Emmanuel MA Lions @ Yale Bulldogs",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401921287": {
+    "_matchup": "UAlbany Great Danes @ Holy Cross Crusaders",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920136": {
+    "_matchup": "Cal State Bakersfield Roadrunners @ North Dakota State Bison",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920065": {
+    "_matchup": "Princeton Tigers @ Rhode Island Rams",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401909525": {
+    "_matchup": "Missouri Tigers @ Marquette Golden Eagles",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401906866": {
+    "_matchup": "Baylor Bears @ Texas Longhorns",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401926216": {
+    "_matchup": "Wright StateLake Lakers @ Tennessee Tech Golden Eagles",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401926068": {
+    "_matchup": "Purdue Fort Wayne Mastodons @ Eastern Illinois Panthers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401921168": {
+    "_matchup": "Cleveland State Vikings @ Alabama A&M Bulldogs",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401911251": {
+    "_matchup": "High Point Panthers @ Saint Louis Billikens",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401909493": {
+    "_matchup": "Creighton Bluejays @ Iowa Hawkeyes",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401934396": {
+    "_matchup": "Air Force Falcons @ Pacific Tigers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401928789": {
+    "_matchup": "New Mexico State Aggies @ San Diego State Aztecs",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401928353": {
+    "_matchup": "UC Merced Bobcats @ UC Santa Barbara Gauchos",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401919825": {
+    "_matchup": "Mercyhurst Lakers @ James Madison Dukes",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401917531": {
+    "_matchup": "Chicago State Cougars @ Loyola Marymount Lions",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401917528": {
+    "_matchup": "Idaho State Bengals @ Seattle U Redhawks",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401929405": {
+    "_matchup": "Doane Tigers @ South Dakota Coyotes",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401923393": {
+    "_matchup": "Western Michigan Broncos @ Southern Indiana Screaming Eagles",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401917175": {
+    "_matchup": "New Haven Chargers @ Penn State Nittany Lions",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401926073": {
+    "_matchup": "Pepperdine Waves @ Oregon Ducks",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401911017": {
+    "_matchup": "Canisius Golden Griffins @ Buffalo Bulls",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401926733": {
+    "_matchup": "Ecclesia Royals @ UT Martin Skyhawks",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920124": {
+    "_matchup": "Cal Poly Mustangs @ Montana State Bobcats",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920681": {
+    "_matchup": "Syracuse Orange @ St Johns Red Storm",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401926772": {
+    "_matchup": "ArkansasPine Bluff Golden Lions @ USC Trojans",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401929200": {
+    "_matchup": "Texas State Bobcats @ UTSA Roadrunners",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401925718": {
+    "_matchup": "Paine Lions @ BethuneCookman Wildcats",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401920896": {
+    "_matchup": "Coastal Carolina Chanticleers @ Wisconsin Badgers",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "ncaab-401911472": {
+    "_matchup": "Alabama State Hornets @ San Jos\u00e9 State Spartans",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nhl-401892721": {
+    "_matchup": "EDM @ PHI",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nhl-401892722": {
+    "_matchup": "FLA @ DAL",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nhl-401892723": {
+    "_matchup": "CGY @ ANA",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nhl-401892724": {
+    "_matchup": "VAN @ VGK",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nhl-401892725": {
+    "_matchup": "NSH @ SJS",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909985": {
+    "_matchup": "IND @ PHI",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909986": {
+    "_matchup": "LAL @ PHX",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909987": {
+    "_matchup": "CHA @ LAC",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909988": {
+    "_matchup": "SAS @ UTA",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909989": {
+    "_matchup": "DAL @ BOS",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909990": {
+    "_matchup": "NYK @ TOR",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909991": {
+    "_matchup": "HOU @ WAS",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909992": {
+    "_matchup": "ATL @ MIL",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  },
+  "nba-401909993": {
+    "_matchup": "OKC @ SAC",
+    "tickets_pct_home": 50.0,
+    "handle_pct_home": 50.0,
+    "source": "sportsbettingdime.com"
+  }
+}
