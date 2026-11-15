@@ -42433,7 +42433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -8.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "77380a347bae20671e1f8cec27ce658b|h2h|Stanford Cardinal|None",
@@ -42458,7 +42458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -10.3,
-  "closed": false
+  "closed": true
  },
  {
   "key": "758ca94b2abd151c0593b182254dab32|player_points|Jaylen Clark|5.5|Jaylen Clark Under 5.5|None",
@@ -43333,7 +43333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -15.04,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ece9b1bb56a95381f1c485d22bd36dd8|spreads|San Diego State Aztecs:1.5/Utah State Aggies:-1.5|Utah State Aggies|-1.5",
@@ -43456,7 +43456,7 @@
   "evPctAtFlag": 8.93,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 12.71,
   "closed": false
  },
@@ -43506,7 +43506,7 @@
   "evPctAtFlag": 5.28,
   "closeFairPct": 18.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": -5.36,
   "closed": false
  },
@@ -43733,7 +43733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 3.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "8982b0a852d112b25310aa03f0f104b6|h2h|UNLV Rebels|None",
@@ -43758,7 +43758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": -21.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c3c46d55350226dd82d83ecf0b52891a|spreads|Colorado State Rams:9.5/Washington State Cougars:-9.5|Washington State Cougars|-9.5",
@@ -43781,7 +43781,7 @@
   "evPctAtFlag": 2.07,
   "closeFairPct": 48.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": -6.09,
   "closed": false
  },
@@ -45481,7 +45481,7 @@
   "evPctAtFlag": 3.0,
   "closeFairPct": 41.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": -4.92,
   "closed": false
  },
@@ -49331,7 +49331,7 @@
   "evPctAtFlag": 5.66,
   "closeFairPct": 21.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 4.37,
   "closed": false
  },
@@ -49581,7 +49581,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 29.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 11.72,
   "closed": false
  },
@@ -51558,7 +51558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 27.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4f85131b4b86a5241b2228638fb6fffb|h2h|South Carolina Upstate Spartans|None",
@@ -51658,7 +51658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 4.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6cb4c8feeadd57aa6ab46ebdee60818a|h2h|New Orleans Pelicans|None",
@@ -51683,7 +51683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 5.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5773e80d52d3fba36b11be38ded62790|h2h|Chicago Bulls|None",
@@ -51706,7 +51706,7 @@
   "evPctAtFlag": 9.61,
   "closeFairPct": 12.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -51731,7 +51731,7 @@
   "evPctAtFlag": 5.92,
   "closeFairPct": 22.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 3.5,
   "closed": false
  },
@@ -51758,7 +51758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 4.38,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6cb4c8feeadd57aa6ab46ebdee60818a|player_threes|Jordan Poole|1.5|Jordan Poole Under 1.5|None",
@@ -51783,7 +51783,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 1.48,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6cb4c8feeadd57aa6ab46ebdee60818a|player_threes|Saddiq Bey|2.5|Saddiq Bey Under 2.5|None",
@@ -51808,7 +51808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 5.05,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5773e80d52d3fba36b11be38ded62790|player_assists|Jonathan Kuminga|2.5|Jonathan Kuminga Under 2.5|None",
@@ -51831,7 +51831,7 @@
   "evPctAtFlag": 4.58,
   "closeFairPct": 53.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 4.65,
   "closed": false
  },
@@ -51856,7 +51856,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 53.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 4.45,
   "closed": false
  },
@@ -51881,7 +51881,7 @@
   "evPctAtFlag": 6.54,
   "closeFairPct": 46.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
   "clvPct": 6.49,
   "closed": false
  },
@@ -51908,7 +51908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-14T23:45:10+00:00",
   "clvPct": 4.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a7cb6062530bd69eb6caee84a015abd0|player_threes|Cameron Boozer|1.5|Cameron Boozer Under 1.5|None",
@@ -51979,10 +51979,10 @@
   "price": 148,
   "fairPctAtFlag": 43.1,
   "evPctAtFlag": 6.82,
-  "closeFairPct": 43.1,
+  "closeFairPct": 42.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
-  "clvPct": 6.89,
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 5.9,
   "closed": false
  },
  {
@@ -52004,10 +52004,135 @@
   "price": 126,
   "fairPctAtFlag": 46.9,
   "evPctAtFlag": 5.99,
-  "closeFairPct": 46.9,
+  "closeFairPct": 46.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-14T23:45:10+00:00",
-  "clvPct": 5.99,
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 5.54,
+  "closed": false
+ },
+ {
+  "key": "2cc2c254049b0bd0a6219f70cbb0b69a|player_threes|Jaylon Tyson|2.5|Jaylon Tyson Over 2.5|None",
+  "eventId": "2cc2c254049b0bd0a6219f70cbb0b69a",
+  "sport": "NBA",
+  "game": "Dallas Mavericks at Cleveland Cavaliers",
+  "time": "2026-11-15T00:41:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Jaylon Tyson",
+  "name": "Over",
+  "line": 2.5,
+  "team": "Jaylon Tyson Over 2.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-15T00:35:08+00:00",
+  "price": 120,
+  "fairPctAtFlag": 49.0,
+  "evPctAtFlag": 7.74,
+  "closeFairPct": 49.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 7.8,
+  "closed": false
+ },
+ {
+  "key": "a7cb6062530bd69eb6caee84a015abd0|player_threes|Nolan Traore|1.5|Nolan Traore Over 1.5|None",
+  "eventId": "a7cb6062530bd69eb6caee84a015abd0",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Memphis Grizzlies",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Nolan Traore",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Nolan Traore Over 1.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-15T00:35:08+00:00",
+  "price": 120,
+  "fairPctAtFlag": 47.9,
+  "evPctAtFlag": 5.37,
+  "closeFairPct": 47.9,
+  "closeSource": "5-book average",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 5.38,
+  "closed": false
+ },
+ {
+  "key": "5773e80d52d3fba36b11be38ded62790|player_threes|Norman Powell|2.5|Norman Powell Over 2.5|None",
+  "eventId": "5773e80d52d3fba36b11be38ded62790",
+  "sport": "NBA",
+  "game": "Chicago Bulls at Minnesota Timberwolves",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Norman Powell",
+  "name": "Over",
+  "line": 2.5,
+  "team": "Norman Powell Over 2.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-15T00:35:08+00:00",
+  "price": 132,
+  "fairPctAtFlag": 46.0,
+  "evPctAtFlag": 6.74,
+  "closeFairPct": 46.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 6.72,
+  "closed": false
+ },
+ {
+  "key": "cb06267ae037a883ae6f71078d6e2aaa|player_assists|Paul Reed Jr|2.5|Paul Reed Jr Over 2.5|None",
+  "eventId": "cb06267ae037a883ae6f71078d6e2aaa",
+  "sport": "NBA",
+  "game": "Detroit Pistons at Miami Heat",
+  "time": "2026-11-15T01:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Paul Reed Jr",
+  "name": "Over",
+  "line": 2.5,
+  "team": "Paul Reed Jr Over 2.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-15T00:35:08+00:00",
+  "price": 147,
+  "fairPctAtFlag": 44.4,
+  "evPctAtFlag": 9.55,
+  "closeFairPct": 44.4,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 9.67,
+  "closed": false
+ },
+ {
+  "key": "ce88da9d6fd67bac81c1e4a70545de29|h2h|Hawaii Rainbow Warriors|None",
+  "eventId": "ce88da9d6fd67bac81c1e4a70545de29",
+  "sport": "NCAAF",
+  "game": "North Dakota State Bison at Hawaii Rainbow Warriors",
+  "time": "2026-11-15T04:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Hawaii Rainbow Warriors",
+  "line": null,
+  "team": "Hawaii Rainbow Warriors",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-15T00:35:08+00:00",
+  "price": 250,
+  "fairPctAtFlag": 30.3,
+  "evPctAtFlag": 6.04,
+  "closeFairPct": 30.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T00:35:08+00:00",
+  "clvPct": 6.05,
   "closed": false
  }
 ]
