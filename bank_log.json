@@ -43454,10 +43454,10 @@
   "price": 410,
   "fairPctAtFlag": 21.4,
   "evPctAtFlag": 8.93,
-  "closeFairPct": 20.4,
+  "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": 4.04,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 3.02,
   "closed": false
  },
  {
@@ -43504,10 +43504,10 @@
   "price": 420,
   "fairPctAtFlag": 20.2,
   "evPctAtFlag": 5.28,
-  "closeFairPct": 18.4,
+  "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": -4.32,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": -2.76,
   "closed": false
  },
  {
@@ -49331,7 +49331,7 @@
   "evPctAtFlag": 5.66,
   "closeFairPct": 20.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 0.45,
   "closed": false
  },
@@ -51731,7 +51731,7 @@
   "evPctAtFlag": 5.92,
   "closeFairPct": 22.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 2.58,
   "closed": false
  },
@@ -52156,7 +52156,7 @@
   "evPctAtFlag": 4.13,
   "closeFairPct": 47.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 3.4,
   "closed": false
  },
@@ -52181,7 +52181,7 @@
   "evPctAtFlag": 9.55,
   "closeFairPct": 9.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 17.0,
   "closed": false
  },
@@ -52204,10 +52204,10 @@
   "price": 700,
   "fairPctAtFlag": 13.2,
   "evPctAtFlag": 5.23,
-  "closeFairPct": 13.4,
+  "closeFairPct": 14.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": 7.2,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 12.0,
   "closed": false
  },
  {
@@ -52229,10 +52229,10 @@
   "price": 660,
   "fairPctAtFlag": 13.8,
   "evPctAtFlag": 4.62,
-  "closeFairPct": 13.9,
+  "closeFairPct": 14.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": 5.64,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 6.4,
   "closed": false
  },
  {
@@ -52254,10 +52254,10 @@
   "price": 329,
   "fairPctAtFlag": 24.2,
   "evPctAtFlag": 4.02,
-  "closeFairPct": 25.5,
+  "closeFairPct": 26.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": 9.39,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 14.54,
   "closed": false
  },
  {
@@ -52281,7 +52281,7 @@
   "evPctAtFlag": 4.93,
   "closeFairPct": 19.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 10.88,
   "closed": false
  },
@@ -52304,10 +52304,10 @@
   "price": 740,
   "fairPctAtFlag": 12.6,
   "evPctAtFlag": 5.59,
-  "closeFairPct": 12.4,
+  "closeFairPct": 12.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": 4.16,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 3.32,
   "closed": false
  },
  {
@@ -52331,7 +52331,7 @@
   "evPctAtFlag": 5.19,
   "closeFairPct": 57.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 5.23,
   "closed": false
  },
@@ -52356,7 +52356,7 @@
   "evPctAtFlag": 4.79,
   "closeFairPct": 45.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 4.88,
   "closed": false
  },
@@ -52381,7 +52381,7 @@
   "evPctAtFlag": 4.96,
   "closeFairPct": 43.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 4.88,
   "closed": false
  },
@@ -52404,10 +52404,10 @@
   "price": 265,
   "fairPctAtFlag": 28.9,
   "evPctAtFlag": 5.59,
-  "closeFairPct": 28.9,
+  "closeFairPct": 28.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
-  "clvPct": 5.48,
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 3.3,
   "closed": false
  },
  {
@@ -52431,7 +52431,7 @@
   "evPctAtFlag": 6.99,
   "closeFairPct": 55.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 7.08,
   "closed": false
  },
@@ -52456,7 +52456,7 @@
   "evPctAtFlag": 7.93,
   "closeFairPct": 50.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 7.93,
   "closed": false
  },
@@ -52481,8 +52481,58 @@
   "evPctAtFlag": 6.1,
   "closeFairPct": 46.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T16:45:15+00:00",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 6.03,
+  "closed": false
+ },
+ {
+  "key": "357a70575c2cb9185f1773634d7f1624|h2h|Central Connecticut St Blue Devils|None",
+  "eventId": "357a70575c2cb9185f1773634d7f1624",
+  "sport": "NCAAB",
+  "game": "Quinnipiac Bobcats at Central Connecticut St Blue Devils",
+  "time": "2026-11-15T18:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Central Connecticut St Blue Devils",
+  "line": null,
+  "team": "Central Connecticut St Blue Devils",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-15T17:30:10+00:00",
+  "price": 190,
+  "fairPctAtFlag": 37.8,
+  "evPctAtFlag": 9.48,
+  "closeFairPct": 37.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 9.62,
+  "closed": false
+ },
+ {
+  "key": "b2ffb781fe21df092fae2cff6c4c8c89|h2h|Utah Jazz|None",
+  "eventId": "b2ffb781fe21df092fae2cff6c4c8c89",
+  "sport": "NBA",
+  "game": "San Antonio Spurs at Utah Jazz",
+  "time": "2026-11-15T22:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Utah Jazz",
+  "line": null,
+  "team": "Utah Jazz",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-15T17:30:10+00:00",
+  "price": 900,
+  "fairPctAtFlag": 10.6,
+  "evPctAtFlag": 6.44,
+  "closeFairPct": 10.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T17:30:10+00:00",
+  "clvPct": 6.0,
   "closed": false
  }
 ]
