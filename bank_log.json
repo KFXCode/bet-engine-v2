@@ -44158,7 +44158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-12T07:38:06+00:00",
   "clvPct": -3.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1df5ff8fe9c6d2dbff1d0ae176063b37|player_assists|Naz Reid|2.5|Naz Reid Under 2.5|None",
@@ -49333,7 +49333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T20:59:47+00:00",
   "clvPct": -1.02,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1ee47a3559104cb9fdb52dce0dd26728|h2h|UMKC Kangaroos|None",
@@ -51729,10 +51729,10 @@
   "price": 360,
   "fairPctAtFlag": 23.0,
   "evPctAtFlag": 5.92,
-  "closeFairPct": 22.0,
+  "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:35:14+00:00",
-  "clvPct": 1.2,
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "clvPct": 0.28,
   "closed": false
  },
  {
@@ -52154,10 +52154,10 @@
   "price": 120,
   "fairPctAtFlag": 47.3,
   "evPctAtFlag": 4.13,
-  "closeFairPct": 47.0,
+  "closeFairPct": 47.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:35:14+00:00",
-  "clvPct": 3.4,
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "clvPct": 4.28,
   "closed": false
  },
  {
@@ -52183,7 +52183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T20:59:47+00:00",
   "clvPct": 15.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7ea8f401ad5b219d542a164aa94c023c|h2h|New Mexico St Aggies|None",
@@ -52208,7 +52208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T20:59:47+00:00",
   "clvPct": 10.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "582afe6b3fd7ef51b57ac7c6fc777820|h2h|Syracuse Orange|None",
@@ -52229,10 +52229,10 @@
   "price": 660,
   "fairPctAtFlag": 13.8,
   "evPctAtFlag": 4.62,
-  "closeFairPct": 13.9,
+  "closeFairPct": 14.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
-  "clvPct": 5.64,
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "clvPct": 6.4,
   "closed": false
  },
  {
@@ -52254,10 +52254,10 @@
   "price": 329,
   "fairPctAtFlag": 24.2,
   "evPctAtFlag": 4.02,
-  "closeFairPct": 25.8,
+  "closeFairPct": 24.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
-  "clvPct": 10.68,
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "clvPct": 6.39,
   "closed": false
  },
  {
@@ -52306,7 +52306,7 @@
   "evPctAtFlag": 5.59,
   "closeFairPct": 12.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -52529,10 +52529,10 @@
   "price": 900,
   "fairPctAtFlag": 10.6,
   "evPctAtFlag": 6.44,
-  "closeFairPct": 12.5,
+  "closeFairPct": 13.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
-  "clvPct": 25.0,
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "clvPct": 30.0,
   "closed": false
  },
  {
@@ -52554,10 +52554,10 @@
   "price": 650,
   "fairPctAtFlag": 13.9,
   "evPctAtFlag": 4.21,
-  "closeFairPct": 14.1,
+  "closeFairPct": 13.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
-  "clvPct": 5.75,
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
+  "clvPct": -2.5,
   "closed": false
  },
  {
@@ -52581,7 +52581,7 @@
   "evPctAtFlag": 5.69,
   "closeFairPct": 52.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
   "clvPct": 5.65,
   "closed": false
  },
@@ -52606,7 +52606,7 @@
   "evPctAtFlag": 5.04,
   "closeFairPct": 20.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T20:59:47+00:00",
+  "closeSeenAt": "2026-11-15T21:57:26+00:00",
   "clvPct": 5.04,
   "closed": false
  }
