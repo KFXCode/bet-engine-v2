@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.053493924665856625,
-   "clv_beat_rate": 0.2454434993924666,
-   "clv_n": 1646,
-   "graded": 1962,
+   "avg_clv": 0.053319806178073886,
+   "clv_beat_rate": 0.24530587522713507,
+   "clv_n": 1651,
+   "graded": 1967,
    "record": {
-    "l": 971,
+    "l": 975,
     "p": 1,
     "void": 53,
-    "w": 990
+    "w": 991
    },
-   "win_rate": 0.5048444671086181
+   "win_rate": 0.5040691759918616
   }
  },
  "by_sport": {
@@ -81,17 +81,17 @@
    "win_rate": 0.375
   },
   "NCAAB Sides": {
-   "avg_clv": 0.023222222222222217,
-   "clv_beat_rate": 0.05555555555555555,
-   "clv_n": 18,
-   "graded": 23,
+   "avg_clv": 0.15685714285714283,
+   "clv_beat_rate": 0.09523809523809523,
+   "clv_n": 21,
+   "graded": 26,
    "record": {
-    "l": 13,
+    "l": 15,
     "p": 0,
     "void": 0,
-    "w": 10
+    "w": 11
    },
-   "win_rate": 0.43478260869565216
+   "win_rate": 0.4230769230769231
   },
   "NCAAF Cosmic": {
    "avg_clv": -0.25044285714285713,
@@ -146,24 +146,24 @@
    "win_rate": 0.4950884086444008
   },
   "NFL Sides": {
-   "avg_clv": -0.2582543352601156,
-   "clv_beat_rate": 0.3352601156069364,
-   "clv_n": 173,
-   "graded": 208,
+   "avg_clv": -0.2718514285714286,
+   "clv_beat_rate": 0.3314285714285714,
+   "clv_n": 175,
+   "graded": 210,
    "record": {
-    "l": 104,
+    "l": 106,
     "p": 1,
     "void": 0,
     "w": 103
    },
-   "win_rate": 0.4975845410628019
+   "win_rate": 0.49282296650717705
   }
  },
  "diagnostics": [
   "NFL player logs: cache already current (6761 player-games, looked back 21 days)",
   "NBA player logs: cache already current (11786 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-15T15:02:01+00:00",
+ "generated_at": "2026-11-15T20:59:32+00:00",
  "graded_through": "Week of Nov 9",
  "groups": {
   "Cosmic": {
@@ -22413,10 +22413,10 @@
    "win_rate": 0.5083682008368201
   },
   "Sides": {
-   "avg_clv": 0.03141881188118811,
-   "clv_beat_rate": 0.3435643564356436,
-   "clv_n": 1010,
-   "graded": 1128,
+   "avg_clv": 0.031244334975369454,
+   "clv_beat_rate": 0.34285714285714286,
+   "clv_n": 1015,
+   "graded": 1133,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -41428,6 +41428,42 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 124,
+     "clv": -0.722,
+     "edge": 15.705,
+     "ev": 0.3455,
+     "final": "10-35",
+     "game": "New England Patriots @ Detroit Lions",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "New England Patriots ML",
+     "player": null,
+     "price": 120,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 100,
+     "clv": -2.174,
+     "edge": 16.705,
+     "ev": 0.31891,
+     "final": "10-35",
+     "game": "New England Patriots @ Detroit Lions",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "New England Patriots +2.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 9"
+    },
+    {
      "closing_price": -126,
      "clv": -3.395,
      "edge": 8.426,
@@ -42722,22 +42758,76 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -400,
+     "clv": 2.876,
+     "edge": 6.979,
+     "ev": 0.09063,
+     "final": "78-98",
+     "game": "Louisville Cardinals @ Memphis Tigers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Louisville Cardinals ML",
+     "player": null,
+     "price": -335,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 6.144,
+     "ev": 0.1173,
+     "final": "78-98",
+     "game": "Louisville Cardinals @ Memphis Tigers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Louisville Cardinals -7.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": -520,
+     "clv": 0.0,
+     "edge": 16.028,
+     "ev": 0.1911,
+     "final": "75-102",
+     "game": "Boise State Broncos @ Nebraska Cornhuskers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Nebraska Cornhuskers ML",
+     "player": null,
+     "price": -520,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 9"
     }
    ],
    "record": {
-    "l": 560,
+    "l": 564,
     "p": 1,
     "void": 0,
-    "w": 567
+    "w": 568
    },
    "threshold": 5.0,
-   "win_rate": 0.5031055900621118
+   "win_rate": 0.5017667844522968
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 49,
-  "Props": 211,
-  "Sides": 149
+  "Cosmic": 74,
+  "Props": 222,
+  "Sides": 167
  }
 }
