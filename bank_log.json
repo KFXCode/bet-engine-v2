@@ -49329,10 +49329,10 @@
   "price": 390,
   "fairPctAtFlag": 21.6,
   "evPctAtFlag": 5.66,
-  "closeFairPct": 20.5,
+  "closeFairPct": 20.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
-  "clvPct": 0.45,
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
+  "clvPct": -0.53,
   "closed": false
  },
  {
@@ -51731,7 +51731,7 @@
   "evPctAtFlag": 5.92,
   "closeFairPct": 22.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
   "clvPct": 3.04,
   "closed": false
  },
@@ -52156,7 +52156,7 @@
   "evPctAtFlag": 4.13,
   "closeFairPct": 47.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
   "clvPct": 3.4,
   "closed": false
  },
@@ -52179,10 +52179,10 @@
   "price": 1200,
   "fairPctAtFlag": 8.4,
   "evPctAtFlag": 9.55,
-  "closeFairPct": 9.0,
+  "closeFairPct": 8.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
-  "clvPct": 17.0,
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
+  "clvPct": 15.7,
   "closed": false
  },
  {
@@ -52204,10 +52204,10 @@
   "price": 700,
   "fairPctAtFlag": 13.2,
   "evPctAtFlag": 5.23,
-  "closeFairPct": 14.0,
+  "closeFairPct": 13.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
-  "clvPct": 12.0,
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
+  "clvPct": 10.4,
   "closed": false
  },
  {
@@ -52231,7 +52231,7 @@
   "evPctAtFlag": 4.62,
   "closeFairPct": 13.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
   "clvPct": 5.64,
   "closed": false
  },
@@ -52256,7 +52256,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 26.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
   "clvPct": 13.68,
   "closed": false
  },
@@ -52306,7 +52306,7 @@
   "evPctAtFlag": 5.59,
   "closeFairPct": 12.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
   "clvPct": 2.48,
   "closed": false
  },
@@ -52483,7 +52483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-15T17:30:10+00:00",
   "clvPct": 6.03,
-  "closed": false
+  "closed": true
  },
  {
   "key": "357a70575c2cb9185f1773634d7f1624|h2h|Central Connecticut St Blue Devils|None",
@@ -52529,10 +52529,10 @@
   "price": 900,
   "fairPctAtFlag": 10.6,
   "evPctAtFlag": 6.44,
-  "closeFairPct": 11.3,
+  "closeFairPct": 11.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
-  "clvPct": 13.0,
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
+  "clvPct": 16.0,
   "closed": false
  },
  {
@@ -52556,8 +52556,58 @@
   "evPctAtFlag": 4.21,
   "closeFairPct": 13.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-15T18:35:11+00:00",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
   "clvPct": 4.25,
+  "closed": false
+ },
+ {
+  "key": "b2ffb781fe21df092fae2cff6c4c8c89|player_points|De'Aaron Fox|13.5|De'Aaron Fox Over 13.5|None",
+  "eventId": "b2ffb781fe21df092fae2cff6c4c8c89",
+  "sport": "NBA",
+  "game": "San Antonio Spurs at Utah Jazz",
+  "time": "2026-11-15T22:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "De'Aaron Fox",
+  "name": "Over",
+  "line": 13.5,
+  "team": "De'Aaron Fox Over 13.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-15T19:52:16+00:00",
+  "price": 102,
+  "fairPctAtFlag": 52.3,
+  "evPctAtFlag": 5.69,
+  "closeFairPct": 52.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
+  "clvPct": 5.65,
+  "closed": false
+ },
+ {
+  "key": "f8334b355cf9346d423fa9eb93b425f0|h2h|Sacramento Kings|None",
+  "eventId": "f8334b355cf9346d423fa9eb93b425f0",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at Sacramento Kings",
+  "time": "2026-11-16T02:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Sacramento Kings",
+  "line": null,
+  "team": "Sacramento Kings",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-15T19:52:16+00:00",
+  "price": 420,
+  "fairPctAtFlag": 20.2,
+  "evPctAtFlag": 5.04,
+  "closeFairPct": 20.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-15T19:52:16+00:00",
+  "clvPct": 5.04,
   "closed": false
  }
 ]
