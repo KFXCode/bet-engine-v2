@@ -51733,7 +51733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": -0.18,
-  "closed": true
+  "closed": false
  },
  {
   "key": "6cb4c8feeadd57aa6ab46ebdee60818a|player_assists|Nikola Jokic|10.5|Nikola Jokic Under 10.5|None",
@@ -52158,7 +52158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 4.72,
-  "closed": true
+  "closed": false
  },
  {
   "key": "57c1c361f582c6043b1f59baa3de3b08|h2h|Idaho State Bengals|None",
@@ -52308,7 +52308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 2.48,
-  "closed": true
+  "closed": false
  },
  {
   "key": "be0e03cc42fbc9b6962467b22c7bf9dd|player_reception_yds|Denzel Boston|45.5|Denzel Boston Under 45.5|None",
@@ -52608,7 +52608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 5.04,
-  "closed": true
+  "closed": false
  },
  {
   "key": "488c2bc1e099361f06015cf126f95fd6|player_threes|Kevin Durant|1.5|Kevin Durant Under 1.5|None",
@@ -52658,7 +52658,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 6.0,
-  "closed": true
+  "closed": false
  },
  {
   "key": "66f9e83cf025d58acee12bce18661fb3|h2h|Indianapolis Colts|None",
@@ -52681,7 +52681,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 19.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-16T02:24:28+00:00",
+  "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 2.6,
   "closed": false
  },
@@ -52708,7 +52708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 9.16,
-  "closed": true
+  "closed": false
  },
  {
   "key": "48e497c230e6c9afcb3b600091d28e17|player_receptions|Mike Gesicki|2.5|Mike Gesicki Over 2.5|None",
@@ -52733,7 +52733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 5.86,
-  "closed": true
+  "closed": false
  },
  {
   "key": "f8334b355cf9346d423fa9eb93b425f0|player_points|De'Andre Hunter|13.5|De'Andre Hunter Over 13.5|None",
@@ -52758,7 +52758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 4.17,
-  "closed": true
+  "closed": false
  },
  {
   "key": "4a23f296a8cd67712e5f1f97df7db777|h2h|Eastern Kentucky Colonels|None",
@@ -52781,7 +52781,7 @@
   "evPctAtFlag": 4.52,
   "closeFairPct": 18.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-16T02:24:28+00:00",
+  "closeSeenAt": "2026-11-16T00:35:10+00:00",
   "clvPct": 4.4,
   "closed": false
  }
