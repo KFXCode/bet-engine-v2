@@ -52679,10 +52679,10 @@
   "price": 440,
   "fairPctAtFlag": 19.7,
   "evPctAtFlag": 6.4,
-  "closeFairPct": 19.0,
+  "closeFairPct": 17.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-16T07:10:53+00:00",
-  "clvPct": 2.6,
+  "closeSeenAt": "2026-11-16T16:05:11+00:00",
+  "clvPct": -4.42,
   "closed": false
  },
  {
@@ -52781,7 +52781,7 @@
   "evPctAtFlag": 4.52,
   "closeFairPct": 18.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-16T07:10:53+00:00",
+  "closeSeenAt": "2026-11-16T16:05:11+00:00",
   "clvPct": 4.4,
   "closed": false
  },
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-16T07:10:53+00:00",
+  "closeSeenAt": "2026-11-16T16:05:11+00:00",
   "clvPct": 8.9,
   "closed": false
  },
@@ -52831,8 +52831,33 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-16T07:10:53+00:00",
+  "closeSeenAt": "2026-11-16T16:05:11+00:00",
   "clvPct": 7.2,
+  "closed": false
+ },
+ {
+  "key": "5e63079b678f8c13419adc169fff02d3|h2h|Tennessee Titans|None",
+  "eventId": "5e63079b678f8c13419adc169fff02d3",
+  "sport": "NFL",
+  "game": "Tennessee Titans at Dallas Cowboys",
+  "time": "2026-11-22T18:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Tennessee Titans",
+  "line": null,
+  "team": "Tennessee Titans",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-16T16:05:11+00:00",
+  "price": 370,
+  "fairPctAtFlag": 23.4,
+  "evPctAtFlag": 9.81,
+  "closeFairPct": 23.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-16T16:05:11+00:00",
+  "clvPct": 9.98,
   "closed": false
  }
 ]
