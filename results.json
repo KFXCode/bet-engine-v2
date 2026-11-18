@@ -14,58 +14,58 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.10627658371040724,
-   "clv_beat_rate": 0.24604072398190044,
-   "clv_n": 1768,
-   "graded": 2096,
+   "avg_clv": 0.10357312252964426,
+   "clv_beat_rate": 0.24618859401468096,
+   "clv_n": 1771,
+   "graded": 2099,
    "record": {
-    "l": 1039,
+    "l": 1040,
     "p": 1,
     "void": 57,
-    "w": 1056
+    "w": 1058
    },
-   "win_rate": 0.5040572792362769
+   "win_rate": 0.5042897998093422
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.12582978723404253,
-   "clv_beat_rate": 0.14893617021276595,
-   "clv_n": 47,
-   "graded": 70,
+   "avg_clv": 0.16381632653061223,
+   "clv_beat_rate": 0.1836734693877551,
+   "clv_n": 49,
+   "graded": 72,
    "record": {
-    "l": 33,
+    "l": 34,
     "p": 0,
     "void": 0,
-    "w": 37
+    "w": 38
    },
-   "win_rate": 0.5285714285714286
+   "win_rate": 0.5277777777777778
   },
   "NBA Props": {
-   "avg_clv": 0.23625000000000002,
-   "clv_beat_rate": 0.1631578947368421,
-   "clv_n": 380,
-   "graded": 491,
+   "avg_clv": 0.21877748691099477,
+   "clv_beat_rate": 0.16230366492146597,
+   "clv_n": 382,
+   "graded": 493,
    "record": {
-    "l": 239,
+    "l": 240,
     "p": 0,
     "void": 18,
-    "w": 252
+    "w": 253
    },
-   "win_rate": 0.5132382892057027
+   "win_rate": 0.513184584178499
   },
   "NBA Sides": {
-   "avg_clv": 0.08850757575757576,
-   "clv_beat_rate": 0.12121212121212122,
-   "clv_n": 132,
-   "graded": 167,
+   "avg_clv": 0.10087218045112782,
+   "clv_beat_rate": 0.12781954887218044,
+   "clv_n": 133,
+   "graded": 168,
    "record": {
     "l": 94,
     "p": 0,
     "void": 0,
-    "w": 73
+    "w": 74
    },
-   "win_rate": 0.437125748502994
+   "win_rate": 0.44047619047619047
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.09562499999999999,
@@ -160,17 +160,17 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: cache already current (12230 player-games, looked back 21 days)",
+  "NBA player logs: added 2 box scores, 12274 player-games cached",
   "NFL player logs: cache already current (6760 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-18T03:51:40+00:00",
+ "generated_at": "2026-11-18T16:45:12+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.14380769230769233,
-   "clv_beat_rate": 0.26373626373626374,
-   "clv_n": 182,
-   "graded": 225,
+   "avg_clv": -0.13076086956521737,
+   "clv_beat_rate": 0.2717391304347826,
+   "clv_n": 184,
+   "graded": 227,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -4206,6 +4206,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 240,
+     "clv": 0.38,
+     "edge": 14.427,
+     "ev": 0.49773,
+     "final": "114-118",
+     "game": "Charlotte Hornets @ Los Angeles Lakers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Charlotte Hornets ML",
+     "player": null,
+     "price": 245,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -114,
+     "clv": 1.733,
+     "edge": 12.6,
+     "ev": 0.24486,
+     "final": "114-118",
+     "game": "Charlotte Hornets @ Los Angeles Lakers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Charlotte Hornets +7.5",
+     "player": null,
+     "price": -106,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 18.322,
@@ -4225,19 +4261,19 @@
     }
    ],
    "record": {
-    "l": 120,
+    "l": 121,
     "p": 1,
     "void": 0,
-    "w": 104
+    "w": 105
    },
    "threshold": null,
-   "win_rate": 0.4642857142857143
+   "win_rate": 0.4646017699115044
   },
   "Props": {
-   "avg_clv": 0.17616606498194948,
-   "clv_beat_rate": 0.12274368231046931,
-   "clv_n": 831,
-   "graded": 1058,
+   "avg_clv": 0.16829771908763505,
+   "clv_beat_rate": 0.12244897959183673,
+   "clv_n": 833,
+   "graded": 1060,
    "label": "Player props",
    "picks": [
     {
@@ -24399,22 +24435,58 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 100,
+     "clv": -6.202,
+     "edge": 17.372,
+     "ev": 0.30735,
+     "final": "3",
+     "game": "Charlotte Hornets @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Sandro Mamukelashvili Under 5.5 rebounds",
+     "player": "Sandro Mamukelashvili",
+     "price": -130,
+     "proj": 4.149,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.0,
+     "edge": 16.143,
+     "ev": 0.29375,
+     "final": "4",
+     "game": "Charlotte Hornets @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Coby White Under 3.5 assists",
+     "player": "Coby White",
+     "price": -122,
+     "proj": 2.659,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 526,
+    "l": 527,
     "p": 0,
     "void": 62,
-    "w": 532
+    "w": 533
    },
    "threshold": 7.0,
-   "win_rate": 0.502835538752363
+   "win_rate": 0.5028301886792453
   },
   "Sides": {
-   "avg_clv": 0.03752449567723343,
-   "clv_beat_rate": 0.345821325648415,
-   "clv_n": 1041,
-   "graded": 1160,
+   "avg_clv": 0.039151631477927065,
+   "clv_beat_rate": 0.34644913627639157,
+   "clv_n": 1042,
+   "graded": 1161,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -45296,22 +45368,40 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -114,
+     "clv": 1.733,
+     "edge": 12.6,
+     "ev": 0.24486,
+     "final": "114-118",
+     "game": "Charlotte Hornets @ Los Angeles Lakers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Charlotte Hornets +7.5",
+     "player": null,
+     "price": -106,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
     "l": 572,
     "p": 1,
     "void": 0,
-    "w": 587
+    "w": 588
    },
    "threshold": 5.0,
-   "win_rate": 0.5064710957722174
+   "win_rate": 0.506896551724138
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 93,
-  "Props": 177,
-  "Sides": 176
+  "Cosmic": 91,
+  "Props": 175,
+  "Sides": 175
  }
 }
