@@ -14,84 +14,84 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.1089340909090909,
-   "clv_beat_rate": 0.2471590909090909,
-   "clv_n": 1760,
-   "graded": 2088,
+   "avg_clv": 0.10627658371040724,
+   "clv_beat_rate": 0.24604072398190044,
+   "clv_n": 1768,
+   "graded": 2096,
    "record": {
-    "l": 1036,
+    "l": 1039,
     "p": 1,
     "void": 57,
-    "w": 1051
+    "w": 1056
    },
-   "win_rate": 0.5035936751317681
+   "win_rate": 0.5040572792362769
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.13142222222222222,
-   "clv_beat_rate": 0.15555555555555556,
-   "clv_n": 45,
-   "graded": 67,
+   "avg_clv": 0.12582978723404253,
+   "clv_beat_rate": 0.14893617021276595,
+   "clv_n": 47,
+   "graded": 70,
    "record": {
-    "l": 32,
+    "l": 33,
     "p": 0,
     "void": 0,
-    "w": 35
+    "w": 37
    },
-   "win_rate": 0.5223880597014925
+   "win_rate": 0.5285714285714286
   },
   "NBA Props": {
-   "avg_clv": 0.24828116710875334,
-   "clv_beat_rate": 0.16445623342175067,
-   "clv_n": 377,
-   "graded": 488,
+   "avg_clv": 0.23625000000000002,
+   "clv_beat_rate": 0.1631578947368421,
+   "clv_n": 380,
+   "graded": 491,
    "record": {
-    "l": 237,
+    "l": 239,
     "p": 0,
     "void": 18,
-    "w": 251
+    "w": 252
    },
-   "win_rate": 0.514344262295082
+   "win_rate": 0.5132382892057027
   },
   "NBA Sides": {
-   "avg_clv": 0.08918320610687022,
-   "clv_beat_rate": 0.12213740458015267,
-   "clv_n": 131,
-   "graded": 166,
+   "avg_clv": 0.08850757575757576,
+   "clv_beat_rate": 0.12121212121212122,
+   "clv_n": 132,
+   "graded": 167,
    "record": {
     "l": 94,
     "p": 0,
     "void": 0,
-    "w": 72
+    "w": 73
    },
-   "win_rate": 0.43373493975903615
+   "win_rate": 0.437125748502994
   },
   "NCAAB Cosmic": {
-   "avg_clv": 0.06966666666666665,
-   "clv_beat_rate": 0.16666666666666666,
-   "clv_n": 6,
-   "graded": 8,
+   "avg_clv": 0.09562499999999999,
+   "clv_beat_rate": 0.25,
+   "clv_n": 8,
+   "graded": 10,
    "record": {
     "l": 5,
     "p": 0,
     "void": 0,
-    "w": 3
+    "w": 5
    },
-   "win_rate": 0.375
+   "win_rate": 0.5
   },
   "NCAAB Sides": {
-   "avg_clv": 0.15685714285714283,
-   "clv_beat_rate": 0.09523809523809523,
-   "clv_n": 21,
-   "graded": 26,
+   "avg_clv": 0.1497272727272727,
+   "clv_beat_rate": 0.09090909090909091,
+   "clv_n": 22,
+   "graded": 27,
    "record": {
     "l": 15,
     "p": 0,
     "void": 0,
-    "w": 11
+    "w": 12
    },
-   "win_rate": 0.4230769230769231
+   "win_rate": 0.4444444444444444
   },
   "NCAAF Cosmic": {
    "avg_clv": -0.25044285714285713,
@@ -107,17 +107,17 @@
    "win_rate": 0.4533333333333333
   },
   "NCAAF Sides": {
-   "avg_clv": 0.08979106628242074,
-   "clv_beat_rate": 0.39481268011527376,
-   "clv_n": 694,
-   "graded": 737,
+   "avg_clv": 0.08940459110473457,
+   "clv_beat_rate": 0.3931133428981349,
+   "clv_n": 697,
+   "graded": 740,
    "record": {
-    "l": 352,
+    "l": 353,
     "p": 0,
     "void": 0,
-    "w": 385
+    "w": 387
    },
-   "win_rate": 0.5223880597014925
+   "win_rate": 0.522972972972973
   },
   "NFL Cosmic": {
    "avg_clv": -0.2687894736842106,
@@ -160,17 +160,17 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: cache already current (12171 player-games, looked back 21 days)",
-  "NFL player logs: cache already current (6795 player-games, looked back 21 days)"
+  "NBA player logs: cache already current (12230 player-games, looked back 21 days)",
+  "NFL player logs: cache already current (6760 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-17T17:08:17+00:00",
+ "generated_at": "2026-11-18T03:51:40+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.14898876404494382,
-   "clv_beat_rate": 0.2640449438202247,
-   "clv_n": 178,
-   "graded": 220,
+   "avg_clv": -0.14380769230769233,
+   "clv_beat_rate": 0.26373626373626374,
+   "clv_n": 182,
+   "graded": 225,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -4132,22 +4132,112 @@
      "result": "L",
      "sport": "NCAAB",
      "week": "Week of Nov 9"
+    },
+    {
+     "closing_price": 285,
+     "clv": 0.347,
+     "edge": 3.328,
+     "ev": 0.1298,
+     "final": "99-78",
+     "game": "Illinois Fighting Illini @ Duke Blue Devils",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Illinois Fighting Illini ML",
+     "player": null,
+     "price": 290,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 8.2,
+     "ev": 0.16239,
+     "final": "99-78",
+     "game": "Illinois Fighting Illini @ Duke Blue Devils",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Illinois Fighting Illini +7.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 290,
+     "clv": 0.0,
+     "edge": 11.842,
+     "ev": 0.46185,
+     "final": "105-93",
+     "game": "Detroit Pistons @ San Antonio Spurs",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Detroit Pistons ML",
+     "player": null,
+     "price": 290,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -108,
+     "clv": 0.0,
+     "edge": 8.983,
+     "ev": 0.173,
+     "final": "105-93",
+     "game": "Detroit Pistons @ San Antonio Spurs",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Detroit Pistons +8.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.322,
+     "ev": 0.98941,
+     "final": "98-106",
+     "game": "Portland Trail Blazers @ Minnesota Timberwolves",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Portland Trail Blazers ML",
+     "player": null,
+     "price": 440,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 119,
+    "l": 120,
     "p": 1,
     "void": 0,
-    "w": 100
+    "w": 104
    },
    "threshold": null,
-   "win_rate": 0.45662100456621
+   "win_rate": 0.4642857142857143
   },
   "Props": {
-   "avg_clv": 0.18142632850241547,
-   "clv_beat_rate": 0.12318840579710146,
-   "clv_n": 828,
-   "graded": 1055,
+   "avg_clv": 0.17616606498194948,
+   "clv_beat_rate": 0.12274368231046931,
+   "clv_n": 831,
+   "graded": 1058,
    "label": "Player props",
    "picks": [
     {
@@ -24255,22 +24345,76 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -104,
+     "clv": -3.827,
+     "edge": 18.142,
+     "ev": 0.33012,
+     "final": "14",
+     "game": "Detroit Pistons @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Ausar Thompson Under 10.5 points",
+     "player": "Ausar Thompson",
+     "price": -122,
+     "proj": 8.624,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 18.029,
+     "ev": 0.33844,
+     "final": "47",
+     "game": "Detroit Pistons @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Victor Wembanyama Under 43.5 pts+reb+ast",
+     "player": "Victor Wembanyama",
+     "price": -114,
+     "proj": 37.34,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 13.305,
+     "ev": 0.26099,
+     "final": "16",
+     "game": "New York Knicks @ Toronto Raptors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Karl-Anthony Towns Under 20.5 points",
+     "player": "Karl-Anthony Towns",
+     "price": -104,
+     "proj": 18.891,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 524,
+    "l": 526,
     "p": 0,
     "void": 62,
-    "w": 531
+    "w": 532
    },
    "threshold": 7.0,
-   "win_rate": 0.5033175355450237
+   "win_rate": 0.502835538752363
   },
   "Sides": {
-   "avg_clv": 0.03770559845559845,
-   "clv_beat_rate": 0.3474903474903475,
-   "clv_n": 1036,
-   "graded": 1155,
+   "avg_clv": 0.03752449567723343,
+   "clv_beat_rate": 0.345821325648415,
+   "clv_n": 1041,
+   "graded": 1160,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -44596,6 +44740,60 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": -335,
+     "clv": 0.0,
+     "edge": 17.448,
+     "ev": 0.22656,
+     "final": "28-35",
+     "game": "Ball State Cardinals @ Ohio Bobcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Ohio Bobcats ML",
+     "player": null,
+     "price": -335,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -580,
+     "clv": 0.0,
+     "edge": 8.058,
+     "ev": 0.09448,
+     "final": "27-34",
+     "game": "Eastern Michigan Eagles @ Western Michigan Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Western Michigan Broncos ML",
+     "player": null,
+     "price": -580,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 16.346,
+     "ev": 0.31206,
+     "final": "27-34",
+     "game": "Eastern Michigan Eagles @ Western Michigan Broncos",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Western Michigan Broncos -13.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -290,
      "clv": 0.0,
      "edge": 9.278,
@@ -45062,22 +45260,58 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 8.2,
+     "ev": 0.16239,
+     "final": "99-78",
+     "game": "Illinois Fighting Illini @ Duke Blue Devils",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Illinois Fighting Illini +7.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -108,
+     "clv": 0.0,
+     "edge": 8.983,
+     "ev": 0.173,
+     "final": "105-93",
+     "game": "Detroit Pistons @ San Antonio Spurs",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Detroit Pistons +8.5",
+     "player": null,
+     "price": -108,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 571,
+    "l": 572,
     "p": 1,
     "void": 0,
-    "w": 583
+    "w": 587
    },
    "threshold": 5.0,
-   "win_rate": 0.5051993067590987
+   "win_rate": 0.5064710957722174
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 94,
-  "Props": 149,
-  "Sides": 168
+  "Cosmic": 93,
+  "Props": 177,
+  "Sides": 176
  }
 }

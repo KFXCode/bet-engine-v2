@@ -52679,10 +52679,10 @@
   "price": 440,
   "fairPctAtFlag": 19.7,
   "evPctAtFlag": 6.4,
-  "closeFairPct": 15.5,
+  "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
-  "clvPct": -16.3,
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "clvPct": -16.84,
   "closed": false
  },
  {
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 26.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -52854,10 +52854,10 @@
   "price": 370,
   "fairPctAtFlag": 23.4,
   "evPctAtFlag": 9.81,
-  "closeFairPct": 23.4,
+  "closeFairPct": 23.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
-  "clvPct": 9.98,
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "clvPct": 10.45,
   "closed": false
  },
  {
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 6.05,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 5.84,
   "closed": false
  },
@@ -53479,10 +53479,10 @@
   "price": 285,
   "fairPctAtFlag": 27.7,
   "evPctAtFlag": 6.55,
-  "closeFairPct": 27.7,
+  "closeFairPct": 28.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
-  "clvPct": 6.64,
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "clvPct": 8.96,
   "closed": false
  },
  {
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 4.22,
   "closed": false
  },
@@ -53679,10 +53679,10 @@
   "price": 570,
   "fairPctAtFlag": 15.7,
   "evPctAtFlag": 5.12,
-  "closeFairPct": 15.7,
+  "closeFairPct": 14.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
-  "clvPct": 5.19,
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "clvPct": -0.17,
   "closed": false
  },
  {
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 5.88,
   "closed": false
  },
@@ -53733,7 +53733,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T02:33:53+00:00",
   "clvPct": 3.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "329bbea44b2c7efcbb9243e25099495e|h2h|West Virginia Mountaineers|None",
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T02:33:53+00:00",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
   "clvPct": 4.91,
   "closed": false
  },
@@ -54009,5 +54009,30 @@
   "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 5.6,
   "closed": true
+ },
+ {
+  "key": "1940706a79cbcbafacdcbf231069716b|h2h|Las Vegas Raiders|None",
+  "eventId": "1940706a79cbcbafacdcbf231069716b",
+  "sport": "NFL",
+  "game": "Las Vegas Raiders at Denver Broncos",
+  "time": "2026-11-22T21:25:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Las Vegas Raiders",
+  "line": null,
+  "team": "Las Vegas Raiders",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-18T03:51:50+00:00",
+  "price": 455,
+  "fairPctAtFlag": 18.8,
+  "evPctAtFlag": 4.45,
+  "closeFairPct": 18.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "clvPct": 4.34,
+  "closed": false
  }
 ]
