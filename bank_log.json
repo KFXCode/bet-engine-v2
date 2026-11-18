@@ -52681,7 +52681,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 15.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": -16.3,
   "closed": false
  },
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 26.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 9.98,
   "closed": false
  },
@@ -52933,7 +52933,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-17T23:45:10+00:00",
   "clvPct": 2.9,
-  "closed": false
+  "closed": true
  },
  {
   "key": "403a88701352da05b0710a9e883b803e|h2h|Arizona Cardinals|None",
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 6.05,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 5.84,
   "closed": false
  },
@@ -53433,7 +53433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-17T23:45:10+00:00",
   "clvPct": -23.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ea9b9bf9131650d8502e7f35600230f1|h2h|Eastern Washington Eagles|None",
@@ -53456,7 +53456,7 @@
   "evPctAtFlag": 7.33,
   "closeFairPct": 13.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": -0.1,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 27.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 6.64,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 4.22,
   "closed": false
  },
@@ -53533,7 +53533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-17T23:45:10+00:00",
   "clvPct": 0.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "33f00f4f6cbb6af0870e39e68ad3c430|h2h|Monmouth Hawks|None",
@@ -53558,7 +53558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-17T23:45:10+00:00",
   "clvPct": 10.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b7ec520482df7b2c5286ab241222384d|h2h|Tennessee St Tigers|None",
@@ -53583,7 +53583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-17T23:45:10+00:00",
   "clvPct": 10.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "dfdac74c91ebae110f1291f05093ead7|h2h|Bellarmine Knights|None",
@@ -53606,7 +53606,7 @@
   "evPctAtFlag": 6.21,
   "closeFairPct": 7.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 6.5,
   "closed": false
  },
@@ -53631,7 +53631,7 @@
   "evPctAtFlag": 4.26,
   "closeFairPct": 12.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": -0.8,
   "closed": false
  },
@@ -53656,7 +53656,7 @@
   "evPctAtFlag": 4.84,
   "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 0.1,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 15.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 5.19,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 5.88,
   "closed": false
  },
@@ -53731,7 +53731,7 @@
   "evPctAtFlag": 5.07,
   "closeFairPct": 24.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 3.63,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 4.91,
   "closed": false
  },
@@ -53783,7 +53783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-17T23:45:10+00:00",
   "clvPct": 4.28,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5ff20ee6933177d35e4f8c875842a0b4|player_points|Jamal Shead|6.5|Jamal Shead Over 6.5|None",
@@ -53806,7 +53806,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 48.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": -3.32,
   "closed": false
  },
@@ -53831,7 +53831,7 @@
   "evPctAtFlag": 4.2,
   "closeFairPct": 37.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 4.16,
   "closed": false
  },
@@ -53856,7 +53856,7 @@
   "evPctAtFlag": 4.3,
   "closeFairPct": 45.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 4.19,
   "closed": false
  },
@@ -53881,7 +53881,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 45.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
   "clvPct": 3.97,
   "closed": false
  },
@@ -53904,10 +53904,10 @@
   "price": 100,
   "fairPctAtFlag": 52.8,
   "evPctAtFlag": 5.63,
-  "closeFairPct": 52.8,
+  "closeFairPct": 51.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
-  "clvPct": 5.6,
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
+  "clvPct": 3.8,
   "closed": false
  },
  {
@@ -53954,10 +53954,60 @@
   "price": 135,
   "fairPctAtFlag": 46.3,
   "evPctAtFlag": 8.77,
-  "closeFairPct": 46.3,
+  "closeFairPct": 39.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-17T23:45:10+00:00",
-  "clvPct": 8.8,
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
+  "clvPct": -8.11,
+  "closed": false
+ },
+ {
+  "key": "5ff20ee6933177d35e4f8c875842a0b4|player_points|Josh Hart|7.5|Josh Hart Under 7.5|None",
+  "eventId": "5ff20ee6933177d35e4f8c875842a0b4",
+  "sport": "NBA",
+  "game": "New York Knicks at Toronto Raptors",
+  "time": "2026-11-18T00:40:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Josh Hart",
+  "name": "Under",
+  "line": 7.5,
+  "team": "Josh Hart Under 7.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-18T00:35:12+00:00",
+  "price": -118,
+  "fairPctAtFlag": 56.7,
+  "evPctAtFlag": 4.76,
+  "closeFairPct": 56.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
+  "clvPct": 4.75,
+  "closed": false
+ },
+ {
+  "key": "f1c9f0cd022cd864154413efbd9d9522|player_points|Sidy Cissoko|7.5|Sidy Cissoko Under 7.5|None",
+  "eventId": "f1c9f0cd022cd864154413efbd9d9522",
+  "sport": "NBA",
+  "game": "Portland Trail Blazers at Minnesota Timberwolves",
+  "time": "2026-11-18T01:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Sidy Cissoko",
+  "name": "Under",
+  "line": 7.5,
+  "team": "Sidy Cissoko Under 7.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-18T00:35:12+00:00",
+  "price": 100,
+  "fairPctAtFlag": 52.8,
+  "evPctAtFlag": 5.63,
+  "closeFairPct": 52.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-18T00:35:12+00:00",
+  "clvPct": 5.6,
   "closed": false
  }
 ]
