@@ -52681,7 +52681,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": -16.84,
   "closed": false
  },
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 26.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 10.45,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 6.05,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 5.84,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 28.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 8.96,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 4.22,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 14.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": -0.17,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 5.88,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 4.91,
   "closed": false
  },
@@ -54031,8 +54031,33 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T03:51:50+00:00",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
   "clvPct": 4.34,
+  "closed": false
+ },
+ {
+  "key": "bed6147c75f3706f25e25f5bdfeaf1ec|player_threes|Ziaire Williams|1.5|Ziaire Williams Over 1.5|None",
+  "eventId": "bed6147c75f3706f25e25f5bdfeaf1ec",
+  "sport": "NBA",
+  "game": "Charlotte Hornets at Los Angeles Lakers",
+  "time": "2026-11-18T04:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Ziaire Williams",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Ziaire Williams Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-18T03:53:35+00:00",
+  "price": 170,
+  "fairPctAtFlag": 40.2,
+  "evPctAtFlag": 8.47,
+  "closeFairPct": 40.2,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-18T03:53:35+00:00",
+  "clvPct": 8.54,
   "closed": false
  }
 ]
