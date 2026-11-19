@@ -52681,7 +52681,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": -16.84,
   "closed": false
  },
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 9.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 6.7,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 3.2,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 10.45,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 6.05,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 5.84,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 27.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 4.22,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 14.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": -4.86,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 4.52,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 4.34,
   "closed": false
  },
@@ -54083,7 +54083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 9.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f4a33d417baae87562bd4511838d93b2|h2h|North Dakota St Bison|None",
@@ -54106,7 +54106,7 @@
   "evPctAtFlag": 7.97,
   "closeFairPct": 12.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 24.74,
   "closed": false
  },
@@ -54133,7 +54133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": -5.92,
-  "closed": false
+  "closed": true
  },
  {
   "key": "dbefa3975d810f789b5ad29c9c9e140a|h2h|Louisiana Ragin' Cajuns|None",
@@ -54156,7 +54156,7 @@
   "evPctAtFlag": 4.29,
   "closeFairPct": 17.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 4.4,
   "closed": false
  },
@@ -54183,7 +54183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 6.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "76fcb84461ad12196d08770d0d8bebc8|h2h|Morgan St Bears|None",
@@ -54208,7 +54208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 4.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f9ae24215832bbc1703c9836d0c96751|h2h|Indiana Pacers|None",
@@ -54233,7 +54233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 3.1,
-  "closed": false
+  "closed": true
  },
  {
   "key": "f9ae24215832bbc1703c9836d0c96751|player_points|Kevin Durant|22.5|Kevin Durant Over 22.5|None",
@@ -54258,7 +54258,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": -4.15,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b609888ea766ac28cd0e84f315d8f3d2|player_points|Davion Mitchell|13.5|Davion Mitchell Over 13.5|None",
@@ -54283,7 +54283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 4.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b609888ea766ac28cd0e84f315d8f3d2|player_threes|Myles Turner|1.5|Myles Turner Under 1.5|None",
@@ -54308,7 +54308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 4.66,
-  "closed": false
+  "closed": true
  },
  {
   "key": "635a9b07c018a821e08b521ea473133b|player_threes|Anfernee Simons|2.5|Anfernee Simons Over 2.5|None",
@@ -54333,7 +54333,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 39.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6c0ae9cd6ba4762ef0bcf66156d3525e|player_threes|Zaccharie Risacher|0.5|Zaccharie Risacher Under 0.5|None",
@@ -54354,10 +54354,10 @@
   "price": 155,
   "fairPctAtFlag": 40.9,
   "evPctAtFlag": 4.3,
-  "closeFairPct": 41.7,
+  "closeFairPct": 41.0,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
-  "clvPct": 6.34,
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 4.55,
   "closed": false
  },
  {
@@ -54383,7 +54383,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 6.83,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b7e3f453045a3162b3c4940f4b50ff32|player_points|Zach Edey|9.5|Zach Edey Over 9.5|None",
@@ -54408,7 +54408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 4.43,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b609888ea766ac28cd0e84f315d8f3d2|h2h|Milwaukee Bucks|None",
@@ -54433,7 +54433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 5.3,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b609888ea766ac28cd0e84f315d8f3d2|player_assists|Davion Mitchell|8.5|Davion Mitchell Under 8.5|None",
@@ -54458,7 +54458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 6.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b609888ea766ac28cd0e84f315d8f3d2|player_threes|Jaime Jaquez Jr|1.5|Jaime Jaquez Jr Over 1.5|None",
@@ -54483,7 +54483,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 7.12,
-  "closed": false
+  "closed": true
  },
  {
   "key": "635a9b07c018a821e08b521ea473133b|player_assists|Joel Embiid|3.5|Joel Embiid Under 3.5|None",
@@ -54508,7 +54508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-18T23:45:12+00:00",
   "clvPct": 7.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6a72c23de4887e73345dde9bdc64eabe|player_points|Norman Powell|23.5|Norman Powell Under 23.5|None",
@@ -54531,7 +54531,7 @@
   "evPctAtFlag": 6.01,
   "closeFairPct": 56.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 6.0,
   "closed": false
  },
@@ -54554,10 +54554,10 @@
   "price": 145,
   "fairPctAtFlag": 43.3,
   "evPctAtFlag": 6.11,
-  "closeFairPct": 43.3,
+  "closeFairPct": 42.6,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
-  "clvPct": 6.08,
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 4.37,
   "closed": false
  },
  {
@@ -54581,7 +54581,7 @@
   "evPctAtFlag": 5.07,
   "closeFairPct": 55.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -54606,8 +54606,333 @@
   "evPctAtFlag": 5.35,
   "closeFairPct": 50.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-18T23:45:12+00:00",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
   "clvPct": 5.34,
+  "closed": false
+ },
+ {
+  "key": "6a72c23de4887e73345dde9bdc64eabe|player_assists|Nolan Traore|4.5|Nolan Traore Over 4.5|None",
+  "eventId": "6a72c23de4887e73345dde9bdc64eabe",
+  "sport": "NBA",
+  "game": "Chicago Bulls at Brooklyn Nets",
+  "time": "2026-11-19T00:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Nolan Traore",
+  "name": "Over",
+  "line": 4.5,
+  "team": "Nolan Traore Over 4.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 125,
+  "fairPctAtFlag": 47.0,
+  "evPctAtFlag": 5.7,
+  "closeFairPct": 47.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 5.75,
+  "closed": false
+ },
+ {
+  "key": "6a72c23de4887e73345dde9bdc64eabe|player_points|Isaac Okoro|9.5|Isaac Okoro Over 9.5|None",
+  "eventId": "6a72c23de4887e73345dde9bdc64eabe",
+  "sport": "NBA",
+  "game": "Chicago Bulls at Brooklyn Nets",
+  "time": "2026-11-19T00:40:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Isaac Okoro",
+  "name": "Over",
+  "line": 9.5,
+  "team": "Isaac Okoro Over 9.5",
+  "point": null,
+  "book": "williamhill_us",
+  "bookName": "Caesars",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 105,
+  "fairPctAtFlag": 51.9,
+  "evPctAtFlag": 6.29,
+  "closeFairPct": 51.9,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 6.39,
+  "closed": false
+ },
+ {
+  "key": "6a72c23de4887e73345dde9bdc64eabe|player_points|Tre Jones|11.5|Tre Jones Under 11.5|None",
+  "eventId": "6a72c23de4887e73345dde9bdc64eabe",
+  "sport": "NBA",
+  "game": "Chicago Bulls at Brooklyn Nets",
+  "time": "2026-11-19T00:40:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Tre Jones",
+  "name": "Under",
+  "line": 11.5,
+  "team": "Tre Jones Under 11.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 101,
+  "fairPctAtFlag": 52.4,
+  "evPctAtFlag": 5.34,
+  "closeFairPct": 52.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 5.32,
+  "closed": false
+ },
+ {
+  "key": "6a72c23de4887e73345dde9bdc64eabe|player_threes|Isaac Okoro|1.5|Isaac Okoro Over 1.5|None",
+  "eventId": "6a72c23de4887e73345dde9bdc64eabe",
+  "sport": "NBA",
+  "game": "Chicago Bulls at Brooklyn Nets",
+  "time": "2026-11-19T00:40:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Isaac Okoro",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Isaac Okoro Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 163,
+  "fairPctAtFlag": 40.1,
+  "evPctAtFlag": 5.39,
+  "closeFairPct": 40.1,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 5.46,
+  "closed": false
+ },
+ {
+  "key": "5896e4ed2ed41ce673e882b6529078b8|player_assists|Immanuel Quickley|6.5|Immanuel Quickley Under 6.5|None",
+  "eventId": "5896e4ed2ed41ce673e882b6529078b8",
+  "sport": "NBA",
+  "game": "Washington Wizards at Toronto Raptors",
+  "time": "2026-11-19T00:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Immanuel Quickley",
+  "name": "Under",
+  "line": 6.5,
+  "team": "Immanuel Quickley Under 6.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 115,
+  "fairPctAtFlag": 49.4,
+  "evPctAtFlag": 6.2,
+  "closeFairPct": 49.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 6.21,
+  "closed": false
+ },
+ {
+  "key": "5896e4ed2ed41ce673e882b6529078b8|player_assists|Tre Johnson|1.5|Tre Johnson Over 1.5|None",
+  "eventId": "5896e4ed2ed41ce673e882b6529078b8",
+  "sport": "NBA",
+  "game": "Washington Wizards at Toronto Raptors",
+  "time": "2026-11-19T00:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Tre Johnson",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Tre Johnson Over 1.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 135,
+  "fairPctAtFlag": 45.0,
+  "evPctAtFlag": 5.72,
+  "closeFairPct": 45.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 5.75,
+  "closed": false
+ },
+ {
+  "key": "e0d8f7b450122679865f9a80b048908b|player_threes|Luguentz Dort|1.5|Luguentz Dort Over 1.5|None",
+  "eventId": "e0d8f7b450122679865f9a80b048908b",
+  "sport": "NBA",
+  "game": "Atlanta Hawks at Oklahoma City Thunder",
+  "time": "2026-11-19T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Luguentz Dort",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Luguentz Dort Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": -132,
+  "fairPctAtFlag": 59.6,
+  "evPctAtFlag": 4.69,
+  "closeFairPct": 59.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 4.75,
+  "closed": false
+ },
+ {
+  "key": "990b541d0ada46fce07ce8b502cf425c|h2h|Detroit Pistons|None",
+  "eventId": "990b541d0ada46fce07ce8b502cf425c",
+  "sport": "NBA",
+  "game": "Detroit Pistons at New Orleans Pelicans",
+  "time": "2026-11-19T01:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Detroit Pistons",
+  "line": null,
+  "team": "Detroit Pistons",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": -150,
+  "fairPctAtFlag": 65.6,
+  "evPctAtFlag": 9.3,
+  "closeFairPct": 65.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 9.33,
+  "closed": false
+ },
+ {
+  "key": "990b541d0ada46fce07ce8b502cf425c|player_assists|Jeremiah Fears|6.5|Jeremiah Fears Over 6.5|None",
+  "eventId": "990b541d0ada46fce07ce8b502cf425c",
+  "sport": "NBA",
+  "game": "Detroit Pistons at New Orleans Pelicans",
+  "time": "2026-11-19T01:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Jeremiah Fears",
+  "name": "Over",
+  "line": 6.5,
+  "team": "Jeremiah Fears Over 6.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 115,
+  "fairPctAtFlag": 48.6,
+  "evPctAtFlag": 4.45,
+  "closeFairPct": 48.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 4.49,
+  "closed": false
+ },
+ {
+  "key": "990b541d0ada46fce07ce8b502cf425c|player_points|Ausar Thompson|13.5|Ausar Thompson Under 13.5|None",
+  "eventId": "990b541d0ada46fce07ce8b502cf425c",
+  "sport": "NBA",
+  "game": "Detroit Pistons at New Orleans Pelicans",
+  "time": "2026-11-19T01:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Ausar Thompson",
+  "name": "Under",
+  "line": 13.5,
+  "team": "Ausar Thompson Under 13.5",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": 102,
+  "fairPctAtFlag": 53.7,
+  "evPctAtFlag": 8.5,
+  "closeFairPct": 53.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 8.47,
+  "closed": false
+ },
+ {
+  "key": "990b541d0ada46fce07ce8b502cf425c|player_points|Kevin Huerter|15.5|Kevin Huerter Under 15.5|None",
+  "eventId": "990b541d0ada46fce07ce8b502cf425c",
+  "sport": "NBA",
+  "game": "Detroit Pistons at New Orleans Pelicans",
+  "time": "2026-11-19T01:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Kevin Huerter",
+  "name": "Under",
+  "line": 15.5,
+  "team": "Kevin Huerter Under 15.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": -111,
+  "fairPctAtFlag": 57.1,
+  "evPctAtFlag": 8.57,
+  "closeFairPct": 57.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 8.54,
+  "closed": false
+ },
+ {
+  "key": "990b541d0ada46fce07ce8b502cf425c|player_points|Yves Missi|6.5|Yves Missi Over 6.5|None",
+  "eventId": "990b541d0ada46fce07ce8b502cf425c",
+  "sport": "NBA",
+  "game": "Detroit Pistons at New Orleans Pelicans",
+  "time": "2026-11-19T01:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Yves Missi",
+  "name": "Over",
+  "line": 6.5,
+  "team": "Yves Missi Over 6.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": -111,
+  "fairPctAtFlag": 55.5,
+  "evPctAtFlag": 5.47,
+  "closeFairPct": 55.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 5.5,
+  "closed": false
+ },
+ {
+  "key": "ffeefa47d95e7ee9505d1955c62e3ae4|player_threes|Christian Braun|1.5|Christian Braun Under 1.5|None",
+  "eventId": "ffeefa47d95e7ee9505d1955c62e3ae4",
+  "sport": "NBA",
+  "game": "Boston Celtics at Denver Nuggets",
+  "time": "2026-11-19T02:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Christian Braun",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Christian Braun Under 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-19T00:35:11+00:00",
+  "price": -121,
+  "fairPctAtFlag": 57.2,
+  "evPctAtFlag": 4.43,
+  "closeFairPct": 57.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T00:35:11+00:00",
+  "clvPct": 4.47,
   "closed": false
  }
 ]
