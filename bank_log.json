@@ -52681,7 +52681,7 @@
   "evPctAtFlag": 6.4,
   "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
   "clvPct": -16.84,
   "closed": false
  },
@@ -52804,10 +52804,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.94,
-  "closeFairPct": 9.7,
+  "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
-  "clvPct": 6.7,
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 10.0,
   "closed": false
  },
  {
@@ -52829,10 +52829,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 25.8,
+  "closeFairPct": 25.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
-  "clvPct": 3.2,
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 2.8,
   "closed": false
  },
  {
@@ -52854,10 +52854,10 @@
   "price": 370,
   "fairPctAtFlag": 23.4,
   "evPctAtFlag": 9.81,
-  "closeFairPct": 23.5,
+  "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
-  "clvPct": 10.45,
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 9.98,
   "closed": false
  },
  {
@@ -52954,10 +52954,10 @@
   "price": 950,
   "fairPctAtFlag": 10.2,
   "evPctAtFlag": 6.65,
-  "closeFairPct": 10.1,
+  "closeFairPct": 10.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
-  "clvPct": 6.05,
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 7.1,
   "closed": false
  },
  {
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
   "clvPct": 5.84,
   "closed": false
  },
@@ -53479,10 +53479,10 @@
   "price": 285,
   "fairPctAtFlag": 27.7,
   "evPctAtFlag": 6.55,
-  "closeFairPct": 27.0,
+  "closeFairPct": 28.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
-  "clvPct": 3.95,
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 7.8,
   "closed": false
  },
  {
@@ -53504,10 +53504,10 @@
   "price": 175,
   "fairPctAtFlag": 37.9,
   "evPctAtFlag": 4.19,
-  "closeFairPct": 37.9,
+  "closeFairPct": 37.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
-  "clvPct": 4.22,
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 3.95,
   "closed": false
  },
  {
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 14.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
   "clvPct": -4.86,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
   "clvPct": 4.52,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T01:58:49+00:00",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
   "clvPct": 4.34,
   "closed": false
  },
@@ -54108,7 +54108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T01:58:49+00:00",
   "clvPct": 24.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d286fe14b112d1133b247e2183920c9e|h2h|Coppin St Eagles|None",
@@ -54158,7 +54158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T01:58:49+00:00",
   "clvPct": 4.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "94bd619fd5f01d6fce01976be60e88e6|h2h|Morehead St Eagles|None",
@@ -54583,7 +54583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T01:58:49+00:00",
   "clvPct": 5.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ffeefa47d95e7ee9505d1955c62e3ae4|player_threes|Jamal Murray|2.5|Jamal Murray Under 2.5|None",
@@ -54608,7 +54608,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T01:58:49+00:00",
   "clvPct": 5.34,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6a72c23de4887e73345dde9bdc64eabe|player_assists|Nolan Traore|4.5|Nolan Traore Over 4.5|None",
@@ -54933,6 +54933,31 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T01:58:49+00:00",
   "clvPct": 4.47,
+  "closed": true
+ },
+ {
+  "key": "41e2dd69bddd65d7e823d9ed61cc2afc|h2h|Tampa Bay Buccaneers|None",
+  "eventId": "41e2dd69bddd65d7e823d9ed61cc2afc",
+  "sport": "NFL",
+  "game": "Tampa Bay Buccaneers at Detroit Lions",
+  "time": "2026-11-22T18:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Tampa Bay Buccaneers",
+  "line": null,
+  "team": "Tampa Bay Buccaneers",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-19T03:47:54+00:00",
+  "price": 280,
+  "fairPctAtFlag": 27.7,
+  "evPctAtFlag": 5.24,
+  "closeFairPct": 27.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-19T03:47:54+00:00",
+  "clvPct": 5.26,
   "closed": false
  }
 ]
