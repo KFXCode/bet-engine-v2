@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.10371436556735605,
-   "clv_beat_rate": 0.24538848518725545,
-   "clv_n": 1789,
-   "graded": 2115,
+   "avg_clv": 0.10253236607142857,
+   "clv_beat_rate": 0.24497767857142858,
+   "clv_n": 1792,
+   "graded": 2125,
    "record": {
-    "l": 1053,
+    "l": 1058,
     "p": 1,
     "void": 59,
-    "w": 1061
+    "w": 1066
    },
-   "win_rate": 0.5018921475875118
+   "win_rate": 0.5018832391713748
   }
  },
  "by_sport": {
@@ -42,17 +42,17 @@
    "win_rate": 0.5277777777777778
   },
   "NBA Props": {
-   "avg_clv": 0.20672704081632653,
-   "clv_beat_rate": 0.16071428571428573,
-   "clv_n": 392,
-   "graded": 501,
+   "avg_clv": 0.20109137055837564,
+   "clv_beat_rate": 0.1598984771573604,
+   "clv_n": 394,
+   "graded": 509,
    "record": {
-    "l": 247,
+    "l": 252,
     "p": 0,
     "void": 20,
-    "w": 254
+    "w": 257
    },
-   "win_rate": 0.5069860279441117
+   "win_rate": 0.5049115913555993
   },
   "NBA Sides": {
    "avg_clv": 0.09721739130434782,
@@ -81,17 +81,17 @@
    "win_rate": 0.5
   },
   "NCAAB Sides": {
-   "avg_clv": 0.1432173913043478,
-   "clv_beat_rate": 0.08695652173913043,
-   "clv_n": 23,
-   "graded": 28,
+   "avg_clv": 0.13724999999999998,
+   "clv_beat_rate": 0.08333333333333333,
+   "clv_n": 24,
+   "graded": 30,
    "record": {
     "l": 16,
     "p": 0,
     "void": 0,
-    "w": 12
+    "w": 14
    },
-   "win_rate": 0.42857142857142855
+   "win_rate": 0.4666666666666667
   },
   "NCAAF Cosmic": {
    "avg_clv": -0.25044285714285713,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: cache already current (12480 player-games, looked back 21 days)",
+  "NBA player logs: added 3 box scores, 12553 player-games cached",
   "NFL player logs: cache already current (6760 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-19T03:47:42+00:00",
+ "generated_at": "2026-11-19T16:51:56+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
@@ -4270,10 +4270,10 @@
    "win_rate": 0.4646017699115044
   },
   "Props": {
-   "avg_clv": 0.16329300118623963,
-   "clv_beat_rate": 0.1221826809015421,
-   "clv_n": 843,
-   "graded": 1068,
+   "avg_clv": 0.1607680473372781,
+   "clv_beat_rate": 0.12189349112426036,
+   "clv_n": 845,
+   "graded": 1076,
    "label": "Player props",
    "picks": [
     {
@@ -24528,6 +24528,24 @@
     },
     {
      "closing_price": 100,
+     "clv": -1.807,
+     "edge": 17.499,
+     "ev": 0.33702,
+     "final": "41",
+     "game": "Boston Celtics @ Denver Nuggets",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Nikola Jokic Under 44.5 pts+reb+ast",
+     "player": "Nikola Jokic",
+     "price": -108,
+     "proj": 40.431,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 100,
      "clv": -6.202,
      "edge": 17.372,
      "ev": 0.30735,
@@ -24635,6 +24653,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 13.435,
+     "ev": 0.26352,
+     "final": "24",
+     "game": "Boston Celtics @ Denver Nuggets",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Nikola Jokic Under 23.5 points",
+     "player": "Nikola Jokic",
+     "price": -104,
+     "proj": 21.733,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -130,
      "clv": 0.0,
      "edge": 12.874,
@@ -24651,22 +24687,130 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.979,
+     "ev": 0.39958,
+     "final": "13",
+     "game": "Utah Jazz @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Brice Sensabaugh Under 24.5 pts+reb+ast",
+     "player": "Brice Sensabaugh",
+     "price": 100,
+     "proj": 20.077,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.554,
+     "ev": 0.40282,
+     "final": "8",
+     "game": "Boston Celtics @ Denver Nuggets",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Jayson Tatum Under 9.5 rebounds",
+     "player": "Jayson Tatum",
+     "price": 106,
+     "proj": 8.111,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.468,
+     "ev": 0.35692,
+     "final": "36",
+     "game": "Phoenix Suns @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Darius Acuff Jr. Under 27.5 points",
+     "player": "Darius Acuff Jr.",
+     "price": -120,
+     "proj": 23.287,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.199,
+     "ev": 0.30495,
+     "final": "7",
+     "game": "Phoenix Suns @ Sacramento Kings",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Keegan Murray Under 4.5 rebounds",
+     "player": "Keegan Murray",
+     "price": -148,
+     "proj": 2.922,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.157,
+     "ev": 0.33042,
+     "final": "1",
+     "game": "Boston Celtics @ Denver Nuggets",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Paul George Over 2.5 assists",
+     "player": "Paul George",
+     "price": -108,
+     "proj": 3.905,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.148,
+     "ev": 0.29604,
+     "final": "20",
+     "game": "Utah Jazz @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Quentin Grimes Under 15.5 points",
+     "player": "Quentin Grimes",
+     "price": -120,
+     "proj": 12.556,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 534,
+    "l": 539,
     "p": 0,
     "void": 64,
-    "w": 534
+    "w": 537
    },
    "threshold": 7.0,
-   "win_rate": 0.5
+   "win_rate": 0.49907063197026025
   },
   "Sides": {
-   "avg_clv": 0.0432847619047619,
-   "clv_beat_rate": 0.3457142857142857,
-   "clv_n": 1050,
-   "graded": 1169,
+   "avg_clv": 0.04324357754519505,
+   "clv_beat_rate": 0.34538534728829684,
+   "clv_n": 1051,
+   "graded": 1171,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -45710,22 +45854,58 @@
      "result": "L",
      "sport": "NCAAB",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -106,
+     "clv": 0.0,
+     "edge": 10.66,
+     "ev": 0.20717,
+     "final": "79-85",
+     "game": "UConn Huskies @ Arizona Wildcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Arizona Wildcats -3.5",
+     "player": null,
+     "price": -106,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 13.181,
+     "ev": 0.2332,
+     "final": "79-85",
+     "game": "UConn Huskies @ Arizona Wildcats",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "UConn Huskies +11.5",
+     "player": null,
+     "price": -130,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
     "l": 578,
     "p": 1,
     "void": 0,
-    "w": 590
+    "w": 592
    },
    "threshold": 5.0,
-   "win_rate": 0.5051369863013698
+   "win_rate": 0.505982905982906
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 95,
-  "Props": 179,
-  "Sides": 172
+  "Props": 171,
+  "Sides": 170
  }
 }
