@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.10241806020066889,
-   "clv_beat_rate": 0.24470457079152733,
-   "clv_n": 1794,
-   "graded": 2127,
+   "avg_clv": 0.09747526403557533,
+   "clv_beat_rate": 0.24458032240133407,
+   "clv_n": 1799,
+   "graded": 2133,
    "record": {
-    "l": 1058,
+    "l": 1062,
     "p": 1,
     "void": 59,
-    "w": 1068
+    "w": 1070
    },
-   "win_rate": 0.5023518344308561
+   "win_rate": 0.50187617260788
   }
  },
  "by_sport": {
@@ -68,17 +68,17 @@
    "win_rate": 0.4393063583815029
   },
   "NCAAB Cosmic": {
-   "avg_clv": 0.09562499999999999,
-   "clv_beat_rate": 0.25,
-   "clv_n": 8,
-   "graded": 10,
+   "avg_clv": 0.07649999999999998,
+   "clv_beat_rate": 0.2,
+   "clv_n": 10,
+   "graded": 12,
    "record": {
-    "l": 5,
+    "l": 7,
     "p": 0,
     "void": 0,
     "w": 5
    },
-   "win_rate": 0.5
+   "win_rate": 0.4166666666666667
   },
   "NCAAB Sides": {
    "avg_clv": 0.1266923076923077,
@@ -97,80 +97,80 @@
    "avg_clv": -0.25044285714285713,
    "clv_beat_rate": 0.3142857142857143,
    "clv_n": 70,
-   "graded": 75,
+   "graded": 77,
    "record": {
     "l": 41,
     "p": 0,
     "void": 0,
-    "w": 34
+    "w": 36
    },
-   "win_rate": 0.4533333333333333
+   "win_rate": 0.4675324675324675
   },
   "NCAAF Sides": {
    "avg_clv": 0.09580543633762519,
    "clv_beat_rate": 0.3948497854077253,
    "clv_n": 699,
-   "graded": 742,
+   "graded": 743,
    "record": {
     "l": 355,
     "p": 0,
     "void": 0,
-    "w": 387
+    "w": 388
    },
-   "win_rate": 0.5215633423180593
+   "win_rate": 0.522207267833109
   },
   "NFL Cosmic": {
-   "avg_clv": -0.2687894736842106,
-   "clv_beat_rate": 0.2982456140350877,
-   "clv_n": 57,
-   "graded": 70,
+   "avg_clv": -0.3165084745762712,
+   "clv_beat_rate": 0.3050847457627119,
+   "clv_n": 59,
+   "graded": 72,
    "record": {
-    "l": 41,
+    "l": 43,
     "p": 1,
     "void": 0,
     "w": 28
    },
-   "win_rate": 0.4057971014492754
+   "win_rate": 0.39436619718309857
   },
   "NFL Props": {
-   "avg_clv": 0.1255410199556541,
-   "clv_beat_rate": 0.08869179600886919,
-   "clv_n": 451,
-   "graded": 567,
+   "avg_clv": 0.10874889867841409,
+   "clv_beat_rate": 0.0881057268722467,
+   "clv_n": 454,
+   "graded": 570,
    "record": {
-    "l": 287,
+    "l": 289,
     "p": 0,
     "void": 44,
-    "w": 280
+    "w": 281
    },
-   "win_rate": 0.49382716049382713
+   "win_rate": 0.49298245614035086
   },
   "NFL Sides": {
-   "avg_clv": -0.20120526315789472,
-   "clv_beat_rate": 0.35789473684210527,
-   "clv_n": 190,
-   "graded": 226,
+   "avg_clv": -0.20501041666666667,
+   "clv_beat_rate": 0.359375,
+   "clv_n": 192,
+   "graded": 228,
    "record": {
-    "l": 110,
+    "l": 112,
     "p": 1,
     "void": 0,
     "w": 115
    },
-   "win_rate": 0.5111111111111111
+   "win_rate": 0.5066079295154186
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6760 player-games, looked back 21 days)",
-  "NBA player logs: cache already current (12642 player-games, looked back 21 days)"
+  "NBA player logs: cache already current (12642 player-games, looked back 21 days)",
+  "NFL player logs: added 1 box scores, 6781 player-games cached"
  ],
- "generated_at": "2026-11-20T03:43:27+00:00",
+ "generated_at": "2026-11-20T16:27:25+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.13076086956521737,
-   "clv_beat_rate": 0.2717391304347826,
-   "clv_n": 184,
-   "graded": 227,
+   "avg_clv": -0.14581382978723403,
+   "clv_beat_rate": 0.2712765957446808,
+   "clv_n": 188,
+   "graded": 233,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -3990,6 +3990,42 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 570,
+     "clv": -4.436,
+     "edge": 3.775,
+     "ev": 0.19255,
+     "final": "3-26",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Indianapolis Colts ML",
+     "player": null,
+     "price": 410,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -110,
+     "clv": 1.083,
+     "edge": 2.784,
+     "ev": 0.05435,
+     "final": "3-26",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Indianapolis Colts +9.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -290,
      "clv": 0.0,
      "edge": 9.278,
@@ -4258,22 +4294,94 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 2.363,
+     "ev": 0.0468,
+     "final": "51-96",
+     "game": "Tarleton State Texans @ USC Trojans",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Tarleton State Texans +26.5",
+     "player": null,
+     "price": -102,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 3.971,
+     "ev": 0.17473,
+     "final": "31-27",
+     "game": "Rice Owls @ Temple Owls",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Rice Owls ML",
+     "player": null,
+     "price": 340,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 9.412,
+     "ev": 0.3953,
+     "final": "31-27",
+     "game": "Rice Owls @ Temple Owls",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Rice Owls +2.5",
+     "player": null,
+     "price": 320,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -106,
+     "clv": 0.0,
+     "edge": 2.066,
+     "ev": 0.04015,
+     "final": "92-83",
+     "game": "Houston Cougars @ Kansas Jayhawks",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Kansas Jayhawks +2.5",
+     "player": null,
+     "price": -106,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 121,
+    "l": 125,
     "p": 1,
     "void": 0,
-    "w": 105
+    "w": 107
    },
    "threshold": null,
-   "win_rate": 0.4646017699115044
+   "win_rate": 0.46120689655172414
   },
   "Props": {
-   "avg_clv": 0.1607680473372781,
-   "clv_beat_rate": 0.12189349112426036,
-   "clv_n": 845,
-   "graded": 1076,
+   "avg_clv": 0.15165330188679246,
+   "clv_beat_rate": 0.1214622641509434,
+   "clv_n": 848,
+   "graded": 1079,
    "label": "Player props",
    "picks": [
     {
@@ -24239,6 +24347,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 16.223,
+     "ev": 0.30453,
+     "final": "22",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Tyler Warren Under 40.5 receiving yards",
+     "player": "Tyler Warren",
+     "price": -114,
+     "proj": 33.503,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": 100,
      "clv": 0.0,
      "edge": 16.093,
@@ -24380,6 +24506,24 @@
      "proj": 20.506,
      "result": "L",
      "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -118,
+     "clv": -7.247,
+     "edge": 12.473,
+     "ev": 0.20173,
+     "final": "2",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Ashton Dulin Under 1.5 receptions",
+     "player": "Ashton Dulin",
+     "price": -162,
+     "proj": 0.982,
+     "result": "L",
+     "sport": "NFL",
      "week": "Week of Nov 16"
     },
     {
@@ -24671,6 +24815,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 12.996,
+     "ev": 0.24396,
+     "final": "33",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Emari Demercado Under 20.5 rushing yards",
+     "player": "Emari Demercado",
+     "price": -114,
+     "proj": 19.376,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -130,
      "clv": 0.0,
      "edge": 12.874,
@@ -24798,19 +24960,19 @@
     }
    ],
    "record": {
-    "l": 539,
+    "l": 541,
     "p": 0,
     "void": 64,
-    "w": 537
+    "w": 538
    },
    "threshold": 7.0,
-   "win_rate": 0.49907063197026025
+   "win_rate": 0.4986098239110287
   },
   "Sides": {
-   "avg_clv": 0.043161443494776824,
-   "clv_beat_rate": 0.34472934472934474,
-   "clv_n": 1053,
-   "graded": 1173,
+   "avg_clv": 0.04200568720379146,
+   "clv_beat_rate": 0.34502369668246446,
+   "clv_n": 1055,
+   "graded": 1176,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -45676,6 +45838,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 570,
+     "clv": -2.216,
+     "edge": 7.469,
+     "ev": 0.43321,
+     "final": "3-26",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Indianapolis Colts ML",
+     "player": null,
+     "price": 480,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -110,
+     "clv": 1.083,
+     "edge": 7.739,
+     "ev": 0.1511,
+     "final": "3-26",
+     "game": "Indianapolis Colts @ Houston Texans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Indianapolis Colts +10.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -105,
      "clv": 0.0,
      "edge": 10.8,
@@ -45926,22 +46124,40 @@
      "result": "W",
      "sport": "NCAAB",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 9.412,
+     "ev": 0.3953,
+     "final": "31-27",
+     "game": "Rice Owls @ Temple Owls",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Rice Owls +2.5",
+     "player": null,
+     "price": 320,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 578,
+    "l": 580,
     "p": 1,
     "void": 0,
-    "w": 594
+    "w": 595
    },
    "threshold": 5.0,
-   "win_rate": 0.5068259385665529
+   "win_rate": 0.5063829787234042
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 101,
-  "Props": 190,
-  "Sides": 181
+  "Cosmic": 95,
+  "Props": 187,
+  "Sides": 178
  }
 }
