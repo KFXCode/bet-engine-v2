@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 12.2,
   "closed": false
  },
@@ -52829,10 +52829,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 25.4,
+  "closeFairPct": 25.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
-  "clvPct": 1.6,
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
+  "clvPct": 1.2,
   "closed": false
  },
  {
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 9.51,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 25.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": -3.75,
   "closed": false
  },
@@ -53504,10 +53504,10 @@
   "price": 175,
   "fairPctAtFlag": 37.9,
   "evPctAtFlag": 4.19,
-  "closeFairPct": 37.9,
+  "closeFairPct": 35.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
-  "clvPct": 4.22,
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
+  "clvPct": -2.38,
   "closed": false
  },
  {
@@ -53679,10 +53679,10 @@
   "price": 570,
   "fairPctAtFlag": 15.7,
   "evPctAtFlag": 5.12,
-  "closeFairPct": 13.0,
+  "closeFairPct": 12.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
-  "clvPct": -12.9,
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
+  "clvPct": -14.24,
   "closed": false
  },
  {
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 8.42,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 3.78,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 30.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 15.52,
   "closed": false
  },
@@ -55183,7 +55183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": -9.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6b10d0e25f551c8d3eb324fc144777a8|h2h|Marshall Thundering Herd|None",
@@ -55206,8 +55206,33 @@
   "evPctAtFlag": 4.54,
   "closeFairPct": 5.5,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
   "clvPct": 4.5,
+  "closed": false
+ },
+ {
+  "key": "60dd6652c2f1e4af18cc3ce565e8dd1d|h2h|Holy Cross Crusaders|None",
+  "eventId": "60dd6652c2f1e4af18cc3ce565e8dd1d",
+  "sport": "NCAAB",
+  "game": "Harvard Crimson at Holy Cross Crusaders",
+  "time": "2026-11-21T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Holy Cross Crusaders",
+  "line": null,
+  "team": "Holy Cross Crusaders",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-20T20:35:10+00:00",
+  "price": 700,
+  "fairPctAtFlag": 13.1,
+  "evPctAtFlag": 5.11,
+  "closeFairPct": 13.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-20T20:35:10+00:00",
+  "clvPct": 4.8,
   "closed": false
  }
 ]
