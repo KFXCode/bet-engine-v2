@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 12.2,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 1.6,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 9.51,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53479,10 +53479,10 @@
   "price": 285,
   "fairPctAtFlag": 27.7,
   "evPctAtFlag": 6.55,
-  "closeFairPct": 25.1,
+  "closeFairPct": 25.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
-  "clvPct": -3.36,
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "clvPct": -3.75,
   "closed": false
  },
  {
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 4.22,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 13.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": -12.9,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 8.42,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 3.78,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 30.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
   "clvPct": 15.52,
   "closed": false
  },
@@ -55158,7 +55158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-20T16:05:10+00:00",
   "clvPct": 0.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "8f88d57c43c67df9c1beb816e0c11d5c|h2h|Northwestern Wildcats|None",
@@ -55179,10 +55179,35 @@
   "price": 470,
   "fairPctAtFlag": 18.7,
   "evPctAtFlag": 6.39,
-  "closeFairPct": 16.3,
+  "closeFairPct": 15.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T16:05:10+00:00",
-  "clvPct": -7.09,
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "clvPct": -9.37,
+  "closed": false
+ },
+ {
+  "key": "6b10d0e25f551c8d3eb324fc144777a8|h2h|Marshall Thundering Herd|None",
+  "eventId": "6b10d0e25f551c8d3eb324fc144777a8",
+  "sport": "NCAAB",
+  "game": "Marshall Thundering Herd at North Carolina Tar Heels",
+  "time": "2026-11-21T02:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Marshall Thundering Herd",
+  "line": null,
+  "team": "Marshall Thundering Herd",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-20T18:35:17+00:00",
+  "price": 1800,
+  "fairPctAtFlag": 5.5,
+  "evPctAtFlag": 4.54,
+  "closeFairPct": 5.5,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-20T18:35:17+00:00",
+  "clvPct": 4.5,
   "closed": false
  }
 ]
