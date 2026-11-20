@@ -52804,10 +52804,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.94,
-  "closeFairPct": 10.1,
+  "closeFairPct": 9.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
-  "clvPct": 11.1,
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
+  "clvPct": 7.8,
   "closed": false
  },
  {
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 2.4,
   "closed": false
  },
@@ -52854,10 +52854,10 @@
   "price": 370,
   "fairPctAtFlag": 23.4,
   "evPctAtFlag": 9.81,
-  "closeFairPct": 23.4,
+  "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
-  "clvPct": 9.98,
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
+  "clvPct": 9.51,
   "closed": false
  },
  {
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 28.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 7.8,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 12.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": -13.57,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53754,10 +53754,10 @@
   "price": 290,
   "fairPctAtFlag": 26.9,
   "evPctAtFlag": 4.9,
-  "closeFairPct": 26.7,
+  "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
-  "clvPct": 4.13,
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
+  "clvPct": 8.42,
   "closed": false
  },
  {
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
   "clvPct": 3.78,
   "closed": false
  },
@@ -54954,10 +54954,10 @@
   "price": 280,
   "fairPctAtFlag": 27.7,
   "evPctAtFlag": 5.24,
-  "closeFairPct": 28.9,
+  "closeFairPct": 30.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T01:52:57+00:00",
-  "clvPct": 9.82,
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
+  "clvPct": 15.52,
   "closed": false
  },
  {
@@ -55058,7 +55058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 5.52,
-  "closed": false
+  "closed": true
  },
  {
   "key": "20fa5e2d73cec494c113790161a89aec|player_threes|Derrick Jones|1.5|Derrick Jones Over 1.5|None",
@@ -55134,5 +55134,55 @@
   "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 4.59,
   "closed": true
+ },
+ {
+  "key": "2c61b23dd09630b92c98ca00c4e8dad1|h2h|Oklahoma St Cowboys|None",
+  "eventId": "2c61b23dd09630b92c98ca00c4e8dad1",
+  "sport": "NCAAB",
+  "game": "Oklahoma St Cowboys at Minnesota Golden Gophers",
+  "time": "2026-11-20T17:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Oklahoma St Cowboys",
+  "line": null,
+  "team": "Oklahoma St Cowboys",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-20T03:43:40+00:00",
+  "price": 100,
+  "fairPctAtFlag": 52.2,
+  "evPctAtFlag": 4.35,
+  "closeFairPct": 52.2,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
+  "clvPct": 4.4,
+  "closed": false
+ },
+ {
+  "key": "8f88d57c43c67df9c1beb816e0c11d5c|h2h|Northwestern Wildcats|None",
+  "eventId": "8f88d57c43c67df9c1beb816e0c11d5c",
+  "sport": "NCAAB",
+  "game": "Northwestern Wildcats at Virginia Tech Hokies",
+  "time": "2026-11-20T20:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Northwestern Wildcats",
+  "line": null,
+  "team": "Northwestern Wildcats",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-20T03:43:40+00:00",
+  "price": 470,
+  "fairPctAtFlag": 18.7,
+  "evPctAtFlag": 6.39,
+  "closeFairPct": 18.7,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-20T03:43:40+00:00",
+  "clvPct": 6.59,
+  "closed": false
  }
 ]
