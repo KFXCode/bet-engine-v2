@@ -52683,7 +52683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": -16.84,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b931a21d34e414ee92b1a4b8e63774aa|player_assists|Jaime Jaquez Jr|3.5|Jaime Jaquez Jr Over 3.5|None",
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 2.4,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 9.98,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 28.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 7.8,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 12.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": -13.57,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 4.13,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 3.78,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 28.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
   "clvPct": 9.82,
   "closed": false
  },
@@ -55033,7 +55033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T23:45:08+00:00",
   "clvPct": 6.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "06c795c1626c246ad89e38eb1a35dbfb|h2h|Pepperdine Waves|None",
@@ -55054,10 +55054,10 @@
   "price": 135,
   "fairPctAtFlag": 45.6,
   "evPctAtFlag": 7.18,
-  "closeFairPct": 45.4,
+  "closeFairPct": 44.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-20T00:35:10+00:00",
-  "clvPct": 6.69,
+  "closeSeenAt": "2026-11-20T01:52:57+00:00",
+  "clvPct": 5.52,
   "closed": false
  },
  {
@@ -55083,7 +55083,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 5.19,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5ee4efd00c1daaebd8249ff44fd6ac9d|player_points|Terrence Shannon Jr.|11.5|Terrence Shannon Jr. Over 11.5|None",
@@ -55108,7 +55108,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 4.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "006df00e5e48650d849d1bb4cd81565d|player_assists|Toumani Camara|1.5|Toumani Camara Over 1.5|None",
@@ -55133,6 +55133,6 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 4.59,
-  "closed": false
+  "closed": true
  }
 ]
