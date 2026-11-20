@@ -52679,10 +52679,10 @@
   "price": 440,
   "fairPctAtFlag": 19.7,
   "evPctAtFlag": 6.4,
-  "closeFairPct": 15.5,
+  "closeFairPct": 15.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
-  "clvPct": -16.3,
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "clvPct": -16.84,
   "closed": false
  },
  {
@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 2.4,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 9.98,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53481,7 +53481,7 @@
   "evPctAtFlag": 6.55,
   "closeFairPct": 28.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 7.8,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 37.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -53681,7 +53681,7 @@
   "evPctAtFlag": 5.12,
   "closeFairPct": 12.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": -13.57,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 5.11,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 26.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 4.13,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 3.78,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 28.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
   "clvPct": 9.82,
   "closed": false
  },
@@ -54983,7 +54983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T23:45:08+00:00",
   "clvPct": 10.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "8bc6641f480ada7dae2744e3336dbcfa|h2h|Louisiana Tech Bulldogs|None",
@@ -55008,7 +55008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-19T23:45:08+00:00",
   "clvPct": 9.67,
-  "closed": false
+  "closed": true
  },
  {
   "key": "006df00e5e48650d849d1bb4cd81565d|player_points|Brayden Burries|12.5|Brayden Burries Under 12.5|None",
@@ -55054,10 +55054,85 @@
   "price": 135,
   "fairPctAtFlag": 45.6,
   "evPctAtFlag": 7.18,
-  "closeFairPct": 45.3,
+  "closeFairPct": 45.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-19T23:45:08+00:00",
-  "clvPct": 6.45,
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "clvPct": 6.69,
+  "closed": false
+ },
+ {
+  "key": "20fa5e2d73cec494c113790161a89aec|player_threes|Derrick Jones|1.5|Derrick Jones Over 1.5|None",
+  "eventId": "20fa5e2d73cec494c113790161a89aec",
+  "sport": "NBA",
+  "game": "Los Angeles Clippers at San Antonio Spurs",
+  "time": "2026-11-20T01:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Derrick Jones",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Derrick Jones Over 1.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-20T00:35:10+00:00",
+  "price": 182,
+  "fairPctAtFlag": 37.3,
+  "evPctAtFlag": 5.22,
+  "closeFairPct": 37.3,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "clvPct": 5.19,
+  "closed": false
+ },
+ {
+  "key": "5ee4efd00c1daaebd8249ff44fd6ac9d|player_points|Terrence Shannon Jr.|11.5|Terrence Shannon Jr. Over 11.5|None",
+  "eventId": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+  "sport": "NBA",
+  "game": "New York Knicks at Minnesota Timberwolves",
+  "time": "2026-11-20T01:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Terrence Shannon Jr.",
+  "name": "Over",
+  "line": 11.5,
+  "team": "Terrence Shannon Jr. Over 11.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-20T00:35:10+00:00",
+  "price": 108,
+  "fairPctAtFlag": 50.0,
+  "evPctAtFlag": 4.0,
+  "closeFairPct": 50.0,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "clvPct": 4.0,
+  "closed": false
+ },
+ {
+  "key": "006df00e5e48650d849d1bb4cd81565d|player_assists|Toumani Camara|1.5|Toumani Camara Over 1.5|None",
+  "eventId": "006df00e5e48650d849d1bb4cd81565d",
+  "sport": "NBA",
+  "game": "Portland Trail Blazers at Milwaukee Bucks",
+  "time": "2026-11-20T01:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Toumani Camara",
+  "name": "Over",
+  "line": 1.5,
+  "team": "Toumani Camara Over 1.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-20T00:35:10+00:00",
+  "price": -124,
+  "fairPctAtFlag": 57.9,
+  "evPctAtFlag": 4.6,
+  "closeFairPct": 57.9,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-20T00:35:10+00:00",
+  "clvPct": 4.59,
   "closed": false
  }
 ]
