@@ -52804,10 +52804,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.94,
-  "closeFairPct": 10.3,
+  "closeFairPct": 9.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
-  "clvPct": 13.3,
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "clvPct": 4.5,
   "closed": false
  },
  {
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 1.6,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 9.51,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53479,10 +53479,10 @@
   "price": 285,
   "fairPctAtFlag": 27.7,
   "evPctAtFlag": 6.55,
-  "closeFairPct": 23.9,
+  "closeFairPct": 23.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
-  "clvPct": -7.98,
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "clvPct": -8.37,
   "closed": false
  },
  {
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 35.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": -2.38,
   "closed": false
  },
@@ -53683,7 +53683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": -16.92,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6b40f07e146bab0dba574f0d3b07659e|h2h|Washington Huskies|None",
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 6.26,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 8.81,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 3.78,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 30.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 15.52,
   "closed": false
  },
@@ -55206,7 +55206,7 @@
   "evPctAtFlag": 4.54,
   "closeFairPct": 5.5,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -55258,7 +55258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 12.33,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9051693857c6a0e5e1bc6bb2b4f6fe35|player_points|Ausar Thompson|11.5|Ausar Thompson Under 11.5|None",
@@ -55283,7 +55283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 4.22,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9051693857c6a0e5e1bc6bb2b4f6fe35|player_threes|John Collins|1.5|John Collins Over 1.5|None",
@@ -55308,7 +55308,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 6.34,
-  "closed": false
+  "closed": true
  },
  {
   "key": "7dca3ce414b200c5bf9e73a01896e0a0|h2h|Campbell Fighting Camels|None",
@@ -55333,7 +55333,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 4.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6ed1e97c331fc604506e4c354ab1cdc|player_threes|Bilal Coulibaly|0.5|Bilal Coulibaly Under 0.5|None",
@@ -55358,7 +55358,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 5.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "55c3096b11f501ffb6d8bccbb2cd319d|h2h|Sacramento Kings|None",
@@ -55379,10 +55379,10 @@
   "price": 660,
   "fairPctAtFlag": 14.0,
   "evPctAtFlag": 6.12,
-  "closeFairPct": 13.1,
+  "closeFairPct": 13.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
-  "clvPct": -0.44,
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "clvPct": 3.36,
   "closed": false
  },
  {
@@ -55408,7 +55408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 0.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "17e3a8dc71275a88b19d0d6750a5052c|player_assists|Zion Williamson|2.5|Zion Williamson Over 2.5|None",
@@ -55433,7 +55433,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 0.39,
-  "closed": false
+  "closed": true
  },
  {
   "key": "17e3a8dc71275a88b19d0d6750a5052c|player_threes|Jared McCain|2.5|Jared McCain Under 2.5|None",
@@ -55458,7 +55458,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": -2.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6ed1e97c331fc604506e4c354ab1cdc|player_threes|Matas Buzelis|2.5|Matas Buzelis Under 2.5|None",
@@ -55483,7 +55483,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 1.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ee204ae35d677450476eab6ad6a146a7|player_threes|Miles Bridges|1.5|Miles Bridges Over 1.5|None",
@@ -55506,7 +55506,7 @@
   "evPctAtFlag": 4.57,
   "closeFairPct": 51.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 4.55,
   "closed": false
  },
@@ -55533,7 +55533,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 4.23,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9051693857c6a0e5e1bc6bb2b4f6fe35|player_assists|Immanuel Quickley|5.5|Immanuel Quickley Over 5.5|None",
@@ -55558,7 +55558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 4.45,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d6ed1e97c331fc604506e4c354ab1cdc|player_points|Isaac Okoro|10.5|Isaac Okoro Under 10.5|None",
@@ -55583,7 +55583,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T00:35:10+00:00",
   "clvPct": 4.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "086d2fe80483ffcc280994fe2e12d4f4|player_assists|DeMar DeRozan|2.5|DeMar DeRozan Over 2.5|None",
@@ -55606,7 +55606,7 @@
   "evPctAtFlag": 7.27,
   "closeFairPct": 45.6,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 7.16,
   "closed": false
  },
@@ -55631,8 +55631,58 @@
   "evPctAtFlag": 5.85,
   "closeFairPct": 50.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T00:35:10+00:00",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 5.84,
+  "closed": false
+ },
+ {
+  "key": "086d2fe80483ffcc280994fe2e12d4f4|h2h|Houston Rockets|None",
+  "eventId": "086d2fe80483ffcc280994fe2e12d4f4",
+  "sport": "NBA",
+  "game": "Houston Rockets at Denver Nuggets",
+  "time": "2026-11-21T03:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Houston Rockets",
+  "line": null,
+  "team": "Houston Rockets",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-21T01:42:53+00:00",
+  "price": 105,
+  "fairPctAtFlag": 51.4,
+  "evPctAtFlag": 5.32,
+  "closeFairPct": 51.4,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "clvPct": 5.37,
+  "closed": false
+ },
+ {
+  "key": "6cd4587453e4da55317b2c1e3576e75b|h2h|Milwaukee Bucks|None",
+  "eventId": "6cd4587453e4da55317b2c1e3576e75b",
+  "sport": "NBA",
+  "game": "Milwaukee Bucks at Philadelphia 76ers",
+  "time": "2026-11-21T18:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Milwaukee Bucks",
+  "line": null,
+  "team": "Milwaukee Bucks",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-21T01:42:53+00:00",
+  "price": 525,
+  "fairPctAtFlag": 16.7,
+  "evPctAtFlag": 4.64,
+  "closeFairPct": 16.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "clvPct": 4.37,
   "closed": false
  }
 ]
