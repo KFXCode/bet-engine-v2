@@ -52833,7 +52833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T20:46:27+00:00",
   "clvPct": 6.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5e63079b678f8c13419adc169fff02d3|h2h|Tennessee Titans|None",
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 14.21,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 9.2,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53508,7 +53508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T20:46:27+00:00",
   "clvPct": -1.28,
-  "closed": false
+  "closed": true
  },
  {
   "key": "34cc1630b26debe487cc005f53751fe3|h2h|Bucknell Bison|None",
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 33.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 25.78,
   "closed": false
  },
@@ -55706,7 +55706,7 @@
   "evPctAtFlag": 7.28,
   "closeFairPct": 23.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 11.36,
   "closed": false
  },
@@ -55833,7 +55833,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T20:46:27+00:00",
   "clvPct": 4.98,
-  "closed": false
+  "closed": true
  },
  {
   "key": "89e434722afd075e5488a6b9310325e9|h2h|San Jose State Spartans|None",
@@ -55854,10 +55854,10 @@
   "price": 225,
   "fairPctAtFlag": 32.0,
   "evPctAtFlag": 4.02,
-  "closeFairPct": 32.0,
+  "closeFairPct": 32.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
-  "clvPct": 4.0,
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
+  "clvPct": 4.65,
   "closed": false
  },
  {
@@ -55879,10 +55879,10 @@
   "price": -152,
   "fairPctAtFlag": 63.4,
   "evPctAtFlag": 5.13,
-  "closeFairPct": 58.0,
+  "closeFairPct": 58.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
-  "clvPct": -3.84,
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
+  "clvPct": -3.34,
   "closed": false
  },
  {
@@ -55906,7 +55906,7 @@
   "evPctAtFlag": 5.0,
   "closeFairPct": 22.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T20:46:27+00:00",
+  "closeSeenAt": "2026-11-21T21:36:37+00:00",
   "clvPct": 4.34,
   "closed": false
  },
