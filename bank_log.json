@@ -52804,10 +52804,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.94,
-  "closeFairPct": 8.7,
+  "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
-  "clvPct": -4.3,
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": 5.6,
   "closed": false
  },
  {
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 1.2,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 9.98,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 8.15,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 35.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": -3.2,
   "closed": false
  },
@@ -53704,10 +53704,10 @@
   "price": 285,
   "fairPctAtFlag": 27.5,
   "evPctAtFlag": 5.71,
-  "closeFairPct": 25.5,
+  "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
-  "clvPct": -1.82,
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": -2.21,
   "closed": false
  },
  {
@@ -53758,7 +53758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T16:05:16+00:00",
   "clvPct": 12.32,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e53746f0d6118f523272cb956b7d0133|h2h|Illinois Fighting Illini|None",
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 32.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 23.5,
   "closed": false
  },
@@ -55683,7 +55683,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T16:05:16+00:00",
   "clvPct": 19.38,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a771a9f91712c2747321ed9cadf62f36|h2h|Bradley Braves|None",
@@ -55704,10 +55704,10 @@
   "price": 380,
   "fairPctAtFlag": 22.3,
   "evPctAtFlag": 7.28,
-  "closeFairPct": 22.1,
+  "closeFairPct": 23.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
-  "clvPct": 6.08,
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": 11.84,
   "closed": false
  },
  {
@@ -55758,7 +55758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T16:05:16+00:00",
   "clvPct": 0.75,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ce18dbed2bcc407de6487a10df8f1771|h2h|Saint Peter's Peacocks|None",
@@ -55779,10 +55779,10 @@
   "price": 205,
   "fairPctAtFlag": 34.3,
   "evPctAtFlag": 4.53,
-  "closeFairPct": 35.3,
+  "closeFairPct": 36.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
-  "clvPct": 7.66,
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": 10.11,
   "closed": false
  },
  {
@@ -55806,7 +55806,7 @@
   "evPctAtFlag": 7.21,
   "closeFairPct": 10.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 13.3,
   "closed": false
  },
@@ -55829,10 +55829,10 @@
   "price": 190,
   "fairPctAtFlag": 35.9,
   "evPctAtFlag": 4.18,
-  "closeFairPct": 35.2,
+  "closeFairPct": 36.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
-  "clvPct": 2.08,
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": 6.14,
   "closed": false
  },
  {
@@ -55856,7 +55856,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 32.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -55879,10 +55879,35 @@
   "price": -152,
   "fairPctAtFlag": 63.4,
   "evPctAtFlag": 5.13,
-  "closeFairPct": 63.4,
+  "closeFairPct": 58.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T16:05:16+00:00",
-  "clvPct": 5.11,
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": -2.68,
+  "closed": false
+ },
+ {
+  "key": "e7d59ea4f2c81294a88a46cc63628713|h2h|Stonehill Skyhawks|None",
+  "eventId": "e7d59ea4f2c81294a88a46cc63628713",
+  "sport": "NCAAB",
+  "game": "Northeastern Huskies at Stonehill Skyhawks",
+  "time": "2026-11-21T22:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Stonehill Skyhawks",
+  "line": null,
+  "team": "Stonehill Skyhawks",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-21T18:35:08+00:00",
+  "price": 370,
+  "fairPctAtFlag": 22.3,
+  "evPctAtFlag": 5.0,
+  "closeFairPct": 22.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "clvPct": 4.81,
   "closed": false
  }
 ]
