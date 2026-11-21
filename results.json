@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.09251486784140969,
-   "clv_beat_rate": 0.2433920704845815,
-   "clv_n": 1816,
-   "graded": 2150,
+   "avg_clv": 0.09217857142857142,
+   "clv_beat_rate": 0.24285714285714285,
+   "clv_n": 1820,
+   "graded": 2162,
    "record": {
-    "l": 1072,
+    "l": 1076,
     "p": 1,
     "void": 59,
-    "w": 1077
+    "w": 1085
    },
-   "win_rate": 0.5011633317822243
+   "win_rate": 0.5020823692734845
   }
  },
  "by_sport": {
@@ -45,27 +45,27 @@
    "avg_clv": 0.17553808353808353,
    "clv_beat_rate": 0.15724815724815724,
    "clv_n": 407,
-   "graded": 522,
+   "graded": 528,
    "record": {
-    "l": 259,
+    "l": 263,
     "p": 0,
     "void": 20,
-    "w": 263
+    "w": 265
    },
-   "win_rate": 0.5038314176245211
+   "win_rate": 0.5018939393939394
   },
   "NBA Sides": {
    "avg_clv": 0.09582857142857143,
    "clv_beat_rate": 0.12142857142857143,
    "clv_n": 140,
-   "graded": 175,
+   "graded": 177,
    "record": {
     "l": 98,
     "p": 0,
     "void": 0,
-    "w": 77
+    "w": 79
    },
-   "win_rate": 0.44
+   "win_rate": 0.4463276836158192
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.07649999999999998,
@@ -107,17 +107,17 @@
    "win_rate": 0.4675324675324675
   },
   "NCAAF Sides": {
-   "avg_clv": 0.09615263908701853,
-   "clv_beat_rate": 0.39514978601997147,
-   "clv_n": 701,
-   "graded": 745,
+   "avg_clv": 0.09526382978723405,
+   "clv_beat_rate": 0.39290780141843973,
+   "clv_n": 705,
+   "graded": 749,
    "record": {
     "l": 357,
     "p": 0,
     "void": 0,
-    "w": 388
+    "w": 392
    },
-   "win_rate": 0.5208053691275167
+   "win_rate": 0.5233644859813084
   },
   "NFL Cosmic": {
    "avg_clv": -0.3165084745762712,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: added 2 box scores, 12764 player-games cached",
+  "NBA player logs: added 3 box scores, 12823 player-games cached",
   "NFL player logs: cache already current (6764 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-21T03:26:01+00:00",
+ "generated_at": "2026-11-21T15:41:33+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
@@ -4381,7 +4381,7 @@
    "avg_clv": 0.1403205574912892,
    "clv_beat_rate": 0.1207897793263647,
    "clv_n": 861,
-   "graded": 1092,
+   "graded": 1098,
    "label": "Player props",
    "picks": [
     {
@@ -25191,22 +25191,130 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.668,
+     "ev": 0.30474,
+     "final": "6",
+     "game": "Houston Rockets @ Denver Nuggets",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Cameron Johnson Under 3.5 assists",
+     "player": "Cameron Johnson",
+     "price": -182,
+     "proj": 2.024,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.354,
+     "ev": 0.34016,
+     "final": "19",
+     "game": "Sacramento Kings @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Domantas Sabonis Under 16.5 points",
+     "player": "Domantas Sabonis",
+     "price": -132,
+     "proj": 12.365,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.92,
+     "ev": 0.37112,
+     "final": "4",
+     "game": "Houston Rockets @ Denver Nuggets",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Kevin Durant Over 3.5 assists",
+     "player": "Kevin Durant",
+     "price": -104,
+     "proj": 4.756,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.876,
+     "ev": 0.26191,
+     "final": "4",
+     "game": "Phoenix Suns @ Utah Jazz",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Jordan Goodwin Under 4.5 assists",
+     "player": "Jordan Goodwin",
+     "price": -215,
+     "proj": 2.391,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.255,
+     "ev": 0.32391,
+     "final": "16",
+     "game": "Sacramento Kings @ Los Angeles Lakers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Domantas Sabonis Under 12.5 rebounds",
+     "player": "Domantas Sabonis",
+     "price": -114,
+     "proj": 10.399,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.101,
+     "ev": 0.29047,
+     "final": "7",
+     "game": "Phoenix Suns @ Utah Jazz",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Ace Bailey Under 6.5 rebounds",
+     "player": "Ace Bailey",
+     "price": 106,
+     "proj": 5.863,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 548,
+    "l": 552,
     "p": 0,
     "void": 64,
-    "w": 544
+    "w": 546
    },
    "threshold": 7.0,
-   "win_rate": 0.4981684981684982
+   "win_rate": 0.4972677595628415
   },
   "Sides": {
-   "avg_clv": 0.04225779036827195,
-   "clv_beat_rate": 0.34466477809254015,
-   "clv_n": 1059,
-   "graded": 1180,
+   "avg_clv": 0.04187111947318909,
+   "clv_beat_rate": 0.3433678269049859,
+   "clv_n": 1063,
+   "graded": 1186,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -46090,6 +46198,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 10.151,
+     "ev": 0.19379,
+     "final": "0-19",
+     "game": "Bowling Green Falcons @ Toledo Rockets",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Toledo Rockets -15.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 100,
+     "clv": 0.0,
+     "edge": 9.048,
+     "ev": 0.18097,
+     "final": "45-7",
+     "game": "Oregon Ducks @ Michigan State Spartans",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Oregon Ducks -14.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -350,
      "clv": 0.0,
      "edge": 6.125,
@@ -46213,6 +46357,24 @@
      "proj": null,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 480,
+     "clv": -0.242,
+     "edge": 5.454,
+     "ev": 0.31089,
+     "final": "20-10",
+     "game": "Clemson Tigers @ Duke Blue Devils",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Clemson Tigers ML",
+     "player": null,
+     "price": 470,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
      "week": "Week of Nov 16"
     },
     {
@@ -46414,6 +46576,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -115,
+     "clv": 0.0,
+     "edge": 8.363,
+     "ev": 0.15635,
+     "final": "3-52",
+     "game": "UTEP Miners @ Air Force Falcons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Air Force Falcons -21.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -114,
      "clv": 0.0,
      "edge": 8.659,
@@ -46448,22 +46628,58 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 6.247,
+     "ev": 0.10708,
+     "final": "111-101",
+     "game": "Phoenix Suns @ Utah Jazz",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Utah Jazz +12.5",
+     "player": null,
+     "price": -140,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 9.057,
+     "ev": 0.18115,
+     "final": "124-133",
+     "game": "Houston Rockets @ Denver Nuggets",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Denver Nuggets +2.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
     "l": 583,
     "p": 1,
     "void": 0,
-    "w": 596
+    "w": 602
    },
    "threshold": 5.0,
-   "win_rate": 0.5055131467345207
+   "win_rate": 0.5080168776371308
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 101,
-  "Props": 195,
-  "Sides": 191
+  "Props": 189,
+  "Sides": 185
  }
 }
