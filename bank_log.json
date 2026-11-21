@@ -52808,7 +52808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T19:45:16+00:00",
   "clvPct": 5.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a1a6c2630e51e32d24695f02c0b3f23|h2h|Troy Trojans|None",
@@ -52829,10 +52829,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 25.3,
+  "closeFairPct": 26.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
-  "clvPct": 1.2,
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
+  "clvPct": 6.8,
   "closed": false
  },
  {
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 9.98,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 8.15,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 35.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": -1.28,
   "closed": false
  },
@@ -53708,7 +53708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T19:45:16+00:00",
   "clvPct": -2.21,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0cd770ea3dc3281082424e2a0e950f0b|h2h|Cal Baptist Lancers|None",
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 32.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 23.5,
   "closed": false
  },
@@ -55706,7 +55706,7 @@
   "evPctAtFlag": 7.28,
   "closeFairPct": 23.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 11.36,
   "closed": false
  },
@@ -55829,10 +55829,10 @@
   "price": 190,
   "fairPctAtFlag": 35.9,
   "evPctAtFlag": 4.18,
-  "closeFairPct": 36.0,
+  "closeFairPct": 36.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
-  "clvPct": 4.4,
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
+  "clvPct": 4.98,
   "closed": false
  },
  {
@@ -55856,7 +55856,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 32.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -55879,10 +55879,10 @@
   "price": -152,
   "fairPctAtFlag": 63.4,
   "evPctAtFlag": 5.13,
-  "closeFairPct": 58.7,
+  "closeFairPct": 58.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
-  "clvPct": -2.68,
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
+  "clvPct": -3.84,
   "closed": false
  },
  {
@@ -55904,10 +55904,35 @@
   "price": 370,
   "fairPctAtFlag": 22.3,
   "evPctAtFlag": 5.0,
-  "closeFairPct": 22.3,
+  "closeFairPct": 22.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T19:45:16+00:00",
-  "clvPct": 4.81,
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
+  "clvPct": 5.28,
+  "closed": false
+ },
+ {
+  "key": "0cdac6d2b6c2cbfb0f734a8cdfbe086e|h2h|LSU Tigers|None",
+  "eventId": "0cdac6d2b6c2cbfb0f734a8cdfbe086e",
+  "sport": "NCAAF",
+  "game": "LSU Tigers at Tennessee Volunteers",
+  "time": "2026-11-21T20:45:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "LSU Tigers",
+  "line": null,
+  "team": "LSU Tigers",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-21T20:35:09+00:00",
+  "price": -103,
+  "fairPctAtFlag": 53.1,
+  "evPctAtFlag": 4.57,
+  "closeFairPct": 53.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-21T20:35:09+00:00",
+  "clvPct": 4.65,
   "closed": false
  }
 ]
