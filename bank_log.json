@@ -52804,10 +52804,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.94,
-  "closeFairPct": 9.5,
+  "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
-  "clvPct": 4.5,
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
+  "clvPct": 5.6,
   "closed": false
  },
  {
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
   "clvPct": 1.6,
   "closed": false
  },
@@ -52854,10 +52854,10 @@
   "price": 370,
   "fairPctAtFlag": 23.4,
   "evPctAtFlag": 9.81,
-  "closeFairPct": 23.3,
+  "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
-  "clvPct": 9.51,
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
+  "clvPct": 9.98,
   "closed": false
  },
  {
@@ -52954,10 +52954,10 @@
   "price": 950,
   "fairPctAtFlag": 10.2,
   "evPctAtFlag": 6.65,
-  "closeFairPct": 10.0,
+  "closeFairPct": 10.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
-  "clvPct": 5.0,
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
+  "clvPct": 8.15,
   "closed": false
  },
  {
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53483,7 +53483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": -8.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6d977752327ee29e19d3e1856683efee|h2h|Southern Mississippi Golden Eagles|None",
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 35.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
   "clvPct": -2.38,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 27.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
   "clvPct": 6.26,
   "closed": false
  },
@@ -53756,7 +53756,7 @@
   "evPctAtFlag": 4.9,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
   "clvPct": 8.81,
   "closed": false
  },
@@ -54029,10 +54029,10 @@
   "price": 455,
   "fairPctAtFlag": 18.8,
   "evPctAtFlag": 4.45,
-  "closeFairPct": 18.7,
+  "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
-  "clvPct": 3.78,
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
+  "clvPct": 1.56,
   "closed": false
  },
  {
@@ -54954,10 +54954,10 @@
   "price": 280,
   "fairPctAtFlag": 27.7,
   "evPctAtFlag": 5.24,
-  "closeFairPct": 30.4,
+  "closeFairPct": 32.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
-  "clvPct": 15.52,
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
+  "clvPct": 23.5,
   "closed": false
  },
  {
@@ -55208,7 +55208,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 4.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "60dd6652c2f1e4af18cc3ce565e8dd1d|h2h|Holy Cross Crusaders|None",
@@ -55383,7 +55383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 3.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "10e9b9aca502ce158d6a3a91bf00bfd2|player_points|Jarrett Allen|14.5|Jarrett Allen Over 14.5|None",
@@ -55508,7 +55508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 4.55,
-  "closed": false
+  "closed": true
  },
  {
   "key": "10e9b9aca502ce158d6a3a91bf00bfd2|player_points|Tyrese Proctor|10.5|Tyrese Proctor Over 10.5|None",
@@ -55608,7 +55608,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 7.16,
-  "closed": false
+  "closed": true
  },
  {
   "key": "55c3096b11f501ffb6d8bccbb2cd319d|player_threes|Luka Doncic|4.5|Luka Doncic Over 4.5|None",
@@ -55633,7 +55633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 5.84,
-  "closed": false
+  "closed": true
  },
  {
   "key": "086d2fe80483ffcc280994fe2e12d4f4|h2h|Houston Rockets|None",
@@ -55658,7 +55658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T01:42:53+00:00",
   "clvPct": 5.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6cd4587453e4da55317b2c1e3576e75b|h2h|Milwaukee Bucks|None",
@@ -55681,8 +55681,33 @@
   "evPctAtFlag": 4.64,
   "closeFairPct": 16.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T01:42:53+00:00",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
   "clvPct": 4.37,
+  "closed": false
+ },
+ {
+  "key": "a771a9f91712c2747321ed9cadf62f36|h2h|Bradley Braves|None",
+  "eventId": "a771a9f91712c2747321ed9cadf62f36",
+  "sport": "NCAAB",
+  "game": "Bradley Braves at Pacific Tigers",
+  "time": "2026-11-22T03:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Bradley Braves",
+  "line": null,
+  "team": "Bradley Braves",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-21T03:26:16+00:00",
+  "price": 380,
+  "fairPctAtFlag": 22.3,
+  "evPctAtFlag": 7.28,
+  "closeFairPct": 22.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-21T03:26:16+00:00",
+  "clvPct": 7.04,
   "closed": false
  }
 ]
