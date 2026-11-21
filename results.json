@@ -14,32 +14,32 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.09217857142857142,
-   "clv_beat_rate": 0.24285714285714285,
-   "clv_n": 1820,
-   "graded": 2162,
+   "avg_clv": 0.0950519978106185,
+   "clv_beat_rate": 0.2441160372194855,
+   "clv_n": 1827,
+   "graded": 2169,
    "record": {
-    "l": 1076,
+    "l": 1077,
     "p": 1,
     "void": 59,
-    "w": 1085
+    "w": 1091
    },
-   "win_rate": 0.5020823692734845
+   "win_rate": 0.5032287822878229
   }
  },
  "by_sport": {
   "NBA Cosmic": {
-   "avg_clv": 0.16381632653061223,
-   "clv_beat_rate": 0.1836734693877551,
-   "clv_n": 49,
-   "graded": 72,
+   "avg_clv": 0.15739215686274508,
+   "clv_beat_rate": 0.17647058823529413,
+   "clv_n": 51,
+   "graded": 74,
    "record": {
-    "l": 34,
+    "l": 35,
     "p": 0,
     "void": 0,
-    "w": 38
+    "w": 39
    },
-   "win_rate": 0.5277777777777778
+   "win_rate": 0.527027027027027
   },
   "NBA Props": {
    "avg_clv": 0.17553808353808353,
@@ -94,30 +94,30 @@
    "win_rate": 0.5
   },
   "NCAAF Cosmic": {
-   "avg_clv": -0.25044285714285713,
-   "clv_beat_rate": 0.3142857142857143,
-   "clv_n": 70,
-   "graded": 77,
+   "avg_clv": -0.1945128205128205,
+   "clv_beat_rate": 0.32051282051282054,
+   "clv_n": 78,
+   "graded": 85,
    "record": {
-    "l": 41,
+    "l": 43,
     "p": 0,
     "void": 0,
-    "w": 36
+    "w": 42
    },
-   "win_rate": 0.4675324675324675
+   "win_rate": 0.49411764705882355
   },
   "NCAAF Sides": {
-   "avg_clv": 0.09526382978723405,
-   "clv_beat_rate": 0.39290780141843973,
-   "clv_n": 705,
-   "graded": 749,
+   "avg_clv": 0.1026067415730337,
+   "clv_beat_rate": 0.3946629213483146,
+   "clv_n": 712,
+   "graded": 756,
    "record": {
-    "l": 357,
+    "l": 358,
     "p": 0,
     "void": 0,
-    "w": 392
+    "w": 398
    },
-   "win_rate": 0.5233644859813084
+   "win_rate": 0.5264550264550265
   },
   "NFL Cosmic": {
    "avg_clv": -0.3165084745762712,
@@ -160,17 +160,17 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: added 3 box scores, 12823 player-games cached",
+  "NBA player logs: cache already current (12823 player-games, looked back 21 days)",
   "NFL player logs: cache already current (6764 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-21T15:41:33+00:00",
+ "generated_at": "2026-11-21T20:46:17+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.14581382978723403,
-   "clv_beat_rate": 0.2712765957446808,
-   "clv_n": 188,
-   "graded": 233,
+   "avg_clv": -0.12653535353535353,
+   "clv_beat_rate": 0.2727272727272727,
+   "clv_n": 198,
+   "graded": 243,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -4170,6 +4170,132 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 125,
+     "clv": 4.102,
+     "edge": 18.9,
+     "ev": 0.47249,
+     "final": "15-27",
+     "game": "Syracuse Orange @ Boston College Eagles",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Boston College Eagles ML",
+     "player": null,
+     "price": 150,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -104,
+     "clv": -0.217,
+     "edge": 17.47,
+     "ev": 0.34109,
+     "final": "15-27",
+     "game": "Syracuse Orange @ Boston College Eagles",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Boston College Eagles +3.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 9.448,
+     "ev": 0.18445,
+     "final": "50-29",
+     "game": "Wake Forest Demon Deacons @ Georgia Tech Yellow Jackets",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Georgia Tech Yellow Jackets +20.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 180,
+     "clv": -3.178,
+     "edge": 1.82,
+     "ev": 0.04642,
+     "final": "10-6",
+     "game": "East Carolina Pirates @ Army Black Knights",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "East Carolina Pirates ML",
+     "player": null,
+     "price": 155,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -105,
+     "clv": -1.083,
+     "edge": 2.014,
+     "ev": 0.03845,
+     "final": "10-6",
+     "game": "East Carolina Pirates @ Army Black Knights",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "East Carolina Pirates +4.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 116,
+     "clv": 3.205,
+     "edge": 11.802,
+     "ev": 0.2738,
+     "final": "34-38",
+     "game": "Memphis Tigers @ Navy Midshipmen",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Navy Midshipmen ML",
+     "player": null,
+     "price": 132,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -110,
+     "clv": -2.174,
+     "edge": 10.457,
+     "ev": 0.19171,
+     "final": "34-38",
+     "game": "Memphis Tigers @ Navy Midshipmen",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Navy Midshipmen +3.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": 285,
      "clv": 0.347,
      "edge": 3.328,
@@ -4203,6 +4329,24 @@
      "proj": null,
      "result": "W",
      "sport": "NCAAB",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 375,
+     "clv": 1.704,
+     "edge": 19.984,
+     "ev": 1.03916,
+     "final": "27-34",
+     "game": "Vanderbilt Commodores @ Florida Gators",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Vanderbilt Commodores ML",
+     "player": null,
+     "price": 420,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
      "week": "Week of Nov 16"
     },
     {
@@ -4366,16 +4510,52 @@
      "result": "L",
      "sport": "NCAAB",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 480,
+     "clv": 0.0,
+     "edge": 9.366,
+     "ev": 0.54322,
+     "final": "129-132",
+     "game": "Milwaukee Bucks @ Philadelphia 76ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Milwaukee Bucks ML",
+     "player": null,
+     "price": 480,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 6.628,
+     "ev": 0.12442,
+     "final": "129-132",
+     "game": "Milwaukee Bucks @ Philadelphia 76ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Milwaukee Bucks +12.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 16"
     }
    ],
    "record": {
-    "l": 125,
+    "l": 128,
     "p": 1,
     "void": 0,
-    "w": 107
+    "w": 114
    },
    "threshold": null,
-   "win_rate": 0.46120689655172414
+   "win_rate": 0.47107438016528924
   },
   "Props": {
    "avg_clv": 0.1403205574912892,
@@ -25311,10 +25491,10 @@
    "win_rate": 0.4972677595628415
   },
   "Sides": {
-   "avg_clv": 0.04187111947318909,
-   "clv_beat_rate": 0.3433678269049859,
-   "clv_n": 1063,
-   "graded": 1186,
+   "avg_clv": 0.047106542056074764,
+   "clv_beat_rate": 0.3448598130841122,
+   "clv_n": 1070,
+   "graded": 1193,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -46090,6 +46270,42 @@
      "week": "Week of Nov 9"
     },
     {
+     "closing_price": 125,
+     "clv": 4.102,
+     "edge": 18.9,
+     "ev": 0.47249,
+     "final": "15-27",
+     "game": "Syracuse Orange @ Boston College Eagles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Boston College Eagles ML",
+     "player": null,
+     "price": 150,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -104,
+     "clv": -0.217,
+     "edge": 17.47,
+     "ev": 0.34109,
+     "final": "15-27",
+     "game": "Syracuse Orange @ Boston College Eagles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Boston College Eagles +3.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -110,
      "clv": 0.866,
      "edge": 6.689,
@@ -46234,6 +46450,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 116,
+     "clv": 3.205,
+     "edge": 11.802,
+     "ev": 0.2738,
+     "final": "34-38",
+     "game": "Memphis Tigers @ Navy Midshipmen",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Navy Midshipmen ML",
+     "player": null,
+     "price": 132,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -110,
+     "clv": -2.174,
+     "edge": 10.457,
+     "ev": 0.19171,
+     "final": "34-38",
+     "game": "Memphis Tigers @ Navy Midshipmen",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Navy Midshipmen +3.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -350,
      "clv": 0.0,
      "edge": 6.125,
@@ -46324,6 +46576,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 375,
+     "clv": 1.704,
+     "edge": 19.984,
+     "ev": 1.03916,
+     "final": "27-34",
+     "game": "Vanderbilt Commodores @ Florida Gators",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Vanderbilt Commodores ML",
+     "player": null,
+     "price": 420,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
      "closing_price": -108,
      "clv": 0.0,
      "edge": 8.983,
@@ -46372,6 +46642,42 @@
      "pick": "Clemson Tigers ML",
      "player": null,
      "price": 470,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 195,
+     "clv": 0.137,
+     "edge": 6.235,
+     "ev": 0.18395,
+     "final": "10-6",
+     "game": "East Carolina Pirates @ Army Black Knights",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "East Carolina Pirates ML",
+     "player": null,
+     "price": 195,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 104,
+     "clv": -0.862,
+     "edge": 6.502,
+     "ev": 0.13004,
+     "final": "10-6",
+     "game": "East Carolina Pirates @ Army Black Knights",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "East Carolina Pirates +5.5",
+     "player": null,
+     "price": 100,
      "proj": null,
      "result": "W",
      "sport": "NCAAF",
@@ -46667,19 +46973,19 @@
     }
    ],
    "record": {
-    "l": 583,
+    "l": 584,
     "p": 1,
     "void": 0,
-    "w": 602
+    "w": 608
    },
    "threshold": 5.0,
-   "win_rate": 0.5080168776371308
+   "win_rate": 0.5100671140939598
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 101,
-  "Props": 189,
-  "Sides": 185
+  "Cosmic": 104,
+  "Props": 196,
+  "Sides": 192
  }
 }
