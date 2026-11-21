@@ -52806,7 +52806,7 @@
   "evPctAtFlag": 8.94,
   "closeFairPct": 9.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 5.6,
   "closed": false
  },
@@ -52831,7 +52831,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 25.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 1.2,
   "closed": false
  },
@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 23.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 9.98,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 8.15,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -53506,7 +53506,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 35.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": -3.2,
   "closed": false
  },
@@ -53706,7 +53706,7 @@
   "evPctAtFlag": 5.71,
   "closeFairPct": 25.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": -2.21,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 32.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 23.5,
   "closed": false
  },
@@ -55704,10 +55704,10 @@
   "price": 380,
   "fairPctAtFlag": 22.3,
   "evPctAtFlag": 7.28,
-  "closeFairPct": 23.3,
+  "closeFairPct": 23.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
-  "clvPct": 11.84,
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
+  "clvPct": 11.36,
   "closed": false
  },
  {
@@ -55783,7 +55783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 10.11,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2da6119e4539c4666b49cb8015a6c289|h2h|Western Carolina Catamounts|None",
@@ -55808,7 +55808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T18:35:08+00:00",
   "clvPct": 13.3,
-  "closed": false
+  "closed": true
  },
  {
   "key": "089763b58d06f84ae9546c2037e7d941|h2h|San Diego Toreros|None",
@@ -55829,10 +55829,10 @@
   "price": 190,
   "fairPctAtFlag": 35.9,
   "evPctAtFlag": 4.18,
-  "closeFairPct": 36.6,
+  "closeFairPct": 36.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
-  "clvPct": 6.14,
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
+  "clvPct": 5.27,
   "closed": false
  },
  {
@@ -55856,7 +55856,7 @@
   "evPctAtFlag": 4.02,
   "closeFairPct": 32.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 4.0,
   "closed": false
  },
@@ -55881,7 +55881,7 @@
   "evPctAtFlag": 5.13,
   "closeFairPct": 58.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": -2.68,
   "closed": false
  },
@@ -55906,7 +55906,7 @@
   "evPctAtFlag": 5.0,
   "closeFairPct": 22.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T18:35:08+00:00",
+  "closeSeenAt": "2026-11-21T19:20:10+00:00",
   "clvPct": 4.81,
   "closed": false
  }
