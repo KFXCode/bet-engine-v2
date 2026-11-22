@@ -54033,7 +54033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T20:35:10+00:00",
   "clvPct": -13.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "bed6147c75f3706f25e25f5bdfeaf1ec|player_threes|Ziaire Williams|1.5|Ziaire Williams Over 1.5|None",
@@ -56131,7 +56131,7 @@
   "evPctAtFlag": 7.93,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T20:35:10+00:00",
+  "closeSeenAt": "2026-11-22T21:41:29+00:00",
   "clvPct": 24.15,
   "closed": false
  },
@@ -56233,7 +56233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T20:35:10+00:00",
   "clvPct": 5.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "05c828d73504c939e026a844ffcabd3c|spreads|Liberty Flames:1.5/Richmond Spiders:-1.5|Richmond Spiders|-1.5",
@@ -56258,6 +56258,6 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-22T20:35:10+00:00",
   "clvPct": 4.58,
-  "closed": false
+  "closed": true
  }
 ]
