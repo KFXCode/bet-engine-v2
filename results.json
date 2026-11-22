@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6764 player-games, looked back 21 days)",
-  "NBA player logs: cache already current (12949 player-games, looked back 21 days)"
+  "NBA player logs: cache already current (12949 player-games, looked back 21 days)",
+  "NFL player logs: cache already current (6764 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-22T10:14:53+00:00",
+ "generated_at": "2026-11-22T15:43:51+00:00",
  "graded_through": "Week of Nov 16",
  "groups": {
   "Cosmic": {
