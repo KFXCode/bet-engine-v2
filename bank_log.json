@@ -56131,7 +56131,7 @@
   "evPctAtFlag": 7.93,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T22:40:14+00:00",
+  "closeSeenAt": "2026-11-22T22:50:10+00:00",
   "clvPct": 24.15,
   "closed": false
  },
@@ -56281,8 +56281,33 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T22:40:14+00:00",
+  "closeSeenAt": "2026-11-22T22:50:10+00:00",
   "clvPct": 4.34,
+  "closed": false
+ },
+ {
+  "key": "90da1cde4144fac00d41f2c0db2cc921|player_threes|Jared McCain|3.5|Jared McCain Over 3.5|None",
+  "eventId": "90da1cde4144fac00d41f2c0db2cc921",
+  "sport": "NBA",
+  "game": "Oklahoma City Thunder at Miami Heat",
+  "time": "2026-11-22T23:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Jared McCain",
+  "name": "Over",
+  "line": 3.5,
+  "team": "Jared McCain Over 3.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-22T22:50:10+00:00",
+  "price": 130,
+  "fairPctAtFlag": 45.3,
+  "evPctAtFlag": 4.3,
+  "closeFairPct": 45.3,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-22T22:50:10+00:00",
+  "clvPct": 4.19,
   "closed": false
  }
 ]
