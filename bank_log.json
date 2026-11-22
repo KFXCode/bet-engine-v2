@@ -56133,7 +56133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T22:50:10+00:00",
   "clvPct": 24.15,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4527f57f5bc32742d8194af1ccf7da7e|player_receptions|Tommy Tremble|2.5|Tommy Tremble Under 2.5|None",
@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T22:50:10+00:00",
+  "closeSeenAt": "2026-11-22T23:10:13+00:00",
   "clvPct": 4.34,
   "closed": false
  },
@@ -56308,6 +56308,6 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T22:50:10+00:00",
   "clvPct": 4.19,
-  "closed": false
+  "closed": true
  }
 ]
