@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 14.21,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 9.2,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 33.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 25.78,
   "closed": false
  },
@@ -55706,7 +55706,7 @@
   "evPctAtFlag": 7.28,
   "closeFairPct": 23.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 11.36,
   "closed": false
  },
@@ -55883,7 +55883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": -20.75,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e7d59ea4f2c81294a88a46cc63628713|h2h|Stonehill Skyhawks|None",
@@ -55958,7 +55958,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 5.31,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1139ffb82856378723c5465df4e13d96|player_assists|Devin Vassell|2.5|Devin Vassell Over 2.5|None",
@@ -55983,7 +55983,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 7.47,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1139ffb82856378723c5465df4e13d96|player_points|Stephon Castle|17.5|Stephon Castle Under 17.5|None",
@@ -56008,7 +56008,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 4.06,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b754a1bf84af81d45d4a3a16398daa44|h2h|Sacramento Kings|None",
@@ -56029,10 +56029,35 @@
   "price": 520,
   "fairPctAtFlag": 17.1,
   "evPctAtFlag": 6.29,
-  "closeFairPct": 17.1,
+  "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T00:35:09+00:00",
-  "clvPct": 6.02,
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "clvPct": 4.78,
+  "closed": false
+ },
+ {
+  "key": "b754a1bf84af81d45d4a3a16398daa44|player_threes|Sam Hauser|2.5|Sam Hauser Under 2.5|None",
+  "eventId": "b754a1bf84af81d45d4a3a16398daa44",
+  "sport": "NBA",
+  "game": "Boston Celtics at Sacramento Kings",
+  "time": "2026-11-22T03:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Sam Hauser",
+  "name": "Under",
+  "line": 2.5,
+  "team": "Sam Hauser Under 2.5",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-22T02:40:35+00:00",
+  "price": 124,
+  "fairPctAtFlag": 47.6,
+  "evPctAtFlag": 6.61,
+  "closeFairPct": 47.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "clvPct": 6.62,
   "closed": false
  }
 ]
