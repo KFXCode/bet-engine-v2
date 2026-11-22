@@ -52858,7 +52858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 17.97,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a77c2fc5d2de369bc3134d3721347a6c|h2h|Richmond Spiders|None",
@@ -52958,7 +52958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 12.35,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4c5b1c0843a260278e95eb93e7787576|h2h|Miami Dolphins|None",
@@ -52983,7 +52983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 6.92,
-  "closed": false
+  "closed": true
  },
  {
   "key": "60166d19a0d1043c0eb0495e3b04bdf1|h2h|East Texas A&M Lions|None",
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T17:30:16+00:00",
+  "closeSeenAt": "2026-11-22T18:35:13+00:00",
   "clvPct": -9.53,
   "closed": false
  },
@@ -54958,7 +54958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 33.76,
-  "closed": false
+  "closed": true
  },
  {
   "key": "daeb1516248941803c043ccbd01dd18c|h2h|Northeastern Huskies|None",
@@ -56131,7 +56131,7 @@
   "evPctAtFlag": 7.93,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T17:30:16+00:00",
+  "closeSeenAt": "2026-11-22T18:35:13+00:00",
   "clvPct": 24.15,
   "closed": false
  },
@@ -56158,7 +56158,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 4.81,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3ea90704fb576633bd1e2fa5aafd9ea3|player_reception_yds|Alvin Kamara|13.5|Alvin Kamara Under 13.5|None",
@@ -56183,7 +56183,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 4.58,
-  "closed": false
+  "closed": true
  },
  {
   "key": "cbe45bafcc2615fc1d96cbc12840377a|player_receptions|DK Metcalf|3.5|DK Metcalf Under 3.5|None",
@@ -56208,6 +56208,6 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 5.0,
-  "closed": false
+  "closed": true
  }
 ]
