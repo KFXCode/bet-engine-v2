@@ -56131,7 +56131,7 @@
   "evPctAtFlag": 7.93,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T21:41:29+00:00",
+  "closeSeenAt": "2026-11-22T22:40:14+00:00",
   "clvPct": 24.15,
   "closed": false
  },
@@ -56259,5 +56259,30 @@
   "closeSeenAt": "2026-11-22T20:35:10+00:00",
   "clvPct": 4.58,
   "closed": true
+ },
+ {
+  "key": "ffaa06af56a7137d4b078c5c46c0b730|h2h|Philadelphia Eagles|None",
+  "eventId": "ffaa06af56a7137d4b078c5c46c0b730",
+  "sport": "NFL",
+  "game": "Philadelphia Eagles at Dallas Cowboys",
+  "time": "2026-11-26T21:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Philadelphia Eagles",
+  "line": null,
+  "team": "Philadelphia Eagles",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-22T22:40:14+00:00",
+  "price": 370,
+  "fairPctAtFlag": 22.2,
+  "evPctAtFlag": 4.43,
+  "closeFairPct": 22.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-22T22:40:14+00:00",
+  "clvPct": 4.34,
+  "closed": false
  }
 ]
