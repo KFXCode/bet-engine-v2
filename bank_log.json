@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "closeSeenAt": "2026-11-22T03:30:26+00:00",
   "clvPct": 14.21,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "closeSeenAt": "2026-11-22T03:30:26+00:00",
   "clvPct": 9.2,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "closeSeenAt": "2026-11-22T03:30:26+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "closeSeenAt": "2026-11-22T03:30:26+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 33.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T02:40:35+00:00",
+  "closeSeenAt": "2026-11-22T03:30:26+00:00",
   "clvPct": 25.78,
   "closed": false
  },
@@ -55708,7 +55708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 11.36,
-  "closed": false
+  "closed": true
  },
  {
   "key": "934d69fc4e080af297a4f91987ad87f0|h2h|Bucknell Bison|None",
@@ -56033,7 +56033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 4.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b754a1bf84af81d45d4a3a16398daa44|player_threes|Sam Hauser|2.5|Sam Hauser Under 2.5|None",
@@ -56058,6 +56058,31 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T02:40:35+00:00",
   "clvPct": 6.62,
+  "closed": true
+ },
+ {
+  "key": "ecfec2fe1db57f88e603f9947add1e26|h2h|Oklahoma State Cowboys|None",
+  "eventId": "ecfec2fe1db57f88e603f9947add1e26",
+  "sport": "NCAAF",
+  "game": "Oklahoma State Cowboys at Arizona State Sun Devils",
+  "time": "2026-11-22T03:31:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Oklahoma State Cowboys",
+  "line": null,
+  "team": "Oklahoma State Cowboys",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-22T03:30:26+00:00",
+  "price": -132,
+  "fairPctAtFlag": 60.8,
+  "evPctAtFlag": 6.94,
+  "closeFairPct": 60.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-22T03:30:26+00:00",
+  "clvPct": 6.86,
   "closed": false
  }
 ]
