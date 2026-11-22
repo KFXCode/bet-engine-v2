@@ -52856,7 +52856,7 @@
   "evPctAtFlag": 9.81,
   "closeFairPct": 24.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 14.21,
   "closed": false
  },
@@ -52956,7 +52956,7 @@
   "evPctAtFlag": 6.65,
   "closeFairPct": 10.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 9.2,
   "closed": false
  },
@@ -52981,7 +52981,7 @@
   "evPctAtFlag": 5.72,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 6.92,
   "closed": false
  },
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 1.56,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 33.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 25.78,
   "closed": false
  },
@@ -55706,7 +55706,7 @@
   "evPctAtFlag": 7.28,
   "closeFairPct": 23.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 11.36,
   "closed": false
  },
@@ -55858,7 +55858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-21T23:45:09+00:00",
   "clvPct": 8.22,
-  "closed": false
+  "closed": true
  },
  {
   "key": "232f705eea406644ff14ad17bcf9aea6|h2h|New York Knicks|None",
@@ -55879,10 +55879,10 @@
   "price": -152,
   "fairPctAtFlag": 63.4,
   "evPctAtFlag": 5.13,
-  "closeFairPct": 49.2,
+  "closeFairPct": 47.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
-  "clvPct": -18.43,
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "clvPct": -20.75,
   "closed": false
  },
  {
@@ -55956,7 +55956,7 @@
   "evPctAtFlag": 8.95,
   "closeFairPct": 41.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 5.31,
   "closed": false
  },
@@ -55981,7 +55981,7 @@
   "evPctAtFlag": 7.42,
   "closeFairPct": 55.3,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 7.47,
   "closed": false
  },
@@ -56006,8 +56006,33 @@
   "evPctAtFlag": 4.09,
   "closeFairPct": 52.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-21T23:45:09+00:00",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
   "clvPct": 4.06,
+  "closed": false
+ },
+ {
+  "key": "b754a1bf84af81d45d4a3a16398daa44|h2h|Sacramento Kings|None",
+  "eventId": "b754a1bf84af81d45d4a3a16398daa44",
+  "sport": "NBA",
+  "game": "Boston Celtics at Sacramento Kings",
+  "time": "2026-11-22T03:10:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Sacramento Kings",
+  "line": null,
+  "team": "Sacramento Kings",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-22T00:35:09+00:00",
+  "price": 520,
+  "fairPctAtFlag": 17.1,
+  "evPctAtFlag": 6.29,
+  "closeFairPct": 17.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-22T00:35:09+00:00",
+  "clvPct": 6.02,
   "closed": false
  }
 ]
