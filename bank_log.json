@@ -52854,10 +52854,10 @@
   "price": 370,
   "fairPctAtFlag": 23.4,
   "evPctAtFlag": 9.81,
-  "closeFairPct": 23.2,
+  "closeFairPct": 25.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
-  "clvPct": 9.04,
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
+  "clvPct": 17.97,
   "closed": false
  },
  {
@@ -52954,10 +52954,10 @@
   "price": 950,
   "fairPctAtFlag": 10.2,
   "evPctAtFlag": 6.65,
-  "closeFairPct": 9.1,
+  "closeFairPct": 10.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
-  "clvPct": -4.45,
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
+  "clvPct": 12.35,
   "closed": false
  },
  {
@@ -52979,10 +52979,10 @@
   "price": 980,
   "fairPctAtFlag": 9.8,
   "evPctAtFlag": 5.72,
-  "closeFairPct": 8.3,
+  "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
-  "clvPct": -10.36,
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
+  "clvPct": 6.92,
   "closed": false
  },
  {
@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": -9.53,
   "closed": false
  },
@@ -54956,7 +54956,7 @@
   "evPctAtFlag": 5.24,
   "closeFairPct": 35.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 33.76,
   "closed": false
  },
@@ -56108,7 +56108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-22T16:45:10+00:00",
   "clvPct": 12.48,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c176d337261bbb0fe334d3bf7f270ba6|h2h|Utah Utes|None",
@@ -56129,10 +56129,10 @@
   "price": 550,
   "fairPctAtFlag": 16.6,
   "evPctAtFlag": 7.93,
-  "closeFairPct": 19.3,
+  "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
-  "clvPct": 25.45,
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
+  "clvPct": 24.15,
   "closed": false
  },
  {
@@ -56156,7 +56156,7 @@
   "evPctAtFlag": 4.77,
   "closeFairPct": 57.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 4.81,
   "closed": false
  },
@@ -56181,7 +56181,7 @@
   "evPctAtFlag": 4.62,
   "closeFairPct": 54.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 4.58,
   "closed": false
  },
@@ -56206,7 +56206,7 @@
   "evPctAtFlag": 4.97,
   "closeFairPct": 52.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T16:45:10+00:00",
+  "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 5.0,
   "closed": false
  }
