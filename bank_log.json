@@ -54031,7 +54031,7 @@
   "evPctAtFlag": 4.45,
   "closeFairPct": 16.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T18:35:13+00:00",
+  "closeSeenAt": "2026-11-22T19:52:08+00:00",
   "clvPct": -9.53,
   "closed": false
  },
@@ -56131,7 +56131,7 @@
   "evPctAtFlag": 7.93,
   "closeFairPct": 19.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-22T18:35:13+00:00",
+  "closeSeenAt": "2026-11-22T19:52:08+00:00",
   "clvPct": 24.15,
   "closed": false
  },
@@ -56209,5 +56209,30 @@
   "closeSeenAt": "2026-11-22T17:30:16+00:00",
   "clvPct": 5.0,
   "closed": true
+ },
+ {
+  "key": "222a2887819bb18d9b9572aef63d9b9e|player_points|Dyson Daniels|10.5|Dyson Daniels Over 10.5|None",
+  "eventId": "222a2887819bb18d9b9572aef63d9b9e",
+  "sport": "NBA",
+  "game": "Detroit Pistons at Atlanta Hawks",
+  "time": "2026-11-22T20:40:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Dyson Daniels",
+  "name": "Over",
+  "line": 10.5,
+  "team": "Dyson Daniels Over 10.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-22T19:52:08+00:00",
+  "price": 100,
+  "fairPctAtFlag": 52.6,
+  "evPctAtFlag": 5.22,
+  "closeFairPct": 52.6,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-22T19:52:08+00:00",
+  "clvPct": 5.2,
+  "closed": false
  }
 ]
