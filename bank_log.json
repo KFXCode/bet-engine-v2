@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 7.25,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 6.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 3.5,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 26.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 7.2,
   "closed": false
  },
@@ -56633,7 +56633,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-23T22:50:10+00:00",
   "clvPct": 5.3,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a72a1703f7a92b80768255d1d977a761|h2h|Brooklyn Nets|None",
@@ -56654,10 +56654,10 @@
   "price": 455,
   "fairPctAtFlag": 19.0,
   "evPctAtFlag": 5.27,
-  "closeFairPct": 19.0,
+  "closeFairPct": 20.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 5.45,
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 11.0,
   "closed": false
  },
  {
@@ -56681,7 +56681,7 @@
   "evPctAtFlag": 6.12,
   "closeFairPct": 53.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 6.2,
   "closed": false
  },
@@ -56704,10 +56704,10 @@
   "price": 106,
   "fairPctAtFlag": 51.9,
   "evPctAtFlag": 6.95,
-  "closeFairPct": 51.9,
+  "closeFairPct": 46.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 6.91,
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": -3.59,
   "closed": false
  },
  {
@@ -56729,10 +56729,10 @@
   "price": -105,
   "fairPctAtFlag": 54.6,
   "evPctAtFlag": 6.56,
-  "closeFairPct": 54.6,
-  "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 6.6,
+  "closeFairPct": 50.3,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": -1.8,
   "closed": false
  },
  {
@@ -56756,7 +56756,7 @@
   "evPctAtFlag": 8.39,
   "closeFairPct": 40.9,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 8.38,
   "closed": false
  },
@@ -56779,10 +56779,10 @@
   "price": 190,
   "fairPctAtFlag": 36.3,
   "evPctAtFlag": 5.24,
-  "closeFairPct": 36.3,
+  "closeFairPct": 37.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 5.27,
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 8.75,
   "closed": false
  },
  {
@@ -56804,10 +56804,10 @@
   "price": -110,
   "fairPctAtFlag": 54.7,
   "evPctAtFlag": 4.34,
-  "closeFairPct": 54.7,
+  "closeFairPct": 53.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 4.43,
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 2.52,
   "closed": false
  },
  {
@@ -56829,10 +56829,10 @@
   "price": 195,
   "fairPctAtFlag": 36.4,
   "evPctAtFlag": 7.31,
-  "closeFairPct": 36.4,
+  "closeFairPct": 36.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 7.38,
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 6.5,
   "closed": false
  },
  {
@@ -56856,7 +56856,7 @@
   "evPctAtFlag": 5.1,
   "closeFairPct": 42.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 5.04,
   "closed": false
  },
@@ -56879,10 +56879,60 @@
   "price": 480,
   "fairPctAtFlag": 18.1,
   "evPctAtFlag": 5.09,
-  "closeFairPct": 18.1,
+  "closeFairPct": 18.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T22:50:10+00:00",
-  "clvPct": 4.98,
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 4.4,
+  "closed": false
+ },
+ {
+  "key": "a72a1703f7a92b80768255d1d977a761|player_assists|Danny Wolf|1.5|Danny Wolf Under 1.5|None",
+  "eventId": "a72a1703f7a92b80768255d1d977a761",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Minnesota Timberwolves",
+  "time": "2026-11-24T00:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Danny Wolf",
+  "name": "Under",
+  "line": 1.5,
+  "team": "Danny Wolf Under 1.5",
+  "point": null,
+  "book": "espnbet",
+  "bookName": "ESPN Bet",
+  "flaggedAt": "2026-11-23T23:45:10+00:00",
+  "price": 145,
+  "fairPctAtFlag": 42.6,
+  "evPctAtFlag": 4.4,
+  "closeFairPct": 42.6,
+  "closeSource": "BetOnline",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 4.37,
+  "closed": false
+ },
+ {
+  "key": "a72a1703f7a92b80768255d1d977a761|player_assists|Jaden McDaniels|3.5|Jaden McDaniels Over 3.5|None",
+  "eventId": "a72a1703f7a92b80768255d1d977a761",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Minnesota Timberwolves",
+  "time": "2026-11-24T00:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Jaden McDaniels",
+  "name": "Over",
+  "line": 3.5,
+  "team": "Jaden McDaniels Over 3.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-23T23:45:10+00:00",
+  "price": 125,
+  "fairPctAtFlag": 46.7,
+  "evPctAtFlag": 5.06,
+  "closeFairPct": 46.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "clvPct": 5.08,
   "closed": false
  }
 ]
