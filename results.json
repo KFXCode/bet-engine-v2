@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.10808002092050209,
-   "clv_beat_rate": 0.24476987447698745,
-   "clv_n": 1912,
-   "graded": 2259,
+   "avg_clv": 0.10917404898384575,
+   "clv_beat_rate": 0.24491922876498176,
+   "clv_n": 1919,
+   "graded": 2269,
    "record": {
-    "l": 1122,
+    "l": 1125,
     "p": 1,
     "void": 67,
-    "w": 1136
+    "w": 1143
    },
-   "win_rate": 0.5031000885739593
+   "win_rate": 0.503968253968254
   }
  },
  "by_sport": {
@@ -32,40 +32,40 @@
    "avg_clv": 0.13839655172413792,
    "clv_beat_rate": 0.15517241379310345,
    "clv_n": 58,
-   "graded": 81,
+   "graded": 82,
    "record": {
-    "l": 41,
+    "l": 42,
     "p": 0,
     "void": 0,
     "w": 40
    },
-   "win_rate": 0.49382716049382713
+   "win_rate": 0.4878048780487805
   },
   "NBA Props": {
-   "avg_clv": 0.19973903002309468,
-   "clv_beat_rate": 0.16166281755196305,
-   "clv_n": 433,
-   "graded": 551,
+   "avg_clv": 0.19742528735632184,
+   "clv_beat_rate": 0.16091954022988506,
+   "clv_n": 435,
+   "graded": 555,
    "record": {
-    "l": 272,
+    "l": 274,
     "p": 0,
     "void": 23,
-    "w": 279
+    "w": 281
    },
-   "win_rate": 0.5063520871143375
+   "win_rate": 0.5063063063063064
   },
   "NBA Sides": {
-   "avg_clv": 0.09252413793103449,
-   "clv_beat_rate": 0.11724137931034483,
-   "clv_n": 145,
-   "graded": 182,
+   "avg_clv": 0.09189041095890411,
+   "clv_beat_rate": 0.11643835616438356,
+   "clv_n": 146,
+   "graded": 183,
    "record": {
     "l": 100,
     "p": 0,
     "void": 0,
-    "w": 82
+    "w": 83
    },
-   "win_rate": 0.45054945054945056
+   "win_rate": 0.453551912568306
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.07649999999999998,
@@ -120,30 +120,30 @@
    "win_rate": 0.5288831835686778
   },
   "NFL Cosmic": {
-   "avg_clv": -0.2929538461538462,
-   "clv_beat_rate": 0.3076923076923077,
-   "clv_n": 65,
-   "graded": 78,
+   "avg_clv": -0.2795671641791045,
+   "clv_beat_rate": 0.31343283582089554,
+   "clv_n": 67,
+   "graded": 80,
    "record": {
     "l": 47,
     "p": 1,
     "void": 0,
-    "w": 30
+    "w": 32
    },
-   "win_rate": 0.38961038961038963
+   "win_rate": 0.4050632911392405
   },
   "NFL Props": {
-   "avg_clv": 0.10924116424116423,
-   "clv_beat_rate": 0.09355509355509356,
-   "clv_n": 481,
-   "graded": 600,
+   "avg_clv": 0.11548041237113402,
+   "clv_beat_rate": 0.09690721649484536,
+   "clv_n": 485,
+   "graded": 605,
    "record": {
-    "l": 307,
+    "l": 308,
     "p": 0,
     "void": 49,
-    "w": 293
+    "w": 297
    },
-   "win_rate": 0.48833333333333334
+   "win_rate": 0.4909090909090909
   },
   "NFL Sides": {
    "avg_clv": -0.1567910447761194,
@@ -160,17 +160,17 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6964 player-games, looked back 21 days)",
-  "NBA player logs: cache already current (13075 player-games, looked back 21 days)"
+  "NBA player logs: added 1 box scores, 13098 player-games cached",
+  "NFL player logs: added 1 box scores, 6988 player-games cached"
  ],
- "generated_at": "2026-11-23T03:43:11+00:00",
+ "generated_at": "2026-11-23T19:33:45+00:00",
  "graded_through": "Week of Nov 23",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.032811244979919676,
-   "clv_beat_rate": 0.2891566265060241,
-   "clv_n": 249,
-   "graded": 300,
+   "avg_clv": -0.03131075697211155,
+   "clv_beat_rate": 0.2908366533864542,
+   "clv_n": 251,
+   "graded": 303,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -5034,6 +5034,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -166,
+     "clv": 0.311,
+     "edge": 1.123,
+     "ev": 0.01808,
+     "final": "10-35",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "San Francisco 49ers ML",
+     "player": null,
+     "price": -164,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": 375,
      "clv": 1.704,
      "edge": 19.984,
@@ -5284,6 +5302,24 @@
      "result": "L",
      "sport": "NCAAB",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": 100,
+     "clv": 0.0,
+     "edge": 0.894,
+     "ev": 0.01789,
+     "final": "10-35",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "San Francisco 49ers -3.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
     },
     {
      "closing_price": 480,
@@ -5572,22 +5608,40 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 6.876,
+     "ev": 0.1389,
+     "final": "87-88",
+     "game": "Boston Celtics @ Golden State Warriors",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Boston Celtics -3.5",
+     "player": null,
+     "price": 102,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 162,
+    "l": 163,
     "p": 1,
     "void": 0,
-    "w": 137
+    "w": 139
    },
    "threshold": null,
-   "win_rate": 0.45819397993311034
+   "win_rate": 0.4602649006622517
   },
   "Props": {
-   "avg_clv": 0.15211378555798688,
-   "clv_beat_rate": 0.12582056892778992,
-   "clv_n": 914,
-   "graded": 1151,
+   "avg_clv": 0.15422608695652174,
+   "clv_beat_rate": 0.12717391304347825,
+   "clv_n": 920,
+   "graded": 1160,
    "label": "Player props",
    "picks": [
     {
@@ -25787,6 +25841,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -102,
+     "clv": 2.045,
+     "edge": 17.896,
+     "ev": 0.36865,
+     "final": "0",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Kirk Cousins Under 1.5 rushing yards",
+     "player": "Kirk Cousins",
+     "price": 106,
+     "proj": 2.468,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.886,
+     "ev": 2.14632,
+     "final": "0 TD",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Kirk Cousins anytime TD",
+     "player": "Kirk Cousins",
+     "price": 1100,
+     "proj": 0.304,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": 144,
      "clv": -23.729,
      "edge": 15.721,
@@ -25895,6 +25985,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -140,
+     "clv": 0.0,
+     "edge": 19.472,
+     "ev": 0.33381,
+     "final": "3",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "George Kittle Under 5.5 receptions",
+     "player": "George Kittle",
+     "price": -140,
+     "proj": 4.045,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -112,
      "clv": 0.0,
      "edge": 19.305,
@@ -25983,6 +26091,24 @@
      "result": "V",
      "sport": "NFL",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 18.204,
+     "ev": 0.34173,
+     "final": "34",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "George Kittle Under 61.5 receiving yards",
+     "player": "George Kittle",
+     "price": -114,
+     "proj": 49.752,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
     },
     {
      "closing_price": 100,
@@ -27263,6 +27389,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -114,
+     "clv": 1.418,
+     "edge": 18.759,
+     "ev": 0.36128,
+     "final": "3",
+     "game": "Minnesota Vikings @ San Francisco 49ers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Keenan Allen Over 2.5 receptions",
+     "player": "Keenan Allen",
+     "price": -108,
+     "proj": 3.842,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -125,
      "clv": 0.0,
      "edge": 17.031,
@@ -27353,6 +27497,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -154,
+     "clv": 0.0,
+     "edge": 19.968,
+     "ev": 0.32934,
+     "final": "2",
+     "game": "Boston Celtics @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Brandin Podziemski Under 4.5 assists",
+     "player": "Brandin Podziemski",
+     "price": -154,
+     "proj": 2.87,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -106,
      "clv": 0.0,
      "edge": 19.914,
@@ -27423,6 +27585,24 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 16"
+    },
+    {
+     "closing_price": -112,
+     "clv": -0.607,
+     "edge": 18.159,
+     "ev": 0.34088,
+     "final": "2",
+     "game": "Boston Celtics @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "De'Anthony Melton Under 10.5 points",
+     "player": "De'Anthony Melton",
+     "price": -114,
+     "proj": 8.321,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     },
     {
      "closing_price": -128,
@@ -27603,22 +27783,58 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.02,
+     "ev": 0.4323,
+     "final": "10",
+     "game": "Boston Celtics @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Neemias Queta Under 7.5 rebounds",
+     "player": "Neemias Queta",
+     "price": 154,
+     "proj": 7.284,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.08,
+     "ev": 0.47274,
+     "final": "4",
+     "game": "Boston Celtics @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Payton Pritchard Over 4.5 assists",
+     "player": "Payton Pritchard",
+     "price": 194,
+     "proj": 4.676,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 579,
+    "l": 582,
     "p": 0,
     "void": 72,
-    "w": 572
+    "w": 578
    },
    "threshold": 7.0,
-   "win_rate": 0.49695916594265854
+   "win_rate": 0.4982758620689655
   },
   "Sides": {
-   "avg_clv": 0.05914428312159709,
-   "clv_beat_rate": 0.3448275862068966,
-   "clv_n": 1102,
-   "graded": 1230,
+   "avg_clv": 0.05909066183136899,
+   "clv_beat_rate": 0.3445149592021759,
+   "clv_n": 1103,
+   "graded": 1231,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -49760,22 +49976,40 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 7.807,
+     "ev": 0.14905,
+     "final": "87-88",
+     "game": "Boston Celtics @ Golden State Warriors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Golden State Warriors +9.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
     "l": 602,
     "p": 1,
     "void": 0,
-    "w": 627
+    "w": 628
    },
    "threshold": 5.0,
-   "win_rate": 0.5101708706265257
+   "win_rate": 0.510569105691057
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 59,
-  "Props": 170,
-  "Sides": 195
+  "Cosmic": 56,
+  "Props": 161,
+  "Sides": 194
  }
 }
