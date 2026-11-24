@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 6.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 0.5,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 10.0,
   "closed": false
  },
@@ -56658,7 +56658,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 8.22,
-  "closed": false
+  "closed": true
  },
  {
   "key": "35ca45d3e548dc7207fd7f1696ab16f5|player_assists|Naz Reid|2.5|Naz Reid Under 2.5|None",
@@ -56783,7 +56783,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 9.33,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c9b6c9f77fd3628308dd34f50854a9c0|player_points|Ivica Zubac|11.5|Ivica Zubac Under 11.5|None",
@@ -56808,7 +56808,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 2.52,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c9b6c9f77fd3628308dd34f50854a9c0|player_threes|Ajay Mitchell|0.5|Ajay Mitchell Under 0.5|None",
@@ -56833,7 +56833,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 4.13,
-  "closed": false
+  "closed": true
  },
  {
   "key": "db2311c331296d3328d71b842167dea4|player_assists|Marcus Smart|1.5|Marcus Smart Under 1.5|None",
@@ -56858,7 +56858,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 5.04,
-  "closed": false
+  "closed": true
  },
  {
   "key": "17f31499f145cd9d3232819395d29448|h2h|Sacramento Kings|None",
@@ -56879,10 +56879,10 @@
   "price": 480,
   "fairPctAtFlag": 18.1,
   "evPctAtFlag": 5.09,
-  "closeFairPct": 18.3,
+  "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
-  "clvPct": 6.14,
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
+  "clvPct": 59.5,
   "closed": false
  },
  {
@@ -56908,7 +56908,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 4.37,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a72a1703f7a92b80768255d1d977a761|player_assists|Jaden McDaniels|3.5|Jaden McDaniels Over 3.5|None",
@@ -56933,7 +56933,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": -0.77,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4c69ecf41bb2d36dfeedeae23acc5b86|h2h|Texas A&M Aggies|None",
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 4.27,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 19.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 9.44,
   "closed": false
  },
@@ -57033,7 +57033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 5.72,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a5184238c27b9c3bfca29220f9d5d14a|player_threes|Immanuel Quickley|2.5|Immanuel Quickley Over 2.5|None",
@@ -57058,7 +57058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 8.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a5184238c27b9c3bfca29220f9d5d14a|player_threes|Ja'Kobe Walter|2.5|Ja'Kobe Walter Over 2.5|None",
@@ -57083,7 +57083,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 5.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b8dfee1fca57ec870528a14c792ad73a|player_assists|Donovan Mitchell|5.5|Donovan Mitchell Over 5.5|None",
@@ -57108,7 +57108,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 9.84,
-  "closed": false
+  "closed": true
  },
  {
   "key": "b8dfee1fca57ec870528a14c792ad73a|player_threes|Jaylon Tyson|1.5|Jaylon Tyson Over 1.5|None",
@@ -57133,7 +57133,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-24T00:35:11+00:00",
   "clvPct": 7.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "17f31499f145cd9d3232819395d29448|player_threes|De'Aaron Fox|1.5|De'Aaron Fox Over 1.5|None",
@@ -57156,7 +57156,7 @@
   "evPctAtFlag": 5.26,
   "closeFairPct": 40.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T00:35:11+00:00",
+  "closeSeenAt": "2026-11-24T02:51:30+00:00",
   "clvPct": 5.3,
   "closed": false
  },
