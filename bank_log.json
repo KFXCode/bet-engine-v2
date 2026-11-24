@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 8.75,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 7.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -56554,10 +56554,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 27.6,
+  "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
-  "clvPct": 10.4,
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "clvPct": 11.6,
   "closed": false
  },
  {
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 21.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 2.82,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -57004,10 +57004,10 @@
   "price": 470,
   "fairPctAtFlag": 19.2,
   "evPctAtFlag": 9.17,
-  "closeFairPct": 18.6,
+  "closeFairPct": 19.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
-  "clvPct": 6.02,
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "clvPct": 9.44,
   "closed": false
  },
  {
@@ -57204,10 +57204,10 @@
   "price": 195,
   "fairPctAtFlag": 35.4,
   "evPctAtFlag": 4.36,
-  "closeFairPct": 31.3,
+  "closeFairPct": 30.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
-  "clvPct": -7.66,
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "clvPct": -9.14,
   "closed": false
  },
  {
@@ -57231,7 +57231,7 @@
   "evPctAtFlag": 4.19,
   "closeFairPct": 51.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 11.16,
   "closed": false
  },
@@ -57256,7 +57256,7 @@
   "evPctAtFlag": 8.03,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 18.8,
   "closed": false
  },
@@ -57281,7 +57281,7 @@
   "evPctAtFlag": 9.37,
   "closeFairPct": 5.8,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 10.2,
   "closed": false
  },
@@ -57306,7 +57306,7 @@
   "evPctAtFlag": 4.16,
   "closeFairPct": 7.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 13.6,
   "closed": false
  },
@@ -57354,10 +57354,10 @@
   "price": 180,
   "fairPctAtFlag": 38.3,
   "evPctAtFlag": 7.28,
-  "closeFairPct": 44.4,
+  "closeFairPct": 44.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
-  "clvPct": 24.32,
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "clvPct": 23.76,
   "closed": false
  },
  {
@@ -57383,7 +57383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T18:35:13+00:00",
   "clvPct": -0.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "1ce662de828158b33eeb5d693d2dd9e5|h2h|Hampton Pirates|None",
@@ -57404,10 +57404,10 @@
   "price": 325,
   "fairPctAtFlag": 24.6,
   "evPctAtFlag": 4.38,
-  "closeFairPct": 25.1,
+  "closeFairPct": 24.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
-  "clvPct": 6.68,
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "clvPct": 3.7,
   "closed": false
  },
  {
@@ -57431,7 +57431,7 @@
   "evPctAtFlag": 5.98,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 6.26,
   "closed": false
  },
@@ -57454,10 +57454,10 @@
   "price": 410,
   "fairPctAtFlag": 21.1,
   "evPctAtFlag": 7.74,
-  "closeFairPct": 22.1,
+  "closeFairPct": 22.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
-  "clvPct": 12.71,
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "clvPct": 13.22,
   "closed": false
  },
  {
@@ -57483,7 +57483,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T18:35:13+00:00",
   "clvPct": 8.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "4168db6bc271ba612901506cd74e1c9b|h2h|TCU Horned Frogs|None",
@@ -57508,7 +57508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T18:35:13+00:00",
   "clvPct": 6.64,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3a7a826d98d77fdc8fd9f0e0ee77af6c|h2h|Alcorn St Braves|None",
@@ -57531,7 +57531,7 @@
   "evPctAtFlag": 4.29,
   "closeFairPct": 8.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T18:35:13+00:00",
+  "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": 4.4,
   "closed": false
  }
