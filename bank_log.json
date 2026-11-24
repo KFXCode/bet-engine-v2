@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56504,10 +56504,10 @@
   "price": 650,
   "fairPctAtFlag": 14.3,
   "evPctAtFlag": 7.13,
-  "closeFairPct": 14.3,
+  "closeFairPct": 14.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
-  "clvPct": 7.25,
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 8.0,
   "closed": false
  },
  {
@@ -56529,10 +56529,10 @@
   "price": 1400,
   "fairPctAtFlag": 6.9,
   "evPctAtFlag": 4.04,
-  "closeFairPct": 6.9,
+  "closeFairPct": 6.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
-  "clvPct": 3.5,
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 0.5,
   "closed": false
  },
  {
@@ -56554,10 +56554,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 26.8,
+  "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
-  "clvPct": 7.2,
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 10.0,
   "closed": false
  },
  {
@@ -56654,10 +56654,10 @@
   "price": 455,
   "fairPctAtFlag": 19.0,
   "evPctAtFlag": 5.27,
-  "closeFairPct": 20.0,
+  "closeFairPct": 19.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
-  "clvPct": 11.0,
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 8.22,
   "closed": false
  },
  {
@@ -56683,7 +56683,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 6.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ac6fb079d66ef35a2a77e22b5e94ef8d|player_assists|LeBron James|6.5|LeBron James Under 6.5|None",
@@ -56708,7 +56708,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": -3.59,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ac6fb079d66ef35a2a77e22b5e94ef8d|player_points|Jaylen Brown|21.5|Jaylen Brown Under 21.5|None",
@@ -56733,7 +56733,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": -1.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "ac6fb079d66ef35a2a77e22b5e94ef8d|player_threes|Scoot Henderson|1.5|Scoot Henderson Over 1.5|None",
@@ -56758,7 +56758,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-23T23:45:10+00:00",
   "clvPct": 8.38,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c9b6c9f77fd3628308dd34f50854a9c0|h2h|Indiana Pacers|None",
@@ -56779,10 +56779,10 @@
   "price": 190,
   "fairPctAtFlag": 36.3,
   "evPctAtFlag": 5.24,
-  "closeFairPct": 37.5,
+  "closeFairPct": 37.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
-  "clvPct": 8.75,
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 9.33,
   "closed": false
  },
  {
@@ -56806,7 +56806,7 @@
   "evPctAtFlag": 4.34,
   "closeFairPct": 53.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 2.52,
   "closed": false
  },
@@ -56831,7 +56831,7 @@
   "evPctAtFlag": 7.31,
   "closeFairPct": 36.1,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 6.5,
   "closed": false
  },
@@ -56856,7 +56856,7 @@
   "evPctAtFlag": 5.1,
   "closeFairPct": 42.7,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 5.04,
   "closed": false
  },
@@ -56879,10 +56879,10 @@
   "price": 480,
   "fairPctAtFlag": 18.1,
   "evPctAtFlag": 5.09,
-  "closeFairPct": 18.0,
+  "closeFairPct": 18.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
-  "clvPct": 4.4,
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 6.14,
   "closed": false
  },
  {
@@ -56906,7 +56906,7 @@
   "evPctAtFlag": 4.4,
   "closeFairPct": 42.6,
   "closeSource": "BetOnline",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 4.37,
   "closed": false
  },
@@ -56931,8 +56931,83 @@
   "evPctAtFlag": 5.06,
   "closeFairPct": 46.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-23T23:45:10+00:00",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
   "clvPct": 5.08,
+  "closed": false
+ },
+ {
+  "key": "4c69ecf41bb2d36dfeedeae23acc5b86|h2h|Texas A&M Aggies|None",
+  "eventId": "4c69ecf41bb2d36dfeedeae23acc5b86",
+  "sport": "NCAAF",
+  "game": "Texas Longhorns at Texas A&M Aggies",
+  "time": "2026-11-28T00:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Texas A&M Aggies",
+  "line": null,
+  "team": "Texas A&M Aggies",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-24T00:27:50+00:00",
+  "price": 385,
+  "fairPctAtFlag": 21.5,
+  "evPctAtFlag": 4.47,
+  "closeFairPct": 21.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 4.27,
+  "closed": false
+ },
+ {
+  "key": "c8b7cbe64e2914e579ab55c34db57da2|h2h|Arkansas Razorbacks|None",
+  "eventId": "c8b7cbe64e2914e579ab55c34db57da2",
+  "sport": "NCAAF",
+  "game": "LSU Tigers at Arkansas Razorbacks",
+  "time": "2026-11-28T17:45:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Arkansas Razorbacks",
+  "line": null,
+  "team": "Arkansas Razorbacks",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-24T00:27:50+00:00",
+  "price": 530,
+  "fairPctAtFlag": 17.1,
+  "evPctAtFlag": 7.67,
+  "closeFairPct": 17.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 7.73,
+  "closed": false
+ },
+ {
+  "key": "0a1027a4edb364b492a3fee67086e8bc|h2h|Vanderbilt Commodores|None",
+  "eventId": "0a1027a4edb364b492a3fee67086e8bc",
+  "sport": "NCAAF",
+  "game": "Tennessee Volunteers at Vanderbilt Commodores",
+  "time": "2026-11-29T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Vanderbilt Commodores",
+  "line": null,
+  "team": "Vanderbilt Commodores",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-24T00:27:50+00:00",
+  "price": 470,
+  "fairPctAtFlag": 19.2,
+  "evPctAtFlag": 9.17,
+  "closeFairPct": 19.2,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-24T00:27:50+00:00",
+  "clvPct": 9.44,
   "closed": false
  }
 ]
