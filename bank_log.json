@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 8.75,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 7.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 21.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 2.82,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 19.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 9.44,
   "closed": false
  },
@@ -57208,7 +57208,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T20:35:14+00:00",
   "clvPct": -9.14,
-  "closed": false
+  "closed": true
  },
  {
   "key": "36cd60be0deb29366cd82284a9668faa|h2h|Santa Clara Broncos|None",
@@ -57229,10 +57229,10 @@
   "price": 115,
   "fairPctAtFlag": 48.5,
   "evPctAtFlag": 4.19,
-  "closeFairPct": 51.7,
+  "closeFairPct": 50.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
-  "clvPct": 11.16,
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
+  "clvPct": 8.36,
   "closed": false
  },
  {
@@ -57256,7 +57256,7 @@
   "evPctAtFlag": 8.03,
   "closeFairPct": 9.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 18.8,
   "closed": false
  },
@@ -57281,7 +57281,7 @@
   "evPctAtFlag": 9.37,
   "closeFairPct": 5.8,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 10.2,
   "closed": false
  },
@@ -57306,7 +57306,7 @@
   "evPctAtFlag": 4.16,
   "closeFairPct": 7.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 13.6,
   "closed": false
  },
@@ -57354,10 +57354,10 @@
   "price": 180,
   "fairPctAtFlag": 38.3,
   "evPctAtFlag": 7.28,
-  "closeFairPct": 44.2,
+  "closeFairPct": 44.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
-  "clvPct": 23.76,
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
+  "clvPct": 23.2,
   "closed": false
  },
  {
@@ -57406,7 +57406,7 @@
   "evPctAtFlag": 4.38,
   "closeFairPct": 24.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 3.7,
   "closed": false
  },
@@ -57431,7 +57431,7 @@
   "evPctAtFlag": 5.98,
   "closeFairPct": 23.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 6.26,
   "closed": false
  },
@@ -57454,10 +57454,10 @@
   "price": 410,
   "fairPctAtFlag": 21.1,
   "evPctAtFlag": 7.74,
-  "closeFairPct": 22.2,
+  "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
-  "clvPct": 13.22,
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
+  "clvPct": 11.18,
   "closed": false
  },
  {
@@ -57531,8 +57531,33 @@
   "evPctAtFlag": 4.29,
   "closeFairPct": 8.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T20:35:14+00:00",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
   "clvPct": 4.4,
+  "closed": false
+ },
+ {
+  "key": "56cd92243f65d84421355bf0dadb2a77|h2h|Bryant Bulldogs|None",
+  "eventId": "56cd92243f65d84421355bf0dadb2a77",
+  "sport": "NCAAB",
+  "game": "Bryant Bulldogs at Marist Red Foxes",
+  "time": "2026-11-25T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Bryant Bulldogs",
+  "line": null,
+  "team": "Bryant Bulldogs",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-24T22:50:20+00:00",
+  "price": 150,
+  "fairPctAtFlag": 41.9,
+  "evPctAtFlag": 4.72,
+  "closeFairPct": 41.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-24T22:50:20+00:00",
+  "clvPct": 4.75,
   "closed": false
  }
 ]
