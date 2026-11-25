@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": 8.75,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 7.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": -1.06,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 19.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-25T00:35:09+00:00",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
   "clvPct": 8.3,
   "closed": false
  },
@@ -57283,7 +57283,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-25T00:35:09+00:00",
   "clvPct": 10.2,
-  "closed": false
+  "closed": true
  },
  {
   "key": "427e125509d4fb46d23c30b52a010699|h2h|UNC Greensboro Spartans|None",
@@ -57308,7 +57308,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-25T00:35:09+00:00",
   "clvPct": 13.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "97b6bfd4b808fd6e1c2d0d35925cd0e2|h2h|San Jos\u00e9 St Spartans|None",
@@ -57358,7 +57358,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-25T00:35:09+00:00",
   "clvPct": 24.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "2643c9fdcf8ea923eba3adf7e2d63034|h2h|Detroit Mercy Titans|None",
@@ -57458,7 +57458,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-25T00:35:09+00:00",
   "clvPct": 9.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "805ca96e9d27ffe645d7a7f11348756f|h2h|San Francisco Dons|None",
@@ -57608,6 +57608,81 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-25T00:35:09+00:00",
   "clvPct": 1.35,
+  "closed": true
+ },
+ {
+  "key": "7a374c26e6bdab50be65f2b155fef2c8|h2h|Stanford Cardinal|None",
+  "eventId": "7a374c26e6bdab50be65f2b155fef2c8",
+  "sport": "NCAAB",
+  "game": "Colorado Buffaloes at Stanford Cardinal",
+  "time": "2026-11-25T04:59:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Stanford Cardinal",
+  "line": null,
+  "team": "Stanford Cardinal",
+  "point": null,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-25T02:44:15+00:00",
+  "price": -142,
+  "fairPctAtFlag": 62.1,
+  "evPctAtFlag": 5.85,
+  "closeFairPct": 62.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
+  "clvPct": 5.83,
+  "closed": false
+ },
+ {
+  "key": "ffd0046855b372187fbcfcddb6274995|h2h|Northern Iowa Panthers|None",
+  "eventId": "ffd0046855b372187fbcfcddb6274995",
+  "sport": "NCAAB",
+  "game": "Northern Iowa Panthers at Charlotte 49ers",
+  "time": "2026-11-25T16:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Northern Iowa Panthers",
+  "line": null,
+  "team": "Northern Iowa Panthers",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-25T02:44:15+00:00",
+  "price": 300,
+  "fairPctAtFlag": 26.2,
+  "evPctAtFlag": 4.81,
+  "closeFairPct": 26.2,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
+  "clvPct": 4.8,
+  "closed": false
+ },
+ {
+  "key": "6dcd15264ad340b012628f9c0f020f8e|h2h|Northeastern Huskies|None",
+  "eventId": "6dcd15264ad340b012628f9c0f020f8e",
+  "sport": "NCAAB",
+  "game": "Northeastern Huskies at Wisconsin Badgers",
+  "time": "2026-11-26T00:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Northeastern Huskies",
+  "line": null,
+  "team": "Northeastern Huskies",
+  "point": null,
+  "book": "fanatics",
+  "bookName": "Fanatics",
+  "flaggedAt": "2026-11-25T02:44:15+00:00",
+  "price": 1800,
+  "fairPctAtFlag": 5.7,
+  "evPctAtFlag": 7.69,
+  "closeFairPct": 5.7,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-25T02:44:15+00:00",
+  "clvPct": 8.3,
   "closed": false
  }
 ]
