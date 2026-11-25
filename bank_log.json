@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 22.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 3.87,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 8.75,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 7.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": -1.06,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 19.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 8.3,
   "closed": false
  },
@@ -57233,7 +57233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 9.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a78dc73464df7565244fa09ad22f8a3e|h2h|West Georgia Wolves|None",
@@ -57258,7 +57258,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 18.8,
-  "closed": false
+  "closed": true
  },
  {
   "key": "62721346d2909208ad093276ade60892|h2h|Central Michigan Chippewas|None",
@@ -57281,7 +57281,7 @@
   "evPctAtFlag": 9.37,
   "closeFairPct": 5.8,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 10.2,
   "closed": false
  },
@@ -57306,7 +57306,7 @@
   "evPctAtFlag": 4.16,
   "closeFairPct": 7.1,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 13.6,
   "closed": false
  },
@@ -57354,10 +57354,10 @@
   "price": 180,
   "fairPctAtFlag": 38.3,
   "evPctAtFlag": 7.28,
-  "closeFairPct": 44.0,
+  "closeFairPct": 44.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
-  "clvPct": 23.2,
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
+  "clvPct": 24.88,
   "closed": false
  },
  {
@@ -57408,7 +57408,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 3.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9bfe60f0e81a07d8ac7c88c95a05879e|h2h|Binghamton Bearcats|None",
@@ -57433,7 +57433,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 4.42,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3167a4072c65c9314c71d0fe49be8e28|h2h|Washington Wizards|None",
@@ -57454,10 +57454,10 @@
   "price": 410,
   "fairPctAtFlag": 21.1,
   "evPctAtFlag": 7.74,
-  "closeFairPct": 21.8,
+  "closeFairPct": 21.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
-  "clvPct": 11.18,
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
+  "clvPct": 9.65,
   "closed": false
  },
  {
@@ -57533,7 +57533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 4.4,
-  "closed": false
+  "closed": true
  },
  {
   "key": "56cd92243f65d84421355bf0dadb2a77|h2h|Bryant Bulldogs|None",
@@ -57558,7 +57558,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 10.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "42f48a4769eab3d1472d76aac0fd0fa7|player_assists|Ausar Thompson|4.5|Ausar Thompson Under 4.5|None",
@@ -57583,7 +57583,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-24T23:45:10+00:00",
   "clvPct": 8.78,
-  "closed": false
+  "closed": true
  },
  {
   "key": "3167a4072c65c9314c71d0fe49be8e28|player_points|AJ Dybantsa|16.5|AJ Dybantsa Under 16.5|None",
@@ -57606,7 +57606,7 @@
   "evPctAtFlag": 5.73,
   "closeFairPct": 59.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-24T23:45:10+00:00",
+  "closeSeenAt": "2026-11-25T00:34:10+00:00",
   "clvPct": 5.81,
   "closed": false
  }
