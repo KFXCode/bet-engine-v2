@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
   "clvPct": 2.46,
   "closed": false
  },
@@ -56504,10 +56504,10 @@
   "price": 650,
   "fairPctAtFlag": 14.3,
   "evPctAtFlag": 7.13,
-  "closeFairPct": 14.5,
+  "closeFairPct": 14.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": 8.75,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 7.25,
   "closed": false
  },
  {
@@ -56529,10 +56529,10 @@
   "price": 1400,
   "fairPctAtFlag": 6.9,
   "evPctAtFlag": 4.04,
-  "closeFairPct": 7.0,
+  "closeFairPct": 6.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": 5.0,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": -4.0,
   "closed": false
  },
  {
@@ -56554,10 +56554,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 27.9,
+  "closeFairPct": 27.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": 11.6,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 10.8,
   "closed": false
  },
  {
@@ -56954,10 +56954,10 @@
   "price": 385,
   "fairPctAtFlag": 21.5,
   "evPctAtFlag": 4.47,
-  "closeFairPct": 20.4,
+  "closeFairPct": 21.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": -1.06,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 3.79,
   "closed": false
  },
  {
@@ -56979,10 +56979,10 @@
   "price": 530,
   "fairPctAtFlag": 17.1,
   "evPctAtFlag": 7.67,
-  "closeFairPct": 17.1,
+  "closeFairPct": 16.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": 7.73,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 5.84,
   "closed": false
  },
  {
@@ -57004,10 +57004,10 @@
   "price": 470,
   "fairPctAtFlag": 19.2,
   "evPctAtFlag": 9.17,
-  "closeFairPct": 19.0,
+  "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": 8.3,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 6.59,
   "closed": false
  },
  {
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 11.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
   "clvPct": 4.4,
   "closed": false
  },
@@ -57904,10 +57904,10 @@
   "price": -150,
   "fairPctAtFlag": 65.0,
   "evPctAtFlag": 8.37,
-  "closeFairPct": 65.4,
+  "closeFairPct": 65.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
-  "clvPct": 9.0,
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 9.83,
   "closed": false
  },
  {
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 43.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
   "clvPct": 9.25,
   "closed": false
  },
@@ -58031,7 +58031,7 @@
   "evPctAtFlag": 5.6,
   "closeFairPct": 8.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-26T03:02:24+00:00",
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
   "clvPct": 0.8,
   "closed": false
  },
@@ -58133,7 +58133,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T03:02:24+00:00",
   "clvPct": 5.88,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e6df92326adb480e427bb7c10f445c60|h2h|Sacramento Kings|None",
@@ -58158,6 +58158,31 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T03:02:24+00:00",
   "clvPct": 3.89,
+  "closed": true
+ },
+ {
+  "key": "fc256824e407a09580ec73661749dc2e|h2h|Colorado State Rams|None",
+  "eventId": "fc256824e407a09580ec73661749dc2e",
+  "sport": "NCAAF",
+  "game": "Boise State Broncos at Colorado State Rams",
+  "time": "2026-11-28T23:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Colorado State Rams",
+  "line": null,
+  "team": "Colorado State Rams",
+  "point": null,
+  "book": "fanduel",
+  "bookName": "FanDuel",
+  "flaggedAt": "2026-11-26T04:21:00+00:00",
+  "price": 1000,
+  "fairPctAtFlag": 9.5,
+  "evPctAtFlag": 4.11,
+  "closeFairPct": 9.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-26T04:21:00+00:00",
+  "clvPct": 4.5,
   "closed": false
  }
 ]

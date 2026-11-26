@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.1140076765609007,
-   "clv_beat_rate": 0.24257932446264074,
-   "clv_n": 1954,
-   "graded": 2308,
+   "avg_clv": 0.11389110429447852,
+   "clv_beat_rate": 0.24233128834355827,
+   "clv_n": 1956,
+   "graded": 2310,
    "record": {
-    "l": 1147,
+    "l": 1149,
     "p": 1,
     "void": 67,
     "w": 1160
    },
-   "win_rate": 0.5028175119202427
+   "win_rate": 0.5023819835426592
   }
  },
  "by_sport": {
@@ -55,17 +55,17 @@
    "win_rate": 0.5034246575342466
   },
   "NBA Sides": {
-   "avg_clv": 0.09004026845637585,
-   "clv_beat_rate": 0.11409395973154363,
-   "clv_n": 149,
-   "graded": 186,
+   "avg_clv": 0.0888476821192053,
+   "clv_beat_rate": 0.11258278145695365,
+   "clv_n": 151,
+   "graded": 188,
    "record": {
-    "l": 101,
+    "l": 103,
     "p": 0,
     "void": 0,
     "w": 85
    },
-   "win_rate": 0.45698924731182794
+   "win_rate": 0.4521276595744681
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.07649999999999998,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: added 3 box scores, 13395 player-games cached",
-  "NFL player logs: cache already current (6724 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6724 player-games, looked back 21 days)",
+  "NBA player logs: cache already current (13545 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-25T18:14:11+00:00",
+ "generated_at": "2026-11-26T04:20:39+00:00",
  "graded_through": "Week of Nov 23",
  "groups": {
   "Cosmic": {
@@ -28389,10 +28389,10 @@
    "win_rate": 0.49706129303106633
   },
   "Sides": {
-   "avg_clv": 0.060717117117117116,
-   "clv_beat_rate": 0.34324324324324323,
-   "clv_n": 1110,
-   "graded": 1239,
+   "avg_clv": 0.06060791366906475,
+   "clv_beat_rate": 0.3426258992805755,
+   "clv_n": 1112,
+   "graded": 1241,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -50662,6 +50662,42 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 9.808,
+     "ev": 0.19148,
+     "final": "104-111",
+     "game": "Miami Heat @ Philadelphia 76ers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Miami Heat +3.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -115,
+     "clv": 0.0,
+     "edge": 9.747,
+     "ev": 0.18222,
+     "final": "104-116",
+     "game": "Phoenix Suns @ Houston Rockets",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Phoenix Suns +10.5",
+     "player": null,
+     "price": -115,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -118,
      "clv": 0.0,
      "edge": 17.94,
@@ -50699,19 +50735,19 @@
     }
    ],
    "record": {
-    "l": 607,
+    "l": 609,
     "p": 1,
     "void": 0,
     "w": 631
    },
    "threshold": 5.0,
-   "win_rate": 0.5096930533117933
+   "win_rate": 0.5088709677419355
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 56,
-  "Props": 162,
-  "Sides": 216
+  "Cosmic": 60,
+  "Props": 193,
+  "Sides": 225
  }
 }
