@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.11389110429447852,
-   "clv_beat_rate": 0.24233128834355827,
-   "clv_n": 1956,
-   "graded": 2310,
+   "avg_clv": 0.11377477017364657,
+   "clv_beat_rate": 0.24208375893769152,
+   "clv_n": 1958,
+   "graded": 2315,
    "record": {
-    "l": 1149,
+    "l": 1152,
     "p": 1,
-    "void": 67,
-    "w": 1160
+    "void": 69,
+    "w": 1162
    },
-   "win_rate": 0.5023819835426592
+   "win_rate": 0.5021607605877269
   }
  },
  "by_sport": {
@@ -45,27 +45,27 @@
    "avg_clv": 0.19662770562770562,
    "clv_beat_rate": 0.15584415584415584,
    "clv_n": 462,
-   "graded": 584,
+   "graded": 586,
    "record": {
-    "l": 290,
+    "l": 291,
     "p": 0,
     "void": 23,
-    "w": 294
+    "w": 295
    },
-   "win_rate": 0.5034246575342466
+   "win_rate": 0.5034129692832765
   },
   "NBA Sides": {
    "avg_clv": 0.0888476821192053,
    "clv_beat_rate": 0.11258278145695365,
    "clv_n": 151,
-   "graded": 188,
+   "graded": 189,
    "record": {
     "l": 103,
     "p": 0,
     "void": 0,
-    "w": 85
+    "w": 86
    },
-   "win_rate": 0.4521276595744681
+   "win_rate": 0.455026455026455
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.07649999999999998,
@@ -133,17 +133,17 @@
    "win_rate": 0.4050632911392405
   },
   "NFL Props": {
-   "avg_clv": 0.1277633744855967,
-   "clv_beat_rate": 0.09876543209876543,
-   "clv_n": 486,
-   "graded": 607,
+   "avg_clv": 0.12723975409836064,
+   "clv_beat_rate": 0.09836065573770492,
+   "clv_n": 488,
+   "graded": 609,
    "record": {
-    "l": 309,
+    "l": 311,
     "p": 0,
-    "void": 49,
+    "void": 51,
     "w": 298
    },
-   "win_rate": 0.49093904448105435
+   "win_rate": 0.48932676518883417
   },
   "NFL Sides": {
    "avg_clv": -0.15794554455445545,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6724 player-games, looked back 21 days)",
-  "NBA player logs: cache already current (13545 player-games, looked back 21 days)"
+  "NBA player logs: added 2 box scores, 13587 player-games cached",
+  "NFL player logs: added 1 box scores, 6742 player-games cached"
  ],
- "generated_at": "2026-11-26T04:20:39+00:00",
+ "generated_at": "2026-11-26T17:55:46+00:00",
  "graded_through": "Week of Nov 23",
  "groups": {
   "Cosmic": {
@@ -5638,10 +5638,10 @@
    "win_rate": 0.4602649006622517
   },
   "Props": {
-   "avg_clv": 0.16132383966244726,
-   "clv_beat_rate": 0.12658227848101267,
-   "clv_n": 948,
-   "graded": 1191,
+   "avg_clv": 0.16098421052631579,
+   "clv_beat_rate": 0.12631578947368421,
+   "clv_n": 950,
+   "graded": 1195,
    "label": "Player props",
    "picks": [
     {
@@ -27839,6 +27839,24 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 19.234,
+     "ev": 0.36105,
+     "final": "did not play",
+     "game": "Green Bay Packers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Tutu Atwell Under 24.5 receiving yards",
+     "player": "Tutu Atwell",
+     "price": -114,
+     "proj": 18.921,
+     "result": "V",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -104,
      "clv": 0.0,
      "edge": 18.055,
@@ -27854,6 +27872,24 @@
      "proj": 2.802,
      "result": "L",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": 110,
+     "clv": 0.0,
+     "edge": 17.161,
+     "ev": 0.36038,
+     "final": "did not play",
+     "game": "Green Bay Packers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Tutu Atwell Under 1.5 receptions",
+     "player": "Tutu Atwell",
+     "price": 110,
+     "proj": 1.241,
+     "result": "V",
+     "sport": "NFL",
      "week": "Week of Nov 23"
     },
     {
@@ -27890,6 +27926,24 @@
      "proj": 4.013,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.259,
+     "ev": 1.2194,
+     "final": "0 TD",
+     "game": "Green Bay Packers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Davis Allen anytime TD",
+     "player": "Davis Allen",
+     "price": 650,
+     "proj": 0.351,
+     "result": "L",
+     "sport": "NFL",
      "week": "Week of Nov 23"
     },
     {
@@ -28377,22 +28431,76 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 19.909,
+     "ev": 0.47384,
+     "final": "1",
+     "game": "Green Bay Packers @ Los Angeles Rams",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Savion Williams Over 1.5 receptions",
+     "player": "Savion Williams",
+     "price": 138,
+     "proj": 2.096,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.601,
+     "ev": 0.32081,
+     "final": "6",
+     "game": "Sacramento Kings @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Brandin Podziemski Under 4.5 assists",
+     "player": "Brandin Podziemski",
+     "price": -138,
+     "proj": 3.195,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 14.02,
+     "ev": 0.27765,
+     "final": "5",
+     "game": "Sacramento Kings @ Golden State Warriors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Malik Monk Under 9.5 points",
+     "player": "Malik Monk",
+     "price": -102,
+     "proj": 8.739,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 599,
+    "l": 602,
     "p": 0,
-    "void": 72,
-    "w": 592
+    "void": 74,
+    "w": 593
    },
    "threshold": 7.0,
-   "win_rate": 0.49706129303106633
+   "win_rate": 0.49623430962343096
   },
   "Sides": {
    "avg_clv": 0.06060791366906475,
    "clv_beat_rate": 0.3426258992805755,
    "clv_n": 1112,
-   "graded": 1241,
+   "graded": 1242,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -50732,22 +50840,40 @@
      "result": "L",
      "sport": "NCAAB",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.156,
+     "ev": 0.28778,
+     "final": "110-129",
+     "game": "Sacramento Kings @ Golden State Warriors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Sacramento Kings +19.5",
+     "player": null,
+     "price": -128,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
     "l": 609,
     "p": 1,
     "void": 0,
-    "w": 631
+    "w": 632
    },
    "threshold": 5.0,
-   "win_rate": 0.5088709677419355
+   "win_rate": 0.5092667203867849
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 60,
-  "Props": 193,
-  "Sides": 225
+  "Props": 187,
+  "Sides": 224
  }
 }
