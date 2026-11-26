@@ -56281,7 +56281,7 @@
   "evPctAtFlag": 4.43,
   "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 2.46,
   "closed": false
  },
@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 8.75,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 7.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 5.0,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 20.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": -1.06,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 17.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 7.73,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 19.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 8.3,
   "closed": false
  },
@@ -57758,7 +57758,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": 4.72,
-  "closed": false
+  "closed": true
  },
  {
   "key": "40b82f25322f12117b8fd0b3cb7be9fd|h2h|Grambling St Tigers|None",
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 11.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 4.4,
   "closed": false
  },
@@ -57858,7 +57858,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-25T23:45:11+00:00",
   "clvPct": 8.38,
-  "closed": false
+  "closed": true
  },
  {
   "key": "60fd73164f7b0d1848f998d922155d87|player_threes|Miles Bridges|1.5|Miles Bridges Over 1.5|None",
@@ -57883,7 +57883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": -5.53,
-  "closed": false
+  "closed": true
  },
  {
   "key": "44a3bcf5bd002583ddef2207a92dd977|h2h|Denver Broncos|None",
@@ -57906,7 +57906,7 @@
   "evPctAtFlag": 8.37,
   "closeFairPct": 65.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 9.0,
   "closed": false
  },
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 43.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 9.25,
   "closed": false
  },
@@ -57958,7 +57958,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": -4.74,
-  "closed": false
+  "closed": true
  },
  {
   "key": "698d6d78acf30f4ff4e4aaf6670249ee|h2h|Los Angeles Clippers|None",
@@ -57983,7 +57983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": 4.65,
-  "closed": false
+  "closed": true
  },
  {
   "key": "60fd73164f7b0d1848f998d922155d87|player_points|Khaman Maluach|5.5|Khaman Maluach Under 5.5|None",
@@ -58008,7 +58008,7 @@
   "closeSource": "BetOnline",
   "closeSeenAt": "2026-11-25T23:45:11+00:00",
   "clvPct": 4.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "a191391394bd171f41ee90ed9e9b010a|h2h|Incarnate Word Cardinals|None",
@@ -58029,10 +58029,10 @@
   "price": 1160,
   "fairPctAtFlag": 8.4,
   "evPctAtFlag": 5.6,
-  "closeFairPct": 8.4,
-  "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
-  "clvPct": 5.84,
+  "closeFairPct": 8.0,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
+  "clvPct": 0.8,
   "closed": false
  },
  {
@@ -58058,7 +58058,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": 5.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "07421d1675d6bc51bb5fa91f84a09eb3|player_threes|Kenrich Williams|1.5|Kenrich Williams Over 1.5|None",
@@ -58083,7 +58083,7 @@
   "closeSource": "5-book average",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": 6.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9e203cbbc6d37b7b0d9c08cb89fe0b28|player_points|Day'Ron Sharpe|9.5|Day'Ron Sharpe Under 9.5|None",
@@ -58108,7 +58108,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-26T00:35:19+00:00",
   "clvPct": 5.85,
-  "closed": false
+  "closed": true
  },
  {
   "key": "9aa9f220709533d70d11f85fae886771|player_threes|De'Aaron Fox|1.5|De'Aaron Fox Over 1.5|None",
@@ -58131,7 +58131,7 @@
   "evPctAtFlag": 5.74,
   "closeFairPct": 38.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T00:35:19+00:00",
+  "closeSeenAt": "2026-11-26T01:55:40+00:00",
   "clvPct": 5.88,
   "closed": false
  }
