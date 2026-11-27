@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 6.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": -5.5,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 10.8,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 21.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 3.79,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 16.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 5.84,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 6.59,
   "closed": false
  },
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 11.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 5.3,
   "closed": false
  },
@@ -57904,10 +57904,10 @@
   "price": -150,
   "fairPctAtFlag": 65.0,
   "evPctAtFlag": 8.37,
-  "closeFairPct": 66.8,
+  "closeFairPct": 67.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
-  "clvPct": 11.33,
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
+  "clvPct": 12.33,
   "closed": false
  },
  {
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 42.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 6.5,
   "closed": false
  },
@@ -58181,7 +58181,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 9.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58206,7 +58206,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-26T23:45:10+00:00",
+  "closeSeenAt": "2026-11-27T00:30:14+00:00",
   "clvPct": 4.5,
   "closed": false
  }
