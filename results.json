@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.11377477017364657,
-   "clv_beat_rate": 0.24208375893769152,
-   "clv_n": 1958,
-   "graded": 2315,
+   "avg_clv": 0.10256983240223463,
+   "clv_beat_rate": 0.24123920771965465,
+   "clv_n": 1969,
+   "graded": 2327,
    "record": {
-    "l": 1152,
+    "l": 1160,
     "p": 1,
-    "void": 69,
-    "w": 1162
+    "void": 71,
+    "w": 1166
    },
-   "win_rate": 0.5021607605877269
+   "win_rate": 0.5012897678417885
   }
  },
  "by_sport": {
@@ -81,17 +81,17 @@
    "win_rate": 0.4166666666666667
   },
   "NCAAB Sides": {
-   "avg_clv": 0.20355172413793102,
-   "clv_beat_rate": 0.10344827586206896,
-   "clv_n": 29,
-   "graded": 36,
+   "avg_clv": 0.19676666666666665,
+   "clv_beat_rate": 0.1,
+   "clv_n": 30,
+   "graded": 37,
    "record": {
-    "l": 19,
+    "l": 20,
     "p": 0,
     "void": 0,
     "w": 17
    },
-   "win_rate": 0.4722222222222222
+   "win_rate": 0.4594594594594595
   },
   "NCAAF Cosmic": {
    "avg_clv": 0.01793103448275863,
@@ -107,70 +107,70 @@
    "win_rate": 0.4806201550387597
   },
   "NCAAF Sides": {
-   "avg_clv": 0.10956438356164383,
-   "clv_beat_rate": 0.39315068493150684,
-   "clv_n": 730,
-   "graded": 779,
+   "avg_clv": 0.10882079343365253,
+   "clv_beat_rate": 0.39261285909712723,
+   "clv_n": 731,
+   "graded": 780,
    "record": {
     "l": 367,
     "p": 0,
     "void": 0,
-    "w": 412
+    "w": 413
    },
-   "win_rate": 0.5288831835686778
+   "win_rate": 0.5294871794871795
   },
   "NFL Cosmic": {
-   "avg_clv": -0.2795671641791045,
-   "clv_beat_rate": 0.31343283582089554,
-   "clv_n": 67,
-   "graded": 80,
+   "avg_clv": -0.2505652173913044,
+   "clv_beat_rate": 0.3333333333333333,
+   "clv_n": 69,
+   "graded": 82,
    "record": {
-    "l": 47,
+    "l": 49,
     "p": 1,
     "void": 0,
     "w": 32
    },
-   "win_rate": 0.4050632911392405
+   "win_rate": 0.3950617283950617
   },
   "NFL Props": {
-   "avg_clv": 0.12723975409836064,
-   "clv_beat_rate": 0.09836065573770492,
-   "clv_n": 488,
-   "graded": 609,
+   "avg_clv": 0.08190725806451613,
+   "clv_beat_rate": 0.0967741935483871,
+   "clv_n": 496,
+   "graded": 618,
    "record": {
-    "l": 311,
+    "l": 317,
     "p": 0,
-    "void": 51,
-    "w": 298
+    "void": 53,
+    "w": 301
    },
-   "win_rate": 0.48932676518883417
+   "win_rate": 0.48705501618122976
   },
   "NFL Sides": {
-   "avg_clv": -0.15794554455445545,
-   "clv_beat_rate": 0.36633663366336633,
-   "clv_n": 202,
-   "graded": 238,
+   "avg_clv": -0.15179802955665023,
+   "clv_beat_rate": 0.3694581280788177,
+   "clv_n": 203,
+   "graded": 239,
    "record": {
-    "l": 120,
+    "l": 121,
     "p": 1,
     "void": 0,
     "w": 117
    },
-   "win_rate": 0.4936708860759494
+   "win_rate": 0.49159663865546216
   }
  },
  "diagnostics": [
-  "NBA player logs: added 2 box scores, 13587 player-games cached",
-  "NFL player logs: added 1 box scores, 6742 player-games cached"
+  "NBA player logs: cache already current (13587 player-games, looked back 21 days)",
+  "NFL player logs: added 1 box scores, 6798 player-games cached"
  ],
- "generated_at": "2026-11-26T17:55:46+00:00",
+ "generated_at": "2026-11-27T04:30:07+00:00",
  "graded_through": "Week of Nov 23",
  "groups": {
   "Cosmic": {
-   "avg_clv": -0.03131075697211155,
-   "clv_beat_rate": 0.2908366533864542,
-   "clv_n": 251,
-   "graded": 303,
+   "avg_clv": -0.025363636363636363,
+   "clv_beat_rate": 0.2964426877470356,
+   "clv_n": 253,
+   "graded": 305,
    "label": "Cosmic picks",
    "picks": [
     {
@@ -5250,6 +5250,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 124,
+     "clv": 0.352,
+     "edge": 2.178,
+     "ev": 0.04921,
+     "final": "39-35",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Moneyline",
+     "pick": "Detroit Lions ML",
+     "player": null,
+     "price": 126,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -105,
+     "clv": 1.09,
+     "edge": 5.028,
+     "ev": 0.10056,
+     "final": "39-35",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Cosmic",
+     "lane": "cosmic",
+     "market": "Spread",
+     "pick": "Detroit Lions +2.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 3.971,
@@ -5629,19 +5665,19 @@
     }
    ],
    "record": {
-    "l": 163,
+    "l": 165,
     "p": 1,
     "void": 0,
     "w": 139
    },
    "threshold": null,
-   "win_rate": 0.4602649006622517
+   "win_rate": 0.45723684210526316
   },
   "Props": {
-   "avg_clv": 0.16098421052631579,
-   "clv_beat_rate": 0.12631578947368421,
-   "clv_n": 950,
-   "graded": 1195,
+   "avg_clv": 0.13723173277661793,
+   "clv_beat_rate": 0.12526096033402923,
+   "clv_n": 958,
+   "graded": 1204,
    "label": "Player props",
    "picks": [
     {
@@ -27983,6 +28019,24 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": 118,
+     "clv": -10.965,
+     "edge": 13.389,
+     "ev": 0.23233,
+     "final": "7",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Amon-Ra St. Brown Under 7.5 receptions",
+     "player": "Amon-Ra St. Brown",
+     "price": -136,
+     "proj": 6.169,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -125,
      "clv": 5.202,
      "edge": 12.739,
@@ -27998,6 +28052,42 @@
      "proj": 17.115,
      "result": "L",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 12.324,
+     "ev": 0.23134,
+     "final": "146",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Amon-Ra St. Brown Under 89.5 receiving yards",
+     "player": "Amon-Ra St. Brown",
+     "price": -114,
+     "proj": 79.507,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 11.007,
+     "ev": 0.34123,
+     "final": "0 TD",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Jameson Williams anytime TD",
+     "player": "Jameson Williams",
+     "price": 210,
+     "proj": 0.567,
+     "result": "L",
+     "sport": "NFL",
      "week": "Week of Nov 23"
     },
     {
@@ -28091,6 +28181,24 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -138,
+     "clv": -2.986,
+     "edge": 19.343,
+     "ev": 0.31585,
+     "final": "0",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Brock Wright Over 0.5 receptions",
+     "player": "Brock Wright",
+     "price": -158,
+     "proj": 1.639,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -108,
      "clv": -0.624,
      "edge": 18.044,
@@ -28124,6 +28232,24 @@
      "proj": 12.506,
      "result": "L",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 16.949,
+     "ev": 5.25431,
+     "final": "did not play",
+     "game": "Philadelphia Eagles @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Grant Calcaterra anytime TD",
+     "player": "Grant Calcaterra",
+     "price": 3000,
+     "proj": 0.225,
+     "result": "V",
+     "sport": "NFL",
      "week": "Week of Nov 23"
     },
     {
@@ -28289,6 +28415,42 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": 120,
+     "clv": -7.516,
+     "edge": 10.857,
+     "ev": 0.20381,
+     "final": "0",
+     "game": "Kansas City Chiefs @ Buffalo Bills",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Xavier Worthy Over 2.5 receptions",
+     "player": "Xavier Worthy",
+     "price": -114,
+     "proj": 3.477,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 10.553,
+     "ev": 0.19811,
+     "final": "13",
+     "game": "Kansas City Chiefs @ Buffalo Bills",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receiving yards",
+     "pick": "Josh Downs Under 41.5 receiving yards",
+     "player": "Josh Downs",
+     "price": -114,
+     "proj": 37.839,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -106,
      "clv": 0.0,
      "edge": 10.402,
@@ -28376,6 +28538,42 @@
      "proj": 3.737,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 15.725,
+     "ev": 0.29519,
+     "final": "15",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Caleb Williams Under 22.5 rushing yards",
+     "player": "Caleb Williams",
+     "price": -114,
+     "proj": 19.194,
+     "result": "W",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 11.871,
+     "ev": 0.21368,
+     "final": "did not play",
+     "game": "Kansas City Chiefs @ Buffalo Bills",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Kenneth Walker III anytime TD",
+     "player": "Kenneth Walker III",
+     "price": -125,
+     "proj": 1.122,
+     "result": "V",
+     "sport": "NFL",
      "week": "Week of Nov 23"
     },
     {
@@ -28469,6 +28667,24 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -113,
+     "clv": 0.0,
+     "edge": 16.266,
+     "ev": 0.3066,
+     "final": "46",
+     "game": "Philadelphia Eagles @ Dallas Cowboys",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Will Shipley Under 13.5 rushing yards",
+     "player": "Will Shipley",
+     "price": -113,
+     "proj": 11.239,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 14.02,
@@ -28485,22 +28701,40 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -106,
+     "clv": 0.0,
+     "edge": 11.821,
+     "ev": 0.22972,
+     "final": "6",
+     "game": "Kansas City Chiefs @ Buffalo Bills",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Ray Davis Under 3.5 rushing yards",
+     "player": "Ray Davis",
+     "price": -106,
+     "proj": 15.083,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 602,
+    "l": 608,
     "p": 0,
-    "void": 74,
-    "w": 593
+    "void": 76,
+    "w": 596
    },
    "threshold": 7.0,
-   "win_rate": 0.49623430962343096
+   "win_rate": 0.4950166112956811
   },
   "Sides": {
-   "avg_clv": 0.06060791366906475,
-   "clv_beat_rate": 0.3426258992805755,
-   "clv_n": 1112,
-   "graded": 1242,
+   "avg_clv": 0.061033183856502235,
+   "clv_beat_rate": 0.34260089686098655,
+   "clv_n": 1115,
+   "graded": 1245,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -50338,6 +50572,24 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": -105,
+     "clv": 1.09,
+     "edge": 5.028,
+     "ev": 0.10056,
+     "final": "39-35",
+     "game": "Chicago Bears @ Detroit Lions",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Detroit Lions +2.5",
+     "player": null,
+     "price": 100,
+     "proj": null,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 9.412,
@@ -50698,6 +50950,24 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -114,
+     "clv": -0.434,
+     "edge": 11.568,
+     "ev": 0.2154,
+     "final": "27-48",
+     "game": "TCU Horned Frogs @ Texas Tech Red Raiders",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Texas Tech Red Raiders -13.5",
+     "player": null,
+     "price": -116,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -510,
      "clv": 0.0,
      "edge": 5.257,
@@ -50858,22 +51128,40 @@
      "result": "W",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 11.798,
+     "ev": 0.22147,
+     "final": "75-64",
+     "game": "Tennessee Volunteers @ Iowa State Cyclones",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Iowa State Cyclones -2.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 609,
+    "l": 611,
     "p": 1,
     "void": 0,
-    "w": 632
+    "w": 633
    },
    "threshold": 5.0,
-   "win_rate": 0.5092667203867849
+   "win_rate": 0.5088424437299035
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 60,
-  "Props": 187,
-  "Sides": 224
+  "Cosmic": 59,
+  "Props": 203,
+  "Sides": 239
  }
 }
