@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 6.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": -5.5,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 11.2,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 20.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 1.36,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 6.47,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 6.59,
   "closed": false
  },
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 12.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 42.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 7.25,
   "closed": false
  },
@@ -58181,7 +58181,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 9.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58206,7 +58206,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58256,7 +58256,7 @@
   "evPctAtFlag": 5.85,
   "closeFairPct": 31.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 2.63,
   "closed": false
  },
@@ -58304,10 +58304,10 @@
   "price": 175,
   "fairPctAtFlag": 38.0,
   "evPctAtFlag": 4.58,
-  "closeFairPct": 41.7,
+  "closeFairPct": 41.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
-  "clvPct": 14.68,
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
+  "clvPct": 13.57,
   "closed": false
  },
  {
@@ -58331,7 +58331,7 @@
   "evPctAtFlag": 7.81,
   "closeFairPct": 14.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 5.75,
   "closed": false
  },
@@ -58381,7 +58381,7 @@
   "evPctAtFlag": 7.77,
   "closeFairPct": 13.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 7.42,
   "closed": false
  },
@@ -58404,10 +58404,10 @@
   "price": -260,
   "fairPctAtFlag": 77.6,
   "evPctAtFlag": 7.44,
-  "closeFairPct": 72.6,
+  "closeFairPct": 73.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
-  "clvPct": 0.52,
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
+  "clvPct": 1.22,
   "closed": false
  },
  {
@@ -58429,10 +58429,10 @@
   "price": 375,
   "fairPctAtFlag": 22.1,
   "evPctAtFlag": 4.95,
-  "closeFairPct": 22.1,
+  "closeFairPct": 21.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
-  "clvPct": 4.98,
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
+  "clvPct": 3.55,
   "closed": false
  },
  {
@@ -58456,7 +58456,7 @@
   "evPctAtFlag": 4.03,
   "closeFairPct": 29.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
   "clvPct": 3.95,
   "closed": false
  },
@@ -58479,10 +58479,35 @@
   "price": 101,
   "fairPctAtFlag": 52.3,
   "evPctAtFlag": 5.08,
-  "closeFairPct": 52.3,
+  "closeFairPct": 50.0,
   "closeSource": "LowVig",
-  "closeSeenAt": "2026-11-27T20:35:08+00:00",
-  "clvPct": 5.12,
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
+  "clvPct": 0.5,
+  "closed": false
+ },
+ {
+  "key": "5b64071f3e3bf67b0fdea8d1ac81d0ec|player_assists|Andrew Nembhard|7.5|Andrew Nembhard Under 7.5|None",
+  "eventId": "5b64071f3e3bf67b0fdea8d1ac81d0ec",
+  "sport": "NBA",
+  "game": "Philadelphia 76ers at Indiana Pacers",
+  "time": "2026-11-28T00:40:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Andrew Nembhard",
+  "name": "Under",
+  "line": 7.5,
+  "team": "Andrew Nembhard Under 7.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-27T22:50:09+00:00",
+  "price": 108,
+  "fairPctAtFlag": 50.0,
+  "evPctAtFlag": 4.0,
+  "closeFairPct": 50.0,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-27T22:50:09+00:00",
+  "clvPct": 4.0,
   "closed": false
  }
 ]
