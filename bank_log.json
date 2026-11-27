@@ -56506,7 +56506,7 @@
   "evPctAtFlag": 7.13,
   "closeFairPct": 14.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 8.0,
   "closed": false
  },
@@ -56531,7 +56531,7 @@
   "evPctAtFlag": 4.04,
   "closeFairPct": 6.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": -5.5,
   "closed": false
  },
@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 11.2,
   "closed": false
  },
@@ -56956,7 +56956,7 @@
   "evPctAtFlag": 4.47,
   "closeFairPct": 20.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 1.36,
   "closed": false
  },
@@ -56981,7 +56981,7 @@
   "evPctAtFlag": 7.67,
   "closeFairPct": 16.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 6.47,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 6.59,
   "closed": false
  },
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 12.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -57908,7 +57908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-27T18:35:12+00:00",
   "clvPct": 14.67,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d68dced0b26726890b9c79bd19a5ffe5|h2h|Seattle Seahawks|None",
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 42.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 7.25,
   "closed": false
  },
@@ -58181,7 +58181,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 9.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58206,7 +58206,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58233,7 +58233,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-27T18:35:12+00:00",
   "clvPct": 41.18,
-  "closed": false
+  "closed": true
  },
  {
   "key": "d41c0bb8557bb274bce7d03b0dd33d3a|h2h|North Dakota St Bison|None",
@@ -58254,10 +58254,10 @@
   "price": 230,
   "fairPctAtFlag": 32.1,
   "evPctAtFlag": 5.85,
-  "closeFairPct": 29.8,
+  "closeFairPct": 31.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
-  "clvPct": -1.66,
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 2.63,
   "closed": false
  },
  {
@@ -58283,7 +58283,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-27T18:35:12+00:00",
   "clvPct": 40.7,
-  "closed": false
+  "closed": true
  },
  {
   "key": "41c094906504126724c665a8f8cbd73a|h2h|Towson Tigers|None",
@@ -58304,10 +58304,10 @@
   "price": 175,
   "fairPctAtFlag": 38.0,
   "evPctAtFlag": 4.58,
-  "closeFairPct": 41.2,
+  "closeFairPct": 41.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
-  "clvPct": 13.3,
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 14.68,
   "closed": false
  },
  {
@@ -58329,10 +58329,10 @@
   "price": 650,
   "fairPctAtFlag": 14.4,
   "evPctAtFlag": 7.81,
-  "closeFairPct": 15.5,
+  "closeFairPct": 14.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
-  "clvPct": 16.25,
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 5.75,
   "closed": false
  },
  {
@@ -58381,7 +58381,7 @@
   "evPctAtFlag": 7.77,
   "closeFairPct": 13.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
   "clvPct": 7.42,
   "closed": false
  },
@@ -58404,10 +58404,85 @@
   "price": -260,
   "fairPctAtFlag": 77.6,
   "evPctAtFlag": 7.44,
-  "closeFairPct": 77.6,
+  "closeFairPct": 72.6,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-27T18:35:12+00:00",
-  "clvPct": 7.45,
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 0.52,
+  "closed": false
+ },
+ {
+  "key": "326e8215b0369df0d4d65e5c0afe9ff5|h2h|Milwaukee Bucks|None",
+  "eventId": "326e8215b0369df0d4d65e5c0afe9ff5",
+  "sport": "NBA",
+  "game": "Milwaukee Bucks at Detroit Pistons",
+  "time": "2026-11-28T00:40:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Milwaukee Bucks",
+  "line": null,
+  "team": "Milwaukee Bucks",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-27T20:35:08+00:00",
+  "price": 375,
+  "fairPctAtFlag": 22.1,
+  "evPctAtFlag": 4.95,
+  "closeFairPct": 22.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 4.98,
+  "closed": false
+ },
+ {
+  "key": "ebb91d3cb7c017b0bf6de2b333909d71|h2h|UC Davis Aggies|None",
+  "eventId": "ebb91d3cb7c017b0bf6de2b333909d71",
+  "sport": "NCAAB",
+  "game": "Pacific Tigers at UC Davis Aggies",
+  "time": "2026-11-28T01:00:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "UC Davis Aggies",
+  "line": null,
+  "team": "UC Davis Aggies",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-27T20:35:08+00:00",
+  "price": 250,
+  "fairPctAtFlag": 29.7,
+  "evPctAtFlag": 4.03,
+  "closeFairPct": 29.7,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 3.95,
+  "closed": false
+ },
+ {
+  "key": "c4a6554a12974505dde21dd18cb52f76|spreads|Fort Wayne Mastodons:-1.5/Wofford Terriers:1.5|Wofford Terriers|1.5",
+  "eventId": "c4a6554a12974505dde21dd18cb52f76",
+  "sport": "NCAAB",
+  "game": "Wofford Terriers at Fort Wayne Mastodons",
+  "time": "2026-11-28T18:00:00Z",
+  "market": "Spread",
+  "marketKey": "spreads",
+  "player": null,
+  "name": "Wofford Terriers",
+  "line": 1.5,
+  "team": "Wofford Terriers",
+  "point": 1.5,
+  "book": "draftkings",
+  "bookName": "DraftKings",
+  "flaggedAt": "2026-11-27T20:35:08+00:00",
+  "price": 101,
+  "fairPctAtFlag": 52.3,
+  "evPctAtFlag": 5.08,
+  "closeFairPct": 52.3,
+  "closeSource": "LowVig",
+  "closeSeenAt": "2026-11-27T20:35:08+00:00",
+  "clvPct": 5.12,
   "closed": false
  }
 ]
