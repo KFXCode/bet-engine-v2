@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.10251776649746193,
-   "clv_beat_rate": 0.24111675126903553,
-   "clv_n": 1970,
-   "graded": 2328,
+   "avg_clv": 0.0965528292438658,
+   "clv_beat_rate": 0.2398597896845268,
+   "clv_n": 1997,
+   "graded": 2356,
    "record": {
-    "l": 1160,
+    "l": 1177,
     "p": 1,
     "void": 71,
-    "w": 1167
+    "w": 1178
    },
-   "win_rate": 0.501504082509669
+   "win_rate": 0.5002123142250531
   }
  },
  "by_sport": {
@@ -42,30 +42,30 @@
    "win_rate": 0.4878048780487805
   },
   "NBA Props": {
-   "avg_clv": 0.19662770562770562,
-   "clv_beat_rate": 0.15584415584415584,
-   "clv_n": 462,
-   "graded": 586,
+   "avg_clv": 0.19787130801687763,
+   "clv_beat_rate": 0.15611814345991562,
+   "clv_n": 474,
+   "graded": 598,
    "record": {
-    "l": 291,
+    "l": 297,
     "p": 0,
     "void": 23,
-    "w": 295
+    "w": 301
    },
-   "win_rate": 0.5034129692832765
+   "win_rate": 0.5033444816053512
   },
   "NBA Sides": {
-   "avg_clv": 0.0888476821192053,
-   "clv_beat_rate": 0.11258278145695365,
-   "clv_n": 151,
-   "graded": 189,
+   "avg_clv": 0.08711688311688312,
+   "clv_beat_rate": 0.11038961038961038,
+   "clv_n": 154,
+   "graded": 192,
    "record": {
     "l": 103,
     "p": 0,
     "void": 0,
-    "w": 86
+    "w": 89
    },
-   "win_rate": 0.455026455026455
+   "win_rate": 0.4635416666666667
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.06374999999999999,
@@ -81,17 +81,17 @@
    "win_rate": 0.42857142857142855
   },
   "NCAAB Sides": {
-   "avg_clv": 0.19041935483870967,
-   "clv_beat_rate": 0.0967741935483871,
-   "clv_n": 31,
-   "graded": 38,
+   "avg_clv": 0.16865714285714284,
+   "clv_beat_rate": 0.08571428571428572,
+   "clv_n": 35,
+   "graded": 42,
    "record": {
-    "l": 20,
+    "l": 23,
     "p": 0,
     "void": 0,
-    "w": 18
+    "w": 19
    },
-   "win_rate": 0.47368421052631576
+   "win_rate": 0.4523809523809524
   },
   "NCAAF Cosmic": {
    "avg_clv": 0.01793103448275863,
@@ -107,17 +107,17 @@
    "win_rate": 0.4806201550387597
   },
   "NCAAF Sides": {
-   "avg_clv": 0.10882079343365253,
-   "clv_beat_rate": 0.39261285909712723,
-   "clv_n": 731,
-   "graded": 780,
+   "avg_clv": 0.11035549525101764,
+   "clv_beat_rate": 0.3921302578018996,
+   "clv_n": 737,
+   "graded": 786,
    "record": {
-    "l": 367,
+    "l": 373,
     "p": 0,
     "void": 0,
     "w": 413
    },
-   "win_rate": 0.5294871794871795
+   "win_rate": 0.5254452926208651
   },
   "NFL Cosmic": {
    "avg_clv": -0.2505652173913044,
@@ -133,17 +133,17 @@
    "win_rate": 0.3950617283950617
   },
   "NFL Props": {
-   "avg_clv": 0.08190725806451613,
-   "clv_beat_rate": 0.0967741935483871,
-   "clv_n": 496,
-   "graded": 618,
+   "avg_clv": 0.053712851405622486,
+   "clv_beat_rate": 0.0963855421686747,
+   "clv_n": 498,
+   "graded": 621,
    "record": {
-    "l": 317,
+    "l": 319,
     "p": 0,
     "void": 53,
-    "w": 301
+    "w": 302
    },
-   "win_rate": 0.48705501618122976
+   "win_rate": 0.4863123993558776
   },
   "NFL Sides": {
    "avg_clv": -0.15179802955665023,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NBA player logs: cache already current (13587 player-games, looked back 21 days)",
-  "NFL player logs: cache already current (6798 player-games, looked back 21 days)"
+  "NFL player logs: cache already current (6800 player-games, looked back 21 days)",
+  "NBA player logs: cache already current (13715 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-27T17:41:35+00:00",
+ "generated_at": "2026-11-28T04:11:47+00:00",
  "graded_through": "Week of Nov 23",
  "groups": {
   "Cosmic": {
@@ -5710,10 +5710,10 @@
    "win_rate": 0.45751633986928103
   },
   "Props": {
-   "avg_clv": 0.13723173277661793,
-   "clv_beat_rate": 0.12526096033402923,
-   "clv_n": 958,
-   "graded": 1204,
+   "avg_clv": 0.12401234567901234,
+   "clv_beat_rate": 0.12551440329218108,
+   "clv_n": 972,
+   "graded": 1219,
    "label": "Player props",
    "picks": [
     {
@@ -28235,6 +28235,42 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": 116,
+     "clv": -13.877,
+     "edge": 18.565,
+     "ev": 0.30315,
+     "final": "1",
+     "game": "Denver Broncos @ Pittsburgh Steelers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Receptions",
+     "pick": "Rico Dowdle Over 1.5 receptions",
+     "player": "Rico Dowdle",
+     "price": -158,
+     "proj": 2.981,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.154,
+     "ev": 1.0166,
+     "final": "0 TD",
+     "game": "Denver Broncos @ Pittsburgh Steelers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Anytime TD",
+     "pick": "Pat Freiermuth anytime TD",
+     "player": "Pat Freiermuth",
+     "price": 460,
+     "proj": 0.446,
+     "result": "L",
+     "sport": "NFL",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -108,
      "clv": -0.624,
      "edge": 18.044,
@@ -28394,6 +28430,24 @@
      "proj": 5.042,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 12.994,
+     "ev": 0.24392,
+     "final": "7",
+     "game": "Denver Broncos @ Pittsburgh Steelers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rushing yards",
+     "pick": "Bo Nix Under 11.5 rushing yards",
+     "player": "Bo Nix",
+     "price": -114,
+     "proj": 14.078,
+     "result": "W",
+     "sport": "NFL",
      "week": "Week of Nov 23"
     },
     {
@@ -28755,22 +28809,238 @@
      "result": "L",
      "sport": "NFL",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -130,
+     "clv": -0.975,
+     "edge": 19.574,
+     "ev": 0.33966,
+     "final": "13",
+     "game": "Milwaukee Bucks @ Detroit Pistons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Daniss Jenkins Under 18.5 points",
+     "player": "Daniss Jenkins",
+     "price": -136,
+     "proj": 13.689,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -166,
+     "clv": 0.0,
+     "edge": 19.201,
+     "ev": 0.30768,
+     "final": "5",
+     "game": "Brooklyn Nets @ Toronto Raptors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Julius Randle Under 5.5 assists",
+     "player": "Julius Randle",
+     "price": -166,
+     "proj": 3.777,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -112,
+     "clv": 0.0,
+     "edge": 19.094,
+     "ev": 0.36142,
+     "final": "25",
+     "game": "Brooklyn Nets @ Toronto Raptors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Mikel Brown Jr. Under 20.5 pts+reb+ast",
+     "player": "Mikel Brown Jr.",
+     "price": -112,
+     "proj": 17.107,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -166,
+     "clv": 0.0,
+     "edge": 19.088,
+     "ev": 0.30586,
+     "final": "9",
+     "game": "Brooklyn Nets @ Toronto Raptors",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Allen Graves Under 5.5 rebounds",
+     "player": "Allen Graves",
+     "price": -166,
+     "proj": 3.305,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 18.455,
+     "ev": 0.36548,
+     "final": "23",
+     "game": "Miami Heat @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Landry Shamet Under 16.5 pts+reb+ast",
+     "player": "Landry Shamet",
+     "price": -102,
+     "proj": 14.032,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -130,
+     "clv": 0.0,
+     "edge": 17.681,
+     "ev": 0.31282,
+     "final": "22",
+     "game": "Miami Heat @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Giannis Antetokounmpo Under 27.5 points",
+     "player": "Giannis Antetokounmpo",
+     "price": -130,
+     "proj": 23.902,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": 104,
+     "clv": 0.0,
+     "edge": 14.899,
+     "ev": 0.30395,
+     "final": "9",
+     "game": "Miami Heat @ New York Knicks",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Davion Mitchell Under 7.5 assists",
+     "player": "Davion Mitchell",
+     "price": 104,
+     "proj": 6.674,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 1.915,
+     "edge": 14.742,
+     "ev": 0.2865,
+     "final": "34",
+     "game": "Atlanta Hawks @ Boston Celtics",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Jayson Tatum Under 41.5 pts+reb+ast",
+     "player": "Jayson Tatum",
+     "price": -106,
+     "proj": 38.63,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.0,
+     "edge": 13.278,
+     "ev": 0.24343,
+     "final": "22",
+     "game": "Milwaukee Bucks @ Detroit Pistons",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Ausar Thompson Under 27.5 pts+reb+ast",
+     "player": "Ausar Thompson",
+     "price": -120,
+     "proj": 24.733,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -122,
+     "clv": 0.0,
+     "edge": 12.818,
+     "ev": 0.23324,
+     "final": "26",
+     "game": "Memphis Grizzlies @ Minnesota Timberwolves",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Jonathan Kuminga Under 23.5 pts+reb+ast",
+     "player": "Jonathan Kuminga",
+     "price": -122,
+     "proj": 20.824,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 2.009,
+     "edge": 12.482,
+     "ev": 0.24484,
+     "final": "6",
+     "game": "Philadelphia 76ers @ Indiana Pacers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Aaron Nesmith Under 12.5 points",
+     "player": "Aaron Nesmith",
+     "price": -104,
+     "proj": 11.498,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": 142,
+     "clv": 0.0,
+     "edge": 8.962,
+     "ev": 0.21687,
+     "final": "2",
+     "game": "Philadelphia 76ers @ Indiana Pacers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Pascal Siakam Over 3.5 assists",
+     "player": "Pascal Siakam",
+     "price": 142,
+     "proj": 3.719,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 608,
+    "l": 616,
     "p": 0,
     "void": 76,
-    "w": 596
+    "w": 603
    },
    "threshold": 7.0,
-   "win_rate": 0.4950166112956811
+   "win_rate": 0.4946677604593929
   },
   "Sides": {
-   "avg_clv": 0.060978494623655906,
-   "clv_beat_rate": 0.34229390681003585,
-   "clv_n": 1116,
-   "graded": 1246,
+   "avg_clv": 0.06185651018600531,
+   "clv_beat_rate": 0.34012400354295835,
+   "clv_n": 1129,
+   "graded": 1259,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -50698,6 +50968,60 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 235,
+     "clv": 6.458,
+     "edge": 13.283,
+     "ev": 0.57116,
+     "final": "17-9",
+     "game": "Buffalo Bulls @ Akron Zips",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Akron Zips ML",
+     "player": null,
+     "price": 330,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": 340,
+     "clv": -4.978,
+     "edge": 13.825,
+     "ev": 0.49769,
+     "final": "16-6",
+     "game": "Texas Longhorns @ Texas A&M Aggies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Texas A&M Aggies ML",
+     "player": null,
+     "price": 260,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -104,
+     "clv": 0.0,
+     "edge": 12.746,
+     "ev": 0.25002,
+     "final": "16-6",
+     "game": "Texas Longhorns @ Texas A&M Aggies",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Texas A&M Aggies +7.5",
+     "player": null,
+     "price": -104,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": null,
      "clv": null,
      "edge": 6.247,
@@ -50914,6 +51238,42 @@
      "week": "Week of Nov 16"
     },
     {
+     "closing_price": 190,
+     "clv": -2.08,
+     "edge": 6.685,
+     "ev": 0.18183,
+     "final": "26-10",
+     "game": "Florida Gators @ Florida State Seminoles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Florida State Seminoles ML",
+     "player": null,
+     "price": 172,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 10.278,
+     "ev": 0.19621,
+     "final": "26-10",
+     "game": "Florida Gators @ Florida State Seminoles",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Florida State Seminoles +6.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -220,
      "clv": 0.0,
      "edge": 5.682,
@@ -50965,6 +51325,24 @@
      "proj": null,
      "result": "W",
      "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -116,
+     "clv": 2.384,
+     "edge": 10.845,
+     "ev": 0.21174,
+     "final": "17-9",
+     "game": "Buffalo Bulls @ Akron Zips",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Akron Zips +7.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAF",
      "week": "Week of Nov 23"
     },
     {
@@ -51184,6 +51562,60 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -310,
+     "clv": 0.0,
+     "edge": 6.479,
+     "ev": 0.08569,
+     "final": "100-124",
+     "game": "Brooklyn Nets @ Toronto Raptors",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Toronto Raptors ML",
+     "player": null,
+     "price": -310,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -400,
+     "clv": 0.0,
+     "edge": 6.451,
+     "ev": 0.08064,
+     "final": "98-113",
+     "game": "Milwaukee Bucks @ Detroit Pistons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Detroit Pistons ML",
+     "player": null,
+     "price": -400,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -105,
+     "clv": 0.0,
+     "edge": 5.293,
+     "ev": 0.10334,
+     "final": "87-86",
+     "game": "Atlanta Hawks @ Boston Celtics",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Atlanta Hawks +9.5",
+     "player": null,
+     "price": -105,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -110,
      "clv": 0.0,
      "edge": 6.0,
@@ -51200,22 +51632,94 @@
      "result": "W",
      "sport": "NCAAB",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -320,
+     "clv": 0.0,
+     "edge": 15.863,
+     "ev": 0.2082,
+     "final": "83-71",
+     "game": "Virginia Cavaliers @ Xavier Musketeers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "Virginia Cavaliers ML",
+     "player": null,
+     "price": -320,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAB",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -120,
+     "clv": 0.0,
+     "edge": 7.604,
+     "ev": 0.1394,
+     "final": "88-85",
+     "game": "Memphis Tigers @ Wake Forest Demon Deacons",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Wake Forest Demon Deacons +2.5",
+     "player": null,
+     "price": -120,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 6.913,
+     "ev": 0.12976,
+     "final": "63-75",
+     "game": "Georgetown Hoyas @ UCLA Bruins",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Georgetown Hoyas +8.5",
+     "player": null,
+     "price": -114,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 8.219,
+     "ev": 0.15691,
+     "final": "50-65",
+     "game": "Villanova Wildcats @ Kansas Jayhawks",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Villanova Wildcats +12.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NCAAB",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 611,
+    "l": 620,
     "p": 1,
     "void": 0,
-    "w": 634
+    "w": 638
    },
    "threshold": 5.0,
-   "win_rate": 0.5092369477911647
+   "win_rate": 0.5071542130365659
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
-  "Cosmic": 57,
-  "Props": 203,
-  "Sides": 238
+  "Cosmic": 58,
+  "Props": 199,
+  "Sides": 244
  }
 }
