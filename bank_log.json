@@ -56556,7 +56556,7 @@
   "evPctAtFlag": 7.03,
   "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 11.2,
   "closed": false
  },
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 6.59,
   "closed": false
  },
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 12.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 51.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 28.25,
   "closed": false
  },
@@ -58181,7 +58181,7 @@
   "evPctAtFlag": 4.11,
   "closeFairPct": 9.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 1.2,
   "closed": false
  },
@@ -58206,7 +58206,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58383,7 +58383,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 6.6,
-  "closed": false
+  "closed": true
  },
  {
   "key": "592a440c590415d43f5ffbfd922cd41e|h2h|Portland Trail Blazers|None",
@@ -58831,7 +58831,7 @@
   "evPctAtFlag": 5.17,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 5.28,
   "closed": false
  },
@@ -58908,7 +58908,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 2.92,
-  "closed": false
+  "closed": true
  },
  {
   "key": "53a900069a7d4e77c1e6962800e3c409|h2h|Eastern Kentucky Colonels|None",
@@ -58931,7 +58931,7 @@
   "evPctAtFlag": 6.64,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 6.88,
   "closed": false
  },
@@ -58956,7 +58956,7 @@
   "evPctAtFlag": 8.97,
   "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 11.1,
   "closed": false
  },
@@ -58981,7 +58981,7 @@
   "evPctAtFlag": 5.09,
   "closeFairPct": 36.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 0.37,
   "closed": false
  },
@@ -59004,10 +59004,10 @@
   "price": 180,
   "fairPctAtFlag": 37.5,
   "evPctAtFlag": 4.94,
-  "closeFairPct": 31.9,
+  "closeFairPct": 32.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
-  "clvPct": -10.68,
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": -10.12,
   "closed": false
  },
  {
@@ -59033,7 +59033,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 9.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "6231380814e9d3b84baa3b09e4a37e91|h2h|Louisiana Ragin' Cajuns|None",
@@ -59054,10 +59054,10 @@
   "price": 310,
   "fairPctAtFlag": 26.7,
   "evPctAtFlag": 9.66,
-  "closeFairPct": 24.8,
+  "closeFairPct": 25.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
-  "clvPct": 1.68,
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": 3.32,
   "closed": false
  },
  {
@@ -59081,7 +59081,7 @@
   "evPctAtFlag": 7.23,
   "closeFairPct": 10.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
   "clvPct": 7.0,
   "closed": false
  },
@@ -59104,10 +59104,10 @@
   "price": 450,
   "fairPctAtFlag": 19.1,
   "evPctAtFlag": 5.15,
-  "closeFairPct": 18.5,
+  "closeFairPct": 17.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
-  "clvPct": 1.75,
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": -2.65,
   "closed": false
  },
  {
@@ -59129,10 +59129,85 @@
   "price": 170,
   "fairPctAtFlag": 38.5,
   "evPctAtFlag": 4.08,
-  "closeFairPct": 38.5,
+  "closeFairPct": 35.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T18:35:10+00:00",
-  "clvPct": 3.95,
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": -3.61,
+  "closed": false
+ },
+ {
+  "key": "a05c295062d5e2b8e9fa633c2797880e|player_assists|Brandon Miller|3.5|Brandon Miller Over 3.5|None",
+  "eventId": "a05c295062d5e2b8e9fa633c2797880e",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Charlotte Hornets",
+  "time": "2026-11-28T23:10:00Z",
+  "market": "Assists",
+  "marketKey": "player_assists",
+  "player": "Brandon Miller",
+  "name": "Over",
+  "line": 3.5,
+  "team": "Brandon Miller Over 3.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-28T19:20:08+00:00",
+  "price": 125,
+  "fairPctAtFlag": 46.8,
+  "evPctAtFlag": 5.24,
+  "closeFairPct": 46.8,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": 5.3,
+  "closed": false
+ },
+ {
+  "key": "a05c295062d5e2b8e9fa633c2797880e|player_points|Julius Randle|19.5|Julius Randle Over 19.5|None",
+  "eventId": "a05c295062d5e2b8e9fa633c2797880e",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Charlotte Hornets",
+  "time": "2026-11-28T23:10:00Z",
+  "market": "Points",
+  "marketKey": "player_points",
+  "player": "Julius Randle",
+  "name": "Over",
+  "line": 19.5,
+  "team": "Julius Randle Over 19.5",
+  "point": null,
+  "book": "betmgm",
+  "bookName": "BetMGM",
+  "flaggedAt": "2026-11-28T19:20:08+00:00",
+  "price": -125,
+  "fairPctAtFlag": 57.9,
+  "evPctAtFlag": 4.14,
+  "closeFairPct": 57.9,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": 4.22,
+  "closed": false
+ },
+ {
+  "key": "a05c295062d5e2b8e9fa633c2797880e|player_threes|Naz Reid|2.5|Naz Reid Over 2.5|None",
+  "eventId": "a05c295062d5e2b8e9fa633c2797880e",
+  "sport": "NBA",
+  "game": "Brooklyn Nets at Charlotte Hornets",
+  "time": "2026-11-28T23:10:00Z",
+  "market": "Threes made",
+  "marketKey": "player_threes",
+  "player": "Naz Reid",
+  "name": "Over",
+  "line": 2.5,
+  "team": "Naz Reid Over 2.5",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-28T19:20:08+00:00",
+  "price": 123,
+  "fairPctAtFlag": 48.1,
+  "evPctAtFlag": 7.23,
+  "closeFairPct": 48.1,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-28T19:20:08+00:00",
+  "clvPct": 7.26,
   "closed": false
  }
 ]
