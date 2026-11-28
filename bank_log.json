@@ -56508,7 +56508,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T16:05:10+00:00",
   "clvPct": 8.75,
-  "closed": false
+  "closed": true
  },
  {
   "key": "c58a68d46da0d0748169156702f9b4d5|h2h|Syracuse Orange|None",
@@ -56533,7 +56533,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T16:05:10+00:00",
   "clvPct": -11.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "e55fde0bfbebc4cfd4ccc010b0e858b4|h2h|Stanford Cardinal|None",
@@ -56554,10 +56554,10 @@
   "price": 300,
   "fairPctAtFlag": 26.8,
   "evPctAtFlag": 7.03,
-  "closeFairPct": 27.1,
+  "closeFairPct": 27.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": 8.4,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 11.2,
   "closed": false
  },
  {
@@ -56983,7 +56983,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T16:05:10+00:00",
   "clvPct": 3.32,
-  "closed": false
+  "closed": true
  },
  {
   "key": "0a1027a4edb364b492a3fee67086e8bc|h2h|Vanderbilt Commodores|None",
@@ -57006,7 +57006,7 @@
   "evPctAtFlag": 9.17,
   "closeFairPct": 18.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 6.59,
   "closed": false
  },
@@ -57831,7 +57831,7 @@
   "evPctAtFlag": 4.78,
   "closeFairPct": 12.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 11.6,
   "closed": false
  },
@@ -57931,7 +57931,7 @@
   "evPctAtFlag": 8.38,
   "closeFairPct": 51.3,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 28.25,
   "closed": false
  },
@@ -58179,10 +58179,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.5,
   "evPctAtFlag": 4.11,
-  "closeFairPct": 8.9,
+  "closeFairPct": 9.2,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": -2.1,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 1.2,
   "closed": false
  },
  {
@@ -58206,7 +58206,7 @@
   "evPctAtFlag": 4.61,
   "closeFairPct": 27.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 4.5,
   "closed": false
  },
@@ -58379,10 +58379,10 @@
   "price": 720,
   "fairPctAtFlag": 13.1,
   "evPctAtFlag": 7.77,
-  "closeFairPct": 12.7,
+  "closeFairPct": 13.0,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": 4.14,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 6.6,
   "closed": false
  },
  {
@@ -58483,7 +58483,7 @@
   "closeSource": "LowVig",
   "closeSeenAt": "2026-11-27T23:45:09+00:00",
   "clvPct": 0.5,
-  "closed": false
+  "closed": true
  },
  {
   "key": "5b64071f3e3bf67b0fdea8d1ac81d0ec|player_assists|Andrew Nembhard|7.5|Andrew Nembhard Under 7.5|None",
@@ -58831,7 +58831,7 @@
   "evPctAtFlag": 5.17,
   "closeFairPct": 18.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 5.28,
   "closed": false
  },
@@ -58858,7 +58858,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T16:05:10+00:00",
   "clvPct": 17.0,
-  "closed": false
+  "closed": true
  },
  {
   "key": "02d699351ee4c99e27b125d21578ec95|h2h|Princeton Tigers|None",
@@ -58883,7 +58883,7 @@
   "closeSource": "Pinnacle",
   "closeSeenAt": "2026-11-28T16:05:10+00:00",
   "clvPct": -3.89,
-  "closed": false
+  "closed": true
  },
  {
   "key": "33764207c3ac183b765322d034ca676f|h2h|Delaware St Hornets|None",
@@ -58904,10 +58904,10 @@
   "price": 475,
   "fairPctAtFlag": 18.1,
   "evPctAtFlag": 4.01,
-  "closeFairPct": 17.3,
+  "closeFairPct": 17.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": -0.52,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 2.92,
   "closed": false
  },
  {
@@ -58931,7 +58931,7 @@
   "evPctAtFlag": 6.64,
   "closeFairPct": 33.4,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 6.88,
   "closed": false
  },
@@ -58954,10 +58954,10 @@
   "price": 1000,
   "fairPctAtFlag": 9.9,
   "evPctAtFlag": 8.97,
-  "closeFairPct": 9.9,
+  "closeFairPct": 10.1,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": 8.9,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 11.1,
   "closed": false
  },
  {
@@ -58979,10 +58979,10 @@
   "price": 175,
   "fairPctAtFlag": 38.2,
   "evPctAtFlag": 5.09,
-  "closeFairPct": 38.1,
+  "closeFairPct": 36.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": 4.77,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 0.37,
   "closed": false
  },
  {
@@ -59004,10 +59004,10 @@
   "price": 180,
   "fairPctAtFlag": 37.5,
   "evPctAtFlag": 4.94,
-  "closeFairPct": 33.3,
+  "closeFairPct": 31.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": -6.76,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": -10.68,
   "closed": false
  },
  {
@@ -59031,7 +59031,7 @@
   "evPctAtFlag": 9.43,
   "closeFairPct": 10.9,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 9.0,
   "closed": false
  },
@@ -59054,10 +59054,10 @@
   "price": 310,
   "fairPctAtFlag": 26.7,
   "evPctAtFlag": 9.66,
-  "closeFairPct": 26.7,
+  "closeFairPct": 24.8,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": 9.47,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 1.68,
   "closed": false
  },
  {
@@ -59081,7 +59081,7 @@
   "evPctAtFlag": 7.23,
   "closeFairPct": 10.7,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
   "clvPct": 7.0,
   "closed": false
  },
@@ -59104,10 +59104,35 @@
   "price": 450,
   "fairPctAtFlag": 19.1,
   "evPctAtFlag": 5.15,
-  "closeFairPct": 19.1,
+  "closeFairPct": 18.5,
   "closeSource": "Pinnacle",
-  "closeSeenAt": "2026-11-28T16:05:10+00:00",
-  "clvPct": 5.05,
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 1.75,
+  "closed": false
+ },
+ {
+  "key": "c235850d80a527345cb2cb0170ddd871|h2h|Buffalo Bulls|None",
+  "eventId": "c235850d80a527345cb2cb0170ddd871",
+  "sport": "NCAAB",
+  "game": "Buffalo Bulls at Towson Tigers",
+  "time": "2026-11-28T20:30:00Z",
+  "market": "Moneyline",
+  "marketKey": "h2h",
+  "player": null,
+  "name": "Buffalo Bulls",
+  "line": null,
+  "team": "Buffalo Bulls",
+  "point": null,
+  "book": "betrivers",
+  "bookName": "BetRivers",
+  "flaggedAt": "2026-11-28T18:35:10+00:00",
+  "price": 170,
+  "fairPctAtFlag": 38.5,
+  "evPctAtFlag": 4.08,
+  "closeFairPct": 38.5,
+  "closeSource": "Pinnacle",
+  "closeSeenAt": "2026-11-28T18:35:10+00:00",
+  "clvPct": 3.95,
   "closed": false
  }
 ]
