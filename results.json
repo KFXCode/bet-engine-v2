@@ -14,17 +14,17 @@
    "win_rate": 0.5163934426229508
   },
   "value": {
-   "avg_clv": 0.0965528292438658,
-   "clv_beat_rate": 0.2398597896845268,
-   "clv_n": 1997,
-   "graded": 2356,
+   "avg_clv": 0.09668442010950722,
+   "clv_beat_rate": 0.23942259830761572,
+   "clv_n": 2009,
+   "graded": 2371,
    "record": {
-    "l": 1177,
+    "l": 1181,
     "p": 1,
-    "void": 71,
-    "w": 1178
+    "void": 72,
+    "w": 1189
    },
-   "win_rate": 0.5002123142250531
+   "win_rate": 0.5016877637130802
   }
  },
  "by_sport": {
@@ -42,30 +42,30 @@
    "win_rate": 0.4878048780487805
   },
   "NBA Props": {
-   "avg_clv": 0.19787130801687763,
-   "clv_beat_rate": 0.15611814345991562,
-   "clv_n": 474,
-   "graded": 598,
+   "avg_clv": 0.1971304347826087,
+   "clv_beat_rate": 0.15734989648033126,
+   "clv_n": 483,
+   "graded": 610,
    "record": {
-    "l": 297,
+    "l": 300,
     "p": 0,
-    "void": 23,
-    "w": 301
+    "void": 24,
+    "w": 310
    },
-   "win_rate": 0.5033444816053512
+   "win_rate": 0.5081967213114754
   },
   "NBA Sides": {
-   "avg_clv": 0.08711688311688312,
-   "clv_beat_rate": 0.11038961038961038,
-   "clv_n": 154,
-   "graded": 192,
+   "avg_clv": 0.08600000000000001,
+   "clv_beat_rate": 0.10897435897435898,
+   "clv_n": 156,
+   "graded": 194,
    "record": {
-    "l": 103,
+    "l": 104,
     "p": 0,
     "void": 0,
-    "w": 89
+    "w": 90
    },
-   "win_rate": 0.4635416666666667
+   "win_rate": 0.4639175257731959
   },
   "NCAAB Cosmic": {
    "avg_clv": 0.06374999999999999,
@@ -107,17 +107,17 @@
    "win_rate": 0.4806201550387597
   },
   "NCAAF Sides": {
-   "avg_clv": 0.11035549525101764,
-   "clv_beat_rate": 0.3921302578018996,
-   "clv_n": 737,
-   "graded": 786,
+   "avg_clv": 0.11020596205962059,
+   "clv_beat_rate": 0.3915989159891599,
+   "clv_n": 738,
+   "graded": 787,
    "record": {
     "l": 373,
     "p": 0,
     "void": 0,
-    "w": 413
+    "w": 414
    },
-   "win_rate": 0.5254452926208651
+   "win_rate": 0.5260482846251588
   },
   "NFL Cosmic": {
    "avg_clv": -0.2505652173913044,
@@ -160,10 +160,10 @@
   }
  },
  "diagnostics": [
-  "NFL player logs: cache already current (6800 player-games, looked back 21 days)",
-  "NBA player logs: cache already current (13715 player-games, looked back 21 days)"
+  "NBA player logs: added 5 box scores, 13820 player-games cached",
+  "NFL player logs: cache already current (6800 player-games, looked back 21 days)"
  ],
- "generated_at": "2026-11-28T04:11:47+00:00",
+ "generated_at": "2026-11-28T16:26:37+00:00",
  "graded_through": "Week of Nov 23",
  "groups": {
   "Cosmic": {
@@ -5710,10 +5710,10 @@
    "win_rate": 0.45751633986928103
   },
   "Props": {
-   "avg_clv": 0.12401234567901234,
-   "clv_beat_rate": 0.12551440329218108,
-   "clv_n": 972,
-   "graded": 1219,
+   "avg_clv": 0.12432517838939856,
+   "clv_beat_rate": 0.12640163098878696,
+   "clv_n": 981,
+   "graded": 1231,
    "label": "Player props",
    "picks": [
     {
@@ -28955,6 +28955,60 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -122,
+     "clv": 1.418,
+     "edge": 14.227,
+     "ev": 0.26706,
+     "final": "3",
+     "game": "Golden State Warriors @ Portland Trail Blazers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Draymond Green Under 5.5 points",
+     "player": "Draymond Green",
+     "price": -114,
+     "proj": 4.731,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -132,
+     "clv": 0.0,
+     "edge": 13.944,
+     "ev": 0.24508,
+     "final": "5",
+     "game": "Dallas Mavericks @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Naji Marshall Over 2.5 assists",
+     "player": "Naji Marshall",
+     "price": -132,
+     "proj": 3.74,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
+     "edge": 13.695,
+     "ev": 0.26145,
+     "final": "27",
+     "game": "Golden State Warriors @ Portland Trail Blazers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Yaxel Lendeborg Under 30.5 pts+reb+ast",
+     "player": "Yaxel Lendeborg",
+     "price": -110,
+     "proj": 27.294,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -120,
      "clv": 0.0,
      "edge": 13.278,
@@ -29009,6 +29063,114 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -102,
+     "clv": 0.0,
+     "edge": 11.67,
+     "ev": 0.23112,
+     "final": "8",
+     "game": "Dallas Mavericks @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Daniel Gafford Under 6.5 rebounds",
+     "player": "Daniel Gafford",
+     "price": -102,
+     "proj": 5.905,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -102,
+     "clv": 0.41,
+     "edge": 11.28,
+     "ev": 0.22561,
+     "final": "10",
+     "game": "Los Angeles Lakers @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Jake LaRavia Under 5.5 points",
+     "player": "Jake LaRavia",
+     "price": 100,
+     "proj": 5.445,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -112,
+     "clv": 0.0,
+     "edge": 11.156,
+     "ev": 0.21117,
+     "final": "did not play",
+     "game": "Dallas Mavericks @ Phoenix Suns",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Kyrie Irving Under 31.5 pts+reb+ast",
+     "player": "Kyrie Irving",
+     "price": -112,
+     "proj": 28.99,
+     "result": "V",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -118,
+     "clv": -0.405,
+     "edge": 10.796,
+     "ev": 0.19793,
+     "final": "17",
+     "game": "Denver Nuggets @ Utah Jazz",
+     "group": "Props",
+     "lane": "value",
+     "market": "Points",
+     "pick": "Nikola Jokic Under 27.5 points",
+     "player": "Nikola Jokic",
+     "price": -120,
+     "proj": 25.418,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -114,
+     "clv": 0.0,
+     "edge": 9.566,
+     "ev": 0.17956,
+     "final": "18",
+     "game": "Denver Nuggets @ Utah Jazz",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Aaron Gordon Under 21.5 pts+reb+ast",
+     "player": "Aaron Gordon",
+     "price": -114,
+     "proj": 19.911,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -132,
+     "clv": 0.0,
+     "edge": 9.516,
+     "ev": 0.16726,
+     "final": "8",
+     "game": "Los Angeles Lakers @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Luka Doncic Under 7.5 assists",
+     "player": "Luka Doncic",
+     "price": -132,
+     "proj": 6.559,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": 142,
      "clv": 0.0,
      "edge": 8.962,
@@ -29025,22 +29187,94 @@
      "result": "L",
      "sport": "NBA",
      "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.935,
+     "ev": 0.35841,
+     "final": "45",
+     "game": "Los Angeles Lakers @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Pts+Reb+Ast",
+     "pick": "Luka Doncic Under 49.5 pts+reb+ast",
+     "player": "Luka Doncic",
+     "price": -112,
+     "proj": 43.712,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.241,
+     "ev": 0.33442,
+     "final": "3",
+     "game": "Denver Nuggets @ Utah Jazz",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Christian Braun Under 3.5 assists",
+     "player": "Christian Braun",
+     "price": -120,
+     "proj": 2.637,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 18.216,
+     "ev": 0.3161,
+     "final": "2",
+     "game": "Golden State Warriors @ Portland Trail Blazers",
+     "group": "Props",
+     "lane": "value",
+     "market": "Assists",
+     "pick": "Toumani Camara Under 2.5 assists",
+     "player": "Toumani Camara",
+     "price": -136,
+     "proj": 1.678,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": null,
+     "clv": null,
+     "edge": 17.146,
+     "ev": 0.32186,
+     "final": "6",
+     "game": "Los Angeles Lakers @ San Antonio Spurs",
+     "group": "Props",
+     "lane": "value",
+     "market": "Rebounds",
+     "pick": "Luka Doncic Under 7.5 rebounds",
+     "player": "Luka Doncic",
+     "price": -114,
+     "proj": 6.24,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
     }
    ],
    "record": {
-    "l": 616,
+    "l": 619,
     "p": 0,
-    "void": 76,
-    "w": 603
+    "void": 77,
+    "w": 612
    },
    "threshold": 7.0,
-   "win_rate": 0.4946677604593929
+   "win_rate": 0.49715678310316813
   },
   "Sides": {
-   "avg_clv": 0.06185651018600531,
-   "clv_beat_rate": 0.34012400354295835,
-   "clv_n": 1129,
-   "graded": 1259,
+   "avg_clv": 0.061692579505300355,
+   "clv_beat_rate": 0.3392226148409894,
+   "clv_n": 1132,
+   "graded": 1262,
    "label": "Moneyline & spread",
    "picks": [
     {
@@ -51346,6 +51580,24 @@
      "week": "Week of Nov 23"
     },
     {
+     "closing_price": -116,
+     "clv": 0.0,
+     "edge": 8.915,
+     "ev": 0.166,
+     "final": "28-52",
+     "game": "West Virginia Mountaineers @ Utah Utes",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Utah Utes -20.5",
+     "player": null,
+     "price": -116,
+     "proj": null,
+     "result": "W",
+     "sport": "NCAAF",
+     "week": "Week of Nov 23"
+    },
+    {
      "closing_price": -205,
      "clv": 0.0,
      "edge": 19.265,
@@ -51618,6 +51870,42 @@
     {
      "closing_price": -110,
      "clv": 0.0,
+     "edge": 12.055,
+     "ev": 0.23013,
+     "final": "94-116",
+     "game": "Golden State Warriors @ Portland Trail Blazers",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Spread",
+     "pick": "Golden State Warriors +8.5",
+     "player": null,
+     "price": -110,
+     "proj": null,
+     "result": "L",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -205,
+     "clv": 0.0,
+     "edge": 5.347,
+     "ev": 0.07955,
+     "final": "96-99",
+     "game": "Los Angeles Lakers @ San Antonio Spurs",
+     "group": "Sides",
+     "lane": "value",
+     "market": "Moneyline",
+     "pick": "San Antonio Spurs ML",
+     "player": null,
+     "price": -205,
+     "proj": null,
+     "result": "W",
+     "sport": "NBA",
+     "week": "Week of Nov 23"
+    },
+    {
+     "closing_price": -110,
+     "clv": 0.0,
      "edge": 6.0,
      "ev": 0.11455,
      "final": "62-59",
@@ -51707,19 +51995,19 @@
     }
    ],
    "record": {
-    "l": 620,
+    "l": 621,
     "p": 1,
     "void": 0,
-    "w": 638
+    "w": 640
    },
    "threshold": 5.0,
-   "win_rate": 0.5071542130365659
+   "win_rate": 0.507533703409992
   }
  },
  "note": "Sides and props are tracked separately: different models, different data, different thresholds, so a blended number would hide one behind the other. Picks are recorded when published, at the price published. Closing-line value compares that price with the last price seen before kickoff, with the book's margin divided out. Win rate counts wins and losses only. A prop on a player who never took the field is voided by the book and is excluded from the record rather than counted.",
  "pending": {
   "Cosmic": 58,
-  "Props": 199,
-  "Sides": 244
+  "Props": 186,
+  "Sides": 241
  }
 }
